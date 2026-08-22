@@ -37,12 +37,17 @@ python patch_title_match_v014.py
 # scientific search, screening, ranking, or stopping logic.
 python patch_observability_v015.py
 
+# IA-003: alternate checkpointed orchestration. The reference monolithic runner
+# remains present and unchanged; the modular runner uses the same scientific rules.
+python patch_modular_v016.py
+
 # Rebuild package-verification metadata after the package reaches its final
 # patched state. Do not inherit stale v0.1.1 compile/test claims.
 python regenerate_package_manifest.py
 
 echo "Verified and unpacked: connectomics_deterministic_pipeline/"
 echo "Base ZIP SHA-256: $ACTUAL_SHA256"
-echo "Applied repository patches through: v0.1.5"
+echo "Applied repository patches through: v0.1.6"
 echo "Regenerated package manifest for patched state"
+echo "Available runners: run_pipeline.py (reference) and run_pipeline_modular.py (checkpointed)"
 echo "Next: read CODEX_TASK.md and connectomics_deterministic_pipeline/README.md"
