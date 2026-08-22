@@ -1,0 +1,66 @@
+name: Semantic Scholar live smoke test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  semantic-scholar-smoke:
+    runs-on: ubuntu-latest
+    env:
+      SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require Semantic Scholar secret
+        run: |
+          if [ -z "$SEMANTIC_SCHOLAR_API_KEY" ]; then
+            echo "Repository secret SEMANTIC_SCHOLAR_API_KEY is not configured." >&2
+            exit 2
+          fi
+      - name: Reconstruct verified source bundle
+        run: bash bootstrap_bundle.sh
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        working-directory: connectomics_deterministic_pipeline
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+      - name: Run offline tests first
+        working-directory: connectomics_deterministic_pipeline
+        run: pytest -q
+      - name: Run bounded live Semantic Scholar smoke test
+        working-directory: connectomics_deterministic_pipeline
+        run: |
+          python - <<'PY'
+          import json
+          from connectomics_pipeline.client import SemanticScholarClient
+
+          client = SemanticScholarClient(
+              cache_dir='.cache/s2-smoke',
+              min_interval_seconds=1.2,
+              timeout_seconds=90,
+          )
+          pages = client.bulk_search('"synaptic connectomics"', max_pages=1)
+          rows, meta = next(pages)
+          if not rows:
+              raise SystemExit('Semantic Scholar returned zero smoke-test records')
+          safe = {
+              'ok': True,
+              'n_records': len(rows),
+              'first_title': rows[0].get('title'),
+              'request_fingerprint': meta.get('request_fingerprint'),
+              'cached': meta.get('cached'),
+          }
+          print(json.dumps(safe, indent=2))
+          with open('s2_smoke_result.json','w',encoding='utf-8') as f:
+              json.dump(safe,f,indent=2)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: semantic-scholar-smoke-result
+          path: connectomics_deterministic_pipeline/s2_smoke_result.json
+          if-no-files-found: error
