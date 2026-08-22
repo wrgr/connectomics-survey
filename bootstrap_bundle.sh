@@ -31,8 +31,9 @@ unzip -q "$ZIP"
 # Apply deterministic compatibility fixes that are versioned in this repository.
 python patch_bundle_v012.py
 python patch_retry_v013.py
+python patch_title_match_v014.py
 
 echo "Verified and unpacked: connectomics_deterministic_pipeline/"
 echo "Base ZIP SHA-256: $ACTUAL_SHA256"
-echo "Applied repository patches through: v0.1.3"
+echo "Applied repository patches through: v0.1.4"
 echo "Next: read CODEX_TASK.md and connectomics_deterministic_pipeline/README.md"
