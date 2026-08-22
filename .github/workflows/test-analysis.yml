@@ -1,0 +1,49 @@
+name: Test post-processing analysis tools
+
+on:
+  pull_request:
+    paths:
+      - 'analysis/**'
+      - '.github/workflows/test-analysis.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analysis-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install analysis dependencies
+        run: python -m pip install pandas matplotlib networkx
+      - name: Compile analysis scripts
+        run: python -m py_compile analysis/postprocess_run.py analysis/reconcile_cleanup.py analysis/apply_person_aliases.py
+      - name: Run deterministic helper checks
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+
+          def load(name, path):
+              spec = importlib.util.spec_from_file_location(name, path)
+              module = importlib.util.module_from_spec(spec)
+              spec.loader.exec_module(module)
+              return module
+
+          reconcile = load('reconcile', Path('analysis/reconcile_cleanup.py'))
+          aliases = load('aliases', Path('analysis/apply_person_aliases.py'))
+
+          assert reconcile.norm_name('A. McIntosh') == 'a mcintosh'
+          assert reconcile.split_set('network_science; qc ;network_science') == {'network_science', 'qc'}
+
+          uf = aliases.UnionFind(['9', '2', '5'])
+          uf.union('9', '5')
+          uf.union('5', '2')
+          assert uf.find('9') == '2'
+          assert uf.find('5') == '2'
+          print('analysis helper checks passed')
+          PY
