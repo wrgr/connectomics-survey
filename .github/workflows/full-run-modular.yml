@@ -1,0 +1,193 @@
+name: Full deterministic connectomics run - modular
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Pipeline mode'
+        required: true
+        default: 'fresh'
+        type: choice
+        options:
+          - fresh
+          - seed_expand
+
+permissions:
+  contents: read
+
+jobs:
+  full-run-modular:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Require Semantic Scholar secret
+        run: |
+          if [ -z "$SEMANTIC_SCHOLAR_API_KEY" ]; then
+            echo "Repository secret SEMANTIC_SCHOLAR_API_KEY is not configured." >&2
+            exit 2
+          fi
+
+      - name: Reconstruct verified source bundle
+        run: bash bootstrap_bundle.sh
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        working-directory: connectomics_deterministic_pipeline
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt pytest
+
+      - name: Run offline + modular equivalence tests
+        working-directory: connectomics_deterministic_pipeline
+        run: python -m pytest -q
+
+      - name: Prepare run configuration
+        working-directory: connectomics_deterministic_pipeline
+        env:
+          REQUESTED_MODE: ${{ inputs.mode }}
+        run: |
+          python - <<'PY'
+          import os, pathlib, yaml
+          mode = os.environ['REQUESTED_MODE']
+          src = pathlib.Path('config.example.yaml' if mode == 'fresh' else 'config.seed-expand.yaml')
+          cfg = yaml.safe_load(src.read_text())
+          cfg['mode'] = mode
+          cfg['outdir'] = 'outputs'
+          pathlib.Path('config.ci.yaml').write_text(yaml.safe_dump(cfg, sort_keys=False))
+          print(f'Prepared config.ci.yaml for mode={mode}', flush=True)
+          PY
+          mkdir -p ../modular_state ../modular_logs
+
+      - name: '1/5 Discovery + lexical screening'
+        working-directory: connectomics_deterministic_pipeline
+        shell: bash
+        run: |
+          set -euo pipefail
+          python run_pipeline_modular.py --config config.ci.yaml --state-dir ../modular_state --phase discovery \
+            2>&1 | tee ../modular_logs/01_discovery.log
+          cat ../modular_state/discovery_summary.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: modular-checkpoint-01-discovery
+          path: |
+            modular_state/01_discovery.pkl
+            modular_state/discovery_summary.json
+            modular_logs/01_discovery.log
+          retention-days: 14
+
+      - name: '2/5 Citation graph + dedupe + ranking'
+        working-directory: connectomics_deterministic_pipeline
+        shell: bash
+        run: |
+          set -euo pipefail
+          python run_pipeline_modular.py --config config.ci.yaml --state-dir ../modular_state --phase graph \
+            2>&1 | tee ../modular_logs/02_graph.log
+          cat ../modular_state/graph_summary.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: modular-checkpoint-02-graph
+          path: |
+            modular_state/02_graph.pkl
+            modular_state/graph_summary.json
+            modular_logs/02_graph.log
+          retention-days: 14
+
+      - name: '3/5 People map + author saturation'
+        working-directory: connectomics_deterministic_pipeline
+        shell: bash
+        run: |
+          set -euo pipefail
+          python run_pipeline_modular.py --config config.ci.yaml --state-dir ../modular_state --phase people \
+            2>&1 | tee ../modular_logs/03_people.log
+          cat ../modular_state/people_summary.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: modular-checkpoint-03-people
+          path: |
+            modular_state/03_people.pkl
+            modular_state/people_summary.json
+            modular_logs/03_people.log
+          retention-days: 14
+
+      - name: '4/5 Crossref + NIH + health/training enrichment'
+        working-directory: connectomics_deterministic_pipeline
+        shell: bash
+        run: |
+          set -euo pipefail
+          python run_pipeline_modular.py --config config.ci.yaml --state-dir ../modular_state --phase enrichment \
+            2>&1 | tee ../modular_logs/04_enrichment.log
+          cat ../modular_state/enrichment_summary.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: modular-checkpoint-04-enrichment
+          path: |
+            modular_state/04_enrichment.pkl
+            modular_state/enrichment_summary.json
+            modular_logs/04_enrichment.log
+          retention-days: 14
+
+      - name: '5/5 Finalize graphs + tables + manifest'
+        working-directory: connectomics_deterministic_pipeline
+        shell: bash
+        run: |
+          set -euo pipefail
+          python run_pipeline_modular.py --config config.ci.yaml --state-dir ../modular_state --phase finalize \
+            2>&1 | tee ../modular_logs/05_finalize.log
+          cat ../modular_state/05_finalize_summary.json
+
+      - name: Verify final manifest
+        working-directory: connectomics_deterministic_pipeline
+        run: |
+          test -s outputs/manifest.json
+          python - <<'PY'
+          import json
+          m = json.load(open('outputs/manifest.json'))
+          assert m.get('orchestration') == 'modular_checkpointed'
+          print(json.dumps(m.get('counts', {}), indent=2))
+          PY
+
+      - name: Publish modular run summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo '### Full-run-modular status'
+            echo
+            echo '- Mode: `${{ inputs.mode }}`'
+            echo '- Workflow run: `${{ github.run_id }}`'
+            echo '- Commit: `${{ github.sha }}`'
+            echo
+            echo '#### Completed checkpoint summaries'
+            for f in modular_state/*_summary.json; do
+              [ -f "$f" ] || continue
+              echo
+              echo "**$(basename "$f")**"
+              echo '```json'
+              cat "$f"
+              echo '```'
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: connectomics-${{ inputs.mode }}-modular-outputs
+          path: |
+            connectomics_deterministic_pipeline/outputs/**
+            connectomics_deterministic_pipeline/config.ci.yaml
+            modular_state/**
+            modular_logs/**
+          if-no-files-found: warn
+          retention-days: 30

@@ -13,6 +13,7 @@ PATCH_CHAIN = [
     "patch_retry_v013.py",
     "patch_title_match_v014.py",
     "patch_observability_v015.py",
+    "patch_modular_v016.py",
 ]
 
 
