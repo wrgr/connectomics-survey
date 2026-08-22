@@ -13,53 +13,330 @@ jobs:
       SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
     steps:
       - uses: actions/checkout@v4
+
       - name: Require Semantic Scholar secret
         run: |
           if [ -z "$SEMANTIC_SCHOLAR_API_KEY" ]; then
             echo "Repository secret SEMANTIC_SCHOLAR_API_KEY is not configured." >&2
             exit 2
           fi
+
       - name: Reconstruct verified source bundle
         run: bash bootstrap_bundle.sh
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Install dependencies
         working-directory: connectomics_deterministic_pipeline
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt pytest 'scipy>=1.11'
+          python -m pip install -r requirements.txt pytest
+
       - name: Run offline tests first
         working-directory: connectomics_deterministic_pipeline
         run: python -m pytest -q
-      - name: Run bounded live Semantic Scholar smoke test
+
+      - name: Run endpoint-by-endpoint Semantic Scholar smoke test
         working-directory: connectomics_deterministic_pipeline
         run: |
           python - <<'PY'
           import json
+          import os
+          import time
+          import requests
+
           from connectomics_pipeline.client import SemanticScholarClient
+
+          GRAPH_BASE = 'https://api.semanticscholar.org/graph/v1'
+          DATASETS_BASE = 'https://api.semanticscholar.org/datasets/v1'
+          RAW_KEY = os.environ['SEMANTIC_SCHOLAR_API_KEY']
+          KEY = RAW_KEY.strip()
+          HEADERS = {'x-api-key': KEY}
+          results = []
+          current_stage = 'initialization'
+          failure = None
+          first_title = ''
+
+          # Prove, without exposing the secret, that requests will actually carry
+          # the x-api-key header. The key value itself is never written to logs/artifacts.
+          prepared_probe = requests.Request(
+              'GET',
+              GRAPH_BASE + '/paper/search',
+              params={'query': 'connectomics', 'limit': 1, 'fields': 'title'},
+              headers=HEADERS,
+          ).prepare()
+          prepared_key = prepared_probe.headers.get('x-api-key', '')
+          auth_diagnostics = {
+              'secret_env_present': bool(RAW_KEY),
+              'secret_trimmed_nonempty': bool(KEY),
+              'secret_had_surrounding_whitespace': RAW_KEY != KEY,
+              'key_length': len(KEY),
+              'x_api_key_header_present_on_prepared_request': 'x-api-key' in {
+                  k.lower(): v for k, v in prepared_probe.headers.items()
+              },
+              'prepared_header_value_matches_secret': prepared_key == KEY,
+              'prepared_header_value_length': len(prepared_key),
+          }
 
           client = SemanticScholarClient(
               cache_dir='.cache/s2-smoke',
               min_interval_seconds=1.2,
               timeout_seconds=90,
           )
-          pages = client.bulk_search('"synaptic connectomics"', max_pages=1)
-          rows, meta = next(pages)
-          if not rows:
-              raise SystemExit('Semantic Scholar returned zero smoke-test records')
-          safe = {
-              'ok': True,
-              'n_records': len(rows),
-              'first_title': rows[0].get('title'),
-              'request_fingerprint': meta.get('request_fingerprint'),
-              'cached': meta.get('cached'),
+
+          SAFE_RATE_HEADERS = (
+              'Retry-After',
+              'X-RateLimit-Limit',
+              'X-RateLimit-Remaining',
+              'X-RateLimit-Reset',
+              'RateLimit-Limit',
+              'RateLimit-Remaining',
+              'RateLimit-Reset',
+          )
+
+          def status_class(status_code):
+              if 200 <= status_code < 300:
+                  return 'request_accepted'
+              if status_code == 401:
+                  return 'credentials_missing_or_invalid'
+              if status_code == 403:
+                  return 'credentials_forbidden_or_not_authorized'
+              if status_code == 429:
+                  return 'rate_limited'
+              if status_code >= 500:
+                  return 'server_error'
+              return 'request_error'
+
+          def safe_rate_headers(response):
+              out = {}
+              for name in SAFE_RATE_HEADERS:
+                  value = response.headers.get(name)
+                  if value is not None:
+                      out[name] = value
+              return out
+
+          def direct_get(label, url, params=None, key_required=False):
+              global current_stage
+              current_stage = label
+              retryable = {429, 500, 502, 503, 504}
+              max_attempts = 6
+              attempts = []
+              for attempt in range(max_attempts):
+                  req = requests.Request('GET', url, params=params or {}, headers=HEADERS)
+                  prepared = req.prepare()
+                  header_value = prepared.headers.get('x-api-key', '')
+                  if header_value != KEY:
+                      raise RuntimeError(f'{label}: prepared request did not contain expected x-api-key header')
+
+                  r = requests.Session().send(prepared, timeout=90)
+                  item = {
+                      'attempt': attempt + 1,
+                      'status_code': r.status_code,
+                      'status_class': status_class(r.status_code),
+                      'x_api_key_header_sent': bool(header_value),
+                      'x_api_key_value_length': len(header_value),
+                  }
+                  rate_headers = safe_rate_headers(r)
+                  if rate_headers:
+                      item['rate_limit_headers'] = rate_headers
+                  if r.status_code >= 400:
+                      item['response_excerpt'] = r.text[:1000]
+                  attempts.append(item)
+                  print(f'{label}: attempt {attempt + 1} HTTP {r.status_code} ({status_class(r.status_code)})')
+
+                  if 200 <= r.status_code < 300:
+                      results.append({
+                          'stage': label,
+                          'status_code': r.status_code,
+                          'status_class': status_class(r.status_code),
+                          'key_required_endpoint': key_required,
+                          'attempts': attempts,
+                      })
+                      time.sleep(1.3)
+                      return r.json()
+
+                  # 401/403 are authentication/authorization failures, not throttling.
+                  if r.status_code in {401, 403}:
+                      results.append({
+                          'stage': label,
+                          'status_code': r.status_code,
+                          'status_class': status_class(r.status_code),
+                          'key_required_endpoint': key_required,
+                          'attempts': attempts,
+                      })
+                      raise RuntimeError(
+                          f'{label} authentication failure: HTTP {r.status_code}: {r.text[:500]}'
+                      )
+
+                  if r.status_code not in retryable or attempt + 1 >= max_attempts:
+                      results.append({
+                          'stage': label,
+                          'status_code': r.status_code,
+                          'status_class': status_class(r.status_code),
+                          'key_required_endpoint': key_required,
+                          'attempts': attempts,
+                      })
+                      raise RuntimeError(f'{label} failed: HTTP {r.status_code}: {r.text[:500]}')
+
+                  retry_after = (r.headers.get('Retry-After') or '').strip()
+                  try:
+                      delay = float(retry_after) if retry_after else float(2 ** (attempt + 1))
+                  except ValueError:
+                      delay = float(2 ** (attempt + 1))
+                  delay = max(1.3, min(60.0, delay))
+                  time.sleep(delay)
+
+          try:
+              # 0. Definitive key-validation probe. Semantic Scholar documents
+              # dataset download-link retrieval as requiring an API key. We do
+              # not log or use the returned signed download URLs.
+              direct_get(
+                  'api_key_required_dataset_probe',
+                  DATASETS_BASE + '/release/latest/dataset/papers',
+                  key_required=True,
+              )
+
+              # 1. Minimal authenticated Academic Graph relevance request.
+              auth = direct_get(
+                  'authenticated_relevance_search',
+                  GRAPH_BASE + '/paper/search',
+                  {'query': 'connectomics', 'limit': 1, 'fields': 'title'},
+              )
+              if not auth.get('data'):
+                  raise RuntimeError('authenticated_relevance_search returned zero records')
+
+              # 2. Minimal current bulk-search field contract.
+              bulk_min = direct_get(
+                  'bulk_search_minimal_current_fields',
+                  GRAPH_BASE + '/paper/search/bulk',
+                  {'query': 'synaptic connectomics', 'fields': 'title,s2FieldsOfStudy'},
+              )
+              if not bulk_min.get('data'):
+                  raise RuntimeError('bulk_search_minimal_current_fields returned zero records')
+
+              # 3. Exercise the adapter's full paper field contract.
+              current_stage = 'adapter_bulk_search_full_fields'
+              rows, meta = next(client.bulk_search('synaptic connectomics', max_pages=1))
+              results.append({
+                  'stage': current_stage,
+                  'status_code': meta.get('status_code', 200),
+                  'n_records': len(rows),
+                  'request_fingerprint': meta.get('request_fingerprint'),
+                  'cached': meta.get('cached'),
+                  'attempts': meta.get('attempts'),
+                  'retry_delays': meta.get('retry_delays'),
+              })
+              if not rows:
+                  raise RuntimeError('adapter_bulk_search_full_fields returned zero records')
+
+              first = rows[0]
+              paper_id = first.get('paperId')
+              first_title = first.get('title') or ''
+              if not paper_id:
+                  raise RuntimeError('adapter bulk result missing paperId')
+
+              current_stage = 'paper_lookup_full_fields'
+              paper, pmeta = client.paper(paper_id)
+              results.append({
+                  'stage': current_stage,
+                  'status_code': pmeta.get('status_code', 200),
+                  'attempts': pmeta.get('attempts'),
+                  'retry_delays': pmeta.get('retry_delays'),
+              })
+              if paper.get('paperId') != paper_id:
+                  raise RuntimeError('paper_lookup_full_fields returned wrong paperId')
+
+              if first_title:
+                  current_stage = 'title_match_full_fields'
+                  match, mmeta = client.title_match(first_title)
+                  results.append({
+                      'stage': current_stage,
+                      'status_code': mmeta.get('status_code', 200),
+                      'attempts': mmeta.get('attempts'),
+                      'retry_delays': mmeta.get('retry_delays'),
+                  })
+                  if not match.get('paperId'):
+                      raise RuntimeError('title_match_full_fields returned no paperId')
+
+              current_stage = 'citations_edge_and_paper_fields'
+              citation_rows, cmeta = next(
+                  client.citation_neighbors(paper_id, 'citations', max_pages=1, limit=1)
+              )
+              results.append({
+                  'stage': current_stage,
+                  'status_code': cmeta.get('status_code', 200),
+                  'n_records': len(citation_rows),
+                  'attempts': cmeta.get('attempts'),
+                  'retry_delays': cmeta.get('retry_delays'),
+              })
+
+              current_stage = 'references_edge_and_paper_fields'
+              reference_rows, rmeta = next(
+                  client.citation_neighbors(paper_id, 'references', max_pages=1, limit=1)
+              )
+              results.append({
+                  'stage': current_stage,
+                  'status_code': rmeta.get('status_code', 200),
+                  'n_records': len(reference_rows),
+                  'attempts': rmeta.get('attempts'),
+                  'retry_delays': rmeta.get('retry_delays'),
+              })
+
+              authors = first.get('authors') or []
+              author_id = next((a.get('authorId') for a in authors if a.get('authorId')), None)
+              if author_id:
+                  current_stage = 'author_papers_full_fields'
+                  author_rows, ameta = next(client.author_papers(author_id, max_papers=1))
+                  results.append({
+                      'stage': current_stage,
+                      'status_code': ameta.get('status_code', 200),
+                      'n_records': len(author_rows),
+                      'attempts': ameta.get('attempts'),
+                      'retry_delays': ameta.get('retry_delays'),
+                  })
+
+          except BaseException as exc:
+              failure = {
+                  'stage': current_stage,
+                  'error_type': type(exc).__name__,
+                  'message': str(exc)[:1000],
+              }
+
+          key_probe = next(
+              (x for x in results if x.get('stage') == 'api_key_required_dataset_probe'),
+              None,
+          )
+          if key_probe and key_probe.get('status_code') == 200:
+              key_validation = 'validated_by_key_required_endpoint'
+          elif key_probe and key_probe.get('status_code') in {401, 403}:
+              key_validation = 'rejected_by_key_required_endpoint'
+          elif key_probe and key_probe.get('status_code') == 429:
+              key_validation = 'inconclusive_due_to_rate_limit'
+          else:
+              key_validation = 'not_validated'
+
+          payload = {
+              'ok': failure is None,
+              'auth_diagnostics': auth_diagnostics,
+              'key_validation': key_validation,
+              'paper_fields': client.paper_fields.split(','),
+              'citation_edge_fields': client.citation_edge_fields.split(','),
+              'stages': results,
+              'first_title': first_title,
+              'failure': failure,
           }
-          print(json.dumps(safe, indent=2))
-          with open('s2_smoke_result.json','w',encoding='utf-8') as f:
-              json.dump(safe,f,indent=2)
+          print(json.dumps(payload, indent=2))
+          with open('s2_smoke_result.json', 'w', encoding='utf-8') as f:
+              json.dump(payload, f, indent=2)
+
+          if failure is not None:
+              raise SystemExit(1)
           PY
+
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: semantic-scholar-smoke-result
           path: connectomics_deterministic_pipeline/s2_smoke_result.json
