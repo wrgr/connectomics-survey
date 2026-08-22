@@ -33,7 +33,12 @@ python patch_bundle_v012.py
 python patch_retry_v013.py
 python patch_title_match_v014.py
 
+# Rebuild package-verification metadata after the package has reached its final
+# patched state. This intentionally does not inherit stale v0.1.1 test claims.
+python regenerate_package_manifest.py
+
 echo "Verified and unpacked: connectomics_deterministic_pipeline/"
 echo "Base ZIP SHA-256: $ACTUAL_SHA256"
 echo "Applied repository patches through: v0.1.4"
+echo "Regenerated package manifest for patched state"
 echo "Next: read CODEX_TASK.md and connectomics_deterministic_pipeline/README.md"
