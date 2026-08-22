@@ -66,16 +66,30 @@ jobs:
           def direct_get(label, path, params):
               global current_stage
               current_stage = label
-              r = requests.get(BASE + path, params=params, headers=HEADERS, timeout=90)
-              entry = {'stage': label, 'status_code': r.status_code}
-              if r.status_code >= 400:
-                  entry['response_excerpt'] = r.text[:1000]
-              results.append(entry)
-              print(f'{label}: HTTP {r.status_code}')
-              if r.status_code >= 400:
-                  raise RuntimeError(f'{label} failed: HTTP {r.status_code}: {r.text[:500]}')
-              time.sleep(1.3)
-              return r.json()
+              retryable = {429, 500, 502, 503, 504}
+              max_attempts = 6
+              attempts = []
+              for attempt in range(max_attempts):
+                  r = requests.get(BASE + path, params=params, headers=HEADERS, timeout=90)
+                  item = {'attempt': attempt + 1, 'status_code': r.status_code}
+                  if r.status_code >= 400:
+                      item['response_excerpt'] = r.text[:1000]
+                  attempts.append(item)
+                  print(f'{label}: attempt {attempt + 1} HTTP {r.status_code}')
+                  if r.status_code < 400:
+                      results.append({'stage': label, 'status_code': r.status_code, 'attempts': attempts})
+                      time.sleep(1.3)
+                      return r.json()
+                  if r.status_code not in retryable or attempt + 1 >= max_attempts:
+                      results.append({'stage': label, 'status_code': r.status_code, 'attempts': attempts})
+                      raise RuntimeError(f'{label} failed: HTTP {r.status_code}: {r.text[:500]}')
+                  retry_after = (r.headers.get('Retry-After') or '').strip()
+                  try:
+                      delay = float(retry_after) if retry_after else float(2 ** (attempt + 1))
+                  except ValueError:
+                      delay = float(2 ** (attempt + 1))
+                  delay = max(1.3, min(60.0, delay))
+                  time.sleep(delay)
 
           try:
               auth = direct_get(
@@ -102,6 +116,8 @@ jobs:
                   'n_records': len(rows),
                   'request_fingerprint': meta.get('request_fingerprint'),
                   'cached': meta.get('cached'),
+                  'attempts': meta.get('attempts'),
+                  'retry_delays': meta.get('retry_delays'),
               })
               if not rows:
                   raise RuntimeError('adapter_bulk_search_full_fields returned zero records')
@@ -114,43 +130,31 @@ jobs:
 
               current_stage = 'paper_lookup_full_fields'
               paper, pmeta = client.paper(paper_id)
-              results.append({'stage': current_stage, 'status_code': pmeta.get('status_code', 200)})
+              results.append({'stage': current_stage, 'status_code': pmeta.get('status_code', 200), 'attempts': pmeta.get('attempts'), 'retry_delays': pmeta.get('retry_delays')})
               if paper.get('paperId') != paper_id:
                   raise RuntimeError('paper_lookup_full_fields returned wrong paperId')
 
               if first_title:
                   current_stage = 'title_match_full_fields'
                   match, mmeta = client.title_match(first_title)
-                  results.append({'stage': current_stage, 'status_code': mmeta.get('status_code', 200)})
+                  results.append({'stage': current_stage, 'status_code': mmeta.get('status_code', 200), 'attempts': mmeta.get('attempts'), 'retry_delays': mmeta.get('retry_delays')})
                   if not match.get('paperId'):
                       raise RuntimeError('title_match_full_fields returned no paperId')
 
               current_stage = 'citations_edge_and_paper_fields'
               citation_rows, cmeta = next(client.citation_neighbors(paper_id, 'citations', max_pages=1, limit=1))
-              results.append({
-                  'stage': current_stage,
-                  'status_code': cmeta.get('status_code', 200),
-                  'n_records': len(citation_rows),
-              })
+              results.append({'stage': current_stage, 'status_code': cmeta.get('status_code', 200), 'n_records': len(citation_rows), 'attempts': cmeta.get('attempts'), 'retry_delays': cmeta.get('retry_delays')})
 
               current_stage = 'references_edge_and_paper_fields'
               reference_rows, rmeta = next(client.citation_neighbors(paper_id, 'references', max_pages=1, limit=1))
-              results.append({
-                  'stage': current_stage,
-                  'status_code': rmeta.get('status_code', 200),
-                  'n_records': len(reference_rows),
-              })
+              results.append({'stage': current_stage, 'status_code': rmeta.get('status_code', 200), 'n_records': len(reference_rows), 'attempts': rmeta.get('attempts'), 'retry_delays': rmeta.get('retry_delays')})
 
               authors = first.get('authors') or []
               author_id = next((a.get('authorId') for a in authors if a.get('authorId')), None)
               if author_id:
                   current_stage = 'author_papers_full_fields'
                   author_rows, ameta = next(client.author_papers(author_id, max_papers=1))
-                  results.append({
-                      'stage': current_stage,
-                      'status_code': ameta.get('status_code', 200),
-                      'n_records': len(author_rows),
-                  })
+                  results.append({'stage': current_stage, 'status_code': ameta.get('status_code', 200), 'n_records': len(author_rows), 'attempts': ameta.get('attempts'), 'retry_delays': ameta.get('retry_delays')})
 
           except BaseException as exc:
               failure = {
