@@ -53,107 +53,126 @@ jobs:
           KEY = os.environ['SEMANTIC_SCHOLAR_API_KEY'].strip()
           HEADERS = {'x-api-key': KEY}
           results = []
+          current_stage = 'initialization'
+          failure = None
+          first_title = ''
 
-          def direct_get(label, path, params):
-              r = requests.get(BASE + path, params=params, headers=HEADERS, timeout=90)
-              results.append({'stage': label, 'status_code': r.status_code})
-              print(f'{label}: HTTP {r.status_code}')
-              if r.status_code >= 400:
-                  raise SystemExit(f'{label} failed: HTTP {r.status_code}: {r.text[:500]}')
-              time.sleep(1.3)
-              return r.json()
-
-          # 1. Minimal authenticated request: isolates key/header problems.
-          auth = direct_get(
-              'authenticated_relevance_search',
-              '/paper/search',
-              {'query': 'connectomics', 'limit': 1, 'fields': 'title'},
-          )
-          if not auth.get('data'):
-              raise SystemExit('authenticated_relevance_search returned zero records')
-
-          # 2. Minimal current bulk-search field contract.
-          bulk_min = direct_get(
-              'bulk_search_minimal_current_fields',
-              '/paper/search/bulk',
-              {'query': 'synaptic connectomics', 'fields': 'title,s2FieldsOfStudy'},
-          )
-          if not bulk_min.get('data'):
-              raise SystemExit('bulk_search_minimal_current_fields returned zero records')
-
-          # 3. Exercise the adapter's full paper field contract.
           client = SemanticScholarClient(
               cache_dir='.cache/s2-smoke',
               min_interval_seconds=1.2,
               timeout_seconds=90,
           )
-          rows, meta = next(client.bulk_search('synaptic connectomics', max_pages=1))
-          results.append({
-              'stage': 'adapter_bulk_search_full_fields',
-              'status_code': meta.get('status_code', 200),
-              'n_records': len(rows),
-              'request_fingerprint': meta.get('request_fingerprint'),
-              'cached': meta.get('cached'),
-          })
-          if not rows:
-              raise SystemExit('adapter_bulk_search_full_fields returned zero records')
 
-          first = rows[0]
-          paper_id = first.get('paperId')
-          title = first.get('title') or ''
-          if not paper_id:
-              raise SystemExit('adapter bulk result missing paperId')
+          def direct_get(label, path, params):
+              global current_stage
+              current_stage = label
+              r = requests.get(BASE + path, params=params, headers=HEADERS, timeout=90)
+              entry = {'stage': label, 'status_code': r.status_code}
+              if r.status_code >= 400:
+                  entry['response_excerpt'] = r.text[:1000]
+              results.append(entry)
+              print(f'{label}: HTTP {r.status_code}')
+              if r.status_code >= 400:
+                  raise RuntimeError(f'{label} failed: HTTP {r.status_code}: {r.text[:500]}')
+              time.sleep(1.3)
+              return r.json()
 
-          # 4. Full-field paper lookup.
-          paper, pmeta = client.paper(paper_id)
-          results.append({'stage': 'paper_lookup_full_fields', 'status_code': pmeta.get('status_code', 200)})
-          if paper.get('paperId') != paper_id:
-              raise SystemExit('paper_lookup_full_fields returned wrong paperId')
+          try:
+              auth = direct_get(
+                  'authenticated_relevance_search',
+                  '/paper/search',
+                  {'query': 'connectomics', 'limit': 1, 'fields': 'title'},
+              )
+              if not auth.get('data'):
+                  raise RuntimeError('authenticated_relevance_search returned zero records')
 
-          # 5. Title-match endpoint uses the same paper field contract.
-          if title:
-              match, mmeta = client.title_match(title)
-              results.append({'stage': 'title_match_full_fields', 'status_code': mmeta.get('status_code', 200)})
-              if not match.get('paperId'):
-                  raise SystemExit('title_match_full_fields returned no paperId')
+              bulk_min = direct_get(
+                  'bulk_search_minimal_current_fields',
+                  '/paper/search/bulk',
+                  {'query': 'synaptic connectomics', 'fields': 'title,s2FieldsOfStudy'},
+              )
+              if not bulk_min.get('data'):
+                  raise RuntimeError('bulk_search_minimal_current_fields returned zero records')
 
-          # 6. Citation-edge contract: request edge fields + nested paper fields.
-          citation_rows, cmeta = next(client.citation_neighbors(paper_id, 'citations', max_pages=1, limit=1))
-          results.append({
-              'stage': 'citations_edge_and_paper_fields',
-              'status_code': cmeta.get('status_code', 200),
-              'n_records': len(citation_rows),
-          })
-
-          # 7. Reference endpoint has the same edge contract.
-          reference_rows, rmeta = next(client.citation_neighbors(paper_id, 'references', max_pages=1, limit=1))
-          results.append({
-              'stage': 'references_edge_and_paper_fields',
-              'status_code': rmeta.get('status_code', 200),
-              'n_records': len(reference_rows),
-          })
-
-          # 8. Author-papers endpoint uses the paper field contract.
-          authors = first.get('authors') or []
-          author_id = next((a.get('authorId') for a in authors if a.get('authorId')), None)
-          if author_id:
-              author_rows, ameta = next(client.author_papers(author_id, max_papers=1))
+              current_stage = 'adapter_bulk_search_full_fields'
+              rows, meta = next(client.bulk_search('synaptic connectomics', max_pages=1))
               results.append({
-                  'stage': 'author_papers_full_fields',
-                  'status_code': ameta.get('status_code', 200),
-                  'n_records': len(author_rows),
+                  'stage': current_stage,
+                  'status_code': meta.get('status_code', 200),
+                  'n_records': len(rows),
+                  'request_fingerprint': meta.get('request_fingerprint'),
+                  'cached': meta.get('cached'),
+              })
+              if not rows:
+                  raise RuntimeError('adapter_bulk_search_full_fields returned zero records')
+
+              first = rows[0]
+              paper_id = first.get('paperId')
+              first_title = first.get('title') or ''
+              if not paper_id:
+                  raise RuntimeError('adapter bulk result missing paperId')
+
+              current_stage = 'paper_lookup_full_fields'
+              paper, pmeta = client.paper(paper_id)
+              results.append({'stage': current_stage, 'status_code': pmeta.get('status_code', 200)})
+              if paper.get('paperId') != paper_id:
+                  raise RuntimeError('paper_lookup_full_fields returned wrong paperId')
+
+              if first_title:
+                  current_stage = 'title_match_full_fields'
+                  match, mmeta = client.title_match(first_title)
+                  results.append({'stage': current_stage, 'status_code': mmeta.get('status_code', 200)})
+                  if not match.get('paperId'):
+                      raise RuntimeError('title_match_full_fields returned no paperId')
+
+              current_stage = 'citations_edge_and_paper_fields'
+              citation_rows, cmeta = next(client.citation_neighbors(paper_id, 'citations', max_pages=1, limit=1))
+              results.append({
+                  'stage': current_stage,
+                  'status_code': cmeta.get('status_code', 200),
+                  'n_records': len(citation_rows),
               })
 
-          safe = {
-              'ok': True,
+              current_stage = 'references_edge_and_paper_fields'
+              reference_rows, rmeta = next(client.citation_neighbors(paper_id, 'references', max_pages=1, limit=1))
+              results.append({
+                  'stage': current_stage,
+                  'status_code': rmeta.get('status_code', 200),
+                  'n_records': len(reference_rows),
+              })
+
+              authors = first.get('authors') or []
+              author_id = next((a.get('authorId') for a in authors if a.get('authorId')), None)
+              if author_id:
+                  current_stage = 'author_papers_full_fields'
+                  author_rows, ameta = next(client.author_papers(author_id, max_papers=1))
+                  results.append({
+                      'stage': current_stage,
+                      'status_code': ameta.get('status_code', 200),
+                      'n_records': len(author_rows),
+                  })
+
+          except BaseException as exc:
+              failure = {
+                  'stage': current_stage,
+                  'error_type': type(exc).__name__,
+                  'message': str(exc)[:1000],
+              }
+
+          payload = {
+              'ok': failure is None,
               'paper_fields': client.paper_fields.split(','),
               'citation_edge_fields': client.citation_edge_fields.split(','),
               'stages': results,
-              'first_title': title,
+              'first_title': first_title,
+              'failure': failure,
           }
-          print(json.dumps(safe, indent=2))
+          print(json.dumps(payload, indent=2))
           with open('s2_smoke_result.json', 'w', encoding='utf-8') as f:
-              json.dump(safe, f, indent=2)
+              json.dump(payload, f, indent=2)
+
+          if failure is not None:
+              raise SystemExit(1)
           PY
 
       - uses: actions/upload-artifact@v4
@@ -161,4 +180,4 @@ jobs:
         with:
           name: semantic-scholar-smoke-result
           path: connectomics_deterministic_pipeline/s2_smoke_result.json
-          if-no-files-found: warn
+          if-no-files-found: error
