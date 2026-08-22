@@ -28,6 +28,10 @@ fi
 rm -rf connectomics_deterministic_pipeline
 unzip -q "$ZIP"
 
+# Apply deterministic compatibility fixes that are versioned in this repository.
+python patch_bundle_v012.py
+
 echo "Verified and unpacked: connectomics_deterministic_pipeline/"
-echo "SHA-256: $ACTUAL_SHA256"
+echo "Base ZIP SHA-256: $ACTUAL_SHA256"
+echo "Applied repository patch: v0.1.2"
 echo "Next: read CODEX_TASK.md and connectomics_deterministic_pipeline/README.md"
