@@ -1,0 +1,90 @@
+name: Full deterministic connectomics run
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Pipeline mode'
+        required: true
+        default: 'fresh'
+        type: choice
+        options:
+          - fresh
+          - seed_expand
+
+permissions:
+  contents: read
+
+jobs:
+  full-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Require Semantic Scholar secret
+        run: |
+          if [ -z "$SEMANTIC_SCHOLAR_API_KEY" ]; then
+            echo "Repository secret SEMANTIC_SCHOLAR_API_KEY is not configured." >&2
+            exit 2
+          fi
+
+      - name: Reconstruct verified source bundle
+        run: bash bootstrap_bundle.sh
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        working-directory: connectomics_deterministic_pipeline
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt pytest 'scipy>=1.11'
+
+      - name: Run offline tests first
+        working-directory: connectomics_deterministic_pipeline
+        run: python -m pytest -q
+
+      - name: Prepare run configuration
+        working-directory: connectomics_deterministic_pipeline
+        env:
+          REQUESTED_MODE: ${{ inputs.mode }}
+        run: |
+          python - <<'PY'
+          import os, pathlib, yaml
+          mode = os.environ['REQUESTED_MODE']
+          src = pathlib.Path('config.example.yaml' if mode == 'fresh' else 'config.seed-expand.yaml')
+          cfg = yaml.safe_load(src.read_text())
+          cfg['mode'] = mode
+          cfg['outdir'] = 'outputs'
+          pathlib.Path('config.ci.yaml').write_text(yaml.safe_dump(cfg, sort_keys=False))
+          print(f'Prepared config.ci.yaml for mode={mode}')
+          PY
+
+      - name: Execute deterministic pipeline
+        working-directory: connectomics_deterministic_pipeline
+        run: python run_pipeline.py --config config.ci.yaml
+
+      - name: Verify manifest exists
+        working-directory: connectomics_deterministic_pipeline
+        run: |
+          test -s outputs/manifest.json
+          python - <<'PY'
+          import json
+          m=json.load(open('outputs/manifest.json'))
+          print(json.dumps(m.get('counts',{}), indent=2))
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: connectomics-${{ inputs.mode }}-outputs
+          path: |
+            connectomics_deterministic_pipeline/outputs/**
+            connectomics_deterministic_pipeline/config.ci.yaml
+          if-no-files-found: warn
+          retention-days: 30

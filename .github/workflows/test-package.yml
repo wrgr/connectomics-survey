@@ -1,0 +1,28 @@
+name: Test deterministic connectomics package
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reconstruct verified source bundle
+        run: bash bootstrap_bundle.sh
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        working-directory: connectomics_deterministic_pipeline
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt pytest 'scipy>=1.11'
+      - name: Run offline tests
+        working-directory: connectomics_deterministic_pipeline
+        run: python -m pytest -q
