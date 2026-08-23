@@ -1,4 +1,4 @@
-# IA-006 — Recover role bridges from the discovered set
+# IA-006 — Recover and harmonize role bridges across retained and discovered papers
 
 ## Status
 
@@ -12,20 +12,21 @@ Positive control: Semantic Scholar paper `17356a69dd1a1a0708e927aa8fc2279d399dcd
 
 ## Correction
 
-Role-bridge analysis now starts from **all discovered papers with an explicit role hit already recorded by the pipeline**, rather than from retained papers only.
-
-This does **not** reopen all discovered papers. A discarded paper enters the actionable recovery queue only when all of the following hold:
+Role-bridge analysis now starts from **all discovered papers**, while preserving the original retained/discarded origin. A paper enters the actionable role-bridge queue only when all of the following hold:
 
 1. it was discovered by the frozen run;
-2. it has an original pipeline role hit for the role being considered;
-3. its title contains a role-specific high-specificity expression; and
-4. it has the required number of **directed citation relationships** with the IA-004 derived nanoscale core.
+2. it is not already in the IA-004 derived nanoscale core;
+3. it has an original pipeline role hit for the role being considered;
+4. its title contains a role-specific high-specificity expression; and
+5. it has the required number of **directed citation relationships** with the IA-004 derived nanoscale core.
 
-Indirect relationships (bibliographic coupling and co-citation-like proximity) are retained for ranking and review context but cannot recover a discarded record by themselves.
+The identical gate is applied to both originally retained non-core papers and originally discarded papers. This replaces the earlier provisional IA-005 retained-only count, making retained and recovered bridge counts directly comparable.
 
-## Role-specific recovery gates
+Indirect relationships (bibliographic coupling and co-citation-like proximity) remain useful for ranking/review context but cannot establish bridge eligibility by themselves.
 
-The role source tags come from the frozen pipeline fields:
+## Role-specific gates
+
+The role source tags come from frozen pipeline fields:
 
 - health -> `health_hits`
 - training/outreach -> `people_development_hits`
@@ -41,15 +42,17 @@ Title-level specificity and direct-core requirements are:
 - **infrastructure/methods:** connectomics/reconstruction/segmentation/alignment/registration/synapse-detection/volume-EM/data-service/visualization language; >=2 direct core relationships.
 - **network science:** connectome/circuit/network-analysis/graph-analysis/motif/centrality/community/subgraph/query language; >=2 direct core relationships.
 
-The differing direct-link minima are queue-prioritization heuristics: human-development and proofreading role language is comparatively specific, while health, infrastructure, and network-science vocabularies are much broader. They are not claimed as universal literature constants.
+The differing direct-link minima are queue-prioritization heuristics, not universal literature constants.
 
 ## Frozen-run calibration
 
 Frozen artifact SHA-256: `6c1b7ea962fb1dd58e4e8c84c216d2d2d6999392949b598165016a2c205ee68c`.
 
-The discovered set contains 118,165 papers, versus 3,768 retained papers. A naive extension of IA-005 proximity to every discarded role-bearing record would have produced 13,097 recovered candidates, demonstrating that indirect proximity alone is too permissive outside the retained set.
+The frozen discovered set contains 118,165 papers, with 3,768 retained and a 1,685-paper IA-004 derived nanoscale core.
 
-Applying the role-specific recovery gates above produces **391 unique actionable originally-discarded bridge candidates**:
+A naive extension of IA-005 indirect proximity to all discarded role-bearing records produced 13,097 candidates and was rejected as too permissive.
+
+Applying the final role-specific gate to originally discarded papers yields **391 recovered role bridges**:
 
 - training/outreach: 32
 - health: 59
@@ -57,10 +60,24 @@ Applying the role-specific recovery gates above produces **391 unique actionable
 - infrastructure/methods: 144
 - network science: 50
 
-Role counts overlap, so they sum to more than 391.
+Role counts overlap.
 
-The CIRCUIT positive-control paper is recovered as training/outreach: it has the original `outreach;undergraduate` role evidence, explicit outreach/undergraduate title evidence, and one directed citation from the candidate to a derived-core paper.
+Applying **the same gate** to the 2,083 retained non-core papers yields **15 retained role bridges**:
+
+- training/outreach: 0
+- health: 8
+- proofreading/annotation: 2
+- infrastructure/methods: 2
+- network science: 4
+
+Again, role counts overlap. The harmonized final union is therefore **406 unique role-bridge papers: 15 retained non-core + 391 originally discarded**.
+
+Fourteen of the 406 carry an existing macroscale flag. They are not silently removed; they are labeled `macroscale_role_bridge_review` so the bridge relationship can be adjudicated separately from nanoscale-core status. The remaining 392 are non-macroscale role-bridge candidates.
+
+The earlier provisional ~246 retained IA-005 priority count is superseded by this harmonized calculation because it used different eligibility rules.
+
+The CIRCUIT positive-control paper is recovered as training/outreach: it has the original `outreach;undergraduate` evidence, explicit outreach/undergraduate title evidence, and one directed citation from the candidate to a derived-core paper.
 
 ## Interpretation
 
-Recovered papers remain **role bridges**, not nanoscale-core papers. Recovery corrects a mismatch between a scientific-paper retention predicate and evidence-map roles such as education/outreach. Every original `keep` value and source record remains intact for auditability.
+Role bridges remain distinct from nanoscale-core papers. Recovery/harmonization corrects a mismatch between a scientific-paper retention predicate and evidence-map roles such as education/outreach, health, proofreading, infrastructure, and network methods. Every original `keep` value and source record remains intact for auditability.
