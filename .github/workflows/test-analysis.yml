@@ -8,6 +8,7 @@ on:
       - 'docs/IA-005-proximity-aware-role-triage.md'
       - 'docs/IA-006-discovered-role-bridge-recovery.md'
       - 'docs/IA-007-llm-first-semantic-screening.md'
+      - 'docs/IA-008-work-reconciliation-and-abstract-rescue.md'
       - 'docs/POSTANALYSIS_PAPER_FLOW.md'
       - '.github/workflows/test-analysis.yml'
   workflow_dispatch:
@@ -36,6 +37,8 @@ jobs:
           analysis/triage_paper_categories.py
           analysis/consolidate_role_bridges.py
           analysis/build_paper_accounting.py
+          analysis/reconcile_paper_works.py
+          analysis/rescue_missing_abstracts.py
           analysis/llm_relevance_screen.py
       - name: Run deterministic helper checks
         run: |
@@ -53,6 +56,8 @@ jobs:
           aliases = load('aliases', Path('analysis/apply_person_aliases.py'))
           triage = load('triage', Path('analysis/triage_paper_categories.py'))
           consolidate = load('consolidate', Path('analysis/consolidate_role_bridges.py'))
+          works = load('works', Path('analysis/reconcile_paper_works.py'))
+          rescue = load('rescue', Path('analysis/rescue_missing_abstracts.py'))
           llm = load('llm', Path('analysis/llm_relevance_screen.py'))
 
           assert reconcile.norm_name('A. McIntosh') == 'a mcintosh'
@@ -70,10 +75,15 @@ jobs:
           assert consolidate.ROLE_RULES['training_outreach']['min_direct'] == 1
           assert consolidate.ROLE_RULES['health']['min_direct'] == 2
 
-          assert llm.PROMPT_VERSION == 'IA-007-v1'
+          assert works.norm_doi('https://doi.org/10.1101/ABC') == '10.1101/abc'
+          assert works.norm_text('CAVE: Connectome Annotation') == 'cave connectome annotation'
+          assert works.is_preprint({'doi':'10.1101/2023.01.01.1'})
+          assert rescue.openalex_abstract({'hello':[0], 'world':[1]}) == 'hello world'
+
+          assert llm.PROMPT_VERSION == 'IA-007-v2-work-level'
           assert 'out_of_scope' in llm.ALLOWED_DECISIONS
           assert 'training_outreach' in llm.ALLOWED_ROLES
-          demo = llm.build_prompt({'title': 'Demo', 'abstract': 'A connectome paper.'}, 'unresolved')
+          demo = llm.build_prompt({'source_group':'unresolved','title':'Demo','abstract':'A connectome paper.'})
           assert 'uncertain rather than out_of_scope' in demo
           print('analysis helper checks passed')
           PY
