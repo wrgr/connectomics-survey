@@ -16,7 +16,8 @@ Author reconciliation:
   candidate blocking uses both exact normalized names and a conservative variant
   that removes only single-letter middle initials. Name similarity creates
   candidates only. Coauthor overlap and temporal compatibility score candidates;
-  actual merges remain explicit reviewed alias decisions.
+  direct same-name coauthorship is treated as collision evidence, not merge evidence.
+  Actual merges remain explicit reviewed alias decisions.
 """
 from __future__ import annotations
 
@@ -47,6 +48,17 @@ def split_set(value: object) -> set[str]:
     if pd.isna(value):
         return set()
     return {x.strip() for x in str(value).split(";") if x.strip()}
+
+
+def classify_person_pair(*, shared: int, co_j: float, year_overlap: bool, direct_same_name_coauthor: bool) -> str:
+    """Classify a blocked identity pair without allowing coauthorship to mimic identity."""
+    if direct_same_name_coauthor:
+        return "same_name_coauthor_collision"
+    if shared >= 3 and co_j >= 0.20 and year_overlap:
+        return "probable_same_person"
+    if shared >= 1 and co_j >= 0.10 and year_overlap:
+        return "possible_same_person"
+    return "ambiguous_name_collision"
 
 
 def main():
@@ -147,8 +159,10 @@ def main():
     people["axes_set"] = people["axes"].map(split_set)
     id_to_block = dict(zip(people["author_id"], people["normalized_name_block"]))
     co_sets: dict[str, set[str]] = collections.defaultdict(set)
+    direct_coauthor_pairs: set[tuple[str, str]] = set()
     for r in coedges.itertuples(index=False):
         a, b = str(r.author_1), str(r.author_2)
+        direct_coauthor_pairs.add(tuple(sorted((a, b))))
         na, nb = id_to_block.get(a, ""), id_to_block.get(b, "")
         if nb:
             co_sets[a].add(nb)
@@ -164,7 +178,13 @@ def main():
             for j in range(i + 1, len(rows)):
                 a, b = rows[i], rows[j]
                 aid, bid = str(a["author_id"]), str(b["author_id"])
-                ca, cb = co_sets[aid], co_sets[bid]
+                direct_same_name_coauthor = tuple(sorted((aid, bid))) in direct_coauthor_pairs
+
+                # Remove the blocked candidate name itself from both neighborhoods. Otherwise
+                # two same-name IDs that coauthor a paper inject each other's identical name
+                # into the overlap metric and can manufacture false identity evidence.
+                ca = co_sets[aid] - {block_name}
+                cb = co_sets[bid] - {block_name}
                 shared = len(ca & cb)
                 union = len(ca | cb)
                 co_j = shared / union if union else 0.0
@@ -179,12 +199,18 @@ def main():
                 else:
                     year_overlap = True
 
-                if shared >= 3 and co_j >= 0.20 and year_overlap:
-                    classification = "probable_same_person"
-                elif shared >= 1 and co_j >= 0.10 and year_overlap:
-                    classification = "possible_same_person"
+                classification = classify_person_pair(
+                    shared=shared,
+                    co_j=co_j,
+                    year_overlap=year_overlap,
+                    direct_same_name_coauthor=direct_same_name_coauthor,
+                )
+                if classification == "probable_same_person":
+                    recommended_action = "manual_verify_then_merge_alias"
+                elif classification == "same_name_coauthor_collision":
+                    recommended_action = "verify_source_metadata_keep_separate"
                 else:
-                    classification = "ambiguous_name_collision"
+                    recommended_action = "manual_review"
 
                 candidates.append({
                     "normalized_name_block": block_name,
@@ -195,17 +221,23 @@ def main():
                     "name_b": b["name"],
                     "retained_papers_a": a["retained_paper_count"],
                     "retained_papers_b": b["retained_paper_count"],
+                    "same_name_direct_coauthor": direct_same_name_coauthor,
                     "shared_coauthor_names": shared,
                     "coauthor_jaccard": round(co_j, 6),
                     "axis_jaccard": round(ax_j, 6),
                     "year_overlap": year_overlap,
                     "classification": classification,
-                    "recommended_action": "manual_verify_then_merge_alias" if classification == "probable_same_person" else "manual_review",
+                    "recommended_action": recommended_action,
                 })
 
     cand = pd.DataFrame(candidates)
     if len(cand):
-        order = {"probable_same_person": 0, "possible_same_person": 1, "ambiguous_name_collision": 2}
+        order = {
+            "same_name_coauthor_collision": 0,
+            "probable_same_person": 1,
+            "possible_same_person": 2,
+            "ambiguous_name_collision": 3,
+        }
         cand["_order"] = cand["classification"].map(order)
         cand = cand.sort_values(["_order", "shared_coauthor_names", "coauthor_jaccard"], ascending=[True, False, False]).drop(columns="_order")
     cand.to_csv(out / "person_reconciliation_candidates.csv", index=False)
@@ -223,6 +255,7 @@ def main():
         "person_reconciliation": {
             "blocking": "exact normalized name OR normalization that removes only single-letter middle initials",
             "evidence": "coauthor-neighborhood overlap + temporal compatibility; axes retained as descriptive corroboration",
+            "collision_rule": "same-name IDs that directly coauthor are classified as collision evidence; the blocked candidate name is excluded from coauthor-overlap metrics",
             "merge_policy": "no automatic merge; require reviewed alias decision, preferably corroborated by ORCID/S2/publication evidence",
             "probable_threshold": ">=3 shared normalized coauthor names + coauthor Jaccard >=0.20 + overlapping relevant-year intervals",
             "possible_threshold": ">=1 shared normalized coauthor name + coauthor Jaccard >=0.10 + overlapping relevant-year intervals",
@@ -247,6 +280,7 @@ def main():
         "candidate_pairs": len(cand),
         "person_candidate_counts": cand["classification"].value_counts().to_dict() if len(cand) else {},
         "middle_initial_expanded_pairs": int((~cand["exact_normalized_name_match"]).sum()) if len(cand) else 0,
+        "same_name_direct_coauthor_collisions": int(cand["same_name_direct_coauthor"].sum()) if len(cand) else 0,
     }
     (out / "cleanup_reconciliation_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     print(json.dumps(summary, indent=2))
