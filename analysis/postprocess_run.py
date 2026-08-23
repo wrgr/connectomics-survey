@@ -43,6 +43,20 @@ def resolve_outputs(artifact: Path | None, outputs_dir: Path | None):
     return candidates[0].parent, tmp, sha256_file(artifact)
 
 
+def read_optional_csv(path: Path, columns: list[str]) -> pd.DataFrame:
+    """Read an optional output table, accepting absent or zero-byte CSVs as empty."""
+    if not path.exists() or path.stat().st_size == 0:
+        return pd.DataFrame(columns=columns)
+    try:
+        df = pd.read_csv(path, low_memory=False)
+    except pd.errors.EmptyDataError:
+        return pd.DataFrame(columns=columns)
+    for col in columns:
+        if col not in df.columns:
+            df[col] = pd.Series(dtype="object")
+    return df
+
+
 def split_counts(series: pd.Series) -> pd.Series:
     counts = collections.Counter()
     for value in series.dropna().astype(str):
@@ -78,9 +92,11 @@ def main():
     people = pd.read_csv(src / "people.csv", low_memory=False)
     pedges = pd.read_csv(src / "paper_graph_edges.csv")
     coedges = pd.read_csv(src / "coauthor_edges.csv")
-    cross = pd.read_csv(src / "crossref_verification.csv")
-    health = pd.read_csv(src / "health_bridge.csv")
-    training = pd.read_csv(src / "training_outreach.csv")
+    # These are optional pipeline outputs and may legitimately be zero-byte when the
+    # corresponding enrichment/bridge stage is disabled or produces no records.
+    cross = read_optional_csv(src / "crossref_verification.csv", ["crossref_status"])
+    health = read_optional_csv(src / "health_bridge.csv", ["health_terms"])
+    training = read_optional_csv(src / "training_outreach.csv", ["people_development_terms"])
     coverage = json.loads((src / "coverage_summary.json").read_text())
     manifest = json.loads((src / "manifest.json").read_text())
 
