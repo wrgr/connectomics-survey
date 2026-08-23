@@ -1,0 +1,114 @@
+name: Test post-processing analysis tools
+
+on:
+  pull_request:
+    paths:
+      - 'analysis/**'
+      - 'docs/IA-004-provenance-and-author-reconciliation.md'
+      - 'docs/IA-005-proximity-aware-role-triage.md'
+      - 'docs/IA-006-discovered-role-bridge-recovery.md'
+      - 'docs/IA-007-llm-first-semantic-screening.md'
+      - 'docs/IA-008-work-reconciliation-and-abstract-rescue.md'
+      - 'docs/POSTANALYSIS_PAPER_FLOW.md'
+      - '.github/workflows/test-analysis.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analysis-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install analysis dependencies
+        run: python -m pip install pandas matplotlib networkx
+      - name: Compile analysis scripts
+        run: >-
+          python -m py_compile
+          analysis/postprocess_run.py
+          analysis/reconcile_cleanup.py
+          analysis/prepare_person_review.py
+          analysis/apply_person_aliases.py
+          analysis/triage_people.py
+          analysis/triage_paper_categories.py
+          analysis/consolidate_role_bridges.py
+          analysis/build_paper_accounting.py
+          analysis/reconcile_paper_works.py
+          analysis/rescue_missing_abstracts.py
+          analysis/llm_relevance_screen.py
+      - name: Run deterministic helper checks
+        run: |
+          python - <<'PY'
+          import importlib.util
+          import tempfile
+          from pathlib import Path
+
+          import pandas as pd
+
+          def load(name, path):
+              spec = importlib.util.spec_from_file_location(name, path)
+              module = importlib.util.module_from_spec(spec)
+              spec.loader.exec_module(module)
+              return module
+
+          postprocess = load('postprocess', Path('analysis/postprocess_run.py'))
+          reconcile = load('reconcile', Path('analysis/reconcile_cleanup.py'))
+          aliases = load('aliases', Path('analysis/apply_person_aliases.py'))
+          triage = load('triage', Path('analysis/triage_paper_categories.py'))
+          consolidate = load('consolidate', Path('analysis/consolidate_role_bridges.py'))
+          works = load('works', Path('analysis/reconcile_paper_works.py'))
+          rescue = load('rescue', Path('analysis/rescue_missing_abstracts.py'))
+          llm = load('llm', Path('analysis/llm_relevance_screen.py'))
+
+          assert reconcile.norm_name('A. McIntosh') == 'a mcintosh'
+          assert reconcile.norm_name_ignore_middle_initials('William R. Gray-Roncal') == 'william gray roncal'
+          assert reconcile.split_set('network_science; qc ;network_science') == {'network_science', 'qc'}
+          assert reconcile.classify_person_pair(
+              shared=10, co_j=0.9, year_overlap=True, direct_same_name_coauthor=True
+          ) == 'same_name_coauthor_collision'
+
+          uf = aliases.UnionFind(['9', '2', '5'])
+          uf.union('9', '5')
+          uf.union('5', '2')
+          assert uf.find('9') == '2'
+          assert uf.find('5') == '2'
+
+          # Explicit separation must override an otherwise transitive merge plan by
+          # making the reviewed decision set invalid rather than silently merging it.
+          contradiction = pd.DataFrame([{'author_id_a':'9', 'author_id_b':'2', 'decision':'separate'}])
+          try:
+              aliases.validate_separate_constraints(uf, contradiction, {'9','2','5'})
+          except RuntimeError as exc:
+              assert 'contradictory' in str(exc)
+          else:
+              raise AssertionError('expected contradictory separate/merge decisions to fail')
+
+          # Optional bridge/enrichment outputs may be valid zero-byte CSVs.
+          with tempfile.TemporaryDirectory() as td:
+              empty = Path(td) / 'health_bridge.csv'
+              empty.write_bytes(b'')
+              empty_df = postprocess.read_optional_csv(empty, ['health_terms'])
+              assert empty_df.empty
+              assert list(empty_df.columns) == ['health_terms']
+
+          assert triage.RECOVERY_MIN_DIRECT['training_outreach'] == 1
+          assert triage.RECOVERY_MIN_DIRECT['health'] == 2
+          assert consolidate.ROLE_RULES['training_outreach']['min_direct'] == 1
+          assert consolidate.ROLE_RULES['health']['min_direct'] == 2
+
+          assert works.norm_doi('https://doi.org/10.1101/ABC') == '10.1101/abc'
+          assert works.norm_text('CAVE: Connectome Annotation') == 'cave connectome annotation'
+          assert works.is_preprint({'doi':'10.1101/2023.01.01.1'})
+          assert rescue.openalex_abstract({'hello':[0], 'world':[1]}) == 'hello world'
+
+          assert llm.PROMPT_VERSION == 'IA-007-v2-work-level'
+          assert 'out_of_scope' in llm.ALLOWED_DECISIONS
+          assert 'training_outreach' in llm.ALLOWED_ROLES
+          demo = llm.build_prompt({'source_group':'unresolved','title':'Demo','abstract':'A connectome paper.'})
+          assert 'uncertain rather than out_of_scope' in demo
+          print('analysis helper checks passed')
+          PY

@@ -1,0 +1,103 @@
+name: Post-analysis work reconciliation and semantic prep
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'Source full-run Actions run ID'
+        required: true
+        default: '32583354920'
+      artifact_name:
+        description: 'Source artifact name'
+        required: true
+        default: 'connectomics-fresh-outputs'
+      run_llm:
+        description: 'Run LLM first pass after prep (requires LLM_API_KEY secret)'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  actions: read
+
+env:
+  SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+  OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+  LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+  LLM_API_BASE: ${{ vars.LLM_API_BASE }}
+  LLM_MODEL: ${{ vars.LLM_MODEL }}
+
+jobs:
+  semantic-prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1440
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install analysis dependencies
+        run: python -m pip install pandas matplotlib networkx
+      - name: Download frozen source artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p source_artifact
+          gh run download "${{ inputs.run_id }}" -n "${{ inputs.artifact_name }}" -D source_artifact
+          find source_artifact -maxdepth 4 -type f | sort | head -100
+      - name: Locate outputs
+        id: locate
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=$(dirname "$(find source_artifact -type f -name papers_retained.csv -print -quit)")
+          test -n "$OUT"
+          echo "outputs=$OUT" >> "$GITHUB_OUTPUT"
+          echo "Using outputs: $OUT"
+      - name: IA-004 cleanup and core derivation
+        run: python analysis/reconcile_cleanup.py --outputs-dir "${{ steps.locate.outputs.outputs }}" --out postanalysis/cleanup
+      - name: IA-006 consolidated role bridges
+        run: python analysis/consolidate_role_bridges.py --outputs-dir "${{ steps.locate.outputs.outputs }}" --cleanup-dir postanalysis/cleanup --out postanalysis/bridges
+      - name: Canonical record accounting
+        run: python analysis/build_paper_accounting.py --outputs-dir "${{ steps.locate.outputs.outputs }}" --cleanup-dir postanalysis/cleanup --bridges-dir postanalysis/bridges --out postanalysis/accounting
+      - name: IA-008 reconcile scholarly works
+        run: python analysis/reconcile_paper_works.py --outputs-dir "${{ steps.locate.outputs.outputs }}" --bridges-dir postanalysis/bridges --accounting-csv postanalysis/accounting/retained_paper_accounting.csv --out postanalysis/works
+      - name: IA-008 best-effort abstract rescue
+        run: python analysis/rescue_missing_abstracts.py --works-csv postanalysis/works/canonical_works.csv --versions-csv postanalysis/works/work_versions.csv --out postanalysis/enriched
+      - name: Prepare LLM work-level screen
+        if: ${{ !inputs.run_llm }}
+        run: python analysis/llm_relevance_screen.py --works-csv postanalysis/enriched/canonical_works_enriched.csv --out postanalysis/llm --prepare-only
+      - name: Run LLM first-pass screen
+        if: ${{ inputs.run_llm }}
+        shell: bash
+        run: |
+          if [ -z "$LLM_API_KEY" ]; then
+            echo "LLM_API_KEY secret is required when run_llm=true" >&2
+            exit 2
+          fi
+          export LLM_API_BASE="${LLM_API_BASE:-https://api.openai.com/v1}"
+          export LLM_MODEL="${LLM_MODEL:-gpt-5.6}"
+          python analysis/llm_relevance_screen.py --works-csv postanalysis/enriched/canonical_works_enriched.csv --out postanalysis/llm
+      - name: Publish summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo '## Post-analysis semantic preparation'
+            for f in postanalysis/accounting/paper_accounting_summary.json postanalysis/works/work_reconciliation_summary.json postanalysis/enriched/abstract_rescue_summary.json postanalysis/llm/llm_prepare_summary.json postanalysis/llm/llm_relevance_summary.json; do
+              if [ -f "$f" ]; then
+                echo
+                echo "### $f"
+                echo '```json'
+                cat "$f"
+                echo '```'
+              fi
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: postanalysis-semantic-prep
+          path: postanalysis/**
+          if-no-files-found: warn
