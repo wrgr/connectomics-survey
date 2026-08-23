@@ -32,6 +32,7 @@ jobs:
           analysis/apply_person_aliases.py
           analysis/triage_people.py
           analysis/triage_paper_categories.py
+          analysis/consolidate_role_bridges.py
       - name: Run deterministic helper checks
         run: |
           python - <<'PY'
@@ -47,6 +48,7 @@ jobs:
           reconcile = load('reconcile', Path('analysis/reconcile_cleanup.py'))
           aliases = load('aliases', Path('analysis/apply_person_aliases.py'))
           triage = load('triage', Path('analysis/triage_paper_categories.py'))
+          consolidate = load('consolidate', Path('analysis/consolidate_role_bridges.py'))
 
           assert reconcile.norm_name('A. McIntosh') == 'a mcintosh'
           assert reconcile.norm_name_ignore_middle_initials('William R. Gray-Roncal') == 'william gray roncal'
@@ -60,5 +62,7 @@ jobs:
 
           assert triage.RECOVERY_MIN_DIRECT['training_outreach'] == 1
           assert triage.RECOVERY_MIN_DIRECT['health'] == 2
+          assert consolidate.ROLE_RULES['training_outreach']['min_direct'] == 1
+          assert consolidate.ROLE_RULES['health']['min_direct'] == 2
           print('analysis helper checks passed')
           PY
