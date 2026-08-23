@@ -2,123 +2,109 @@
 
 This directory contains **derived-analysis tooling** for completed deterministic connectomics runs. It does not alter the preregistered retrieval corpus, source `keep` decisions, or first-discovery provenance.
 
+## Core post-analysis sequence
+
+1. `reconcile_cleanup.py` — IA-004 nanoscale-core derivation and author-reconciliation candidates.
+2. `triage_paper_categories.py` / `consolidate_role_bridges.py` — IA-005/006 role-bridge triage and recovery.
+3. `build_paper_accounting.py` — canonical record-level accounting.
+4. `reconcile_paper_works.py` — IA-008 preprint/final and metadata-version reconciliation.
+5. `rescue_missing_abstracts.py` — best-effort abstract enrichment.
+6. `llm_relevance_screen.py` — IA-007 LLM-first semantic screening at canonical-work level.
+7. human adjudication later, followed by author aliases and `triage_people.py`.
+
 ## `postprocess_run.py`
 
 Reproduces the QC tables and visualization panels used for the first fresh full run.
 
-```bash
-python analysis/postprocess_run.py \
-  --artifact connectomics-fresh-outputs.zip \
-  --expected-sha256 6c1b7ea962fb1dd58e4e8c84c216d2d2d6999392949b598165016a2c205ee68c \
-  --out postprocessed
-```
-
 ## `reconcile_cleanup.py` — IA-004
 
-Creates the derived nanoscale paper core and person-reconciliation candidate queue.
-
-Paper scope has two routes:
-
-- direct nanoscale: explicit `direct_scope+resolution` evidence;
-- inherited connectome provenance: specific connectome-analysis language + at least two directed citations to direct-resolution papers + no macroscale flag.
-
-On the frozen reference run this yields 1,534 direct papers + 151 inherited-provenance papers = **1,685 derived nanoscale-core papers**.
+Creates the derived nanoscale paper core and person-reconciliation candidate queue. On the frozen reference run this yields 1,534 direct papers + 151 inherited-provenance papers = **1,685 derived nanoscale-core records**.
 
 Person reconciliation uses normalized-name blocking, including a conservative form that removes only single-letter middle initials. Name matching only generates candidates. Coauthor-neighborhood and temporal evidence prioritize review; no person is automatically merged.
 
-```bash
-python analysis/reconcile_cleanup.py \
-  --outputs-dir extracted/connectomics_deterministic_pipeline/outputs \
-  --out reconciliation
-```
+## `triage_paper_categories.py` / `consolidate_role_bridges.py` — IA-005/006
 
-## `prepare_person_review.py`
+Role evidence plus directed proximity identifies health, training/outreach, proofreading/annotation, infrastructure/method and network-science bridges. IA-006 additionally recovers qualifying papers from `papers_all.csv` even when original `keep=False`; source `keep` provenance is unchanged.
 
-Creates a human-review table for probable/possible identity pairs, including Semantic Scholar profile links and adjudication fields.
-
-## `apply_person_aliases.py`
-
-Applies **explicit reviewed merge decisions only** through a canonical alias table. Source Semantic Scholar author IDs are preserved. Reconciled person-paper counts are recomputed from canonical aliases.
-
-## `triage_paper_categories.py` — IA-005 / IA-006
-
-Triages health, training/outreach, proofreading/annotation, infrastructure/methods, and network-science bridge papers using role evidence plus proximity to the 1,685-paper derived nanoscale core.
-
-IA-006 corrects an important retained-only failure mode: legitimate role papers can be discovered by the frozen run but rejected by the scientific-core `keep` predicate. The script therefore reads `papers_all.csv`, but only considers papers with an **original role hit recorded by the pipeline**.
-
-Originally discarded records enter the actionable recovery queue only when they additionally have role-specific high-specificity title evidence and directed citation proximity to the derived core. Indirect bibliographic-coupling/co-citation proximity is reported for ranking but cannot recover a discarded paper by itself.
-
-Reference-run calibration produces **391 unique originally-discarded actionable bridge candidates**.
-
-## `consolidate_role_bridges.py`
-
-Applies the final harmonized IA-006 bridge rules to both retained non-core and originally `keep=False` records. On the frozen reference run this produces:
-
-- **15** strict role bridges inside the originally retained corpus;
-- **391** recovered `keep=False` role bridges;
-- **406** strict role bridges across both origins.
-
-The two origins remain explicit in every output.
+Frozen-run final strict bridge records: **15 retained + 391 recovered = 406 records**.
 
 ## `build_paper_accounting.py`
 
-Freezes the canonical mutually exclusive accounting of the **3,768 originally retained papers** and asserts the partition in code:
+Reports two denominators explicitly:
 
-- **1,685** derived nanoscale core;
-- **15** strict retained role bridges;
-- **2,068** unresolved retained non-core.
+- frozen retrieval provenance: **3,768 retained records = 1,685 core + 15 strict retained bridges + 2,068 unresolved**;
+- raw semantic-analysis universe: **4,159 records = 3,768 retained + 391 recovered role bridges**.
 
-The 391 recovered `keep=False` role bridges are reported separately and are never added to the 3,768 retained denominator.
+Recovered bridges remain `keep=False` for provenance but **are included in all later semantic/work-level analysis**.
 
-```bash
-python analysis/build_paper_accounting.py \
-  --outputs-dir extracted/connectomics_deterministic_pipeline/outputs \
-  --cleanup-dir reconciliation \
-  --bridges-dir bridges \
-  --out accounting
-```
+## `reconcile_paper_works.py` — IA-008
+
+Reconciles multiple records representing the same scholarly work while preserving all versions. It links exact DOI/PMID/arXiv identifiers first and then applies conservative title/author/year/preprint-publication similarity rules. Outputs:
+
+- `canonical_works.csv`
+- `work_versions.csv`
+- `work_link_evidence.csv`
+- `work_reconciliation_summary.json`
+
+Frozen-run dry run: **4,159 records → 4,136 canonical works**, with 22 multi-version works and 23 redundant version records collapsed.
+
+Citation counts are not blindly summed: the maximum version count is the conservative work-level metric; the sum is retained as an explicitly labelled upper bound because citing sets may overlap.
+
+## `rescue_missing_abstracts.py` — IA-008
+
+For canonical works still lacking abstracts after linked-version aggregation, best-effort rescue tries:
+
+1. Semantic Scholar (`SEMANTIC_SCHOLAR_API_KEY` when available);
+2. Europe PMC by PMID/DOI;
+3. OpenAlex when `OPENALEX_API_KEY` is configured;
+4. Crossref DOI metadata.
+
+Existing abstracts are never overwritten. Remaining missing abstracts stay reviewable and cannot be excluded from title alone.
 
 ## `llm_relevance_screen.py` — IA-007
 
-Runs an **LLM-first high-recall title/abstract relevance pass** on the 2,068 unresolved retained papers and audits all 1,685 core papers for false-positive/noise signals. It does not change deterministic paper status.
+Runs **after IA-008** on canonical enriched works. All source groups are included:
 
-Default target: **3,753 papers**. Records without abstracts are routed directly to `insufficient_abstract` for later human/full-text review rather than being excluded from title alone.
+- `core_audit`
+- `unresolved`
+- `role_bridge`
 
-The LLM returns provisional semantic classes (`core_relevant`, `adjacent_relevant`, `role_bridge`, `out_of_scope`, `uncertain`), role labels, confidence, evidence, and noise flags. A later human-review queue includes uncertain/low-confidence cases, every core paper flagged as possible noise, and a deterministic audit sample of high-confidence exclusions.
+The frozen work-reconciliation dry run yields an expected LLM universe of **4,136 canonical works**: 1,678 core-audit, 2,062 unresolved, and 396 role-bridge works. The exact denominator after abstract rescue is written at runtime.
+
+The LLM is a high-recall first-pass reviewer only. It returns structured relevance/role/confidence/evidence/noise labels and creates a later human-review queue. It never mutates source `keep`, core, bridge or work-link status.
 
 ```bash
-# Prepare the exact screening set without calling a model
-python analysis/llm_relevance_screen.py \
+python analysis/reconcile_paper_works.py \
+  --outputs-dir extracted/connectomics_deterministic_pipeline/outputs \
+  --bridges-dir bridges \
   --accounting-csv accounting/retained_paper_accounting.csv \
+  --out works
+
+python analysis/rescue_missing_abstracts.py \
+  --works-csv works/canonical_works.csv \
+  --versions-csv works/work_versions.csv \
+  --out enriched
+
+python analysis/llm_relevance_screen.py \
+  --works-csv enriched/canonical_works_enriched.csv \
   --out llm_screen \
   --prepare-only
-
-# Run with an OpenAI-compatible endpoint
-export LLM_API_KEY=...
-export LLM_API_BASE=https://api.openai.com/v1
-export LLM_MODEL=gpt-5.6
-python analysis/llm_relevance_screen.py \
-  --accounting-csv accounting/retained_paper_accounting.csv \
-  --out llm_screen
 ```
 
-The model is deliberately a first-pass screener, not an autonomous inclusion/exclusion authority. See `docs/IA-007-llm-first-semantic-screening.md`.
+## Person tools
 
-## `triage_people.py`
-
-Builds a multidimensional descriptive evidence matrix for people touching the derived nanoscale core. It reports productivity, fractional contribution, active years, axis breadth, coauthor structure, and hyperauthorship sensitivity. It deliberately does **not** assign an importance score or A/B/C/D tier before the empirical distributions are inspected.
-
-For the final people map, run this after reviewed author aliases have been applied and after the paper universe is sufficiently stabilized.
+- `prepare_person_review.py` creates a human-review table for probable/possible identity pairs.
+- `apply_person_aliases.py` applies explicit reviewed aliases only and preserves source author IDs.
+- `triage_people.py` builds a multidimensional evidence matrix for reconciled people touching the cleaned field corpus; it deliberately does not impose an arbitrary universal importance score.
 
 ## Reproducibility principles
 
 - Never mutate the preregistered broad corpus; derived views are separate outputs.
-- Never reinterpret an original `keep=False` as a core-paper inclusion. IA-006 recovered records are role bridges only.
-- Keep retained-corpus and recovered-bridge denominators separate.
-- LLM labels are provisional semantic review aids, never silent mutations of deterministic status.
+- Include IA-006 recovered bridges in semantic analysis while preserving their original `keep=False` provenance.
+- Reconcile paper versions before LLM screening and person-level counting.
+- Preserve every paper version and every author source ID.
 - Never merge people from name equality alone.
-- Preserve raw paper IDs, author IDs, and discovery provenance.
-- Keep empirical thresholds documented as local calibration choices rather than universal literature constants.
-- Use explicit review/alias decisions for identity reconciliation.
+- Treat empirical thresholds as local calibration choices, not universal literature constants.
+- Route ambiguous LLM and identity decisions to later human review.
 
-See `docs/IA-004-provenance-and-author-reconciliation.md`, `docs/IA-005-proximity-aware-role-triage.md`, `docs/IA-006-discovered-role-bridge-recovery.md`, and `docs/IA-007-llm-first-semantic-screening.md` for methodological rationale and frozen-run calibration.
+See `docs/IA-004-provenance-and-author-reconciliation.md` through `docs/IA-008-work-reconciliation-and-abstract-rescue.md` for methodology and frozen-run calibration.
