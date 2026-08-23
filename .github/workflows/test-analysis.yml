@@ -7,6 +7,7 @@ on:
       - 'docs/IA-004-provenance-and-author-reconciliation.md'
       - 'docs/IA-005-proximity-aware-role-triage.md'
       - 'docs/IA-006-discovered-role-bridge-recovery.md'
+      - 'docs/IA-007-llm-first-semantic-screening.md'
       - '.github/workflows/test-analysis.yml'
   workflow_dispatch:
 
@@ -33,6 +34,8 @@ jobs:
           analysis/triage_people.py
           analysis/triage_paper_categories.py
           analysis/consolidate_role_bridges.py
+          analysis/build_paper_accounting.py
+          analysis/llm_relevance_screen.py
       - name: Run deterministic helper checks
         run: |
           python - <<'PY'
@@ -49,6 +52,7 @@ jobs:
           aliases = load('aliases', Path('analysis/apply_person_aliases.py'))
           triage = load('triage', Path('analysis/triage_paper_categories.py'))
           consolidate = load('consolidate', Path('analysis/consolidate_role_bridges.py'))
+          llm = load('llm', Path('analysis/llm_relevance_screen.py'))
 
           assert reconcile.norm_name('A. McIntosh') == 'a mcintosh'
           assert reconcile.norm_name_ignore_middle_initials('William R. Gray-Roncal') == 'william gray roncal'
@@ -64,5 +68,12 @@ jobs:
           assert triage.RECOVERY_MIN_DIRECT['health'] == 2
           assert consolidate.ROLE_RULES['training_outreach']['min_direct'] == 1
           assert consolidate.ROLE_RULES['health']['min_direct'] == 2
+
+          assert llm.PROMPT_VERSION == 'IA-007-v1'
+          assert 'out_of_scope' in llm.ALLOWED_DECISIONS
+          assert 'training_outreach' in llm.ALLOWED_ROLES
+          demo = llm.build_prompt({'title': 'Demo', 'abstract': 'A connectome paper.'}, 'unresolved')
+          assert 'high-recall' not in demo.lower()  # high-recall instruction lives in system prompt
+          assert 'uncertain rather than out_of_scope' in demo
           print('analysis helper checks passed')
           PY
