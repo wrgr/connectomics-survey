@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Apply reviewed person-identity decisions as an auditable alias layer.
 
-Only rows whose decision is exactly `merge` are used. Raw Semantic Scholar author IDs are never modified.
+Only rows whose decision is exactly `merge` are used to build alias components.
+Explicit `separate` decisions are hard constraints: if transitive merges would place
+a reviewed-separate pair in one component, reconciliation fails rather than silently
+overriding the reviewer's decision. Raw Semantic Scholar author IDs are never modified.
 """
 from __future__ import annotations
 
@@ -31,6 +34,28 @@ class UnionFind:
         self.parent[child] = root
 
 
+def validate_separate_constraints(uf: UnionFind, separates: pd.DataFrame, all_ids: set[str]) -> None:
+    """Fail if an explicit `separate` decision is contradicted by merge components."""
+    if separates.empty:
+        return
+    separate_ids = set(separates["author_id_a"].astype(str)) | set(separates["author_id_b"].astype(str))
+    unknown_ids = separate_ids - all_ids
+    if unknown_ids:
+        raise RuntimeError(f"Reviewed separate decisions reference unknown author IDs: {sorted(unknown_ids)[:20]}")
+
+    conflicts = []
+    for r in separates.itertuples(index=False):
+        a, b = str(r.author_id_a), str(r.author_id_b)
+        if uf.find(a) == uf.find(b):
+            conflicts.append((a, b, uf.find(a)))
+    if conflicts:
+        preview = conflicts[:20]
+        raise RuntimeError(
+            "Reviewed identity decisions are contradictory: explicit `separate` pairs "
+            f"were joined transitively by merge decisions: {preview}"
+        )
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--outputs-dir", required=True, type=Path)
@@ -54,7 +79,9 @@ def main():
 
     all_ids = set(people["author_id"].astype(str))
     uf = UnionFind(all_ids)
-    merges = reviewed[reviewed["decision"].fillna("").astype(str).str.strip().str.lower().eq("merge")].copy()
+    decision = reviewed["decision"].fillna("").astype(str).str.strip().str.lower()
+    merges = reviewed[decision.eq("merge")].copy()
+    separates = reviewed[decision.eq("separate")].copy()
 
     unknown_ids = (set(merges["author_id_a"].astype(str)) | set(merges["author_id_b"].astype(str))) - all_ids
     if unknown_ids:
@@ -62,6 +89,10 @@ def main():
 
     for r in merges.itertuples(index=False):
         uf.union(str(r.author_id_a), str(r.author_id_b))
+
+    # A reviewer may explicitly declare a pair separate even when two merge rows form
+    # a transitive path between them. Treat that as contradictory input and stop.
+    validate_separate_constraints(uf, separates, all_ids)
 
     groups = {}
     for aid in sorted(all_ids):
@@ -132,6 +163,7 @@ def main():
     summary = {
         "source_people_rows": len(people),
         "reviewed_merge_rows": len(merges),
+        "reviewed_separate_rows": len(separates),
         "canonical_people": reconciled["canonical_person_id"].nunique(),
         "source_ids_in_multi_id_components": int(alias_df.loc[alias_df["component_size"] > 1, "author_id"].nunique()),
         "multi_id_components": int(alias_df.loc[alias_df["component_size"] > 1, "canonical_person_id"].nunique()),
