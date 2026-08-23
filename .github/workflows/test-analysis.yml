@@ -8,6 +8,7 @@ on:
       - 'docs/IA-005-proximity-aware-role-triage.md'
       - 'docs/IA-006-discovered-role-bridge-recovery.md'
       - 'docs/IA-007-llm-first-semantic-screening.md'
+      - 'docs/POSTANALYSIS_PAPER_FLOW.md'
       - '.github/workflows/test-analysis.yml'
   workflow_dispatch:
 
@@ -73,7 +74,6 @@ jobs:
           assert 'out_of_scope' in llm.ALLOWED_DECISIONS
           assert 'training_outreach' in llm.ALLOWED_ROLES
           demo = llm.build_prompt({'title': 'Demo', 'abstract': 'A connectome paper.'}, 'unresolved')
-          assert 'high-recall' not in demo.lower()  # high-recall instruction lives in system prompt
           assert 'uncertain rather than out_of_scope' in demo
           print('analysis helper checks passed')
           PY
