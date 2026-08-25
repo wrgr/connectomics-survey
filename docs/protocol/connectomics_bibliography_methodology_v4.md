@@ -51,19 +51,21 @@ This is a scoping/evidence-mapping review with bibliometric augmentation. Search
 
 Each component of this protocol follows a published standard where one exists; the table is the citation map. Components with no published standard are listed separately as extensions, with their rationale — the claim is never that everything here is conventional, only that departures are named.
 
+All DOIs below were verified to resolve via Crossref on 2026-08-25, per this protocol's own §12.3 standard.
+
 | Component | Standard followed | Citation |
 |---|---|---|
-| Study type: scoping/evidence map with no importance-based inclusion | Scoping-review framework; evidence-map methodology | Arksey & O'Malley, *Int J Soc Res Methodol* 2005;8:19–32; Miake-Lye et al., *Syst Rev* 2016;5:28 |
-| Conduct and charting (§11–§12) | JBI scoping-review guidance; PRISMA-ScR reporting | Peters et al., *JBI Evid Synth* 2020;18:2119–26; Tricco et al., *Ann Intern Med* 2018;169:467–73 |
-| Search documentation (§19) | PRISMA-S (exact strings, dates, counts, per source) | Rethlefsen et al., *Syst Rev* 2021;10:39; Page et al., *BMJ* 2021;372:n71 |
-| Search-string review before freeze (§24.4) | PRESS peer review of electronic search strategies | McGowan et al., *J Clin Epidemiol* 2016;75:40–46 |
-| Citation searching: terminology, seeds, iterations, stopping (§9) | TARCiS statement | Hirt et al., *BMJ* 2024;385:e078384 |
-| Co-citation and bibliographic coupling (§9.1, §10) | Classical bibliometric operators | Small, *JASIS* 1973;24:265–69; Kessler, *Am Doc* 1963;14:10–25 |
-| Percentile-within-cell Core thresholds (§3.1) | Percentile-based indicators; field/era normalization | Waltman & Schreiber, *JASIST* 2013;64:372–79; Hicks et al. (Leiden Manifesto), *Nature* 2015;520:429–31 |
-| Authorship-role evidence (§15.1) | CRediT contributor taxonomy | Brand et al., *Learned Publishing* 2015;28:151–55 |
+| Study type: scoping/evidence map with no importance-based inclusion | Scoping-review framework; evidence-map methodology | Arksey & O'Malley, *Int J Soc Res Methodol* 2005;8:19–32 (doi:10.1080/1364557032000119616); Miake-Lye et al., *Syst Rev* 2016;5:28 (doi:10.1186/s13643-016-0204-x) |
+| Conduct and charting (§11–§12) | JBI scoping-review guidance; PRISMA-ScR reporting | Peters et al., *JBI Evid Synth* 2020;18:2119–26 (doi:10.11124/JBIES-20-00167); Tricco et al., *Ann Intern Med* 2018;169:467–73 (doi:10.7326/M18-0850) |
+| Search documentation (§19) | PRISMA-S (exact strings, dates, counts, per source) | Rethlefsen et al., *Syst Rev* 2021;10:39 (doi:10.1186/s13643-020-01542-z); Page et al., *BMJ* 2021;372:n71 (doi:10.1136/bmj.n71) |
+| Search-string review before freeze (§24.4) | PRESS peer review of electronic search strategies | McGowan et al., *J Clin Epidemiol* 2016;75:40–46 (doi:10.1016/j.jclinepi.2016.01.021) |
+| Citation searching: terminology, seeds, iterations, stopping (§9) | TARCiS statement | Hirt et al., *BMJ* 2024;385:e078384 (doi:10.1136/bmj-2023-078384) |
+| Co-citation and bibliographic coupling (§9.1, §10) | Classical bibliometric operators | Small, *JASIS* 1973;24:265–69 (doi:10.1002/asi.4630240406); Kessler, *Am Doc* 1963;14:10–25 (doi:10.1002/asi.5090140103) |
+| Percentile-within-cell Core thresholds (§3.1) | Percentile-based indicators; field/era normalization | Waltman & Schreiber, *JASIST* 2013;64:372–79 (doi:10.1002/asi.22775); Hicks et al. (Leiden Manifesto), *Nature* 2015;520:429–31 (doi:10.1038/520429a) |
+| Authorship-role evidence (§15.1) | CRediT contributor taxonomy | Brand et al., *Learned Publishing* 2015;28:151–55 (doi:10.1087/20150211) |
 | Retraction checking (§12.3, §25-R) | Crossref/Retraction Watch practice per systematic-review guidance | Cochrane Handbook (Higgins et al., eds.), current version |
-| Versioned post-freeze updating (§25) | Living systematic review model | Elliott et al., *PLoS Med* 2014;11:e1001603 |
-| Reporting completeness for map-type syntheses | ROSES forms as a checklist cross-check | Haddaway et al., *Environ Evid* 2018;7:7 |
+| Versioned post-freeze updating (§25) | Living systematic review model | Elliott et al., *PLoS Med* 2014;11:e1001603 (doi:10.1371/journal.pmed.1001603) |
+| Reporting completeness for map-type syntheses | ROSES forms as a checklist cross-check | Haddaway et al., *Environ Evid* 2018;7:7 (doi:10.1186/s13750-018-0121-7) |
 
 **Extensions beyond standard practice** (no published standard exists; each is pre-specified here so it can be evaluated as method, not improvisation): the frozen probe/attestation panel and its convergence-based saturation audit (§5.5, §9.1a, §14); dial-invariance labeling of Core membership (§3.1); the design-path ablation clause (§18), which generalizes self-citation-exclusion practice from citations to editorial decisions; screener COI tagging by frozen coauthorship distance (§12.5); and the typed adjudication classes of §25, which specialize the living-review model with an explicit prohibition on item-wise tier edits.
 
