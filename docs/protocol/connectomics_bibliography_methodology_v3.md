@@ -1,5 +1,7 @@
 # Methodology for Building the Nanoscale Connectomics Training Bibliography (v3)
 
+> **Superseded 2026-08-25 by the v4 draft** (`connectomics_bibliography_methodology_v4.md`), which consolidates the execution amendments below and the design decisions recorded in IA-015/IA-016. This v3 text is retained unchanged as the historical record.
+
 ## Summary of revisions from v2
 
 | # | Issue in v2 | Change in v3 |

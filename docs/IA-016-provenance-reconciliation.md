@@ -84,6 +84,10 @@ The screener reported not knowing where the §21 held-out sets are or came from.
 
 Proposed amendments D-010/D-011 await the screener; they change §4/§21 wording to point at artifacts that exist, nothing else.
 
+## 4c. v4 consolidation (added later on 2026-08-25)
+
+The screener confirmed the reframing in §5's option analysis: since nothing is deposited, pre-deposit changes are **draft revisions, not amendments**. All decisions from the 2026-08-25 working session are consolidated into `docs/protocol/connectomics_bibliography_methodology_v4.md` (revision rows 26–39): the screener's design statement as §1's governing text; the two-study framing; the §3.0 tier logic (scope → situability → evidence, with "emerging work must cite the core" and its verification guard); the held-out replacement (§21 → corroboration and gap diagnosis vs. the pilot; backbone historical-only; seven-paper set struck); dial-invariance; §9.1b indefinitely gated; the §18 ablation clause; the evidence-first contribution map; byte-stream freeze discipline; past-tense §24 recording; and the new §25 post-freeze adjudication governance (typed change classes E/N/R/T, append-only adjudication log, versioned releases, item-wise tier edits prohibited, 5% nomination alarm). v3 is retained unchanged with a superseded banner. The deviations register here (D-001–D-009) remains the historical record; D-010/D-011 are absorbed into v4 rev. 30 as draft edits.
+
 ## 5. The registration decision
 
 ### Is registration required? No.
