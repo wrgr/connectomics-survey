@@ -74,6 +74,16 @@ D-001 and D-002 were logged in the bootstrap manifest; numbering continues here.
 
 ---
 
+## 4b. Held-out set resolution (added later on 2026-08-25)
+
+The screener reported not knowing where the §21 held-out sets are or came from. Resolved by search of the repo, handoff bundle, and bootstrap state — full detail in `postanalysis/heldout/HELDOUT_PROVENANCE.md`:
+
+- The **"136-paper independent core" is `stage1_backbone_126.csv` (126 papers)**, a hand-curated backbone found in the 2026-08-21 handoff bundle, now extracted to `postanalysis/heldout/` (SHA `f2945e7f…`). "136" is prose number drift. Verified: the frozen pilot ran `mode: fresh, seed_csv: null` (config hash matches the run manifest), so the backbone **never seeded the pilot** and remains a valid held-out comparison set for both studies.
+- The **"seven-paper held-out set" has no artifact anywhere**; it cannot validate anything until produced or reconstructed with a dated note. Recommended: strike or reconstitute (proposed D-011).
+- The **"bespoke bibliography"** is most plausibly the backbone itself (or its predecessor); no separate file exists. Recommended: merge the references (proposed D-010).
+
+Proposed amendments D-010/D-011 await the screener; they change §4/§21 wording to point at artifacts that exist, nothing else.
+
 ## 5. The registration decision
 
 ### Is registration required? No.
