@@ -1,0 +1,31 @@
+work_id,v3_decision,v3_confidence,v3_scale_relationship,v3_core_gate,v3_reason
+work_d26d9182a414bd2a,out_of_scope,0.92,macro_only,not_applicable,Complement/microglia circuit sculpting; no wiring reconstruction or EM connectome
+work_6e195ba01e83af37,out_of_scope,0.90,unclear,not_applicable,GABA synthesis gene genetics; not wiring-map or connectomics science
+work_7519484d8a64bfa5,adjacent_relevant,0.88,nanoscale_only,not_applicable,General 3D EM visualization tool widely used by field; not connectomics-specific pipeline
+work_5fce6ceceeaa09c7,adjacent_relevant,0.90,multi_scale_bridging,not_applicable,Comparative connectomics / network-science framing across connectomes
+work_925c3e324896606e,core_relevant,0.82,nanoscale_only,connectomics_pipeline_tool,EM segmentation/analysis platform used for connectomics volumes; pipeline-adjacent tool
+work_7773a3cd24b3497d,core_relevant,0.97,nanoscale_only,analysis_on_wiring_graph,Hemibrain adult fly central brain connectome release and analysis
+work_241b54c819ff405b,core_relevant,0.95,nanoscale_only,connectomics_pipeline_tool,FlyWire whole-brain connectomics community proofreading platform
+work_bb4463044f5b072c,core_relevant,0.96,nanoscale_only,connectomics_pipeline_tool,TrakEM2 neural circuit reconstruction software
+work_000e65dd7ca70fca,out_of_scope,0.94,macro_only,not_applicable,Multi-site DTI/MRI structural connectivity harmonization; macro imaging connectome
+work_00089fd941984712,out_of_scope,0.93,macro_only,not_applicable,fMRI BOLD functional connectome semi-metric analysis; not synaptic wiring
+work_f3856b91236f8482,out_of_scope,0.88,macro_only,not_applicable,Clinical macro human connectome in Alzheimer disease; no EM wiring link
+work_047e0665d50b50ba,core_relevant,0.91,nanoscale_only,connectomics_pipeline_tool,Crowdsourced segmentation algorithms explicitly for connectomics
+work_d2df514fdb3df8f0,adjacent_relevant,0.85,nanoscale_only,not_applicable,Review of volume EM methods for circuit reconstruction; not a primary dataset/method paper
+work_06a819921125fd5b,core_relevant,0.96,nanoscale_only,em_or_synaptic_reconstruction,Complete EM connectome of insect learning/memory centre
+work_1f5bc11fd70f625f,core_relevant,0.97,nanoscale_only,em_or_synaptic_reconstruction,Petavoxel human cortex EM nanoscale reconstruction
+work_6f86d20c9bf6e84d,core_relevant,0.95,nanoscale_only,analysis_on_wiring_graph,Whole-brain fly annotation and multi-connectome cell typing on wiring data
+work_2b4f63e6ecb953d1,core_relevant,0.94,nanoscale_only,analysis_on_wiring_graph,Classic C. elegans touch circuit wiring analysis
+work_c3af570cd83d4cfb,core_relevant,0.93,nanoscale_only,analysis_on_wiring_graph,Graph analysis of C. elegans neuronal network from connectome
+work_233d52315fe236ff,core_relevant,0.92,nanoscale_only,analysis_on_wiring_graph,Rich-club analysis on C. elegans connectome graph
+work_f4089e71d372f0e5,core_relevant,0.90,nanoscale_only,analysis_on_wiring_graph,EM connectomic comparison mouse vs human cortex
+work_d552830c86eb491f,core_relevant,0.94,nanoscale_only,connectomics_pipeline_tool,Structured-loss deep learning segmentation for connectomics EM
+work_285cb125e7317a02,out_of_scope,0.91,macro_only,not_applicable,Primate prefrontal electrophysiology/working memory; not wiring connectomics
+work_0308d268ca38e94f,uncertain,0.62,unclear,not_applicable,PFC modularity model; connectomics mentioned but no clear nanoscale wiring evidence in abstract
+work_001454df91336514,out_of_scope,0.86,nanoscale_only,not_applicable,Developmental NMJ synaptogenesis genetics; not connectome reconstruction
+work_6a673ad711320968,core_relevant,0.93,nanoscale_only,connectomics_pipeline_tool,Graph analysis tools built for connectomics community
+work_5c2b6a3221e4435d,core_relevant,0.94,nanoscale_only,analysis_on_wiring_graph,Connectome subgraph query/isomorphism tool
+work_0954491569c0a9da,core_relevant,0.92,nanoscale_only,connectomics_pipeline_tool,Connectome assessment/QC toolkit for reconstruction pipelines
+work_af61a56e13719e47,core_relevant,0.95,nanoscale_only,connectomics_pipeline_tool,Automated images-to-graphs pipeline for high-resolution connectomics
+work_0da77aa3fcf687df,role_bridge,0.88,nanoscale_only,not_applicable,Annotation/metadata standards framework; infrastructure bridge not wiring science
+work_d8b2bfa158091c64,role_bridge,0.84,multi_scale_bridging,not_applicable,Macro neuroimaging datasets for connectome-constrained modeling; bridge not nanoscale core

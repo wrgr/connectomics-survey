@@ -1,0 +1,88 @@
+{
+  "v2_works": 4136,
+  "v3_works": 4136,
+  "scored_both": 4136,
+  "v2_decisions": {
+    "out_of_scope": 2028,
+    "uncertain": 43,
+    "adjacent_relevant": 613,
+    "core_relevant": 1075,
+    "insufficient_abstract": 153,
+    "role_bridge": 224
+  },
+  "v3_decisions": {
+    "out_of_scope": 2114,
+    "adjacent_relevant": 947,
+    "core_relevant": 701,
+    "insufficient_abstract": 153,
+    "role_bridge": 204,
+    "uncertain": 17
+  },
+  "tier_changes": 593,
+  "inclusive_flips": 180,
+  "core_v2": 1075,
+  "core_v3": 701,
+  "core_demotions": 385,
+  "core_promotions": 11,
+  "ultra_core_v2": 65,
+  "ultra_core_v3": 45,
+  "ultra_core_routes_v2": {
+    "cites>=200": 63,
+    "landmark+cites>=100": 2
+  },
+  "ultra_core_routes_v3": {
+    "cites>=200": 43,
+    "landmark+cites>=100": 2
+  },
+  "ultra_core_demotions": 21,
+  "confusion": {
+    "adjacent_relevant": {
+      "adjacent_relevant": 552,
+      "core_relevant": 323,
+      "insufficient_abstract": 0,
+      "out_of_scope": 33,
+      "role_bridge": 28,
+      "uncertain": 11
+    },
+    "core_relevant": {
+      "adjacent_relevant": 3,
+      "core_relevant": 690,
+      "insufficient_abstract": 0,
+      "out_of_scope": 0,
+      "role_bridge": 7,
+      "uncertain": 1
+    },
+    "insufficient_abstract": {
+      "adjacent_relevant": 0,
+      "core_relevant": 0,
+      "insufficient_abstract": 153,
+      "out_of_scope": 0,
+      "role_bridge": 0,
+      "uncertain": 0
+    },
+    "out_of_scope": {
+      "adjacent_relevant": 50,
+      "core_relevant": 46,
+      "insufficient_abstract": 0,
+      "out_of_scope": 1973,
+      "role_bridge": 23,
+      "uncertain": 22
+    },
+    "role_bridge": {
+      "adjacent_relevant": 7,
+      "core_relevant": 16,
+      "insufficient_abstract": 0,
+      "out_of_scope": 15,
+      "role_bridge": 166,
+      "uncertain": 0
+    },
+    "uncertain": {
+      "adjacent_relevant": 1,
+      "core_relevant": 0,
+      "insufficient_abstract": 0,
+      "out_of_scope": 7,
+      "role_bridge": 0,
+      "uncertain": 9
+    }
+  }
+}

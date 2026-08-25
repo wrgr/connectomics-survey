@@ -1,0 +1,30 @@
+{
+  "lists": {
+    "label_ultra_core_ranked.csv": 54,
+    "label_core_ranked.csv": 694,
+    "label_core_non_ultra_ranked.csv": 640,
+    "label_top50_inclusive_by_cites.csv": 50,
+    "label_ultra_core.csv": 54
+  },
+  "figures": [
+    "01_full_vs_prime_ladder.png",
+    "01_ia013_layer_ladder.png",
+    "02_link_strength_by_tier.png",
+    "03_citation_roles_by_tier.png",
+    "04_top_communities_integrated_plus_rescue.png",
+    "04_top_communities_prime.png",
+    "05_core_ultra_by_year.png",
+    "06_core_in_out_degree.png",
+    "07_top25_core_by_cites.png",
+    "08_top20_people_full.png",
+    "09_top20_people_integrated_plus_rescue.png",
+    "09_top20_people_prime.png",
+    "10_ultra_core_all_by_cites.png"
+  ],
+  "counts": {
+    "ultra": 54,
+    "core": 694,
+    "core_non_ultra": 640,
+    "inclusive": 1806
+  }
+}

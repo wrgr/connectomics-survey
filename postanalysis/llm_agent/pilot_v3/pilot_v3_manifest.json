@@ -1,0 +1,21 @@
+{
+  "prompt_version_draft": "IA-007-v3-work-level",
+  "criteria_doc": "docs/IA-007-v3-screening-criteria-draft.md",
+  "sample_n": 200,
+  "golden_n": 30,
+  "golden_v2_to_v3_changes": 9,
+  "golden_v2_core": 24,
+  "golden_v3_core": 17,
+  "golden_v3_counts": {
+    "core_relevant": 17,
+    "out_of_scope": 7,
+    "adjacent_relevant": 3,
+    "role_bridge": 2,
+    "uncertain": 1
+  },
+  "files": {
+    "sample": "postanalysis/llm_agent/pilot_v3/pilot_v3_sample.csv",
+    "golden_reference": "postanalysis/llm_agent/pilot_v3/pilot_v3_golden_reference.csv",
+    "golden_comparison": "postanalysis/llm_agent/pilot_v3/pilot_v3_golden_comparison.csv"
+  }
+}

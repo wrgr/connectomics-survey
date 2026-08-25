@@ -1,0 +1,19 @@
+{
+  "frozen_retained_total": 3768,
+  "derived_nanoscale_core": 1685,
+  "strict_retained_role_bridges": 15,
+  "unresolved_retained_noncore": 2068,
+  "unresolved_buckets": {
+    "unresolved_macroscale_review": 1018,
+    "unresolved_role_signal_not_strict_bridge": 841,
+    "unresolved_graph_supported_adjacent_review": 149,
+    "unresolved_low_specificity_review": 60
+  },
+  "recovered_keep_false_role_bridges": 391,
+  "semantic_analysis_record_universe": 4159,
+  "invariants": {
+    "frozen_retained_partition": "3768 = 1685 + 15 + 2068",
+    "analysis_record_universe": "4159 = 3768 retained + 391 recovered bridge records",
+    "note": "Recovered bridge records remain keep=False for provenance but ARE included in semantic/work-level post-analysis."
+  }
+}

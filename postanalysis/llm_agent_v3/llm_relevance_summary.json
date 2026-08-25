@@ -1,0 +1,58 @@
+{
+  "prompt_version": "IA-007-v3-work-level",
+  "model": "agent:cursor/claude-opus-5-thinking@2026-08-24",
+  "run_mode": "agent_offline",
+  "adjudicator": "agent:cursor/claude-opus-5-thinking@2026-08-24",
+  "criteria_sha256": "7fb4cab60b9426966bf43edf4e02e5c1b19b5ddf3ddd43cfb8292902f4b8b04a",
+  "screened_works": 4136,
+  "prepared_works": 4136,
+  "undecided_works": 0,
+  "source_groups": {
+    "unresolved": 2062,
+    "core_audit": 1678,
+    "role_bridge": 396
+  },
+  "decision_counts": {
+    "core_audit": {
+      "adjacent_relevant": 679,
+      "core_relevant": 641,
+      "insufficient_abstract": 50,
+      "out_of_scope": 261,
+      "role_bridge": 41,
+      "uncertain": 6
+    },
+    "role_bridge": {
+      "adjacent_relevant": 58,
+      "core_relevant": 41,
+      "insufficient_abstract": 37,
+      "out_of_scope": 151,
+      "role_bridge": 109,
+      "uncertain": 0
+    },
+    "unresolved": {
+      "adjacent_relevant": 211,
+      "core_relevant": 19,
+      "insufficient_abstract": 66,
+      "out_of_scope": 1701,
+      "role_bridge": 54,
+      "uncertain": 11
+    }
+  },
+  "missing_abstracts": 153,
+  "human_review_queue": 1677,
+  "human_review_reasons": {
+    "low_confidence": 1070,
+    "core_noise_audit": 317,
+    "random_high_confidence_exclusion_audit": 176,
+    "uncertain_or_missing_abstract": 114
+  },
+  "exclusion_rate_by_source_group": {
+    "core_audit": 0.155542,
+    "role_bridge": 0.381313,
+    "unresolved": 0.824927
+  },
+  "batch_count": 40,
+  "overlap_works": 0,
+  "internal_replicate_conflicts": 0,
+  "principle": "LLM first pass at canonical-work level; no source keep/core/bridge/work-link status is mutated."
+}

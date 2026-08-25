@@ -1,0 +1,77 @@
+{
+  "v2_works": 4136,
+  "v3_works": 4136,
+  "scored_both": 4136,
+  "v2_decisions": {
+    "out_of_scope": 2028,
+    "uncertain": 43,
+    "adjacent_relevant": 613,
+    "core_relevant": 1075,
+    "insufficient_abstract": 153,
+    "role_bridge": 224
+  },
+  "v3_decisions": {
+    "out_of_scope": 2052,
+    "uncertain": 43,
+    "adjacent_relevant": 631,
+    "core_relevant": 1032,
+    "insufficient_abstract": 153,
+    "role_bridge": 225
+  },
+  "tier_changes": 43,
+  "inclusive_flips": 24,
+  "core_v2": 1075,
+  "core_v3": 1032,
+  "core_demotions": 43,
+  "core_promotions": 0,
+  "confusion": {
+    "adjacent_relevant": {
+      "adjacent_relevant": 613,
+      "core_relevant": 18,
+      "insufficient_abstract": 0,
+      "out_of_scope": 0,
+      "role_bridge": 0,
+      "uncertain": 0
+    },
+    "core_relevant": {
+      "adjacent_relevant": 0,
+      "core_relevant": 1032,
+      "insufficient_abstract": 0,
+      "out_of_scope": 0,
+      "role_bridge": 0,
+      "uncertain": 0
+    },
+    "insufficient_abstract": {
+      "adjacent_relevant": 0,
+      "core_relevant": 0,
+      "insufficient_abstract": 153,
+      "out_of_scope": 0,
+      "role_bridge": 0,
+      "uncertain": 0
+    },
+    "out_of_scope": {
+      "adjacent_relevant": 0,
+      "core_relevant": 24,
+      "insufficient_abstract": 0,
+      "out_of_scope": 2028,
+      "role_bridge": 0,
+      "uncertain": 0
+    },
+    "role_bridge": {
+      "adjacent_relevant": 0,
+      "core_relevant": 1,
+      "insufficient_abstract": 0,
+      "out_of_scope": 0,
+      "role_bridge": 224,
+      "uncertain": 0
+    },
+    "uncertain": {
+      "adjacent_relevant": 0,
+      "core_relevant": 0,
+      "insufficient_abstract": 0,
+      "out_of_scope": 0,
+      "role_bridge": 0,
+      "uncertain": 43
+    }
+  }
+}

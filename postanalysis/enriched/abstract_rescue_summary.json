@@ -1,0 +1,13 @@
+{
+  "works": 4100,
+  "missing_before": 315,
+  "rescued": 164,
+  "missing_after": 151,
+  "rescue_sources": {
+    "existing": 3785,
+    "europe_pmc": 159,
+    "missing": 151,
+    "crossref": 5
+  },
+  "note": "Best effort only; remaining missing abstracts must stay reviewable and cannot be excluded from title alone."
+}

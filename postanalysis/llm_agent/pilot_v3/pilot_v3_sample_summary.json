@@ -1,0 +1,20 @@
+{
+  "n_total": 200,
+  "golden_n": 30,
+  "v2_decision_counts": {
+    "core_relevant": 68,
+    "out_of_scope": 50,
+    "adjacent_relevant": 38,
+    "role_bridge": 28,
+    "uncertain": 16
+  },
+  "stratum_counts": {
+    "core_relevant": 40,
+    "adjacent_relevant": 35,
+    "out_of_scope": 35,
+    "golden": 30,
+    "role_bridge": 25,
+    "fill": 20,
+    "uncertain": 15
+  }
+}

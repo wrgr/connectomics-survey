@@ -1,0 +1,245 @@
+{
+  "corpus_works": 1912,
+  "analysis_tier_counts": {
+    "core_high_confidence": 1032,
+    "adjacent": 613,
+    "role_bridge": 224,
+    "core_review": 43
+  },
+  "survey_tier_counts": {
+    "core_relevant": 1075,
+    "adjacent_relevant": 613,
+    "role_bridge": 224
+  },
+  "curriculum_label_counts": {
+    "field_defining": 115,
+    "core_methods": 628,
+    "key_for_students": 504
+  },
+  "multi_label_works": 225,
+  "coauthorship": {
+    "reconciled_people": true,
+    "nodes": 6824,
+    "edges": 120351,
+    "connected_components": 275,
+    "largest_component_nodes": 5656,
+    "communities": 331,
+    "top_weighted_degree": [
+      {
+        "display_name": "J. Lichtman",
+        "works_in_corpus": 76,
+        "weighted_degree": 803.0
+      },
+      {
+        "display_name": "Hanspeter Pfister",
+        "works_in_corpus": 55,
+        "weighted_degree": 634.0
+      },
+      {
+        "display_name": "H. Sebastian Seung",
+        "works_in_corpus": 44,
+        "weighted_degree": 1412.0
+      },
+      {
+        "display_name": "G. Jefferis",
+        "works_in_corpus": 43,
+        "weighted_degree": 1467.0
+      },
+      {
+        "display_name": "Kea-Joo Lee",
+        "works_in_corpus": 42,
+        "weighted_degree": 1459.0
+      },
+      {
+        "display_name": "Albert Cardona",
+        "works_in_corpus": 39,
+        "weighted_degree": 348.0
+      },
+      {
+        "display_name": "Sven Dorkenwald",
+        "works_in_corpus": 38,
+        "weighted_degree": 1510.0
+      },
+      {
+        "display_name": "Philipp Schlegel",
+        "works_in_corpus": 34,
+        "weighted_degree": 1283.0
+      },
+      {
+        "display_name": "Szi-chieh Yu",
+        "works_in_corpus": 33,
+        "weighted_degree": 1943.0
+      },
+      {
+        "display_name": "Jingpeng Wu",
+        "works_in_corpus": 31,
+        "weighted_degree": 1142.0
+      },
+      {
+        "display_name": "Stephen M. Plaza",
+        "works_in_corpus": 31,
+        "weighted_degree": 679.0
+      },
+      {
+        "display_name": "Rongwen Lu",
+        "works_in_corpus": 30,
+        "weighted_degree": 1289.0
+      },
+      {
+        "display_name": "Marta Costa",
+        "works_in_corpus": 30,
+        "weighted_degree": 1094.0
+      },
+      {
+        "display_name": "Shin-ya Takemura",
+        "works_in_corpus": 29,
+        "weighted_degree": 1317.0
+      },
+      {
+        "display_name": "Chuanyun Xu",
+        "works_in_corpus": 29,
+        "weighted_degree": 848.0
+      }
+    ],
+    "top_betweenness": [
+      {
+        "display_name": "Joseph Hsu",
+        "betweenness": 0.018687
+      },
+      {
+        "display_name": "Siqi Fang",
+        "betweenness": 0.016322
+      },
+      {
+        "display_name": "Imaan F. M. Tamimi",
+        "betweenness": 0.015681
+      },
+      {
+        "display_name": "Laia Serratosa Capdevila",
+        "betweenness": 0.015617
+      },
+      {
+        "display_name": "A. Javier",
+        "betweenness": 0.015549
+      },
+      {
+        "display_name": "Sanna Koskela",
+        "betweenness": 0.015404
+      },
+      {
+        "display_name": "Ladann Kiassat",
+        "betweenness": 0.013985
+      },
+      {
+        "display_name": "I. Tastekin",
+        "betweenness": 0.013593
+      },
+      {
+        "display_name": "Yijie Yin",
+        "betweenness": 0.012834
+      },
+      {
+        "display_name": "Georgia Dempsey",
+        "betweenness": 0.011838
+      }
+    ],
+    "top_communities": [
+      {
+        "community_id": 0,
+        "size": 1271,
+        "top_members": [
+          "Xiaoyin Chen",
+          "Yonggang Wang",
+          "Yuanyuan Li",
+          "Mark Ellisman",
+          "Hongqing Han",
+          "Yi-Shiuan Liu"
+        ]
+      },
+      {
+        "community_id": 1,
+        "size": 683,
+        "top_members": [
+          "J. Lichtman",
+          "Hanspeter Pfister",
+          "Stephen M. Plaza",
+          "Chuanyun Xu",
+          "Donglai Wei",
+          "Xiao-jing Wang"
+        ]
+      },
+      {
+        "community_id": 2,
+        "size": 648,
+        "top_members": [
+          "Albert Cardona",
+          "J. Vogelstein",
+          "Brock Andrew Wester",
+          "Jordan K. Matelsky",
+          "C. Priebe",
+          "William R. Gray-Roncal"
+        ]
+      },
+      {
+        "community_id": 3,
+        "size": 529,
+        "top_members": [
+          "H. Sebastian Seung",
+          "G. Jefferis",
+          "Kea-Joo Lee",
+          "Sven Dorkenwald",
+          "Philipp Schlegel",
+          "Szi-chieh Yu"
+        ]
+      },
+      {
+        "community_id": 4,
+        "size": 488,
+        "top_members": [
+          "Oliver Hobert",
+          "Steven J. Cook",
+          "Scott W. Emmons",
+          "WR Schafer",
+          "Isabel Beets",
+          "D. Hall"
+        ]
+      },
+      {
+        "community_id": 5,
+        "size": 383,
+        "top_members": [
+          "Olaf Sporns",
+          "B. Mi\u0161i\u0107",
+          "Seung-Hee Lee",
+          "M. P. van den heuvel",
+          "Caio Seguin",
+          "A. Fornito"
+        ]
+      },
+      {
+        "community_id": 6,
+        "size": 353,
+        "top_members": [
+          "M. Helmstaedter",
+          "R. Friedrich",
+          "A. Wanner",
+          "K. Briggman",
+          "Winfried Denk",
+          "Joergen Kornfeld"
+        ]
+      },
+      {
+        "community_id": 7,
+        "size": 241,
+        "top_members": [
+          "Javier DeFelipe",
+          "Henry Markram",
+          "Michael W. Reimann",
+          "G. Knott",
+          "Christoph Sommer",
+          "\u00c1. Merch\u00e1n-P\u00e9rez"
+        ]
+      }
+    ]
+  }
+}

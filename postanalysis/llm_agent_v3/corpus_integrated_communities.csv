@@ -1,0 +1,177 @@
+label,works,graph_matched,median_in_degree,median_out_degree,median_total_degree,median_out_in_ratio,median_k_core,citation_roles,citation_link_strength,weak_links,weak_unlinked,no_graph,ultra_core,community_id,community_label,core,adjacent,role_bridge
+J. Lichtman / Hanspeter Pfister,227,227,1.0,5.0,7.0,2.0,6.0,"{'broker': 129, 'only_out': 64, 'only_in': 29, 'hub': 5}","{'moderate': 112, 'strong': 87, 'weak': 28}",28,0,0,8,0,J. Lichtman / Hanspeter Pfister,142,79,6
+Albert Cardona / R. D. Fetter,112,112,2.0,4.0,9.0,1.167,7.0,"{'only_in': 16, 'broker': 68, 'only_out': 23, 'hub': 5}","{'weak': 11, 'moderate': 52, 'strong': 49}",11,0,0,9,2,Albert Cardona / R. D. Fetter,70,40,2
+G. Jefferis / Sven Dorkenwald,110,110,7.0,7.0,13.0,1.08,10.0,"{'broker': 82, 'only_out': 14, 'hub': 8, 'only_in': 6}","{'strong': 72, 'moderate': 37, 'weak': 1}",1,0,0,8,1,G. Jefferis / Sven Dorkenwald,81,25,4
+Oliver Hobert / Steven J. Cook,73,73,2.0,5.0,7.0,1.5,6.0,"{'broker': 48, 'only_out': 13, 'hub': 4, 'only_in': 8}","{'moderate': 36, 'weak': 11, 'strong': 26}",11,0,0,4,4,Oliver Hobert / Steven J. Cook,34,39,0
+H. Sebastian Seung / Kea-Joo Lee,62,62,3.0,7.5,10.0,1.9,8.0,"{'broker': 40, 'only_out': 13, 'hub': 4, 'only_in': 5}","{'moderate': 22, 'strong': 36, 'weak': 4}",4,0,0,5,3,H. Sebastian Seung / Kea-Joo Lee,51,10,1
+M. Helmstaedter / D. Chklovskii,46,46,2.0,2.5,7.5,1.044,5.5,"{'only_in': 12, 'broker': 28, 'only_out': 5, 'hub': 1}","{'weak': 5, 'moderate': 25, 'strong': 16}",5,0,0,5,5,M. Helmstaedter / D. Chklovskii,23,23,0
+James R. Anderson / Bryan William Jones,35,35,2.0,3.0,6.0,1.25,5.0,"{'only_out': 6, 'broker': 27, 'only_in': 2}","{'strong': 10, 'moderate': 23, 'weak': 2}",2,0,0,0,6,James R. Anderson / Bryan William Jones,24,10,1
+Brock Andrew Wester / Jordan K. Matelsky,24,24,2.0,7.5,9.5,4.0,7.0,"{'broker': 17, 'only_out': 6, 'only_in': 1}","{'strong': 12, 'moderate': 11, 'weak': 1}",1,0,0,0,7,Brock Andrew Wester / Jordan K. Matelsky,15,3,6
+Caio Seguin / B. Mišić,10,10,2.5,14.5,16.5,4.7,10.0,"{'broker': 7, 'only_in': 1, 'only_out': 2}","{'strong': 7, 'moderate': 3}",0,0,0,0,13,Caio Seguin / B. Mišić,6,4,0
+Jongmin Lee / Jaeseung Jeong,7,7,1.0,6.0,8.0,1.333,7.0,"{'broker': 4, 'only_out': 3}","{'strong': 3, 'moderate': 3, 'weak': 1}",1,0,0,0,11,Jongmin Lee / Jaeseung Jeong,5,2,0
+S. Zipursky / Parmis S. Mirshahidi,6,6,2.0,6.5,9.0,2.833,6.0,"{'broker': 4, 'only_out': 1, 'only_in': 1}","{'moderate': 2, 'strong': 3, 'weak': 1}",1,0,0,0,10,S. Zipursky / Parmis S. Mirshahidi,2,4,0
+Srinivas C. Turaga / Fabian Tschopp,6,6,6.5,3.5,13.5,1.143,9.0,"{'only_out': 2, 'broker': 4}","{'moderate': 3, 'strong': 3}",0,0,0,1,12,Srinivas C. Turaga / Fabian Tschopp,4,2,0
+Guojia Wan / Minghui Liao,5,5,0.0,8.0,8.0,4.0,8.0,"{'broker': 2, 'only_out': 3}","{'strong': 2, 'moderate': 3}",0,0,0,0,14,Guojia Wan / Minghui Liao,4,1,0
+Mathias F. Wernet / Emil Kind,5,5,2.0,3.0,3.0,1.0,3.0,"{'broker': 3, 'only_out': 1, 'only_in': 1}","{'strong': 2, 'moderate': 2, 'weak': 1}",1,0,0,0,16,Mathias F. Wernet / Emil Kind,3,2,0
+Yongbin Wei / K. M. Sabrin,4,4,4.5,6.5,10.5,2.412,6.0,"{'broker': 3, 'only_out': 1}","{'strong': 2, 'moderate': 2}",0,0,0,0,17,Yongbin Wei / K. M. Sabrin,2,2,0
+Philipp Hövel / Jorge Ruiz,4,4,4.5,4.0,6.5,1.275,5.5,{'broker': 4},"{'moderate': 3, 'strong': 1}",0,0,0,0,18,Philipp Hövel / Jorge Ruiz,3,1,0
+T. R. Clandinin / Maxwell H. Turner,4,4,1.5,11.0,15.5,5.0,10.0,"{'broker': 3, 'only_out': 1}","{'strong': 3, 'moderate': 1}",0,0,0,0,26,T. R. Clandinin / Maxwell H. Turner,3,1,0
+Rembrandt Bakker / P. Tiesinga,4,4,1.0,3.5,4.5,2.058,4.5,"{'only_out': 1, 'only_in': 1, 'broker': 2}","{'moderate': 2, 'weak': 1, 'strong': 1}",1,0,0,0,20,Rembrandt Bakker / P. Tiesinga,0,2,2
+Masato Koike / T. Furuta,3,3,1.0,5.0,6.0,5.0,6.0,"{'only_out': 1, 'broker': 2}","{'moderate': 2, 'strong': 1}",0,0,0,0,9,Masato Koike / T. Furuta,1,2,0
+D. V. Van Essen / Shin Ishii,3,3,2.0,2.0,3.0,1.714,2.0,"{'only_in': 1, 'broker': 2}","{'weak': 1, 'strong': 1, 'moderate': 1}",1,0,0,0,21,D. V. Van Essen / Shin Ishii,1,2,0
+C. Clopath / N. A. Cayco-Gajic,3,3,1.0,0.0,1.0,0.0,1.0,"{'broker': 1, 'only_in': 2}",{'weak': 3},3,0,0,0,27,C. Clopath / N. A. Cayco-Gajic,0,3,0
+Julia Lyudchik / Alban Cenameri,3,3,6.0,2.0,8.0,0.722,7.0,{'broker': 3},"{'moderate': 2, 'strong': 1}",0,0,0,0,8,Julia Lyudchik / Alban Cenameri,1,2,0
+Oliver Schmitt / Peter Eipert,3,3,1.0,4.0,5.0,4.0,5.0,"{'broker': 2, 'only_out': 1}","{'moderate': 2, 'strong': 1}",0,0,0,0,19,Oliver Schmitt / Peter Eipert,0,2,1
+P. Yadav / Aradhana Singh,2,2,1.5,16.0,17.5,9.334,10.0,"{'only_out': 1, 'broker': 1}",{'strong': 2},0,0,0,0,82,P. Yadav / Aradhana Singh,2,0,0
+N. Chuhma / Daniel Eskenazi,2,2,1.0,1.0,2.0,1.0,2.0,{'broker': 2},{'weak': 2},2,0,0,0,64,N. Chuhma / Daniel Eskenazi,0,2,0
+E. Marder / Cori Bargmann,2,2,27.5,1.0,28.5,0.025,10.5,"{'broker': 1, 'only_in': 1}",{'strong': 2},0,0,0,0,49,E. Marder / Cori Bargmann,0,2,0
+J. Karbowski / F. Rakowski,2,2,4.0,4.5,8.5,2.312,5.5,"{'only_out': 1, 'broker': 1}","{'moderate': 1, 'strong': 1}",0,0,0,0,116,J. Karbowski / F. Rakowski,1,1,0
+A. Arnatkevic̆iūtė / Ben D. Fulcher,2,2,15.0,13.0,28.0,1.857,7.0,{'broker': 2},"{'strong': 1, 'moderate': 1}",0,0,0,0,32,A. Arnatkevic̆iūtė / Ben D. Fulcher,1,1,0
+Bradly Alicea / Jayadratha Gayen,2,2,1.0,7.5,8.5,4.75,6.5,"{'broker': 1, 'only_out': 1}","{'strong': 1, 'moderate': 1}",0,0,0,0,110,Bradly Alicea / Jayadratha Gayen,1,1,0
+S. Flavell / A. Gordus,2,2,1.0,8.5,9.5,8.5,8.5,{'broker': 2},"{'moderate': 1, 'strong': 1}",0,0,0,0,35,S. Flavell / A. Gordus,1,1,0
+C. Eroglu / W. C. Risher,2,2,1.0,0.0,1.0,0.0,1.0,{'only_in': 2},{'weak': 2},2,0,0,0,34,C. Eroglu / W. C. Risher,0,2,0
+Katrin Amunts / T. Lippert,2,2,5.5,2.0,7.5,0.65,3.0,{'broker': 2},"{'weak': 1, 'strong': 1}",1,0,0,0,33,Katrin Amunts / T. Lippert,0,2,0
+Jaison J. Omoto / Ivo G. Ros,2,2,1.0,5.0,6.0,3.5,5.5,"{'only_out': 1, 'broker': 1}",{'moderate': 2},0,0,0,0,36,Jaison J. Omoto / Ivo G. Ros,0,2,0
+Habib Benali / El-kaioum M. Moutuou,2,2,0.5,14.5,15.0,14.5,10.0,"{'only_out': 1, 'broker': 1}",{'strong': 2},0,0,0,0,31,Habib Benali / El-kaioum M. Moutuou,1,1,0
+Bowen Dempsey / Sheng Le,2,2,5.0,9.5,14.5,1.945,5.5,{'broker': 2},"{'moderate': 1, 'strong': 1}",0,0,0,0,25,Bowen Dempsey / Sheng Le,0,2,0
+Elizabeth M. DiLoreto / Christopher Chute,2,2,1.0,5.5,6.5,5.0,4.5,"{'broker': 1, 'only_out': 1}",{'moderate': 2},0,0,0,0,30,Elizabeth M. DiLoreto / Christopher Chute,0,2,0
+Daichi Yamada / Makoto Someya,2,2,0.0,5.0,5.0,5.0,5.0,{'only_out': 2},{'moderate': 2},0,0,0,0,24,Daichi Yamada / Makoto Someya,2,0,0
+Nobuhiko Ohno / Mitsuhiko Katoh,2,2,1.5,4.0,5.5,3.75,4.0,{'broker': 2},{'moderate': 2},0,0,0,0,22,Nobuhiko Ohno / Mitsuhiko Katoh,0,2,0
+Nils Reinhard / Giulia Manoli,2,2,1.5,4.5,6.0,2.25,4.0,"{'only_in': 1, 'broker': 1}","{'weak': 1, 'strong': 1}",1,0,0,0,23,Nils Reinhard / Giulia Manoli,2,0,0
+Macy Garrood / Allison Sowa,2,2,0.0,3.5,3.5,3.5,3.0,{'only_out': 2},{'moderate': 2},0,0,0,0,15,Macy Garrood / Allison Sowa,0,2,0
+N. Brunel / Heather K Titley,2,2,0.5,4.0,4.5,4.0,4.5,"{'only_out': 1, 'only_in': 1}","{'moderate': 1, 'weak': 1}",1,0,0,0,28,N. Brunel / Heather K Titley,0,2,0
+Gábor S. Szilágyi / Zsolt Vassy,2,2,5.0,17.0,22.0,11.15,9.5,"{'only_out': 1, 'broker': 1}",{'strong': 2},0,0,0,0,29,Gábor S. Szilágyi / Zsolt Vassy,2,0,0
+Leonid L. Moroz / D. Y. Romanova,1,1,0.0,12.0,12.0,12.0,10.0,{'only_out': 1},{'strong': 1},0,0,0,0,136,Leonid L. Moroz / D. Y. Romanova,0,1,0
+R. Borisyuk / S. Soffe,1,1,2.0,0.0,2.0,0.0,2.0,{'only_in': 1},{'weak': 1},1,0,0,0,135,R. Borisyuk / S. Soffe,0,1,0
+L. Vasung / P. Grant,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,134,L. Vasung / P. Grant,0,1,0
+Bhanu Priya Somashekar / U. Bhalla,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,137,Bhanu Priya Somashekar / U. Bhalla,0,1,0
+Dimitrios S. Giakoumas / Zepeng Yao,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,138,Dimitrios S. Giakoumas / Zepeng Yao,1,0,0
+Diya Prasanth / Matthew Tivnan,1,1,0.0,5.0,5.0,5.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,133,Diya Prasanth / Matthew Tivnan,0,1,0
+E. Dow / A. Hudspeth,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,132,E. Dow / A. Hudspeth,1,0,0
+O. Paredes / J. A. Morales,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,131,O. Paredes / J. A. Morales,0,1,0
+V. George / G. Silva,1,1,0.0,14.0,14.0,14.0,7.0,{'only_out': 1},{'strong': 1},0,0,0,0,139,V. George / G. Silva,0,1,0
+E. A. P. Wright / A. Goltsev,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,130,E. A. P. Wright / A. Goltsev,1,0,0
+M. Sacha / A. Destexhe,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,129,M. Sacha / A. Destexhe,0,1,0
+A. Knoblauch / F. Sommer,1,1,1.0,3.0,4.0,3.0,1.0,{'broker': 1},{'moderate': 1},0,0,0,0,128,A. Knoblauch / F. Sommer,0,1,0
+Leone Costi / Dario Izzo,1,1,3.0,5.0,8.0,1.667,5.0,{'broker': 1},{'moderate': 1},0,0,0,0,127,Leone Costi / Dario Izzo,1,0,0
+Michael G. Zhou / Jennifer O. Hasler,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,124,Michael G. Zhou / Jennifer O. Hasler,1,0,0
+S. Sigoillot / F. Selimi,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,126,S. Sigoillot / F. Selimi,0,1,0
+Eline Pecho-Vrieseling / S. Arber,1,1,2.0,0.0,2.0,0.0,2.0,{'only_in': 1},{'weak': 1},1,0,0,0,125,Eline Pecho-Vrieseling / S. Arber,0,1,0
+M. Marx / D. Feldmeyer,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,123,M. Marx / D. Feldmeyer,0,1,0
+Liangyu Tao / Vikas Bhandawat,1,1,1.0,4.0,5.0,4.0,5.0,{'broker': 1},{'moderate': 1},0,0,0,0,122,Liangyu Tao / Vikas Bhandawat,1,0,0
+Alina P. Sergeeva / B. Honig,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,121,Alina P. Sergeeva / B. Honig,0,1,0
+Enrico Lanza / V. Folli,1,1,3.0,0.0,3.0,0.0,3.0,{'only_in': 1},{'moderate': 1},0,0,0,0,120,Enrico Lanza / V. Folli,1,0,0
+Jacob J. Morra / M. Daley,1,1,2.0,0.0,2.0,0.0,2.0,{'only_in': 1},{'weak': 1},1,0,0,0,119,Jacob J. Morra / M. Daley,0,1,0
+M. Shakiba / Nima Dehghani,1,1,0.0,10.0,10.0,10.0,7.0,{'only_out': 1},{'strong': 1},0,0,0,0,118,M. Shakiba / Nima Dehghani,1,0,0
+Rachael Stentiford / Paul Graham,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,117,Rachael Stentiford / Paul Graham,1,0,0
+Emanuele Plebani / M. M. Dundar,1,1,2.0,1.0,3.0,0.5,3.0,{'broker': 1},{'moderate': 1},0,0,0,0,115,Emanuele Plebani / M. M. Dundar,1,0,0
+Alison Ehrlich / Justin Blau,1,1,2.0,6.0,8.0,3.0,6.0,{'broker': 1},{'moderate': 1},0,0,0,0,114,Alison Ehrlich / Justin Blau,0,1,0
+Anthony Moreno-Sanchez / Jessica Ausborn,1,1,1.0,2.0,3.0,2.0,3.0,{'broker': 1},{'moderate': 1},0,0,0,0,113,Anthony Moreno-Sanchez / Jessica Ausborn,1,0,0
+Timothy W. Dunn / Peter K. Koo,1,1,1.0,1.0,2.0,1.0,1.0,{'broker': 1},{'weak': 1},1,0,0,0,112,Timothy W. Dunn / Peter K. Koo,0,1,0
+P. G. Özdil / Pavan Ramdya,1,1,0.0,8.0,8.0,8.0,7.0,{'only_out': 1},{'moderate': 1},0,0,0,0,111,P. G. Özdil / Pavan Ramdya,1,0,0
+M. McDonnell / L. M. Ward,1,1,1.0,3.0,4.0,3.0,4.0,{'broker': 1},{'moderate': 1},0,0,0,0,141,M. McDonnell / L. M. Ward,0,1,0
+Patrick B. Chen / J. Flint,1,1,0.0,5.0,5.0,5.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,140,Patrick B. Chen / J. Flint,0,0,1
+Mu Qiao,1,1,0.0,17.0,17.0,17.0,7.0,{'only_out': 1},{'strong': 1},0,0,0,0,159,Mu Qiao,1,0,0
+A. L. Eberle / D. Zeidler,1,1,13.0,16.0,29.0,1.231,11.0,{'broker': 1},{'strong': 1},0,0,0,0,142,A. L. Eberle / D. Zeidler,0,1,0
+A. Gomez-Marin,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,167,A. Gomez-Marin,0,0,1
+Georgia Rapti,1,1,1.0,4.0,5.0,4.0,5.0,{'broker': 1},{'moderate': 1},0,0,0,0,161,Georgia Rapti,0,1,0
+Sebastien Kawada,1,1,0.0,5.0,5.0,5.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,162,Sebastien Kawada,1,0,0
+W. Nowinski,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,163,W. Nowinski,0,1,0
+Benjamin Li,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,164,Benjamin Li,1,0,0
+S. Therianos,1,1,0.0,11.0,11.0,11.0,8.0,{'only_out': 1},{'strong': 1},0,0,0,0,165,S. Therianos,1,0,0
+Katrin Vogt,1,1,1.0,3.0,4.0,3.0,4.0,{'broker': 1},{'moderate': 1},0,0,0,0,166,Katrin Vogt,0,1,0
+Rachel I. Wilson,1,1,5.0,4.0,9.0,0.8,7.0,{'broker': 1},{'moderate': 1},0,0,0,0,168,Rachel I. Wilson,0,1,0
+David J. Smith / T. Starborg,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,143,David J. Smith / T. Starborg,0,1,0
+Dawn M. Blitz,1,1,0.0,4.0,4.0,4.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,169,Dawn M. Blitz,0,1,0
+Liza Gross,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,170,Liza Gross,0,1,0
+Bettina Schnell,1,1,0.0,7.0,7.0,7.0,7.0,{'only_out': 1},{'moderate': 1},0,0,0,0,171,Bettina Schnell,0,1,0
+Venkatakrishnan Ramaswamy,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,172,Venkatakrishnan Ramaswamy,0,1,0
+Ronald L. Davis,1,1,1.0,3.0,4.0,3.0,4.0,{'broker': 1},{'moderate': 1},0,0,0,0,173,Ronald L. Davis,0,1,0
+E. White,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,174,E. White,0,1,0
+Xundong Wu,1,1,3.0,4.0,7.0,1.333,6.0,{'broker': 1},{'moderate': 1},0,0,0,0,160,Xundong Wu,1,0,0
+Michael T Stobb / E. Gahtan,1,1,4.0,8.0,12.0,2.0,5.0,{'broker': 1},{'strong': 1},0,0,0,0,108,Michael T Stobb / E. Gahtan,0,1,0
+T. Toyoizumi,1,1,0.0,3.0,3.0,3.0,2.0,{'only_out': 1},{'moderate': 1},0,0,0,0,158,T. Toyoizumi,0,1,0
+R. Jacobs,1,1,0.0,7.0,7.0,7.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,157,R. Jacobs,0,1,0
+R. De Schepper / E. D’Angelo,1,1,1.0,4.0,5.0,4.0,2.0,{'broker': 1},{'moderate': 1},0,0,0,0,156,R. De Schepper / E. D’Angelo,0,1,0
+K. Seymour / Lichtman Jeff,1,1,9.0,1.0,10.0,0.111,9.0,{'broker': 1},{'strong': 1},0,0,0,0,155,K. Seymour / Lichtman Jeff,1,0,0
+R. Fields / P. Basser,1,1,3.0,0.0,3.0,0.0,2.0,{'only_in': 1},{'moderate': 1},0,0,0,0,154,R. Fields / P. Basser,0,1,0
+A. Bhattacharjee / Srijita Sarkar,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,153,A. Bhattacharjee / Srijita Sarkar,1,0,0
+A. Goulas / C. Hilgetag,1,1,15.0,7.0,22.0,0.467,6.0,{'broker': 1},{'strong': 1},0,0,0,0,152,A. Goulas / C. Hilgetag,0,1,0
+G. Drion / R. Sepulchre,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,151,G. Drion / R. Sepulchre,0,1,0
+Enrico Corradini / Domenico Ursino,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,150,Enrico Corradini / Domenico Ursino,1,0,0
+H. Isaac Chen / Douglas H. Smith,1,1,0.0,8.0,8.0,8.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,149,H. Isaac Chen / Douglas H. Smith,0,1,0
+Pablo J. Lituma / Sayan Nandi,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,148,Pablo J. Lituma / Sayan Nandi,0,1,0
+Francesco Bardozzo / R. Tagliaferri,1,1,0.0,8.0,8.0,8.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,147,Francesco Bardozzo / R. Tagliaferri,0,1,0
+N. Kraynyukova / T. Tchumatchenko,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,146,N. Kraynyukova / T. Tchumatchenko,0,1,0
+Omar A. Hafez / Jan Pielage,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,145,Omar A. Hafez / Jan Pielage,0,1,0
+Cody Baker / R. Rosenbaum,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,144,Cody Baker / R. Rosenbaum,0,1,0
+Xinyue Cui / Nilay Yapici,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,109,Xinyue Cui / Nilay Yapici,1,0,0
+Jong-Hyun Son / J. Bonkowsky,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,88,Jong-Hyun Son / J. Bonkowsky,0,1,0
+K. Siju / Ilona C. Grunwald Kadow,1,1,1.0,11.0,12.0,11.0,8.0,{'broker': 1},{'strong': 1},0,0,0,0,107,K. Siju / Ilona C. Grunwald Kadow,0,1,0
+Akash Pal / L. Tian,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,61,Akash Pal / L. Tian,0,1,0
+N. Pospelov / A. Gorsky,1,1,1.0,4.0,5.0,4.0,4.0,{'broker': 1},{'moderate': 1},0,0,0,0,55,N. Pospelov / A. Gorsky,0,1,0
+Linnaea E. Ostroff / Joseph E LeDoux,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,56,Linnaea E. Ostroff / Joseph E LeDoux,0,1,0
+Ruby V. Jacobs / Anita V. Devineni,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,57,Ruby V. Jacobs / Anita V. Devineni,1,0,0
+Arturo Tozzi / L. Mariniello,1,1,0.0,7.0,7.0,7.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,58,Arturo Tozzi / L. Mariniello,0,1,0
+Alexis B'enichou / Christian L. Vestergaard,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,59,Alexis B'enichou / Christian L. Vestergaard,1,0,0
+Neele Wolterhoff / P. Hiesinger,1,1,0.0,10.0,10.0,10.0,8.0,{'only_out': 1},{'strong': 1},0,0,0,0,60,Neele Wolterhoff / P. Hiesinger,0,1,0
+Fatemeh Hadaeghi / Claus C. Hilgetag,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,62,Fatemeh Hadaeghi / Claus C. Hilgetag,1,0,0
+Haoran Chen / P. Heng,1,1,6.0,6.0,12.0,1.0,6.0,{'broker': 1},{'strong': 1},0,0,0,0,106,Haoran Chen / P. Heng,1,0,0
+Uzair Shah / Mowafa J Househ,1,1,1.0,29.0,30.0,29.0,11.0,{'broker': 1},{'strong': 1},0,0,0,0,63,Uzair Shah / Mowafa J Househ,0,1,0
+Valeria d'Andrea / 35131 Padova,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,65,Valeria d'Andrea / 35131 Padova,0,1,0
+Jinfang Li / M. D. Gordon,1,1,1.0,4.0,5.0,4.0,5.0,{'broker': 1},{'moderate': 1},0,0,0,0,66,Jinfang Li / M. D. Gordon,1,0,0
+Qian-Quan Sun / S. Siegelbaum,1,1,2.0,0.0,2.0,0.0,2.0,{'only_in': 1},{'weak': 1},1,0,0,0,67,Qian-Quan Sun / S. Siegelbaum,0,1,0
+David S. Grayson / David G Amaral1,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,68,David S. Grayson / David G Amaral1,0,1,0
+S. Galindo / L. Pastor,1,1,1.0,7.0,8.0,7.0,4.0,{'broker': 1},{'moderate': 1},0,0,0,0,69,S. Galindo / L. Pastor,0,1,0
+F. V. Bussel / Marc Timme,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,54,F. V. Bussel / Marc Timme,0,1,0
+J. Arle / Kristen W. Carlson,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,53,J. Arle / Kristen W. Carlson,0,1,0
+S. Latifi / S. Carmichael,1,1,0.0,5.0,5.0,5.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,52,S. Latifi / S. Carmichael,0,0,1
+T. McGinnity / Alicia Costalago-Meruelo,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,51,T. McGinnity / Alicia Costalago-Meruelo,1,0,0
+K. E. Linker / F. M. Leslie,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,50,K. E. Linker / F. M. Leslie,0,1,0
+Harold K. Shearin / R. Stowers,1,1,6.0,1.0,7.0,0.167,6.0,{'broker': 1},{'moderate': 1},0,0,0,0,48,Harold K. Shearin / R. Stowers,0,1,0
+Rohan Gupta / Karthikeyan Ravi,1,1,0.0,7.0,7.0,7.0,2.0,{'only_out': 1},{'moderate': 1},0,0,0,0,47,Rohan Gupta / Karthikeyan Ravi,0,1,0
+Kazuma Sakamoto / T. Tsuji,1,1,3.0,1.0,4.0,0.333,3.0,{'broker': 1},{'moderate': 1},0,0,0,0,46,Kazuma Sakamoto / T. Tsuji,1,0,0
+D. Schreiner / Joris de Wit,1,1,6.0,2.0,8.0,0.333,3.0,{'broker': 1},{'moderate': 1},0,0,0,0,45,D. Schreiner / Joris de Wit,0,1,0
+Gerard Marx / Chaim Gilon,1,1,0.0,7.0,7.0,7.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,44,Gerard Marx / Chaim Gilon,0,1,0
+Tobias Lehmann / R. Melzer,1,1,0.0,7.0,7.0,7.0,6.0,{'only_out': 1},{'moderate': 1},0,0,0,0,43,Tobias Lehmann / R. Melzer,1,0,0
+S. Millard / Matthew Y. Pecot,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,42,S. Millard / Matthew Y. Pecot,0,1,0
+Dongmei Shi / H. Noori,1,1,1.0,10.0,11.0,10.0,6.0,{'broker': 1},{'strong': 1},0,0,0,0,41,Dongmei Shi / H. Noori,0,1,0
+Leehod Baruch / E. Segal,1,1,3.0,0.0,3.0,0.0,3.0,{'only_in': 1},{'moderate': 1},0,0,0,0,40,Leehod Baruch / E. Segal,0,1,0
+Fábio Lobato / Roberto Santana,1,1,0.0,5.0,5.0,5.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,39,Fábio Lobato / Roberto Santana,0,1,0
+L. Dipietro / Timothy Wagner,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,38,L. Dipietro / Timothy Wagner,0,1,0
+Georg Kislinger / Martina Schifferer,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,37,Georg Kislinger / Martina Schifferer,1,0,0
+Yaroslav Felipe Kalle Kossio / Raoul-Martin Memmesheimer,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,70,Yaroslav Felipe Kalle Kossio / Raoul-Martin Memmesheimer,0,1,0
+S. L. Goodman / G. Kidd,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,71,S. L. Goodman / G. Kidd,0,1,0
+Dana T. Byrd / Yishi Jin,1,1,0.0,4.0,4.0,4.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,72,Dana T. Byrd / Yishi Jin,0,1,0
+Cesar Ceballos / R. Pena,1,1,0.0,17.0,17.0,17.0,11.0,{'only_out': 1},{'strong': 1},0,0,0,0,91,Cesar Ceballos / R. Pena,1,0,0
+T. Boccato / N. Toschi,1,1,0.0,10.0,10.0,10.0,7.0,{'only_out': 1},{'strong': 1},0,0,0,0,105,T. Boccato / N. Toschi,0,1,0
+Dongyoung Kim / Byunghyuk Kim,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,104,Dongyoung Kim / Byunghyuk Kim,0,1,0
+Miljan Petrović / D. Ville,1,1,6.0,4.0,10.0,0.667,4.0,{'broker': 1},{'strong': 1},0,0,0,0,103,Miljan Petrović / D. Ville,1,0,0
+Madison Sneve / Kiryl D Piatkevich,1,1,1.0,20.0,21.0,20.0,11.0,{'broker': 1},{'strong': 1},0,0,0,0,102,Madison Sneve / Kiryl D Piatkevich,0,1,0
+E. Vivi / B. Di Benedetto,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,101,E. Vivi / B. Di Benedetto,0,1,0
+A. Matsushita / K. Arikawa,1,1,2.0,1.0,3.0,0.5,3.0,{'broker': 1},{'moderate': 1},0,0,0,0,100,A. Matsushita / K. Arikawa,1,0,0
+Nova Qi / Wesley B. Grueber,1,1,0.0,6.0,6.0,6.0,6.0,{'only_out': 1},{'moderate': 1},0,0,0,0,99,Nova Qi / Wesley B. Grueber,0,1,0
+Lydia Gruber / Jürgen Rybak,1,1,3.0,27.0,30.0,9.0,11.0,{'broker': 1},{'strong': 1},0,0,0,0,98,Lydia Gruber / Jürgen Rybak,1,0,0
+S. Pandya / Ashish Raj,1,1,1.0,1.0,2.0,1.0,2.0,{'broker': 1},{'weak': 1},1,0,0,0,97,S. Pandya / Ashish Raj,0,1,0
+Penelope J. Kale / Leonardo L. Gollo,1,1,11.0,17.0,28.0,1.545,7.0,{'broker': 1},{'strong': 1},0,0,0,0,96,Penelope J. Kale / Leonardo L. Gollo,0,1,0
+James M. Kunert-Graf / D. Galas,1,1,0.0,7.0,7.0,7.0,4.0,{'only_out': 1},{'moderate': 1},0,0,0,0,95,James M. Kunert-Graf / D. Galas,1,0,0
+Florian Unger / Jonathan Krebs,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,94,Florian Unger / Jonathan Krebs,1,0,0
+U. S. Bhat / Kavita Babu,1,1,2.0,1.0,3.0,0.5,3.0,{'broker': 1},{'moderate': 1},0,0,0,0,93,U. S. Bhat / Kavita Babu,0,1,0
+Tony X. Liu / James M. Jeanne,1,1,15.0,20.0,35.0,1.333,11.0,{'broker': 1},{'strong': 1},0,0,0,0,92,Tony X. Liu / James M. Jeanne,1,0,0
+Feici Diao / B. White,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,90,Feici Diao / B. White,0,1,0
+Adrián Hernández / J. Amigó,1,1,0.0,9.0,9.0,9.0,6.0,{'only_out': 1},{'moderate': 1},0,0,0,0,73,Adrián Hernández / J. Amigó,0,1,0
+A. Salova / Istv'an A. Kov'acs,1,1,3.0,25.0,28.0,8.333,11.0,{'broker': 1},{'strong': 1},0,0,0,0,89,A. Salova / Istv'an A. Kov'acs,1,0,0
+Sophie Bennett / G. Finnerty,1,1,1.0,3.0,4.0,3.0,4.0,{'broker': 1},{'moderate': 1},0,0,0,0,87,Sophie Bennett / G. Finnerty,0,1,0
+A. Morales-Gregorio / Karolína Korvasová,1,1,0.0,11.0,11.0,11.0,8.0,{'only_out': 1},{'strong': 1},0,0,0,0,86,A. Morales-Gregorio / Karolína Korvasová,1,0,0
+A. Butt / Alexei Verkhatsky,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,85,A. Butt / Alexei Verkhatsky,0,1,0
+Elisabeth C. DeMarco / Estuardo Robles,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,84,Elisabeth C. DeMarco / Estuardo Robles,0,1,0
+R. L. McIntyre / G. Fahy,1,1,4.0,2.0,6.0,0.5,3.0,{'broker': 1},{'moderate': 1},0,0,0,0,83,R. L. McIntyre / G. Fahy,0,1,0
+Megan Morrison / Lai-Sang Young,1,1,0.0,7.0,7.0,7.0,5.0,{'only_out': 1},{'moderate': 1},0,0,0,0,81,Megan Morrison / Lai-Sang Young,1,0,0
+Robert B. Levy / A. Reyes,1,1,2.0,0.0,2.0,0.0,2.0,{'only_in': 1},{'weak': 1},1,0,0,0,80,Robert B. Levy / A. Reyes,0,1,0
+Amin Karbasi / M. Vetterli,1,1,0.0,3.0,3.0,3.0,2.0,{'only_out': 1},{'moderate': 1},0,0,0,0,79,Amin Karbasi / M. Vetterli,0,1,0
+Victor Buendía / A. Sanzeni,1,1,0.0,11.0,11.0,11.0,9.0,{'only_out': 1},{'strong': 1},0,0,0,0,78,Victor Buendía / A. Sanzeni,1,0,0
+C. Wozny / Stephen R. Williams,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,77,C. Wozny / Stephen R. Williams,0,1,0
+J. Staiger / C. Petersen,1,1,0.0,3.0,3.0,3.0,3.0,{'only_out': 1},{'moderate': 1},0,0,0,0,76,J. Staiger / C. Petersen,0,1,0
+Mary-Anne B. MacKay / S. Dursun,1,1,1.0,4.0,5.0,4.0,2.0,{'broker': 1},{'moderate': 1},0,0,0,0,75,Mary-Anne B. MacKay / S. Dursun,0,0,1
+Kévin Berlemont / G. Mongillo,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,74,Kévin Berlemont / G. Mongillo,0,1,0
+J. Wegiel,1,1,1.0,0.0,1.0,0.0,1.0,{'only_in': 1},{'weak': 1},1,0,0,0,175,J. Wegiel,0,1,0

@@ -1,0 +1,36 @@
+{
+  "retained_papers": 3768,
+  "people": 15565,
+  "paper_edges": 8065,
+  "health_bridge_papers": 1590,
+  "training_outreach_papers": 349,
+  "funding_projects": 0,
+  "axis_counts": {
+    "acquisition_preparation": 87,
+    "alternative_modality": 36,
+    "biological_application": 107,
+    "direct_connectomics": 242,
+    "health_translation": 891,
+    "infrastructure": 110,
+    "network_science": 2044,
+    "people_development": 213,
+    "proofreading_qc": 106,
+    "reconstruction": 38,
+    "structure_function": 161,
+    "synapse_inference": 13
+  },
+  "tier_counts": {
+    "peripheral": 1460,
+    "core_candidate": 746,
+    "supported": 1562
+  },
+  "retrieval_channel_counts": {
+    "lexical": 1776,
+    "1hop_references": 40271,
+    "1hop_citations": 30157,
+    "1hop_references_error": 137,
+    "1hop_citations_error": 1,
+    "author_saturation": 77261,
+    "author_saturation_error": 1
+  }
+}

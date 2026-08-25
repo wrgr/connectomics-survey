@@ -1,0 +1,295 @@
+{
+  "adjudicator": "agent:cursor/claude-opus-5-thinking@2026-08-24",
+  "prompt_version": "IA-007-v3-work-level",
+  "criteria_sha256": "7fb4cab60b9426966bf43edf4e02e5c1b19b5ddf3ddd43cfb8292902f4b8b04a",
+  "ingest": {
+    "files": [
+      {
+        "batch": "batch_000",
+        "file": "batch_000",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_001",
+        "file": "batch_001",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_002",
+        "file": "batch_002",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_003",
+        "file": "batch_003",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_004",
+        "file": "batch_004",
+        "replicate": "",
+        "adjudicator": "agent:cursor/composer-2.5-fast",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_005",
+        "file": "batch_005",
+        "replicate": "",
+        "adjudicator": "agent:cursor/composer-2.5-fast",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_006",
+        "file": "batch_006",
+        "replicate": "",
+        "adjudicator": "agent:cursor/composer-2.5-fast",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_007",
+        "file": "batch_007",
+        "replicate": "",
+        "adjudicator": "agent:cursor/composer-2.5-fast",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_008",
+        "file": "batch_008",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_009",
+        "file": "batch_009",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_010",
+        "file": "batch_010",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_011",
+        "file": "batch_011",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_012",
+        "file": "batch_012",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_013",
+        "file": "batch_013",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_014",
+        "file": "batch_014",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_015",
+        "file": "batch_015",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_016",
+        "file": "batch_016",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_017",
+        "file": "batch_017",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_018",
+        "file": "batch_018",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_019",
+        "file": "batch_019",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_020",
+        "file": "batch_020",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_021",
+        "file": "batch_021",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_022",
+        "file": "batch_022",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_023",
+        "file": "batch_023",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_024",
+        "file": "batch_024",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_025",
+        "file": "batch_025",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_026",
+        "file": "batch_026",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_027",
+        "file": "batch_027",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_028",
+        "file": "batch_028",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_029",
+        "file": "batch_029",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_030",
+        "file": "batch_030",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_031",
+        "file": "batch_031",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_032",
+        "file": "batch_032",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_033",
+        "file": "batch_033",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_034",
+        "file": "batch_034",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_035",
+        "file": "batch_035",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_036",
+        "file": "batch_036",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_037",
+        "file": "batch_037",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_038",
+        "file": "batch_038",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 100
+      },
+      {
+        "batch": "batch_039",
+        "file": "batch_039",
+        "replicate": "",
+        "adjudicator": "agent:cursor/claude-opus-5-thinking",
+        "decisions": 83
+      }
+    ],
+    "home_decisions": 3983,
+    "replicate_decisions": {}
+  },
+  "undecided_works": [],
+  "replicates": {},
+  "internal_replicate_conflict_work_ids": [],
+  "principle": "Home-batch decisions are the run of record; replicates measure internal consistency and are never averaged into a consensus label."
+}

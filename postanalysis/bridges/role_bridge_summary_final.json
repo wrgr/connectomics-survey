@@ -1,0 +1,39 @@
+{
+  "papers_all": 118165,
+  "retained_papers": 3768,
+  "derived_nanoscale_core": 1685,
+  "retained_noncore_total": 2083,
+  "retained_role_bridges": 15,
+  "recovered_keep_false_role_bridges": 391,
+  "combined_unique_role_bridges": 406,
+  "macroscale_role_bridge_review": 14,
+  "nonmacroscale_role_bridges": 392,
+  "positive_control_CIRCUIT_recovered": true,
+  "role_rules": {
+    "training_outreach": {
+      "source": "people_development_hits",
+      "title": "\\b(?:outreach|undergraduate|student|education|educational|curriculum|summer school|workforce|citizen science|mentorship)\\b",
+      "min_direct": 1
+    },
+    "health": {
+      "source": "health_hits",
+      "title": "\\b(?:alzheimer|parkinson|epilep|autis|schizophren|disease|disorder|patholog|clinical|patient|therap|diagnos|neurodegener|trauma|injury|stroke|cancer|tumou?r)\\b",
+      "min_direct": 2
+    },
+    "proofreading_annotation": {
+      "source": "qc_hits",
+      "title": "\\b(?:proofread|annotation|annotat|error correction|merge error|segmentation error|human[- ]in[- ]the[- ]loop|quality control)\\b",
+      "min_direct": 1
+    },
+    "infrastructure_methods": {
+      "source": "infrastructure_hits",
+      "title": "\\b(?:connectom|segmentation|agglomerat|alignment|registration|synapse detection|reconstruction|volume electron|electron microscopy|data infrastructure|dataservice|visualization)\\b",
+      "min_direct": 2
+    },
+    "network_science": {
+      "source": "network_hits",
+      "title": "\\b(?:connectom|circuit|network analys|graph analys|motif|centrality|community detection|subgraph|graph quer)\\b",
+      "min_direct": 2
+    }
+  }
+}

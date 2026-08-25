@@ -1,0 +1,2400 @@
+person_id,display_name,works,first_or_single,last,middle,core_works,adjacent_works,role_bridge_works,ultra_core_works,view
+person:j lichtman,J. Lichtman,62,1,16,45,46,11,5,4,graph_matched
+person:hanspeter pfister,Hanspeter Pfister,43,0,17,26,37,5,1,2,graph_matched
+person:g jefferis,G. Jefferis,40,0,14,27,31,7,2,4,graph_matched
+person:h sebastian seung,H. Sebastian Seung,37,3,10,24,32,5,0,3,graph_matched
+person:kea joo lee,Kea-Joo Lee,36,3,3,32,33,3,0,3,graph_matched
+person:albert cardona,Albert Cardona,35,2,9,25,31,4,0,5,graph_matched
+person:sven dorkenwald,Sven Dorkenwald,35,4,0,31,33,2,0,5,graph_matched
+person:philipp schlegel,Philipp Schlegel,33,4,0,29,29,3,1,3,graph_matched
+person:stephen plaza,Stephen M. Plaza,30,6,9,15,29,1,0,3,graph_matched
+person:marta costa,Marta Costa,29,0,1,28,23,4,2,3,graph_matched
+person:louis scheffer,Louis K. Scheffer,28,6,4,18,24,4,0,4,graph_matched
+person:szi chieh yu,Szi-chieh Yu,28,2,1,27,26,2,0,3,graph_matched
+person:rongwen lu,Rongwen Lu,27,1,0,26,26,1,0,3,graph_matched
+person:jingpeng wu,Jingpeng Wu,26,2,2,23,26,0,0,3,graph_matched
+person:donglai wei,Donglai Wei,25,1,6,18,21,3,1,2,graph_matched
+person:r clay reid,R. Clay Reid,25,0,5,20,18,6,1,4,graph_matched
+person:f collman,F. Collman,25,0,4,21,23,2,0,4,graph_matched
+person:viren jain,Viren Jain,24,2,4,18,18,4,2,3,graph_matched
+person:k eichler,K. Eichler,24,2,2,21,22,2,0,2,graph_matched
+person:cm schneider mizell,CM Schneider-Mizell,24,4,1,19,24,0,0,4,graph_matched
+person:r schalek,R. Schalek,24,1,0,23,19,5,0,3,graph_matched
+person:y meirovitch,Y. Meirovitch,23,5,4,14,20,3,0,1,graph_matched
+person:a bates,A. S. Bates,23,5,0,18,18,4,1,3,graph_matched
+person:micha januszewski,Michał Januszewski,23,3,0,20,23,0,0,3,graph_matched
+person:brock andrew wester,Brock Andrew Wester,22,0,6,16,15,1,6,0,graph_matched
+person:g rubin,G. Rubin,22,0,5,17,19,3,0,5,graph_matched
+person:chuanyun xu,Chuanyun Xu,22,5,0,17,16,6,0,3,graph_matched
+person:t macrina,T. Macrina,22,1,0,21,22,0,0,3,graph_matched
+person:oliver hobert,Oliver Hobert,21,0,15,6,5,16,0,1,graph_matched
+person:aljoscha nern,Aljoscha Nern,21,1,0,20,15,6,0,3,graph_matched
+person:n kemnitz,N. Kemnitz,21,0,0,21,21,0,0,3,graph_matched
+person:harald hess,Harald F. Hess,20,0,8,12,18,2,0,3,graph_matched
+person:xiaoyin chen,Xiaoyin Chen,20,1,3,16,16,4,0,0,graph_matched
+person:jordan matelsky,Jordan K. Matelsky,20,7,0,13,14,1,5,0,graph_matched
+person:yunming wu,Yunming Wu,20,1,0,19,16,4,0,3,graph_matched
+person:c jordan,C. Jordan,20,0,0,20,20,0,0,3,graph_matched
+person:william gray roncal,William R. Gray-Roncal,19,3,10,6,12,2,5,0,graph_matched
+person:james anderson,James R. Anderson,19,3,1,15,15,4,0,0,graph_matched
+person:shin ya takemura,Shin-ya Takemura,19,4,0,22,17,2,0,5,graph_matched
+person:fu ning li,Fu-Ning Li,19,2,0,17,18,0,1,6,graph_matched
+person:j bae,J. Bae,19,0,0,19,19,0,0,2,graph_matched
+person:a sterling,A. Sterling,19,0,0,19,18,1,0,2,graph_matched
+person:d chklovskii,D. Chklovskii,18,1,12,5,9,9,0,4,graph_matched
+person:bryan william jones,Bryan William Jones,18,1,5,12,14,4,0,0,graph_matched
+person:narayan kasthuri,Narayan Kasthuri,18,0,5,13,12,5,1,0,graph_matched
+person:jan funke,Jan Funke,18,2,4,12,17,1,0,3,graph_matched
+person:s saalfeld,S. Saalfeld,18,1,4,13,16,2,0,5,graph_matched
+person:zhiyuan lu,Zhiyuan Lu,18,2,0,18,18,0,0,5,graph_matched
+person:r fetter,R. D. Fetter,18,0,0,18,18,0,0,6,graph_matched
+person:d brittain,D. Brittain,18,0,0,18,18,0,0,4,graph_matched
+person:akhilesh halageri,Akhilesh Halageri,18,0,0,18,18,0,0,3,graph_matched
+person:w silversmith,W. Silversmith,18,0,0,18,18,0,0,3,graph_matched
+person:d bumbarger,D. Bumbarger,18,0,0,18,17,1,0,2,graph_matched
+person:m helmstaedter,M. Helmstaedter,17,3,10,4,11,6,0,3,graph_matched
+person:marta zlatic,Marta Zlatic,17,0,9,9,15,2,0,2,graph_matched
+person:i meinertzhagen,I. Meinertzhagen,17,3,8,8,11,5,1,3,graph_matched
+person:s berg,S. Berg,17,1,4,12,17,0,0,2,graph_matched
+person:arie matsliah,Arie Matsliah,17,1,2,14,16,1,0,1,graph_matched
+person:mark ellisman,Mark Ellisman,17,0,1,16,15,2,0,0,graph_matched
+person:n turner,N. Turner,17,1,0,16,17,0,0,1,graph_matched
+person:s popovych,S. Popovych,17,0,0,17,17,0,0,3,graph_matched
+person:hongqing han,Hongqing Han,16,0,13,3,11,4,1,0,graph_matched
+person:n shavit,N. Shavit,16,1,10,5,13,3,0,1,graph_matched
+person:junkyung kim,Junkyung Kim,16,4,8,5,3,13,0,1,graph_matched
+person:m murthy,M. Murthy,16,0,5,11,15,1,0,2,graph_matched
+person:w lee,W. Lee,16,1,4,11,13,3,0,3,graph_matched
+person:d bock,D. Bock,16,1,4,11,12,3,1,3,graph_matched
+person:zhi hang lin,Zhi-Hang Lin,16,5,0,11,11,5,0,2,graph_matched
+person:j buchanan,J. Buchanan,16,2,0,14,15,1,0,1,graph_matched
+person:r torres,R. Torres,16,1,0,15,16,0,0,2,graph_matched
+person:john tuthill,John C. Tuthill,15,0,8,7,13,2,0,1,graph_matched
+person:n da costa,N. D. da Costa,15,0,6,9,15,0,0,2,graph_matched
+person:ashok litwin kumar,Ashok Litwin-Kumar,15,2,3,10,11,4,0,2,graph_matched
+person:p rivlin,P. Rivlin,15,0,1,14,13,0,2,3,graph_matched
+person:m castro,M. C. Castro,15,0,0,15,15,0,0,3,graph_matched
+person:marc takeno,Marc M. Takeno,15,0,0,15,15,0,0,1,graph_matched
+person:j vogelstein,J. Vogelstein,14,1,2,11,9,5,0,1,graph_matched
+person:tengda zhao,Tengda Zhao,14,4,0,10,12,2,0,4,graph_matched
+person:steven cook,Steven J. Cook,14,4,0,10,9,5,0,1,graph_matched
+person:l elabbady,L. Elabbady,14,3,0,11,14,0,0,1,graph_matched
+person:g mahalingam,G. Mahalingam,14,2,0,12,14,0,0,1,graph_matched
+person:yonggang wang,Yonggang Wang,14,2,0,12,8,5,1,1,graph_matched
+person:wenjie yin,Wenjie Yin,14,1,0,13,14,0,0,2,graph_matched
+person:shang mu,Shang Mu,14,0,0,14,13,1,0,3,graph_matched
+person:a bodor,A. Bodor,14,0,0,14,14,0,0,1,graph_matched
+person:gaspar jekely,Gáspár Jékely,13,0,12,1,11,2,0,0,graph_matched
+person:r marc,R. E. Marc,13,3,5,5,11,2,0,0,graph_matched
+person:scott emmons,Scott W. Emmons,13,6,2,5,10,3,0,1,graph_matched
+person:aravinthan samuel,Aravinthan D. T. Samuel,13,0,1,12,9,4,0,2,graph_matched
+person:kenneth hayworth,Kenneth Hayworth,13,2,0,11,13,0,0,2,graph_matched
+person:barak nehoran,Barak Nehoran,13,0,0,13,13,0,0,3,graph_matched
+person:eric mitchell,Eric Mitchell,13,0,0,13,13,0,0,3,graph_matched
+person:zhi ming jia,Zhi-Ming Jia,13,0,0,13,13,0,0,3,graph_matched
+person:d kapner,D. Kapner,13,0,0,13,13,0,0,2,graph_matched
+person:claire mckellar,Claire E. McKellar,13,0,0,13,11,2,0,2,graph_matched
+person:a tolias,A. S. Tolias,12,0,3,9,9,3,0,1,graph_matched
+person:g card,G. Card,12,0,3,9,9,3,0,0,graph_matched
+person:xiao jing wang,Xiao-jing Wang,12,3,2,7,6,5,1,0,graph_matched
+person:w katz,W. M. Katz,12,1,1,10,12,0,0,3,graph_matched
+person:yuanyuan li,Yuanyuan Li,12,5,0,7,8,4,0,0,graph_matched
+person:gary huang,Gary B. Huang,12,3,0,9,11,0,1,2,graph_matched
+person:e marin,E. Marin,12,2,0,10,11,1,0,1,graph_matched
+person:dodam ih,Dodam Ih,12,0,0,12,12,0,0,2,graph_matched
+person:jim truman,Jim Truman,12,0,0,12,11,1,0,2,graph_matched
+person:kai li,Kai Li,12,0,0,12,12,0,0,1,graph_matched
+person:s kinn,S. Kinn,12,0,0,12,12,0,0,1,graph_matched
+person:w wong,W. Wong,12,0,0,12,12,0,0,1,graph_matched
+person:wr schafer,WR Schafer,11,1,7,3,4,7,0,2,graph_matched
+person:kazunori shinomiya,Kazunori Shinomiya,11,2,0,9,10,1,0,1,graph_matched
+person:d berger,D. Berger,11,0,0,11,10,0,1,2,graph_matched
+person:s mondal,S. Mondal,11,0,0,11,11,0,0,1,graph_matched
+person:a champion,A. Champion,11,0,0,11,9,2,0,1,graph_matched
+person:r friedrich,R. Friedrich,10,1,8,1,6,4,0,0,graph_matched
+person:t tasdizen,T. Tasdizen,10,0,7,4,9,1,0,0,graph_matched
+person:km harris,KM Harris,10,1,5,4,6,4,0,3,graph_matched
+person:k briggman,K. Briggman,10,2,4,4,6,4,0,1,graph_matched
+person:jiazheng liu,Jiazheng Liu,10,2,1,9,8,2,0,0,graph_matched
+person:yoshinori aso,Yoshinori Aso,10,1,1,8,6,4,0,2,graph_matched
+person:erik johnson,Erik C. Johnson,10,3,0,7,5,1,4,0,graph_matched
+person:c sigulinsky,C. Sigulinsky,10,2,0,8,7,3,0,0,graph_matched
+person:mean hwan kim,Mean-Hwan Kim,10,2,0,8,7,3,0,0,graph_matched
+person:d olbris,D. J. Olbris,10,0,0,10,9,1,0,3,graph_matched
+person:peter li,Peter H. Li,10,0,0,10,8,2,0,3,graph_matched
+person:l umayam,L. Umayam,10,0,0,10,10,0,0,2,graph_matched
+person:andrew cook,Andrew P. Cook,10,0,0,10,9,1,0,0,graph_matched
+person:michael reimann,Michael W. Reimann,9,5,4,0,1,8,0,0,graph_matched
+person:joergen kornfeld,Joergen Kornfeld,9,2,3,4,9,0,0,0,graph_matched
+person:v hartenstein,V. Hartenstein,9,0,2,7,5,4,0,2,graph_matched
+person:winfried denk,Winfried Denk,9,0,2,7,6,3,0,0,graph_matched
+person:yuh tarng chen,Yuh-tarng Chen,9,0,2,8,4,4,1,0,graph_matched
+person:a wanner,A. Wanner,9,5,1,3,7,2,0,0,graph_matched
+person:aaron kuan,Aaron T. Kuan,9,2,1,6,7,2,0,1,graph_matched
+person:yu xian zhang,Yu-Xian Zhang,9,1,1,8,6,3,0,0,graph_matched
+person:j reimer,J. Reimer,9,0,1,8,9,0,0,1,graph_matched
+person:t parag,T. Parag,9,2,0,7,9,0,0,1,graph_matched
+person:jody clements,Jody Clements,9,2,0,7,8,1,0,1,graph_matched
+person:tomke sturner,Tomke Stürner,9,2,0,7,8,1,0,0,graph_matched
+person:rebecca pfeiffer,Rebecca L. Pfeiffer,9,2,0,7,5,4,0,0,graph_matched
+person:jay gager,Jay Gager,9,0,0,9,9,0,0,3,graph_matched
+person:m dreher,M. Dreher,9,0,0,9,9,0,0,3,graph_matched
+person:ruchi parekh,Ruchi Parekh,9,0,0,9,8,1,0,3,graph_matched
+person:christopher ordish,Christopher Ordish,9,0,0,9,9,0,0,2,graph_matched
+person:j bogovic,J. Bogovic,9,0,0,9,8,1,0,2,graph_matched
+person:d hall,D. Hall,9,0,0,9,7,2,0,2,graph_matched
+person:daniel berger,Daniel R. Berger,9,0,0,9,6,3,0,1,graph_matched
+person:daniel xenes,Daniel Xenes,9,0,0,9,8,0,1,0,graph_matched
+person:srinivas turaga,Srinivas C. Turaga,8,0,7,1,5,3,0,1,graph_matched
+person:b misic,B. Mišić,8,0,4,4,3,4,1,0,graph_matched
+person:jinseop kim,Jinseop S. Kim,8,1,3,4,6,2,0,0,graph_matched
+person:hongkui zeng,Hongkui Zeng,8,1,3,4,3,5,0,0,graph_matched
+person:hanchuan peng,Hanchuan Peng,8,0,3,5,3,5,0,1,graph_matched
+person:xiaotang lu,Xiaotang Lu,8,2,2,4,6,2,0,0,graph_matched
+person:ruobing zhang,Ruobing Zhang,8,0,2,6,6,2,0,0,graph_matched
+person:ed boyden,Ed Boyden,8,0,2,6,4,3,1,0,graph_matched
+person:l abbott,L. F. Abbott,8,1,1,6,5,3,0,2,graph_matched
+person:seung hee lee,Seung-Hee Lee,8,0,1,7,4,4,0,0,graph_matched
+person:nadine randel,Nadine Randel,8,3,0,5,7,1,0,1,graph_matched
+person:c veraszto,C. Verasztó,8,3,0,5,8,0,0,0,graph_matched
+person:changjoon park,Changjoon Park,8,3,0,5,7,1,0,0,graph_matched
+person:h cheong,H. S. Cheong,8,3,0,5,6,2,0,0,graph_matched
+person:j troidl,J. Troidl,8,2,0,6,6,1,1,1,graph_matched
+person:elizabeth williams,Elizabeth A. Williams,8,2,0,6,6,2,0,0,graph_matched
+person:stephan gerhard,Stephan Gerhard,8,1,0,7,8,0,0,1,graph_matched
+person:yijie yin,Yijie Yin,8,1,0,7,8,0,0,1,graph_matched
+person:yi shiuan liu,Yi-Shiuan Liu,8,1,0,7,2,6,0,1,graph_matched
+person:r shahidi,R. Shahidi,8,1,0,7,8,0,0,0,graph_matched
+person:patricia rivlin,Patricia K. Rivlin,8,1,0,7,6,1,1,0,graph_matched
+person:b silverman,B. Silverman,8,0,0,8,8,0,0,2,graph_matched
+person:tansy yang,Tansy Yang,8,0,0,8,8,0,0,2,graph_matched
+person:eric perlman,Eric Perlman,8,0,0,8,7,0,1,2,graph_matched
+person:julie kovalyak,Julie Kovalyak,8,0,0,8,7,1,0,1,graph_matched
+person:fabian sinz,Fabian H. Sinz,8,0,0,8,6,2,0,1,graph_matched
+person:s seshamani,S. Seshamani,8,0,0,8,7,1,0,0,graph_matched
+person:marina gkantia,Marina Gkantia,8,0,0,8,6,2,0,0,graph_matched
+person:song pang,Song Pang,8,0,0,8,6,2,0,0,graph_matched
+person:k broadie,K. Broadie,7,0,7,0,0,7,0,0,graph_matched
+person:d dacey,D. Dacey,7,0,6,1,7,0,0,0,graph_matched
+person:s zipursky,S. Zipursky,7,0,4,3,3,4,0,0,graph_matched
+person:alexander borst,Alexander Borst,7,4,3,0,5,2,0,0,graph_matched
+person:v jayaraman,V. Jayaraman,7,0,3,4,6,1,0,2,graph_matched
+person:b gerber,B. Gerber,7,0,3,4,3,3,1,1,graph_matched
+person:henry markram,Henry Markram,7,0,3,4,0,7,0,0,graph_matched
+person:wei chung allen lee,Wei-Chung Allen Lee,7,2,2,3,5,2,0,1,graph_matched
+person:daniel haehn,Daniel Haehn,7,3,1,3,7,0,0,0,graph_matched
+person:johanna beyer,Johanna Beyer,7,3,1,3,5,1,1,0,graph_matched
+person:j lauritzen,J. S. Lauritzen,7,2,1,4,7,0,0,1,graph_matched
+person:linqing feng,Linqing Feng,7,2,1,4,1,6,0,0,graph_matched
+person:isabel beets,Isabel Beets,7,0,1,6,1,6,0,0,graph_matched
+person:claire eschbach,Claire Eschbach,7,5,0,2,5,1,1,1,graph_matched
+person:hsi ping wang,Hsi-Ping Wang,7,2,0,5,2,5,0,0,graph_matched
+person:n eckstein,N. Eckstein,7,1,0,6,7,0,0,2,graph_matched
+person:anthony azevedo,Anthony W. Azevedo,7,1,0,6,7,0,0,1,graph_matched
+person:michael winding,Michael Winding,7,1,0,6,6,1,0,1,graph_matched
+person:philip hubbard,Philip M. Hubbard,7,1,0,6,6,1,0,1,graph_matched
+person:tri nguyen,Tri M. Nguyen,7,1,0,6,4,3,0,1,graph_matched
+person:ruairi roberts,Ruairí J. V. Roberts,7,1,0,6,7,0,0,0,graph_matched
+person:brandon mark,Brandon Mark,7,1,0,6,6,1,0,0,graph_matched
+person:fuming yang,Fuming Yang,7,1,0,6,6,1,0,0,graph_matched
+person:omotara ogundeyi,Omotara Ogundeyi,7,0,0,7,6,1,0,3,graph_matched
+person:a peleg,A. Peleg,7,0,0,7,7,0,0,2,graph_matched
+person:shirley lauchie,Shirley A Lauchie,7,0,0,7,7,0,0,2,graph_matched
+person:erika neace,Erika Neace,7,0,0,7,7,0,0,1,graph_matched
+person:marissa sorek,Marissa Sorek,7,0,0,7,7,0,0,1,graph_matched
+person:michael cook,Michael Cook,7,0,0,7,7,0,0,1,graph_matched
+person:tyler paterson,Tyler Paterson,7,0,0,7,7,0,0,1,graph_matched
+person:x pitkow,X. Pitkow,7,0,0,7,7,0,0,1,graph_matched
+person:paul fahey,Paul G. Fahey,7,0,0,7,6,1,0,1,graph_matched
+person:saumil patel,Saumil S. Patel,7,0,0,7,6,1,0,1,graph_matched
+person:eviatar yemini,Eviatar Yemini,7,0,0,7,3,4,0,1,graph_matched
+person:arthur zhao,Arthur Zhao,7,0,0,7,7,0,0,0,graph_matched
+person:griffin badalamente,Griffin Badalamente,7,0,0,7,7,0,0,0,graph_matched
+person:e froudarakis,E. Froudarakis,7,0,0,7,6,1,0,0,graph_matched
+person:eric bushong,Eric Bushong,7,0,0,7,6,1,0,0,graph_matched
+person:jasper phelps,Jasper S. Phelps,7,0,0,7,6,1,0,0,graph_matched
+person:l bezares calderon,L. A. Bezares-Calderón,7,0,0,7,6,1,0,0,graph_matched
+person:gabriella sterne,Gabriella R. Sterne,7,0,0,7,5,2,0,0,graph_matched
+person:keun young kim,Keun-Young Kim,7,0,0,7,5,2,0,0,graph_matched
+person:s namiki,S. Namiki,7,0,0,7,5,2,0,0,graph_matched
+person:wenchang li,Wenchang Li,7,0,0,7,5,2,0,0,graph_matched
+person:kaiyu wang,Kaiyu Wang,7,0,0,7,3,3,1,0,graph_matched
+person:zhenghua li,Zhenghua Li,7,0,0,7,3,4,0,0,graph_matched
+person:xiao ming li,Xiao-Ming Li,7,0,0,7,2,5,0,0,graph_matched
+person:g ascoli,G. Ascoli,6,0,5,1,2,4,0,0,graph_matched
+person:ashish raj,Ashish Raj,6,0,4,2,0,6,0,0,graph_matched
+person:michael reiser,Michael B. Reiser,6,0,3,3,6,0,0,1,graph_matched
+person:tao fang,Tao Fang,6,0,3,3,3,3,0,0,graph_matched
+person:u grunert,U. Grünert,6,0,3,3,3,3,0,0,graph_matched
+person:ann shyn chiang,Ann-Shyn Chiang,6,0,3,3,0,6,0,0,graph_matched
+person:gregg wildenberg,Gregg A. Wildenberg,6,3,2,1,3,3,0,0,graph_matched
+person:seong kyun kim,Seong-Kyun Kim,6,2,2,2,6,0,0,1,graph_matched
+person:y kurmangaliyev,Y. Kurmangaliyev,6,1,2,3,2,4,0,0,graph_matched
+person:s waddell,S. Waddell,6,0,2,4,4,2,0,1,graph_matched
+person:a lazar,A. Lazar,6,3,1,2,3,2,1,0,graph_matched
+person:c priebe,C. Priebe,6,2,1,3,5,1,0,1,graph_matched
+person:shengjin xu,Shengjin Xu,6,2,1,3,5,0,1,1,graph_matched
+person:cun quan zhang,Cun-Quan Zhang,6,2,1,3,3,3,0,0,graph_matched
+person:jingjing zhang,Jingjing Zhang,6,2,1,3,2,3,1,0,graph_matched
+person:hongyang wu,Hongyang Wu,6,1,1,4,4,2,0,2,graph_matched
+person:andreas thum,Andreas S. Thum,6,1,1,4,3,3,0,1,graph_matched
+person:a polilov,A. Polilov,6,1,1,4,3,3,0,0,graph_matched
+person:s agrawal,S. Agrawal,6,0,1,5,5,1,0,0,graph_matched
+person:philipp berens,Philipp Berens,6,0,1,5,3,3,0,0,graph_matched
+person:zengmao wang,Zengmao Wang,6,0,1,5,2,4,0,0,graph_matched
+person:sara patterson,Sara S. Patterson,6,4,0,2,5,1,0,0,graph_matched
+person:brian matejek,Brian Matejek,6,3,0,3,6,0,0,0,graph_matched
+person:emily bayer,Emily A. Bayer,6,2,0,4,1,5,0,1,graph_matched
+person:chris dallmann,Chris J. Dallmann,6,2,0,4,5,1,0,0,graph_matched
+person:hyeyoung lee,Hyeyoung Lee,6,2,0,4,1,5,0,0,graph_matched
+person:ruoxuan yang,Ruoxuan Yang,6,1,0,5,6,0,0,2,graph_matched
+person:javier valdes aleman,Javier Valdes-Aleman,6,1,0,5,5,1,0,1,graph_matched
+person:jianwei lu,Jianwei Lu,6,1,0,5,4,2,0,1,graph_matched
+person:caitlyn bishop,Caitlyn Bishop,6,1,0,5,6,0,0,0,graph_matched
+person:s jasek,S. Jasek,6,1,0,5,6,0,0,0,graph_matched
+person:hong sheng li,Hong-Sheng Li,6,1,0,5,4,2,0,0,graph_matched
+person:jeremy maitin shepard,Jeremy B. Maitin-Shepard,6,0,0,6,6,0,0,3,graph_matched
+person:david grant colburn hildebrand,David Grant Colburn Hildebrand,6,0,0,6,6,0,0,2,graph_matched
+person:eric trautman,Eric T. Trautman,6,0,0,6,6,0,0,2,graph_matched
+person:ryan willie,Ryan Willie,6,0,0,6,6,0,0,2,graph_matched
+person:p vertes,P. Vértes,6,0,0,6,4,2,0,2,graph_matched
+person:shuohong wang,Shuohong Wang,6,0,0,6,4,2,0,2,graph_matched
+person:alanna lohff,Alanna Lohff,6,0,0,6,6,0,0,1,graph_matched
+person:ashley scott,Ashley L. Scott,6,0,0,6,6,0,0,1,graph_matched
+person:christopher knecht,Christopher Knecht,6,0,0,6,6,0,0,1,graph_matched
+person:m pleijzier,M. W. Pleijzier,6,0,0,6,6,0,0,1,graph_matched
+person:s papadopoulos,S. Papadopoulos,6,0,0,6,6,0,0,1,graph_matched
+person:r george,R. George,6,0,0,6,5,1,0,1,graph_matched
+person:ignacio arganda carreras,Ignacio Arganda-Carreras,6,0,0,6,4,2,0,1,graph_matched
+person:h otsuna,H. Otsuna,6,0,0,6,2,4,0,1,graph_matched
+person:c watt,C. Watt,6,0,0,6,6,0,0,0,graph_matched
+person:l capdevila,L. Capdevila,6,0,0,6,6,0,0,0,graph_matched
+person:orin packer,Orin Packer,6,0,0,6,6,0,0,0,graph_matched
+person:a javier,A. Javier,6,0,0,6,5,1,0,0,graph_matched
+person:anne sustar,Anne Sustar,6,0,0,6,5,1,0,0,graph_matched
+person:billy morris,Billy J. Morris,6,0,0,6,5,1,0,0,graph_matched
+person:d kleissas,D. Kleissas,6,0,0,6,5,0,1,0,graph_matched
+person:grant chou,Grant M. Chou,6,0,0,6,5,1,0,0,graph_matched
+person:j tapia,J. C. Tapia,6,0,0,6,5,1,0,0,graph_matched
+person:jia hui yang,Jia-Hui Yang,6,0,0,6,5,1,0,0,graph_matched
+person:m arcia dos santos,M'arcia dos Santos,6,0,0,6,5,1,0,0,graph_matched
+person:paul brooks,Paul Brooks,6,0,0,6,5,1,0,0,graph_matched
+person:qiwei xie,Qiwei Xie,6,0,0,6,5,1,0,0,graph_matched
+person:kristin scott,Kristin Scott,5,0,5,0,5,0,0,0,graph_matched
+person:a dacks,A. Dacks,5,0,5,0,4,1,0,0,graph_matched
+person:jaeseung jeong,Jaeseung Jeong,5,0,5,0,4,1,0,0,graph_matched
+person:albert laszlo barabasi,Albert-László Barabási,5,0,5,0,2,3,0,0,graph_matched
+person:e bullmore,E. Bullmore,5,0,4,1,2,3,0,2,graph_matched
+person:won ki jeong,Won-Ki Jeong,5,0,4,1,5,0,0,1,graph_matched
+person:c doe,C. Doe,5,0,4,1,4,1,0,0,graph_matched
+person:i fiete,I. Fiete,5,0,4,1,1,4,0,0,graph_matched
+person:a stepanyants,A. Stepanyants,5,2,3,0,1,4,0,0,graph_matched
+person:andrew mckenzie,Andrew T. McKenzie,5,2,3,0,0,4,1,0,graph_matched
+person:david miller,David M. Miller,5,0,3,2,2,3,0,0,graph_matched
+person:hesheng liu,Hesheng Liu,5,1,2,2,2,3,0,0,graph_matched
+person:mei zhen,Mei Zhen,5,0,2,3,3,2,0,1,graph_matched
+person:a seeds,A. Seeds,5,0,2,3,5,0,0,0,graph_matched
+person:caio seguin,Caio Seguin,5,0,2,3,4,1,0,0,graph_matched
+person:j neitz,J. Neitz,5,0,2,3,4,1,0,0,graph_matched
+person:manuel zimmer,Manuel Zimmer,5,0,2,4,4,1,0,0,graph_matched
+person:markus hadwiger,Markus Hadwiger,5,0,2,3,4,1,0,0,graph_matched
+person:b dickson,B. Dickson,5,0,2,3,3,2,0,0,graph_matched
+person:g knott,G. Knott,5,0,2,3,3,2,0,0,graph_matched
+person:jongmin lee,Jongmin Lee,5,0,2,3,3,2,0,0,graph_matched
+person:stefan mihalas,Stefan Mihalas,5,0,2,3,1,4,0,0,graph_matched
+person:n chuhma,N. Chuhma,5,2,1,2,0,5,0,0,graph_matched
+person:ashwin vishwanathan,Ashwin Vishwanathan,5,1,1,3,4,1,0,0,graph_matched
+person:r burns,R. Burns,5,1,1,3,3,1,1,0,graph_matched
+person:t schubert,T. Schubert,5,1,1,3,3,2,0,0,graph_matched
+person:l luo,L. Luo,5,1,1,3,1,4,0,0,graph_matched
+person:yangang sun,Yangang Sun,5,1,1,3,1,4,0,0,graph_matched
+person:c ribeiro,C. Ribeiro,5,0,1,4,5,0,0,1,graph_matched
+person:a pacureanu,A. Pacureanu,5,0,1,4,4,1,0,0,graph_matched
+person:konrad paul kording,Konrad Paul Kording,5,0,1,4,4,1,0,0,graph_matched
+person:lu mi,Lu Mi,5,0,1,4,4,1,0,0,graph_matched
+person:e reilly,E. Reilly,5,0,1,4,3,1,1,0,graph_matched
+person:yingjie yang,Yingjie Yang,5,0,1,4,3,2,0,0,graph_matched
+person:yeon jin kim,Yeon Jin Kim,5,5,0,0,5,0,0,0,graph_matched
+person:yunfeng hua,Yunfeng Hua,5,3,0,2,5,0,0,1,graph_matched
+person:alessandro motta,Alessandro Motta,5,2,0,3,5,0,0,2,graph_matched
+person:anton miroschnikow,Anton Miroschnikow,5,2,0,3,5,0,0,0,graph_matched
+person:fabian svara,Fabian Svara,5,2,0,3,5,0,0,0,graph_matched
+person:a zarin,A. Zarin,5,2,0,3,4,1,0,0,graph_matched
+person:gyu hyun kim,Gyu Hyun Kim,5,2,0,3,4,1,0,0,graph_matched
+person:hannah martinez,Hannah Martinez,5,2,0,3,4,0,1,0,graph_matched
+person:tingshan liu,Tingshan Liu,5,2,0,3,4,1,0,0,graph_matched
+person:ming quan chen,Ming-Quan Chen,5,2,0,3,3,1,1,0,graph_matched
+person:xiao yong zhang,Xiao-Yong Zhang,5,2,0,3,3,2,0,0,graph_matched
+person:zhaoxiang zhang,Zhaoxiang Zhang,5,2,0,3,3,2,0,0,graph_matched
+person:j horne,J. Horne,5,1,0,4,5,0,0,2,graph_matched
+person:k khairy,K. Khairy,5,1,0,4,5,0,0,2,graph_matched
+person:n karlupia,N. Karlupia,5,1,0,4,4,1,0,2,graph_matched
+person:steven calle schuler,Steven A. Calle-Schuler,5,1,0,4,5,0,0,1,graph_matched
+person:andreas schoofs,Andreas Schoofs,5,1,0,4,5,0,0,0,graph_matched
+person:elisa pavarino,Elisa C. Pavarino,5,1,0,4,5,0,0,0,graph_matched
+person:shashata sawmya,Shashata Sawmya,5,1,0,4,5,0,0,0,graph_matched
+person:aindrila saha,Aindrila Saha,5,1,0,4,4,1,0,0,graph_matched
+person:wenjing wang,Wenjing Wang,5,1,0,4,3,2,0,0,graph_matched
+person:chenxuan wang,Chenxuan Wang,5,1,0,4,2,3,0,0,graph_matched
+person:javier defelipe,Javier DeFelipe,5,1,0,4,2,3,0,0,graph_matched
+person:jung seok choi,Jung-Seok Choi,5,1,0,4,2,2,1,0,graph_matched
+person:lidia ripoll sanchez,Lidia Ripoll-Sánchez,5,1,0,4,2,3,0,0,graph_matched
+person:p nicovich,P. Nicovich,5,1,0,4,2,3,0,0,graph_matched
+person:s cachero,S. Cachero,5,1,0,4,2,3,0,0,graph_matched
+person:yongchuan zhu,Yongchuan Zhu,5,1,0,4,2,3,0,0,graph_matched
+person:qingyang wang,Qingyang Wang,5,1,0,4,1,4,0,0,graph_matched
+person:tim blakely,Tim Blakely,5,0,0,5,5,0,0,3,graph_matched
+person:a shinomiya,A. Shinomiya,5,0,0,5,5,0,0,2,graph_matched
+person:audrey francis,Audrey Francis,5,0,0,5,5,0,0,2,graph_matched
+person:james hebditch,James Hebditch,5,0,0,5,5,0,0,2,graph_matched
+person:k willie,K. Willie,5,0,0,5,5,0,0,2,graph_matched
+person:tom kazimiers,Tom Kazimiers,5,0,0,5,5,0,0,2,graph_matched
+person:tanya wolff,Tanya Wolff,5,0,0,5,4,1,0,2,graph_matched
+person:brandon canino,Brandon S Canino,5,0,0,5,5,0,0,1,graph_matched
+person:caroline mooney,Caroline Mooney,5,0,0,5,5,0,0,1,graph_matched
+person:casey schneider mizell,Casey M. Schneider-Mizell,5,0,0,5,5,0,0,1,graph_matched
+person:charli maldonado,Charli A Maldonado,5,0,0,5,5,0,0,1,graph_matched
+person:claire smith,Claire Smith,5,0,0,5,5,0,0,1,graph_matched
+person:doug bland,Doug Bland,5,0,0,5,5,0,0,1,graph_matched
+person:e phillips,E. M. Phillips,5,0,0,5,5,0,0,1,graph_matched
+person:erick cobos,Erick Cobos,5,0,0,5,5,0,0,1,graph_matched
+person:iris talebi,Iris Talebi,5,0,0,5,5,0,0,1,graph_matched
+person:k boergens,K. Boergens,5,0,0,5,5,0,0,1,graph_matched
+person:nneoma okeoma,Nneoma Okeoma,5,0,0,5,5,0,0,1,graph_matched
+person:arlo sheridan,Arlo Sheridan,5,0,0,5,4,1,0,1,graph_matched
+person:emily tenshaw,Emily Tenshaw,5,0,0,5,4,1,0,1,graph_matched
+person:stephan preibisch,Stephan Preibisch,5,0,0,5,4,1,0,1,graph_matched
+person:rob svirskas,Rob Svirskas,5,0,0,5,3,2,0,1,graph_matched
+person:imaan tamimi,Imaan F. M. Tamimi,5,0,0,5,5,0,0,0,graph_matched
+person:s romani,S. Romani,5,0,0,5,5,0,0,0,graph_matched
+person:samantha finley may,Samantha Finley-May,5,0,0,5,5,0,0,0,graph_matched
+person:stefanie hampel,Stefanie Hampel,5,0,0,5,5,0,0,0,graph_matched
+person:daniel emrich,Daniel P. Emrich,5,0,0,5,4,1,0,0,graph_matched
+person:huei fang yang,Huei-Fang Yang,5,0,0,5,4,1,0,0,graph_matched
+person:lijun shen,Lijun Shen,5,0,0,5,4,0,1,0,graph_matched
+person:raphael norman tenazas,Raphael Norman-Tenazas,5,0,0,5,4,0,1,0,graph_matched
+person:siqi fang,Siqi Fang,5,0,0,5,4,1,0,0,graph_matched
+person:wyatt korff,Wyatt L. Korff,5,0,0,5,4,1,0,0,graph_matched
+person:peng zhao,Peng Zhao,5,0,0,5,3,2,0,0,graph_matched
+person:r vogelstein,R. J. Vogelstein,5,0,0,5,3,1,1,0,graph_matched
+person:jinyue guo,Jinyue Guo,5,0,0,5,2,3,0,0,graph_matched
+person:longfei li,Longfei Li,5,0,0,5,2,3,0,0,graph_matched
+person:michael robinette,Michael S. Robinette,5,0,0,5,2,1,2,0,graph_matched
+person:parmis mirshahidi,Parmis S. Mirshahidi,5,0,0,7,2,3,0,0,graph_matched
+person:chao tsung yang,chao-tsung Yang,5,0,0,5,1,4,0,0,graph_matched
+person:lingzi zhang,Lingzi Zhang,5,0,0,5,1,4,0,0,graph_matched
+person:yuan yao lin,Yuan-Yao Lin,5,0,0,5,1,4,0,0,graph_matched
+person:m pankratz,M. Pankratz,4,0,4,0,4,0,0,0,graph_matched
+person:gianluca lazzi,Gianluca Lazzi,4,0,4,0,2,2,0,0,graph_matched
+person:elad schneidman,Elad Schneidman,4,0,4,0,1,3,0,0,graph_matched
+person:t margrie,T. Margrie,4,0,4,0,0,4,0,0,graph_matched
+person:r baines,R. Baines,4,1,3,0,1,3,0,0,graph_matched
+person:tj sejnowski,TJ Sejnowski,4,0,3,1,2,2,0,1,graph_matched
+person:meet zandawala,Meet Zandawala,4,0,3,1,3,1,0,0,graph_matched
+person:eli shlizerman,Eli Shlizerman,4,0,3,1,2,2,0,0,graph_matched
+person:franck polleux,Franck Polleux,4,0,3,1,1,3,0,0,graph_matched
+person:herwig baier,Herwig Baier,4,0,3,1,1,3,0,0,graph_matched
+person:joris de wit,Joris de Wit,4,0,3,1,0,4,0,0,graph_matched
+person:s rayport,S. Rayport,4,0,3,1,0,4,0,0,graph_matched
+person:t mrsic flogel,T. Mrsic-Flogel,4,0,3,1,0,4,0,0,graph_matched
+person:gergely odor,Gergely Ódor,4,0,2,2,3,1,0,0,graph_matched
+person:s sorensen,S. Sorensen,4,0,2,2,2,2,0,0,graph_matched
+person:eilif muller,Eilif B. Muller,4,0,2,2,1,3,0,0,graph_matched
+person:hua tai xu,Hua-tai Xu,4,0,2,3,0,4,0,0,graph_matched
+person:t biederer,T. Biederer,4,0,2,2,0,4,0,0,graph_matched
+person:i rabinowitch,I. Rabinowitch,4,3,1,0,1,3,0,0,graph_matched
+person:david deutsch,David S. Deutsch,4,1,1,2,4,0,0,2,graph_matched
+person:yee lian chew,Yee Lian Chew,4,1,1,2,1,3,0,1,graph_matched
+person:bohao chen,Bohao Chen,4,1,1,2,2,2,0,0,graph_matched
+person:florian engert,Florian Engert,4,1,1,2,2,2,0,0,graph_matched
+person:h kohsaka,H. Kohsaka,4,1,1,2,2,2,0,0,graph_matched
+person:mathias wernet,Mathias F. Wernet,4,1,1,2,2,2,0,0,graph_matched
+person:hong wei dong,Hong-Wei Dong,4,1,1,3,1,3,0,0,graph_matched
+person:m oberlaender,M. Oberlaender,4,1,1,2,1,3,0,0,graph_matched
+person:erik bloss,Erik B. Bloss,4,1,1,2,0,4,0,0,graph_matched
+person:claire walsh,Claire Walsh,4,0,1,3,3,1,0,0,graph_matched
+person:j singer,J. Singer,4,0,1,3,3,1,0,0,graph_matched
+person:kristen harris,Kristen M. Harris,4,0,1,3,3,1,0,0,graph_matched
+person:m puxeddu,M. G. Puxeddu,4,0,1,3,3,1,0,0,graph_matched
+person:yichen luo,Yichen Luo,4,0,1,3,3,1,0,0,graph_matched
+person:feng wu,Feng Wu,4,0,1,3,2,2,0,0,graph_matched
+person:michael dickinson,Michael H. Dickinson,4,0,1,3,2,2,0,0,graph_matched
+person:marc hammarlund,Marc Hammarlund,4,0,1,3,1,3,0,0,graph_matched
+person:qingming luo,Qingming Luo,4,0,1,4,1,3,0,0,graph_matched
+person:stephen smith,Stephen M. Smith,4,0,1,3,1,2,1,0,graph_matched
+person:chung chuang lo,Chung-Chuang Lo,4,0,1,3,0,4,0,0,graph_matched
+person:peter eipert,Peter Eipert,4,0,1,3,0,3,1,0,graph_matched
+person:zhihao zheng,Zhihao Zheng,4,4,0,0,4,0,0,1,graph_matched
+person:y mishchenko,Y. Mishchenko,4,4,0,0,2,2,0,1,graph_matched
+person:oliver schmitt,Oliver Schmitt,4,4,0,0,0,3,1,0,graph_matched
+person:c brittin,C. Brittin,4,3,0,1,4,0,0,1,graph_matched
+person:r betzel,R. Betzel,4,3,0,1,3,1,0,0,graph_matched
+person:y tsukamoto,Y. Tsukamoto,4,3,0,1,2,2,0,0,graph_matched
+person:alexander shapson coe,Alexander Shapson-Coe,4,2,0,2,4,0,0,2,graph_matched
+person:c gamlin,C. Gamlin,4,2,0,2,4,0,0,1,graph_matched
+person:albert lin,Albert Lin,4,2,0,2,3,1,0,1,graph_matched
+person:emma towlson,Emma K. Towlson,4,2,0,2,2,2,0,1,graph_matched
+person:ellen lesser,Ellen Lesser,4,2,0,2,4,0,0,0,graph_matched
+person:haoran chen,Haoran Chen,4,2,0,2,3,1,0,0,graph_matched
+person:justin joyce,Justin Joyce,4,2,0,2,3,0,1,0,graph_matched
+person:juyoun yoo,Juyoun Yoo,4,2,0,2,2,2,0,0,graph_matched
+person:mark dombrovski,Mark Dombrovski,4,2,0,2,2,2,0,0,graph_matched
+person:j zung,J. Zung,4,1,0,3,4,0,0,1,graph_matched
+person:r franconville,R. Franconville,4,1,0,3,3,1,0,1,graph_matched
+person:sandeep kumar,Sandeep Kumar,4,1,0,3,3,0,1,1,graph_matched
+person:daniel witvliet,Daniel K. Witvliet,4,1,0,3,2,2,0,1,graph_matched
+person:a wilson,A. Wilson,4,1,0,3,4,0,0,0,graph_matched
+person:ali al awami,Ali K. Al-Awami,4,1,0,3,4,0,0,0,graph_matched
+person:fangfang wang,Fangfang Wang,4,1,0,3,4,0,0,0,graph_matched
+person:judith hoeller,Judith Hoeller,4,1,0,3,4,0,0,0,graph_matched
+person:mojtaba seyedhosseini,Mojtaba Seyedhosseini,4,1,0,3,4,0,0,0,graph_matched
+person:philipp schubert,Philipp J Schubert,4,1,0,3,4,0,0,0,graph_matched
+person:su yee lee,Su-Yee J. Lee,4,1,0,3,4,0,0,0,graph_matched
+person:thomas athey,Thomas Athey,4,1,0,3,4,0,0,0,graph_matched
+person:a matveev,A. Matveev,4,1,0,3,3,1,0,0,graph_matched
+person:e jurrus,E. Jurrus,4,1,0,3,3,1,0,0,graph_matched
+person:kit longden,Kit D Longden,4,1,0,3,3,0,1,0,graph_matched
+person:nathan drenkow,Nathan Drenkow,4,1,0,3,3,0,1,0,graph_matched
+person:n dhanyasi,N. Dhanyasi,4,1,0,3,1,2,1,0,graph_matched
+person:tianrui zhang,Tianrui Zhang,4,1,0,3,1,2,1,0,graph_matched
+person:yunlong shen,Yunlong Shen,4,1,0,3,1,3,0,0,graph_matched
+person:fang ming xu,Fang-ming Xu,4,1,0,5,0,4,0,0,graph_matched
+person:justin torok,Justin Torok,4,1,0,3,0,4,0,0,graph_matched
+person:m iacaruso,M. Iacaruso,4,1,0,3,0,4,0,0,graph_matched
+person:shaul druckmann,Shaul Druckmann,4,1,0,3,0,4,0,0,graph_matched
+person:brett graham,Brett J. Graham,4,0,0,4,4,0,0,3,graph_matched
+person:laramie leavitt,Laramie Leavitt,4,0,0,4,4,0,0,3,graph_matched
+person:avinash khandelwal,Avinash Khandelwal,4,0,0,4,4,0,0,2,graph_matched
+person:ingrid andrade,Ingrid V. Andrade,4,0,0,4,4,0,0,2,graph_matched
+person:youngser park,Youngser Park,4,0,0,4,3,1,0,2,graph_matched
+person:akira fushiki,Akira Fushiki,4,0,0,4,4,0,0,1,graph_matched
+person:elliott phillips,Elliott Phillips,4,0,0,4,4,0,0,1,graph_matched
+person:lucia kmecova,Lucia Kmecova,4,0,0,4,4,0,0,1,graph_matched
+person:natalie smith,Natalie Smith,4,0,0,4,4,0,0,1,graph_matched
+person:nicole neubarth,Nicole N. Neubarth,4,0,0,4,4,0,0,1,graph_matched
+person:robert smith,Robert G. Smith,4,0,0,4,4,0,0,1,graph_matched
+person:s suckow,S. Suckow,4,0,0,4,4,0,0,1,graph_matched
+person:tom dolafi,Tom Dolafi,4,0,0,4,4,0,0,1,graph_matched
+person:fabian tschopp,Fabian Tschopp,4,0,0,4,3,1,0,1,graph_matched
+person:georgia dempsey,Georgia Dempsey,4,0,0,4,3,1,0,1,graph_matched
+person:hyoungkyu kim,Hyoungkyu Kim,4,0,0,4,3,1,0,1,graph_matched
+person:j mendenhall,J. Mendenhall,4,0,0,4,3,1,0,1,graph_matched
+person:masayoshi ito,Masayoshi Ito,4,0,0,5,3,1,0,1,graph_matched
+person:jens goldammer,Jens Goldammer,4,0,0,5,2,2,0,1,graph_matched
+person:megan sammons,Megan Sammons,4,0,0,4,2,2,0,1,graph_matched
+person:n otto,N. Otto,4,0,0,4,2,2,0,1,graph_matched
+person:takashi kawase,Takashi Kawase,4,0,0,4,2,2,0,1,graph_matched
+person:austin burke,Austin T Burke,4,0,0,4,4,0,0,0,graph_matched
+person:celia david,Celia David,4,0,0,4,4,0,0,0,graph_matched
+person:christopher dunne,Christopher R. Dunne,4,0,0,4,4,0,0,0,graph_matched
+person:farzaan salman,Farzaan Salman,4,0,0,4,4,0,0,0,graph_matched
+person:ignacio tartavull,Ignacio Tartavull,4,0,0,4,4,0,0,0,graph_matched
+person:jawon gim,Jawon Gim,4,0,0,4,4,0,0,0,graph_matched
+person:k rapp,K. Rapp,4,0,0,4,4,0,0,0,graph_matched
+person:kai kang,Kai Kang,4,0,0,4,4,0,0,0,graph_matched
+person:markus conzelmann,Markus Conzelmann,4,0,0,4,4,0,0,0,graph_matched
+person:r whitaker,R. Whitaker,4,0,0,4,4,0,0,0,graph_matched
+person:sebastian seung,Sebastian Seung,4,0,0,4,4,0,0,0,graph_matched
+person:t jones,T. Jones,4,0,0,4,4,0,0,0,graph_matched
+person:v kaynig,V. Kaynig,4,0,0,4,4,0,0,0,graph_matched
+person:anthony moussa,Anthony J. Moussa,4,0,0,4,3,1,0,0,graph_matched
+person:hayk saribekyan,Hayk Saribekyan,4,0,0,4,3,1,0,0,graph_matched
+person:i siwanowicz,I. Siwanowicz,4,0,0,4,3,1,0,0,graph_matched
+person:isabella beckett,Isabella R. Beckett,4,0,0,4,3,1,0,0,graph_matched
+person:jessica garcia,Jessica C. Garcia,4,0,0,4,3,1,0,0,graph_matched
+person:kechen zhang,Kechen Zhang,4,0,0,4,3,1,0,0,graph_matched
+person:l venkatasubramanian,L. Venkatasubramanian,4,0,0,4,3,1,0,0,graph_matched
+person:m landgraf,M. Landgraf,4,0,0,4,3,1,0,0,graph_matched
+person:sang kyu bahn,Sang-kyu Bahn,4,0,0,4,3,1,0,0,graph_matched
+person:thomas euler,Thomas Euler,4,0,0,4,3,1,0,0,graph_matched
+person:zhiwei xiong,Zhiwei Xiong,4,0,0,4,3,1,0,0,graph_matched
+person:kevin boergens,Kevin M. Boergens,4,0,0,4,2,2,0,0,graph_matched
+person:sridhar jagannathan,Sridhar R. Jagannathan,4,0,0,4,2,1,1,0,graph_matched
+person:victoria rose,Victoria A. Rose,4,0,0,4,2,0,2,0,graph_matched
+person:chih cheng chen,Chih-Cheng Chen,4,0,0,4,1,2,1,0,graph_matched
+person:s locascio,S. LoCascio,4,0,0,4,1,3,0,0,graph_matched
+person:ian wickersham,Ian R. Wickersham,4,0,0,4,0,4,0,0,graph_matched
+person:xiaoming yang,Xiaoming Yang,4,0,0,4,0,4,0,0,graph_matched
+person:bo du,Bo Du,3,0,3,0,3,0,0,0,graph_matched
+person:d marshak,D. Marshak,3,0,3,0,3,0,0,0,graph_matched
+person:gregory hager,Gregory Hager,3,0,3,0,3,0,0,0,graph_matched
+person:md shamsuzzoha bayzid,Md. Shamsuzzoha Bayzid,3,0,3,0,3,0,0,0,graph_matched
+person:n cohen,N. Cohen,3,0,3,0,3,0,0,0,graph_matched
+person:satchidananda panda,Satchidananda Panda,3,0,3,0,3,0,0,0,graph_matched
+person:t clandinin,T. R. Clandinin,3,0,3,0,3,0,0,0,graph_matched
+person:james fitzgerald,James E. Fitzgerald,3,0,3,0,1,2,0,0,graph_matched
+person:yu ying zhou,Yu-ying Zhou,3,0,3,0,1,1,1,0,graph_matched
+person:m diesmann,M. Diesmann,3,0,3,0,0,1,2,0,graph_matched
+person:m gahr,M. Gahr,3,0,3,0,0,3,0,0,graph_matched
+person:p tiesinga,P. Tiesinga,3,0,3,0,0,3,0,0,graph_matched
+person:s akbarian,S. Akbarian,3,0,3,0,0,2,1,0,graph_matched
+person:s mcmullan,S. McMullan,3,0,3,0,0,3,0,0,graph_matched
+person:amit zeisel,Amit Zeisel,3,1,2,0,0,3,0,0,graph_matched
+person:marcus kaiser,Marcus Kaiser,3,1,2,0,0,3,0,0,graph_matched
+person:philipp hovel,Philipp Hövel,3,0,2,1,3,0,0,0,graph_matched
+person:d bassett,D. Bassett,3,0,2,1,2,1,0,0,graph_matched
+person:n omi,N. Omi,3,0,2,1,2,1,0,0,graph_matched
+person:i segev,I. Segev,3,0,2,1,1,2,0,0,graph_matched
+person:r wong,R. Wong,3,0,2,1,1,2,0,0,graph_matched
+person:zhefeng gong,Zhefeng Gong,3,0,2,1,1,2,0,0,graph_matched
+person:c clopath,C. Clopath,3,0,2,1,0,3,0,0,graph_matched
+person:e ozkan,E. Özkan,3,0,2,2,0,3,0,0,graph_matched
+person:guoqiang bi,Guoqiang Bi,3,0,2,1,0,3,0,0,graph_matched
+person:huanxiang lu,Huanxiang Lu,3,0,2,1,0,3,0,0,graph_matched
+person:joshua lillvis,Joshua L. Lillvis,3,2,1,0,1,2,0,0,graph_matched
+person:j rah,J. Rah,3,2,1,0,0,3,0,0,graph_matched
+person:g spirou,G. Spirou,3,1,1,1,2,1,0,0,graph_matched
+person:josh morgan,Josh L. Morgan,3,1,1,1,2,1,0,0,graph_matched
+person:a zador,A. Zador,3,1,1,1,1,2,0,0,graph_matched
+person:e rancz,E. Rancz,3,1,1,1,0,3,0,0,graph_matched
+person:katrin amunts,Katrin Amunts,3,1,1,1,0,3,0,0,graph_matched
+person:lida kanari,Lida Kanari,3,1,1,1,0,3,0,0,graph_matched
+person:m axer,M. Axer,3,1,1,1,0,3,0,0,graph_matched
+person:s ahnert,S. Ahnert,3,0,1,2,3,0,0,1,graph_matched
+person:g henry,G. L. Henry,3,0,1,2,2,1,0,1,graph_matched
+person:m kazhdan,M. Kazhdan,3,0,1,2,2,0,1,1,graph_matched
+person:p tomancak,P. Tomančák,3,0,1,2,2,1,0,1,graph_matched
+person:toshihide hige,Toshihide Hige,3,0,1,2,2,1,0,1,graph_matched
+person:daniel colon ramos,Daniel A. Colón-Ramos,3,0,1,2,3,0,0,0,graph_matched
+person:m fee,M. Fee,3,0,1,2,3,0,0,0,graph_matched
+person:christel genoud,Christel Genoud,3,0,1,2,2,1,0,0,graph_matched
+person:ting hao huang,Ting-hao Huang,3,0,1,2,2,1,0,0,graph_matched
+person:william smith,William V. Smith,3,0,1,2,2,1,0,0,graph_matched
+person:e lein,E. Lein,3,0,1,2,1,2,0,0,graph_matched
+person:g barnea,G. Barnea,3,0,1,2,1,2,0,0,graph_matched
+person:hermann schmidt,Hermann Schmidt,3,0,1,2,1,2,0,0,graph_matched
+person:masato koike,Masato Koike,3,0,1,2,1,2,0,0,graph_matched
+person:petr znamenskiy,Petr Znamenskiy,3,0,1,2,1,2,0,0,graph_matched
+person:a dagher,A. Dagher,3,0,1,2,0,2,1,0,graph_matched
+person:b sabatini,B. Sabatini,3,0,1,2,0,3,0,0,graph_matched
+person:catherine lee,Catherine Lee,3,0,1,2,0,3,0,0,graph_matched
+person:christof koch,Christof Koch,3,0,1,2,0,3,0,0,graph_matched
+person:e callaway,E. Callaway,3,0,1,2,0,3,0,0,graph_matched
+person:konrad rokicki,Konrad Rokicki,3,0,1,2,0,3,0,0,graph_matched
+person:s hofer,S. Hofer,3,0,1,2,0,3,0,0,graph_matched
+person:yonggang shi,Yonggang Shi,3,0,1,2,0,3,0,0,graph_matched
+person:g shepherd,G. Shepherd,3,3,0,0,1,2,0,1,graph_matched
+person:abrar rahman abir,Abrar Rahman Abir,3,3,0,0,3,0,0,0,graph_matched
+person:leander lauenburg,Leander Lauenburg,3,3,0,0,3,0,0,0,graph_matched
+person:tirthabir biswas,Tirthabir Biswas,3,3,0,0,1,2,0,0,graph_matched
+person:m vellema,M. Vellema,3,3,0,0,0,3,0,0,graph_matched
+person:p jusuf,P. Jusuf,3,3,0,0,0,3,0,0,graph_matched
+person:b pedigo,B. Pedigo,3,2,0,1,3,0,0,1,graph_matched
+person:philipp hanslovsky,Philipp Hanslovsky,3,2,0,1,3,0,0,1,graph_matched
+person:kerrianne ryan,Kerrianne Ryan,3,2,0,1,2,1,0,1,graph_matched
+person:andrea bordt,Andrea S Bordt,3,2,0,1,3,0,0,0,graph_matched
+person:c jones,C. Jones,3,2,0,1,3,0,0,0,graph_matched
+person:chi xiao,Chi Xiao,3,2,0,1,3,0,0,0,graph_matched
+person:dustin garner,Dustin Garner,3,2,0,1,3,0,0,0,graph_matched
+person:gregory schwartzman,Gregory Schwartzman,3,2,0,1,3,0,0,0,graph_matched
+person:hugo calligaro,Hugo Calligaro,3,2,0,1,3,0,0,0,graph_matched
+person:m kuwajima,M. Kuwajima,3,2,0,1,3,0,0,0,graph_matched
+person:minghui liao,Minghui Liao,3,2,0,1,3,0,0,0,graph_matched
+person:qihua chen,Qihua Chen,3,2,0,1,3,0,0,0,graph_matched
+person:catherine schretter,Catherine E. Schretter,3,2,0,1,2,1,0,0,graph_matched
+person:jeff brown,Jeff B. Brown,3,2,0,1,2,1,0,0,graph_matched
+person:zhiqiao liu,Zhiqiao Liu,3,2,0,1,2,1,0,0,graph_matched
+person:christopher lynn,Christopher W. Lynn,3,2,0,1,1,2,0,0,graph_matched
+person:g ocker,G. Ocker,3,2,0,1,1,2,0,0,graph_matched
+person:seth taylor,Seth R. Taylor,3,2,0,1,1,2,0,0,graph_matched
+person:a brown,A. P. Brown,3,2,0,1,0,3,0,0,graph_matched
+person:nuno apostolo,Nuno Apóstolo,3,2,0,1,0,3,0,0,graph_matched
+person:s mingote,S. Mingote,3,2,0,1,0,3,0,0,graph_matched
+person:c barnes,C. L. Barnes,3,1,0,2,3,0,0,2,graph_matched
+person:s loomba,S. Loomba,3,1,0,2,3,0,0,2,graph_matched
+person:brendan celii,Brendan Celii,3,1,0,2,3,0,0,1,graph_matched
+person:michael chirillo,Michael A. Chirillo,3,1,0,2,3,0,0,1,graph_matched
+person:ben mulcahy,Ben Mulcahy,3,1,0,2,2,1,0,1,graph_matched
+person:k nguyen,K. Nguyen,3,1,0,2,2,1,0,1,graph_matched
+person:albina asadulina,Albina Asadulina,3,1,0,2,3,0,0,0,graph_matched
+person:b pratt,B. Pratt,3,1,0,2,3,0,0,0,graph_matched
+person:bei hong,Bei Hong,3,1,0,2,3,0,0,0,graph_matched
+person:mariela petkova,Mariela D. Petkova,3,1,0,2,3,0,0,0,graph_matched
+person:n drummond,N. Drummond,3,1,0,2,3,0,0,0,graph_matched
+person:p potocek,P. Potocek,3,1,0,2,3,0,0,0,graph_matched
+person:seymour knowles barley,Seymour Knowles-Barley,3,1,0,2,3,0,0,0,graph_matched
+person:sophie dvali,Sophie Dvali,3,1,0,2,3,0,0,0,graph_matched
+person:sung soo moon,Sung Soo Moon,3,1,0,2,3,0,0,0,graph_matched
+person:valentin gillet,Valentin Gillet,3,1,0,2,3,0,0,0,graph_matched
+person:d rolnick,D. Rolnick,3,1,0,2,2,1,0,0,graph_matched
+person:daniel barabasi,Dániel L. Barabási,3,1,0,2,2,1,0,0,graph_matched
+person:e iseri,E. Iseri,3,1,0,2,2,1,0,0,graph_matched
+person:emily heckman,Emily L. Heckman,3,1,0,2,2,1,0,0,graph_matched
+person:eva dyer,Eva L. Dyer,3,1,0,2,2,1,0,0,graph_matched
+person:g meissner,G. Meissner,3,1,0,2,2,1,0,0,graph_matched
+person:gizem sancer,Gizem Sancer,3,1,0,2,2,1,0,0,graph_matched
+person:j boulanger weill,J. Boulanger-Weill,3,1,0,2,2,1,0,0,graph_matched
+person:jason adhinarta,Jason K. Adhinarta,3,1,0,2,2,1,0,0,graph_matched
+person:jongpil shin,Jongpil Shin,3,1,0,2,2,0,1,0,graph_matched
+person:meng xu,Meng Xu,3,1,0,2,2,1,0,0,graph_matched
+person:piero sanfilippo,Piero Sanfilippo,3,1,0,2,2,1,0,0,graph_matched
+person:shih huan huang,Shih-Huan Huang,3,1,0,2,2,1,0,0,graph_matched
+person:theresa mckim,Theresa H. McKim,3,1,0,2,2,1,0,0,graph_matched
+person:xiao jun gu,Xiao-Jun Gu,3,1,0,2,2,1,0,0,graph_matched
+person:ye yuan,Ye Yuan,3,1,0,2,2,1,0,0,graph_matched
+person:young joon kim,Young-Joon Kim,3,1,0,2,2,1,0,0,graph_matched
+person:zhangcan ding,Zhangcan Ding,3,1,0,3,2,1,0,0,graph_matched
+person:benjamin li,Benjamin Li,3,1,0,2,1,2,0,0,graph_matched
+person:maryam majeed,Maryam Majeed,3,1,0,2,1,2,0,0,graph_matched
+person:nicole guittari,Nicole K. Guittari,3,1,0,2,1,0,2,0,graph_matched
+person:qiuying zhao,Qiuying Zhao,3,1,0,2,1,2,0,0,graph_matched
+person:yongxin zhao,Yongxin Zhao,3,1,0,2,1,2,0,0,graph_matched
+person:a makarova,A. Makarova,3,1,0,2,0,3,0,0,graph_matched
+person:bowen dempsey,Bowen Dempsey,3,1,0,2,0,3,0,0,graph_matched
+person:c cadwell,C. Cadwell,3,1,0,2,0,3,0,0,graph_matched
+person:chaitali anand,Chaitali Anand,3,1,0,2,0,3,0,0,graph_matched
+person:junyang wang,Junyang Wang,3,1,0,2,0,3,0,0,graph_matched
+person:m schwarz,M. Schwarz,3,1,0,2,0,2,1,0,graph_matched
+person:meital oren suissa,Meital Oren-Suissa,3,1,0,2,0,3,0,0,graph_matched
+person:rembrandt bakker,Rembrandt Bakker,3,1,0,2,0,2,1,0,graph_matched
+person:robert carrillo,Robert A. Carrillo,3,1,0,2,0,3,0,0,graph_matched
+person:sammy lee,Sammy C. S. Lee,3,1,0,2,0,3,0,0,graph_matched
+person:sheng le,Sheng Le,3,1,0,2,0,3,0,0,graph_matched
+person:oluwaseun ogedengbe,Oluwaseun Ogedengbe,3,0,0,3,3,0,0,3,graph_matched
+person:art pope,Art Pope,3,0,0,3,3,0,0,2,graph_matched
+person:david aley,David Aley,3,0,0,3,3,0,0,2,graph_matched
+person:donghyung lee,Donghyung Lee,3,0,0,3,3,0,0,2,graph_matched
+person:j wagner carena,J. Wagner-Carena,3,0,0,3,3,0,0,2,graph_matched
+person:lei ann chang,Lei-Ann Chang,3,0,0,3,3,0,0,2,graph_matched
+person:selden koolman,Selden Koolman,3,0,0,3,3,0,0,2,graph_matched
+person:benjamin field,Benjamin Field,3,0,0,3,2,1,0,2,graph_matched
+person:m longair,M. Longair,3,0,0,3,2,1,0,2,graph_matched
+person:a scott,A. K. Scott,3,0,0,3,3,0,0,1,graph_matched
+person:a suleiman,A. Suleiman,3,0,0,3,3,0,0,1,graph_matched
+person:b staffler,B. Staffler,3,0,0,3,3,0,0,1,graph_matched
+person:christos papadopoulos,Christos Papadopoulos,3,0,0,3,3,0,0,1,graph_matched
+person:dagmar kainmueller,Dagmar Kainmueller,3,0,0,3,3,0,0,1,graph_matched
+person:dennis bailey,Dennis Bailey,3,0,0,3,3,0,0,1,graph_matched
+person:edgar walker,Edgar Y. Walker,3,0,0,3,3,0,0,1,graph_matched
+person:emily manley,Emily A Manley,3,0,0,3,3,0,0,1,graph_matched
+person:g hopkins,G. Hopkins,3,0,0,3,3,0,0,1,graph_matched
+person:g williams,G. Williams,3,0,0,3,3,0,0,1,graph_matched
+person:j rymer,J. Rymer,3,0,0,3,3,0,0,1,graph_matched
+person:j spacek,J. Špaček,3,0,0,3,3,0,0,1,graph_matched
+person:j walsh,J. Walsh,3,0,0,3,3,0,0,1,graph_matched
+person:k fairbanks,K. Fairbanks,3,0,0,3,3,0,0,1,graph_matched
+person:larry lindsey,Larry F. Lindsey,3,0,0,3,3,0,0,1,graph_matched
+person:logan thomas,Logan A. Thomas,3,0,0,3,3,0,0,1,graph_matched
+person:matthew nichols,Matthew Nichols,3,0,0,3,3,0,0,1,graph_matched
+person:natasha cheatham,Natasha Cheatham,3,0,0,3,3,0,0,1,graph_matched
+person:o duclos,O. Duclos,3,0,0,3,3,0,0,1,graph_matched
+person:philip laserstein,Philip Laserstein,3,0,0,3,3,0,0,1,graph_matched
+person:s ryan,S. Ryan,3,0,0,3,3,0,0,1,graph_matched
+person:sari mclin,Sari McLin,3,0,0,3,3,0,0,1,graph_matched
+person:yongguo yu,Yongguo Yu,3,0,0,3,3,0,0,1,graph_matched
+person:ana correia,Ana Correia,3,0,0,3,2,1,0,1,graph_matched
+person:david ackerman,David Ackerman,3,0,0,3,2,1,0,1,graph_matched
+person:dorota tarnogorska,Dorota Tarnogorska,3,0,0,3,2,1,0,1,graph_matched
+person:j borycz,J. Borycz,3,0,0,3,2,1,0,1,graph_matched
+person:keinosuke ito,Keinosuke Ito,3,0,0,5,2,1,0,1,graph_matched
+person:angela wong,Angela Wong,3,0,0,3,1,2,0,1,graph_matched
+person:h meyer,H. S. Meyer,3,0,0,3,1,2,0,1,graph_matched
+person:julie tran,Julie Tran,3,0,0,3,1,2,0,1,graph_matched
+person:a pollreisz,A. Pollreisz,3,0,0,3,3,0,0,0,graph_matched
+person:a zlateski,A. Zlateski,3,0,0,3,3,0,0,0,graph_matched
+person:benjamin jourdan,Benjamin Jourdan,3,0,0,3,3,0,0,0,graph_matched
+person:brian khov,Brian Khov,3,0,0,3,3,0,0,0,graph_matched
+person:cristine kalinski,Cristine Kalinski,3,0,0,3,3,0,0,0,graph_matched
+person:d budden,D. Budden,3,0,0,3,3,0,0,0,graph_matched
+person:david peale,David Peale,3,0,0,3,3,0,0,0,graph_matched
+person:diego perez,Diego Perez,3,0,0,3,3,0,0,0,graph_matched
+person:e munnelly,E. Munnelly,3,0,0,3,3,0,0,0,graph_matched
+person:edward rogers,Edward M Rogers,3,0,0,3,3,0,0,0,graph_matched
+person:emily yakal,Emily A Yakal,3,0,0,3,3,0,0,0,graph_matched
+person:g schuhknecht,G. Schuhknecht,3,0,0,3,3,0,0,0,graph_matched
+person:gary patrick hopkins,Gary Patrick Hopkins,3,0,0,3,3,0,0,0,graph_matched
+person:guojia wan,Guojia Wan,3,0,0,3,3,0,0,0,graph_matched
+person:john walsh,John J Walsh,3,0,0,3,3,0,0,0,graph_matched
+person:joseph downs,Joseph Downs,3,0,0,3,3,0,0,0,graph_matched
+person:joseph hsu,Joseph Hsu,3,0,0,3,3,0,0,0,graph_matched
+person:luke tseng,Luke Tseng,3,0,0,3,3,0,0,0,graph_matched
+person:m shao,M. Shao,3,0,0,3,3,0,0,0,graph_matched
+person:m sumathipala,M. Sumathipala,3,0,0,3,3,0,0,0,graph_matched
+person:martin guhmann,Martin Gühmann,3,0,0,3,3,0,0,0,graph_matched
+person:maurice peemen,Maurice Peemen,3,0,0,3,3,0,0,0,graph_matched
+person:meghan leonard,Meghan Leonard,3,0,0,3,3,0,0,0,graph_matched
+person:miller wilt,Miller Wilt,3,0,0,3,3,0,0,0,graph_matched
+person:miriam flynn,Miriam A. Flynn,3,0,0,3,3,0,0,0,graph_matched
+person:nicolo ceffa,Nicolò Ceffa,3,0,0,3,3,0,0,0,graph_matched
+person:pat gunn,Pat Gunn,3,0,0,3,3,0,0,0,graph_matched
+person:paul martin,Paul R. Martin,3,0,0,3,3,0,0,0,graph_matched
+person:pavel koshevoy,Pavel A. Koshevoy,3,0,0,3,3,0,0,0,graph_matched
+person:r turnbull,R. Turnbull,3,0,0,3,3,0,0,0,graph_matched
+person:serene dhawan,Serene Dhawan,3,0,0,3,3,0,0,0,graph_matched
+person:t uram,T. Uram,3,0,0,3,3,0,0,0,graph_matched
+person:william zhang,William Zhang,3,0,0,3,3,0,0,0,graph_matched
+person:akinao nose,Akinao Nose,3,0,0,3,2,1,0,0,graph_matched
+person:alana richards,Alana Richards,3,0,0,3,2,1,0,0,graph_matched
+person:emil kind,Emil Kind,3,0,0,3,2,1,0,0,graph_matched
+person:emre aksay,Emre R. F. Aksay,3,0,0,3,2,1,0,0,graph_matched
+person:eyal gruntman,Eyal Gruntman,3,0,0,3,2,1,0,0,graph_matched
+person:finja klemm,Finja Klemm,3,0,0,3,2,1,0,0,graph_matched
+person:ilina moitra,Ilina Moitra,3,0,0,3,2,1,0,0,graph_matched
+person:j berg,J. Berg,3,0,0,3,2,1,0,0,graph_matched
+person:j kuchenbecker,J. Kuchenbecker,3,0,0,3,2,1,0,0,graph_matched
+person:jean livet,Jean Livet,3,0,0,3,2,1,0,0,graph_matched
+person:jeebika dahal,Jeebika Dahal,3,0,0,3,2,1,0,0,graph_matched
+person:jerald kralik,Jerald D. Kralik,3,0,0,3,2,1,0,0,graph_matched
+person:jiang ning zhou,Jiang-Ning Zhou,3,0,0,3,2,1,0,0,graph_matched
+person:katrin franke,Katrin Franke,3,0,0,3,2,1,0,0,graph_matched
+person:lindsey kitchell,Lindsey M. Kitchell,3,0,0,3,2,0,1,0,graph_matched
+person:michael john dolan,Michael-John Dolan,3,0,0,3,2,1,0,0,graph_matched
+person:n gouwens,N. Gouwens,3,0,0,3,2,1,0,0,graph_matched
+person:po jui chen,Po-Jui Chen,3,0,0,3,2,1,0,0,graph_matched
+person:priya manavalan,Priya Manavalan,3,0,0,3,2,0,1,0,graph_matched
+person:t jarsky,T. Jarsky,3,0,0,3,2,1,0,0,graph_matched
+person:xudong zhao,Xudong Zhao,3,0,0,3,2,1,0,0,graph_matched
+person:yunming gao,Yunming Gao,3,0,0,3,2,1,0,0,graph_matched
+person:alban cenameri,Alban Cenameri,3,0,0,3,1,2,0,0,graph_matched
+person:alexis weinreb,Alexis Weinreb,3,0,0,3,1,2,0,0,graph_matched
+person:bokyoung lee,Bokyoung Lee,3,0,0,3,1,2,0,0,graph_matched
+person:brian lee,Brian R. Lee,3,0,0,3,1,2,0,0,graph_matched
+person:christoph sommer,Christoph Sommer,3,0,0,3,1,2,0,0,graph_matched
+person:chun xiao huang,Chun-Xiao Huang,3,0,0,3,1,2,0,0,graph_matched
+person:daniela egas santander,Daniela Egas Santander,3,0,0,3,1,2,0,0,graph_matched
+person:dazheng feng,Dazheng Feng,3,0,0,3,1,2,0,0,graph_matched
+person:e varol,E. Varol,3,0,0,3,1,2,0,0,graph_matched
+person:eva laurell,Eva Laurell,3,0,0,3,1,2,0,0,graph_matched
+person:gaia novarino,Gaia Novarino,3,0,0,3,1,2,0,0,graph_matched
+person:haosheng sun,Haosheng Sun,3,0,0,3,1,2,0,0,graph_matched
+person:hui gong,Hui Gong,3,0,0,4,1,2,0,0,graph_matched
+person:julia lyudchik,Julia Lyudchik,3,0,0,3,1,2,0,0,graph_matched
+person:lufeng ding,Lufeng Ding,3,0,0,3,1,2,0,0,graph_matched
+person:megumu takahashi,Megumu Takahashi,3,0,0,3,1,2,0,0,graph_matched
+person:molly strom,Molly Strom,3,0,0,3,1,2,0,0,graph_matched
+person:shujing zhang,Shujing Zhang,3,0,0,3,1,2,0,0,graph_matched
+person:tingting jiang,Tingting Jiang,3,0,0,3,1,2,0,0,graph_matched
+person:tingting su,Tingting Su,3,0,0,3,1,2,0,0,graph_matched
+person:vincent bazinet,Vincent Bazinet,3,0,0,3,1,2,0,0,graph_matched
+person:wan qing yu,Wan-Qing Yu,3,0,0,3,1,1,1,0,graph_matched
+person:yangning lu,Yangning Lu,3,0,0,3,1,2,0,0,graph_matched
+person:yisheng he,Yisheng He,3,0,0,3,1,2,0,0,graph_matched
+person:a goodchild,A. Goodchild,3,0,0,3,0,3,0,0,graph_matched
+person:a van der linden,A. Van der Linden,3,0,0,3,0,3,0,0,graph_matched
+person:aiqun li,Aiqun Li,3,0,0,4,0,3,0,0,graph_matched
+person:bao lei zhang,Bao-Lei Zhang,3,0,0,4,0,3,0,0,graph_matched
+person:berta vidal,Berta Vidal,3,0,0,3,0,3,0,0,graph_matched
+person:bosiljka tasic,Bosiljka Tasic,3,0,0,3,0,3,0,0,graph_matched
+person:c gerfen,C. Gerfen,3,0,0,3,0,3,0,0,graph_matched
+person:chris mezias,Chris Mezias,3,0,0,3,0,3,0,0,graph_matched
+person:courtney lau,Courtney Lau,3,0,0,3,0,3,0,0,graph_matched
+person:cristian goina,Cristian Goina,3,0,0,3,0,3,0,0,graph_matched
+person:cyril cros,Cyril C Cros,3,0,0,3,0,3,0,0,graph_matched
+person:g ahlsen,G. Ahlsen,3,0,0,3,0,3,0,0,graph_matched
+person:g shafiei,G. Shafiei,3,0,0,3,0,2,1,0,graph_matched
+person:hannah hochgerner,Hannah Hochgerner,3,0,0,3,0,3,0,0,graph_matched
+person:hassana oyibo,Hassana K. Oyibo,3,0,0,3,0,3,0,0,graph_matched
+person:hyun seung mun,Hyun-Seung Mun,3,0,0,3,0,3,0,0,graph_matched
+person:jes dreier,Jes Dreier,3,0,0,3,0,3,0,0,graph_matched
+person:john crary,John F. Crary,3,0,0,3,0,3,0,0,graph_matched
+person:jonathan brewer,Jonathan Brewer,3,0,0,3,0,3,0,0,graph_matched
+person:julie harris,Julie A. Harris,3,0,0,3,0,3,0,0,graph_matched
+person:karen hibbard,Karen L. Hibbard,3,0,0,3,0,3,0,0,graph_matched
+person:katherine watters,Katherine E Watters,3,0,0,3,0,3,0,0,graph_matched
+person:l cossell,L. Cossell,3,0,0,3,0,3,0,0,graph_matched
+person:l shapiro,L. Shapiro,3,0,0,3,0,3,0,0,graph_matched
+person:lori glenwinkel,Lori Glenwinkel,3,0,0,3,0,3,0,0,graph_matched
+person:luis garcia,Luis Garcia,3,0,0,4,0,3,0,0,graph_matched
+person:m taormina,M. Taormina,3,0,0,3,0,3,0,0,graph_matched
+person:mariana diales rocha,Mariana Diales Rocha,3,0,0,3,0,3,0,0,graph_matched
+person:ming chin wu,Ming-Chin Wu,3,0,0,3,0,3,0,0,graph_matched
+person:p hof,P. Hof,3,0,0,3,0,3,0,0,graph_matched
+person:phinikoula katsamba,Phinikoula S. Katsamba,3,0,0,3,0,3,0,0,graph_matched
+person:s leitner,S. Leitner,3,0,0,3,0,3,0,0,graph_matched
+person:s zsebok,S. Zsebők,3,0,0,3,0,3,0,0,graph_matched
+person:sabrina bascones,Sabrina Bascones,3,0,0,3,0,3,0,0,graph_matched
+person:soo jung oh,Soo Jung Oh,3,0,0,3,0,3,0,0,graph_matched
+person:r douglas,R. Douglas,2,0,2,0,1,1,0,1,graph_matched
+person:stephen wong,Stephen T. C. Wong,2,0,2,0,1,1,0,1,graph_matched
+person:alon zaslaver,Alon Zaslaver,2,0,2,0,2,0,0,0,graph_matched
+person:andrew leifer,Andrew M Leifer,2,0,2,0,2,0,0,0,graph_matched
+person:aradhana singh,Aradhana Singh,2,0,2,0,2,0,0,0,graph_matched
+person:c dovrolis,C. Dovrolis,2,0,2,0,2,0,0,0,graph_matched
+person:damon clark,Damon A. Clark,2,0,2,0,2,0,0,0,graph_matched
+person:david tank,David W. Tank,2,0,2,0,2,0,0,0,graph_matched
+person:edward boyden,Edward S. Boyden,2,0,2,0,2,0,0,0,graph_matched
+person:ellie heckscher,Ellie S. Heckscher,2,0,2,0,2,0,0,0,graph_matched
+person:j kutz,J. Kutz,2,0,2,0,2,0,0,0,graph_matched
+person:james jeanne,James M. Jeanne,2,0,2,0,2,0,0,0,graph_matched
+person:jonathan pillow,Jonathan W. Pillow,2,0,2,0,2,0,0,0,graph_matched
+person:stanley heinze,Stanley Heinze,2,0,2,0,2,0,0,0,graph_matched
+person:sung soo kim,Sung Soo Kim,2,0,2,0,2,0,0,0,graph_matched
+person:william kristan jr,William B. Kristan Jr.,2,0,2,0,2,0,0,0,graph_matched
+person:a fornito,A. Fornito,2,0,2,0,1,1,0,0,graph_matched
+person:anirvan ghosh,Anirvan Ghosh,2,0,2,0,1,1,0,0,graph_matched
+person:chiara zurzolo,Chiara Zurzolo,2,0,2,0,1,1,0,0,graph_matched
+person:d ville,D. Ville,2,0,2,0,1,1,0,0,graph_matched
+person:fang guo,Fang Guo,2,0,2,0,1,1,0,0,graph_matched
+person:h hioki,H. Hioki,2,0,2,0,1,1,0,0,graph_matched
+person:h makse,H. Makse,2,0,2,0,1,1,0,0,graph_matched
+person:ilona grunwald kadow,Ilona C. Grunwald Kadow,2,0,2,0,1,1,0,0,graph_matched
+person:k kaun,K. Kaun,2,0,2,0,1,1,0,0,graph_matched
+person:m hausser,M. Häusser,2,0,2,0,1,1,0,0,graph_matched
+person:marion silies,Marion Silies,2,0,2,0,1,1,0,0,graph_matched
+person:vivek venkatachalam,Vivek Venkatachalam,2,0,2,0,1,1,0,0,graph_matched
+person:yoonsuck choe,Yoonsuck Choe,2,0,2,0,1,1,0,0,graph_matched
+person:zengcai guo,Zengcai V. Guo,2,0,2,0,1,1,0,0,graph_matched
+person:a mousley,A. Mousley,2,0,2,0,0,2,0,0,graph_matched
+person:b sakmann,B. Sakmann,2,0,2,0,0,2,0,0,graph_matched
+person:b scholl,B. Scholl,2,0,2,0,0,2,0,0,graph_matched
+person:c eroglu,C. Eroglu,2,0,2,1,0,2,0,0,graph_matched
+person:chao peng,Chao Peng,2,0,2,0,0,2,0,0,graph_matched
+person:j danzl,J. Danzl,2,0,2,0,0,2,0,0,graph_matched
+person:jacob vogel,Jacob W. Vogel,2,0,2,0,0,2,0,0,graph_matched
+person:jagan srinivasan,Jagan Srinivasan,2,0,2,0,0,2,0,0,graph_matched
+person:jeffrey smith,Jeffrey C. Smith,2,0,2,0,0,2,0,0,graph_matched
+person:matthew pecot,Matthew Y. Pecot,2,0,2,0,0,2,0,0,graph_matched
+person:r rosenbaum,R. Rosenbaum,2,0,2,0,0,2,0,0,graph_matched
+person:steven zucker,Steven W. Zucker,2,0,2,0,0,2,0,0,graph_matched
+person:wen jie xu,Wen-Jie Xu,2,0,2,0,0,2,0,0,graph_matched
+person:b fenyves,B. Fenyves,2,1,1,0,2,0,0,0,graph_matched
+person:j de lucas,J. M. de Lucas,2,1,1,0,2,0,0,0,graph_matched
+person:maria paz fernandez,María Paz Fernández,2,1,1,0,2,0,0,0,graph_matched
+person:samia mohinta,Samia Mohinta,2,1,1,0,2,0,0,0,graph_matched
+person:a simon,A. Simon,2,1,1,0,1,1,0,0,graph_matched
+person:anton arkhipov,Anton Arkhipov,2,1,1,0,1,1,0,0,graph_matched
+person:bradly alicea,Bradly Alicea,2,1,1,0,1,1,0,0,graph_matched
+person:d arendt,D. Arendt,2,1,1,0,1,1,0,0,graph_matched
+person:el kaioum moutuou,El-kaioum M. Moutuou,2,1,1,0,1,1,0,0,graph_matched
+person:istvan kovacs,István A. Kovács,2,1,1,0,1,1,0,0,graph_matched
+person:j hizanidis,J. Hizanidis,2,1,1,0,1,1,0,0,graph_matched
+person:j karbowski,J. Karbowski,2,1,1,0,1,1,0,0,graph_matched
+person:jianren song,Jianren Song,2,1,1,0,1,1,0,0,graph_matched
+person:maxwell turner,Maxwell H. Turner,2,1,1,0,1,1,0,0,graph_matched
+person:s chu,S. Chu,2,1,1,0,1,1,0,0,graph_matched
+person:s flavell,S. Flavell,2,1,1,0,1,1,0,0,graph_matched
+person:e marder,E. Marder,2,1,1,0,0,2,0,0,graph_matched
+person:g drion,G. Drion,2,1,1,0,0,2,0,0,graph_matched
+person:manuel schroter,Manuel S. Schröter,2,1,1,0,0,2,0,0,graph_matched
+person:orkun akin,Orkun Akin,2,1,1,0,0,2,0,0,graph_matched
+person:sen song,Sen Song,2,1,1,0,0,2,0,0,graph_matched
+person:tetsuo yamamori,Tetsuo Yamamori,2,1,1,0,0,2,0,0,graph_matched
+person:z kisvarday,Z. Kisvárday,2,1,1,0,0,2,0,0,graph_matched
+person:carey priebe,Carey E. Priebe,2,0,1,1,2,0,0,1,graph_matched
+person:j diamond,J. Diamond,2,0,1,1,2,0,0,1,graph_matched
+person:s williams,S. Williams,2,0,1,1,2,0,0,1,graph_matched
+person:h bulow,H. Bülow,2,0,1,1,1,1,0,1,graph_matched
+person:j magee,J. Magee,2,0,1,1,1,1,0,1,graph_matched
+person:a bahl,A. Bahl,2,0,1,1,2,0,0,0,graph_matched
+person:a merchan perez,Á. Merchán-Pérez,2,0,1,1,2,0,0,0,graph_matched
+person:alexander kim,Alexander J. Kim,2,0,1,1,2,0,0,0,graph_matched
+person:b hochner,B. Hochner,2,0,1,1,2,0,0,0,graph_matched
+person:h kazama,H. Kazama,2,0,1,1,2,0,0,0,graph_matched
+person:j simpson,J. Simpson,2,0,1,1,2,0,0,0,graph_matched
+person:m he,M. Heß,2,0,1,1,2,0,0,0,graph_matched
+person:michael pankratz,Michael J. Pankratz,2,0,1,1,2,0,0,0,graph_matched
+person:nuno macarico da costa,Nuno Maçarico da Costa,2,0,1,1,2,0,0,0,graph_matched
+person:peter csermely,Peter Csermely,2,0,1,1,2,0,0,0,graph_matched
+person:zepeng yao,Zepeng Yao,2,0,1,1,2,0,0,0,graph_matched
+person:bingqing zhao,Bingqing Zhao,2,0,1,1,1,1,0,0,graph_matched
+person:brian robinson,Brian S. Robinson,2,0,1,1,1,0,1,0,graph_matched
+person:constantin pape,Constantin Pape,2,0,1,1,1,1,0,0,graph_matched
+person:d zeidler,D. Zeidler,2,0,1,1,1,1,0,0,graph_matched
+person:dandan zhu,Dandan Zhu,2,0,1,1,1,1,0,0,graph_matched
+person:david bader,David A. Bader,2,0,1,1,1,0,1,0,graph_matched
+person:e niebur,E. Niebur,2,0,1,1,1,1,0,0,graph_matched
+person:gang yan,Gang Yan,2,0,1,1,1,1,0,0,graph_matched
+person:gwyneth liu,Gwyneth Liu,2,0,1,1,1,1,0,0,graph_matched
+person:h vergara,H. Vergara,2,0,1,1,1,1,0,0,graph_matched
+person:habib benali,Habib Benali,2,0,1,1,1,1,0,0,graph_matched
+person:j blagburn,J. Blagburn,2,0,1,1,1,1,0,0,graph_matched
+person:j sanes,J. Sanes,2,0,1,1,1,1,0,0,graph_matched
+person:jan pielage,Jan Pielage,2,0,1,1,1,1,0,0,graph_matched
+person:jonathan krebs,Jonathan Krebs,2,0,1,1,1,1,0,0,graph_matched
+person:junichi hata,Junichi Hata,2,0,1,1,1,1,0,0,graph_matched
+person:k kording,K. Kording,2,0,1,1,1,0,1,0,graph_matched
+person:luxuan wang,Luxuan Wang,2,0,1,1,1,1,0,0,graph_matched
+person:m buice,M. Buice,2,0,1,1,1,1,0,0,graph_matched
+person:m dal maschio,M. dal Maschio,2,0,1,1,1,1,0,0,graph_matched
+person:m heuvel,M. P. Heuvel,2,0,1,1,1,1,0,0,graph_matched
+person:m hoon,M. Hoon,2,0,1,1,1,1,0,0,graph_matched
+person:minggang wang,MingGang Wang,2,0,1,1,1,1,0,0,graph_matched
+person:rafael yuste,Rafael Yuste,2,0,1,1,1,1,0,0,graph_matched
+person:raunak sinha,Raunak Sinha,2,0,1,1,1,1,0,0,graph_matched
+person:reza abbasi asl,Reza Abbasi-Asl,2,0,1,1,1,1,0,0,graph_matched
+person:rudy behnia,Rudy Behnia,2,0,1,1,1,1,0,0,graph_matched
+person:s brown,S. P. Brown,2,0,1,1,1,1,0,0,graph_matched
+person:s suweis,S. Suweis,2,0,1,1,1,1,0,0,graph_matched
+person:shin ishii,Shin Ishii,2,0,1,1,1,1,0,0,graph_matched
+person:v folli,V. Folli,2,0,1,1,1,1,0,0,graph_matched
+person:wei wei,Wei Wei,2,0,1,1,1,1,0,0,graph_matched
+person:a gozzi,A. Gozzi,2,0,1,1,0,2,0,0,graph_matched
+person:a roberts,A. Roberts,2,0,1,1,0,2,0,0,graph_matched
+person:alexander german,Alexander German,2,0,1,1,0,1,1,0,graph_matched
+person:b honig,B. Honig,2,0,1,1,0,2,0,0,graph_matched
+person:beiya xu,Beiya Xu,2,0,1,1,0,2,0,0,graph_matched
+person:borys wrobel,Borys Wróbel,2,0,1,1,0,1,1,0,graph_matched
+person:c hilgetag,C. Hilgetag,2,0,1,1,0,2,0,0,graph_matched
+person:d fair,D. Fair,2,0,1,1,0,1,1,0,graph_matched
+person:d van essen,D. V. Van Essen,2,0,1,1,0,2,0,0,graph_matched
+person:david osumi sutherland,David Osumi-Sutherland,2,0,1,1,0,0,2,0,graph_matched
+person:f kao,F. Kao,2,0,1,1,0,2,0,0,graph_matched
+person:fangming xie,Fangming Xie,2,0,1,1,0,2,0,0,graph_matched
+person:h sompolinsky,H. Sompolinsky,2,0,1,2,0,2,0,0,graph_matched
+person:henrik skibbe,Henrik Skibbe,2,0,1,1,0,2,0,0,graph_matched
+person:j armstrong,J. D. Armstrong,2,0,1,1,0,0,2,0,graph_matched
+person:jeffrey percival,Jeffrey W Percival,2,0,1,1,0,2,0,0,graph_matched
+person:jingdao chen,Jingdao Chen,2,0,1,1,0,2,0,0,graph_matched
+person:juliane thoener,Juliane Thoener,2,0,1,1,0,2,0,0,graph_matched
+person:n brunel,N. Brunel,2,0,1,1,0,2,0,0,graph_matched
+person:r levi,R. Levi,2,0,1,1,0,2,0,0,graph_matched
+person:s saitoh,S. Saitoh,2,0,1,1,0,2,0,0,graph_matched
+person:sarah king,Sarah B. King,2,0,1,1,0,2,0,0,graph_matched
+person:shiuan tze wu,Shiuan-Tze Wu,2,0,1,1,0,2,0,0,graph_matched
+person:w liao,W. Liao,2,0,1,1,0,2,0,0,graph_matched
+person:b hulse,B. Hulse,2,2,0,0,2,0,0,1,graph_matched
+person:barry bentley,Barry L. Bentley,2,2,0,0,2,0,0,1,graph_matched
+person:bryant avila,Bryant Avila,2,2,0,0,2,0,0,0,graph_matched
+person:dean pospisil,Dean A. Pospisil,2,2,0,0,2,0,0,0,graph_matched
+person:jason pipkin,Jason Pipkin,2,2,0,0,2,0,0,0,graph_matched
+person:p yadav,P. Yadav,2,2,0,0,2,0,0,0,graph_matched
+person:philip shiu,Philip K. Shiu,2,2,0,0,2,0,0,0,graph_matched
+person:v sampathkumar,V. Sampathkumar,2,2,0,0,2,0,0,0,graph_matched
+person:a arnatkeviciute,A. Arnatkevic̆iūtė,2,2,0,0,1,1,0,0,graph_matched
+person:adam haber,Adam Haber,2,2,0,0,1,1,0,0,graph_matched
+person:angela zhang,Angela Zhang,2,2,0,0,1,1,0,0,graph_matched
+person:carlo giachello,Carlo N. G. Giachello,2,2,0,0,1,1,0,0,graph_matched
+person:filip milisav,Filip Milisav,2,2,0,0,1,1,0,0,graph_matched
+person:florian unger,Florian Unger,2,2,0,0,1,1,0,0,graph_matched
+person:ishani ganguly,Ishani Ganguly,2,2,0,0,1,1,0,0,graph_matched
+person:janne lappalainen,Janne K. Lappalainen,2,2,0,0,1,1,0,0,graph_matched
+person:jingbin yuan,Jingbin Yuan,2,2,0,0,1,0,1,0,graph_matched
+person:kaylynn coates,Kaylynn E. Coates,2,2,0,0,1,1,0,0,graph_matched
+person:lev givon,Lev E. Givon,2,2,0,0,1,1,0,0,graph_matched
+person:m cirunay,M. Cirunay,2,2,0,0,1,1,0,0,graph_matched
+person:maximilian schmidt,Maximilian Schmidt,2,2,0,0,1,1,0,0,graph_matched
+person:omar hafez,Omar A. Hafez,2,2,0,0,1,1,0,0,graph_matched
+person:t furuta,T. Furuta,2,2,0,0,1,1,0,0,graph_matched
+person:xiaomeng han,Xiaomeng Han,2,2,0,0,1,1,0,0,graph_matched
+person:caleb doll,Caleb A. Doll,2,2,0,0,0,2,0,0,graph_matched
+person:cody baker,Cody Baker,2,2,0,0,0,2,0,0,graph_matched
+person:douglas portman,Douglas S. Portman,2,2,0,0,0,2,0,0,graph_matched
+person:elizabeth diloreto,Elizabeth M. DiLoreto,2,2,0,0,0,2,0,0,graph_matched
+person:heike blockus,Heike Blockus,2,2,0,0,0,2,0,0,graph_matched
+person:jacob yates,Jacob L. Yates,2,2,0,0,0,2,0,0,graph_matched
+person:julia michalska,Julia M. Michalska,2,2,0,0,0,2,0,0,graph_matched
+person:l collins,L. Collins,2,2,0,0,0,2,0,0,graph_matched
+person:louise atkinson,Louise E. Atkinson,2,2,0,0,0,2,0,0,graph_matched
+person:lukas anneser,Lukas Anneser,2,2,0,0,0,2,0,0,graph_matched
+person:nestor timonidis,Nestor Timonidis,2,2,0,0,0,2,0,0,graph_matched
+person:nichalas nelson,Nichalas Nelson,2,2,0,0,0,2,0,0,graph_matched
+person:nobuhiko ohno,Nobuhiko Ohno,2,2,0,0,0,2,0,0,graph_matched
+person:oren richter,Oren Richter,2,2,0,0,0,2,0,0,graph_matched
+person:r fields,R. Fields,2,2,0,0,0,2,0,0,graph_matched
+person:s goodman,S. L. Goodman,2,2,0,0,0,2,0,0,graph_matched
+person:w nowinski,W. Nowinski,2,2,0,0,0,2,0,0,graph_matched
+person:wenqin du,Wenqin Du,2,2,0,0,0,2,0,0,graph_matched
+person:yaroslav molkov,Yaroslav I. Molkov,2,2,0,0,0,2,0,0,graph_matched
+person:yu xiao,Yu Xiao,2,2,0,0,0,2,0,0,graph_matched
+person:d turner evans,D. Turner-Evans,2,1,0,1,2,0,0,1,graph_matched
+person:julia buhmann,Julia M. Buhmann,2,1,0,1,2,0,0,1,graph_matched
+person:l varshney,L. Varshney,2,1,0,1,2,0,0,1,graph_matched
+person:t bartol,T. Bartol,2,1,0,1,2,0,0,1,graph_matched
+person:tran minh quan,Tran Minh Quan,2,1,0,1,2,0,0,1,graph_matched
+person:e barsotti,E. Barsotti,2,1,0,1,1,1,0,1,graph_matched
+person:l tang,L. T. Tang,2,1,0,1,1,1,0,1,graph_matched
+person:matthew berck,Matthew E. Berck,2,1,0,1,1,1,0,1,graph_matched
+person:tao hu,Tao Hu,2,1,0,1,1,1,0,1,graph_matched
+person:alex kunin,Alex Kunin,2,1,0,1,2,0,0,0,graph_matched
+person:alexandra kerbl,Alexandra Kerbl,2,1,0,1,2,0,0,0,graph_matched
+person:alexandra rother,Alexandra Rother,2,1,0,1,2,0,0,0,graph_matched
+person:ali karimi,Ali Karimi,2,1,0,1,2,0,0,0,graph_matched
+person:anubhav sinha,Anubhav Sinha,2,1,0,1,2,0,0,0,graph_matched
+person:dimitrios giakoumas,Dimitrios S. Giakoumas,2,1,0,1,2,0,0,0,graph_matched
+person:f drawitsch,F. Drawitsch,2,1,0,1,2,0,0,0,graph_matched
+person:flavie bidel,Flavie Bidel,2,1,0,1,2,0,0,0,graph_matched
+person:gabor szilagyi,Gábor S. Szilágyi,2,1,0,1,2,0,0,0,graph_matched
+person:haoxing zhu,Haoxing Zhu,2,1,0,1,2,0,0,0,graph_matched
+person:haoze jia,Haoze Jia,2,1,0,1,2,0,0,0,graph_matched
+person:i tastekin,I. Tastekin,2,1,0,1,2,0,0,0,graph_matched
+person:jaeyeong han,Jaeyeong Han,2,1,0,1,2,0,0,0,graph_matched
+person:jessica jones,Jessica M Jones,2,1,0,1,2,0,0,0,graph_matched
+person:juan nunez iglesias,Juan Nunez-Iglesias,2,1,0,1,2,0,0,0,graph_matched
+person:julius jonaitis,Julius Jonaitis,2,1,0,1,2,0,0,0,graph_matched
+person:k sabrin,K. M. Sabrin,2,1,0,1,2,0,0,0,graph_matched
+person:kristyn lizbinski,Kristyn M. Lizbinski,2,1,0,1,2,0,0,0,graph_matched
+person:m sayre,M. E. Sayre,2,1,0,1,2,0,0,0,graph_matched
+person:m turegano lopez,M. Turégano-Lopez,2,1,0,1,2,0,0,0,graph_matched
+person:makoto someya,Makoto Someya,2,1,0,1,2,0,0,0,graph_matched
+person:nils reinhard,Nils Reinhard,2,1,0,1,2,0,0,0,graph_matched
+person:p kosta,P. Kosta,2,1,0,1,2,0,0,0,graph_matched
+person:richard betzel,Richard F. Betzel,2,1,0,1,2,0,0,0,graph_matched
+person:s engert,S. Engert,2,1,0,1,2,0,0,0,graph_matched
+person:sarah pugliese,Sarah M. Pugliese,2,1,0,1,2,0,0,0,graph_matched
+person:sebastian huckesfeld,Sebastian Hückesfeld,2,1,0,1,2,0,0,0,graph_matched
+person:shi yan lee,Shi Yan Lee,2,1,0,1,2,0,0,0,graph_matched
+person:t sizemore,T. Sizemore,2,1,0,1,2,0,0,0,graph_matched
+person:tae song chung,Tae-Song Chung,2,1,0,1,2,0,0,0,graph_matched
+person:tim kaler,Tim Kaler,2,1,0,1,2,0,0,0,graph_matched
+person:yanan lv,Yanan Lv,2,1,0,1,2,0,0,0,graph_matched
+person:yuchao jiang,Yuchao Jiang,2,1,0,1,2,0,0,0,graph_matched
+person:alon kaufman,Alon Kaufman,2,1,0,1,1,1,0,0,graph_matched
+person:andras ecker,András Ecker,2,1,0,1,1,1,0,0,graph_matched
+person:aurelia song,Aurelia Song,2,1,0,1,1,1,0,0,graph_matched
+person:ayana hellevik,Ayana M. Hellevik,2,1,0,1,1,1,0,0,graph_matched
+person:ben piazza,Ben Piazza,2,1,0,1,1,1,0,0,graph_matched
+person:bingzhang wang,Bingzhang Wang,2,1,0,1,1,1,0,0,graph_matched
+person:denis turcu,Denis Turcu,2,1,0,1,1,1,0,0,graph_matched
+person:e dona,E. Donà,2,1,0,1,1,1,0,0,graph_matched
+person:enrico lanza,Enrico Lanza,2,1,0,1,1,1,0,0,graph_matched
+person:jan watteyne,Jan Watteyne,2,1,0,1,1,1,0,0,graph_matched
+person:jayati gera,Jayati Gera,2,1,0,1,1,1,0,0,graph_matched
+person:jinfang li,Jinfang Li,2,1,0,1,1,1,0,0,graph_matched
+person:joshua morgan,Joshua Morgan,2,1,0,1,1,0,1,0,graph_matched
+person:julia santos,Julia Santos,2,1,0,1,1,1,0,0,graph_matched
+person:k siju,K. Siju,2,1,0,1,1,1,0,0,graph_matched
+person:kevin takasaki,Kevin Takasaki,2,1,0,1,1,1,0,0,graph_matched
+person:kyle loizos,Kyle Loizos,2,1,0,1,1,1,0,0,graph_matched
+person:li jun chen,Li-jun Chen,2,1,0,1,1,1,0,0,graph_matched
+person:liangyu tao,Liangyu Tao,2,1,0,1,1,1,0,0,graph_matched
+person:mohammad dindoost,Mohammad Dindoost,2,1,0,1,1,0,1,0,graph_matched
+person:na young seo,Na-Young Seo,2,1,0,1,1,1,0,0,graph_matched
+person:olaf sporns,Olaf Sporns,2,1,0,1,1,1,0,0,graph_matched
+person:p fua,P. Fua,2,1,0,1,1,1,0,0,graph_matched
+person:p ozdil,P. G. Özdil,2,1,0,1,1,1,0,0,graph_matched
+person:paul watkins,Paul V. Watkins,2,1,0,1,1,1,0,0,graph_matched
+person:r egger,R. Egger,2,1,0,1,1,1,0,0,graph_matched
+person:rachel wilson,Rachel I. Wilson,2,1,0,1,1,1,0,0,graph_matched
+person:s mikula,S. Mikula,2,1,0,1,1,1,0,0,graph_matched
+person:sarah strauss,Sarah Strauss,2,1,0,1,1,1,0,0,graph_matched
+person:sung yong kim,Sung Yong Kim,2,1,0,1,1,1,0,0,graph_matched
+person:xin yuan,Xin Yuan,2,1,0,1,1,1,0,0,graph_matched
+person:yan hao,Yan Hao,2,1,0,1,1,1,0,0,graph_matched
+person:yuqi tian,Yuqi Tian,2,1,0,1,1,1,0,0,graph_matched
+person:a bhattacharya,A. Bhattacharya,2,1,0,1,0,2,0,0,graph_matched
+person:a mclachlan,A. McLachlan,2,1,0,1,0,0,2,0,graph_matched
+person:a watakabe,A. Watakabe,2,1,0,1,0,2,0,0,graph_matched
+person:c yook,C. Yook,2,1,0,1,0,2,0,0,graph_matched
+person:chen chieh liao,Chen-Chieh Liao,2,1,0,1,0,2,0,0,graph_matched
+person:christoph pokorny,Christoph Pokorny,2,1,0,1,0,2,0,0,graph_matched
+person:d conte,D. Conte,2,1,0,1,0,2,0,0,graph_matched
+person:danke zhang,Danke Zhang,2,1,0,1,0,1,1,0,graph_matched
+person:dongseok park,Dongseok Park,2,1,0,1,0,2,0,0,graph_matched
+person:dongyoung kim,Dongyoung Kim,2,1,0,1,0,2,0,0,graph_matched
+person:edanur sen,Edanur Sen,2,1,0,1,0,2,0,0,graph_matched
+person:emily berghoff,Emily G. Berghoff,2,1,0,1,0,2,0,0,graph_matched
+person:esther serrano saiz,Esther Serrano-Saiz,2,1,0,1,0,2,0,0,graph_matched
+person:h isaac chen,H. Isaac Chen,2,1,0,1,0,2,0,0,graph_matched
+person:h ko,H. Ko,2,1,0,1,0,2,0,0,graph_matched
+person:hang zhou,Hang Zhou,2,1,0,1,0,2,0,0,graph_matched
+person:i hunter,I. Hunter,2,1,0,1,0,2,0,0,graph_matched
+person:james manton,James D. Manton,2,1,0,1,0,1,1,0,graph_matched
+person:judith thomas,Judith Thomas,2,1,0,1,0,2,0,0,graph_matched
+person:justus kebschull,Justus M. Kebschull,2,1,0,1,0,2,0,0,graph_matched
+person:katrin vogt,Katrin Vogt,2,1,0,1,0,2,0,0,graph_matched
+person:kyla mace,Kyla Mace,2,1,0,1,0,2,0,0,graph_matched
+person:l coletta,L. Coletta,2,1,0,1,0,2,0,0,graph_matched
+person:l scholtens,L. H. Scholtens,2,1,0,1,0,2,0,0,graph_matched
+person:leili tang,Leili Tang,2,1,0,1,0,2,0,0,graph_matched
+person:luciano dyballa,Luciano Dyballa,2,1,0,1,0,2,0,0,graph_matched
+person:m martone,M. Martone,2,1,0,1,0,2,0,0,graph_matched
+person:macy garrood,Macy Garrood,2,1,0,1,0,2,0,0,graph_matched
+person:mateo velez fort,Mateo Vélez‐Fort,2,1,0,1,0,2,0,0,graph_matched
+person:max nolte,Max Nolte,2,1,0,1,0,2,0,0,graph_matched
+person:michael kunst,Michael Kunst,2,1,0,1,0,2,0,0,graph_matched
+person:miguel wimbish,Miguel E. Wimbish,2,1,0,1,0,0,2,0,graph_matched
+person:mingmin zhang,Mingmin Zhang,2,1,0,1,0,2,0,0,graph_matched
+person:nicholas foster,Nicholas N. Foster,2,1,0,2,0,2,0,0,graph_matched
+person:nicholas weiler,Nicholas C Weiler,2,1,0,1,0,1,1,0,graph_matched
+person:nino mancini,Nino Mancini,2,1,0,1,0,2,0,0,graph_matched
+person:osung kwon,Osung Kwon,2,1,0,1,0,2,0,0,graph_matched
+person:paschalis kratsios,Paschalis Kratsios,2,1,0,1,0,2,0,0,graph_matched
+person:pratyush kandimalla,Pratyush Kandimalla,2,1,0,1,0,2,0,0,graph_matched
+person:r borisyuk,R. Borisyuk,2,1,0,1,0,2,0,0,graph_matched
+person:robert court,Robert Court,2,1,0,1,0,0,2,0,graph_matched
+person:ruiyu li,Ruiyu Li,2,1,0,1,0,2,0,0,graph_matched
+person:sarthak chandra,Sarthak Chandra,2,1,0,1,0,2,0,0,graph_matched
+person:scotte liu,Scotte Liu,2,1,0,1,0,2,0,0,graph_matched
+person:sergey gratiy,Sergey L. Gratiy,2,1,0,1,0,2,0,0,graph_matched
+person:shenqin yao,Shenqin Yao,2,1,0,1,0,2,0,0,graph_matched
+person:shouqiang cheng,Shouqiang Cheng,2,1,0,1,0,1,1,0,graph_matched
+person:siqi yang,Siqi Yang,2,1,0,1,0,2,0,0,graph_matched
+person:sofia grade,Sofia Grade,2,1,0,1,0,2,0,0,graph_matched
+person:songting li,Songting Li,2,1,0,1,0,2,0,0,graph_matched
+person:tonghui xu,Tonghui Xu,2,1,0,1,0,2,0,0,graph_matched
+person:v miller,V. Miller,2,1,0,1,0,2,0,0,graph_matched
+person:xiaolong jiang,Xiaolong Jiang,2,1,0,1,0,2,0,0,graph_matched
+person:yichun shuai,Yichun Shuai,2,1,0,1,0,2,0,0,graph_matched
+person:zhuangzhuang zhao,Zhuangzhuang Zhao,2,1,0,1,0,2,0,0,graph_matched
+person:a fitzmaurice,A. Fitzmaurice,2,0,0,2,2,0,0,2,graph_matched
+person:christopher sigmund,Christopher Sigmund,2,0,0,2,2,0,0,2,graph_matched
+person:evelina sjostedt,Evelina Sjostedt,2,0,0,2,2,0,0,2,graph_matched
+person:greg hood,Greg Hood,2,0,0,2,2,0,0,2,graph_matched
+person:j lau,J. Lau,2,0,0,2,2,0,0,2,graph_matched
+person:kai kuehner,Kai Kuehner,2,0,0,2,2,0,0,2,graph_matched
+person:luke bailey,Luke Bailey,2,0,0,2,2,0,0,2,graph_matched
+person:merlin moore,Merlin Moore,2,0,0,2,2,0,0,2,graph_matched
+person:rohin kar,Rohin Kar,2,0,0,2,2,0,0,2,graph_matched
+person:a chisholm,A. Chisholm,2,0,0,2,2,0,0,1,graph_matched
+person:adam bleckert,Adam A. Bleckert,2,0,0,2,2,0,0,1,graph_matched
+person:amalia braun,Amalia Braun,2,0,0,2,2,0,0,1,graph_matched
+person:bryon eubanks,Bryon Eubanks,2,0,0,2,2,0,0,1,graph_matched
+person:cailey bromer,Cailey Bromer,2,0,0,2,2,0,0,1,graph_matched
+person:chandan singh,Chandan Singh,2,0,0,2,2,0,0,1,graph_matched
+person:chelsea alvarado,Chelsea X. Alvarado,2,0,0,2,2,0,0,1,graph_matched
+person:christopher patrick,Christopher Patrick,2,0,0,2,2,0,0,1,graph_matched
+person:corey fisher,Corey B. Fisher,2,0,0,2,2,0,0,1,graph_matched
+person:d holmyard,D. Holmyard,2,0,0,2,2,0,0,1,graph_matched
+person:emily joyce,Emily M Joyce,2,0,0,2,2,0,0,1,graph_matched
+person:emmanouil froudakis,Emmanouil Froudakis,2,0,0,2,2,0,0,1,graph_matched
+person:guangwei si,Guangwei Si,2,0,0,2,2,0,0,1,graph_matched
+person:h haberkern,H. Haberkern,2,0,0,2,2,0,0,1,graph_matched
+person:ildiko stark,Ildiko Stark,2,0,0,2,2,0,0,1,graph_matched
+person:iqbal ali,Iqbal J. Ali,2,0,0,2,2,0,0,1,graph_matched
+person:jack lindsey,Jack W Lindsey,2,0,0,2,2,0,0,1,graph_matched
+person:jackie swift,Jackie Swift,2,0,0,2,2,0,0,1,graph_matched
+person:james mitchell,James K. Mitchell,2,0,0,2,2,0,0,1,graph_matched
+person:kelsey smith,Kelsey Smith,2,0,0,2,2,0,0,1,graph_matched
+person:krzysztof kruk,Krzysztof Kruk,2,0,0,2,2,0,0,1,graph_matched
+person:m saunders,M. Saunders,2,0,0,2,2,0,0,1,graph_matched
+person:madelaine robertson,Madelaine K Robertson,2,0,0,2,2,0,0,1,graph_matched
+person:margaret sobeski,Margaret A. Sobeski,2,0,0,2,2,0,0,1,graph_matched
+person:meike sievers,Meike Sievers,2,0,0,2,2,0,0,1,graph_matched
+person:miatta ndama,Miatta Ndama,2,0,0,2,2,0,0,1,graph_matched
+person:n forknall,N. Forknall,2,0,0,2,2,0,0,1,graph_matched
+person:nadiya sharifi,Nadiya Sharifi,2,0,0,2,2,0,0,1,graph_matched
+person:natalie heike,Natalie Heike,2,0,0,2,2,0,0,1,graph_matched
+person:neha rampally,Neha Rampally,2,0,0,2,2,0,0,1,graph_matched
+person:nicholas padilla,Nicholas Padilla,2,0,0,2,2,0,0,1,graph_matched
+person:nicole kirk,Nicole A Kirk,2,0,0,2,2,0,0,1,graph_matched
+person:roxanne aniceto,Roxanne Aniceto,2,0,0,2,2,0,0,1,graph_matched
+person:samantha ballinger,Samantha Ballinger,2,0,0,2,2,0,0,1,graph_matched
+person:samantha finley,Samantha Finley,2,0,0,2,2,0,0,1,graph_matched
+person:sarah morejohn,Sarah Morejohn,2,0,0,2,2,0,0,1,graph_matched
+person:temour tokhi,Temour Tokhi,2,0,0,2,2,0,0,1,graph_matched
+person:tim fliss,Tim Fliss,2,0,0,2,2,0,0,1,graph_matched
+person:travis jarrell,Travis A. Jarrell,2,0,0,2,2,0,0,1,graph_matched
+person:william grisaitis,William Grisaitis,2,0,0,2,2,0,0,1,graph_matched
+person:a bharioke,A. Bharioke,2,0,0,2,1,1,0,1,graph_matched
+person:christopher baker,Christopher A. Baker,2,0,0,2,1,1,0,1,graph_matched
+person:d milkie,D. Milkie,2,0,0,2,1,1,0,1,graph_matched
+person:dimitri yatsenko,Dimitri Yatsenko,2,0,0,2,1,1,0,1,graph_matched
+person:gerald rubin,Gerald M. Rubin,2,0,0,2,1,1,0,1,graph_matched
+person:glenn turner,Glenn C. Turner,2,0,0,2,1,1,0,1,graph_matched
+person:j price,J. Price,2,0,0,2,1,1,0,1,graph_matched
+person:j schindelin,J. Schindelin,2,0,0,2,1,1,0,1,graph_matched
+person:luis hernandez nunez,Luis Hernandez-Nunez,2,0,0,2,1,1,0,1,graph_matched
+person:matthieu louis,Matthieu Louis,2,0,0,2,1,0,1,1,graph_matched
+person:qiongling li,Qiongling Li,2,0,0,2,1,1,0,1,graph_matched
+person:t saumweber,T. Saumweber,2,0,0,2,1,0,1,1,graph_matched
+person:ting yuan wang,Ting-Yuan Wang,2,0,0,2,1,1,0,1,graph_matched
+person:xiaobo zhou,Xiaobo Zhou,2,0,0,2,1,1,0,1,graph_matched
+person:a fragniere,A. M. Fragniere,2,0,0,2,2,0,0,0,graph_matched
+person:a mukora,A. Mukora,2,0,0,2,2,0,0,0,graph_matched
+person:a robie,A. Robie,2,0,0,2,2,0,0,0,graph_matched
+person:adam gohain,Adam Gohain,2,0,0,2,2,0,0,0,graph_matched
+person:alex thomson,Alex G. Thomson,2,0,0,2,2,0,0,0,graph_matched
+person:alexis santana cruz,Alexis Santana-Cruz,2,0,0,2,2,0,0,0,graph_matched
+person:alina hebling,Alina Hebling,2,0,0,2,2,0,0,0,graph_matched
+person:andrea sandoval,Andrea Sandoval,2,0,0,2,2,0,0,0,graph_matched
+person:andrew miller hansen,Andrew J. Miller-Hansen,2,0,0,2,2,0,0,0,graph_matched
+person:anirban chakraborty,Anirban Chakraborty,2,0,0,2,2,0,0,0,graph_matched
+person:arya shahbazi,Arya Shahbazi,2,0,0,2,2,0,0,0,graph_matched
+person:azarin shoghi,Azarin Shoghi,2,0,0,2,2,0,0,0,graph_matched
+person:b grimm,B. Grimm,2,0,0,2,2,0,0,0,graph_matched
+person:benjamin cocanougher,Benjamin T. Cocanougher,2,0,0,2,2,0,0,0,graph_matched
+person:benjamin de bivort,Benjamin L. de Bivort,2,0,0,2,2,0,0,0,graph_matched
+person:benjamin finander,Benjamin Finander,2,0,0,2,2,0,0,0,graph_matched
+person:brian hu,Brian Hu,2,0,0,2,2,0,0,0,graph_matched
+person:c puller,C. Puller,2,0,0,2,2,0,0,0,graph_matched
+person:c wreden,C. Wreden,2,0,0,2,2,0,0,0,graph_matched
+person:cara cavanaugh,Cara J. Cavanaugh,2,0,0,2,2,0,0,0,graph_matched
+person:cezar borba,Cezar Borba,2,0,0,2,2,0,0,0,graph_matched
+person:charlotte helfrich forster,Charlotte Helfrich-Förster,2,0,0,2,2,0,0,0,graph_matched
+person:christine curcio,Christine A. Curcio,2,0,0,2,2,0,0,0,graph_matched
+person:christopher rapp,Christopher N. Rapp,2,0,0,2,2,0,0,0,graph_matched
+person:christopher salmon,Christopher K. Salmon,2,0,0,2,2,0,0,0,graph_matched
+person:clay reid,Clay Reid,2,0,0,2,2,0,0,0,graph_matched
+person:cody smith,Cody J. Smith,2,0,0,2,2,0,0,0,graph_matched
+person:corban rivera,Corban Rivera,2,0,0,2,2,0,0,0,graph_matched
+person:d krzeminski,D. Krzemiński,2,0,0,2,2,0,0,0,graph_matched
+person:d mastronarde,D. Mastronarde,2,0,0,2,2,0,0,0,graph_matched
+person:d shepherd,D. Shepherd,2,0,0,2,2,0,0,0,graph_matched
+person:dana hockling,Dana Hockling,2,0,0,2,2,0,0,0,graph_matched
+person:daniel franco barranco,Daniel Franco-Barranco,2,0,0,2,2,0,0,0,graph_matched
+person:david berson,David Berson,2,0,0,2,2,0,0,0,graph_matched
+person:david garcia soriano,David García-Soriano,2,0,0,2,2,0,0,0,graph_matched
+person:dhananjay bhaskar,Dhananjay Bhaskar,2,0,0,2,2,0,0,0,graph_matched
+person:diane adjavon,Diane Adjavon,2,0,0,2,2,0,0,0,graph_matched
+person:diego pacheco,Diego A. Pacheco,2,0,0,2,2,0,0,0,graph_matched
+person:e kerzner,E. Kerzner,2,0,0,2,2,0,0,0,graph_matched
+person:eric hammerschmith,Eric W. Hammerschmith,2,0,0,2,2,0,0,0,graph_matched
+person:eric wang,Eric Y. Wang,2,0,0,2,2,0,0,0,graph_matched
+person:florian kampf,Florian Kämpf,2,0,0,2,2,0,0,0,graph_matched
+person:frank loesche,Frank Loesche,2,0,0,2,2,0,0,0,graph_matched
+person:g wanner,G. Wanner,2,0,0,2,2,0,0,0,graph_matched
+person:giulia manoli,Giulia Manoli,2,0,0,2,2,0,0,0,graph_matched
+person:h huo,H. Huo,2,0,0,2,2,0,0,0,graph_matched
+person:h le,H. Le,2,0,0,2,2,0,0,0,graph_matched
+person:hang deng,Hang Deng,2,0,0,2,2,0,0,0,graph_matched
+person:hannah cowley,Hannah P. Cowley,2,0,0,2,2,0,0,0,graph_matched
+person:haoshen zhai,Haoshen Zhai,2,0,0,2,2,0,0,0,graph_matched
+person:hongtao su,Hongtao Su,2,0,0,2,2,0,0,0,graph_matched
+person:i chandok,I. Chandok,2,0,0,2,2,0,0,0,graph_matched
+person:i de haan vicente,I. de Haan Vicente,2,0,0,2,2,0,0,0,graph_matched
+person:i hameed,I. Hameed,2,0,0,2,2,0,0,0,graph_matched
+person:i zinke,I. Zinke,2,0,0,2,2,0,0,0,graph_matched
+person:j ogilvie,J. Ogilvie,2,0,0,2,2,0,0,0,graph_matched
+person:jacob ralston,Jacob D. Ralston,2,0,0,2,2,0,0,0,graph_matched
+person:james tompkin,James Tompkin,2,0,0,2,2,0,0,0,graph_matched
+person:jinglin zhao,Jinglin Zhao,2,0,0,2,2,0,0,0,graph_matched
+person:joe strout,Joe Strout,2,0,0,2,2,0,0,0,graph_matched
+person:jorge ruiz,Jorge Ruiz,2,0,0,2,2,0,0,0,graph_matched
+person:k herrera,K. Herrera,2,0,0,2,2,0,0,0,graph_matched
+person:k merfeld,K. Merfeld,2,0,0,2,2,0,0,0,graph_matched
+person:k skutt kakaria,K. Skutt-Kakaria,2,0,0,2,2,0,0,0,graph_matched
+person:l kamentsky,L. Kamentsky,2,0,0,2,2,0,0,0,graph_matched
+person:laura burnett,Laura E Burnett,2,0,0,2,2,0,0,0,graph_matched
+person:lauren zhang,Lauren L. Zhang,2,0,0,2,2,0,0,0,graph_matched
+person:laurence lindsey,Laurence Lindsey,2,0,0,2,2,0,0,0,graph_matched
+person:lee,Lee,2,0,0,2,2,0,0,0,graph_matched
+person:louis scuderi,Louis A Scuderi,2,0,0,2,2,0,0,0,graph_matched
+person:lucy houghton,Lucy Houghton,2,0,0,2,2,0,0,0,graph_matched
+person:luis rodriguez,Luis M. Rodriguez,2,0,0,2,2,0,0,0,graph_matched
+person:m mallory,M. Mallory,2,0,0,2,2,0,0,0,graph_matched
+person:m meyer,M. Meyer,2,0,0,2,2,0,0,0,graph_matched
+person:m montero crespo,M. Montero-Crespo,2,0,0,2,2,0,0,0,graph_matched
+person:m shaw,M. V. Shaw,2,0,0,2,2,0,0,0,graph_matched
+person:m tammam,M. Tammam,2,0,0,2,2,0,0,0,graph_matched
+person:maria fernanda henao echeverri,Maria Fernanda Henao Echeverri,2,0,0,2,2,0,0,0,graph_matched
+person:marisa hughes,Marisa J. Hughes,2,0,0,2,2,0,0,0,graph_matched
+person:mark goldman,Mark S. Goldman,2,0,0,2,2,0,0,0,graph_matched
+person:masako terada,Masako Terada,2,0,0,2,2,0,0,0,graph_matched
+person:max aragon,Max J Aragon,2,0,0,2,2,0,0,0,graph_matched
+person:michael clayton,Michael Clayton,2,0,0,2,2,0,0,0,graph_matched
+person:moritz stingl,Moritz Stingl,2,0,0,2,2,0,0,0,graph_matched
+person:mukesh bangalore renuka,Mukesh Bangalore Renuka,2,0,0,2,2,0,0,0,graph_matched
+person:myung kyu choi,Myung-Kyu Choi,2,0,0,2,2,0,0,0,graph_matched
+person:n spiller,N. Spiller,2,0,0,2,2,0,0,0,graph_matched
+person:nao rho,Nao Rho,2,0,0,2,2,0,0,0,graph_matched
+person:nathan klapoetke,Nathan C. Klapoetke,2,0,0,2,2,0,0,0,graph_matched
+person:neha simha,Neha Simha,2,0,0,2,2,0,0,0,graph_matched
+person:nikitas serafetinidis,Nikitas Serafetinidis,2,0,0,2,2,0,0,0,graph_matched
+person:nina griggs,Nina Griggs,2,0,0,2,2,0,0,0,graph_matched
+person:nishika gupta,Nishika Gupta,2,0,0,2,2,0,0,0,graph_matched
+person:noah nelson,Noah T. Nelson,2,0,0,2,2,0,0,0,graph_matched
+person:p augusto,P. Augusto,2,0,0,2,2,0,0,0,graph_matched
+person:patrick breads,Patrick Breads,2,0,0,2,2,0,0,0,graph_matched
+person:patrick parker,Patrick H. Parker,2,0,0,2,2,0,0,0,graph_matched
+person:pavithraa seenivasan,Pavithraa Seenivasan,2,0,0,2,2,0,0,0,graph_matched
+person:r dalley,R. Dalley,2,0,0,2,2,0,0,0,graph_matched
+person:r draft,R. W. Draft,2,0,0,2,2,0,0,0,graph_matched
+person:r schoenmakers,R. Schoenmakers,2,0,0,2,2,0,0,0,graph_matched
+person:rebecca arruda,Rebecca Arruda,2,0,0,2,2,0,0,0,graph_matched
+person:rebecca girresch,Rebecca J Girresch,2,0,0,2,2,0,0,0,graph_matched
+person:robert tiller,Robert Tiller,2,0,0,2,2,0,0,0,graph_matched
+person:ruohong wang,Ruohong C. Wang,2,0,0,2,2,0,0,0,graph_matched
+person:salil bidaye,Salil S. Bidaye,2,0,0,2,2,0,0,0,graph_matched
+person:sarah emerson,Sarah E. Emerson,2,0,0,2,2,0,0,0,graph_matched
+person:sarah walling bell,Sarah Walling-Bell,2,0,0,2,2,0,0,0,graph_matched
+person:sebastian hueckesfeld,Sebastian Hueckesfeld,2,0,0,2,2,0,0,0,graph_matched
+person:shoeb mohammed,Shoeb Mohammed,2,0,0,2,2,0,0,0,graph_matched
+person:stephen turney,Stephen G. Turney,2,0,0,2,2,0,0,0,graph_matched
+person:sumiya kuroda,Sumiya Kuroda,2,0,0,2,2,0,0,0,graph_matched
+person:t oram,T. Oram,2,0,0,2,2,0,0,0,graph_matched
+person:t pietzsch,T. Pietzsch,2,0,0,2,2,0,0,0,graph_matched
+person:t tuan,T. Tuan,2,0,0,2,2,0,0,0,graph_matched
+person:theodore lagrow,Theodore J. LaGrow,2,0,0,2,2,0,0,0,graph_matched
+person:tomoko ohyama,Tomoko Ohyama,2,0,0,2,2,0,0,0,graph_matched
+person:v lyzinski,V. Lyzinski,2,0,0,2,2,0,0,0,graph_matched
+person:wei qiu,Wei Qiu,2,0,0,2,2,0,0,0,graph_matched
+person:won dong jang,Won-Dong Jang,2,0,0,2,2,0,0,0,graph_matched
+person:yingying tang,Yingying Tang,2,0,0,2,2,0,0,0,graph_matched
+person:yoonseok im,Yoonseok Im,2,0,0,2,2,0,0,0,graph_matched
+person:zixuan deng,Zixuan Deng,2,0,0,2,2,0,0,0,graph_matched
+person:zsolt vassy,Zsolt Vassy,2,0,0,2,2,0,0,0,graph_matched
+person:a marblestone,A. Marblestone,2,0,0,2,1,1,0,0,graph_matched
+person:a ramirez,A. Ramírez,2,0,0,2,1,1,0,0,graph_matched
+person:a roth,A. Roth,2,0,0,2,1,1,0,0,graph_matched
+person:aadil rehan,Aadil Rehan,2,0,0,2,1,1,0,0,graph_matched
+person:akira mamiya,Akira Mamiya,2,0,0,2,1,1,0,0,graph_matched
+person:alexander woodward,Alexander Woodward,2,0,0,2,1,1,0,0,graph_matched
+person:andrea vaccari,Andrea Vaccari,2,0,0,2,1,1,0,0,graph_matched
+person:andreas schaefer,Andreas T. Schaefer,2,0,0,2,1,1,0,0,graph_matched
+person:antonio paiva,António R. C. Paiva,2,0,0,2,1,1,0,0,graph_matched
+person:atsushi yoshida,Atsushi Yoshida,2,0,0,2,1,1,0,0,graph_matched
+person:aya takenaka,Aya Takenaka,2,0,0,2,1,1,0,0,graph_matched
+person:b hina,B. Hina,2,0,0,2,1,1,0,0,graph_matched
+person:b maco,B. Maco,2,0,0,2,1,1,0,0,graph_matched
+person:ben fulcher,Ben D. Fulcher,2,0,0,2,1,1,0,0,graph_matched
+person:benjamin escribano,Benjamin Escribano,2,0,0,2,1,1,0,0,graph_matched
+person:bruno afonso,Bruno Afonso,2,0,0,2,1,1,0,0,graph_matched
+person:bw brunton,BW Brunton,2,0,0,2,1,1,0,0,graph_matched
+person:catherine von reyn,Catherine R. von Reyn,2,0,0,2,1,1,0,0,graph_matched
+person:chunxiuzi liu,Chunxiuzi Liu,2,0,0,2,1,1,0,0,graph_matched
+person:dahee kang,Dahee Kang,2,0,0,2,1,1,0,0,graph_matched
+person:daichi yamada,Daichi Yamada,2,0,0,2,1,1,0,0,graph_matched
+person:daniel bushey,Daniel Bushey,2,0,0,2,1,1,0,0,graph_matched
+person:daniel lee,Daniel D. Lee,2,0,0,2,1,1,0,0,graph_matched
+person:david phillips,David Phillips,2,0,0,2,1,1,0,0,graph_matched
+person:elif sevde meral,Elif Sevde Meral,2,0,0,2,1,1,0,0,graph_matched
+person:emily turschak,Emily Turschak,2,0,0,2,1,1,0,0,graph_matched
+person:f richter,F. Richter,2,0,0,2,1,1,0,0,graph_matched
+person:fred rieke,Fred Rieke,2,0,0,2,1,1,0,0,graph_matched
+person:fumi kubo,Fumi Kubo,2,0,0,2,1,1,0,0,graph_matched
+person:g ruocco,G. Ruocco,2,0,0,2,1,1,0,0,graph_matched
+person:hideyuki okano,Hideyuki Okano,2,0,0,2,1,1,0,0,graph_matched
+person:hyojong jang,Hyojong Jang,2,0,0,2,1,1,0,0,graph_matched
+person:isaac western,Isaac Western,2,0,0,2,1,0,1,0,graph_matched
+person:j macke,J. Macke,2,0,0,2,1,1,0,0,graph_matched
+person:jean marie bouteiller,Jean-Marie C. Bouteiller,2,0,0,2,1,1,0,0,graph_matched
+person:jin yong park,Jin-Yong Park,2,0,0,2,1,1,0,0,graph_matched
+person:kaoru isa,Kaoru Isa,2,0,0,2,1,1,0,0,graph_matched
+person:kenta yamauchi,Kenta Yamauchi,2,0,0,2,1,1,0,0,graph_matched
+person:kristin tessmar raible,Kristin Tessmar‐Raible,2,0,0,2,1,1,0,0,graph_matched
+person:kuankuan xin,Kuankuan Xin,2,0,0,2,1,1,0,0,graph_matched
+person:kunal lillaney,Kunal Lillaney,2,0,0,2,1,0,1,0,graph_matched
+person:laia serratosa capdevila,Laia Serratosa Capdevila,2,0,0,2,1,1,0,0,graph_matched
+person:laurence cathala,Laurence Cathala,2,0,0,2,1,1,0,0,graph_matched
+person:leonie kugel,Leonie Kugel,2,0,0,2,1,1,0,0,graph_matched
+person:li ping liu,Li-Ping Liu,2,0,0,2,1,1,0,0,graph_matched
+person:longzhou xu,Longzhou Xu,2,0,0,2,1,1,0,0,graph_matched
+person:m ahrens,M. Ahrens,2,0,0,2,1,1,0,0,graph_matched
+person:m hawrylycz,M. Hawrylycz,2,0,0,2,1,1,0,0,graph_matched
+person:m turkcan,M. Turkcan,2,0,0,2,1,0,1,0,graph_matched
+person:marisel villafane delgado,Marisel Villafañe-Delgado,2,0,0,2,1,0,1,0,graph_matched
+person:mark larson,Mark Larson,2,0,0,2,1,1,0,0,graph_matched
+person:martin kerschensteiner,Martin Kerschensteiner,2,0,0,2,1,1,0,0,graph_matched
+person:mason mackey,Mason R. Mackey,2,0,0,2,1,1,0,0,graph_matched
+person:mason mcgill,Mason McGill,2,0,0,2,1,1,0,0,graph_matched
+person:metta riebesell,Metta Riebesell,2,0,0,2,1,1,0,0,graph_matched
+person:michael gevaert,Michael Gevaert,2,0,0,2,1,1,0,0,graph_matched
+person:mukul narwani,Mukul Narwani,2,0,0,2,1,1,0,0,graph_matched
+person:mustafa talay,Mustafa Talay,2,0,0,2,1,1,0,0,graph_matched
+person:n iyer,N. Iyer,2,0,0,2,1,1,0,0,graph_matched
+person:n kouvaris,N. Kouvaris,2,0,0,2,1,1,0,0,graph_matched
+person:natalie chen,Natalie Chen,2,0,0,2,1,1,0,0,graph_matched
+person:nathaly dongo mendoza,Nathaly Dongo Mendoza,2,0,0,2,1,1,0,0,graph_matched
+person:nenggan zheng,Nenggan Zheng,2,0,0,2,1,1,0,0,graph_matched
+person:oliver alvarado rodriguez,Oliver Alvarado Rodriguez,2,0,0,2,1,0,1,0,graph_matched
+person:po yuan wang,Po-Yuan Wang,2,0,0,2,1,1,0,0,graph_matched
+person:pooja balaram,Pooja Balaram,2,0,0,2,1,1,0,0,graph_matched
+person:pramod kumbhar,Pramod S. Kumbhar,2,0,0,2,1,1,0,0,graph_matched
+person:qiantao lv,Qiantao Lv,2,0,0,3,1,1,0,0,graph_matched
+person:runan ji,Runan Ji,2,0,0,2,1,1,0,0,graph_matched
+person:s frechter,S. Frechter,2,0,0,2,1,1,0,0,graph_matched
+person:s kakuta,S. Kakuta,2,0,0,2,1,1,0,0,graph_matched
+person:s phan,S. Phan,2,0,0,2,1,1,0,0,graph_matched
+person:s schreiber,S. Schreiber,2,0,0,2,1,1,0,0,graph_matched
+person:s sherman,S. Sherman,2,0,0,2,1,1,0,0,graph_matched
+person:samuel lang,Samuel Lang,2,0,0,2,1,1,0,0,graph_matched
+person:selimzhan chalyshkan,Selimzhan Chalyshkan,2,0,0,2,1,1,0,0,graph_matched
+person:shadnan asraf,Shadnan Asraf,2,0,0,2,1,1,0,0,graph_matched
+person:shinichiro okamoto,Shinichiro Okamoto,2,0,0,2,1,1,0,0,graph_matched
+person:shuhan xie,Shuhan Xie,2,0,0,2,1,1,0,0,graph_matched
+person:sridhama prakhya,Sridhama Prakhya,2,0,0,2,1,1,0,0,graph_matched
+person:stephen huston,Stephen J Huston,2,0,0,2,1,1,0,0,graph_matched
+person:t baden,T. Baden,2,0,0,2,1,1,0,0,graph_matched
+person:t moser,T. Moser,2,0,0,2,1,1,0,0,graph_matched
+person:tadashi isa,Tadashi Isa,2,0,0,2,1,1,0,0,graph_matched
+person:todd huffman,Todd Huffman,2,0,0,2,1,1,0,0,graph_matched
+person:x zhuang,X. Zhuang,2,0,0,2,1,1,0,0,graph_matched
+person:xiangdong liu,Xiangdong Liu,2,0,0,2,1,1,0,0,graph_matched
+person:xianghui xiao,Xianghui Xiao,2,0,0,2,1,1,0,0,graph_matched
+person:xiao yao,Xiao Yao,2,0,0,2,1,1,0,0,graph_matched
+person:xiaojing ding,Xiaojing Ding,2,0,0,2,1,1,0,0,graph_matched
+person:y uchiyama,Y. Uchiyama,2,0,0,2,1,1,0,0,graph_matched
+person:yan huo,Yan Huo,2,0,0,2,1,1,0,0,graph_matched
+person:yazan billeh,Yazan N. Billeh,2,0,0,2,1,1,0,0,graph_matched
+person:yoko ishida,Yoko Ishida,2,0,0,2,1,1,0,0,graph_matched
+person:yongbin wei,Yongbin Wei,2,0,0,2,1,1,0,0,graph_matched
+person:yuen ngan fan,Yuen Ngan Fan,2,0,0,2,1,1,0,0,graph_matched
+person:a de wolf,A. de Wolf,2,0,0,2,0,1,1,0,graph_matched
+person:a irvine,A. Irvine,2,0,0,2,0,2,0,0,graph_matched
+person:a maule,A. Maule,2,0,0,2,0,2,0,0,graph_matched
+person:abigail poff,Abigail J. Poff,2,0,0,2,0,2,0,0,graph_matched
+person:alec barrett,Alec Barrett,2,0,0,2,0,2,0,0,graph_matched
+person:alessandro venturino,Alessandro Venturino,2,0,0,2,0,2,0,0,graph_matched
+person:alessio franci,Alessio Franci,2,0,0,2,0,2,0,0,graph_matched
+person:alexander abrams,Alexander Abrams,2,0,0,2,0,2,0,0,graph_matched
+person:alexei verkhratsky,Alexei Verkhratsky,2,0,0,4,0,1,1,0,graph_matched
+person:allison sowa,Allison Sowa,2,0,0,2,0,2,0,0,graph_matched
+person:andrew allen,Andrew Allen,2,0,0,2,0,2,0,0,graph_matched
+person:anita turner,Anita J. Turner,2,0,0,2,0,2,0,0,graph_matched
+person:annekathrin widmann,Annekathrin Widmann,2,0,0,2,0,2,0,0,graph_matched
+person:annemarie thompson,Annemarie Thompson,2,0,0,2,0,2,0,0,graph_matched
+person:b rosa,B. Rosa,2,0,0,2,0,2,0,0,graph_matched
+person:benjamin ouellette,Benjamin Ouellette,2,0,0,2,0,2,0,0,graph_matched
+person:binbin lu,Binbin Lu,2,0,0,2,0,2,0,0,graph_matched
+person:bramwell coulson,Bramwell Coulson,2,0,0,2,0,2,0,0,graph_matched
+person:brian zingg,Brian Zingg,2,0,0,3,0,2,0,0,graph_matched
+person:bruno pichler,Bruno Pichler,2,0,0,2,0,2,0,0,graph_matched
+person:charles viau,Charles Viau,2,0,0,2,0,2,0,0,graph_matched
+person:chie satou,Chie Satou,2,0,0,2,0,2,0,0,graph_matched
+person:christiaan de kock,Christiaan P. J. de Kock,2,0,0,2,0,2,0,0,graph_matched
+person:christian rosenmund,Christian Rosenmund,2,0,0,2,0,2,0,0,graph_matched
+person:christopher chute,Christopher Chute,2,0,0,2,0,2,0,0,graph_matched
+person:chunru cao,Chunru Cao,2,0,0,3,0,2,0,0,graph_matched
+person:clare pilgrim,Clare Pilgrim,2,0,0,2,0,0,2,0,graph_matched
+person:claudia de sanctis,Claudia De Sanctis,2,0,0,2,0,2,0,0,graph_matched
+person:d geschwind,D. Geschwind,2,0,0,2,0,2,0,0,graph_matched
+person:d tank,D. Tank,2,0,0,2,0,2,0,0,graph_matched
+person:d wheeler,D. Wheeler,2,0,0,2,0,2,0,0,graph_matched
+person:darrick lo,Darrick Lo,2,0,0,3,0,2,0,0,graph_matched
+person:dominic vita,Dominic J. Vita,2,0,0,2,0,2,0,0,graph_matched
+person:e stomrud,E. Stomrud,2,0,0,2,0,2,0,0,graph_matched
+person:e thorn,E. Thorn,2,0,0,2,0,2,0,0,graph_matched
+person:elizabeth li,Elizabeth Li,2,0,0,2,0,2,0,0,graph_matched
+person:elke vandewyer,Elke Vandewyer,2,0,0,2,0,2,0,0,graph_matched
+person:emil kendziorra,Emil F Kendziorra,2,0,0,2,0,1,1,0,graph_matched
+person:f mckay,F. McKay,2,0,0,2,0,2,0,0,graph_matched
+person:frauke ru,Frauke Ruß,2,0,0,2,0,1,1,0,graph_matched
+person:g chindemi,G. Chindemi,2,0,0,2,0,2,0,0,graph_matched
+person:g einevoll,G. Einevoll,2,0,0,2,0,2,0,0,graph_matched
+person:g santpere,G. Santpere,2,0,0,2,0,2,0,0,graph_matched
+person:gilberto soler llavina,Gilberto J. Soler-Llavina,2,0,0,2,0,2,0,0,graph_matched
+person:h bellen,H. Bellen,2,0,0,2,0,2,0,0,graph_matched
+person:h hotz,H. Hotz,2,0,0,2,0,2,0,0,graph_matched
+person:h koizumi,H. Koizumi,2,0,0,2,0,2,0,0,graph_matched
+person:harry behjat,Harry H. Behjat,2,0,0,2,0,2,0,0,graph_matched
+person:hong mi park,Hong-Mi Park,2,0,0,2,0,2,0,0,graph_matched
+person:hongtu ma,Hongtu Ma,2,0,0,2,0,1,1,0,graph_matched
+person:houri hintiryan,Houri Hintiryan,2,0,0,3,0,2,0,0,graph_matched
+person:i diez,I. Díez,2,0,0,2,0,2,0,0,graph_matched
+person:ian bowman,Ian Bowman,2,0,0,3,0,2,0,0,graph_matched
+person:ibnul rafi,Ibnul Rafi,2,0,0,2,0,2,0,0,graph_matched
+person:j cortes,J. Cortes,2,0,0,2,0,2,0,0,graph_matched
+person:j hansen,J. Hansen,2,0,0,2,0,2,0,0,graph_matched
+person:j king,J. King,2,0,0,2,0,2,0,0,graph_matched
+person:j watson,J. Watson,2,0,0,2,0,2,0,0,graph_matched
+person:jaison omoto,Jaison J. Omoto,2,0,0,2,0,2,0,0,graph_matched
+person:james ashley,James Ashley,2,0,0,2,0,2,0,0,graph_matched
+person:james isbister,James B. Isbister,2,0,0,2,0,2,0,0,graph_matched
+person:janek rieger,Janek Rieger,2,0,0,2,0,2,0,0,graph_matched
+person:jeffrey savas,Jeffrey N. Savas,2,0,0,2,0,2,0,0,graph_matched
+person:jessica ding,Jessica Ding,2,0,0,2,0,2,0,0,graph_matched
+person:jiangfei wei,Jiangfei Wei,2,0,0,2,0,1,1,0,graph_matched
+person:jing peng,Jing Peng,2,0,0,2,0,2,0,0,graph_matched
+person:jinjian yu,Jinjian Yu,2,0,0,2,0,2,0,0,graph_matched
+person:jorge rivera,Jorge L. Rivera,2,0,0,2,0,0,2,0,graph_matched
+person:julia beier,Julia Beier,2,0,0,2,0,1,1,0,graph_matched
+person:k conzelmann,K. Conzelmann,2,0,0,2,0,2,0,0,graph_matched
+person:k hess,K. Hess,2,0,0,2,0,2,0,0,graph_matched
+person:k roessler,K. Roessler,2,0,0,2,0,2,0,0,graph_matched
+person:k svoboda,K. Svoboda,2,0,0,2,0,2,0,0,graph_matched
+person:kanar kadir,Kanar Kadir,2,0,0,2,0,1,1,0,graph_matched
+person:karla hirokawa,Karla E. Hirokawa,2,0,0,2,0,2,0,0,graph_matched
+person:kazunari miyamichi,Kazunari Miyamichi,2,0,0,2,0,2,0,0,graph_matched
+person:kristel vennekens,Kristel M. Vennekens,2,0,0,2,0,2,0,0,graph_matched
+person:kurt farrell,Kurt Farrell,2,0,0,2,0,2,0,0,graph_matched
+person:kwanghun chung,Kwanghun Chung,2,0,0,2,0,1,1,0,graph_matched
+person:l kuan,L. Kuan,2,0,0,2,0,2,0,0,graph_matched
+person:lijun an,Lijun An,2,0,0,2,0,2,0,0,graph_matched
+person:lin gou,Lin Gou,2,0,0,3,0,2,0,0,graph_matched
+person:longmi gao,Longmi Gao,2,0,0,3,0,2,0,0,graph_matched
+person:lydia ng,Lydia Ng,2,0,0,2,0,2,0,0,graph_matched
+person:m carandini,M. Carandini,2,0,0,2,0,2,0,0,graph_matched
+person:m gorham,M. Gorham,2,0,0,2,0,2,0,0,graph_matched
+person:m mitreva,M. Mitreva,2,0,0,2,0,2,0,0,graph_matched
+person:m mortrud,M. Mortrud,2,0,0,2,0,2,0,0,graph_matched
+person:m schleyer,M. Schleyer,2,0,0,2,0,1,1,0,graph_matched
+person:m thorwirth,M. Thorwirth,2,0,0,2,0,2,0,0,graph_matched
+person:manasa basavaraju,Manasa Basavaraju,2,0,0,2,0,2,0,0,graph_matched
+person:mark hinton,Mark A. Hinton,2,0,0,2,0,0,2,0,graph_matched
+person:michael cheng,Michael Cheng,2,0,0,2,0,2,0,0,graph_matched
+person:mitsuhiko katoh,Mitsuhiko Katoh,2,0,0,2,0,2,0,0,graph_matched
+person:molly reilly,Molly B. Reilly,2,0,0,2,0,2,0,0,graph_matched
+person:muhammad tibi,Muhammad Tibi,2,0,0,2,0,2,0,0,graph_matched
+person:muye zhu,Muye Zhu,2,0,0,3,0,2,0,0,graph_matched
+person:n brown,N. Brown,2,0,0,2,0,0,2,0,graph_matched
+person:n marks,N. Marks,2,0,0,2,0,2,0,0,graph_matched
+person:n mattsson carlgren,N. Mattsson‐Carlgren,2,0,0,2,0,2,0,0,graph_matched
+person:n sestan,N. Šestan,2,0,0,2,0,2,0,0,graph_matched
+person:n skene,N. Skene,2,0,0,2,0,2,0,0,graph_matched
+person:nicholas cain,Nicholas Cain,2,0,0,2,0,2,0,0,graph_matched
+person:nicola palomero gallagher,Nicola Palomero-Gallagher,2,0,0,2,0,2,0,0,graph_matched
+person:nicola spotorno,Nicola Spotorno,2,0,0,2,0,2,0,0,graph_matched
+person:nicole stock,Nicole Stock,2,0,0,2,0,0,2,0,graph_matched
+person:ning wang,Ning Wang,2,0,0,2,0,2,0,0,graph_matched
+person:nouwar mokayes,Nouwar Mokayes,2,0,0,2,0,2,0,0,graph_matched
+person:o strandberg,O. Strandberg,2,0,0,2,0,2,0,0,graph_matched
+person:oskar hansson,Oskar Hansson,2,0,0,2,0,2,0,0,graph_matched
+person:osnat ophir,Osnat Ophir,2,0,0,2,0,2,0,0,graph_matched
+person:p sjostrom,P. J. Sjöström,2,0,0,2,0,2,0,0,graph_matched
+person:p velicky,P. Velicky,2,0,0,2,0,2,0,0,graph_matched
+person:pak ming lau,Pak-Ming Lau,2,0,0,2,0,2,0,0,graph_matched
+person:pei tseng lee,Pei-Tseng Lee,2,0,0,2,0,2,0,0,graph_matched
+person:peng su,Peng Su,2,0,0,2,0,2,0,0,graph_matched
+person:peter jonas,Peter Jonas,2,0,0,2,0,2,0,0,graph_matched
+person:qian ru yang,Qian-Ru Yang,2,0,0,2,0,2,0,0,graph_matched
+person:qingyuan zhu,Qingyuan Zhu,2,0,0,2,0,2,0,0,graph_matched
+person:r neve,R. Neve,2,0,0,2,0,2,0,0,graph_matched
+person:r ossenkoppele,R. Ossenkoppele,2,0,0,2,0,2,0,0,graph_matched
+person:r perin,R. Perin,2,0,0,2,0,2,0,0,graph_matched
+person:rebecca mcwhirter,Rebecca D. McWhirter,2,0,0,2,0,2,0,0,graph_matched
+person:richard axel,Richard Axel,2,0,0,3,0,2,0,0,graph_matched
+person:ruben smith,Ruben Smith,2,0,0,2,0,2,0,0,graph_matched
+person:ruixuan gao,Ruixuan Gao,2,0,0,2,0,2,0,0,graph_matched
+person:ruth benavides piccione,Ruth Benavides-Piccione,2,0,0,2,0,2,0,0,graph_matched
+person:s hauck,S. Hauck,2,0,0,2,0,2,0,0,graph_matched
+person:s mannepalli,S. Mannepalli,2,0,0,2,0,2,0,0,graph_matched
+person:s palmqvist,S. Palmqvist,2,0,0,2,0,2,0,0,graph_matched
+person:s siegert,S. Siegert,2,0,0,2,0,2,0,0,graph_matched
+person:samantha bryce,Samantha Bryce,2,0,0,2,0,2,0,0,graph_matched
+person:samara miller,Samara Miller,2,0,0,2,0,2,0,0,graph_matched
+person:sang hoon kim,Sang Hoon Kim,2,0,0,2,0,2,0,0,graph_matched
+person:seita yamashita,Seita Yamashita,2,0,0,3,0,2,0,0,graph_matched
+person:shruti kulkarni,Shruti Kulkarni,2,0,0,2,0,2,0,0,graph_matched
+person:shu kondo,Shu Kondo,2,0,0,2,0,2,0,0,graph_matched
+person:sichao he,Sichao He,2,0,0,2,0,2,0,0,graph_matched
+person:t boesen,T. Boesen,2,0,0,3,0,2,0,0,graph_matched
+person:t czech,T. Czech,2,0,0,2,0,2,0,0,graph_matched
+person:t rohlfing,T. Rohlfing,2,0,0,2,0,1,1,0,graph_matched
+person:t trimbuch,T. Trimbuch,2,0,0,2,0,2,0,0,graph_matched
+person:tongchao li,Tongchao Li,2,0,0,2,0,2,0,0,graph_matched
+person:v dercksen,V. J. Dercksen,2,0,0,2,0,2,0,0,graph_matched
+person:wayne wakeman,Wayne Wakeman,2,0,0,2,0,2,0,0,graph_matched
+person:wei cheng chang,Wei-Cheng Chang,2,0,0,2,0,2,0,0,graph_matched
+person:william janssen,William Janssen,2,0,0,2,0,2,0,0,graph_matched
+person:william schafer,William R. Schafer,2,0,0,2,0,2,0,0,graph_matched
+person:won chan oh,Won Chan Oh,2,0,0,2,0,2,0,0,graph_matched
+person:xintian hu,Xintian Hu,2,0,0,2,0,2,0,0,graph_matched
+person:y saitoh,Y. Saitoh,2,0,0,2,0,2,0,0,graph_matched
+person:ying li,Ying C. Li,2,0,0,2,0,2,0,0,graph_matched
+person:yuan ming zheng,Yuan-Ming Zheng,2,0,0,2,0,1,1,0,graph_matched
+person:yuanjing feng,Yuanjing Feng,2,0,0,2,0,2,0,0,graph_matched
+person:yue guan,Yue Guan,2,0,0,2,0,2,0,0,graph_matched
+person:yvette zarb,Yvette Zarb,2,0,0,2,0,2,0,0,graph_matched
+person:zhen qiu,Zhen Qiu,2,0,0,2,0,2,0,0,graph_matched
+person:zhuhao wu,Zhuhao Wu,2,0,0,2,0,2,0,0,graph_matched
+person:j wegiel,J. Wegiel,1,1,1,0,0,1,0,0,graph_matched
+person:a goltsev,A. Goltsev,1,0,1,0,1,0,0,0,graph_matched
+person:a gordus,A. Gordus,1,0,1,0,1,0,0,0,graph_matched
+person:a hudspeth,A. Hudspeth,1,0,1,0,1,0,0,0,graph_matched
+person:a sanzeni,A. Sanzeni,1,0,1,0,1,0,0,0,graph_matched
+person:a yuille,A. Yuille,1,0,1,0,1,0,0,0,graph_matched
+person:alison barth,Alison L. Barth,1,0,1,0,1,0,0,0,graph_matched
+person:anita devineni,Anita V. Devineni,1,0,1,0,1,0,0,0,graph_matched
+person:ann hermundstad,Ann M. Hermundstad,1,0,1,0,1,0,0,0,graph_matched
+person:anna vlasits,Anna L. Vlasits,1,0,1,0,1,0,0,0,graph_matched
+person:anton maximov,Anton Maximov,1,0,1,0,1,0,0,0,graph_matched
+person:b kasthuri,B. Kasthuri,1,0,1,0,1,0,0,0,graph_matched
+person:b manjunath,B. Manjunath,1,0,1,0,1,0,0,0,graph_matched
+person:b scott,B. Scott,1,0,1,0,1,0,0,0,graph_matched
+person:bingni brunton,Bingni W. Brunton,1,0,1,0,1,0,0,0,graph_matched
+person:c alonso,C. Alonso,1,0,1,0,1,0,0,0,graph_matched
+person:c desplan,C. Desplan,1,0,1,0,1,0,0,0,graph_matched
+person:c forest,C. Forest,1,0,1,0,1,0,0,0,graph_matched
+person:christian vestergaard,Christian L. Vestergaard,1,0,1,0,1,0,0,0,graph_matched
+person:chunfeng song,Chunfeng Song,1,0,1,0,1,0,0,0,graph_matched
+person:chung heng yeh,Chung-Heng Yeh,1,0,1,0,1,0,0,0,graph_matched
+person:claus hilgetag,Claus C. Hilgetag,1,0,1,0,1,0,0,0,graph_matched
+person:d anastassiou,D. Anastassiou,1,0,1,0,1,0,0,0,graph_matched
+person:d galas,D. Galas,1,0,1,0,1,0,0,0,graph_matched
+person:d wagenaar,D. Wagenaar,1,0,1,0,1,0,0,0,graph_matched
+person:dario izzo,Dario Izzo,1,0,1,0,1,0,0,0,graph_matched
+person:domenico ursino,Domenico Ursino,1,0,1,0,1,0,0,0,graph_matched
+person:e anton,E. S. Anton,1,0,1,0,1,0,0,0,graph_matched
+person:e ruppin,E. Ruppin,1,0,1,0,1,0,0,0,graph_matched
+person:ganesh bagler,Ganesh Bagler,1,0,1,0,1,0,0,0,graph_matched
+person:harald hausen,Harald Hausen,1,0,1,0,1,0,0,0,graph_matched
+person:hernan makse,Hernán A. Makse,1,0,1,0,1,0,0,0,graph_matched
+person:iibdgc consortium,Iibdgc Consortium,1,0,1,0,1,0,0,0,graph_matched
+person:istv an kov acs,Istv'an A. Kov'acs,1,0,1,0,1,0,0,0,graph_matched
+person:james aimone,James Aimone,1,0,1,0,1,0,0,0,graph_matched
+person:jennifer hasler,Jennifer O. Hasler,1,0,1,0,1,0,0,0,graph_matched
+person:jessica ausborn,Jessica Ausborn,1,0,1,0,1,0,0,0,graph_matched
+person:johann bollmann,Johann H Bollmann,1,0,1,0,1,0,0,0,graph_matched
+person:johann danzl,Johann G. Danzl,1,0,1,0,1,0,0,0,graph_matched
+person:jurgen rybak,Jürgen Rybak,1,0,1,0,1,0,0,0,graph_matched
+person:k arikawa,K. Arikawa,1,0,1,0,1,0,0,0,graph_matched
+person:k boahen,K. Boahen,1,0,1,0,1,0,0,0,graph_matched
+person:k josic,K. Josić,1,0,1,0,1,0,0,0,graph_matched
+person:k stratford,K. Stratford,1,0,1,0,1,0,0,0,graph_matched
+person:karolina korvasova,Karolína Korvasová,1,0,1,0,1,0,0,0,graph_matched
+person:kosuke hashimoto,Kosuke Hashimoto,1,0,1,0,1,0,0,0,graph_matched
+person:l prieto godino,L. Prieto-Godino,1,0,1,0,1,0,0,0,graph_matched
+person:lai sang young,Lai-Sang Young,1,0,1,0,1,0,0,0,graph_matched
+person:lichtman jeff,Lichtman Jeff,1,0,1,0,1,0,0,0,graph_matched
+person:m babadi,M. Babadi,1,0,1,0,1,0,0,0,graph_matched
+person:m dundar,M. M. Dundar,1,0,1,0,1,0,0,0,graph_matched
+person:m gordon,M. D. Gordon,1,0,1,0,1,0,0,0,graph_matched
+person:m knothe tate,M. K. Knothe Tate,1,0,1,0,1,0,0,0,graph_matched
+person:m long,M. A. Long,1,0,1,0,1,0,0,0,graph_matched
+person:m papka,M. Papka,1,0,1,0,1,0,0,0,graph_matched
+person:marina boido,Marina Boido,1,0,1,0,1,0,0,0,graph_matched
+person:martina schifferer,Martina Schifferer,1,0,1,0,1,0,0,0,graph_matched
+person:mauricio barahona,Mauricio Barahona,1,0,1,0,1,0,0,0,graph_matched
+person:nathan schroeder,Nathan E. Schroeder,1,0,1,0,1,0,0,0,graph_matched
+person:nathaniel sawtell,Nathaniel B. Sawtell,1,0,1,0,1,0,0,0,graph_matched
+person:nilay yapici,Nilay Yapici,1,0,1,0,1,0,0,0,graph_matched
+person:nima dehghani,Nima Dehghani,1,0,1,0,1,0,0,0,graph_matched
+person:p heng,P. Heng,1,0,1,0,1,0,0,0,graph_matched
+person:paul graham,Paul Graham,1,0,1,0,1,0,0,0,graph_matched
+person:pavan ramdya,Pavan Ramdya,1,0,1,0,1,0,0,0,graph_matched
+person:r kanzaki,R. Kanzaki,1,0,1,0,1,0,0,0,graph_matched
+person:r melzer,R. Melzer,1,0,1,0,1,0,0,0,graph_matched
+person:r pena,R. Pena,1,0,1,0,1,0,0,0,graph_matched
+person:richard mann,Richard S. Mann,1,0,1,0,1,0,0,0,graph_matched
+person:richie kohman,Richie E. Kohman,1,0,1,0,1,0,0,0,graph_matched
+person:s sprecher,S. Sprecher,1,0,1,0,1,0,0,0,graph_matched
+person:s sternson,S. Sternson,1,0,1,0,1,0,0,0,graph_matched
+person:sarah wooders,Sarah Wooders,1,0,1,0,1,0,0,0,graph_matched
+person:satoshi kurihara,Satoshi Kurihara,1,0,1,0,1,0,0,0,graph_matched
+person:srijita sarkar,Srijita Sarkar,1,0,1,0,1,0,0,0,graph_matched
+person:steven flavell,Steven W. Flavell,1,0,1,0,1,0,0,0,graph_matched
+person:sun|p,Pei Sun,1,0,1,0,1,0,0,0,graph_matched
+person:t finger,T. Finger,1,0,1,0,1,0,0,0,graph_matched
+person:t mcginnity,T. McGinnity,1,0,1,1,1,0,0,0,graph_matched
+person:t tsuji,T. Tsuji,1,0,1,0,1,0,0,0,graph_matched
+person:takashi kohno,Takashi Kohno,1,0,1,0,1,0,0,0,graph_matched
+person:thomas fai,Thomas G. Fai,1,0,1,0,1,0,0,0,graph_matched
+person:thomas serre,Thomas Serre,1,0,1,0,1,0,0,0,graph_matched
+person:tim dahmen,Tim Dahmen,1,0,1,0,1,0,0,0,graph_matched
+person:vikas bhandawat,Vikas Bhandawat,1,0,1,0,1,0,0,0,graph_matched
+person:w debello,W. DeBello,1,0,1,0,1,0,0,0,graph_matched
+person:yanan sui,Yanan Sui,1,0,1,0,1,0,0,0,graph_matched
+person:35131 padova,35131 Padova,1,0,1,0,0,1,0,0,graph_matched
+person:a dale,A. Dale,1,0,1,0,0,1,0,0,graph_matched
+person:a destexhe,A. Destexhe,1,0,1,0,0,1,0,0,graph_matched
+person:a goriely,A. Goriely,1,0,1,0,0,1,0,0,graph_matched
+person:a gorsky,A. Gorsky,1,0,1,0,0,1,0,0,graph_matched
+person:a horn,A. Horn,1,0,1,0,0,0,1,0,graph_matched
+person:a montakhab,A. Montakhab,1,0,1,0,0,1,0,0,graph_matched
+person:a narayan,A. Narayan,1,0,1,0,0,1,0,0,graph_matched
+person:a reyes,A. Reyes,1,0,1,0,0,1,0,0,graph_matched
+person:a sanz,A. Sanz,1,0,1,0,0,1,0,0,graph_matched
+person:aaron stahl,Aaron Stahl,1,0,1,0,0,1,0,0,graph_matched
+person:abraham beyene,Abraham G. Beyene,1,0,1,0,0,1,0,0,graph_matched
+person:albert aganov,Albert V. Aganov,1,0,1,0,0,1,0,0,graph_matched
+person:alexander paraskevov,Alexander Paraskevov,1,0,1,0,0,1,0,0,graph_matched
+person:alexei verkhatsky,Alexei Verkhatsky,1,0,1,0,0,1,0,0,graph_matched
+person:anna kim,Anna Kim,1,0,1,0,0,1,0,0,graph_matched
+person:annika barber,Annika F. Barber,1,0,1,0,0,1,0,0,graph_matched
+person:arber|s,S. Arber,1,0,1,0,0,1,0,0,graph_matched
+person:arie kaffman,Arie Kaffman,1,0,1,0,0,1,0,0,graph_matched
+person:b bouma,B. Bouma,1,0,1,0,0,1,0,0,graph_matched
+person:b di benedetto,B. Di Benedetto,1,0,1,0,0,1,0,0,graph_matched
+person:b doiron,B. Doiron,1,0,1,0,0,1,0,0,graph_matched
+person:b mathur,B. Mathur,1,0,1,0,0,1,0,0,graph_matched
+person:b medhi,B. Medhi,1,0,1,0,0,0,1,0,graph_matched
+person:b white,B. White,1,0,1,0,0,1,0,0,graph_matched
+person:b wollscheid,B. Wollscheid,1,0,1,0,0,1,0,0,graph_matched
+person:bruce mcnaughton,Bruce L. McNaughton,1,0,1,0,0,1,0,0,graph_matched
+person:byunghyuk kim,Byunghyuk Kim,1,0,1,0,0,1,0,0,graph_matched
+person:c antonopoulos,C. Antonopoulos,1,0,1,0,0,1,0,0,graph_matched
+person:c cepko,C. Cepko,1,0,1,0,0,1,0,0,graph_matched
+person:c duch,C. Duch,1,0,1,0,0,1,0,0,graph_matched
+person:c gross,C. Gross,1,0,1,0,0,1,0,0,graph_matched
+person:c kentros,C. Kentros,1,0,1,0,0,1,0,0,graph_matched
+person:c leibold,C. Leibold,1,0,1,0,0,1,0,0,graph_matched
+person:c machens,C. Machens,1,0,1,0,0,1,0,0,graph_matched
+person:c petersen,C. Petersen,1,0,1,0,0,1,0,0,graph_matched
+person:c rankin,C. Rankin,1,0,1,0,0,1,0,0,graph_matched
+person:c stigloher,C. Stigloher,1,0,1,0,0,1,0,0,graph_matched
+person:carmen bolatto,Carmen Bolatto,1,0,1,0,0,1,0,0,graph_matched
+person:chaim gilon,Chaim Gilon,1,0,1,0,0,1,0,0,graph_matched
+person:christian hansel,Christian Hansel,1,0,1,0,0,1,0,0,graph_matched
+person:corey harwell,Corey C. Harwell,1,0,1,0,0,1,0,0,graph_matched
+person:d anderson,D. J. Anderson,1,0,1,0,0,1,0,0,graph_matched
+person:d essen,D. C. Essen,1,0,1,0,0,1,0,0,graph_matched
+person:d feldmeyer,D. Feldmeyer,1,0,1,0,0,1,0,0,graph_matched
+person:d gamm,D. Gamm,1,0,1,0,0,1,0,0,graph_matched
+person:d heiland,D. Heiland,1,0,1,0,0,1,0,0,graph_matched
+person:d romanova,D. Y. Romanova,1,0,1,0,0,1,0,0,graph_matched
+person:d surmeier,D. Surmeier,1,0,1,0,0,0,1,0,graph_matched
+person:danielle graham,Danielle Graham,1,0,1,0,0,1,0,0,graph_matched
+person:david amaral1,David G Amaral1,1,0,1,0,0,1,0,0,graph_matched
+person:david bock,David N. Bock,1,0,1,0,0,1,0,0,graph_matched
+person:david hunt,David L. Hunt,1,0,1,0,0,1,0,0,graph_matched
+person:despina stasi,Despina Stasi,1,0,1,0,0,1,0,0,graph_matched
+person:do hyun ham,Do-Hyun Ham,1,0,1,0,0,1,0,0,graph_matched
+person:dongming cai,Dongming Cai,1,0,1,0,0,1,0,0,graph_matched
+person:douglas smith,Douglas H. Smith,1,0,1,0,0,1,0,0,graph_matched
+person:e angelo,E. D’Angelo,1,0,1,0,0,1,0,0,graph_matched
+person:e gahtan,E. Gahtan,1,0,1,0,0,1,0,0,graph_matched
+person:e nestler,E. Nestler,1,0,1,0,0,1,0,0,graph_matched
+person:e ott,E. Ott,1,0,1,0,0,1,0,0,graph_matched
+person:e segal,E. Segal,1,0,1,0,0,1,0,0,graph_matched
+person:edwin levitan,Edwin S. Levitan,1,0,1,0,0,1,0,0,graph_matched
+person:estuardo robles,Estuardo Robles,1,0,1,0,0,1,0,0,graph_matched
+person:f leslie,F. M. Leslie,1,0,1,0,0,1,0,0,graph_matched
+person:f sommer,F. Sommer,1,0,1,0,0,1,0,0,graph_matched
+person:f zamponi,F. Zamponi,1,0,1,0,0,1,0,0,graph_matched
+person:fernando vonhoff,Fernando J Vonhoff,1,0,1,0,0,1,0,0,graph_matched
+person:franco pestilli,Franco Pestilli,1,0,1,0,0,1,0,0,graph_matched
+person:g buzsaki,G. Buzsáki,1,0,1,0,0,1,0,0,graph_matched
+person:g deco,G. Deco,1,0,1,0,0,1,0,0,graph_matched
+person:g fahy,G. Fahy,1,0,1,0,0,1,0,0,graph_matched
+person:g finnerty,G. Finnerty,1,0,1,0,0,1,0,0,graph_matched
+person:g kidd,G. Kidd,1,0,1,0,0,1,0,0,graph_matched
+person:g mongillo,G. Mongillo,1,0,1,0,0,1,0,0,graph_matched
+person:g silva,G. Silva,1,0,1,0,0,1,0,0,graph_matched
+person:gareth howell,Gareth R. Howell,1,0,1,0,0,1,0,0,graph_matched
+person:h noori,H. Noori,1,0,1,0,0,1,0,0,graph_matched
+person:h uylings,H. Uylings,1,0,1,0,0,1,0,0,graph_matched
+person:harkany|t,T. Harkany,1,0,1,1,0,1,0,0,graph_matched
+person:henning fenselau,Henning Fenselau,1,0,1,0,0,1,0,0,graph_matched
+person:hermann cuntz,Hermann Cuntz,1,0,1,0,0,1,0,0,graph_matched
+person:hiromu tanimoto,Hiromu Tanimoto,1,0,1,0,0,1,0,0,graph_matched
+person:hongjun song,Hongjun Song,1,0,1,0,0,1,0,0,graph_matched
+person:i salecker,I. Salecker,1,0,1,0,0,0,1,0,graph_matched
+person:itai cohen,Itai Cohen,1,0,1,0,0,1,0,0,graph_matched
+person:j amigo,J. Amigó,1,0,1,0,0,1,0,0,graph_matched
+person:j beggs,J. Beggs,1,0,1,0,0,1,0,0,graph_matched
+person:j bonkowsky,J. Bonkowsky,1,0,1,0,0,1,0,0,graph_matched
+person:j crofts,J. Crofts,1,0,1,0,0,1,0,0,graph_matched
+person:j davidsen,J. Davidsen,1,0,1,0,0,1,0,0,graph_matched
+person:j dowling,J. Dowling,1,0,1,0,0,1,0,0,graph_matched
+person:j dubnau,J. Dubnau,1,0,1,0,0,1,0,0,graph_matched
+person:j flint,J. Flint,1,0,1,0,0,0,1,0,graph_matched
+person:j griffiths,J. Griffiths,1,0,1,0,0,1,0,0,graph_matched
+person:j haas,J. Haas,1,0,1,0,0,1,0,0,graph_matched
+person:j hoffmann,J. Hoffmann,1,0,1,0,0,0,1,0,graph_matched
+person:j ko,J. Ko,1,0,1,0,0,1,0,0,graph_matched
+person:j morales,J. A. Morales,1,0,1,0,0,1,0,0,graph_matched
+person:j moreira,J. Moreira,1,0,1,0,0,0,1,0,graph_matched
+person:j suckling,J. Suckling,1,0,1,0,0,1,0,0,graph_matched
+person:jarecki|j,J. Jarecki,1,0,1,0,0,1,0,0,graph_matched
+person:joerg bewersdorf,Joerg Bewersdorf,1,0,1,0,0,1,0,0,graph_matched
+person:johnatan aljadeff,Johnatan Aljadeff,1,0,1,0,0,1,0,0,graph_matched
+person:jorg geiger,Jörg R. P. Geiger,1,0,1,0,0,1,0,0,graph_matched
+person:jorg jenssen,Jörg Jenssen,1,0,1,0,0,1,0,0,graph_matched
+person:joseph ledoux,Joseph E LeDoux,1,0,1,0,0,1,0,0,graph_matched
+person:juan ignacio godino llorente,Juan Ignacio Godino-Llorente,1,0,1,0,0,1,0,0,graph_matched
+person:julie lefebvre,Julie L. Lefebvre,1,0,1,0,0,1,0,0,graph_matched
+person:justin blau,Justin Blau,1,0,1,0,0,1,0,0,graph_matched
+person:k oka,K. Oka,1,0,1,0,0,1,0,0,graph_matched
+person:k schmitz,K. Schmitz,1,0,1,0,0,1,0,0,graph_matched
+person:k staley,K. Staley,1,0,1,0,0,1,0,0,graph_matched
+person:k zilles,K. Zilles,1,0,1,0,0,1,0,0,graph_matched
+person:k zinn,K. Zinn,1,0,1,0,0,1,0,0,graph_matched
+person:karthikeyan ravi,Karthikeyan Ravi,1,0,1,0,0,1,0,0,graph_matched
+person:kavita babu,Kavita Babu,1,0,1,0,0,1,0,0,graph_matched
+person:kiryl piatkevich,Kiryl D Piatkevich,1,0,1,0,0,1,0,0,graph_matched
+person:knafo|s,S. Knafo,1,0,1,0,0,1,0,0,graph_matched
+person:kristen carlson,Kristen W. Carlson,1,0,1,0,0,1,0,0,graph_matched
+person:l groschner,L. Groschner,1,0,1,0,0,1,0,0,graph_matched
+person:l looger,L. Looger,1,0,1,0,0,1,0,0,graph_matched
+person:l mariniello,L. Mariniello,1,0,1,0,0,1,0,0,graph_matched
+person:l pastor,L. Pastor,1,0,1,0,0,1,0,0,graph_matched
+person:l tian,L. Tian,1,0,1,0,0,1,0,0,graph_matched
+person:l ward,L. M. Ward,1,0,1,0,0,1,0,0,graph_matched
+person:larry zipursky,Larry Zipursky,1,0,1,0,0,1,0,0,graph_matched
+person:leonardo gollo,Leonardo L. Gollo,1,0,1,0,0,1,0,0,graph_matched
+person:long cai,Long Cai,1,0,1,0,0,1,0,0,graph_matched
+person:lucas cheadle,Lucas Cheadle,1,0,1,0,0,1,0,0,graph_matched
+person:luke hammond,Luke A. Hammond,1,0,1,0,0,1,0,0,graph_matched
+person:m arbeitman,M. Arbeitman,1,0,1,0,0,1,0,0,graph_matched
+person:m bate,M. Bate,1,0,1,0,0,1,0,0,graph_matched
+person:m berlanga,M. Berlanga,1,0,1,0,0,1,0,0,graph_matched
+person:m cazorla,M. Cazorla,1,0,1,0,0,1,0,0,graph_matched
+person:m crespo lopez,M. Crespo-López,1,0,1,0,0,1,0,0,graph_matched
+person:m daley,M. Daley,1,0,1,0,0,1,0,0,graph_matched
+person:m de bono,M. de Bono,1,0,1,0,0,1,0,0,graph_matched
+person:m de reus,M. D. de Reus,1,0,1,0,0,1,0,0,graph_matched
+person:m fuccillo,M. Fuccillo,1,0,1,0,0,1,0,0,graph_matched
+person:m goetz,M. Goetz,1,0,1,0,0,1,0,0,graph_matched
+person:m goldman,M. Goldman,1,0,1,0,0,1,0,0,graph_matched
+person:m gotz,M. Götz,1,0,1,0,0,1,0,0,graph_matched
+person:m lakadamyali,M. Lakadamyali,1,0,1,0,0,1,0,0,graph_matched
+person:m marcoli,M. Marcoli,1,0,1,0,0,1,0,0,graph_matched
+person:m munoz,M. A. Muñoz,1,0,1,0,0,1,0,0,graph_matched
+person:m rognes,M. Rognes,1,0,1,0,0,1,0,0,graph_matched
+person:m ryttlefors,M. Ryttlefors,1,0,1,0,0,0,1,0,graph_matched
+person:m terasaki,M. Terasaki,1,0,1,0,0,1,0,0,graph_matched
+person:m vetterli,M. Vetterli,1,0,1,0,0,1,0,0,graph_matched
+person:manikandan narayanan,Manikandan Narayanan,1,0,1,0,0,1,0,0,graph_matched
+person:marc timme,Marc Timme,1,0,1,0,0,1,0,0,graph_matched
+person:maria fernandez,Maria P. Fernandez,1,0,1,0,0,1,0,0,graph_matched
+person:mariana alonso,Mariana Alonso,1,0,1,0,0,1,0,0,graph_matched
+person:matthew kayser,Matthew S. Kayser,1,0,1,0,0,1,0,0,graph_matched
+person:matthew tivnan,Matthew Tivnan,1,0,1,0,0,1,0,0,graph_matched
+person:matthew weston,Matthew C. Weston,1,0,1,0,0,1,0,0,graph_matched
+person:max more,Max More,1,0,1,0,0,0,1,0,graph_matched
+person:miao ren,Miao Ren,1,0,1,0,0,1,0,0,graph_matched
+person:michael muller,Michael G. Müller,1,0,1,0,0,1,0,0,graph_matched
+person:minoru koyama,Minoru Koyama,1,0,1,0,0,1,0,0,graph_matched
+person:mowafa househ,Mowafa J Househ,1,0,1,0,0,1,0,0,graph_matched
+person:n tanaka,N. Tanaka,1,0,1,0,0,1,0,0,graph_matched
+person:n toschi,N. Toschi,1,0,1,0,0,1,0,0,graph_matched
+person:nan ji,Nan Ji,1,0,1,0,0,1,0,0,graph_matched
+person:naoki yamawaki,Naoki Yamawaki,1,0,1,0,0,1,0,0,graph_matched
+person:o yizhar,O. Yizhar,1,0,1,0,0,1,0,0,graph_matched
+person:p basser,P. Basser,1,0,1,0,0,1,0,0,graph_matched
+person:p chadderton,P. Chadderton,1,0,1,0,0,1,0,0,graph_matched
+person:p grant,P. Grant,1,0,1,0,0,1,0,0,graph_matched
+person:p hiesinger,P. Hiesinger,1,0,1,0,0,1,0,0,graph_matched
+person:peter koo,Peter K. Koo,1,0,1,0,0,1,0,0,graph_matched
+person:phd douglas fields,PhD R. Douglas Fields,1,0,1,0,0,1,0,0,graph_matched
+person:quan wen,Quan Wen,1,0,1,0,0,1,0,0,graph_matched
+person:r anadon,R. Anadón,1,0,1,0,0,1,0,0,graph_matched
+person:r sepulchre,R. Sepulchre,1,0,1,0,0,1,0,0,graph_matched
+person:r silver,R. Silver,1,0,1,0,0,1,0,0,graph_matched
+person:r sommer,R. Sommer,1,0,1,0,0,1,0,0,graph_matched
+person:r stowers,R. Stowers,1,0,1,0,0,1,0,0,graph_matched
+person:r tagliaferri,R. Tagliaferri,1,0,1,0,0,1,0,0,graph_matched
+person:r tsien,R. Tsien,1,0,1,0,0,1,0,0,graph_matched
+person:raina pang,Raina D. Pang,1,0,1,0,0,1,0,0,graph_matched
+person:randal koene,Randal A. Koene,1,0,1,0,0,1,0,0,graph_matched
+person:randy amico,Randy S D'Amico,1,0,1,0,0,0,1,0,graph_matched
+person:raoul martin memmesheimer,Raoul-Martin Memmesheimer,1,0,1,0,0,1,0,0,graph_matched
+person:roberto santana,Roberto Santana,1,0,1,0,0,1,0,0,graph_matched
+person:s aerts,S. Aerts,1,0,1,0,0,1,0,0,graph_matched
+person:s carmichael,S. Carmichael,1,0,1,0,0,0,1,0,graph_matched
+person:s dursun,S. Dursun,1,0,1,0,0,0,1,0,graph_matched
+person:s grant,S. Grant,1,0,1,0,0,1,0,0,graph_matched
+person:s haverkamp,S. Haverkamp,1,0,1,0,0,1,0,0,graph_matched
+person:s linnarsson,S. Linnarsson,1,0,1,0,0,1,0,0,graph_matched
+person:s ohno,S. Ohno,1,0,1,0,0,1,0,0,graph_matched
+person:s palmer,S. Palmer,1,0,1,0,0,1,0,0,graph_matched
+person:s remy,S. Remy,1,0,1,0,0,1,0,0,graph_matched
+person:s siegelbaum,S. Siegelbaum,1,0,1,0,0,1,0,0,graph_matched
+person:s sinha,S. Sinha,1,0,1,0,0,1,0,0,graph_matched
+person:s soffe,S. Soffe,1,0,1,0,0,1,0,0,graph_matched
+person:s trouche,S. Trouche,1,0,1,0,0,1,0,0,graph_matched
+person:samuel wu,Samuel M. Wu,1,0,1,0,0,1,0,0,graph_matched
+person:sayan nandi,Sayan Nandi,1,0,1,0,0,1,0,0,graph_matched
+person:scott hooper,Scott L. Hooper,1,0,1,0,0,1,0,0,graph_matched
+person:selimi|f,F. Selimi,1,0,1,0,0,1,0,0,graph_matched
+person:stefan pulver,Stefan R. Pulver,1,0,1,0,0,1,0,0,graph_matched
+person:stephen williams,Stephen R. Williams,1,0,1,0,0,1,0,0,graph_matched
+person:susie huang,Susie Y. Huang,1,0,1,0,0,1,0,0,graph_matched
+person:t celikel,T. Celikel,1,0,1,0,0,1,0,0,graph_matched
+person:t lippert,T. Lippert,1,0,1,0,0,1,0,0,graph_matched
+person:t nowakowski,T. Nowakowski,1,0,1,0,0,1,0,0,graph_matched
+person:t riemensperger,T. Riemensperger,1,0,1,0,0,1,0,0,graph_matched
+person:t roberts,T. Roberts,1,0,1,0,0,1,0,0,graph_matched
+person:t starborg,T. Starborg,1,0,1,0,0,1,0,0,graph_matched
+person:t tchumatchenko,T. Tchumatchenko,1,0,1,0,0,1,0,0,graph_matched
+person:t yoshimatsu,T. Yoshimatsu,1,0,1,0,0,1,0,0,graph_matched
+person:takeshi imai,Takeshi Imai,1,0,1,0,0,1,0,0,graph_matched
+person:tamara boto,Tamara Boto,1,0,1,0,0,1,0,0,graph_matched
+person:terrance kummer,Terrance T. Kummer,1,0,1,0,0,1,0,0,graph_matched
+person:timothy leary,Timothy O’Leary,1,0,1,0,0,1,0,0,graph_matched
+person:timothy wagner,Timothy Wagner,1,0,1,0,0,1,0,0,graph_matched
+person:u bhalla,U. Bhalla,1,0,1,0,0,1,0,0,graph_matched
+person:u kubitscheck,U. Kubitscheck,1,0,1,0,0,0,1,0,graph_matched
+person:v paola,V. Paola,1,0,1,0,0,1,0,0,graph_matched
+person:veinante|p,P. Veinante,1,0,1,0,0,1,0,0,graph_matched
+person:w rossler,W. Rössler,1,0,1,0,0,1,0,0,graph_matched
+person:wesley grueber,Wesley B. Grueber,1,0,1,0,0,1,0,0,graph_matched
+person:won do heo,Won Do Heo,1,0,1,0,0,0,1,0,graph_matched
+person:xiaochen tang,Xiaochen Tang,1,0,1,0,0,1,0,0,graph_matched
+person:xiaohong xu,Xiaohong Xu,1,0,1,0,0,1,0,0,graph_matched
+person:xu fei du,Xu-Fei Du,1,0,1,0,0,0,1,0,graph_matched
+person:y dan,Y. Dan,1,0,1,0,0,1,0,0,graph_matched
+person:yishi jin,Yishi Jin,1,0,1,0,0,1,0,0,graph_matched
+person:yoonmyung lee,Yoonmyung Lee,1,0,1,0,0,1,0,0,graph_matched
+person:yuxiu shao,Yuxiu Shao,1,0,1,0,0,1,0,0,graph_matched
+person:zaixu cui,Zaixu Cui,1,0,1,0,0,1,0,0,graph_matched
+person:f davis,F. Davis,1,1,0,0,1,0,0,1,graph_matched
+person:huayu ding,Huayu Ding,1,1,0,0,1,0,0,1,graph_matched
+person:j alexander bae,J. Alexander Bae,1,1,0,0,1,0,0,1,graph_matched
+person:jasper maniates selvin,Jasper T. Maniates-Selvin,1,1,0,0,1,0,0,1,graph_matched
+person:ranga srinivasan,Ranga Srinivasan,1,1,0,0,1,0,0,1,graph_matched
+person:a bhattacharjee,A. Bhattacharjee,1,1,0,0,1,0,0,0,graph_matched
+person:a geraldo,A. Geraldo,1,1,0,0,1,0,0,0,graph_matched
+person:a gross,A. Gross,1,1,0,0,1,0,0,0,graph_matched
+person:a matsushita,A. Matsushita,1,1,0,0,1,0,0,0,graph_matched
+person:a morales gregorio,A. Morales-Gregorio,1,1,0,0,1,0,0,0,graph_matched
+person:a pournaki,A. Pournaki,1,1,0,0,1,0,0,0,graph_matched
+person:a salova,A. Salova,1,1,0,0,1,0,0,0,graph_matched
+person:abhimanyu talwar,Abhimanyu Talwar,1,1,0,0,1,0,0,0,graph_matched
+person:adrian holtrup,Adrian Holtrup,1,1,0,0,1,0,0,0,graph_matched
+person:alexander becalick,Alexander Becalick,1,1,0,0,1,0,0,0,graph_matched
+person:alexander helm,Alexander Helm,1,1,0,0,1,0,0,0,graph_matched
+person:alexis enichou,Alexis B'enichou,1,1,0,0,1,0,0,0,graph_matched
+person:alfred laugros,Alfred Laugros,1,1,0,0,1,0,0,0,graph_matched
+person:alicia costalago meruelo,Alicia Costalago-Meruelo,1,1,0,0,1,0,0,0,graph_matched
+person:amanda gonzalez segarra,Amanda J. González-Segarra,1,1,0,0,1,0,0,0,graph_matched
+person:amelio vazquez reina,Amelio Vázquez Reina,1,1,0,0,1,0,0,0,graph_matched
+person:anjali gour,Anjali Gour,1,1,0,0,1,0,0,0,graph_matched
+person:anthony moreno sanchez,Anthony Moreno-Sanchez,1,1,0,0,1,0,0,0,graph_matched
+person:ao cheng,Ao Cheng,1,1,0,0,1,0,0,0,graph_matched
+person:ariane boehm,Ariane Boehm,1,1,0,0,1,0,0,0,graph_matched
+person:arthur wetzel,Arthur W. Wetzel,1,1,0,0,1,0,0,0,graph_matched
+person:bella brezovec,Bella E. Brezovec,1,1,0,0,1,0,0,0,graph_matched
+person:c cali,C. Calì,1,1,0,0,1,0,0,0,graph_matched
+person:c fieseler,C. Fieseler,1,1,0,0,1,0,0,0,graph_matched
+person:c graydon,C. Graydon,1,1,0,0,1,0,0,0,graph_matched
+person:cesar ceballos,Cesar Ceballos,1,1,0,0,1,0,0,0,graph_matched
+person:citation hayworth,Citation Hayworth,1,1,0,0,1,0,0,0,graph_matched
+person:courtney wilson,Courtney E Wilson,1,1,0,0,1,0,0,0,graph_matched
+person:d atasoy,D. Atasoy,1,1,0,0,1,0,0,0,graph_matched
+person:d sharma,D. Sharma,1,1,0,0,1,0,0,0,graph_matched
+person:daniel goodwin,Daniel R. Goodwin,1,1,0,0,1,0,0,0,graph_matched
+person:daniel sanculi,Daniel Sanculi,1,1,0,0,1,0,0,0,graph_matched
+person:danping chen,Danping Chen,1,1,0,0,1,0,0,0,graph_matched
+person:david minnen,David C. Minnen,1,1,0,0,1,0,0,0,graph_matched
+person:david zimmerman,David M. Zimmerman,1,1,0,0,1,0,0,0,graph_matched
+person:davit buniatyan,Davit Buniatyan,1,1,0,0,1,0,0,0,graph_matched
+person:diego cordero cervantes,Diégo Cordero Cervantes,1,1,0,0,1,0,0,0,graph_matched
+person:dika kuljis,Dika A. Kuljis,1,1,0,0,1,0,0,0,graph_matched
+person:drew linsley,Drew Linsley,1,1,0,0,1,0,0,0,graph_matched
+person:e dow,E. Dow,1,1,0,1,1,0,0,0,graph_matched
+person:e wright,E. A. P. Wright,1,1,0,0,1,0,0,0,graph_matched
+person:eichi takaya,Eichi Takaya,1,1,0,0,1,0,0,0,graph_matched
+person:eleni samara,Eleni Samara,1,1,0,0,1,0,0,0,graph_matched
+person:eleonora grasso,Eleonora Grasso,1,1,0,0,1,0,0,0,graph_matched
+person:emanuele plebani,Emanuele Plebani,1,1,0,0,1,0,0,0,graph_matched
+person:enrico corradini,Enrico Corradini,1,1,0,0,1,0,0,0,graph_matched
+person:eric jonas,Eric Jonas,1,1,0,0,1,0,0,0,graph_matched
+person:f rakowski,F. Rakowski,1,1,0,0,1,0,0,0,graph_matched
+person:f randi,F. Randi,1,1,0,0,1,0,0,0,graph_matched
+person:fangxu zhou,Fangxu Zhou,1,1,0,0,1,0,0,0,graph_matched
+person:fatemeh hadaeghi,Fatemeh Hadaeghi,1,1,0,0,1,0,0,0,graph_matched
+person:g sunil,G. Sunil,1,1,0,0,1,0,0,0,graph_matched
+person:garrett sager,Garrett Sager,1,1,0,0,1,0,0,0,graph_matched
+person:georg ammer,Georg Ammer,1,1,0,0,1,0,0,0,graph_matched
+person:georg kislinger,Georg Kislinger,1,1,0,0,1,0,0,0,graph_matched
+person:h shan,H. Shan,1,1,0,0,1,0,0,0,graph_matched
+person:h urakubo,H. Urakubo,1,1,0,0,1,0,0,0,graph_matched
+person:himanshu pawankumar gupta,Himanshu Pawankumar Gupta,1,1,0,0,1,0,0,0,graph_matched
+person:hyun tek yim,Hyun-Tek Yim,1,1,0,0,1,0,0,0,graph_matched
+person:i holguera,I. Holguera,1,1,0,0,1,0,0,0,graph_matched
+person:iksoo chang,Iksoo Chang,1,1,0,0,1,0,0,0,graph_matched
+person:ishaan batta,Ishaan Batta,1,1,0,0,1,0,0,0,graph_matched
+person:ivan larderet,Ivan Larderet,1,1,0,0,1,0,0,0,graph_matched
+person:j bao,J. Bao,1,1,0,0,1,0,0,0,graph_matched
+person:j ng,J. Ng,1,1,0,0,1,0,0,0,graph_matched
+person:j picao osorio,J. Picao-Osorio,1,1,0,0,1,0,0,0,graph_matched
+person:jacqueline cornean,Jacqueline Cornean,1,1,0,0,1,0,0,0,graph_matched
+person:james kunert,James Kunert,1,1,0,0,1,0,0,0,graph_matched
+person:james kunert graf,James M. Kunert-Graf,1,1,0,0,1,0,0,0,graph_matched
+person:jayadratha gayen,Jayadratha Gayen,1,1,0,0,1,0,0,0,graph_matched
+person:ji ryang chung,Ji Ryang Chung,1,1,0,0,1,0,0,0,graph_matched
+person:jules berman,Jules Berman,1,1,0,0,1,0,0,0,graph_matched
+person:junchao qiu,Junchao Qiu,1,1,0,0,1,0,0,0,graph_matched
+person:juntao deng,Juntao Deng,1,1,0,0,1,0,0,0,graph_matched
+person:jyotsna rajaraman,Jyotsna Rajaraman,1,1,0,0,1,0,0,0,graph_matched
+person:k bacik,K. Bacik,1,1,0,0,1,0,0,0,graph_matched
+person:k seymour,K. Seymour,1,1,0,0,1,0,0,0,graph_matched
+person:kaifeng chen,Kaifeng Chen,1,1,0,0,1,0,0,0,graph_matched
+person:kara fulton,Kara A. Fulton,1,1,0,0,1,0,0,0,graph_matched
+person:karl friedrichsen,Karl Friedrichsen,1,1,0,0,1,0,0,0,graph_matched
+person:kavin nunez,Kavin M. Nuñez,1,1,0,0,1,0,0,0,graph_matched
+person:kazuma sakamoto,Kazuma Sakamoto,1,1,0,0,1,0,0,0,graph_matched
+person:kazushi fukumasu,Kazushi Fukumasu,1,1,0,0,1,0,0,0,graph_matched
+person:kei jokura,Kei Jokura,1,1,0,0,1,0,0,0,graph_matched
+person:kerem uzel,Kerem Uzel,1,1,0,0,1,0,0,0,graph_matched
+person:ketan mehta,Ketan Mehta,1,1,0,0,1,0,0,0,graph_matched
+person:krista perks,Krista E. Perks,1,1,0,0,1,0,0,0,graph_matched
+person:l rogerson,L. Rogerson,1,1,0,0,1,0,0,0,graph_matched
+person:larissa heinrich,Larissa Heinrich,1,1,0,0,1,0,0,0,graph_matched
+person:laura lungu,Laura Lungu,1,1,0,0,1,0,0,0,graph_matched
+person:lauren wool,Lauren E. Wool,1,1,0,0,1,0,0,0,graph_matched
+person:leone costi,Leone Costi,1,1,0,0,1,0,0,0,graph_matched
+person:lucy ngo,Lucy Ngo,1,1,0,0,1,0,0,0,graph_matched
+person:lydia gruber,Lydia Gruber,1,1,0,0,1,0,0,0,graph_matched
+person:m ashaber,M. Ashaber,1,1,0,0,1,0,0,0,graph_matched
+person:m samavat,M. Samavat,1,1,0,0,1,0,0,0,graph_matched
+person:m shakiba,M. Shakiba,1,1,0,0,1,0,0,0,graph_matched
+person:m shewarega,M. Shewarega,1,1,0,0,1,0,0,0,graph_matched
+person:m uytiepo,M. Uytiepo,1,1,0,0,1,0,0,0,graph_matched
+person:maedeh seyedolmohadesin,Maedeh Seyedolmohadesin,1,1,0,0,1,0,0,0,graph_matched
+person:manuel beiran,Manuel Beiran,1,1,0,0,1,0,0,0,graph_matched
+person:marco zenari,Marco Zenari,1,1,0,0,1,0,0,0,graph_matched
+person:marie greaney,Marie R. Greaney,1,1,0,0,1,0,0,0,graph_matched
+person:maximilian joesch,Maximilian Joesch,1,1,0,0,1,0,0,0,graph_matched
+person:megan morrison,Megan Morrison,1,1,0,0,1,0,0,0,graph_matched
+person:michael bostwick,Michael Bostwick,1,1,0,0,1,0,0,0,graph_matched
+person:michael harris,Michael R. Harris,1,1,0,0,1,0,0,0,graph_matched
+person:michael zhou,Michael G. Zhou,1,1,0,0,1,0,0,0,graph_matched
+person:miljan petrovic,Miljan Petrović,1,1,0,0,1,0,0,0,graph_matched
+person:mojtaba tavakoli,Mojtaba R. Tavakoli,1,1,0,0,1,0,0,0,graph_matched
+person:mu qiao,Mu Qiao,1,1,0,0,1,0,0,0,graph_matched
+person:munehiro hayashi,Munehiro Hayashi,1,1,0,0,1,0,0,0,graph_matched
+person:n chapochnikov,N. Chapochnikov,1,1,0,0,1,0,0,0,graph_matched
+person:na guan,Na N. Guan,1,1,0,0,1,0,0,0,graph_matched
+person:naomi shvedov,Naomi R. Shvedov,1,1,0,0,1,0,0,0,graph_matched
+person:neehal tumma,Neehal Tumma,1,1,0,0,1,0,0,0,graph_matched
+person:nelson medina,Nelson D. Medina,1,1,0,0,1,0,0,0,graph_matched
+person:nicholas chua,Nicholas J. Chua,1,1,0,0,1,0,0,0,graph_matched
+person:nila monig,Nila R. Mönig,1,1,0,0,1,0,0,0,graph_matched
+person:noelle koonce,Noelle L. Koonce,1,1,0,0,1,0,0,0,graph_matched
+person:o shafer,O.T. Shafer,1,1,0,0,1,0,0,0,graph_matched
+person:oren amsalem,Oren Amsalem,1,1,0,0,1,0,0,0,graph_matched
+person:p daugulis,P. Daugulis,1,1,0,0,1,0,0,0,graph_matched
+person:p holcomb,P. Holcomb,1,1,0,0,1,0,0,0,graph_matched
+person:p kim,P. Kim,1,1,0,0,1,0,0,0,graph_matched
+person:p shiu,P. Shiu,1,1,0,0,1,0,0,0,graph_matched
+person:paavo huoviala,Paavo Huoviala,1,1,0,0,1,0,0,0,graph_matched
+person:petra guder,Petra Guder,1,1,0,0,1,0,0,0,graph_matched
+person:r badhwar,R. Badhwar,1,1,0,0,1,0,0,0,graph_matched
+person:rachael stentiford,Rachael Stentiford,1,1,0,0,1,0,0,0,graph_matched
+person:rahul biswas,Rahul Biswas,1,1,0,0,1,0,0,0,graph_matched
+person:rotem ruach,Rotem Ruach,1,1,0,0,1,0,0,0,graph_matched
+person:ruby jacobs,Ruby V. Jacobs,1,1,0,0,1,0,0,0,graph_matched
+person:ruohua shi,Ruohua Shi,1,1,0,0,1,0,0,0,graph_matched
+person:ryosuke tanaka,Ryosuke Tanaka (田中涼介),1,1,0,0,1,0,0,0,graph_matched
+person:s ito,S. Ito,1,1,0,0,1,0,0,0,graph_matched
+person:s therianos,S. Therianos,1,1,0,0,1,0,0,0,graph_matched
+person:saarthak sarup,Saarthak Sarup,1,1,0,0,1,0,0,0,graph_matched
+person:scott wilke,Scott A. Wilke,1,1,0,0,1,0,0,0,graph_matched
+person:sebastian stroh,Sebastian Ströh,1,1,0,0,1,0,0,0,graph_matched
+person:sebastien kawada,Sebastien Kawada,1,1,0,0,1,0,0,0,graph_matched
+person:seyed mostafa mousavi kahaki,Seyed Mostafa Mousavi Kahaki,1,1,0,0,1,0,0,0,graph_matched
+person:shayan farzad,Shayan Farzad,1,1,0,0,1,0,0,0,graph_matched
+person:shengdian jiang,Shengdian Jiang,1,1,0,0,1,0,0,0,graph_matched
+person:shibani santurkar,Shibani Santurkar,1,1,0,0,1,0,0,0,graph_matched
+person:shingo yoshikawa,Shingo Yoshikawa,1,1,0,0,1,0,0,0,graph_matched
+person:silvia park,Silvia J. H. Park,1,1,0,0,1,0,0,0,graph_matched
+person:simone holler,Simone Holler,1,1,0,0,1,0,0,0,graph_matched
+person:sunny duan,Sunny Duan,1,1,0,0,1,0,0,0,graph_matched
+person:sveva dallere,Sveva Dallere,1,1,0,0,1,0,0,0,graph_matched
+person:t maertens,T. Maertens,1,1,0,0,1,0,0,0,graph_matched
+person:takuto okuno,Takuto Okuno,1,1,0,0,1,0,0,0,graph_matched
+person:takuya nanami,Takuya Nanami,1,1,0,0,1,0,0,0,graph_matched
+person:te shi,Te Shi,1,1,0,0,1,0,0,0,graph_matched
+person:terrence adams,Terrence Adams,1,1,0,0,1,0,0,0,graph_matched
+person:thanh nguyen duc,Thanh Nguyen-Duc,1,1,0,0,1,0,0,0,graph_matched
+person:timothy currier,Timothy A. Currier,1,1,0,0,1,0,0,0,graph_matched
+person:timothy lee,Timothy J. Lee,1,1,0,0,1,0,0,0,graph_matched
+person:tobias lehmann,Tobias Lehmann,1,1,0,0,1,0,0,0,graph_matched
+person:tony liu,Tony X. Liu,1,1,0,0,1,0,0,0,graph_matched
+person:ugur dag,Ugur Dag,1,1,0,0,1,0,0,0,graph_matched
+person:v varadan,V. Varadan,1,1,0,0,1,0,0,0,graph_matched
+person:varun sanjay birari,Varun Sanjay Birari,1,1,0,0,1,0,0,0,graph_matched
+person:victor buendia,Victor Buendía,1,1,0,0,1,0,0,0,graph_matched
+person:vincent casser,Vincent Casser,1,1,0,0,1,0,0,0,graph_matched
+person:wei shen,Wei Shen,1,1,0,0,1,0,0,0,graph_matched
+person:xiangrui ma,Xiangrui Ma,1,1,0,0,1,0,0,0,graph_matched
+person:xiaolin huang,Xiaolin Huang,1,1,0,0,1,0,0,0,graph_matched
+person:xinyue cui,Xinyue Cui,1,1,0,0,1,0,0,0,graph_matched
+person:xundong wu,Xundong Wu,1,1,0,0,1,0,0,0,graph_matched
+person:y hirabayashi,Y. Hirabayashi,1,1,0,0,1,0,0,0,graph_matched
+person:ya hui chou,Ya-Hui Chou,1,1,0,0,1,0,0,0,graph_matched
+person:yagmur yener,Yagmur Yener,1,1,0,0,1,0,0,0,graph_matched
+person:yunkyu sohn,Yunkyu Sohn,1,1,0,0,1,0,0,0,graph_matched
+person:yuval balshayi,Yuval Balshayi,1,1,0,0,1,0,0,0,graph_matched
+person:zehao jin,Zehao Jin,1,1,0,0,1,0,0,0,graph_matched
+person:a alcantara,A. A. Alcantara,1,1,0,0,0,1,0,0,graph_matched
+person:a bouin,A. Bouin,1,1,0,0,0,1,0,0,graph_matched
+person:a butt,A. Butt,1,1,0,0,0,1,0,0,graph_matched
+person:a diaconescu,A. Diaconescu,1,1,0,0,0,1,0,0,graph_matched
+person:a eberle,A. L. Eberle,1,1,0,0,0,1,0,0,graph_matched
+person:a fyon,A. Fyon,1,1,0,0,0,1,0,0,graph_matched
+person:a goldsmith,A. D. Goldsmith,1,1,0,0,0,1,0,0,graph_matched
+person:a gomez marin,A. Gomez-Marin,1,1,0,0,0,0,1,0,graph_matched
+person:a goulas,A. Goulas,1,1,0,0,0,1,0,0,graph_matched
+person:a graham,A. Graham,1,1,0,0,0,0,1,0,graph_matched
+person:a knoblauch,A. Knoblauch,1,1,0,0,0,1,0,0,graph_matched
+person:a padmore,A. Padmore,1,1,0,0,0,1,0,0,graph_matched
+person:a pezier,A. Pézier,1,1,0,0,0,1,0,0,graph_matched
+person:a plaza jennings,A. Plaza-Jennings,1,1,0,0,0,0,1,0,graph_matched
+person:a safari,A. Safari,1,1,0,0,0,1,0,0,graph_matched
+person:a sauerbeck,A. Sauerbeck,1,1,0,0,0,1,0,0,graph_matched
+person:a weible,A. Weible,1,1,0,0,0,1,0,0,graph_matched
+person:abhilash sawant,Abhilash Sawant,1,1,0,0,0,1,0,0,graph_matched
+person:abhranil das,Abhranil Das,1,1,0,0,0,1,0,0,graph_matched
+person:adam granger,Adam J. Granger,1,1,0,0,0,1,0,0,graph_matched
+person:adam packer,Adam Packer,1,1,0,0,0,1,0,0,graph_matched
+person:adrian hernandez,Adrián Hernández,1,1,0,0,0,1,0,0,graph_matched
+person:akash pal,Akash Pal,1,1,0,0,0,1,0,0,graph_matched
+person:alan gutman wei,Alan Y. Gutman-Wei,1,1,0,0,0,1,0,0,graph_matched
+person:alessandro galloni,Alessandro R. Galloni,1,1,0,0,0,1,0,0,graph_matched
+person:alex yu,Alex J. Yu,1,1,0,0,0,1,0,0,graph_matched
+person:alexandre cionca,Alexandre Cionca,1,1,0,0,0,1,0,0,graph_matched
+person:alina sergeeva,Alina P. Sergeeva,1,1,0,0,0,1,0,0,graph_matched
+person:alison canty,Alison J. Canty,1,1,0,0,0,1,0,0,graph_matched
+person:alison ehrlich,Alison Ehrlich,1,1,0,0,0,1,0,0,graph_matched
+person:allison ludwig,Allison L. Ludwig,1,1,0,0,0,1,0,0,graph_matched
+person:alpár|a,A. Alpár,1,1,0,0,0,1,0,0,graph_matched
+person:altar sorkac,Altar Sorkaç,1,1,0,0,0,1,0,0,graph_matched
+person:amin karbasi,Amin Karbasi,1,1,0,0,0,1,0,0,graph_matched
+person:amirhossein khalilian gourtani,Amirhossein Khalilian-Gourtani,1,1,0,0,0,1,0,0,graph_matched
+person:amitava banerjee,Amitava Banerjee,1,1,0,0,0,1,0,0,graph_matched
+person:ana inacio,Ana R. Inácio,1,1,0,0,0,1,0,0,graph_matched
+person:anand pathak,Anand Pathak,1,1,0,0,0,1,0,0,graph_matched
+person:andre fiala,André Fiala,1,1,0,0,0,1,0,0,graph_matched
+person:andria slaughter,Andria Slaughter,1,1,0,0,0,1,0,0,graph_matched
+person:ankur gogoi,Ankur Gogoi,1,1,0,0,0,1,0,0,graph_matched
+person:anmol guragain,Anmol Guragain,1,1,0,0,0,1,0,0,graph_matched
+person:ann sizemore,Ann E. Sizemore,1,1,0,0,0,1,0,0,graph_matched
+person:anna diakova,Anna V. Diakova,1,1,0,0,0,1,0,0,graph_matched
+person:anna mcmillen,Anna McMillen,1,1,0,0,0,1,0,0,graph_matched
+person:anthony deluca,Anthony Deluca,1,1,0,0,0,1,0,0,graph_matched
+person:arturo tozzi,Arturo Tozzi,1,1,0,0,0,1,0,0,graph_matched
+person:ayan mandal,Ayan S. Mandal,1,1,0,0,0,1,0,0,graph_matched
+person:b michels,B. Michels,1,1,0,0,0,0,1,0,graph_matched
+person:b ozpolat,B. Özpolat,1,1,0,0,0,1,0,0,graph_matched
+person:barbara feulner,Barbara Feulner,1,1,0,0,0,1,0,0,graph_matched
+person:bettina schnell,Bettina Schnell,1,1,0,0,0,1,0,0,graph_matched
+person:bhanu priya somashekar,Bhanu Priya Somashekar,1,1,0,0,0,1,0,0,graph_matched
+person:c gatto,C. Gatto,1,1,0,0,0,1,0,0,graph_matched
+person:c herold,C. Herold,1,1,0,0,0,1,0,0,graph_matched
+person:c mcraven,C. McRaven,1,1,0,0,0,1,0,0,graph_matched
+person:c rees,C. L. Rees,1,1,0,0,0,1,0,0,graph_matched
+person:c shih,C. Shih,1,1,0,0,0,1,0,0,graph_matched
+person:c tremblay,C. Tremblay,1,1,0,0,0,0,1,0,graph_matched
+person:c wozny,C. Wozny,1,1,0,0,0,1,0,0,graph_matched
+person:c zucker,C. Zucker,1,1,0,0,0,1,0,0,graph_matched
+person:carbone|be,B. E. Carbone,1,1,0,0,0,1,0,0,graph_matched
+person:carsten tischbirek,Carsten H. Tischbirek,1,1,0,0,0,1,0,0,graph_matched
+person:chandima bulumulla,Chandima Bulumulla,1,1,0,0,0,1,0,0,graph_matched
+person:changming sun,Changming Sun,1,1,0,0,0,1,0,0,graph_matched
+person:charles tessier,Charles R. Tessier,1,1,0,0,0,1,0,0,graph_matched
+person:chen ding,Chen Ding,1,1,0,0,0,1,0,0,graph_matched
+person:chloe mickels,Chloe A Mickels,1,1,0,0,0,1,0,0,graph_matched
+person:christian donner,Christian Donner,1,1,0,0,0,1,0,0,graph_matched
+person:christian goodbrake,Christian Goodbrake,1,1,0,0,0,1,0,0,graph_matched
+person:christianus hotama,Christianus F Hotama,1,1,0,0,0,1,0,0,graph_matched
+person:christine saleeba,Christine Saleeba,1,1,0,0,0,1,0,0,graph_matched
+person:claire meissner bernard,Claire Meissner-Bernard,1,1,0,0,0,1,0,0,graph_matched
+person:claudia groh,Claudia Groh,1,1,0,0,0,1,0,0,graph_matched
+person:claudia gualtieri,Claudia Gualtieri,1,1,0,0,0,1,0,0,graph_matched
+person:cori bargmann,Cori Bargmann,1,1,0,0,0,1,0,0,graph_matched
+person:cornelius schroder,Cornelius Schröder,1,1,0,0,0,1,0,0,graph_matched
+person:d english,D. English,1,1,0,0,0,1,0,0,graph_matched
+person:d galili,D. Galili,1,1,0,0,0,1,0,0,graph_matched
+person:d holschneider,D. Holschneider,1,1,0,0,0,1,0,0,graph_matched
+person:d kleinfeld,D. Kleinfeld,1,1,0,0,0,1,0,0,graph_matched
+person:d raman,D. Raman,1,1,0,0,0,1,0,0,graph_matched
+person:d schreiner,D. Schreiner,1,1,0,0,0,1,0,0,graph_matched
+person:d taliaz,D. Taliaz,1,1,0,0,0,1,0,0,graph_matched
+person:d zendrikov,D. Zendrikov,1,1,0,0,0,1,0,0,graph_matched
+person:dana byrd,Dana T. Byrd,1,1,0,0,0,1,0,0,graph_matched
+person:daniel eskenazi,Daniel Eskenazi,1,1,0,0,0,1,0,0,graph_matched
+person:daniel graham,Daniel J. Graham,1,1,0,0,0,1,0,0,graph_matched
+person:david grayson,David S. Grayson,1,1,0,0,0,1,0,0,graph_matched
+person:david shin,David Shin,1,1,0,0,0,1,0,0,graph_matched
+person:david smith,David J. Smith,1,1,0,0,0,1,0,0,graph_matched
+person:dawn blitz,Dawn M. Blitz,1,1,0,0,0,1,0,0,graph_matched
+person:deepak ropireddy,Deepak Ropireddy,1,1,0,0,0,1,0,0,graph_matched
+person:dhrubajyoti chowdhury,Dhrubajyoti Chowdhury,1,1,0,0,0,1,0,0,graph_matched
+person:dibbanti harikrishnareddy,Dibbanti HariKrishnaReddy,1,1,0,0,0,0,1,0,graph_matched
+person:dimitry fisher,Dimitry Fisher,1,1,0,0,0,1,0,0,graph_matched
+person:ding|y,Yun Ding,1,1,0,0,0,1,0,0,graph_matched
+person:diya prasanth,Diya Prasanth,1,1,0,0,0,1,0,0,graph_matched
+person:dongmei shi,Dongmei Shi,1,1,0,0,0,1,0,0,graph_matched
+person:e perisse,E. Perisse,1,1,0,0,0,1,0,0,graph_matched
+person:e vivi,E. Vivi,1,1,0,0,0,1,0,0,graph_matched
+person:e white,E. White,1,1,0,0,0,1,0,0,graph_matched
+person:efrain ribeiro,Efrain A. Ribeiro,1,1,0,0,0,1,0,0,graph_matched
+person:eleonora meschi,Eleonora Meschi,1,1,0,0,0,1,0,0,graph_matched
+person:elisabeth demarco,Elisabeth C. DeMarco,1,1,0,0,0,1,0,0,graph_matched
+person:elizabeth gross,Elizabeth Gross,1,1,0,0,0,1,0,0,graph_matched
+person:emmanouil karagiannis,Emmanouil D. Karagiannis,1,1,0,0,0,1,0,0,graph_matched
+person:eva scholz carlson,Eva Scholz-Carlson,1,1,0,0,0,1,0,0,graph_matched
+person:f bussel,F. V. Bussel,1,1,0,0,0,1,0,0,graph_matched
+person:f latini,F. Latini,1,1,0,0,0,0,1,0,graph_matched
+person:f mastrogiuseppe,F. Mastrogiuseppe,1,1,0,0,0,1,0,0,graph_matched
+person:f zeidan chulia,F. Zeidán-Chuliá,1,1,0,0,0,0,1,0,graph_matched
+person:fabio lobato,Fábio Lobato,1,1,0,0,0,1,0,0,graph_matched
+person:fangzhou liao,Fangzhou Liao,1,1,0,0,0,1,0,0,graph_matched
+person:fei zhu,Fei Zhu,1,1,0,0,0,1,0,0,graph_matched
+person:feici diao,Feici Diao,1,1,0,1,0,1,0,0,graph_matched
+person:feng xiong,Feng Xiong,1,1,0,0,0,1,0,0,graph_matched
+person:fillinger|c,C. Fillinger,1,1,0,0,0,1,0,0,graph_matched
+person:francesco bardozzo,Francesco Bardozzo,1,1,0,0,0,1,0,0,graph_matched
+person:fred shen,Fred Y. Shen,1,1,0,0,0,1,0,0,graph_matched
+person:g sar,G. K. Sar,1,1,0,0,0,1,0,0,graph_matched
+person:georgia rapti,Georgia Rapti,1,1,0,0,0,1,0,0,graph_matched
+person:gerard marx,Gerard Marx,1,1,0,0,0,1,0,0,graph_matched
+person:giulio valperga,Giulio Valperga,1,1,0,0,0,1,0,0,graph_matched
+person:gonzalo budelli,Gonzalo Budelli,1,1,0,0,0,1,0,0,graph_matched
+person:gyeong tae kim,Gyeong Tae Kim,1,1,0,0,0,1,0,0,graph_matched
+person:h akil,H. Akil,1,1,0,0,0,1,0,0,graph_matched
+person:h duffau,H. Duffau,1,1,0,0,0,0,1,0,graph_matched
+person:h jeon,H. Jeon,1,1,0,0,0,1,0,0,graph_matched
+person:h takemura,H. Takemura,1,1,0,0,0,1,0,0,graph_matched
+person:halvor herlyng,Halvor Herlyng,1,1,0,0,0,1,0,0,graph_matched
+person:han kheng teoh,Han Kheng Teoh,1,1,0,0,0,1,0,0,graph_matched
+person:harold shearin,Harold K. Shearin,1,1,0,0,0,1,0,0,graph_matched
+person:heather titley,Heather K Titley,1,1,0,0,0,1,0,0,graph_matched
+person:hidehiko inagaki,Hidehiko K. Inagaki,1,1,0,0,0,1,0,0,graph_matched
+person:hongfei zhao,Hongfei Zhao,1,1,0,0,0,1,0,0,graph_matched
+person:houman qadir,Houman Qadir,1,1,0,0,0,1,0,0,graph_matched
+person:hua shi,Hua Shi,1,1,0,0,0,1,0,0,graph_matched
+person:i hardege,I. Hardege,1,1,0,0,0,1,0,0,graph_matched
+person:i toker,I. A. Toker,1,1,0,0,0,1,0,0,graph_matched
+person:ian leifer,Ian Leifer,1,1,0,0,0,1,0,0,graph_matched
+person:ian peikon,Ian D. Peikon,1,1,0,0,0,1,0,0,graph_matched
+person:ibrahim kays,Ibrahim Kays,1,1,0,0,0,1,0,0,graph_matched
+person:inbal shainer,Inbal Shainer,1,1,0,0,0,1,0,0,graph_matched
+person:istiaque ahmed,Istiaque Ahmed,1,1,0,0,0,1,0,0,graph_matched
+person:ivo ros,Ivo G. Ros,1,1,0,0,0,1,0,0,graph_matched
+person:ivy chi wai chan,Ivy Chi Wai Chan,1,1,0,0,0,1,0,0,graph_matched
+person:j arle,J. Arle,1,1,0,0,0,1,0,0,graph_matched
+person:j briggs,J. Briggs,1,1,0,0,0,1,0,0,graph_matched
+person:j budd,J. Budd,1,1,0,0,0,1,0,0,graph_matched
+person:j gornet,J. Gornet,1,1,0,0,0,1,0,0,graph_matched
+person:j ringman,J. Ringman,1,1,0,0,0,1,0,0,graph_matched
+person:j robinson,J. Robinson,1,1,0,0,0,1,0,0,graph_matched
+person:j rodriguez gatica,J. Rodriguez-Gatica,1,1,0,0,0,0,1,0,graph_matched
+person:j staiger,J. Staiger,1,1,0,0,0,1,0,0,graph_matched
+person:j ting,J. Ting,1,1,0,0,0,1,0,0,graph_matched
+person:j van pelt,J. van Pelt,1,1,0,0,0,1,0,0,graph_matched
+person:j wit,J. Wit,1,1,0,0,0,1,0,0,graph_matched
+person:j yanez,J. Yáñez,1,1,0,0,0,1,0,0,graph_matched
+person:jacob francis,Jacob Francis,1,1,0,0,0,1,0,0,graph_matched
+person:jacob morra,Jacob J. Morra,1,1,0,0,0,1,0,0,graph_matched
+person:jacobs|r,R. Jacobs,1,1,0,0,0,1,0,0,graph_matched
+person:jacopo bono,Jacopo Bono,1,1,0,0,0,1,0,0,graph_matched
+person:jareckil|j,Jill Jareckil,1,1,0,0,0,1,0,0,graph_matched
+person:jean rene martin,Jean-René Martin,1,1,0,0,0,0,1,0,graph_matched
+person:jeffrey rhoades,Jeffrey L. Rhoades,1,1,0,0,0,1,0,0,graph_matched
+person:jessica priest,Jessica M. Priest,1,1,0,0,0,1,0,0,graph_matched
+person:jie xia,Jie Xia,1,1,0,0,0,1,0,0,graph_matched
+person:jieji ren,Jieji Ren,1,1,0,0,0,1,0,0,graph_matched
+person:john dowling,John E. Dowling,1,1,0,0,0,1,0,0,graph_matched
+person:johnny phong hoang do,Johnny Phong Hoang Do,1,1,0,0,0,1,0,0,graph_matched
+person:jong hyun son,Jong-Hyun Son,1,1,0,0,0,1,0,0,graph_matched
+person:julian ungar sargon,Julian Ungar-Sargon,1,1,0,0,0,1,0,0,graph_matched
+person:julio chapeton,Julio Chapeton,1,1,0,0,0,1,0,0,graph_matched
+person:jun reichl,Jun Reichl,1,1,0,0,0,1,0,0,graph_matched
+person:k linker,K. E. Linker,1,1,0,0,0,1,0,0,graph_matched
+person:k manjunatha,K. Manjunatha,1,1,0,0,0,1,0,0,graph_matched
+person:k venkatesh,K. Venkatesh,1,1,0,0,0,1,0,0,graph_matched
+person:kang tan,Kang Tan,1,1,0,0,0,1,0,0,graph_matched
+person:kasturi nadella,Kasturi Nadella,1,1,0,0,0,1,0,0,graph_matched
+person:katherine marquand,Katherine Marquand,1,1,0,0,0,1,0,0,graph_matched
+person:kazuaki ikeda,Kazuaki Ikeda,1,1,0,0,0,1,0,0,graph_matched
+person:kedar narayan,Kedar Narayan,1,1,0,0,0,1,0,0,graph_matched
+person:kevin beier,Kevin T. Beier,1,1,0,0,0,1,0,0,graph_matched
+person:kevin berlemont,Kévin Berlemont,1,1,0,0,0,1,0,0,graph_matched
+person:kourtney graham,Kourtney Graham,1,1,0,0,0,1,0,0,graph_matched
+person:kyuhyun choi,Kyuhyun Choi,1,1,0,0,0,1,0,0,graph_matched
+person:l agnati,L. Agnati,1,1,0,0,0,1,0,0,graph_matched
+person:l dipietro,L. Dipietro,1,1,0,0,0,1,0,0,graph_matched
+person:l hogrebe,L. Hogrebe,1,1,0,0,0,1,0,0,graph_matched
+person:l menzl,L. Menzl,1,1,0,0,0,1,0,0,graph_matched
+person:l parajuli,L. Parajuli,1,1,0,0,0,1,0,0,graph_matched
+person:l richards,L. J. Richards,1,1,0,0,0,1,0,0,graph_matched
+person:l swanson,L. Swanson,1,1,0,0,0,1,0,0,graph_matched
+person:l vasung,L. Vasung,1,1,0,0,0,1,0,0,graph_matched
+person:laura anton sanchez,Laura Anton-Sanchez,1,1,0,0,0,1,0,0,graph_matched
+person:laura pereira,Laura Pereira,1,1,0,0,0,1,0,0,graph_matched
+person:leehod baruch,Leehod Baruch,1,1,0,0,0,1,0,0,graph_matched
+person:leesun ryu,Leesun Ryu,1,1,0,0,0,1,0,0,graph_matched
+person:lennart roos,Lennart Roos,1,1,0,0,0,1,0,0,graph_matched
+person:leonid moroz,Leonid L. Moroz,1,1,0,0,0,1,0,0,graph_matched
+person:linnaea ostroff,Linnaea E. Ostroff,1,1,0,0,0,1,0,0,graph_matched
+person:liuyun jiang,Liuyun Jiang,1,1,0,0,0,1,0,0,graph_matched
+person:liza gross,Liza Gross,1,1,0,0,0,1,0,0,graph_matched
+person:luis seoane,Luís F Seoane,1,1,0,0,0,0,1,0,graph_matched
+person:luis vargas,Luis O. Vargas,1,1,0,0,0,0,1,0,graph_matched
+person:m bigot,M. Bigot,1,1,0,0,0,1,0,0,graph_matched
+person:m cobb,M. Cobb,1,1,0,0,0,1,0,0,graph_matched
+person:m marx,M. Marx,1,1,0,0,0,1,0,0,graph_matched
+person:m mcdonnell,M. McDonnell,1,1,0,0,0,1,0,0,graph_matched
+person:m patino,M. Patiño,1,1,0,0,0,1,0,0,graph_matched
+person:m paveliev,M. Paveliev,1,1,0,0,0,1,0,0,graph_matched
+person:m ram,M. Ram,1,1,0,0,0,1,0,0,graph_matched
+person:m rubinov,M. Rubinov,1,1,0,0,0,1,0,0,graph_matched
+person:m sacha,M. Sacha,1,1,0,0,0,1,0,0,graph_matched
+person:m trusel,M. Trusel,1,1,0,0,0,1,0,0,graph_matched
+person:m van den heuvel,M. P. van den heuvel,1,1,0,0,0,1,0,0,graph_matched
+person:m van oostrum,M. van Oostrum,1,1,0,0,0,1,0,0,graph_matched
+person:m zou,M. Zou,1,1,0,0,0,1,0,0,graph_matched
+person:madison gray,Madison T. Gray,1,1,0,0,0,1,0,0,graph_matched
+person:madison sneve,Madison Sneve,1,1,0,0,0,1,0,0,graph_matched
+person:mahsa khoshkhou,Mahsa Khoshkhou,1,1,0,0,0,1,0,0,graph_matched
+person:maksim levental,Maksim Levental,1,1,0,0,0,1,0,0,graph_matched
+person:malalaniaina rakotobe,Malalaniaina Rakotobe,1,1,0,0,0,1,0,0,graph_matched
+person:marcus augusto oliveira,Marcus Augusto-Oliveira,1,1,0,0,0,1,0,0,graph_matched
+person:mario dipoppa,Mario Dipoppa,1,1,0,0,0,1,0,0,graph_matched
+person:markus klose,Markus K. Klose,1,1,0,0,0,1,0,0,graph_matched
+person:marta pallotto,Marta Pallotto,1,1,0,0,0,1,0,0,graph_matched
+person:martin henrich,Martin T. Henrich,1,1,0,0,0,0,1,0,graph_matched
+person:mary anne mackay,Mary-Anne B. MacKay,1,1,0,0,0,0,1,0,graph_matched
+person:matthias christenson,Matthias P. Christenson,1,1,0,0,0,1,0,0,graph_matched
+person:matthieu chourrout,Matthieu Chourrout,1,1,0,0,0,1,0,0,graph_matched
+person:maxime poinsot,Maxime Poinsot,1,1,0,0,0,1,0,0,graph_matched
+person:meng tsen ke,Meng-Tsen Ke,1,1,0,0,0,1,0,0,graph_matched
+person:michael stobb,Michael T Stobb,1,1,0,0,0,1,0,0,graph_matched
+person:ming yan,Ming Yan,1,1,0,0,0,1,0,0,graph_matched
+person:mitchell vaughn,Mitchell J. Vaughn,1,1,0,0,0,1,0,0,graph_matched
+person:morgan sanchez,Morgan Sanchez,1,1,0,0,0,0,1,0,graph_matched
+person:n allen,N. J. Allen,1,1,0,0,0,1,0,0,graph_matched
+person:n cayco gajic,N. A. Cayco-Gajic,1,1,0,0,0,1,0,0,graph_matched
+person:n kraynyukova,N. Kraynyukova,1,1,0,0,0,1,0,0,graph_matched
+person:n pospelov,N. Pospelov,1,1,0,0,0,1,0,0,graph_matched
+person:natali barros zulaica,Natalí Barros-Zulaica,1,1,0,0,0,1,0,0,graph_matched
+person:naureen hameed,Naureen A. Hameed,1,1,0,0,0,1,0,0,graph_matched
+person:neele wolterhoff,Neele Wolterhoff,1,1,0,0,0,1,0,0,graph_matched
+person:netanel ofer,Netanel Ofer,1,1,0,0,0,1,0,0,graph_matched
+person:nicolas rault,Nicolas Rault,1,1,0,0,0,1,0,0,graph_matched
+person:nova qi,Nova Qi,1,1,0,0,0,1,0,0,graph_matched
+person:o paredes,O. Paredes,1,1,0,0,0,1,0,0,graph_matched
+person:o saad,O. M’Saad,1,1,0,0,0,1,0,0,graph_matched
+person:okray|z,Zeynep Okray,1,1,0,0,0,1,0,0,graph_matched
+person:okun|m,Michael Okun,1,1,0,0,0,1,0,0,graph_matched
+person:p rajarajan,P. Rajarajan,1,1,0,0,0,1,0,0,graph_matched
+person:p roland,P. Roland,1,1,0,0,0,1,0,0,graph_matched
+person:pablo lituma,Pablo J. Lituma,1,1,0,0,0,1,0,0,graph_matched
+person:palka puri,Palka Puri,1,1,0,0,0,1,0,0,graph_matched
+person:pascal grange,Pascal Grange,1,1,0,0,0,1,0,0,graph_matched
+person:patrick chen,Patrick B. Chen,1,1,0,0,0,0,1,0,graph_matched
+person:pecho-vrieseling|e,Eline Pecho-Vrieseling,1,1,0,0,0,1,0,0,graph_matched
+person:peibo xu,Peibo Xu,1,1,0,0,0,1,0,0,graph_matched
+person:penelope kale,Penelope J. Kale,1,1,0,0,0,1,0,0,graph_matched
+person:peter weinberg,Peter Weinberg,1,1,0,0,0,1,0,0,graph_matched
+person:powell|f,Fon Powell,1,1,0,0,0,1,0,0,graph_matched
+person:qian quan sun,Qian-Quan Sun,1,1,0,0,0,1,0,0,graph_matched
+person:quilee simeon,Quilee Simeon,1,1,0,0,0,0,1,0,graph_matched
+person:r de schepper,R. De Schepper,1,1,0,0,0,1,0,0,graph_matched
+person:r mcintyre,R. L. McIntyre,1,1,0,0,0,1,0,0,graph_matched
+person:rajat saxena,Rajat Saxena,1,1,0,0,0,1,0,0,graph_matched
+person:ray hong,Ray L. Hong,1,1,0,0,0,1,0,0,graph_matched
+person:remy petkantchin,Remy Petkantchin,1,1,0,0,0,1,0,0,graph_matched
+person:robert levy,Robert B. Levy,1,1,0,0,0,1,0,0,graph_matched
+person:rohan gupta,Rohan Gupta,1,1,0,0,0,1,0,0,graph_matched
+person:ronald davis,Ronald L. Davis,1,1,0,0,0,1,0,0,graph_matched
+person:ryan ellison,Ryan Ellison,1,1,0,0,0,1,0,0,graph_matched
+person:s galindo,S. Galindo,1,1,0,0,0,1,0,0,graph_matched
+person:s haber,S. Haber,1,1,0,0,0,1,0,0,graph_matched
+person:s hurkey,S. Hürkey,1,1,0,0,0,1,0,0,graph_matched
+person:s latifi,S. Latifi,1,1,0,0,0,0,1,0,graph_matched
+person:s markert,S. Markert,1,1,0,0,0,1,0,0,graph_matched
+person:s millard,S. Millard,1,1,0,0,0,1,0,0,graph_matched
+person:s oh,S. W. Oh,1,1,0,0,0,1,0,0,graph_matched
+person:s pandya,S. Pandya,1,1,0,0,0,1,0,0,graph_matched
+person:s rieubland,S. Rieubland,1,1,0,0,0,1,0,0,graph_matched
+person:s stetina,S. Stetina,1,1,0,0,0,1,0,0,graph_matched
+person:sahabuddin ahmed,Sahabuddin Ahmed,1,1,0,0,0,1,0,0,graph_matched
+person:sahil moza,Sahil Moza,1,1,0,0,0,1,0,0,graph_matched
+person:sandhya chandrasekaran,Sandhya Chandrasekaran,1,1,0,0,0,1,0,0,graph_matched
+person:sandra koch,Sandra Koch,1,1,0,0,0,1,0,0,graph_matched
+person:sanga mitra,Sanga Mitra,1,1,0,0,0,1,0,0,graph_matched
+person:santacana|ab,Andreu Ballús Santacana,1,1,0,0,0,1,0,0,graph_matched
+person:sarada viswanathan,Sarada Viswanathan,1,1,0,0,0,1,0,0,graph_matched
+person:sarah heilbronner,Sarah R. Heilbronner,1,1,0,0,0,1,0,0,graph_matched
+person:sarah heuer,Sarah E Heuer,1,1,0,0,0,1,0,0,graph_matched
+person:savik kinger,Savik Kinger,1,1,0,0,0,1,0,0,graph_matched
+person:scott payne,Scott Payne,1,1,0,0,0,1,0,0,graph_matched
+person:sebastian goldt,Sebastian Goldt,1,1,0,0,0,1,0,0,graph_matched
+person:sergio bernal garcia,Sergio Bernal-Garcia,1,1,0,0,0,1,0,0,graph_matched
+person:shaozheng qin,Shaozheng Qin,1,1,0,0,0,1,0,0,graph_matched
+person:shubham jain,Shubham Jain,1,1,0,0,0,1,0,0,graph_matched
+person:sigoillot|s,S. Sigoillot,1,1,0,0,0,1,0,0,graph_matched
+person:soonbong baek,Soonbong Baek,1,1,0,0,0,1,0,0,graph_matched
+person:sophie bennett,Sophie Bennett,1,1,0,0,0,1,0,0,graph_matched
+person:sreedevi varier,Sreedevi Varier,1,1,0,0,0,1,0,0,graph_matched
+person:stephan dodt,Stephan Dodt,1,1,0,0,0,1,0,0,graph_matched
+person:sungmin hwang,Sungmin Hwang,1,1,0,0,0,1,0,0,graph_matched
+person:susanne kunkel,Susanne Kunkel,1,1,0,0,0,0,1,0,graph_matched
+person:sánchez-puelles|c,Cristina Sánchez-Puelles,1,1,0,0,0,1,0,0,graph_matched
+person:t boccato,T. Boccato,1,1,0,0,0,1,0,0,graph_matched
+person:t toyoizumi,T. Toyoizumi,1,1,0,0,0,1,0,0,graph_matched
+person:talya kramer,Talya S. Kramer,1,1,0,0,0,1,0,0,graph_matched
+person:theju jacob,Theju Jacob,1,1,0,0,0,1,0,0,graph_matched
+person:timothy dunn,Timothy W. Dunn,1,1,0,0,0,1,0,0,graph_matched
+person:u bhat,U. S. Bhat,1,1,0,0,0,1,0,0,graph_matched
+person:u homberg,U. Homberg,1,1,0,0,0,1,0,0,graph_matched
+person:urte neniskyte,Urte Neniskyte,1,1,0,0,0,1,0,0,graph_matched
+person:urte tomasiunaite,Urte Tomasiunaite,1,1,0,0,0,1,0,0,graph_matched
+person:uzair shah,Uzair Shah,1,1,0,0,0,1,0,0,graph_matched
+person:v george,V. George,1,1,0,0,0,1,0,0,graph_matched
+person:v lev ram,V. Lev-Ram,1,1,0,0,0,1,0,0,graph_matched
+person:valentina baena,Valentina Baena,1,1,0,0,0,1,0,0,graph_matched
+person:valeria andrea,Valeria d'Andrea,1,1,0,0,0,1,0,0,graph_matched
+person:venkatakrishnan ramaswamy,Venkatakrishnan Ramaswamy,1,1,0,0,0,1,0,0,graph_matched
+person:w mcfadden,W. C. McFadden,1,1,0,0,0,1,0,0,graph_matched
+person:w risher,W. C. Risher,1,1,0,0,0,1,0,0,graph_matched
+person:weishun zhong,Weishun Zhong,1,1,0,0,0,1,0,0,graph_matched
+person:widloski|j,John Widloski,1,1,0,0,0,1,0,0,graph_matched
+person:william tobin,William F Tobin,1,1,0,0,0,1,0,0,graph_matched
+person:xiangyi meng,Xiangyi Meng,1,1,0,0,0,1,0,0,graph_matched
+person:y hwu,Y. Hwu,1,1,0,0,0,1,0,0,graph_matched
+person:yajun xie,Yajun Xie,1,1,0,0,0,1,0,0,graph_matched
+person:yangfan peng,Yangfan Peng,1,1,0,0,0,1,0,0,graph_matched
+person:yanxun yu,Yanxun V. Yu,1,1,0,0,0,1,0,0,graph_matched
+person:yaroslav felipe kalle kossio,Yaroslav Felipe Kalle Kossio,1,1,0,0,0,1,0,0,graph_matched
+person:ying luan,Ying Luan,1,1,0,0,0,1,0,0,graph_matched
+person:yoav printz,Yoav Printz,1,1,0,0,0,1,0,0,graph_matched
+person:yu chi huang,Yu-Chi Huang,1,1,0,0,0,1,0,0,graph_matched
+person:yutaka shindo,Yutaka Shindo,1,1,0,0,0,1,0,0,graph_matched
+person:zach tosi,Zach Tosi,1,1,0,0,0,1,0,0,graph_matched
+person:zhiying pan,Zhiying Pan,1,1,0,0,0,1,0,0,graph_matched

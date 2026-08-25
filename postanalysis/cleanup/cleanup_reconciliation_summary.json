@@ -1,0 +1,24 @@
+{
+  "papers": 3768,
+  "direct_nanoscale": 1534,
+  "inherited_connectome_provenance": 151,
+  "derived_nanoscale_core": 1685,
+  "paper_bucket_counts": {
+    "direct_nanoscale": 1534,
+    "macroscale_review": 993,
+    "bridge_term_review": 609,
+    "low_specificity_review": 355,
+    "inherited_connectome_provenance": 151,
+    "graph_supported_adjacent": 126
+  },
+  "person_rows": 15565,
+  "candidate_pairs": 1435,
+  "person_candidate_counts": {
+    "ambiguous_name_collision": 1288,
+    "probable_same_person": 70,
+    "possible_same_person": 69,
+    "same_name_coauthor_collision": 8
+  },
+  "middle_initial_expanded_pairs": 204,
+  "same_name_direct_coauthor_collisions": 8
+}

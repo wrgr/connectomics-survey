@@ -1,0 +1,78 @@
+run_name: nanoscale-connectomics-deterministic
+mode: fresh
+outdir: outputs
+seed_csv: null
+semantic_scholar:
+  min_interval_seconds: 1.2
+  timeout_seconds: 90
+  max_bulk_pages_per_query: 5
+  max_citation_pages_per_paper: null
+  page_limit: 1000
+  cache_dir: .cache/s2
+crossref:
+  enabled: true
+  mailto: your_email@example.com
+  min_interval_seconds: 0.2
+  cache_dir: .cache/crossref
+nih_reporter:
+  enabled: true
+  endpoint: https://api.reporter.nih.gov/v2/projects/search
+  fiscal_years:
+  - 2013
+  - 2014
+  - 2015
+  - 2016
+  - 2017
+  - 2018
+  - 2019
+  - 2020
+  - 2021
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+  search_terms:
+  - connectomics
+  - '"electron microscopy" connectome'
+  - '"BRAIN CONNECTS"'
+  max_pages_per_term: 20
+  page_size: 500
+  min_interval_seconds: 1.1
+retrieval:
+  query_file: query_families.yaml
+  citation_hops: 1
+  author_saturation_passes: 1
+  max_author_papers: 1000
+  recent_year_start: 2024
+screening:
+  require_positive_nanoscale_scope: true
+  min_direct_scope_hits: 1
+  network_axis_min_hits: 2
+  health_axis_requires_direct_scope: true
+  retain_reviews: true
+  min_year: 1900
+people:
+  author_saturation_min_retained_papers: 2
+  author_saturation_min_axis_breadth: 2
+  role_candidate_min_retained_papers: 2
+  current_leader_latest_year: 2024
+ranking:
+  lexical_axis_count: 1.0
+  direct_seed_links: 1.0
+  cocitation_support: 0.75
+  bibliographic_coupling_support: 0.75
+  pagerank_percentile: 0.75
+  age_normalized_citations: 0.5
+  recent_safeguard: 0.5
+  resource_or_method_axis: 0.5
+  core_candidate_score: 3.0
+  supported_score: 1.5
+deviations:
+  skip_frozen_349_screener_tagging: true
+  skip_absolute_core_independent_groups: true
+  disclosure: 'Short-term protocol deviation: true author-group independence is not
+    adjudicated in this run. Frozen-349 screener tagging and Absolute-Core/independent-groups
+    checks are deferred and must be disclosed in reporting.
+
+    '

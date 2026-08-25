@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Connectomics checkpoint — author & paper graphs</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+      background: #0f1117;
+      color: #e6e8ef;
+    }
+    header {
+      padding: 16px 20px 8px;
+      border-bottom: 1px solid #2a2f3a;
+    }
+    header h1 { margin: 0 0 6px; font-size: 18px; font-weight: 600; }
+    header p { margin: 0; font-size: 13px; color: #9aa3b5; max-width: 900px; line-height: 1.45; }
+    .panels {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      height: calc(100vh - 88px);
+    }
+    .panel {
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #2a2f3a;
+      min-width: 0;
+    }
+    .panel:last-child { border-right: none; }
+    .panel-head {
+      padding: 10px 14px;
+      border-bottom: 1px solid #2a2f3a;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+    .panel-head h2 { margin: 0; font-size: 14px; font-weight: 600; }
+    .panel-head span { font-size: 12px; color: #9aa3b5; }
+    svg { flex: 1; width: 100%; background: #12151c; cursor: grab; }
+    svg:active { cursor: grabbing; }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 8px 14px 12px;
+      font-size: 11px;
+      color: #9aa3b5;
+      border-top: 1px solid #2a2f3a;
+    }
+    .legend i {
+      display: inline-block;
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      margin-right: 4px;
+      vertical-align: -1px;
+    }
+    .tooltip {
+      position: fixed;
+      pointer-events: none;
+      background: rgba(20, 24, 32, 0.96);
+      border: 1px solid #3a4254;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 1.35;
+      max-width: 320px;
+      display: none;
+      z-index: 20;
+    }
+    #err {
+      display: none;
+      margin: 16px 20px;
+      padding: 12px 14px;
+      background: #2a1a1a;
+      border: 1px solid #6b3030;
+      border-radius: 8px;
+      color: #f0c0c0;
+      font-size: 13px;
+    }
+    code { background: #1c2130; padding: 2px 5px; border-radius: 4px; }
+    .node-label {
+      fill: #e6e8ef;
+      font-size: 10px;
+      font-weight: 500;
+      pointer-events: none;
+      paint-order: stroke;
+      stroke: #0f1117;
+      stroke-width: 3px;
+      stroke-linejoin: round;
+    }
+    .node-label.paper-label {
+      font-size: 9px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Connectomics checkpoint graphs</h1>
+    <p>
+      Left: top-100 reconciled authors by corpus works (edge = co-authored ≥2 shared papers).
+      Right: top 120 field-defining / core-methods papers (edge = ≥2 shared authors).
+      Drag nodes · scroll to zoom · double-click background to reset zoom · node labels follow zoom.
+    </p>
+  </header>
+  <div id="err"></div>
+  <div class="panels">
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Authorship network</h2>
+        <span id="author-stats"></span>
+      </div>
+      <svg id="author-svg"></svg>
+      <div class="legend" id="author-legend"></div>
+    </div>
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Paper network</h2>
+        <span id="paper-stats"></span>
+      </div>
+      <svg id="paper-svg"></svg>
+      <div class="legend" id="paper-legend"></div>
+    </div>
+  </div>
+  <div class="tooltip" id="tip"></div>
+
+  <script>
+    const AUTHOR_PALETTE = d3.schemeTableau10;
+    const PAPER_COLORS = {
+      field_defining: "#4e9af1",
+      core_methods: "#59c173",
+      other: "#888",
+    };
+
+    const tip = document.getElementById("tip");
+    function showTip(html, x, y) {
+      tip.innerHTML = html;
+      tip.style.display = "block";
+      tip.style.left = (x + 14) + "px";
+      tip.style.top = (y + 14) + "px";
+    }
+    function hideTip() { tip.style.display = "none"; }
+
+    function authorShortLabel(name) {
+      if (!name) return "";
+      const primary = name.includes(",") ? name.split(",")[0].trim() : name.trim();
+      const tokens = primary.split(/\s+/).filter(Boolean);
+      return tokens.length ? tokens[tokens.length - 1] : primary;
+    }
+
+    function truncateLabel(text, maxLen) {
+      if (!text) return "";
+      return text.length > maxLen ? `${text.slice(0, maxLen - 1)}…` : text;
+    }
+
+    function buildGraph(svgSel, data, opts) {
+      const svg = d3.select(svgSel);
+      svg.selectAll("*").remove();
+      const width = svg.node().clientWidth || 600;
+      const height = svg.node().clientHeight || 500;
+
+      const gRoot = svg.append("g");
+      const labelLayer = gRoot.append("g");
+      const linkLayer = gRoot.append("g");
+      const nodeLayer = gRoot.append("g");
+
+      const zoom = d3.zoom()
+        .scaleExtent([0.15, 4])
+        .on("zoom", (ev) => {
+          gRoot.attr("transform", ev.transform);
+          const show = ev.transform.k >= 0.45;
+          labelLayer.style("visibility", show ? "visible" : "hidden");
+        });
+      svg.call(zoom).on("dblclick.zoom", null);
+      svg.on("dblclick", () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity));
+
+      const nodes = data.nodes.map(d => ({ ...d }));
+      const nodeById = new Map(nodes.map(d => [d.id, d]));
+      const links = data.links.map(d => ({
+        source: typeof d.source === "object" ? d.source : nodeById.get(d.source),
+        target: typeof d.target === "object" ? d.target : nodeById.get(d.target),
+        weight: d.weight || 1,
+      })).filter(d => d.source && d.target);
+
+      const labelText = opts.labelText || (d => d.label || d.id);
+      const labelOffset = opts.labelOffset || (d => opts.radius(d) + 5);
+
+      const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(opts.linkDistance).strength(d => Math.min(0.7, 0.08 + d.weight * 0.04)))
+        .force("charge", d3.forceManyBody().strength(opts.charge))
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("collide", d3.forceCollide().radius(d => opts.radius(d) + (opts.collidePad || 10)));
+
+      const link = linkLayer
+        .attr("stroke", "#3a4254")
+        .attr("stroke-opacity", 0.55)
+        .selectAll("line")
+        .data(links)
+        .join("line")
+        .attr("stroke-width", d => 0.5 + Math.sqrt(d.weight));
+
+      const node = nodeLayer
+        .selectAll("circle")
+        .data(nodes)
+        .join("circle")
+        .attr("r", opts.radius)
+        .attr("fill", opts.color)
+        .attr("stroke", "#0f1117")
+        .attr("stroke-width", 1.2)
+        .call(d3.drag()
+          .on("start", (ev, d) => {
+            if (!ev.active) simulation.alphaTarget(0.25).restart();
+            d.fx = d.x; d.fy = d.y;
+          })
+          .on("drag", (ev, d) => {
+            d.fx = ev.x; d.fy = ev.y;
+            labelLayer.selectAll("text")
+              .filter(n => n.id === d.id)
+              .attr("x", ev.x)
+              .attr("y", ev.y + labelOffset(d));
+          })
+          .on("end", (ev, d) => {
+            if (!ev.active) simulation.alphaTarget(0);
+            d.fx = null; d.fy = null;
+          }))
+        .on("mousemove", (ev, d) => showTip(opts.tooltip(d), ev.clientX, ev.clientY))
+        .on("mouseleave", hideTip);
+
+      const labels = labelLayer
+        .selectAll("text")
+        .data(nodes)
+        .join("text")
+        .attr("class", opts.labelClass || "node-label")
+        .attr("text-anchor", "middle")
+        .attr("dy", "0.35em")
+        .text(d => labelText(d));
+
+      simulation.on("tick", () => {
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+        node
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y);
+        labels
+          .attr("x", d => d.x)
+          .attr("y", d => d.y + labelOffset(d));
+      });
+
+      return { nodes, links };
+    }
+
+    function authorLegend(groups) {
+      const el = document.getElementById("author-legend");
+      el.innerHTML = groups.slice(0, 8).map(g =>
+        `<span><i style="background:${AUTHOR_PALETTE[g % AUTHOR_PALETTE.length]}"></i>community ${g}</span>`
+      ).join("") + `<span>size ∝ works · labels = surname (works)</span>`;
+    }
+
+    function paperLegend() {
+      document.getElementById("paper-legend").innerHTML = [
+        `<span><i style="background:${PAPER_COLORS.field_defining}"></i>field defining</span>`,
+        `<span><i style="background:${PAPER_COLORS.core_methods}"></i>core methods</span>`,
+        `<span>size ∝ citations · labels = year · short title</span>`,
+      ].join("");
+    }
+
+    async function main() {
+      let data;
+      try {
+        const res = await fetch("graph_data.json");
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        data = await res.json();
+      } catch (e) {
+        const err = document.getElementById("err");
+        err.style.display = "block";
+        err.innerHTML = `Could not load <code>graph_data.json</code> (${e.message}). Run a local server from this folder:<br><code>cd postanalysis/checkpoint/viz && python3 -m http.server 8765</code><br>Then open <code>http://localhost:8765/authorship_papers.html</code>`;
+        return;
+      }
+
+      const a = buildGraph("#author-svg", data.author, {
+        linkDistance: 55,
+        charge: -120,
+        collidePad: 14,
+        radius: d => 4 + Math.sqrt(d.works) * 1.1,
+        color: d => AUTHOR_PALETTE[(d.group || 0) % AUTHOR_PALETTE.length],
+        labelText: d => `${authorShortLabel(d.label)} (${d.works})`,
+        tooltip: d => `<strong>${d.label}</strong><br>${d.works} works in corpus<br><span style="color:#9aa3b5">community ${d.group}</span>`,
+      });
+      document.getElementById("author-stats").textContent = `${a.nodes.length} authors · ${a.links.length} edges`;
+
+      const groups = [...new Set(a.nodes.map(d => d.group))].sort((x, y) => x - y);
+      authorLegend(groups);
+
+      const p = buildGraph("#paper-svg", data.paper, {
+        linkDistance: 70,
+        charge: -90,
+        collidePad: 18,
+        radius: d => 3 + Math.sqrt(Math.max(0, d.citations)) * 0.35,
+        color: d => PAPER_COLORS[d.group] || PAPER_COLORS.other,
+        labelClass: "node-label paper-label",
+        labelText: d => `${d.year ? d.year + " · " : ""}${truncateLabel(d.label, 24)}`,
+        tooltip: d => `<strong>${d.label}</strong><br>${d.year || "?"} · ${d.citations} cites · ${d.authors} authors<br><span style="color:#9aa3b5">${d.tier} · ${d.group.replace("_"," ")}</span>`,
+      });
+      document.getElementById("paper-stats").textContent = `${p.nodes.length} papers · ${p.links.length} edges`;
+      paperLegend();
+
+      window.addEventListener("resize", () => location.reload());
+    }
+
+    main();
+  </script>
+</body>
+</html>

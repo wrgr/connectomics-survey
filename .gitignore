@@ -2,6 +2,37 @@
 __pycache__/
 .pytest_cache/
 *.pyc
-outputs/
+/outputs/
+/connectomics_deterministic_pipeline/
 .cache/
 .env
+.DS_Store
+
+# Local / one-shot worker scratch (decisions live under postanalysis/*/adjudication/decisions/)
+.codex_handoff/
+analysis/_tmp_*.py
+analysis/adjudicate_claim_*.py
+
+# Open-access PDF binaries (catalog is postanalysis/pdfs/paper_links.csv)
+postanalysis/pdfs/files/*
+!postanalysis/pdfs/files/.gitkeep
+postanalysis/pdfs/manual_OA/
+postanalysis/pdfs/manual_closed/
+
+# Regenerable LLM response caches (source of record is llm_relevance_results.csv + decisions/)
+postanalysis/**/cache/
+
+# Incomplete-run archives and worker convenience dumps
+postanalysis/llm_agent/adjudication/_full_clear_*/
+postanalysis/llm_agent_v3/adjudication/_pre_agent_queue_*/
+postanalysis/llm_agent/adjudication/decisions/claims/_*/
+postanalysis/llm_agent_v3/llm_relevance_results_bootstrap.csv
+
+# Runtime logs
+*.log
+*.pid
+
+# Frozen retrieval dump is too large for GitHub (100 MB limit); re-download via
+# .github/workflows/postanalysis-semantic-prep.yml. Other source_artifact outputs stay.
+source_artifact/**/papers_all.csv
+source_artifact/**/retrieval_log.jsonl

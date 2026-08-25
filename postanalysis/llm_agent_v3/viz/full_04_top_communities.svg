@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420">
+<rect width="100%" height="100%" fill="#fafafa"/>
+<text x="390.0" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600">full: top coauthor communities</text>
+<text x="390.0" y="408" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">works</text>
+<text x="152" y="74.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">Xiaoyin Chen</text>
+<rect x="160.0" y="60.0" width="161.1" height="20.0" fill="#4c72b0"/>
+<rect x="321.1" y="60.0" width="323.6" height="20.0" fill="#8da0cb"/>
+<rect x="644.7" y="60.0" width="60.8" height="20.0" fill="#ccb974"/>
+<text x="152" y="114.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">J. Lichtman</text>
+<rect x="160.0" y="100.0" width="223.3" height="20.0" fill="#4c72b0"/>
+<rect x="383.3" y="100.0" width="100.3" height="20.0" fill="#8da0cb"/>
+<rect x="483.6" y="100.0" width="30.4" height="20.0" fill="#ccb974"/>
+<text x="152" y="154.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">Albert Cardona</text>
+<rect x="160.0" y="140.0" width="136.7" height="20.0" fill="#4c72b0"/>
+<rect x="296.7" y="140.0" width="141.3" height="20.0" fill="#8da0cb"/>
+<rect x="438.0" y="140.0" width="39.5" height="20.0" fill="#ccb974"/>
+<text x="152" y="194.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">H. Sebastian Seung</text>
+<rect x="160.0" y="180.0" width="168.7" height="20.0" fill="#4c72b0"/>
+<rect x="328.7" y="180.0" width="57.7" height="20.0" fill="#8da0cb"/>
+<rect x="386.4" y="180.0" width="15.2" height="20.0" fill="#ccb974"/>
+<text x="152" y="234.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">M. Helmstaedter</text>
+<rect x="160.0" y="220.0" width="104.8" height="20.0" fill="#4c72b0"/>
+<rect x="264.8" y="220.0" width="100.3" height="20.0" fill="#8da0cb"/>
+<rect x="365.1" y="220.0" width="9.1" height="20.0" fill="#ccb974"/>
+<text x="152" y="274.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">Oliver Hobert</text>
+<rect x="160.0" y="260.0" width="53.2" height="20.0" fill="#4c72b0"/>
+<rect x="213.2" y="260.0" width="98.8" height="20.0" fill="#8da0cb"/>
+<rect x="311.9" y="260.0" width="1.5" height="20.0" fill="#ccb974"/>
+<text x="152" y="314.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">Olaf Sporns</text>
+<rect x="160.0" y="300.0" width="18.2" height="20.0" fill="#4c72b0"/>
+<rect x="178.2" y="300.0" width="95.7" height="20.0" fill="#8da0cb"/>
+<rect x="274.0" y="300.0" width="28.9" height="20.0" fill="#ccb974"/>
+<text x="152" y="354.0" text-anchor="end" font-family="system-ui,sans-serif" font-size="9">James R. Anderson</text>
+<rect x="160.0" y="340.0" width="53.2" height="20.0" fill="#4c72b0"/>
+<rect x="213.2" y="340.0" width="39.5" height="20.0" fill="#8da0cb"/>
+<rect x="252.7" y="340.0" width="7.6" height="20.0" fill="#ccb974"/>
+<rect x="160" y="388" width="10" height="10" fill="#4c72b0"/>
+<text x="174" y="397" font-size="10" font-family="system-ui,sans-serif">core</text>
+<rect x="220" y="388" width="10" height="10" fill="#8da0cb"/>
+<text x="234" y="397" font-size="10" font-family="system-ui,sans-serif">adjacent</text>
+<rect x="280" y="388" width="10" height="10" fill="#ccb974"/>
+<text x="294" y="397" font-size="10" font-family="system-ui,sans-serif">bridge</text>
+</svg>

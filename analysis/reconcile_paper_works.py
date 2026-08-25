@@ -76,8 +76,41 @@ def choose_canonical(g):
         return (1 if doi and not pre else 0,1 if "journal" in ptypes else 0,abstract>0,authors>0,year,abstract,str(r.get("paper_id")))
     return max(g.to_dict("records"),key=score)
 
+def load_manual_links(path, by_id, uf, links):
+    """Apply audited manual same-work links from CSV (columns: a, b; optional reason, notes)."""
+    if not path.exists():
+        return 0
+    manual = pd.read_csv(path, low_memory=False)
+    if manual.empty or "a" not in manual.columns or "b" not in manual.columns:
+        return 0
+    applied = 0
+    for row in manual.itertuples(index=False):
+        aid, bid = str(getattr(row, "a", "")).strip(), str(getattr(row, "b", "")).strip()
+        if not aid or not bid or aid == bid:
+            continue
+        if aid not in by_id or bid not in by_id:
+            raise SystemExit(f"manual link references unknown paper_id: {aid} <-> {bid}")
+        if uf.find(aid) == uf.find(bid):
+            continue
+        ar, br = by_id[aid], by_id[bid]
+        tj, seq, aj, yd = similarity(ar, br)
+        reason = str(getattr(row, "reason", "") or "manual_review").strip() or "manual_review"
+        uf.union(aid, bid)
+        links.append({
+            "a": aid,
+            "b": bid,
+            "link": "same_work",
+            "reason": reason,
+            "title_jaccard": round(tj, 4),
+            "title_sequence": round(seq, 4),
+            "author_jaccard": None if aj is None else round(aj, 4),
+            "year_diff": yd,
+        })
+        applied += 1
+    return applied
+
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument("--outputs-dir",required=True,type=Path); ap.add_argument("--bridges-dir",required=True,type=Path); ap.add_argument("--accounting-csv",required=True,type=Path); ap.add_argument("--out",required=True,type=Path); a=ap.parse_args(); a.out.mkdir(parents=True,exist_ok=True)
+    ap=argparse.ArgumentParser(); ap.add_argument("--outputs-dir",required=True,type=Path); ap.add_argument("--bridges-dir",required=True,type=Path); ap.add_argument("--accounting-csv",required=True,type=Path); ap.add_argument("--out",required=True,type=Path); ap.add_argument("--manual-links-csv",type=Path,default=None,help="Optional CSV of manual same-work links (default: <out>/manual_work_links.csv if present)"); a=ap.parse_args(); a.out.mkdir(parents=True,exist_ok=True)
     allp=pd.read_csv(a.outputs_dir/"papers_all.csv",low_memory=False); ret=pd.read_csv(a.outputs_dir/"papers_retained.csv",low_memory=False); bridge=pd.read_csv(a.bridges_dir/"all_role_bridges_final.csv",low_memory=False); acct=pd.read_csv(a.accounting_csv,low_memory=False)
     for df in (allp,ret,bridge,acct): df["paper_id"]=df["paper_id"].astype(str)
     recovered_ids=set(bridge.loc[bridge.bridge_origin.eq("recovered_keep_false"),"paper_id"]); rec=allp[allp.paper_id.isin(recovered_ids)].copy()
@@ -122,6 +155,9 @@ def main():
         if strong:
             uf.union(aid,bid); links.append({"a":aid,"b":bid,"link":"same_work","reason":reason,"title_jaccard":round(tj,4),"title_sequence":round(seq,4),"author_jaccard":None if aj is None else round(aj,4),"year_diff":yd})
 
+    manual_path=a.manual_links_csv or (a.out/"manual_work_links.csv")
+    manual_applied=load_manual_links(manual_path, by_id, uf, links)
+
     comps=defaultdict(list)
     for pid in ids: comps[uf.find(pid)].append(pid)
     work_rows=[]; version_rows=[]
@@ -137,6 +173,6 @@ def main():
         for _,r in g.iterrows(): version_rows.append({"work_id":wid,"canonical_paper_id":can["paper_id"],"paper_id":r.paper_id,"analysis_origin":r.analysis_origin,"source_category":r.source_category,"doi":r.get("doi"),"pmid":r.get("pmid"),"arxiv_id":r.get("arxiv_id"),"title":r.get("title"),"abstract":r.get("abstract"),"authors":r.get("authors"),"year":r.get("year"),"citation_count":r.get("citation_count"),"publication_types":r.get("publication_types")})
     works=pd.DataFrame(work_rows); versions=pd.DataFrame(version_rows); linkdf=pd.DataFrame(links)
     works.to_csv(a.out/"canonical_works.csv",index=False); versions.to_csv(a.out/"work_versions.csv",index=False); linkdf.to_csv(a.out/"work_link_evidence.csv",index=False)
-    summary={"analysis_records":len(u),"originally_retained":len(ret),"recovered_bridge_records":len(rec),"canonical_works":len(works),"multi_version_works":int((works.version_count>1).sum()),"records_collapsed":len(u)-len(works),"source_groups":works.source_group.value_counts().to_dict(),"missing_abstract_works":int(works.abstract.fillna("").astype(str).str.strip().eq("").sum())}
+    summary={"analysis_records":len(u),"originally_retained":len(ret),"recovered_bridge_records":len(rec),"canonical_works":len(works),"multi_version_works":int((works.version_count>1).sum()),"records_collapsed":len(u)-len(works),"manual_links_applied":manual_applied,"source_groups":works.source_group.value_counts().to_dict(),"missing_abstract_works":int(works.abstract.fillna("").astype(str).str.strip().eq("").sum())}
     (a.out/"work_reconciliation_summary.json").write_text(json.dumps(summary,indent=2)+"\n"); print(json.dumps(summary,indent=2))
 if __name__=="__main__": main()

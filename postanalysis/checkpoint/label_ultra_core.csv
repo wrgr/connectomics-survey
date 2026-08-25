@@ -1,0 +1,66 @@
+work_id,year,cites,route,landmark,last_author,n_authors,title,venue,doi
+work_7519484d8a64bfa5,1996,5611,cites≥200,False,J. Mcintosh,3,Computer visualization of three-dimensional image data using IMOD.,Journal of Structural Biology,10.1006/jsbi.1996.0013
+work_d26d9182a414bd2a,2012,3781,cites≥200,False,Beth Stevens,10,Microglia Sculpt Postnatal Neural Circuits in an Activity and Complement-Dependent Manner,Neuron,10.1016/j.neuron.2012.03.026
+work_86327903c00368f6,2010,3158,cites≥200,False,Stephen T. C. Wong,6,Reconstruction of the neuromuscular junction connectome,Bioinform.,10.1093/bioinformatics/btq179
+work_2b4f63e6ecb953d1,1985,1109,cites≥200,False,S. Brenner,6,The neural circuit for touch sensitivity in Caenorhabditis elegans,Journal of Neuroscience,10.1523/jneurosci.05-04-00956.1985
+work_bb4463044f5b072c,2012,975,cites≥200,False,R. Douglas,9,TrakEM2 Software for Neural Circuit Reconstruction,PLoS ONE,10.1371/journal.pone.0038011
+work_c3af570cd83d4cfb,2009,954,cites≥200,False,D. Chklovskii,5,Structural Properties of the Caenorhabditis elegans Neuronal Network,PLoS Comput. Biol.,10.1371/journal.pcbi.1001066
+work_8cba212f6e7b83ad,2017,911,cites≥200,False,D. Bock,23,A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster,bioRxiv,10.1016/j.cell.2018.06.019
+work_7773a3cd24b3497d,2020,900,cites≥200,False,Stephen M. Plaza,115,A connectome and analysis of the adult Drosophila central brain,bioRxiv,10.7554/elife.57443
+work_7afda5ab9166c6fb,2011,889,cites≥200,False,R. Clay Reid,10,Network anatomy and in vivo physiology of visual cortical neurons,Nature,10.1038/nature09802
+work_cfa0e3eb48787eff,2019,806,cites≥200,False,Scott W. Emmons,14,Whole-animal connectomes of both Caenorhabditis elegans sexes,Nature,10.1038/s41586-019-1352-7
+work_087e18b9051261d3,2013,695,cites≥200,False,D. Chklovskii,24,A visual motion detection circuit suggested by Drosophila connectomics,Nature,10.1038/nature12450
+work_ab693beb93fb50a7,2020,580,cites≥200,False,David M. Miller,23,Molecular topography of an entire nervous system,bioRxiv,10.1101/2020.12.15.422897
+work_02c7b46148a6c4a5,1998,515,cites≥200,False,KM Harris,2,Three-Dimensional Structure and Composition of CA3→CA1 Axons in Rat Hippocampal Slices: Implications for Presynaptic Connectivity and Compartmentalization,Journal of Neuroscience,10.1523/jneurosci.18-20-08300.1998
+work_7ee1f288ebd5d281,2016,486,cites≥200,False,R. Clay Reid,7,Anatomy and function of an excitatory network in the visual cortex,Nature,10.1038/nature17192
+work_06a819921125fd5b,2017,480,cites≥200,True,Albert Cardona,20,The complete connectome of a learning and memory centre in an insect brain,Nature,10.1101/141762
+work_0902ad628efcc7dd,2016,423,cites≥200,False,Henry Markram,10,Cliques of Neurons Bound into Cavities Provide a Missing Link between Structure and Function,Frontiers in Computational Neuroscience,10.3389/fncom.2017.00048
+work_925c3e324896606e,2016,423,cites≥200,False,E. Jokitalo,5,Microscopy Image Browser: A Platform for Segmentation and Analysis of Multidimensional Datasets,PLoS Biology,10.1371/journal.pbio.1002340
+work_564cb966947b22a2,2021,395,cites≥200,False,Mei Zhen,16,Connectomes across development reveal principles of brain maturation,Nature,10.1038/s41586-021-03778-8
+work_ee5b7f908c56d881,2021,394,cites≥200,False,Szi-chieh Yu,75,Functional connectomics spanning multiple areas of mouse visual cortex,bioRxiv,10.1038/s41586-025-08790-w
+work_047e0665d50b50ba,2015,370,cites≥200,False,H. Sebastian Seung,24,Crowdsourcing the creation of image segmentation algorithms for connectomics,Frontiers in Neuroanatomy,10.3389/fnana.2015.00142
+work_f05ae9242fd4831a,2009,366,cites≥200,False,S. Hestrin,2,Intracortical circuits of pyramidal neurons reflect their long-range axonal targets,Nature,10.1038/nature07658
+work_1d87c152cf48058c,2017,364,cites≥200,False,Harald F. Hess,10,Enhanced FIB-SEM systems for large-volume 3D imaging,eLife,10.7554/elife.25916
+work_d2df514fdb3df8f0,2012,359,cites≥200,False,D. Bock,2,Volume electron microscopy for neuronal circuit reconstruction.,Current Opinion in Neurobiology,10.1016/j.conb.2011.10.022
+work_2f968b5df6b0dd3d,2022,359,cites≥200,False,Marta Zlatic,20,The connectome of an insect brain,bioRxiv,10.1126/science.add9330
+work_ecc5f261115a2fe0,2021,357,cites≥200,False,L. Luo,1,Architectures of Neuronal Circuits,Science,10.1126/science.abg7285
+work_434673087d1709d7,2017,353,cites≥200,False,Louis K. Scheffer,28,A connectome of a learning and memory center in the adult Drosophila brain,eLife,10.7554/elife.26975
+work_4514cd847994dcc7,2020,332,cites≥200,False,V. Jayaraman,13,A connectome of the Drosophila central complex reveals network motifs suitable for flexible navigation and context-dependent action selection,bioRxiv,10.1101/2020.12.08.413955
+work_233d52315fe236ff,2013,330,cites≥200,False,E. Bullmore,5,The Rich Club of the C. elegans Neuronal Connectome,Journal of Neuroscience,10.1523/jneurosci.3784-12.2013
+work_d93655b739e2e89d,2015,329,cites≥200,False,Oliver Hobert,11,A cellular and regulatory map of the cholinergic nervous system of C. elegans,eLife,10.7554/elife.12432
+work_b8f2f5617e12eb28,2015,307,cites≥200,False,Albert Cardona,11,Quantitative neuroanatomy for connectomics in Drosophila,bioRxiv,10.7554/elife.12059
+work_c6b4755fa98e0894,2018,307,cites≥200,False,M. Helmstaedter,10,Dense connectomic reconstruction in layer 4 of the somatosensory cortex,Science,10.1126/science.aay3134
+work_2c6fe44c1be1c300,2013,305,cites≥200,False,M. Helmstaedter,1,Cellular-resolution connectomics: challenges of dense neural circuit reconstruction,Nature Methods,10.1038/nmeth.2476
+work_5b4312b985894934,2010,303,cites≥200,False,D. Chklovskii,6,Ultrastructural analysis of hippocampal neuropil from the connectomics perspective,Neuron,10.1016/j.neuron.2010.08.014
+work_d63621d00ed628b6,2011,300,cites≥200,False,B. Sakmann,8,Cell Type–Specific Three-Dimensional Structure of Thalamocortical Circuits in a Column of Rat Vibrissal Cortex,Cerebral Cortex,10.1093/cercor/bhr317
+work_28c6a067561d25a1,2006,298,cites≥200,False,Winfried Denk,2,Towards neural circuit reconstruction with volume electron microscopy techniques.,Current Opinion in Neurobiology,10.1016/j.conb.2006.08.010
+work_1f5bc11fd70f625f,2024,295,cites≥200,False,J. Lichtman,31,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,Science,10.1126/science.adk4858
+work_6f86d20c9bf6e84d,2024,291,cites≥200,True,G. Jefferis,304,Whole-brain annotation and multi-connectome cell typing of Drosophila,Nature,10.1038/s41586-024-07686-5
+work_5fce6ceceeaa09c7,2016,290,cites≥200,False,Olaf Sporns,3,Comparative Connectomics.,Trends in Cognitive Sciences,10.1016/j.tics.2016.03.001
+work_6e195ba01e83af37,1999,289,cites≥200,False,H. Horvitz,6,The Caenorhabditis elegans Gene unc-25Encodes Glutamic Acid Decarboxylase and Is Required for Synaptic Transmission But Not Synaptic Development,Journal of Neuroscience,10.1523/jneurosci.19-02-00539.1999
+work_31d1fee6f2ffabfe,2020,289,cites≥200,False,G. Rubin,25,The connectome of the adult Drosophila mushroom body provides insights into function,eLife,10.7554/elife.62576
+work_5a150d031329b4d0,2015,280,cites≥200,False,TJ Sejnowski,7,Nanoconnectomic upper bound on the variability of synaptic plasticity,eLife,10.7554/elife.10778
+work_0641fb974f5264cf,2011,275,cites≥200,False,J. Magee,7,mGRASP enables mapping mammalian synaptic connectivity with light microscopy,Nature Methods,10.1038/nmeth.1784
+work_7bd29d9809ae56eb,2015,274,cites≥200,False,M. Helmstaedter,3,Large-volume en-bloc staining for electron microscopy-based connectomics,Nature Communications,10.1038/ncomms8923
+work_e38ce8eb753d5588,2016,274,cites≥200,False,Won-Ki Jeong,3,FusionNet: A Deep Fully Residual Convolutional Neural Network for Image Segmentation in Connectomics,Frontiers of Computer Science,10.3389/fcomp.2021.613981
+work_790c4fa540195de1,2015,263,cites≥200,False,L. Looger,19,High-performance probes for light and electron microscopy,Nature Methods,10.1038/nmeth.3365
+work_37de4cdb46f24752,2021,261,cites≥200,False,Hong-Wei Dong,66,The mouse cortico–basal ganglia–thalamic network,Nature,10.1038/s41586-021-03993-3
+work_41a8c234a5f33895,2014,258,cites≥200,False,N. Shavit,3,The big data challenges of connectomics,Nature Neuroscience,10.1038/nn.3837
+work_ef2fffba97b01cff,2005,257,cites≥200,False,D. Chklovskii,2,Neurogeometry and potential synaptic connectivity.,Trends in Neurosciences,10.1016/j.tins.2005.05.006
+work_796386b4ebec693b,2016,246,cites≥200,False,I. Meinertzhagen,3,The CNS connectome of a tadpole larva of Ciona intestinalis (L.) highlights sidedness in the brain of a chordate sibling,eLife,10.7554/elife.16962
+work_4b3bfeede41c04c0,2016,244,cites≥200,False,Takeshi Imai,8,Super-Resolution Mapping of Neuronal Circuitry With an Index-Optimized Clearing Agent.,Cell Reports,10.1016/j.celrep.2016.02.057
+work_d8f4ed0ced620880,2017,244,cites≥200,False,S. Waddell,3,Cellular diversity in the Drosophila midbrain revealed by single-cell transcriptomics,bioRxiv,10.1101/237818
+work_241b54c819ff405b,2020,242,cites≥200,True,H. Sebastian Seung,40,FlyWire: Online community for whole-brain connectomics,Nature Methods,10.1038/s41592-021-01330-0
+work_86ba4bfd64350171,2024,242,cites≥200,True,M. Murthy,46,Neuronal wiring diagram of an adult brain,Nature,10.1038/s41586-024-07558-y
+work_17f8a533cf7cabc4,2019,239,cites≥200,False,Herwig Baier,5,A Cellular-Resolution Atlas of the Larval Zebrafish Brain.,Neuron,10.1016/j.neuron.2019.04.034
+work_e323a05fc48f61c0,2020,239,cites≥200,False,W. Lee,12,Reconstruction of motor control circuits in adult Drosophila using automated transmission electron microscopy,bioRxiv,10.1101/2020.01.10.902478
+work_fe975f52ca253f7e,2016,238,cites≥200,False,WR Schafer,8,The Multilayer Connectome of Caenorhabditis elegans,PLoS Comput. Biol.,10.1371/journal.pcbi.1005283
+work_70b46b2ec8653f09,2010,228,cites≥200,False,P. Scheiffele,2,Genetics and Cell Biology of Building Specific Synaptic Connectivity,Annual Review of Neuroscience,10.1146/annurev.neuro.051508.135302
+work_f3856b91236f8482,2021,227,cites≥200,False,A. Saykin,3,The human connectome in Alzheimer disease — relationship to biomarkers and genetics,Nature Reviews Neurology,10.1038/s41582-021-00529-1
+work_d552830c86eb491f,2019,226,cites≥200,False,Srinivas C. Turaga,7,Large Scale Image Segmentation with Structured Loss Based Deep Learning for Connectome Reconstruction,IEEE Transactions on Pattern Analysis and Machine Intelligence,10.1109/tpami.2018.2835450
+work_3cfb4552d0463ce3,2021,217,cites≥200,True,J. Lichtman,29,A connectomic study of a petascale fragment of human cerebral cortex,bioRxiv,10.1101/2021.05.29.446289
+work_a3723ea06299828e,2018,214,cites≥200,False,G. L. Henry,7,"A genetic, genomic, and computational resource for exploring neural circuit function",bioRxiv,10.1101/385476
+work_62baf6bf40a9cb50,2016,208,cites≥200,False,K. Briggman,5,Species-specific wiring for direction selectivity in the mammalian retina,Nature,10.1038/nature18609
+work_f4089e71d372f0e5,2022,205,cites≥200,False,M. Helmstaedter,11,Connectomic comparison of mouse and human cortex,Science,10.1126/science.abo0924
+work_c7e9554f3a7935e3,2016,197,landmark∩≥100,True,Albert Cardona,12,The wiring diagram of a glomerular olfactory system,bioRxiv,10.1101/037721
+work_8fd725d2118803e2,2019,133,landmark∩≥100,True,N. D. da Costa,20,A petascale automated imaging pipeline for mapping neuronal circuits with high-throughput transmission electron microscopy,Nature Communications,10.1038/s41467-020-18659-3

@@ -1,0 +1,1436 @@
+normalized_name_block,exact_normalized_name_match,author_id_a,author_id_b,name_a,name_b,retained_papers_a,retained_papers_b,same_name_direct_coauthor,shared_coauthor_names,coauthor_jaccard,axis_jaccard,year_overlap,classification,recommended_action
+kei ito,True,144088358,2111419911,Kei Ito,Kei Ito,2,1,True,107,0.972727,1.0,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+a quattrone,True,2321981,49664270,A. Quattrone,A. Quattrone,6,1,True,49,0.371212,0.5,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+r gur,True,2406788,144762538,R. Gur,R. Gur,4,3,True,32,0.864865,1.0,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+albert cardona,True,145844120,2122284027,Albert Cardona,Albert Cardona,20,12,True,29,0.235772,0.571429,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+r gur,True,2288515084,2256419511,R. Gur,R. Gur,2,1,True,11,0.6875,0.5,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+f castellanos,True,2274994535,2361004201,F. X. Castellanos,F. X. Castellanos,2,3,True,8,0.363636,0.5,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+j wegiel,True,34565535,1877495,J. Wegiel,J. Wegiel,1,1,True,6,1.0,1.0,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+p sorrentino,True,4540646,2270498412,P. Sorrentino,P. Sorrentino,10,1,True,6,0.153846,1.0,True,same_name_coauthor_collision,verify_source_metadata_keep_separate
+h seung,False,144924970,2250498183,H. Seung,H. S. Seung,23,17,False,107,0.332298,0.666667,True,probable_same_person,manual_verify_then_merge_alias
+jan funke,True,1890094,2314918509,Jan Funke,Jan Funke,14,4,False,106,0.333333,0.333333,True,probable_same_person,manual_verify_then_merge_alias
+g rubin,True,34660241,2256195127,G. Rubin,G. Rubin,17,7,False,77,0.209809,0.428571,True,probable_same_person,manual_verify_then_merge_alias
+r reid,True,46567235,2254043701,R. Reid,R. Reid,15,7,False,70,0.346535,0.428571,True,probable_same_person,manual_verify_then_merge_alias
+t brien,True,2057855350,2125515064,T. O’Brien,T. O'Brien,1,2,False,66,0.694737,1.0,True,probable_same_person,manual_verify_then_merge_alias
+zhiyuan lu,True,2193886,2253000636,Zhiyuan Lu,Zhiyuan Lu,12,4,False,66,0.276151,0.285714,True,probable_same_person,manual_verify_then_merge_alias
+harald hess,False,2303648921,2313246488,Harald F. Hess,Harald Hess,3,2,False,62,0.446043,0.333333,True,probable_same_person,manual_verify_then_merge_alias
+brandon mark,True,27155198,2308462568,Brandon Mark,Brandon Mark,5,3,False,57,0.686747,0.5,True,probable_same_person,manual_verify_then_merge_alias
+lindsey kitchell,False,52007649,2261746045,Lindsey Kitchell,Lindsey M. Kitchell,3,3,False,56,0.56,0.25,True,probable_same_person,manual_verify_then_merge_alias
+fabian sinz,True,50095217,2268495239,Fabian H Sinz,Fabian H. Sinz,5,1,False,54,0.5,0.2,True,probable_same_person,manual_verify_then_merge_alias
+anan li,True,2141519647,2336593507,Anan Li,Anan Li,2,3,False,48,0.457143,1.0,True,probable_same_person,manual_verify_then_merge_alias
+j buchanan,True,49345106,2053444469,J. Buchanan,J. Buchanan,16,1,False,44,0.305556,0.0,True,probable_same_person,manual_verify_then_merge_alias
+qingming luo,True,2300339225,2074296452,Qingming Luo,Qingming Luo,1,7,False,35,0.220126,0.5,True,probable_same_person,manual_verify_then_merge_alias
+jinseop kim,True,2252993630,2117157318,Jinseop S. Kim,Jinseop S. Kim,4,6,False,34,0.5,0.333333,True,probable_same_person,manual_verify_then_merge_alias
+anthony azevedo,True,2308462121,38987729,Anthony W. Azevedo,Anthony W. Azevedo,6,2,False,32,0.20915,0.333333,True,probable_same_person,manual_verify_then_merge_alias
+ellen lesser,True,3986207,2366069682,Ellen Lesser,Ellen Lesser,2,3,False,30,0.243902,0.5,True,probable_same_person,manual_verify_then_merge_alias
+qi dong,True,2017455076,2291340994,Qi Dong,Qi Dong,6,2,False,28,0.518519,1.0,True,probable_same_person,manual_verify_then_merge_alias
+a edwards,True,2112879490,2248171763,A. Edwards,A. Edwards,5,2,False,26,0.247619,0.5,True,probable_same_person,manual_verify_then_merge_alias
+s ourselin,True,2285602088,143951081,S. Ourselin,S. Ourselin,1,2,False,19,0.452381,0.75,True,probable_same_person,manual_verify_then_merge_alias
+minjeong kim,True,2357327656,1763122,Minjeong Kim,Minjeong Kim,2,3,False,19,0.431818,1.0,True,probable_same_person,manual_verify_then_merge_alias
+robert smith,True,2115488282,2354638452,Robert G. Smith,Robert G. Smith,3,2,False,18,0.5,0.0,True,probable_same_person,manual_verify_then_merge_alias
+tri nguyen,False,2116108808,2387879053,Tri M. Nguyen,Tri Nguyen,4,2,False,18,0.418605,0.0,True,probable_same_person,manual_verify_then_merge_alias
+yong he,True,2238392863,2239415360,Yong He,Yong He,3,3,False,17,0.361702,1.0,True,probable_same_person,manual_verify_then_merge_alias
+paul martin,True,2256780972,2256781036,Paul R. Martin,Paul R. Martin,2,1,False,16,0.8,0.0,True,probable_same_person,manual_verify_then_merge_alias
+harry behjat,True,2412724322,2345817465,Harry H. Behjat,Harry H. Behjat,5,2,False,16,0.390244,0.75,True,probable_same_person,manual_verify_then_merge_alias
+lijun an,True,2398766456,1879808968,Lijun An,Lijun An,1,2,False,15,0.535714,0.5,True,probable_same_person,manual_verify_then_merge_alias
+jacob vogel,True,2276217291,2220002518,Jacob W Vogel,Jacob W. Vogel,1,2,False,15,0.5,1.0,True,probable_same_person,manual_verify_then_merge_alias
+william gray roncal,False,1384052997,2125890321,William Gray-Roncal,William R. Gray-Roncal,8,1,False,13,0.361111,0.142857,True,probable_same_person,manual_verify_then_merge_alias
+tom hindmarsh sten,True,150324555,10693730,Tom Hindmarsh Sten,Tom Hindmarsh Sten,1,1,False,12,1.0,1.0,True,probable_same_person,manual_verify_then_merge_alias
+angel garcia de la garza,True,37610162,34074820,Angel Garcia de la Garza,Angel Garcia de La Garza,1,1,False,12,0.521739,1.0,True,probable_same_person,manual_verify_then_merge_alias
+h hioki,True,5065615,2085090613,H. Hioki,H. Hioki,1,1,False,11,0.846154,0.0,True,probable_same_person,manual_verify_then_merge_alias
+s bonavita,True,2270498332,5233292,S. Bonavita,S. Bonavita,2,3,False,11,0.423077,1.0,True,probable_same_person,manual_verify_then_merge_alias
+dani bassett,True,2190757065,2293381120,Dani S. Bassett,Dani S. Bassett,4,1,False,11,0.354839,0.25,True,probable_same_person,manual_verify_then_merge_alias
+bennett landman,True,2345543890,2239208043,Bennett A. Landman,Bennett A. Landman,4,3,False,11,0.25,0.666667,True,probable_same_person,manual_verify_then_merge_alias
+f lopera,True,143755490,2074955465,F. Lopera,F. Lopera,1,1,False,10,0.833333,1.0,True,probable_same_person,manual_verify_then_merge_alias
+yongbin wei,True,2258940010,50530359,Yongbin Wei,Yongbin Wei,1,3,False,10,0.4,1.0,True,probable_same_person,manual_verify_then_merge_alias
+jie yang,True,32577277,2302866330,Jie Yang,Jie Yang,7,7,False,10,0.263158,1.0,True,probable_same_person,manual_verify_then_merge_alias
+r schulz,True,47551580,2293153614,R. Schulz,R. Schulz,7,2,False,10,0.25,1.0,True,probable_same_person,manual_verify_then_merge_alias
+r marc,False,122975537,2489794,R. E. Marc,R. Marc,2,14,False,10,0.212766,0.142857,True,probable_same_person,manual_verify_then_merge_alias
+g anastasi,True,1744945,2185258415,G. Anastasi,G. Anastasi,14,3,False,10,0.2,0.5,True,probable_same_person,manual_verify_then_merge_alias
+sara patterson,True,143702625,153021482,Sara S. Patterson,Sara S. Patterson,4,2,False,9,0.310345,0.666667,True,probable_same_person,manual_verify_then_merge_alias
+gregg wildenberg,False,1970495370,2365642054,Gregg A. Wildenberg,Gregg Wildenberg,8,1,False,9,0.204545,0.25,True,probable_same_person,manual_verify_then_merge_alias
+p sorrentino,True,4540646,2268852455,P. Sorrentino,P. Sorrentino,10,2,False,9,0.204545,1.0,True,probable_same_person,manual_verify_then_merge_alias
+qiyong gong,True,2332556775,2274334154,Qiyong Gong,Qiyong Gong,1,1,False,8,0.888889,1.0,True,probable_same_person,manual_verify_then_merge_alias
+e mayer,True,2435449956,2315247227,E. Mayer,E. Mayer,1,1,False,8,0.615385,1.0,True,probable_same_person,manual_verify_then_merge_alias
+jun yang,True,2339221862,2146158125,Jun Yang,Jun Yang,5,1,False,8,0.380952,1.0,True,probable_same_person,manual_verify_then_merge_alias
+h kennedy,True,143649681,2249900287,H. Kennedy,H. Kennedy,6,1,False,8,0.285714,1.0,True,probable_same_person,manual_verify_then_merge_alias
+g johnson,False,2113448828,144593034,G. A. Johnson,G. Johnson,2,4,False,8,0.210526,1.0,True,probable_same_person,manual_verify_then_merge_alias
+f castellanos,False,2106833012,66851526,F. Castellanos,F. X. Castellanos,3,1,False,7,0.368421,1.0,True,probable_same_person,manual_verify_then_merge_alias
+kurt schilling,False,2318038740,2364565778,Kurt Schilling,Kurt G. Schilling,3,1,False,7,0.333333,1.0,True,probable_same_person,manual_verify_then_merge_alias
+qiyong gong,True,2252895667,2250128181,Qiyong Gong,Qiyong Gong,1,1,False,7,0.333333,0.5,True,probable_same_person,manual_verify_then_merge_alias
+pat gunn,True,2243280173,65921441,Pat Gunn,Pat Gunn,2,1,False,7,0.269231,0.0,True,probable_same_person,manual_verify_then_merge_alias
+daniel col ramos,False,2168336347,2316858142,Daniel A. Colón-Ramos,Daniel Colόn-Ramos,4,1,False,7,0.225806,0.0,True,probable_same_person,manual_verify_then_merge_alias
+carl yang,True,1390553618,2695365,Carl Yang,Carl Yang,2,1,False,6,0.545455,0.333333,True,probable_same_person,manual_verify_then_merge_alias
+r whitaker,True,2067204085,1790727,R. Whitaker,R. Whitaker,1,3,False,6,0.285714,0.0,True,probable_same_person,manual_verify_then_merge_alias
+alexandre franco,True,2161269495,2146866834,Alexandre R. Franco,Alexandre R. Franco,1,3,False,6,0.230769,0.5,True,probable_same_person,manual_verify_then_merge_alias
+manuel zimmer,True,2295960598,2324239875,Manuel Zimmer,Manuel Zimmer,2,2,False,5,0.5,0.5,True,probable_same_person,manual_verify_then_merge_alias
+kim johnson,False,2309434152,2382438796,Kim Johnson,Kim G. Johnson,1,1,False,5,0.454545,0.666667,True,probable_same_person,manual_verify_then_merge_alias
+yang wang,True,46396571,143779805,Yang Wang,Yang Wang,1,2,False,5,0.3125,0.0,True,probable_same_person,manual_verify_then_merge_alias
+jianzhong he,True,2153098194,12874945,Jianzhong He,Jianzhong He,2,2,False,5,0.238095,1.0,True,probable_same_person,manual_verify_then_merge_alias
+r hutchison,True,2262438966,39689567,R. Hutchison,R. Hutchison,1,1,False,4,1.0,1.0,True,probable_same_person,manual_verify_then_merge_alias
+r romero garcia,True,2401936648,2142115017,R. Romero-Garcia,R. Romero‐Garcia,4,1,False,4,0.333333,0.0,True,probable_same_person,manual_verify_then_merge_alias
+jialing liu,True,2259574724,46700756,Jialing Liu,Jialing Liu,2,2,False,4,0.25,1.0,True,probable_same_person,manual_verify_then_merge_alias
+g johnson,False,2113448828,2250191335,G. A. Johnson,G. Johnson,2,1,False,4,0.210526,0.5,True,probable_same_person,manual_verify_then_merge_alias
+c granziera,True,2280875794,2829265,C. Granziera,C. Granziera,4,2,False,4,0.2,0.666667,True,probable_same_person,manual_verify_then_merge_alias
+ting liu,True,2286291110,2115431213,Ting Liu,Ting Liu,1,2,False,3,0.6,0.0,True,probable_same_person,manual_verify_then_merge_alias
+m biase,False,50361524,2250230721,M. D. Biase,M. A. D. Biase,1,1,False,3,0.428571,0.333333,True,probable_same_person,manual_verify_then_merge_alias
+sen song,True,2110508990,15168128,Sen Song,Sen Song,1,2,False,3,0.428571,0.0,True,probable_same_person,manual_verify_then_merge_alias
+yonggui yuan,True,2246660796,2288378038,Yonggui Yuan,Yonggui Yuan,1,2,False,3,0.375,0.5,True,probable_same_person,manual_verify_then_merge_alias
+p sj str m,False,2248256697,3735394,P. Sjöström,P. J. Sjöström,1,2,False,3,0.3,0.0,True,probable_same_person,manual_verify_then_merge_alias
+j lichtman,True,27103730,1698121,J. Lichtman,J. Lichtman,35,35,False,50,0.126582,0.727273,True,possible_same_person,manual_review
+ting zhao,True,145786043,2314546102,Ting Zhao,Ting Zhao,12,1,False,42,0.1875,0.166667,True,possible_same_person,manual_review
+j bae,True,2072616109,2387910100,J. Bae,J. Bae,19,3,False,29,0.117886,0.375,True,possible_same_person,manual_review
+h cheong,False,2219777975,32880882,H. S. Cheong,H. Cheong,5,3,False,26,0.127451,0.5,True,possible_same_person,manual_review
+andrew cook,True,2218902320,2284996409,Andrew P. Cook,Andrew P Cook,9,1,False,20,0.148148,0.0,True,possible_same_person,manual_review
+d essen,False,2880368,2362299824,D. C. Essen,D. Essen,18,1,False,17,0.121429,0.0,True,possible_same_person,manual_review
+j hajnal,True,1717846,2086417778,J. Hajnal,J. Hajnal,3,4,False,16,0.140351,0.333333,True,possible_same_person,manual_review
+d barch,True,2478230,2244253284,D. Barch,D. Barch,14,1,False,15,0.12605,0.2,True,possible_same_person,manual_review
+william gray roncal,False,1744493,119683714,William R. Gray Roncal,William Gray Roncal,12,4,False,14,0.164706,0.166667,True,possible_same_person,manual_review
+william gray roncal,False,1744493,1384052997,William R. Gray Roncal,William Gray-Roncal,12,8,False,14,0.164706,0.444444,True,possible_same_person,manual_review
+jordan matelsky,True,24023618,2125921257,Jordan K. Matelsky,Jordan K. Matelsky,19,1,False,13,0.144444,0.1,True,possible_same_person,manual_review
+g thomalla,True,2673431,2433634490,G. Thomalla,G. Thomalla,9,5,False,12,0.1875,0.5,True,possible_same_person,manual_review
+m sughrue,True,3176087,1753052766,M. Sughrue,M. Sughrue,38,2,False,12,0.130435,0.5,True,possible_same_person,manual_review
+s zipursky,True,145808427,2290638063,S. Zipursky,S. Zipursky,6,2,False,11,0.180328,0.0,True,possible_same_person,manual_review
+g sorrentino,True,50622558,2253563968,G. Sorrentino,G. Sorrentino,11,2,False,10,0.192308,1.0,True,possible_same_person,manual_review
+m quarantelli,True,2268850130,3027981,M. Quarantelli,M. Quarantelli,7,1,False,10,0.185185,1.0,True,possible_same_person,manual_review
+l hong,False,143905189,2256929790,L. Hong,L. E. Hong,3,4,False,10,0.181818,0.5,True,possible_same_person,manual_review
+caio seguin,True,2308902,2264623501,Caio Seguin,Caio Seguin,16,7,False,10,0.147059,0.375,True,possible_same_person,manual_review
+james anderson,True,2110869385,2284642795,James R. Anderson,James R Anderson,19,2,False,10,0.136986,0.285714,True,possible_same_person,manual_review
+thomas nichols,True,2358653,2284232772,Thomas E. Nichols,Thomas E. Nichols,9,3,False,10,0.1,0.5,True,possible_same_person,manual_review
+bennett landman,False,2345543890,2318038614,Bennett A. Landman,Bennett Landman,4,3,False,9,0.191489,0.666667,True,possible_same_person,manual_review
+takuya hayashi,True,2150276028,46582876,Takuya Hayashi,Takuya Hayashi,2,3,False,9,0.1875,0.5,True,possible_same_person,manual_review
+j horn,False,30482845,2106841357,J. D. Horn,J. V. Horn,2,1,False,8,0.190476,0.25,True,possible_same_person,manual_review
+m preti,False,40439592,2233432999,M. Preti,M. G. Preti,10,4,False,8,0.153846,0.5,True,possible_same_person,manual_review
+j polimeni,True,1782963,79899557,J. Polimeni,J. Polimeni,2,4,False,8,0.114286,0.666667,True,possible_same_person,manual_review
+f hummel,True,3303639,2251639404,F. Hummel,F. Hummel,2,1,False,7,0.170732,0.666667,True,possible_same_person,manual_review
+han zhang,True,46702759,48213346,Han Zhang,Han Zhang,6,3,False,7,0.166667,0.666667,True,possible_same_person,manual_review
+l donnell,True,1398222646,2065158579,L. O’Donnell,L. O’Donnell,5,8,False,7,0.127273,0.5,True,possible_same_person,manual_review
+jesse brown,True,17283949,1405909177,Jesse A. Brown,Jesse A. Brown,2,2,False,6,0.133333,0.666667,True,possible_same_person,manual_review
+a anderson,True,3184950,2082391190,A. Anderson,A. Anderson,3,1,False,5,0.178571,0.2,True,possible_same_person,manual_review
+f castellanos,False,2274994535,2106833012,F. X. Castellanos,F. Castellanos,2,3,False,5,0.178571,1.0,True,possible_same_person,manual_review
+lori beason held,True,2387315500,2408656428,Lori L. Beason Held,Lori L. Beason Held,1,1,False,5,0.166667,0.333333,True,possible_same_person,manual_review
+a romano,True,2186648267,2253492842,A. Romano,A. Romano,4,1,False,5,0.16129,1.0,True,possible_same_person,manual_review
+a mcevoy,True,1694674,83328011,A. McEvoy,A. McEvoy,4,1,False,5,0.151515,0.666667,True,possible_same_person,manual_review
+yong he,True,2238392863,2381068950,Yong He,Yong He,3,1,False,5,0.151515,1.0,True,possible_same_person,manual_review
+salvatore bertino,True,46819355,2266498822,Salvatore Bertino,Salvatore Bertino,9,1,False,5,0.142857,0.5,True,possible_same_person,manual_review
+bennett landman,True,2239208043,2133475009,Bennett A. Landman,Bennett A. Landman,3,3,False,5,0.135135,0.5,True,possible_same_person,manual_review
+erik johnson,True,2118693758,2148774359,Erik C. Johnson,Erik C. Johnson,6,1,False,5,0.135135,0.2,True,possible_same_person,manual_review
+alexandra badea,True,2254973337,2327665423,Alexandra Badea,Alexandra Badea,12,1,False,5,0.111111,0.5,True,possible_same_person,manual_review
+shuo chen,True,2032577179,2263266213,Shuo Chen,Shuo Chen,8,2,False,5,0.108696,0.5,True,possible_same_person,manual_review
+b cheng,True,34999338,2254417054,B. Cheng,B. Cheng,10,1,False,5,0.104167,0.666667,True,possible_same_person,manual_review
+f castellanos,True,2274994535,2247916403,F. X. Castellanos,F. X. Castellanos,2,2,False,4,0.166667,1.0,True,possible_same_person,manual_review
+s cox,True,4609184,1600505736,S. Cox,S. Cox,5,1,False,4,0.16,0.25,True,possible_same_person,manual_review
+g johnson,True,144593034,2241679478,G. Johnson,G. Johnson,4,1,False,4,0.137931,1.0,True,possible_same_person,manual_review
+g johnson,True,144593034,2250191335,G. Johnson,G. Johnson,4,1,False,4,0.129032,0.5,True,possible_same_person,manual_review
+k davis,True,51046501,2111798344,K. Davis,K. Davis,4,1,False,4,0.125,0.5,True,possible_same_person,manual_review
+robert smith,True,2214312998,2115488282,Robert G. Smith,Robert G. Smith,1,3,False,4,0.117647,0.0,True,possible_same_person,manual_review
+susan resnick,False,2262174798,2318037732,Susan M. Resnick,Susan Resnick,3,1,False,4,0.102564,1.0,True,possible_same_person,manual_review
+russell shinohara,True,2266750069,2311844748,Russell T. Shinohara,Russell T. Shinohara,1,1,False,3,0.1875,0.5,True,possible_same_person,manual_review
+l cipriano,True,2268850174,1978718184,L. Cipriano,L. Cipriano,2,1,False,3,0.136364,0.5,True,possible_same_person,manual_review
+f castellanos,True,2361004201,2247916403,F. X. Castellanos,F. X. Castellanos,3,2,False,3,0.12,0.5,True,possible_same_person,manual_review
+jonathan smallwood,True,2258925777,2271011653,Jonathan Smallwood,Jonathan Smallwood,1,1,False,3,0.115385,1.0,True,possible_same_person,manual_review
+jason kim,True,2110021243,2392759772,Jason Z. Kim,Jason Z Kim,3,1,False,3,0.111111,0.5,True,possible_same_person,manual_review
+p thompson,True,2149570536,2077480089,P. Thompson,P. Thompson,2,1,False,3,0.111111,0.5,True,possible_same_person,manual_review
+f castellanos,False,2247916403,2106833012,F. X. Castellanos,F. Castellanos,2,3,False,3,0.107143,1.0,True,possible_same_person,manual_review
+f castellanos,False,2361004201,2106833012,F. X. Castellanos,F. Castellanos,3,3,False,3,0.1,0.5,True,possible_same_person,manual_review
+jagath rajapakse,True,2332585255,2264332959,Jagath C. Rajapakse,Jagath C. Rajapakse,2,1,False,2,0.333333,1.0,True,possible_same_person,manual_review
+jaeseung jeong,True,1684522,2112510900,Jaeseung Jeong,Jaeseung Jeong,1,2,False,2,0.285714,1.0,True,possible_same_person,manual_review
+guorong wu,True,2255506351,2336939877,Guorong Wu,Guorong Wu,8,1,False,2,0.222222,0.333333,True,possible_same_person,manual_review
+ting zhao,True,2114773827,2114775208,Ting Zhao,Ting Zhao,1,2,False,2,0.2,0.0,True,possible_same_person,manual_review
+daniel alexander,False,2360592447,2316503748,Daniel C. Alexander,Daniel Alexander,1,1,False,2,0.166667,0.666667,True,possible_same_person,manual_review
+zhengwu zhang,True,2047671,2257369938,Zhengwu Zhang,Zhengwu Zhang,7,1,False,2,0.142857,1.0,True,possible_same_person,manual_review
+y wu,True,121961846,153017430,Y. Wu,Y. Wu,1,1,False,2,0.133333,1.0,True,possible_same_person,manual_review
+heng huang,True,2146257986,145114933,Heng Huang,Heng Huang,6,1,False,2,0.111111,0.666667,True,possible_same_person,manual_review
+m chakravarty,True,2237995063,2228020072,M. Chakravarty,M. Chakravarty,1,1,False,2,0.111111,0.0,True,possible_same_person,manual_review
+mukesh bangalore renuka,True,2228851184,2228893178,Mukesh Bangalore Renuka,Mukesh Bangalore Renuka,1,1,False,2,0.111111,0.25,True,possible_same_person,manual_review
+r friedrich,True,2088065,2256792524,R. Friedrich,R. Friedrich,7,4,False,2,0.105263,0.2,True,possible_same_person,manual_review
+yong he,True,2381068950,2118926146,Yong He,Yong He,1,1,False,1,0.166667,0.0,True,possible_same_person,manual_review
+feng wu,True,2303382819,2315070324,Feng Wu,Feng Wu,1,1,False,1,0.111111,0.0,True,possible_same_person,manual_review
+francisco de santiago requejo,True,1391674718,1403572168,Francisco de Santiago Requejo,Francisco de Santiago Requejo,2,1,False,75,0.974026,1.0,False,ambiguous_name_collision,manual_review
+r george,True,2279030858,5179773,R. George,R. George,3,3,False,65,0.247148,0.5,False,ambiguous_name_collision,manual_review
+paul brooks,True,152766360,2305591943,Paul Brooks,Paul Brooks,2,4,False,63,0.247059,0.0,False,ambiguous_name_collision,manual_review
+philip hubbard,True,7945105,2304334087,Philip M. Hubbard,Philip M Hubbard,5,2,False,59,0.302564,0.4,False,ambiguous_name_collision,manual_review
+hongkui zeng,True,2308074395,2194809,Hongkui Zeng,Hongkui Zeng,2,11,False,57,0.261468,1.0,False,ambiguous_name_collision,manual_review
+c ribeiro,True,1571650830,2059671965,C. Ribeiro,C. Ribeiro,3,2,False,55,0.291005,0.75,False,ambiguous_name_collision,manual_review
+saumil patel,True,2341872654,4330752,Saumil S. Patel,Saumil S. Patel,5,3,False,49,0.471154,0.166667,False,ambiguous_name_collision,manual_review
+yuelong wu,True,2306927516,10184943,Yuelong Wu,Yuelong Wu,10,9,False,40,0.210526,0.5,False,ambiguous_name_collision,manual_review
+hannah choi,False,2267304570,2257074025,Hannah Choi,Hannah L Choi,1,1,False,35,0.648148,1.0,False,ambiguous_name_collision,manual_review
+hui gong,True,2253400284,2320556068,Hui Gong,Hui Gong,1,2,False,35,0.603448,1.0,False,ambiguous_name_collision,manual_review
+zudi lin,True,2254329662,151389936,Zudi Lin,Zudi Lin,5,9,False,34,0.222222,0.285714,False,ambiguous_name_collision,manual_review
+shuohong wang,True,2263247153,3212404,Shuohong Wang,Shuohong Wang,4,2,False,30,0.252101,0.5,False,ambiguous_name_collision,manual_review
+j lau,True,2005944977,2061668992,J. Lau,J. Lau,1,1,False,22,0.611111,0.5,False,ambiguous_name_collision,manual_review
+luke bailey,True,2165577488,2365877734,Luke Bailey,Luke Bailey,1,1,False,22,0.611111,0.5,False,ambiguous_name_collision,manual_review
+h pfister,True,143758236,2296996802,H. Pfister,H. Pfister,32,4,False,22,0.094017,0.3,False,ambiguous_name_collision,manual_review
+haiping lu,True,2349372750,2218830947,Haiping Lu,Haiping Lu,1,1,False,19,0.655172,1.0,False,ambiguous_name_collision,manual_review
+tao fang,True,2288617248,2057026124,Tao Fang,Tao Fang,2,2,False,18,0.6,1.0,False,ambiguous_name_collision,manual_review
+yong he,True,145475635,2239415360,Yong He,Yong He,38,3,False,18,0.083333,0.25,False,ambiguous_name_collision,manual_review
+j brandon,True,1412079335,1475350075,J. Brandon,J. Brandon,2,1,False,17,0.207317,1.0,False,ambiguous_name_collision,manual_review
+p kochunov,True,144886405,2331921584,P. Kochunov,P. Kochunov,12,2,False,17,0.117241,0.333333,False,ambiguous_name_collision,manual_review
+stephen smith,True,2162210436,2254774234,Stephen M. Smith,Stephen M. Smith,27,1,False,17,0.080569,0.25,True,ambiguous_name_collision,manual_review
+v calhoun,True,2132419391,144048760,V. Calhoun,V. Calhoun,9,19,False,17,0.044271,0.75,True,ambiguous_name_collision,manual_review
+yajun xie,True,2110337174,2177520731,Yajun Xie,Yajun Xie,1,1,False,16,0.941176,0.0,False,ambiguous_name_collision,manual_review
+j graham,True,2266368347,47581862,J. Graham,J. Graham,1,1,False,16,0.8,1.0,False,ambiguous_name_collision,manual_review
+p mcgorry,True,2141200945,2237614585,P. McGorry,P. McGorry,1,1,False,16,0.8,1.0,False,ambiguous_name_collision,manual_review
+s francey,True,1972763072,5289629,S. Francey,S. Francey,1,1,False,16,0.8,1.0,False,ambiguous_name_collision,manual_review
+s wood,True,2054093626,2311840483,S. Wood,S. Wood,1,1,False,16,0.8,1.0,False,ambiguous_name_collision,manual_review
+a segal,True,2266163096,2148494812,A. Segal,A. Segal,1,2,False,16,0.727273,0.666667,False,ambiguous_name_collision,manual_review
+s chopra,True,32661462,152718133,S. Chopra,S. Chopra,1,3,False,16,0.533333,0.666667,False,ambiguous_name_collision,manual_review
+jia hong gao,True,2238393718,143838400,Jia-Hong Gao,Jia-Hong Gao,3,1,False,16,0.4,1.0,False,ambiguous_name_collision,manual_review
+xinyuan liang,True,2242547908,2032665401,Xinyuan Liang,Xinyuan Liang,5,2,False,16,0.363636,1.0,False,ambiguous_name_collision,manual_review
+shaozheng qin,True,2261328855,2003131,Shaozheng Qin,Shaozheng Qin,4,1,False,16,0.347826,1.0,False,ambiguous_name_collision,manual_review
+shuping tan,True,2238406798,33382606,Shuping Tan,Shuping Tan,4,1,False,16,0.347826,1.0,False,ambiguous_name_collision,manual_review
+a edwards,False,2112879490,2254416109,A. Edwards,A. D. Edwards,5,1,False,16,0.307692,0.5,False,ambiguous_name_collision,manual_review
+j elam,False,47072476,2251184833,J. Elam,J. S. Elam,5,1,False,16,0.271186,0.333333,False,ambiguous_name_collision,manual_review
+p thompson,True,2412795623,145363223,P. Thompson,P. Thompson,33,6,False,16,0.030534,0.75,True,ambiguous_name_collision,manual_review
+yunman xia,True,21015847,2240121731,Yunman Xia,Yunman Xia,1,2,False,15,0.384615,1.0,False,ambiguous_name_collision,manual_review
+chun xu,True,2115784384,2357016096,Chun Xu,Chun Xu,1,2,False,15,0.283019,0.5,False,ambiguous_name_collision,manual_review
+t hahn,True,38915503,2350735674,T. Hahn,T. Hahn,4,1,False,15,0.197368,0.666667,False,ambiguous_name_collision,manual_review
+s waddell,True,145624146,2205124053,S. Waddell,S. Waddell,4,3,False,15,0.103448,0.0,False,ambiguous_name_collision,manual_review
+stephen smith,True,2162210436,2149153544,Stephen M. Smith,Stephen M. Smith,27,2,False,15,0.069767,0.5,True,ambiguous_name_collision,manual_review
+yong he,True,145475635,2238392863,Yong He,Yong He,38,3,False,15,0.068493,0.25,False,ambiguous_name_collision,manual_review
+t kircher,True,2304485,2246485895,T. Kircher,T. Kircher,6,1,False,15,0.061475,0.666667,False,ambiguous_name_collision,manual_review
+xiaomeng han,True,2262461176,2118233252,Xiaomeng Han,Xiaomeng Han,1,1,False,14,0.583333,1.0,False,ambiguous_name_collision,manual_review
+hanpeng xu,True,120178439,2327314721,Hanpeng Xu,Hanpeng Xu,1,1,False,14,0.2,0.0,False,ambiguous_name_collision,manual_review
+x yang,False,2107540947,2117947284,X. W. Yang,X. Yang,1,1,False,14,0.2,0.0,False,ambiguous_name_collision,manual_review
+li zhang,False,1557388497,2359797640,Li I. Zhang,Li Zhang,2,1,False,14,0.16092,0.0,False,ambiguous_name_collision,manual_review
+quanxin wang,True,2300020452,2117950218,Quanxin Wang,Quanxin Wang,2,2,False,14,0.134615,1.0,False,ambiguous_name_collision,manual_review
+marisa hughes,False,2125921467,153526696,Marisa J. Hughes,Marisa Hughes,1,1,False,13,0.684211,1.0,False,ambiguous_name_collision,manual_review
+b caffo,True,1886238,1397970751,B. Caffo,B. Caffo,2,1,False,13,0.541667,1.0,False,ambiguous_name_collision,manual_review
+eva dyer,True,2125884281,1746363,Eva L. Dyer,Eva L. Dyer,1,2,False,13,0.464286,0.5,False,ambiguous_name_collision,manual_review
+a mcevoy,True,1694674,2272985640,A. McEvoy,A. Mcevoy,4,2,False,13,0.40625,1.0,False,ambiguous_name_collision,manual_review
+l tremolizzo,True,2341613027,3827097,L. Tremolizzo,L. Tremolizzo,2,1,False,13,0.382353,1.0,False,ambiguous_name_collision,manual_review
+v silani,True,2242519176,2989411,V. Silani,V. Silani,2,1,False,13,0.382353,1.0,False,ambiguous_name_collision,manual_review
+shuo chen,True,2032577179,2300201900,Shuo Chen,Shuo Chen,8,1,False,13,0.295455,0.5,False,ambiguous_name_collision,manual_review
+lori beason held,True,1398603401,2387315500,Lori L. Beason-Held,Lori L. Beason Held,5,1,False,13,0.282609,0.333333,False,ambiguous_name_collision,manual_review
+t hohman,True,2344983409,38327294,T. Hohman,T. Hohman,5,3,False,13,0.224138,0.666667,False,ambiguous_name_collision,manual_review
+sebastian seung,True,2059694068,2261404625,Sebastian Seung,Sebastian Seung,2,3,False,13,0.209677,0.25,False,ambiguous_name_collision,manual_review
+du lei,True,103081831,2064827720,Du Lei,Du Lei,12,2,False,13,0.1625,0.666667,False,ambiguous_name_collision,manual_review
+l hong,True,143905189,1406111016,L. Hong,L. Hong,3,4,False,13,0.107438,0.666667,False,ambiguous_name_collision,manual_review
+c gerloff,True,3019244,2255011108,C. Gerloff,C. Gerloff,8,4,False,12,0.230769,0.666667,False,ambiguous_name_collision,manual_review
+isabel beets,True,6411839,2342718886,Isabel Beets,Isabel Beets,8,3,False,12,0.20339,0.333333,False,ambiguous_name_collision,manual_review
+a edwards,False,2254416109,2248171763,A. D. Edwards,A. Edwards,1,2,False,12,0.129032,1.0,False,ambiguous_name_collision,manual_review
+t satterthwaite,True,2213003,2328653445,T. Satterthwaite,T. Satterthwaite,7,3,False,12,0.078431,0.666667,True,ambiguous_name_collision,manual_review
+jian peng,True,2244757748,2122807608,Jian Peng,Jian Peng,1,1,False,11,0.733333,0.0,False,ambiguous_name_collision,manual_review
+wu wei,True,2244908938,2115220619,Wu Wei,Wu Wei,1,1,False,11,0.733333,0.0,False,ambiguous_name_collision,manual_review
+zhen ge luo,True,2285925338,3973353,Zhen-Ge Luo,Zhen-Ge Luo,1,1,False,11,0.733333,0.0,False,ambiguous_name_collision,manual_review
+j sweeney,True,143606531,2067489017,J. Sweeney,J. Sweeney,3,2,False,11,0.289474,1.0,False,ambiguous_name_collision,manual_review
+s williams,True,40383891,2107720438,S. Williams,S. Williams,1,1,False,11,0.122222,0.333333,False,ambiguous_name_collision,manual_review
+yoshinori aso,True,2254300240,48343951,Yoshinori Aso,Yoshinori Aso,2,9,False,11,0.064706,0.25,True,ambiguous_name_collision,manual_review
+b landman,False,1699344,2282270766,B. Landman,B. A. Landman,17,2,False,11,0.0625,0.4,False,ambiguous_name_collision,manual_review
+s valk,True,3226086,2249960955,S. Valk,S. Valk,10,1,False,11,0.047009,0.333333,True,ambiguous_name_collision,manual_review
+m milham,True,2333008,2282281773,M. Milham,M. Milham,21,4,False,11,0.043307,0.5,True,ambiguous_name_collision,manual_review
+nabor zquez mart nez,True,2370650475,2106933390,Nabor Vázquez Martínez,Nabor Vázquez-Martínez,1,1,False,10,1.0,1.0,False,ambiguous_name_collision,manual_review
+dale zhou,True,2395552081,2268040091,Dale Zhou,Dale Zhou,1,1,False,10,0.833333,1.0,False,ambiguous_name_collision,manual_review
+petra ritter,True,2261746396,2162348776,Petra Ritter,Petra Ritter,2,1,False,10,0.769231,1.0,False,ambiguous_name_collision,manual_review
+yaxin su,True,2243931244,1999186506,Yaxin Su,Yaxin Su,1,1,False,10,0.769231,1.0,False,ambiguous_name_collision,manual_review
+m schirner,True,144513242,2251756411,M. Schirner,M. Schirner,4,1,False,10,0.666667,1.0,False,ambiguous_name_collision,manual_review
+jason kim,True,2110021243,2268435341,Jason Z. Kim,Jason Z. Kim,3,1,False,10,0.5,1.0,False,ambiguous_name_collision,manual_review
+hao wang,True,71421876,2144219630,Hao Wang,Hao Wang,1,1,False,10,0.344828,0.0,False,ambiguous_name_collision,manual_review
+li wang,True,49680659,46659719,Li Wang,Li Wang,2,1,False,10,0.3125,0.0,False,ambiguous_name_collision,manual_review
+r gur,True,144762538,2256419511,R. Gur,R. Gur,3,1,False,10,0.30303,0.5,False,ambiguous_name_collision,manual_review
+r gur,True,2288515084,144762538,R. Gur,R. Gur,2,3,False,10,0.263158,1.0,False,ambiguous_name_collision,manual_review
+r gur,True,2406788,2256419511,R. Gur,R. Gur,4,1,False,10,0.263158,0.5,False,ambiguous_name_collision,manual_review
+r gur,True,2288515084,2406788,R. Gur,R. Gur,2,4,False,10,0.232558,1.0,False,ambiguous_name_collision,manual_review
+yicong li,True,2301248146,2154570723,Yicong Li,Yicong Li,4,3,False,10,0.208333,0.0,False,ambiguous_name_collision,manual_review
+daniela egas santander,True,4714609,2300373062,Daniela Egas Santander,Daniela Egas Santander,3,2,False,10,0.188679,0.333333,False,ambiguous_name_collision,manual_review
+quanxin wang,True,2104950,2117950218,Quanxin Wang,Quanxin Wang,3,2,False,10,0.084034,0.5,False,ambiguous_name_collision,manual_review
+ye wu,True,2115679598,2115679627,Ye Wu,Ye Wu,4,7,False,10,0.071429,0.5,True,ambiguous_name_collision,manual_review
+kisuk lee,True,2785521,2152541203,Kisuk Lee,Kisuk Lee,4,29,False,10,0.033445,0.2,True,ambiguous_name_collision,manual_review
+m pirozzi,False,2090119633,2920278,M. A. Pirozzi,M. Pirozzi,1,1,False,9,0.75,1.0,False,ambiguous_name_collision,manual_review
+j macke,True,1748468,2288293720,J. Macke,J. Macke,2,1,False,9,0.642857,0.0,False,ambiguous_name_collision,manual_review
+r dolan,True,2231343,2105789579,R. Dolan,R. Dolan,1,1,False,9,0.642857,1.0,False,ambiguous_name_collision,manual_review
+m shaw,False,36516361,3799913,M. V. Shaw,M. Shaw,1,1,False,9,0.529412,0.0,False,ambiguous_name_collision,manual_review
+g zubicaray,True,1729631,1996669518,G. Zubicaray,G. Zubicaray,4,1,False,9,0.5,0.5,False,ambiguous_name_collision,manual_review
+f xiao,True,6293752,2308126222,F. Xiao,F. Xiao,1,1,False,9,0.409091,1.0,False,ambiguous_name_collision,manual_review
+sarah king,True,2238599444,2211485394,Sarah B. King,Sarah B King,2,1,False,9,0.409091,1.0,False,ambiguous_name_collision,manual_review
+j duncan,False,48990117,2301329154,J. Duncan,J. S. Duncan,2,1,False,9,0.391304,1.0,False,ambiguous_name_collision,manual_review
+s baxendale,True,5150690,2246264434,S. Baxendale,S. Baxendale,2,1,False,9,0.391304,1.0,False,ambiguous_name_collision,manual_review
+f chowdhury,True,83774086,2165051048,F. Chowdhury,F. Chowdhury,2,1,False,9,0.290323,0.666667,False,ambiguous_name_collision,manual_review
+yizhou ma,True,48521627,2345751870,Yizhou Ma,Yizhou Ma,3,1,False,9,0.209302,1.0,False,ambiguous_name_collision,manual_review
+jorge blanco alonso,True,78730996,2301578462,Jorge Blanco Alonso,Jorge Blanco Alonso,1,1,False,9,0.204545,0.0,False,ambiguous_name_collision,manual_review
+e hughes,True,38785339,2055562252,E. Hughes,E. Hughes,5,1,False,9,0.095745,0.0,True,ambiguous_name_collision,manual_review
+b rosen,True,145207020,2161154755,B. Rosen,B. Rosen,6,1,False,9,0.090909,0.25,True,ambiguous_name_collision,manual_review
+b fischl,True,2238940060,145815766,B. Fischl,B. Fischl,8,7,False,9,0.069767,0.571429,False,ambiguous_name_collision,manual_review
+i lebedeva,True,2241388214,6585667,I. Lebedeva,I. Lebedeva,1,1,False,9,0.050562,0.333333,False,ambiguous_name_collision,manual_review
+j thiran,True,1710257,2226783828,J. Thiran,J. Thiran,14,2,False,9,0.046392,0.5,True,ambiguous_name_collision,manual_review
+elizabeth li,True,2086982708,2150320226,Elizabeth Li,Elizabeth Li,1,1,False,8,0.727273,0.0,False,ambiguous_name_collision,manual_review
+william schafer,True,2316385734,2356866868,William R. Schafer,William R. Schafer,2,1,False,8,0.727273,1.0,False,ambiguous_name_collision,manual_review
+d menon,False,2249941604,2121212493,D. Menon,D. K. Menon,1,1,False,8,0.666667,0.5,False,ambiguous_name_collision,manual_review
+m sparaco,True,34780756,2303210102,M. Sparaco,M. Sparaco,3,1,False,8,0.380952,1.0,False,ambiguous_name_collision,manual_review
+c beckmann,True,2683150,2282910363,C. Beckmann,C. Beckmann,7,1,False,8,0.186047,0.333333,False,ambiguous_name_collision,manual_review
+seth taylor,True,5375181,2289028332,Seth R. Taylor,Seth R. Taylor,3,1,False,8,0.177778,0.0,False,ambiguous_name_collision,manual_review
+x yang,True,2247113712,2117947284,X. Yang,X. Yang,1,1,False,8,0.170213,0.0,False,ambiguous_name_collision,manual_review
+david miller,True,145693873,2247928279,David M. Miller,David M. Miller,5,1,False,8,0.150943,0.0,False,ambiguous_name_collision,manual_review
+marc hammarlund,True,6854245,2239137589,Marc Hammarlund,Marc Hammarlund,5,1,False,8,0.148148,0.0,False,ambiguous_name_collision,manual_review
+n makris,True,2250331008,1796886,N. Makris,N. Makris,2,12,False,8,0.133333,0.5,False,ambiguous_name_collision,manual_review
+e stamatakis,True,2249277410,46939494,E. Stamatakis,E. Stamatakis,3,3,False,8,0.125,0.666667,False,ambiguous_name_collision,manual_review
+f engert,True,5478027,2252885359,F. Engert,F. Engert,4,2,False,8,0.083333,0.333333,False,ambiguous_name_collision,manual_review
+b keil,True,38701217,2318049056,B. Keil,B. Keil,7,3,False,8,0.075472,0.5,True,ambiguous_name_collision,manual_review
+l hong,False,2256929790,1406111016,L. E. Hong,L. Hong,4,4,False,8,0.073394,0.333333,True,ambiguous_name_collision,manual_review
+a tolias,False,1739838,117780556,A. Tolias,A. S. Tolias,12,1,False,8,0.064516,0.166667,True,ambiguous_name_collision,manual_review
+d essen,False,2880368,2251911694,D. C. Essen,D. V. Essen,18,1,False,8,0.058824,0.333333,True,ambiguous_name_collision,manual_review
+m van den heuvel,True,39836528,2332261435,M. P. van den Heuvel,M. P. van den heuvel,22,10,False,8,0.049383,0.25,True,ambiguous_name_collision,manual_review
+stephen smith,True,2162210436,2251948753,Stephen M. Smith,Stephen M. Smith,27,1,False,8,0.038278,0.25,True,ambiguous_name_collision,manual_review
+a teixeira,False,144747171,2260671090,A. S. Teixeira,A. Teixeira,1,1,False,7,1.0,1.0,False,ambiguous_name_collision,manual_review
+james mitchell,False,49121778,2115524397,James K. Mitchell,James Mitchell,2,1,False,7,0.4375,0.666667,False,ambiguous_name_collision,manual_review
+junho lee,True,8152752,2288036729,Junho Lee,Junho Lee,2,1,False,7,0.388889,1.0,False,ambiguous_name_collision,manual_review
+myung kyu choi,True,2500131,2287965841,Myung-Kyu Choi,Myung-Kyu Choi,2,1,False,7,0.388889,1.0,False,ambiguous_name_collision,manual_review
+s cox,True,4609184,2249497170,S. Cox,S. Cox,5,1,False,7,0.318182,0.25,False,ambiguous_name_collision,manual_review
+p taylor,True,145531754,2166341514,P. Taylor,P. Taylor,3,3,False,7,0.233333,1.0,False,ambiguous_name_collision,manual_review
+b mitchell,True,2389141,2240756002,B. Mitchell,B. Mitchell,1,1,False,7,0.205882,1.0,False,ambiguous_name_collision,manual_review
+p thompson,True,2149570536,2258889863,P. Thompson,P. Thompson,2,1,False,7,0.189189,1.0,False,ambiguous_name_collision,manual_review
+c abdallah,True,9689225,2275334969,C. Abdallah,C. Abdallah,4,1,False,7,0.159091,1.0,False,ambiguous_name_collision,manual_review
+j turner,False,144600520,2268046023,J. Turner,J. A. Turner,2,1,False,7,0.145833,0.5,False,ambiguous_name_collision,manual_review
+bennett landman,True,2345543890,2133475009,Bennett A. Landman,Bennett A. Landman,4,3,False,7,0.14,0.333333,False,ambiguous_name_collision,manual_review
+l hong,True,143905189,2331495222,L. Hong,L. Hong,3,1,False,7,0.137255,0.5,False,ambiguous_name_collision,manual_review
+ali cetin,False,2249220577,49359284,Ali Cetin,Ali H. Cetin,1,1,False,7,0.109375,1.0,False,ambiguous_name_collision,manual_review
+william gray roncal,True,1744493,2125890321,William R. Gray Roncal,William R. Gray-Roncal,12,1,False,7,0.093333,0.166667,True,ambiguous_name_collision,manual_review
+s huang,True,47156841,2090700,S. Huang,S. Huang,8,3,False,7,0.079545,0.333333,True,ambiguous_name_collision,manual_review
+fan zhang,True,2283435447,50212781,Fan Zhang,Fan Zhang,2,12,False,7,0.078652,1.0,False,ambiguous_name_collision,manual_review
+j boulanger weill,True,2242363313,1401224651,J. Boulanger-Weill,J. Boulanger-Weill,2,2,False,7,0.072917,0.333333,False,ambiguous_name_collision,manual_review
+h whalley,True,2327061,2256553970,H. Whalley,H. Whalley,5,1,False,7,0.049645,0.333333,False,ambiguous_name_collision,manual_review
+kei ito,True,2249616931,2111419911,Kei Ito,Kei Ito,1,1,False,7,0.038462,0.0,False,ambiguous_name_collision,manual_review
+m filippi,True,145348456,2242597970,M. Filippi,M. Filippi,19,1,False,7,0.038462,0.666667,False,ambiguous_name_collision,manual_review
+kei ito,True,2249616931,144088358,Kei Ito,Kei Ito,1,2,False,7,0.037838,0.0,False,ambiguous_name_collision,manual_review
+jingpeng wu,True,2281389294,31421132,Jingpeng Wu,Jingpeng Wu,1,23,False,7,0.037037,0.0,True,ambiguous_name_collision,manual_review
+haoyang xing,True,46876698,8017214,Haoyang Xing,Haoyang Xing,2,1,False,6,0.75,1.0,False,ambiguous_name_collision,manual_review
+t wilson,False,19557444,2251991894,T. Wilson,T. W. Wilson,1,1,False,6,0.6,0.0,False,ambiguous_name_collision,manual_review
+claudia de sanctis,True,2266758978,2237979609,Claudia De Sanctis,Claudia De Sanctis,1,1,False,6,0.545455,0.0,False,ambiguous_name_collision,manual_review
+y zeighami,True,1425271067,4275323,Y. Zeighami,Y. Zeighami,2,1,False,6,0.545455,0.666667,False,ambiguous_name_collision,manual_review
+yu ping wang,True,46394229,2143488876,Yu-ping Wang,Yu-Ping Wang,1,2,False,6,0.5,0.0,False,ambiguous_name_collision,manual_review
+jean marie bouteiller,True,2073487,2282374624,Jean-Marie C. Bouteiller,Jean-Marie C Bouteiller,1,1,False,6,0.428571,1.0,False,ambiguous_name_collision,manual_review
+j stephen,True,144363339,2256549595,J. Stephen,J. Stephen,2,1,False,6,0.315789,0.333333,False,ambiguous_name_collision,manual_review
+andrea vaccari,True,2294759019,40012022,Andrea Vaccari,Andrea Vaccari,1,1,False,6,0.214286,0.0,False,ambiguous_name_collision,manual_review
+chloe cho,True,2332499776,2278436626,Chloe Cho,Chloe Cho,2,1,False,6,0.206897,0.5,False,ambiguous_name_collision,manual_review
+l hong,False,2256929790,2331495222,L. E. Hong,L. Hong,4,1,False,6,0.171429,1.0,False,ambiguous_name_collision,manual_review
+s froudist walsh,True,1398142079,2277718949,S. Froudist-Walsh,S. Froudist-Walsh,3,4,False,6,0.171429,1.0,False,ambiguous_name_collision,manual_review
+elizabeth williams,True,2070107815,2250887453,Elizabeth A. Williams,Elizabeth A. Williams,9,1,False,6,0.166667,0.333333,False,ambiguous_name_collision,manual_review
+xiaosong he,True,1644777718,2262512306,Xiaosong He,Xiaosong He,5,1,False,6,0.153846,0.333333,False,ambiguous_name_collision,manual_review
+si gao,True,50379398,2306442182,Si Gao,Si Gao,3,1,False,6,0.146341,0.5,False,ambiguous_name_collision,manual_review
+john crary,True,6229737,2343208716,John F. Crary,John F. Crary,3,1,False,6,0.133333,0.0,False,ambiguous_name_collision,manual_review
+peter jones,False,2115588659,144091182,Peter J. H. Jones,Peter B. Jones,1,2,False,6,0.1,0.0,False,ambiguous_name_collision,manual_review
+v jirsa,True,7597475,2296706988,V. Jirsa,V. Jirsa,12,2,False,6,0.096774,0.666667,True,ambiguous_name_collision,manual_review
+brian lee,True,47620540,2190472040,Brian R. Lee,Brian R. Lee,2,1,False,6,0.076923,0.0,False,ambiguous_name_collision,manual_review
+l palaniyappan,True,2325979,2261917601,L. Palaniyappan,L. Palaniyappan,16,2,False,6,0.070588,0.333333,False,ambiguous_name_collision,manual_review
+a dagher,True,2030015,2268650631,A. Dagher,A. Dagher,11,5,False,6,0.067416,0.666667,False,ambiguous_name_collision,manual_review
+j tapia,False,144338628,2248291484,J. Tapia,J. C. Tapia,5,1,False,6,0.065934,0.5,True,ambiguous_name_collision,manual_review
+harald hess,True,2237520147,2303648921,Harald F. Hess,Harald F. Hess,2,3,False,6,0.057692,0.333333,True,ambiguous_name_collision,manual_review
+l hong,True,1406111016,2331495222,L. Hong,L. Hong,4,1,False,6,0.057692,0.333333,False,ambiguous_name_collision,manual_review
+nicole neubarth,False,5823941,2177367183,Nicole L. Neubarth,Nicole N. Neubarth,3,1,False,6,0.054545,0.4,False,ambiguous_name_collision,manual_review
+f castellanos,True,1981339,2106833012,F. Castellanos,F. Castellanos,3,3,False,6,0.052632,0.5,True,ambiguous_name_collision,manual_review
+j duncan,True,145811086,48990117,J. Duncan,J. Duncan,6,2,False,6,0.05042,1.0,True,ambiguous_name_collision,manual_review
+b dickson,True,2237997071,2454761,B. Dickson,B. Dickson,3,4,False,6,0.04878,0.5,False,ambiguous_name_collision,manual_review
+e robinson,True,144596434,2249969011,E. Robinson,E. Robinson,15,1,False,6,0.041958,0.333333,True,ambiguous_name_collision,manual_review
+chiara maffei,True,49205243,2351725214,Chiara Maffei,Chiara Maffei,7,3,False,6,0.036585,0.25,True,ambiguous_name_collision,manual_review
+s sotiropoulos,True,2719951,1400430412,S. Sotiropoulos,S. Sotiropoulos,23,1,False,6,0.028986,0.25,True,ambiguous_name_collision,manual_review
+r reid,True,46567235,2247665719,R. Reid,R. Reid,15,5,False,6,0.028708,0.285714,True,ambiguous_name_collision,manual_review
+e garyfallidis,True,2611339,2130040998,E. Garyfallidis,E. Garyfallidis,8,1,False,6,0.028302,0.25,False,ambiguous_name_collision,manual_review
+a gorsky,True,145402341,2153794702,A. Gorsky,A. Gorsky,1,1,False,5,1.0,0.0,False,ambiguous_name_collision,manual_review
+e niebur,True,3271571,2249319186,E. Niebur,E. Niebur,2,1,False,5,1.0,0.0,False,ambiguous_name_collision,manual_review
+j ahveninen,True,2198327,2280337101,J. Ahveninen,J. Ahveninen,1,1,False,5,1.0,1.0,False,ambiguous_name_collision,manual_review
+jan pielage,True,4568001,2254468866,Jan Pielage,Jan Pielage,2,1,False,5,1.0,0.0,False,ambiguous_name_collision,manual_review
+omar hafez,True,1997469787,2332333526,Omar A. Hafez,Omar A. Hafez,2,1,False,5,1.0,0.0,False,ambiguous_name_collision,manual_review
+v avetisov,True,47193995,50216089,V. Avetisov,V. Avetisov,1,1,False,5,1.0,0.0,False,ambiguous_name_collision,manual_review
+simone cauzzo,True,2297359450,115223727,Simone Cauzzo,Simone Cauzzo,1,1,False,5,0.714286,1.0,False,ambiguous_name_collision,manual_review
+heng huang,True,2347484108,2252369635,Heng Huang,Heng Huang,1,1,False,5,0.555556,1.0,False,ambiguous_name_collision,manual_review
+mauro amato,True,2068723409,2238563459,Mauro D’Amato,Mauro D’Amato,1,1,False,5,0.555556,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2267464100,2254281045,Paul M Thompson,Paul M. Thompson,1,1,False,5,0.555556,1.0,False,ambiguous_name_collision,manual_review
+carlo giachello,True,5509246,33155243,Carlo N. G. Giachello,Carlo N G Giachello,1,1,False,5,0.384615,0.0,False,ambiguous_name_collision,manual_review
+keith smith,True,78855623,2275723807,Keith M. Smith,Keith M. Smith,3,1,False,5,0.384615,0.5,False,ambiguous_name_collision,manual_review
+dong zhou,True,144066008,2395836422,Dong Zhou,Dong Zhou,1,1,False,5,0.357143,1.0,False,ambiguous_name_collision,manual_review
+yujiang wang,True,2563750,2265620569,Yujiang Wang,Yujiang Wang,3,1,False,5,0.333333,1.0,False,ambiguous_name_collision,manual_review
+i deary,True,145805110,2356016658,I. Deary,I. Deary,3,1,False,5,0.277778,0.333333,False,ambiguous_name_collision,manual_review
+paul martin,True,144267284,2256780972,Paul R. Martin,Paul R. Martin,1,2,False,5,0.277778,0.0,False,ambiguous_name_collision,manual_review
+a pollreisz,True,5715450,2237777880,A. Pollreisz,A. Pollreisz,1,3,False,5,0.25,0.0,False,ambiguous_name_collision,manual_review
+m angiolelli,True,2297459933,2306748319,M. Angiolelli,M. Angiolelli,2,1,False,5,0.208333,0.5,False,ambiguous_name_collision,manual_review
+anand kumar,False,2119320342,2119320626,Anand R. Kumar,Anand Kumar,4,1,False,5,0.2,0.5,False,ambiguous_name_collision,manual_review
+chang hyun park,True,1770863,2257905903,Chang-hyun Park,Chang-hyun Park,1,1,False,5,0.192308,0.666667,False,ambiguous_name_collision,manual_review
+p sorrentino,True,2356247904,2268852455,P. Sorrentino,P. Sorrentino,2,2,False,5,0.185185,0.5,False,ambiguous_name_collision,manual_review
+j duncan,True,117441402,48990117,J. Duncan,J. Duncan,1,2,False,5,0.178571,0.666667,False,ambiguous_name_collision,manual_review
+kea joo lee,True,1390767513,2243263227,Kea-Joo Lee,Kea Joo Lee,5,2,False,5,0.16129,0.0,False,ambiguous_name_collision,manual_review
+j cortes,True,144616731,2173917762,J. Cortes,J. Cortes,6,1,False,5,0.142857,0.25,False,ambiguous_name_collision,manual_review
+bennett landman,False,2239208043,2318038614,Bennett A. Landman,Bennett Landman,3,3,False,5,0.138889,1.0,False,ambiguous_name_collision,manual_review
+ching po lin,True,2146113922,2146114946,Ching-Po Lin,Ching-Po Lin,4,1,False,5,0.128205,0.5,False,ambiguous_name_collision,manual_review
+rebecca mcwhirter,False,4611610,2111506446,Rebecca D. McWhirter,Rebecca M. McWhirter,2,1,False,5,0.121951,0.0,False,ambiguous_name_collision,manual_review
+j polimeni,True,79899557,2303260991,J. Polimeni,J. Polimeni,4,1,False,5,0.104167,0.5,False,ambiguous_name_collision,manual_review
+enrico amico,True,2185612469,2292868024,Enrico Amico,Enrico Amico,3,2,False,5,0.098039,0.333333,True,ambiguous_name_collision,manual_review
+lori beason held,True,1398603401,2408656428,Lori L. Beason-Held,Lori L. Beason Held,5,1,False,5,0.098039,1.0,False,ambiguous_name_collision,manual_review
+stephen smith,True,152225255,2149153607,Stephen J. Smith,Stephen J. Smith,2,2,False,5,0.089286,0.0,True,ambiguous_name_collision,manual_review
+s eickhoff,True,1717616,2256438152,S. Eickhoff,S. Eickhoff,9,4,False,5,0.072464,0.666667,False,ambiguous_name_collision,manual_review
+aaron kuan,True,3184334,2265245061,Aaron T. Kuan,Aaron T. Kuan,8,3,False,5,0.068493,0.25,False,ambiguous_name_collision,manual_review
+a zalesky,True,3200076,2306748599,A. Zalesky,A. Zalesky,33,1,False,5,0.059524,0.6,False,ambiguous_name_collision,manual_review
+daniel moyer,True,2239208267,6964082,Daniel Moyer,Daniel Moyer,7,6,False,5,0.052632,0.333333,True,ambiguous_name_collision,manual_review
+hui gong,True,2242681871,2320556068,Hui Gong,Hui Gong,2,2,False,5,0.052083,1.0,False,ambiguous_name_collision,manual_review
+hanspeter pfister,True,2243182075,2062947008,Hanspeter Pfister,Hanspeter Pfister,7,2,False,5,0.04717,0.333333,True,ambiguous_name_collision,manual_review
+mingrui xia,True,34921129,2252098228,Mingrui Xia,Mingrui Xia,19,2,False,5,0.045455,0.5,False,ambiguous_name_collision,manual_review
+f castellanos,False,2274994535,1981339,F. X. Castellanos,F. Castellanos,2,3,False,5,0.044643,0.5,False,ambiguous_name_collision,manual_review
+anan li,True,37322604,2336593507,Anan Li,Anan Li,4,3,False,5,0.04,1.0,False,ambiguous_name_collision,manual_review
+t satterthwaite,True,2367506656,2213003,T. Satterthwaite,T. Satterthwaite,2,7,False,5,0.037594,0.333333,True,ambiguous_name_collision,manual_review
+anan li,True,37322604,2141519647,Anan Li,Anan Li,4,2,False,5,0.036765,1.0,False,ambiguous_name_collision,manual_review
+d stein,True,145708229,145675071,D. Stein,D. Stein,1,1,False,5,0.036496,1.0,False,ambiguous_name_collision,manual_review
+p thompson,True,145363223,2258889863,P. Thompson,P. Thompson,6,1,False,5,0.02451,0.333333,False,ambiguous_name_collision,manual_review
+b bernhardt,True,2977883,2307086123,B. Bernhardt,B. Bernhardt,34,1,False,5,0.016077,0.4,False,ambiguous_name_collision,manual_review
+karen mcfarland,True,2358823021,2245500973,Karen N McFarland,Karen N. McFarland,1,1,False,4,1.0,1.0,False,ambiguous_name_collision,manual_review
+paramita chakrabarty,True,2329752295,2276213802,Paramita Chakrabarty,Paramita Chakrabarty,1,1,False,4,1.0,1.0,False,ambiguous_name_collision,manual_review
+m bellgrove,True,2214609,5449685,M. Bellgrove,M. Bellgrove,2,1,False,4,0.5,1.0,False,ambiguous_name_collision,manual_review
+haotian jiang,True,2254582226,144417194,Haotian Jiang,Haotian Jiang,1,1,False,4,0.444444,1.0,False,ambiguous_name_collision,manual_review
+ying lin,True,49415945,2117032677,Ying Lin,Ying Lin,1,1,False,4,0.444444,0.0,False,ambiguous_name_collision,manual_review
+yong xia,True,2256029667,144344681,Yong Xia,Yong Xia,1,1,False,4,0.444444,1.0,False,ambiguous_name_collision,manual_review
+yue gu,True,49986580,1677660432,Yue Gu,Yue Gu,1,1,False,4,0.444444,0.0,False,ambiguous_name_collision,manual_review
+m hart,True,145335044,2052049220,M. Hart,M. Hart,5,2,False,4,0.333333,1.0,False,ambiguous_name_collision,manual_review
+carl yang,True,1390553618,2301265330,Carl Yang,Carl Yang,2,3,False,4,0.307692,0.333333,False,ambiguous_name_collision,manual_review
+b latal,True,5035148,2243736271,B. Latal,B. Latal,1,1,False,4,0.285714,0.666667,False,ambiguous_name_collision,manual_review
+carl yang,True,2301265330,2695365,Carl Yang,Carl Yang,3,1,False,4,0.285714,1.0,False,ambiguous_name_collision,manual_review
+adriana di martino,True,2234619598,2412749860,Adriana Di Martino,Adriana Di Martino,1,1,False,4,0.266667,0.0,False,ambiguous_name_collision,manual_review
+jiquan ma,True,2254336617,2315983,Jiquan Ma,Jiquan Ma,1,2,False,4,0.266667,1.0,False,ambiguous_name_collision,manual_review
+meiqi niu,True,151503129,2279101200,Meiqi Niu,Meiqi Niu,2,1,False,4,0.25,1.0,False,ambiguous_name_collision,manual_review
+xihe xie,True,2374585790,49419114,Xihe Xie,Xihe Xie,2,2,False,4,0.25,1.0,False,ambiguous_name_collision,manual_review
+j armstrong,False,2242820397,143873116,J. D. Armstrong,J. Armstrong,1,1,False,4,0.235294,0.0,False,ambiguous_name_collision,manual_review
+geng chen,True,2254838928,143808551,Geng Chen,Geng Chen,1,3,False,4,0.222222,1.0,False,ambiguous_name_collision,manual_review
+daniel bliss,True,2612646,2329086110,Daniel P. Bliss,Daniel P. Bliss,3,1,False,4,0.210526,1.0,False,ambiguous_name_collision,manual_review
+paul martin,True,144267284,2256781036,Paul R. Martin,Paul R. Martin,1,1,False,4,0.210526,0.0,False,ambiguous_name_collision,manual_review
+bennett landman,False,2254551021,2318038614,Bennett A. Landman,Bennett Landman,1,3,False,4,0.190476,1.0,False,ambiguous_name_collision,manual_review
+c hagmann,True,2242615683,46534952,C. Hagmann,C. Hagmann,2,1,False,4,0.190476,0.666667,False,ambiguous_name_collision,manual_review
+w knirsch,True,2267073165,3939431,W. Knirsch,W. Knirsch,2,1,False,4,0.190476,0.666667,False,ambiguous_name_collision,manual_review
+xiao jing wang,True,1519971010,2255804158,Xiao-Jing Wang,Xiao-Jing Wang,6,1,False,4,0.190476,1.0,False,ambiguous_name_collision,manual_review
+brian robinson,True,2285317591,2221335,Brian S. Robinson,Brian S. Robinson,1,1,False,4,0.181818,0.0,False,ambiguous_name_collision,manual_review
+hao huang,True,7192555,2237270758,Hao Huang,Hao Huang,5,1,False,4,0.16,0.5,False,ambiguous_name_collision,manual_review
+a jakab,True,2250525381,153194548,A. Jakab,A. Jakab,4,1,False,4,0.148148,0.666667,False,ambiguous_name_collision,manual_review
+a mcevoy,True,83328011,2272985640,A. McEvoy,A. Mcevoy,1,2,False,4,0.137931,0.666667,False,ambiguous_name_collision,manual_review
+arianna sala,True,2257876139,48706230,Arianna Sala,Arianna Sala,1,1,False,4,0.117647,0.5,False,ambiguous_name_collision,manual_review
+d perani,True,2238763295,3291618,D. Perani,D. Perani,1,1,False,4,0.117647,0.5,False,ambiguous_name_collision,manual_review
+bennett landman,False,2133475009,2318038614,Bennett A. Landman,Bennett Landman,3,3,False,4,0.102564,0.5,False,ambiguous_name_collision,manual_review
+jacob vogel,True,50544684,2276217291,Jacob W. Vogel,Jacob W Vogel,1,1,False,4,0.1,0.5,False,ambiguous_name_collision,manual_review
+a mechelli,True,2304313808,3317342,A. Mechelli,A. Mechelli,1,3,False,4,0.097561,1.0,False,ambiguous_name_collision,manual_review
+massimo filippi,True,2241603367,2136893351,Massimo Filippi,Massimo Filippi,1,5,False,4,0.095238,0.666667,False,ambiguous_name_collision,manual_review
+hua han,True,50434167,2223984386,Hua Han,Hua Han,11,2,False,4,0.085106,0.2,False,ambiguous_name_collision,manual_review
+erik johnson,True,2118693758,2281796979,Erik C. Johnson,Erik C. Johnson,6,3,False,4,0.081633,0.333333,False,ambiguous_name_collision,manual_review
+susie huang,True,2297252505,2277810223,Susie Y Huang,Susie Y. Huang,3,2,False,4,0.081633,0.333333,True,ambiguous_name_collision,manual_review
+jacob vogel,True,50544684,2220002518,Jacob W. Vogel,Jacob W. Vogel,1,2,False,4,0.075472,0.5,False,ambiguous_name_collision,manual_review
+p sorrentino,True,4540646,2356247904,P. Sorrentino,P. Sorrentino,10,2,False,4,0.075472,0.5,False,ambiguous_name_collision,manual_review
+alexandra badea,True,144014548,2254973337,Alexandra Badea,Alexandra Badea,4,12,False,4,0.074074,0.5,True,ambiguous_name_collision,manual_review
+aravinthan samuel,False,1744897,2375987390,Aravinthan D. T. Samuel,Aravinthan Samuel,7,1,False,4,0.067797,0.0,False,ambiguous_name_collision,manual_review
+s eickhoff,True,2299122942,1717616,S. Eickhoff,S. Eickhoff,1,9,False,4,0.063492,0.333333,False,ambiguous_name_collision,manual_review
+gong jun ji,True,2879721,2237880440,Gong-Jun Ji,Gong-jun Ji,2,1,False,4,0.061538,1.0,False,ambiguous_name_collision,manual_review
+jonathan smallwood,True,2539844,2258925777,Jonathan Smallwood,Jonathan Smallwood,6,1,False,4,0.054795,0.333333,False,ambiguous_name_collision,manual_review
+derek jones,True,46444576,2158112540,Derek K. Jones,Derek K. Jones,12,2,False,4,0.054054,0.5,False,ambiguous_name_collision,manual_review
+tao jiang,True,1825765884,2339730011,Tao Jiang,Tao Jiang,5,1,False,4,0.039216,1.0,False,ambiguous_name_collision,manual_review
+f castellanos,False,1981339,2247916403,F. Castellanos,F. X. Castellanos,3,2,False,4,0.036036,0.5,True,ambiguous_name_collision,manual_review
+kaiyu wang,True,2324210492,122782604,Kaiyu Wang,Kaiyu Wang,2,3,False,4,0.034483,0.666667,False,ambiguous_name_collision,manual_review
+r fetter,False,2596869,2250923435,R. Fetter,R. D. Fetter,17,2,False,4,0.030303,0.0,True,ambiguous_name_collision,manual_review
+michael reiser,True,3307045,2304908466,Michael B. Reiser,Michael B Reiser,8,1,False,4,0.029851,0.0,True,ambiguous_name_collision,manual_review
+p kochunov,True,144886405,2253433463,P. Kochunov,P. Kochunov,12,1,False,4,0.028986,0.333333,False,ambiguous_name_collision,manual_review
+p thompson,True,2149570536,145363223,P. Thompson,P. Thompson,2,6,False,4,0.018605,0.333333,True,ambiguous_name_collision,manual_review
+c xu,True,2442565851,2216621604,C. Xu,C. Xu,17,1,False,4,0.017621,0.142857,True,ambiguous_name_collision,manual_review
+yong he,True,145475635,2298522996,Yong He,Yong He,38,2,False,4,0.017391,0.25,False,ambiguous_name_collision,manual_review
+youngjo song,True,2265933896,35180328,Youngjo Song,Youngjo Song,1,1,False,3,1.0,1.0,False,ambiguous_name_collision,manual_review
+l agnati,True,1828303,2150554895,L. Agnati,L. Agnati,1,1,False,3,0.75,0.0,False,ambiguous_name_collision,manual_review
+felix wang,True,46429372,2295846359,Felix Wang,Felix Wang,1,1,False,3,0.428571,0.0,False,ambiguous_name_collision,manual_review
+j gotman,True,2071994,2242305304,J. Gotman,J. Gotman,1,1,False,3,0.428571,0.666667,False,ambiguous_name_collision,manual_review
+c hess,True,2288005,2243748786,C. Hess,C. Hess,1,1,False,3,0.333333,0.0,False,ambiguous_name_collision,manual_review
+carl yang,True,1390553618,2237940940,Carl Yang,Carl Yang,2,2,False,3,0.333333,0.333333,False,ambiguous_name_collision,manual_review
+yuanzhe liu,True,2288244052,2143862892,Yuanzhe Liu,Yuanzhe Liu,2,1,False,3,0.272727,0.333333,False,ambiguous_name_collision,manual_review
+chao zuo,True,46489902,2064203391,Chao Zuo,Chao Zuo,2,1,False,3,0.25,1.0,False,ambiguous_name_collision,manual_review
+dan wu,True,2257409636,2262083282,Dan Wu,Dan Wu,1,1,False,3,0.25,0.0,False,ambiguous_name_collision,manual_review
+yen yin lin,True,92989395,2159180977,Yen-Yin Lin,Yen-Yin Lin,1,1,False,3,0.25,1.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2377283735,2377283830,B. T. T. Yeo,B. Yeo,1,3,False,3,0.230769,1.0,False,ambiguous_name_collision,manual_review
+chuan bi,True,2067836767,2264182656,Chuan Bi,Chuan Bi,2,1,False,3,0.230769,0.5,False,ambiguous_name_collision,manual_review
+r shinohara,True,2238048515,2114637239,R. Shinohara,R. Shinohara,1,1,False,3,0.230769,0.0,False,ambiguous_name_collision,manual_review
+s cox,True,1600505736,2249497170,S. Cox,S. Cox,1,1,False,3,0.230769,1.0,False,ambiguous_name_collision,manual_review
+xingyu ding,True,2117436076,2277808571,Xingyu Ding,Xingyu Ding,3,1,False,3,0.230769,1.0,False,ambiguous_name_collision,manual_review
+yu wang,True,2153609123,40987227,Yu Wang,Yu Wang,1,1,False,3,0.214286,0.5,False,ambiguous_name_collision,manual_review
+chundi xu,True,2324552739,2115783580,Chundi Xu,Chundi Xu,1,2,False,3,0.2,0.0,False,ambiguous_name_collision,manual_review
+l chalak,True,2239209185,3672682,L. Chalak,L. Chalak,1,1,False,3,0.1875,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2254281045,Paul M. Thompson,Paul M. Thompson,3,1,False,3,0.1875,0.333333,False,ambiguous_name_collision,manual_review
+erik johnson,True,2281796979,2148774359,Erik C. Johnson,Erik C. Johnson,3,1,False,3,0.166667,0.0,False,ambiguous_name_collision,manual_review
+g johnson,False,2113448828,2241679478,G. A. Johnson,G. Johnson,2,1,False,3,0.166667,1.0,False,ambiguous_name_collision,manual_review
+jason kim,True,2392759772,2268435341,Jason Z Kim,Jason Z. Kim,1,1,False,3,0.157895,0.5,False,ambiguous_name_collision,manual_review
+wen zhang,True,49039960,2302284073,Wen Zhang,Wen Zhang,3,1,False,3,0.157895,1.0,False,ambiguous_name_collision,manual_review
+bryan jones,True,2242323706,2284646348,Bryan W. Jones,Bryan W Jones,3,1,False,3,0.15,0.2,False,ambiguous_name_collision,manual_review
+heng huang,True,2146257986,2252369635,Heng Huang,Heng Huang,6,1,False,3,0.142857,0.666667,False,ambiguous_name_collision,manual_review
+xiao jing wang,True,1519971010,2118710538,Xiao-Jing Wang,Xiao-Jing Wang,6,2,False,3,0.142857,1.0,False,ambiguous_name_collision,manual_review
+j duncan,False,117441402,2301329154,J. Duncan,J. S. Duncan,1,1,False,3,0.136364,0.666667,False,ambiguous_name_collision,manual_review
+archana venkataraman,True,2242031740,2254292453,Archana Venkataraman,Archana Venkataraman,2,1,False,3,0.1,0.25,False,ambiguous_name_collision,manual_review
+geng chen,True,2116389104,143808551,Geng Chen,Geng Chen,1,3,False,3,0.1,0.0,False,ambiguous_name_collision,manual_review
+stephen smith,True,2149153544,2251948753,Stephen M. Smith,Stephen M. Smith,2,1,False,3,0.1,0.5,False,ambiguous_name_collision,manual_review
+dani bassett,True,2190757065,2243284994,Dani S. Bassett,Dani S. Bassett,4,1,False,3,0.090909,0.0,False,ambiguous_name_collision,manual_review
+derek jones,True,2249088512,2158112540,Derek K. Jones,Derek K. Jones,1,2,False,3,0.090909,1.0,True,ambiguous_name_collision,manual_review
+duan xu,True,13385984,2239812608,Duan Xu,Duan Xu,6,1,False,3,0.090909,0.0,True,ambiguous_name_collision,manual_review
+p kochunov,True,2331921584,2253433463,P. Kochunov,P. Kochunov,2,1,False,3,0.090909,1.0,True,ambiguous_name_collision,manual_review
+s nagarajan,True,1758601,2286248125,S. Nagarajan,S. Nagarajan,5,4,False,3,0.090909,0.666667,True,ambiguous_name_collision,manual_review
+tianzhou ma,True,2264078104,4345585,Tianzhou Ma,Tianzhou Ma,3,1,False,3,0.085714,1.0,True,ambiguous_name_collision,manual_review
+yong he,True,2381068950,2239415360,Yong He,Yong He,1,3,False,3,0.085714,1.0,True,ambiguous_name_collision,manual_review
+alex valcourt caron,True,2153960301,1483620325,Alex Valcourt-Caron,Alex Valcourt Caron,1,2,False,3,0.081081,0.333333,True,ambiguous_name_collision,manual_review
+t tasdizen,True,2238111465,3198175,T. Tasdizen,T. Tasdizen,1,9,False,3,0.081081,0.0,True,ambiguous_name_collision,manual_review
+t jones,True,32496340,2646100,T. Jones,T. Jones,3,1,False,3,0.076923,0.0,True,ambiguous_name_collision,manual_review
+thomas euler,True,2674942,2251269780,Thomas Euler,Thomas Euler,6,1,False,3,0.076923,0.0,False,ambiguous_name_collision,manual_review
+xi chen,True,2145306992,2296952207,Xi Chen,Xi Chen,8,1,False,3,0.075,0.0,False,ambiguous_name_collision,manual_review
+k davis,True,51046501,2250383416,K. Davis,K. Davis,4,2,False,3,0.073171,1.0,False,ambiguous_name_collision,manual_review
+ashish raj,True,2260635774,2237133965,Ashish Raj,Ashish Raj,7,2,False,3,0.069767,0.333333,True,ambiguous_name_collision,manual_review
+s zipursky,True,145808427,2246446990,S. Zipursky,S. Zipursky,6,1,False,3,0.068182,0.0,True,ambiguous_name_collision,manual_review
+c pantelis,True,8770059,49708201,C. Pantelis,C. Pantelis,5,1,False,3,0.066667,1.0,False,ambiguous_name_collision,manual_review
+eilif muller,False,49110043,2276441570,Eilif B. Muller,Eilif Muller,5,1,False,3,0.06383,0.333333,True,ambiguous_name_collision,manual_review
+linden parkes,True,33522651,2288283340,Linden Parkes,Linden Parkes,6,3,False,3,0.0625,1.0,True,ambiguous_name_collision,manual_review
+hua han,True,50434167,2268512206,Hua Han,Hua Han,11,3,False,3,0.061224,0.166667,False,ambiguous_name_collision,manual_review
+philipp berens,True,1689077,2306741084,Philipp Berens,Philipp Berens,6,1,False,3,0.06,0.0,False,ambiguous_name_collision,manual_review
+t satterthwaite,True,2367506656,2328653445,T. Satterthwaite,T. Satterthwaite,2,3,False,3,0.06,0.5,True,ambiguous_name_collision,manual_review
+derek jones,True,46444576,2249088512,Derek K. Jones,Derek K. Jones,12,1,False,3,0.058824,0.5,False,ambiguous_name_collision,manual_review
+p nachev,True,2126033,2333526387,P. Nachev,P. Nachev,10,1,False,3,0.058824,0.25,True,ambiguous_name_collision,manual_review
+n shu,True,145767162,2238925630,N. Shu,N. Shu,7,2,False,3,0.056604,0.5,False,ambiguous_name_collision,manual_review
+hui gong,True,2320556068,2118178813,Hui Gong,Hui Gong,2,2,False,3,0.053571,1.0,False,ambiguous_name_collision,manual_review
+kai wang,True,2148896264,12436933,Kai Wang,Kai Wang,1,1,False,3,0.053571,0.5,False,ambiguous_name_collision,manual_review
+hui gong,True,2242681871,2118178813,Hui Gong,Hui Gong,2,2,False,3,0.050847,1.0,False,ambiguous_name_collision,manual_review
+x yang,False,2247113712,2107540947,X. Yang,X. W. Yang,1,1,False,3,0.05,0.0,False,ambiguous_name_collision,manual_review
+william gray roncal,True,119683714,1384052997,William Gray Roncal,William Gray-Roncal,4,8,False,3,0.047619,0.142857,False,ambiguous_name_collision,manual_review
+ching po lin,True,2146113922,1826530,Ching-Po Lin,Ching-Po Lin,4,2,False,3,0.045455,0.0,True,ambiguous_name_collision,manual_review
+andrew zalesky,True,2268614097,2239407747,Andrew Zalesky,Andrew Zalesky,9,4,False,3,0.041667,0.6,True,ambiguous_name_collision,manual_review
+du lei,True,103081831,2064825769,Du Lei,Du Lei,12,1,False,3,0.038961,0.666667,False,ambiguous_name_collision,manual_review
+albert cardona,True,2122284027,2360774246,Albert Cardona,Albert Cardona,12,1,False,3,0.037975,0.142857,True,ambiguous_name_collision,manual_review
+nathan klapoetke,True,2292125960,4408077,Nathan C Klapoetke,Nathan C. Klapoetke,3,1,False,3,0.037037,0.5,False,ambiguous_name_collision,manual_review
+mingrui xia,True,34921129,2285512469,Mingrui Xia,Mingrui Xia,19,1,False,3,0.029126,0.5,False,ambiguous_name_collision,manual_review
+ye he,True,48479545,2136362102,Ye He,Ye He,7,1,False,3,0.028037,0.0,False,ambiguous_name_collision,manual_review
+d berger,True,35725792,2053460224,D. Berger,D. Berger,12,1,False,3,0.027027,0.166667,True,ambiguous_name_collision,manual_review
+f castellanos,False,2361004201,1981339,F. X. Castellanos,F. Castellanos,3,3,False,3,0.026316,0.333333,True,ambiguous_name_collision,manual_review
+j duncan,False,145811086,2301329154,J. Duncan,J. S. Duncan,6,1,False,3,0.026316,1.0,False,ambiguous_name_collision,manual_review
+j duncan,True,145811086,117441402,J. Duncan,J. Duncan,6,1,False,3,0.026087,0.666667,True,ambiguous_name_collision,manual_review
+quanxin wang,True,2300020452,2104950,Quanxin Wang,Quanxin Wang,2,3,False,3,0.025862,0.5,False,ambiguous_name_collision,manual_review
+c tax,True,3200697,2265389674,C. Tax,C. Tax,8,1,False,3,0.025424,0.333333,True,ambiguous_name_collision,manual_review
+s vos,True,2816711,35255410,S. Vos,S. Vos,7,1,False,3,0.02521,0.666667,True,ambiguous_name_collision,manual_review
+xiangning li,True,2432146,2333221544,Xiangning Li,Xiangning Li,5,1,False,3,0.022388,1.0,True,ambiguous_name_collision,manual_review
+chiara maffei,True,2260322769,49205243,Chiara Maffei,Chiara Maffei,1,7,False,3,0.021429,0.5,False,ambiguous_name_collision,manual_review
+s jbabdi,True,1710263,2239107659,S. Jbabdi,S. Jbabdi,14,2,False,3,0.017964,0.5,True,ambiguous_name_collision,manual_review
+f agosta,True,2497261,2242487244,F. Agosta,F. Agosta,22,1,False,3,0.015873,0.333333,True,ambiguous_name_collision,manual_review
+jingpeng wu,True,2242996095,31421132,Jingpeng Wu,Jingpeng Wu,1,23,False,3,0.015789,0.111111,True,ambiguous_name_collision,manual_review
+yong he,True,145475635,2381068950,Yong He,Yong He,38,1,False,3,0.014634,0.25,True,ambiguous_name_collision,manual_review
+w katz,False,50026221,121704985,W. Katz,W. M. Katz,11,1,False,3,0.014019,0.428571,True,ambiguous_name_collision,manual_review
+p thompson,False,2412795623,2302521438,P. Thompson,P. M. Thompson,33,1,False,3,0.008264,0.25,False,ambiguous_name_collision,manual_review
+d margulies,True,12721071,2205626203,D. Margulies,D. Margulies,17,1,False,3,0.008197,0.25,False,ambiguous_name_collision,manual_review
+p thompson,True,2412795623,2149570536,P. Thompson,P. Thompson,33,2,False,3,0.008065,0.25,False,ambiguous_name_collision,manual_review
+meimei liu,True,2257333698,46332230,Meimei Liu,Meimei Liu,1,1,False,2,1.0,1.0,False,ambiguous_name_collision,manual_review
+ashwani jha,True,2411544224,2264507627,Ashwani Jha,Ashwani Jha,1,1,False,2,0.666667,0.0,False,ambiguous_name_collision,manual_review
+yinghua fu,True,2372422467,2315637928,Yinghua Fu,Yinghua Fu,2,1,False,2,0.666667,1.0,False,ambiguous_name_collision,manual_review
+guillaume lajoie,True,2261390836,49921594,Guillaume Lajoie,Guillaume Lajoie,1,1,False,2,0.4,0.5,False,ambiguous_name_collision,manual_review
+jeffrey smith,True,2242509660,2118955613,Jeffrey C. Smith,Jeffrey C. Smith,1,1,False,2,0.4,0.0,False,ambiguous_name_collision,manual_review
+sarthak chandra,True,35270307,2268394168,Sarthak Chandra,Sarthak Chandra,2,1,False,2,0.4,1.0,False,ambiguous_name_collision,manual_review
+g bor szil gyi,False,2249469776,2060528084,Gábor Szilágyi,Gábor S. Szilágyi,1,1,False,2,0.333333,0.0,False,ambiguous_name_collision,manual_review
+jagath rajapakse,False,2264332959,3906447,Jagath C. Rajapakse,Jagath Rajapakse,1,2,False,2,0.333333,0.666667,False,ambiguous_name_collision,manual_review
+bo du,True,2276206781,2407706774,Bo Du,Bo Du,2,1,False,2,0.285714,0.166667,False,ambiguous_name_collision,manual_review
+c hess,False,2084554112,2243748786,C. P. Hess,C. Hess,1,1,False,2,0.285714,0.0,False,ambiguous_name_collision,manual_review
+g johnson,True,2241679478,2250191335,G. Johnson,G. Johnson,1,1,False,2,0.25,0.5,False,ambiguous_name_collision,manual_review
+xi chen,True,41192764,2296952207,Xi Chen,Xi Chen,1,1,False,2,0.25,0.0,False,ambiguous_name_collision,manual_review
+yonggui yuan,True,113701508,2288378038,Yonggui Yuan,Yonggui Yuan,1,2,False,2,0.25,0.5,False,ambiguous_name_collision,manual_review
+bohao chen,True,8567788,2327956431,Bohao Chen,Bohao Chen,2,1,False,2,0.222222,0.0,False,ambiguous_name_collision,manual_review
+yu ping wang,True,2349823444,46394229,Yu-Ping Wang,Yu-ping Wang,1,1,False,2,0.222222,0.0,False,ambiguous_name_collision,manual_review
+wenhan wang,True,2134795677,2127991736,Wenhan Wang,Wenhan Wang,2,1,False,2,0.2,0.5,False,ambiguous_name_collision,manual_review
+carl yang,True,2301265330,2237940940,Carl Yang,Carl Yang,3,2,False,2,0.181818,1.0,False,ambiguous_name_collision,manual_review
+carl yang,True,2237940940,2695365,Carl Yang,Carl Yang,2,1,False,2,0.181818,1.0,False,ambiguous_name_collision,manual_review
+j gotman,True,2310811889,2242305304,J. Gotman,J. Gotman,1,1,False,2,0.166667,0.5,False,ambiguous_name_collision,manual_review
+n toschi,True,2958393,2237814370,N. Toschi,N. Toschi,2,2,False,2,0.166667,0.0,False,ambiguous_name_collision,manual_review
+c hess,False,2084554112,2288005,C. P. Hess,C. Hess,1,1,False,2,0.153846,0.5,False,ambiguous_name_collision,manual_review
+laura su rez,True,2294464526,1382073829,Laura E. Suárez,Laura E. Suárez,2,1,False,2,0.153846,0.333333,False,ambiguous_name_collision,manual_review
+yu ping wang,True,2349823444,2143488876,Yu-Ping Wang,Yu-Ping Wang,1,2,False,2,0.153846,0.5,False,ambiguous_name_collision,manual_review
+dani bassett,True,2243284994,2293381120,Dani S. Bassett,Dani S. Bassett,1,1,False,2,0.142857,0.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2033767520,2377283830,B. T. Yeo,B. Yeo,1,3,False,2,0.133333,1.0,False,ambiguous_name_collision,manual_review
+g ruocco,True,2920586,2204540267,G. Ruocco,G. Ruocco,2,2,False,2,0.133333,0.0,False,ambiguous_name_collision,manual_review
+olaf sporns,True,2262343041,2238443848,Olaf Sporns,Olaf Sporns,1,1,False,2,0.133333,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2267464100,Paul M. Thompson,Paul M Thompson,3,1,False,2,0.133333,0.333333,False,ambiguous_name_collision,manual_review
+pooja balaram,True,2265592962,46463906,Pooja Balaram,Pooja Balaram,1,1,False,2,0.125,0.0,False,ambiguous_name_collision,manual_review
+mathias wernet,True,2261372595,2751438,Mathias F. Wernet,Mathias F. Wernet,3,1,False,2,0.117647,0.0,False,ambiguous_name_collision,manual_review
+g el fakhri,True,1403937962,144521864,G. El-Fakhri,G. El Fakhri,1,1,False,2,0.111111,0.0,False,ambiguous_name_collision,manual_review
+yu zhang,True,115116889,2251663542,Yu Zhang,Yu Zhang,7,1,False,2,0.111111,0.25,False,ambiguous_name_collision,manual_review
+b manjunath,False,143900942,50591689,B. Manjunath,B. S. Manjunath,4,1,False,2,0.1,0.25,False,ambiguous_name_collision,manual_review
+heng huang,True,2146257986,2347484108,Heng Huang,Heng Huang,6,1,False,2,0.1,0.666667,False,ambiguous_name_collision,manual_review
+j cabral,True,145463318,2149249638,J. Cabral,J. Cabral,5,1,False,2,0.1,0.5,False,ambiguous_name_collision,manual_review
+a quartarone,True,2240958824,2265160111,A. Quartarone,A. Quartarone,2,1,False,2,0.095238,1.0,False,ambiguous_name_collision,manual_review
+feng xiong,True,2274446489,2068170753,Feng Xiong,Feng Xiong,2,1,False,2,0.095238,1.0,False,ambiguous_name_collision,manual_review
+shuo chen,True,2108807430,2300201900,Shuo Chen,Shuo Chen,2,1,False,2,0.095238,1.0,False,ambiguous_name_collision,manual_review
+j fiehler,True,3272096,2238282281,J. Fiehler,J. Fiehler,2,1,False,2,0.083333,0.333333,False,ambiguous_name_collision,manual_review
+jingpeng wu,True,2281389294,2242996095,Jingpeng Wu,Jingpeng Wu,1,1,False,2,0.08,0.0,False,ambiguous_name_collision,manual_review
+maurice peemen,True,2020514,2311971562,Maurice Peemen,Maurice Peemen,1,2,False,2,0.076923,0.0,False,ambiguous_name_collision,manual_review
+p mcgorry,True,2141200945,2436585,P. McGorry,P. McGorry,1,1,False,2,0.076923,0.5,False,ambiguous_name_collision,manual_review
+shuo chen,True,2263266213,2300201900,Shuo Chen,Shuo Chen,2,1,False,2,0.076923,1.0,True,ambiguous_name_collision,manual_review
+shan xu,True,2256119796,145841883,Shan Xu,Shan Xu,3,1,False,2,0.074074,0.666667,False,ambiguous_name_collision,manual_review
+s ahsan,False,2172772673,34568399,S. A. Ahsan,S. Ahsan,1,3,False,2,0.071429,1.0,False,ambiguous_name_collision,manual_review
+m costa,True,2107637652,2390171988,M. Costa,M. Costa,1,1,False,2,0.068966,0.0,False,ambiguous_name_collision,manual_review
+p hof,True,3807831,2258990778,P. Hof,P. Hof,5,2,False,2,0.066667,0.0,True,ambiguous_name_collision,manual_review
+d essen,False,2251911694,2362299824,D. V. Essen,D. Essen,1,1,False,2,0.064516,0.0,False,ambiguous_name_collision,manual_review
+r poldrack,True,145625277,2282972381,R. Poldrack,R. Poldrack,2,1,False,2,0.064516,0.333333,False,ambiguous_name_collision,manual_review
+fei wang,True,2262111477,47939457,Fei Wang,Fei Wang,1,2,False,2,0.0625,0.5,False,ambiguous_name_collision,manual_review
+m styner,False,143755812,2284163158,M. Styner,M.A. Styner,2,1,False,2,0.0625,0.5,False,ambiguous_name_collision,manual_review
+yanqing tang,True,2260441385,4287810,Yanqing Tang,Yanqing Tang,1,2,False,2,0.0625,0.5,False,ambiguous_name_collision,manual_review
+ching po lin,True,2146114946,1826530,Ching-Po Lin,Ching-Po Lin,1,2,False,2,0.060606,0.0,False,ambiguous_name_collision,manual_review
+i gotlib,True,3129282,2181284419,I. Gotlib,I. Gotlib,4,1,False,2,0.057143,0.333333,False,ambiguous_name_collision,manual_review
+b diehl,True,2237730001,144348368,B. Diehl,B. Diehl,1,3,False,2,0.055556,0.333333,True,ambiguous_name_collision,manual_review
+glenn turner,True,34228515,2242836683,Glenn C. Turner,Glenn C. Turner,1,1,False,2,0.055556,0.5,False,ambiguous_name_collision,manual_review
+m petracca,True,7347640,2056426238,M. Petracca,M. Petracca,4,1,False,2,0.055556,0.666667,False,ambiguous_name_collision,manual_review
+bennett landman,True,2345543890,2254551021,Bennett A. Landman,Bennett A. Landman,4,1,False,2,0.054054,0.666667,True,ambiguous_name_collision,manual_review
+s zipursky,True,2290638063,2246446990,S. Zipursky,S. Zipursky,2,1,False,2,0.054054,0.0,True,ambiguous_name_collision,manual_review
+xi chen,True,2145306992,41192764,Xi Chen,Xi Chen,8,1,False,2,0.054054,0.0,True,ambiguous_name_collision,manual_review
+a destexhe,True,1732060,2260347883,A. Destexhe,A. Destexhe,1,4,False,2,0.051282,0.0,True,ambiguous_name_collision,manual_review
+m kringelbach,True,1988969,2277456007,M. Kringelbach,M. Kringelbach,13,1,False,2,0.051282,0.0,False,ambiguous_name_collision,manual_review
+weili lin,True,144482122,2265219727,Weili Lin,Weili Lin,8,1,False,2,0.047619,0.25,False,ambiguous_name_collision,manual_review
+shuo chen,True,2108807430,2032577179,Shuo Chen,Shuo Chen,2,8,False,2,0.045455,0.5,True,ambiguous_name_collision,manual_review
+william gray roncal,False,119683714,2125890321,William Gray Roncal,William R. Gray-Roncal,4,1,False,2,0.042553,0.0,False,ambiguous_name_collision,manual_review
+m elliott,True,2317521914,50127100,M. Elliott,M. Elliott,5,1,False,2,0.04,0.0,True,ambiguous_name_collision,manual_review
+hong hsi lee,True,2118338393,2143768246,Hong-Hsi Lee,Hong-Hsi Lee,2,1,False,2,0.039216,0.0,False,ambiguous_name_collision,manual_review
+d fair,True,35365511,2210996690,D. Fair,D. Fair,6,1,False,2,0.037736,0.333333,False,ambiguous_name_collision,manual_review
+derek jones,True,46444576,2148396214,Derek K. Jones,Derek K. Jones,12,1,False,2,0.037037,1.0,True,ambiguous_name_collision,manual_review
+michael fox,True,2299759683,2244189924,Michael D. Fox,Michael D. Fox,1,1,False,2,0.033898,1.0,False,ambiguous_name_collision,manual_review
+ying luan,True,47189642,2276221720,Ying Luan,Ying Luan,2,1,False,2,0.032258,1.0,False,ambiguous_name_collision,manual_review
+g deco,True,145333301,2263750702,G. Deco,G. Deco,25,1,False,2,0.03125,0.0,False,ambiguous_name_collision,manual_review
+chiara maffei,True,2260322769,2351725214,Chiara Maffei,Chiara Maffei,1,3,False,2,0.030769,0.333333,True,ambiguous_name_collision,manual_review
+huafu chen,True,50688836,2144144437,Huafu Chen,Huafu Chen,9,2,False,2,0.030303,0.5,False,ambiguous_name_collision,manual_review
+a dagher,True,2030015,2250402256,A. Dagher,A. Dagher,11,1,False,2,0.029851,0.333333,True,ambiguous_name_collision,manual_review
+r shinohara,True,2507543,2114637239,R. Shinohara,R. Shinohara,7,1,False,2,0.029851,0.333333,False,ambiguous_name_collision,manual_review
+zhao feng,True,2108500231,2328061382,Zhao Feng,Zhao Feng,1,1,False,2,0.028986,1.0,False,ambiguous_name_collision,manual_review
+l abbott,True,145293717,2327552391,L. Abbott,L. Abbott,4,1,False,2,0.028571,0.0,False,ambiguous_name_collision,manual_review
+jonathan smallwood,True,2539844,2271011653,Jonathan Smallwood,Jonathan Smallwood,6,1,False,2,0.026316,0.333333,False,ambiguous_name_collision,manual_review
+s brambati,True,145348826,2248553211,S. Brambati,S. Brambati,3,1,False,2,0.02381,1.0,False,ambiguous_name_collision,manual_review
+hanchuan peng,True,2257621774,2340435,Hanchuan Peng,Hanchuan Peng,5,5,False,2,0.023529,0.333333,False,ambiguous_name_collision,manual_review
+k caeyenberghs,True,3036472,2275331799,K. Caeyenberghs,K. Caeyenberghs,12,1,False,2,0.022222,0.0,False,ambiguous_name_collision,manual_review
+p bellec,True,2255314644,3326631,P. Bellec,P. Bellec,2,3,False,2,0.021505,0.666667,False,ambiguous_name_collision,manual_review
+hui gong,True,2253400284,2242681871,Hui Gong,Hui Gong,1,2,False,2,0.021277,1.0,True,ambiguous_name_collision,manual_review
+d bassett,True,2264281,2060577779,D. Bassett,D. Bassett,21,2,False,2,0.019802,0.25,True,ambiguous_name_collision,manual_review
+boris bernhardt,True,2265760505,2237555703,Boris C. Bernhardt,Boris C. Bernhardt,11,1,False,2,0.018519,0.666667,True,ambiguous_name_collision,manual_review
+f castellanos,False,1981339,66851526,F. Castellanos,F. X. Castellanos,3,1,False,2,0.018519,0.5,True,ambiguous_name_collision,manual_review
+d barch,False,2478230,152833019,D. Barch,D. M. Barch,14,1,False,2,0.016807,0.2,False,ambiguous_name_collision,manual_review
+s lawrie,True,2133988464,144428553,S. Lawrie,S. Lawrie,2,1,False,2,0.015625,0.0,True,ambiguous_name_collision,manual_review
+b biswal,True,2268929,2064348119,B. Biswal,B. Biswal,6,1,False,2,0.015267,0.5,True,ambiguous_name_collision,manual_review
+harald hess,False,2237520147,2313246488,Harald F. Hess,Harald Hess,2,2,False,2,0.015267,0.0,True,ambiguous_name_collision,manual_review
+s valk,True,3226086,2268372724,S. Valk,S. Valk,10,1,False,2,0.013986,0.333333,True,ambiguous_name_collision,manual_review
+t erp,False,2043018584,8372643,T. Erp,T. V. Erp,2,1,False,2,0.013245,0.333333,True,ambiguous_name_collision,manual_review
+zhiqiang zhang,True,12494958,2296388742,Zhiqiang Zhang,Zhiqiang Zhang,2,3,False,2,0.0125,0.666667,False,ambiguous_name_collision,manual_review
+v calhoun,True,2132419391,2132419393,V. Calhoun,V. Calhoun,9,1,False,2,0.01,0.25,True,ambiguous_name_collision,manual_review
+v calhoun,True,144048760,2132419393,V. Calhoun,V. Calhoun,19,1,False,2,0.009756,0.2,True,ambiguous_name_collision,manual_review
+d wei,True,1766333,3249957,D. Wei,D. Wei,25,1,False,2,0.009662,0.125,True,ambiguous_name_collision,manual_review
+w lee,True,2004120,2259676608,W. Lee,W. Lee,18,1,False,2,0.007782,0.0,True,ambiguous_name_collision,manual_review
+p thompson,True,2412795623,2258889863,P. Thompson,P. Thompson,33,1,False,2,0.00551,0.25,False,ambiguous_name_collision,manual_review
+n sastry,True,2285307632,2118998743,N. Sastry,N. Sastry,1,1,False,1,1.0,1.0,False,ambiguous_name_collision,manual_review
+aradhana singh,True,2299538002,2352048678,Aradhana Singh,Aradhana Singh,1,2,False,1,0.333333,1.0,False,ambiguous_name_collision,manual_review
+habib benali,True,2140226465,2323564162,Habib Benali,Habib Benali,2,1,False,1,0.333333,0.5,False,ambiguous_name_collision,manual_review
+alessio franci,True,2347538015,2366591,Alessio Franci,Alessio Franci,1,1,False,1,0.25,1.0,False,ambiguous_name_collision,manual_review
+guorong wu,True,2355121544,2336939877,Guorong Wu,Guorong Wu,1,1,False,1,0.25,0.0,False,ambiguous_name_collision,manual_review
+lara lloret iglesias,True,2308265213,2238011034,Lara Lloret Iglesias,Lara Lloret Iglesias,1,1,False,1,0.25,0.0,False,ambiguous_name_collision,manual_review
+c dovrolis,True,144734756,1687890,C. Dovrolis,C. Dovrolis,1,1,False,1,0.2,1.0,False,ambiguous_name_collision,manual_review
+edward boyden,True,2260407457,2321748122,Edward S. Boyden,Edward S. Boyden,1,1,False,1,0.2,0.333333,False,ambiguous_name_collision,manual_review
+jeff brown,False,48841088,2166778445,Jeff Brown,Jeff B. Brown,1,1,False,1,0.2,0.333333,False,ambiguous_name_collision,manual_review
+paul watkins,True,1690648,2267060251,Paul V. Watkins,Paul V Watkins,1,1,False,1,0.2,0.0,False,ambiguous_name_collision,manual_review
+bo xu,True,2293660026,2109511678,Bo Xu,Bo Xu,1,1,False,1,0.166667,1.0,False,ambiguous_name_collision,manual_review
+alessandro crimi,True,2258322390,1842515,Alessandro Crimi,Alessandro Crimi,2,1,False,1,0.142857,0.333333,False,ambiguous_name_collision,manual_review
+g fink,True,50055265,38644159,G. Fink,G. Fink,1,1,False,1,0.142857,0.5,False,ambiguous_name_collision,manual_review
+g wanner,True,1905384,2068963605,G. Wanner,G. Wanner,1,1,False,1,0.142857,0.333333,False,ambiguous_name_collision,manual_review
+jagath rajapakse,False,2332585255,3906447,Jagath C. Rajapakse,Jagath Rajapakse,2,2,False,1,0.142857,0.666667,False,ambiguous_name_collision,manual_review
+xi chen,True,41192764,2268629059,Xi Chen,Xi Chen,1,2,False,1,0.142857,0.0,False,ambiguous_name_collision,manual_review
+a diaconescu,True,32287416,2243904799,A. Diaconescu,A. Diaconescu,1,1,False,1,0.125,0.0,False,ambiguous_name_collision,manual_review
+d klooster,True,81372272,5221490,D. Klooster,D. Klooster,1,1,False,1,0.125,0.0,False,ambiguous_name_collision,manual_review
+e hong,True,3513245,2053922081,E. Hong,E. Hong,1,1,False,1,0.125,0.5,False,ambiguous_name_collision,manual_review
+j griffiths,True,144002806,2267293734,J. Griffiths,J. Griffiths,1,1,False,1,0.125,0.0,False,ambiguous_name_collision,manual_review
+james fitzgerald,True,40473653,2263673595,James E. Fitzgerald,James E. Fitzgerald,2,2,False,1,0.125,0.0,False,ambiguous_name_collision,manual_review
+yi hao chan,True,2265592289,144971793,Yi Hao Chan,Yi Hao Chan,4,1,False,1,0.125,0.666667,False,ambiguous_name_collision,manual_review
+yonggui yuan,True,2246660796,113701508,Yonggui Yuan,Yonggui Yuan,1,1,False,1,0.125,1.0,False,ambiguous_name_collision,manual_review
+heng huang,True,145114933,2347484108,Heng Huang,Heng Huang,1,1,False,1,0.111111,0.333333,False,ambiguous_name_collision,manual_review
+michel thiebaut de schotten,True,2998595,113957142,Michel Thiebaut de Schotten,Michel Thiebaut de Schotten,2,1,False,1,0.111111,1.0,False,ambiguous_name_collision,manual_review
+yu zhang,True,2255524810,2153639050,Yu Zhang,Yu Zhang,3,1,False,1,0.111111,0.666667,False,ambiguous_name_collision,manual_review
+yu zhang,True,2153635130,2251663542,Yu Zhang,Yu Zhang,3,1,False,1,0.111111,0.0,False,ambiguous_name_collision,manual_review
+huafu chen,True,2144144437,2373941616,Huafu Chen,Huafu Chen,2,1,False,1,0.1,0.333333,False,ambiguous_name_collision,manual_review
+hyunjin park,True,66410312,3183857,Hyunjin Park,Hyunjin Park,2,1,False,1,0.1,0.5,False,ambiguous_name_collision,manual_review
+jaeseung jeong,True,2112510900,2248246906,Jaeseung Jeong,Jaeseung Jeong,2,3,False,1,0.1,1.0,False,ambiguous_name_collision,manual_review
+richard axel,True,2247760196,2133888645,Richard Axel,Richard Axel,1,1,False,1,0.1,0.0,False,ambiguous_name_collision,manual_review
+guorong wu,True,2255506351,2355121544,Guorong Wu,Guorong Wu,8,1,False,1,0.090909,0.666667,True,ambiguous_name_collision,manual_review
+heng huang,True,145114933,2252369635,Heng Huang,Heng Huang,1,1,False,1,0.090909,0.333333,False,ambiguous_name_collision,manual_review
+n schiff,True,2536346,2253785650,N. Schiff,N. Schiff,1,1,False,1,0.090909,0.0,False,ambiguous_name_collision,manual_review
+s shah,False,2107525055,2338354975,S. Shah,S. A. Shah,1,1,False,1,0.090909,0.0,False,ambiguous_name_collision,manual_review
+steven winter,False,2256787271,1423904035,Steven Winter,Steven N. Winter,2,1,False,1,0.090909,0.5,False,ambiguous_name_collision,manual_review
+xi chen,True,2296952207,2268629059,Xi Chen,Xi Chen,1,2,False,1,0.090909,0.0,False,ambiguous_name_collision,manual_review
+xinhe zhang,True,2324176899,2216298189,Xinhe Zhang,Xinhe Zhang,1,1,False,1,0.090909,1.0,False,ambiguous_name_collision,manual_review
+g parker,True,37677086,2060868979,G. Parker,G. Parker,1,1,False,1,0.083333,0.0,False,ambiguous_name_collision,manual_review
+hao huang,True,2238889807,2237270758,Hao Huang,Hao Huang,1,1,False,1,0.083333,1.0,False,ambiguous_name_collision,manual_review
+hyunjin park,True,2257538386,3183857,Hyunjin Park,Hyunjin Park,1,1,False,1,0.083333,0.5,False,ambiguous_name_collision,manual_review
+jin moo lee,True,2144683149,2273411272,Jin-Moo Lee,Jin-Moo Lee,1,1,False,1,0.083333,0.0,False,ambiguous_name_collision,manual_review
+k miller,False,2168720,115860989,K. Miller,K. J. Miller,2,1,False,1,0.083333,0.5,False,ambiguous_name_collision,manual_review
+robyn miller,False,30350873,2303627347,Robyn Miller,Robyn L. Miller,1,1,False,1,0.083333,0.0,False,ambiguous_name_collision,manual_review
+tielin zhang,True,2952471,2363687784,Tielin Zhang,Tielin Zhang,2,1,False,1,0.083333,1.0,False,ambiguous_name_collision,manual_review
+zaixu cui,True,5748552,2238653292,Zaixu Cui,Zaixu Cui,2,1,False,1,0.083333,0.333333,False,ambiguous_name_collision,manual_review
+j gotman,True,2071994,2310811889,J. Gotman,J. Gotman,1,1,False,1,0.076923,0.333333,False,ambiguous_name_collision,manual_review
+j hennig,True,145085351,145085347,J. Hennig,J. Hennig,1,1,False,1,0.076923,0.5,False,ambiguous_name_collision,manual_review
+jefferson chen,True,2221240858,29019530,Jefferson W. Chen,Jefferson W. Chen,1,2,False,1,0.076923,1.0,False,ambiguous_name_collision,manual_review
+jingpeng wu,True,2242996095,7162062,Jingpeng Wu,Jingpeng Wu,1,1,False,1,0.076923,0.0,False,ambiguous_name_collision,manual_review
+m reisert,True,2780327,2344924760,M. Reisert,M. Reisert,1,1,False,1,0.076923,0.5,False,ambiguous_name_collision,manual_review
+michel thiebaut de schotten,True,2998595,134382022,Michel Thiebaut de Schotten,Michel Thiebaut de Schotten,2,2,False,1,0.076923,0.0,False,ambiguous_name_collision,manual_review
+paramita chakrabarty,True,3856396,2329752295,Paramita Chakrabarty,Paramita Chakrabarty,2,1,False,1,0.076923,0.333333,False,ambiguous_name_collision,manual_review
+paramita chakrabarty,True,3856396,2276213802,Paramita Chakrabarty,Paramita Chakrabarty,2,1,False,1,0.076923,0.333333,False,ambiguous_name_collision,manual_review
+christopher rowley,True,4295611,2353590916,Christopher D. Rowley,Christopher D. Rowley,1,1,False,1,0.071429,0.5,False,ambiguous_name_collision,manual_review
+jacob tanner,False,2057075966,2260351145,Jacob C. Tanner,Jacob Tanner,3,1,False,1,0.071429,1.0,True,ambiguous_name_collision,manual_review
+m ghilardi,True,2250767823,3746002,M. Ghilardi,M. Ghilardi,1,1,False,1,0.071429,1.0,False,ambiguous_name_collision,manual_review
+jasmine hect,True,8058721,2248046999,Jasmine L. Hect,Jasmine L. Hect,1,1,False,1,0.066667,0.5,False,ambiguous_name_collision,manual_review
+yu sun,True,2143831663,2143830693,Yu Sun,Yu Sun,1,1,False,1,0.066667,0.5,False,ambiguous_name_collision,manual_review
+b yeo,False,2033767520,2377283735,B. T. Yeo,B. T. T. Yeo,1,1,False,1,0.0625,1.0,False,ambiguous_name_collision,manual_review
+henrik skibbe,True,2276501783,2279067,Henrik Skibbe,Henrik Skibbe,1,1,False,1,0.0625,0.0,False,ambiguous_name_collision,manual_review
+m chakravarty,True,2228020072,2271482493,M. Chakravarty,M. Chakravarty,1,1,False,1,0.0625,1.0,False,ambiguous_name_collision,manual_review
+m pagani,True,2176846007,34922465,M. Pagani,M. Pagani,2,1,False,1,0.0625,0.5,False,ambiguous_name_collision,manual_review
+m tisdall,True,2312051943,1805494,M. Tisdall,M. Tisdall,1,1,False,1,0.0625,1.0,False,ambiguous_name_collision,manual_review
+richard brien,True,2309151381,2055441453,Richard J O'Brien,Richard J. O’Brien,1,1,False,1,0.0625,1.0,True,ambiguous_name_collision,manual_review
+satchidananda panda,True,2330837285,34728396,Satchidananda Panda,Satchidananda Panda,1,2,False,1,0.0625,0.0,False,ambiguous_name_collision,manual_review
+shuo chen,True,2108807430,2263266213,Shuo Chen,Shuo Chen,2,2,False,1,0.0625,1.0,False,ambiguous_name_collision,manual_review
+yu ping wang,True,46394229,2256576029,Yu-ping Wang,Yu-Ping Wang,1,1,False,1,0.0625,0.0,False,ambiguous_name_collision,manual_review
+g parker,True,145330855,37677086,G. Parker,G. Parker,1,1,False,1,0.058824,0.5,False,ambiguous_name_collision,manual_review
+michel thiebaut de schotten,True,134382022,113957142,Michel Thiebaut de Schotten,Michel Thiebaut de Schotten,2,1,False,1,0.058824,0.0,True,ambiguous_name_collision,manual_review
+p fox,False,1690619,2305866313,P. Fox,P. T. Fox,1,1,False,1,0.058824,0.0,False,ambiguous_name_collision,manual_review
+shana hall,False,2311200096,24887180,Shana Hall,Shana A. Hall,1,2,False,1,0.058824,1.0,False,ambiguous_name_collision,manual_review
+changsong zhou,True,2276360446,2449857,Changsong Zhou,Changsong Zhou,1,3,False,1,0.055556,0.5,False,ambiguous_name_collision,manual_review
+g parker,True,145330855,2060868979,G. Parker,G. Parker,1,1,False,1,0.055556,0.0,False,ambiguous_name_collision,manual_review
+marion van den heuvel,True,2391032714,32327028,Marion I. van den Heuvel,Marion I. van den Heuvel,1,1,False,1,0.055556,0.5,False,ambiguous_name_collision,manual_review
+xiao jing wang,True,2118710538,2255804158,Xiao-Jing Wang,Xiao-Jing Wang,2,1,False,1,0.055556,1.0,False,ambiguous_name_collision,manual_review
+e hong,True,3513245,114821918,E. Hong,E. Hong,1,1,False,1,0.052632,0.5,False,ambiguous_name_collision,manual_review
+hyunjin park,True,2257538386,66410312,Hyunjin Park,Hyunjin Park,1,2,False,1,0.052632,0.333333,False,ambiguous_name_collision,manual_review
+li feng,True,2152750753,2377114255,Li Feng,Li Feng,1,1,False,1,0.052632,0.0,False,ambiguous_name_collision,manual_review
+p sorrentino,True,2268852455,2270498412,P. Sorrentino,P. Sorrentino,2,1,False,1,0.052632,1.0,True,ambiguous_name_collision,manual_review
+s rose,True,48345286,1766349,S. Rose,S. Rose,1,3,False,1,0.052632,0.333333,False,ambiguous_name_collision,manual_review
+zhiquan yang,True,50109072,2239730213,Zhiquan Yang,Zhiquan Yang,1,1,False,1,0.052632,0.0,False,ambiguous_name_collision,manual_review
+c meade,True,2310915201,5210721,C. Meade,C. Meade,1,3,False,1,0.05,1.0,False,ambiguous_name_collision,manual_review
+f castellanos,True,2247916403,66851526,F. X. Castellanos,F. X. Castellanos,2,1,False,1,0.05,1.0,True,ambiguous_name_collision,manual_review
+yu ping wang,True,2256576029,2143488876,Yu-Ping Wang,Yu-Ping Wang,1,2,False,1,0.05,0.5,True,ambiguous_name_collision,manual_review
+laurent petit,True,2059255481,2364396773,Laurent Petit,Laurent Petit,1,1,False,1,0.047619,0.5,False,ambiguous_name_collision,manual_review
+yu zhang,True,115116889,2153635130,Yu Zhang,Yu Zhang,7,3,False,1,0.047619,0.2,True,ambiguous_name_collision,manual_review
+andrew mckenzie,True,2058858479,2299141888,Andrew T. McKenzie,Andrew T. McKenzie,1,3,False,1,0.045455,0.0,False,ambiguous_name_collision,manual_review
+daniela egas santander,True,2300373062,2363938680,Daniela Egas Santander,Daniela Egas-Santander,2,1,False,1,0.045455,1.0,True,ambiguous_name_collision,manual_review
+f castellanos,True,2274994535,66851526,F. X. Castellanos,F. X. Castellanos,2,1,False,1,0.045455,1.0,False,ambiguous_name_collision,manual_review
+f castellanos,True,2361004201,66851526,F. X. Castellanos,F. X. Castellanos,3,1,False,1,0.045455,0.5,False,ambiguous_name_collision,manual_review
+heng huang,True,2252369635,46676192,Heng Huang,Heng Huang,1,2,False,1,0.045455,0.0,False,ambiguous_name_collision,manual_review
+bennett landman,True,2239208043,2254551021,Bennett A. Landman,Bennett A. Landman,3,1,False,1,0.043478,1.0,True,ambiguous_name_collision,manual_review
+hao huang,True,2238889807,7192555,Hao Huang,Hao Huang,1,5,False,1,0.043478,0.5,False,ambiguous_name_collision,manual_review
+p sorrentino,True,2356247904,2270498412,P. Sorrentino,P. Sorrentino,2,1,False,1,0.043478,0.5,False,ambiguous_name_collision,manual_review
+robert smith,True,2214312998,2354638452,Robert G. Smith,Robert G. Smith,1,2,False,1,0.043478,0.0,False,ambiguous_name_collision,manual_review
+geng chen,True,2254838928,2116389104,Geng Chen,Geng Chen,1,1,False,1,0.041667,0.0,False,ambiguous_name_collision,manual_review
+bennett landman,True,2133475009,2254551021,Bennett A. Landman,Bennett A. Landman,3,1,False,1,0.04,0.5,False,ambiguous_name_collision,manual_review
+j iglesias,True,2239182023,1786793,J. E. Iglesias,J. E. Iglesias,1,1,False,1,0.04,0.0,False,ambiguous_name_collision,manual_review
+jiayu chen,True,2256582973,51520050,Jiayu Chen,Jiayu Chen,1,1,False,1,0.04,0.5,False,ambiguous_name_collision,manual_review
+jinhui wang,True,38612176,2308821461,Jinhui Wang,Jinhui Wang,7,1,False,1,0.04,0.5,False,ambiguous_name_collision,manual_review
+li wang,True,2152722680,46659719,Li Wang,Li Wang,1,1,False,1,0.04,0.5,False,ambiguous_name_collision,manual_review
+h bellen,True,3377288,2248278403,H. Bellen,H. Bellen,2,1,False,1,0.038462,0.0,False,ambiguous_name_collision,manual_review
+hao wang,True,71421876,40574043,Hao Wang,Hao Wang,1,1,False,1,0.038462,0.0,False,ambiguous_name_collision,manual_review
+hideyuki okano,True,2242374991,2282329446,Hideyuki Okano,Hideyuki Okano,1,1,False,1,0.038462,0.0,True,ambiguous_name_collision,manual_review
+j kornfeld,True,144223246,2214649805,J. Kornfeld,J. Kornfeld,4,2,False,1,0.038462,0.25,False,ambiguous_name_collision,manual_review
+junichi hata,True,2353873410,2077652246,Junichi Hata,Junichi Hata,1,1,False,1,0.038462,0.0,True,ambiguous_name_collision,manual_review
+m chakravarty,True,2237995063,2271482493,M. Chakravarty,M. Chakravarty,1,1,False,1,0.038462,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2252488132,2273963610,Paul M. Thompson,Paul M. Thompson,2,1,False,1,0.038462,0.5,False,ambiguous_name_collision,manual_review
+amit zeisel,True,2261179414,2565412,Amit Zeisel,Amit Zeisel,2,1,False,1,0.037037,0.0,False,ambiguous_name_collision,manual_review
+andrew mckenzie,True,2299141888,2368404641,Andrew T. McKenzie,Andrew T. McKenzie,3,1,False,1,0.037037,0.0,True,ambiguous_name_collision,manual_review
+p mcgorry,True,2237614585,2436585,P. McGorry,P. McGorry,1,1,False,1,0.037037,0.5,False,ambiguous_name_collision,manual_review
+e angelo,True,1397329721,2258319517,E. D’Angelo,E. D’Angelo,3,1,False,1,0.035714,0.5,False,ambiguous_name_collision,manual_review
+f barkhof,True,2242596860,2496051,F. Barkhof,F. Barkhof,1,1,False,1,0.035714,1.0,False,ambiguous_name_collision,manual_review
+guorong wu,True,46531894,2336939877,Guorong Wu,Guorong Wu,6,1,False,1,0.035714,0.0,False,ambiguous_name_collision,manual_review
+guorong wu,True,46531894,2355121544,Guorong Wu,Guorong Wu,6,1,False,1,0.034483,0.666667,False,ambiguous_name_collision,manual_review
+k davis,True,2250383416,2111798344,K. Davis,K. Davis,2,1,False,1,0.034483,0.5,False,ambiguous_name_collision,manual_review
+li wang,True,2152722680,49680659,Li Wang,Li Wang,1,2,False,1,0.034483,0.5,False,ambiguous_name_collision,manual_review
+m febo,True,47702909,2246516627,M. Febo,M. Febo,8,2,False,1,0.034483,0.333333,False,ambiguous_name_collision,manual_review
+zhiwei xiong,True,2254314875,2352456,Zhiwei Xiong,Zhiwei Xiong,1,2,False,1,0.034483,0.0,True,ambiguous_name_collision,manual_review
+heng huang,True,2146257986,46676192,Heng Huang,Heng Huang,6,2,False,1,0.033333,0.333333,True,ambiguous_name_collision,manual_review
+s oldham,True,49924869,2284336283,S. Oldham,S. Oldham,7,2,False,1,0.033333,0.333333,True,ambiguous_name_collision,manual_review
+g ascoli,True,1695982,2247787678,G. Ascoli,G. Ascoli,10,1,False,1,0.032258,0.25,False,ambiguous_name_collision,manual_review
+feng wu,True,2110921885,2303382819,Feng Wu,Feng Wu,2,1,False,1,0.03125,0.0,False,ambiguous_name_collision,manual_review
+sami obaid,True,2309222551,2189744770,Sami Obaid,Sami Obaid,1,1,False,1,0.03125,0.0,False,ambiguous_name_collision,manual_review
+yong he,True,2239415360,2118926146,Yong He,Yong He,3,1,False,1,0.03125,0.0,False,ambiguous_name_collision,manual_review
+a saykin,True,7992909,2412611342,A. Saykin,A. Saykin,5,2,False,1,0.030303,0.333333,True,ambiguous_name_collision,manual_review
+guorong wu,True,46531894,2406043984,Guorong Wu,Guorong Wu,6,1,False,1,0.030303,0.333333,True,ambiguous_name_collision,manual_review
+jason adhinarta,False,2218475459,2339264037,Jason Adhinarta,Jason K. Adhinarta,2,1,False,1,0.030303,0.0,False,ambiguous_name_collision,manual_review
+binke yuan,True,1403997686,2311352386,Binke Yuan,Binke Yuan,1,1,False,1,0.029412,0.5,False,ambiguous_name_collision,manual_review
+feng wu,True,2110921885,2315070324,Feng Wu,Feng Wu,2,1,False,1,0.029412,0.0,False,ambiguous_name_collision,manual_review
+m styner,True,143755812,1490813437,M. Styner,M. Styner,2,1,False,1,0.029412,0.5,True,ambiguous_name_collision,manual_review
+guorong wu,True,46531894,2255506351,Guorong Wu,Guorong Wu,6,8,False,1,0.028571,0.5,False,ambiguous_name_collision,manual_review
+shi gu,True,80914691,2327200013,Shi Gu,Shi Gu,6,1,False,1,0.027027,0.333333,False,ambiguous_name_collision,manual_review
+yong he,True,2298522996,2381068950,Yong He,Yong He,2,1,False,1,0.027027,0.0,True,ambiguous_name_collision,manual_review
+m styner,True,143755814,143755812,M. Styner,M. Styner,2,2,False,1,0.025641,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2260351082,2273963610,Paul M. Thompson,Paul M. Thompson,1,1,False,1,0.025641,1.0,False,ambiguous_name_collision,manual_review
+r desimone,True,144375727,2319128842,R. Desimone,R. Desimone,1,1,False,1,0.025641,0.0,False,ambiguous_name_collision,manual_review
+kristen harris,True,2055588221,2055588434,Kristen M. Harris,Kristen M. Harris,3,1,False,1,0.025,0.0,False,ambiguous_name_collision,manual_review
+pietro bontempi,True,5140987,2318070666,Pietro Bontempi,Pietro Bontempi,2,1,False,1,0.025,0.666667,False,ambiguous_name_collision,manual_review
+xi chen,True,2145306992,2268629059,Xi Chen,Xi Chen,8,2,False,1,0.025,0.25,False,ambiguous_name_collision,manual_review
+daniela egas santander,True,4714609,2363938680,Daniela Egas Santander,Daniela Egas-Santander,3,1,False,1,0.02439,0.333333,False,ambiguous_name_collision,manual_review
+maxime descoteaux,True,2249067693,2242574855,Maxime Descoteaux,Maxime Descoteaux,3,1,False,1,0.02439,0.333333,False,ambiguous_name_collision,manual_review
+zhihao zheng,True,2115546389,2192419650,Zhihao Zheng,Zhihao Zheng,2,2,False,1,0.02439,0.0,False,ambiguous_name_collision,manual_review
+stephen smith,True,2254774234,2149153544,Stephen M. Smith,Stephen M. Smith,1,2,False,1,0.023256,0.5,False,ambiguous_name_collision,manual_review
+keun young kim,True,2265619405,2351405994,Keun-Young Kim,Keun-Young Kim,2,1,False,1,0.022727,0.0,False,ambiguous_name_collision,manual_review
+kurt schilling,True,2318038750,2318038740,Kurt Schilling,Kurt Schilling,1,3,False,1,0.022222,1.0,False,ambiguous_name_collision,manual_review
+shuo chen,True,2032577179,2143480208,Shuo Chen,Shuo Chen,8,1,False,1,0.022222,0.5,True,ambiguous_name_collision,manual_review
+a raj,True,143683523,118108282,A. Raj,A. Raj,16,1,False,1,0.021277,0.666667,True,ambiguous_name_collision,manual_review
+kurt schilling,False,2318038750,2364565778,Kurt Schilling,Kurt G. Schilling,1,1,False,1,0.020408,1.0,False,ambiguous_name_collision,manual_review
+bruce rosen,True,2271893470,2068523917,Bruce Rosen,Bruce Rosen,1,1,False,1,0.02,0.5,True,ambiguous_name_collision,manual_review
+gang li,True,2149146066,2155119144,Gang Li,Gang Li,7,1,False,1,0.02,0.5,True,ambiguous_name_collision,manual_review
+hui gong,True,2253400284,2118178813,Hui Gong,Hui Gong,1,2,False,1,0.018868,1.0,False,ambiguous_name_collision,manual_review
+jingliang cheng,True,7437983,2239137856,Jingliang Cheng,Jingliang Cheng,1,1,False,1,0.018868,1.0,False,ambiguous_name_collision,manual_review
+lei guo,True,2110798193,143621713,Lei Guo,Lei Guo,7,4,False,1,0.018519,0.5,True,ambiguous_name_collision,manual_review
+p koch,False,2302783313,2069391662,P. J. Koch,P. Koch,3,2,False,1,0.018519,0.666667,False,ambiguous_name_collision,manual_review
+paul thompson,True,2252488132,2260351082,Paul M. Thompson,Paul M. Thompson,2,1,False,1,0.018519,0.5,True,ambiguous_name_collision,manual_review
+a quattrone,True,2247463971,49664270,A. Quattrone,A. Quattrone,1,1,False,1,0.017241,0.5,False,ambiguous_name_collision,manual_review
+huafu chen,True,50688836,2373941616,Huafu Chen,Huafu Chen,9,1,False,1,0.016667,0.333333,False,ambiguous_name_collision,manual_review
+r shinohara,True,2507543,2238048515,R. Shinohara,R. Shinohara,7,1,False,1,0.016129,0.0,False,ambiguous_name_collision,manual_review
+r romero garcia,True,1422139658,2142115017,R. Romero-Garcia,R. Romero‐Garcia,4,1,False,1,0.015873,0.0,True,ambiguous_name_collision,manual_review
+yong he,True,2298522996,2238392863,Yong He,Yong He,2,3,False,1,0.015873,0.0,True,ambiguous_name_collision,manual_review
+yong he,True,2298522996,2239415360,Yong He,Yong He,2,3,False,1,0.015873,0.0,True,ambiguous_name_collision,manual_review
+l abbott,True,145293717,46386728,L. Abbott,L. Abbott,4,1,False,1,0.015625,0.0,True,ambiguous_name_collision,manual_review
+t sejnowski,True,1714528,50504368,T. Sejnowski,T. Sejnowski,6,1,False,1,0.015625,0.0,True,ambiguous_name_collision,manual_review
+s lui,True,2348654458,145965433,S. Lui,S. Lui,2,6,False,1,0.015385,0.666667,False,ambiguous_name_collision,manual_review
+l abbott,False,145293717,2404178285,L. Abbott,L. F. Abbott,4,1,False,1,0.014706,0.0,False,ambiguous_name_collision,manual_review
+r romero garcia,True,2401936648,1422139658,R. Romero-Garcia,R. Romero-Garcia,4,4,False,1,0.014085,0.5,True,ambiguous_name_collision,manual_review
+tao li,True,48779259,2290137098,Tao Li,Tao Li,1,1,False,1,0.013699,1.0,False,ambiguous_name_collision,manual_review
+a gozzi,True,4380479,2318206325,A. Gozzi,A. Gozzi,9,1,False,1,0.013158,0.5,False,ambiguous_name_collision,manual_review
+david kennedy,False,2073530309,2073530113,David Kennedy,David N. Kennedy,1,1,False,1,0.012658,0.0,False,ambiguous_name_collision,manual_review
+ye wu,True,2115679627,2340466292,Ye Wu,Ye Wu,7,1,False,1,0.0125,0.333333,False,ambiguous_name_collision,manual_review
+r gur,True,2237266016,2256419511,R. Gur,R. Gur,1,1,False,1,0.011905,0.333333,False,ambiguous_name_collision,manual_review
+d greve,True,1827360,2271961979,D. Greve,D. Greve,3,1,False,1,0.011628,0.333333,True,ambiguous_name_collision,manual_review
+yogesh rathi,True,1766623,2285099517,Yogesh Rathi,Yogesh Rathi,13,1,False,1,0.011628,0.5,False,ambiguous_name_collision,manual_review
+ye wu,True,2115679598,2340466292,Ye Wu,Ye Wu,4,1,False,1,0.011364,0.5,False,ambiguous_name_collision,manual_review
+r gur,True,2288515084,2237266016,R. Gur,R. Gur,2,1,False,1,0.011236,0.666667,False,ambiguous_name_collision,manual_review
+wei chung allen lee,True,2243372740,2351128394,Wei-Chung Allen Lee,Wei-Chung Allen Lee,6,1,False,1,0.011236,0.0,True,ambiguous_name_collision,manual_review
+a mayer,False,20761567,33226162,A. R. Mayer,A. Mayer,1,1,False,1,0.010753,0.0,False,ambiguous_name_collision,manual_review
+v hartenstein,True,2204140,2238412025,V. Hartenstein,V. Hartenstein,8,1,False,1,0.010638,0.333333,False,ambiguous_name_collision,manual_review
+yi jiang,True,2146419507,2146421613,Yi Jiang,Yi Jiang,1,1,False,1,0.010526,0.0,False,ambiguous_name_collision,manual_review
+ye wu,True,2115679627,2258779588,Ye Wu,Ye Wu,7,1,False,1,0.009615,1.0,False,ambiguous_name_collision,manual_review
+r gur,True,144762538,2237266016,R. Gur,R. Gur,3,1,False,1,0.009524,0.666667,True,ambiguous_name_collision,manual_review
+e don,True,2364406103,5352022,E. Donà,E. Donà,1,1,False,1,0.009091,0.0,False,ambiguous_name_collision,manual_review
+r gur,True,2406788,2237266016,R. Gur,R. Gur,4,1,False,1,0.009091,0.666667,True,ambiguous_name_collision,manual_review
+ye wu,True,2115679598,2258779588,Ye Wu,Ye Wu,4,1,False,1,0.008929,0.5,False,ambiguous_name_collision,manual_review
+m then,True,2522501,2259144794,M. Nöthen,M. Nöthen,1,1,False,1,0.008696,0.5,False,ambiguous_name_collision,manual_review
+h dong,True,1792048,7503437,H. Dong,H. Dong,7,3,False,1,0.008,0.5,True,ambiguous_name_collision,manual_review
+s koch,True,143993800,2066454859,S. Koch,S. Koch,1,1,False,1,0.007812,1.0,False,ambiguous_name_collision,manual_review
+s mueller,True,39556642,47522210,S. Mueller,S. Mueller,1,1,False,1,0.007812,1.0,False,ambiguous_name_collision,manual_review
+b biswal,True,2268929,2064348131,B. Biswal,B. Biswal,6,1,False,1,0.007692,0.25,False,ambiguous_name_collision,manual_review
+v jirsa,True,7597475,2316574099,V. Jirsa,V. Jirsa,12,1,False,1,0.007143,0.333333,True,ambiguous_name_collision,manual_review
+a quattrone,True,2321981,2247463971,A. Quattrone,A. Quattrone,6,1,False,1,0.007092,1.0,False,ambiguous_name_collision,manual_review
+minsu kim,True,2375087031,2116507701,Minsu Kim,Minsu Kim,1,6,False,1,0.006667,0.0,True,ambiguous_name_collision,manual_review
+e bullmore,True,34217324,2361891710,E. Bullmore,E. Bullmore,31,1,False,1,0.006289,0.2,False,ambiguous_name_collision,manual_review
+jingpeng wu,True,31421132,7162062,Jingpeng Wu,Jingpeng Wu,23,1,False,1,0.005495,0.111111,True,ambiguous_name_collision,manual_review
+yong he,True,145475635,2118926146,Yong He,Yong He,38,1,False,1,0.00495,0.0,True,ambiguous_name_collision,manual_review
+ting zhao,True,145786043,2114775208,Ting Zhao,Ting Zhao,12,2,False,1,0.004878,0.0,True,ambiguous_name_collision,manual_review
+p thompson,False,145363223,2302521438,P. Thompson,P. M. Thompson,6,1,False,1,0.004785,0.333333,False,ambiguous_name_collision,manual_review
+stephen plaza,False,1846140,152457228,Stephen M. Plaza,Stephen K. Plaza,30,1,False,1,0.004219,0.0,True,ambiguous_name_collision,manual_review
+c mcdonald,True,1680974,2393210996,C. McDonald,C. Mcdonald,11,1,False,1,0.003817,0.0,False,ambiguous_name_collision,manual_review
+marta costa,True,145739913,2116353110,Marta Costa,Marta Costa,26,1,False,1,0.003096,0.166667,True,ambiguous_name_collision,manual_review
+p thompson,True,2412795623,2077480089,P. Thompson,P. Thompson,33,1,False,1,0.002857,0.5,False,ambiguous_name_collision,manual_review
+viren jain,True,35086944,2321602510,Viren Jain,Viren Jain,26,1,False,1,0.002857,0.1,True,ambiguous_name_collision,manual_review
+a alexander,False,2106745539,2351996605,A. Alexander,A. O. Alexander,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+a anwander,True,1772918,2236409840,A. Anwander,A. Anwander,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+a banerjee,True,32073181,2268843497,A. Banerjee,A. Banerjee,4,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+a cerasa,True,1685733,2334002420,A. Cerasa,A. Cerasa,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+a dagher,True,2268650631,2250402256,A. Dagher,A. Dagher,5,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+a david,True,2106815065,144510844,A. David,A. David,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+a davidson,False,123543491,2004698239,A. M. Davidson,A. Davidson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+a gholipour,True,2318053243,143936525,A. Gholipour,A. Gholipour,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+a golby,True,1804818,2250436209,A. Golby,A. Golby,8,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+a hn,False,2463789,2312850433,A. Kühn,A. A. Kühn,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+a holmes,True,35609365,2223236282,A. Holmes,A. Holmes,5,3,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+a horn,True,33588280,2321721505,A. Horn,A. Horn,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+a horn,True,33588280,2055745535,A. Horn,A. Horn,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+a horn,True,2321721505,2055745535,A. Horn,A. Horn,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+a iraji,True,2602754,2291935799,A. Iraji,A. Iraji,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+a maritan,True,2243246703,3123952,A. Maritan,A. Maritan,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+a mcintosh,True,145232559,144477665,A. Mcintosh,A. McIntosh,10,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+a mehta,True,80226544,31593564,A. Mehta,A. Mehta,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+a reiter,True,3207112,3151032,A. Reiter,A. Reiter,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+a reyes,True,8768151,1811630,A. Reyes,A. Reyes,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+a simmons,True,2443310,1680054,A. Simmons,A. Simmons,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+a simon,True,144607650,15556592,A. Simon,A. Simon,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+a walsum,False,2063937,2249134849,A. C. Walsum,A. M. V. C. V. Walsum,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+a ziaeemehr,True,2268852879,7985829,A. Ziaeemehr,A. Ziaeemehr,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+adeel razi,True,1740639,2291318483,Adeel Razi,Adeel Razi,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+adriana di martino,True,2234619598,2251471611,Adriana Di Martino,Adriana Di Martino,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+adriana di martino,True,2412749860,2251471611,Adriana Di Martino,Adriana Di Martino,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+alan evans,True,144159535,2257019181,Alan C. Evans,Alan C. Evans,3,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+albert cardona,True,145844120,2360774246,Albert Cardona,Albert Cardona,20,1,False,0,0.0,0.285714,False,ambiguous_name_collision,manual_review
+alessandra griffa,True,2276227963,2326082764,Alessandra Griffa,Alessandra Griffa,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+alexandra badea,True,144014548,2327665423,Alexandra Badea,Alexandra Badea,4,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+alexandre bejanin,True,2273187049,5494720,Alexandre Bejanin,Alexandre Bejanin,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+ali khan,True,2218490594,2134893113,Ali R. Khan,Ali R. Khan,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+andreas schaefer,True,40461570,2327386402,Andreas T. Schaefer,Andreas T. Schaefer,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+andreu ball santacana,True,114317833,2365565654,Andreu Ballús Santacana,Andreu Ballús Santacana,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+andrew mckenzie,True,2058858479,2368404641,Andrew T. McKenzie,Andrew T. McKenzie,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+anees kazi,True,32868927,2298433815,Anees Kazi,Anees Kazi,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+ashley harris,True,2303666293,2080410464,Ashley D. Harris,Ashley D. Harris,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+avinash khandelwal,True,2308460825,50022871,Avinash Khandelwal,Avinash Khandelwal,2,2,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+ayana hellevik,False,2183045378,2306743719,Ayana M. Hellevik,Ayana Hellevik,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+b biswal,True,2064348119,2064348131,B. Biswal,B. Biswal,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+b dunkley,False,3481690,2261811778,B. Dunkley,B. T. Dunkley,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+b jones,False,2313509197,2189135465,B. W. Jones,B. M. Jones,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+b nagel,True,3154010,2251445271,B. Nagel,B. Nagel,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+b park,True,6016393,2111067842,B. Park,B. Park,18,1,False,0,0.0,0.2,True,ambiguous_name_collision,manual_review
+b peterson,True,152503268,3286633,B. Peterson,B. Peterson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+b yeo,True,2033767520,2251773365,B. T. Yeo,B. T. Yeo,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2033767520,2244801367,B. T. Yeo,B. T. T. Yeo,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2033767520,2270293286,B. T. Yeo,B. Yeo,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2377283735,2251773365,B. T. T. Yeo,B. T. Yeo,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+b yeo,True,2377283735,2244801367,B. T. T. Yeo,B. T. T. Yeo,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2377283735,2270293286,B. T. T. Yeo,B. Yeo,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+b yeo,False,2251773365,2377283830,B. T. Yeo,B. Yeo,1,3,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+b yeo,False,2251773365,2244801367,B. T. Yeo,B. T. T. Yeo,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+b yeo,False,2251773365,2270293286,B. T. Yeo,B. Yeo,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2377283830,2244801367,B. Yeo,B. T. T. Yeo,3,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+b yeo,True,2377283830,2270293286,B. Yeo,B. Yeo,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+b yeo,False,2244801367,2270293286,B. T. T. Yeo,B. Yeo,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+bharat biswal,False,2361479568,2206120055,Bharat Biswal,Bharat B. Biswal,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+bin zhang,True,49846439,2119455128,Bin Zhang,Bin Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+bo li,True,2313084418,38079590,Bo Li,Bo Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+c abdallah,True,3348652,9689225,C. Abdallah,C. Abdallah,2,4,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+c abdallah,True,3348652,2275334969,C. Abdallah,C. Abdallah,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+c gerloff,True,3019244,2177352323,C. Gerloff,C. Gerloff,8,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+c gerloff,True,2255011108,2177352323,C. Gerloff,C. Gerloff,4,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+c gie ing,True,2276294845,2376570,C. Gießing,C. Gießing,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+c goodman,True,2419211,2239422232,C. Goodman,C. Goodman,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+c lee,True,2109465339,3202965,C. Lee,C. Lee,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+c luo,True,49138854,143725169,C. Luo,C. Luo,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+c park,True,2296226797,2249361687,C. Park,C. Park,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+c park,True,2296226797,2140350688,C. Park,C. Park,2,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+c park,True,2249361687,2140350688,C. Park,C. Park,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+c poupon,True,48594910,2265378075,C. Poupon,C. Poupon,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+c xie,True,2064753680,2329143907,C. Xie,C. Xie,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+carsten finke,True,2285324960,2249061,Carsten Finke,Carsten Finke,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+chao zhang,True,2368784450,2284058389,Chao Zhang,Chao Zhang,1,1,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+chao zhang,True,2368784450,2152735150,Chao Zhang,Chao Zhang,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+chao zhang,True,2284058389,2152735150,Chao Zhang,Chao Zhang,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+chen zhang,True,2313595789,2187909846,Chen Zhang,Chen Zhang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+cheng xu,True,2360308590,2153076219,Cheng Xu,Cheng Xu,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+chi zhang,True,2115811458,2115813827,Chi Zhang,Chi Zhang,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+christopher lynn,True,2258962836,2398902402,Christopher W. Lynn,Christopher W. Lynn,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+christopher lynn,True,2258962836,40900237,Christopher W. Lynn,Christopher W. Lynn,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+christopher lynn,True,2398902402,40900237,Christopher W. Lynn,Christopher W. Lynn,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+claus hilgetag,True,2306791790,2074365877,Claus C. Hilgetag,Claus C. Hilgetag,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+constantin pape,True,2315314214,8814947,Constantin Pape,Constantin Pape,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+d aydogan,True,2327734,2305800776,D. Aydogan,D. Aydogan,6,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+d barch,False,152833019,2244253284,D. M. Barch,D. Barch,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+d english,True,2203446565,24555690,D. English,D. English,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+d geschwind,True,2256531234,3253547,D. Geschwind,D. Geschwind,1,2,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+d mathalon,True,2340214442,2082340,D. Mathalon,D. Mathalon,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+d momi,True,2288567229,40767650,D. Momi,D. Momi,1,3,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+d pizzagalli,True,2258316388,2064878,D. Pizzagalli,D. Pizzagalli,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+d saur,True,2238994278,2088733,D. Saur,D. Saur,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+d svaldi,True,2411545454,5452350,D. Svaldi,D. Svaldi,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+d wei,True,1766333,33164554,D. Wei,D. Wei,25,2,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+d wei,True,3249957,33164554,D. Wei,D. Wei,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+damien fair,False,1381621217,2251929939,Damien Fair,Damien A. Fair,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+damon clark,True,2292003648,17420654,Damon A. Clark,Damon A. Clark,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+daniel bushey,True,2292124739,5997117,Daniel Bushey,Daniel Bushey,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+daniel lee,True,2115651440,2405131975,Daniel D. Lee,Daniel D. Lee,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+daniel margulies,True,2328686247,2246089059,Daniel S. Margulies,Daniel S. Margulies,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+david bader,True,2372915690,153595774,David A. Bader,David A. Bader,2,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+david phillips,True,2306552772,2070423760,David Phillips,David Phillips,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+david reid,True,92697979,2277912204,David Reid,David Reid,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+derek jones,True,2249088512,2148396214,Derek K. Jones,Derek K. Jones,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+derek jones,True,2158112540,2148396214,Derek K. Jones,Derek K. Jones,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+dinggang shen,True,2262958719,2112477074,Dinggang Shen,Dinggang Shen,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+dinggang shen,True,2262958719,2150038187,Dinggang Shen,Dinggang Shen,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+dinggang shen,True,2262958719,2239088988,Dinggang Shen,Dinggang Shen,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+dinggang shen,True,2112477074,2150038187,Dinggang Shen,Dinggang Shen,1,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+dinggang shen,True,2112477074,2239088988,Dinggang Shen,Dinggang Shen,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+dinggang shen,True,2150038187,2239088988,Dinggang Shen,Dinggang Shen,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+du lei,True,2064827720,2064825769,Du Lei,Du Lei,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+e earl,False,2253759,2217220716,E. Earl,E. R. Earl,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+e hong,True,2053922081,114821918,E. Hong,E. Hong,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+e mandonnet,True,2364418,2250271243,E. Mandonnet,E. Mandonnet,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+e middlebrooks,True,3656276,2269289667,E. Middlebrooks,E. Middlebrooks,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+e smith,False,2120255330,152429985,E. E. Smith,E. Smith,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+enrico amico,True,2185612469,2286190327,Enrico Amico,Enrico Amico,3,1,False,0,0.0,0.666667,True,ambiguous_name_collision,manual_review
+enrico amico,True,2286190327,2292868024,Enrico Amico,Enrico Amico,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+erik bloss,True,4072373,2248275804,Erik B. Bloss,Erik B. Bloss,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+f barkhof,True,2242596860,2241304957,F. Barkhof,F. Barkhof,1,1,False,0,0.0,0.666667,True,ambiguous_name_collision,manual_review
+f barkhof,True,2241304957,2496051,F. Barkhof,F. Barkhof,1,1,False,0,0.0,0.666667,False,ambiguous_name_collision,manual_review
+f li,True,2157948716,2220184491,F. Li,F. Li,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+f richter,True,2059363045,48621026,F. Richter,F. Richter,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+f santos,False,2047362450,2240070798,F. Santos,F. A. Santos,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+fabrice wendling,True,2251417934,2249958681,Fabrice Wendling,Fabrice Wendling,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+fei wang,True,2262111477,2148954627,Fei Wang,Fei Wang,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+fei wang,True,2262111477,2322501282,Fei Wang,Fei Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+fei wang,True,2148954627,47939457,Fei Wang,Fei Wang,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+fei wang,True,2148954627,2322501282,Fei Wang,Fei Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+fei wang,True,47939457,2322501282,Fei Wang,Fei Wang,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+feng li,True,2146311675,2366061406,Feng Li,Feng Li,18,1,False,0,0.0,0.166667,False,ambiguous_name_collision,manual_review
+feng zhang,True,2264087823,145127003,Feng Zhang,Feng Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+fernando vonhoff,True,3652313,2265786925,Fernando J Vonhoff,Fernando J Vonhoff,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+fuqiang xu,True,11159516,2274768434,Fuqiang Xu,Fuqiang Xu,4,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+g deco,True,145333301,2333355446,G. Deco,G. Deco,25,1,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+g deco,True,2333355446,2263750702,G. Deco,G. Deco,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+g roberts,True,143975530,2998040,G. Roberts,G. Roberts,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+g williams,True,144416314,2107434195,G. Williams,G. Williams,4,1,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+gaia novarino,True,48472951,2305669670,Gaia Novarino,Gaia Novarino,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+gang yan,True,50148140,2164075034,Gang Yan,Gang Yan,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+geng chen,True,2254838928,2316763266,Geng Chen,Geng Chen,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+geng chen,True,2116389104,2316763266,Geng Chen,Geng Chen,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+geng chen,True,143808551,2316763266,Geng Chen,Geng Chen,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+giulio valperga,True,1396328884,2311866261,Giulio Valperga,Giulio Valperga,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+guoqiang bi,True,2711974,2268850385,Guoqiang Bi,Guoqiang Bi,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+guorong wu,True,2255506351,2406043984,Guorong Wu,Guorong Wu,8,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+guorong wu,True,2355121544,2406043984,Guorong Wu,Guorong Wu,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+guorong wu,True,2406043984,2336939877,Guorong Wu,Guorong Wu,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+guozhang chen,True,2363169606,2309263810,Guozhang Chen,Guozhang Chen,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+h duffau,True,145578262,152809954,H. Duffau,H. Duffau,28,1,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+h lee,True,2118422064,2116624437,H. Lee,H. Lee,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+h soltanian zadeh,True,1400064324,2261929684,H. Soltanian-Zadeh,H. Soltanian-Zadeh,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+h taylor,True,2068990472,145526415,H. Taylor,H. Taylor,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+hailong li,True,47892864,47892215,Hailong Li,Hailong Li,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+hao ming dong,True,6551660,2332489719,Hao-Ming Dong,Hao-Ming Dong,5,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+hao wang,True,2144219630,40574043,Hao Wang,Hao Wang,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+he wang,True,2149698929,2149699162,He Wang,He Wang,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+helen carlson,True,2303671898,2308941537,Helen L. Carlson,Helen L. Carlson,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+heng huang,True,1748032,2146257986,Heng Huang,Heng Huang,1,6,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+heng huang,True,1748032,145114933,Heng Huang,Heng Huang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+heng huang,True,1748032,2347484108,Heng Huang,Heng Huang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+heng huang,True,1748032,2252369635,Heng Huang,Heng Huang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+heng huang,True,1748032,46676192,Heng Huang,Heng Huang,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+heng huang,True,145114933,46676192,Heng Huang,Heng Huang,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+heng huang,True,2347484108,46676192,Heng Huang,Heng Huang,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+hideyuki okano,True,2242374991,2119735947,Hideyuki Okano,Hideyuki Okano,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+hideyuki okano,True,2282329446,2119735947,Hideyuki Okano,Hideyuki Okano,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+hua han,True,2268512206,2223984386,Hua Han,Hua Han,3,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+hui gong,True,2307791674,2253400284,Hui Gong,Hui Gong,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+hui gong,True,2307791674,2242681871,Hui Gong,Hui Gong,1,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+hui gong,True,2307791674,2320556068,Hui Gong,Hui Gong,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+hui gong,True,2307791674,2118178813,Hui Gong,Hui Gong,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+ian stewart,True,2316022032,2086070604,Ian Stewart,Ian Stewart,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+igor yakushev,True,2286894509,2249119161,Igor Yakushev,Igor Yakushev,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+j bao,True,2277781841,2038536947,J. Bao,J. Bao,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j buitelaar,True,2113940997,2376959,J. Buitelaar,J. Buitelaar,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+j campbell,False,2107231655,2289911699,J. Campbell,J. E. Campbell,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j changeux,True,6777427,2239472779,J. Changeux,J. Changeux,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j cheong,True,2060748584,2051739,J. Cheong,J. Cheong,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+j choi,True,22246366,46309266,J. Choi,J. Choi,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+j duncan,True,145811086,145947161,J. Duncan,J. Duncan,6,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+j duncan,True,145811086,145822452,J. Duncan,J. Duncan,6,3,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+j duncan,True,145947161,145822452,J. Duncan,J. Duncan,1,3,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+j duncan,True,145947161,117441402,J. Duncan,J. Duncan,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+j duncan,True,145947161,48990117,J. Duncan,J. Duncan,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+j duncan,False,145947161,2301329154,J. Duncan,J. S. Duncan,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+j duncan,True,145822452,117441402,J. Duncan,J. Duncan,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+j duncan,True,145822452,48990117,J. Duncan,J. Duncan,3,2,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+j duncan,False,145822452,2301329154,J. Duncan,J. S. Duncan,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+j gabrieli,True,2064664800,144706002,J. Gabrieli,J. Gabrieli,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+j gallego,False,152843607,2125208648,J. A. Gallego,J.S. Gallego,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j go i,True,145144224,2268050078,J. Goñi,J. Goñi,13,1,False,0,0.0,0.2,False,ambiguous_name_collision,manual_review
+j kutz,True,2239694290,144484982,J. Kutz,J. Kutz,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j kutz,True,2239694290,144484983,J. Kutz,J. Kutz,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j kutz,True,144484982,144484983,J. Kutz,J. Kutz,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+j lauritzen,False,2243053472,50571802,J. Lauritzen,J. S. Lauritzen,1,7,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+j peters,True,145046818,2255323182,J. Peters,J. Peters,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j polimeni,True,1782963,2303260991,J. Polimeni,J. Polimeni,2,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+j poline,False,144063147,1802033,J. Poline,J B Poline,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+j price,True,2170232988,2072401558,J. Price,J. Price,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j ryu,True,8253958,27054445,J. Ryu,J. Ryu,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+j scott,True,2242742070,16091068,J. Scott,J. Scott,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+j stein,True,32215861,32724071,J. Stein,J. Stein,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+j stout,False,2001893,1865435,J. Stout,J C Stout,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+j suckling,True,1939498,2265743253,J. Suckling,J. Suckling,18,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+j white,False,51297121,32371650,J. D. White,J. White,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+jacob morra,False,2372542811,9545446,Jacob J. Morra,Jacob Morra,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+jaeseung jeong,True,1684522,2248246906,Jaeseung Jeong,Jaeseung Jeong,1,3,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+james pang,True,2238255284,2242202498,James C. Pang,James C. Pang,2,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+jan pielage,True,4568001,2139048558,Jan Pielage,Jan Pielage,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jan pielage,True,2139048558,2254468866,Jan Pielage,Jan Pielage,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jesse brown,False,17283949,2272422354,Jesse A. Brown,Jesse Brown,2,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+jesse brown,False,2272422354,1405909177,Jesse Brown,Jesse A. Brown,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+jia hong gao,True,2238393718,2149258099,Jia-Hong Gao,Jia-Hong Gao,3,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+jia hong gao,True,143838400,2149258099,Jia-Hong Gao,Jia-Hong Gao,1,2,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+jian cheng,True,144609679,2240029074,Jian Cheng,Jian Cheng,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jie ma,True,2291726405,2115890314,Jie Ma,Jie Ma,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+jinbo zhang,True,2266355409,2107990261,Jinbo Zhang,Jinbo Zhang,1,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+jing liu,True,2153466362,2153466966,Jing Liu,Jing Liu,5,3,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+jing liu,True,2153466362,2153466659,Jing Liu,Jing Liu,5,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+jing liu,True,2153466966,2153466659,Jing Liu,Jing Liu,3,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+jing yuan,True,2248043901,2118571948,Jing Yuan,Jing Yuan,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+jing zhang,True,2155701300,2325594224,Jing Zhang,Jing Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jing zhang,True,2155701300,2155702776,Jing Zhang,Jing Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jing zhang,True,2325594224,2155702776,Jing Zhang,Jing Zhang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+jinglei lv,True,10255622,2328850933,Jinglei Lv,Jinglei Lv,7,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jingpeng wu,True,2281389294,7162062,Jingpeng Wu,Jingpeng Wu,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jinhui wang,True,38612176,2144495838,Jinhui Wang,Jinhui Wang,7,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+jinhui wang,True,2308821461,2144495838,Jinhui Wang,Jinhui Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jinsong wu,True,47876123,2266429630,Jinsong Wu,Jinsong Wu,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+john kirsch,False,2363532377,2332615044,John E. Kirsch,John Kirsch,1,2,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+john kirsch,False,2363532377,2348537655,John E. Kirsch,John Kirsch,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+john kirsch,True,2332615044,2348537655,John Kirsch,John Kirsch,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+joshua faskowitz,True,35283145,2122988473,Joshua Faskowitz,Joshua Faskowitz,6,4,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+juergen dukart,True,2344244932,2283423917,Juergen Dukart,Juergen Dukart,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+julie tran,True,2254419470,2066787005,Julie Tran,Julie Tran,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+julio chapeton,False,50428710,2326471818,Julio I. Chapeton,Julio Chapeton,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+jun liu,True,9756930,49722346,Jun Liu,Jun Liu,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+jun wu,True,2146668445,2146667354,Jun Wu,Jun Wu,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+junjie zheng,True,2243313282,3087493,Junjie Zheng,Junjie Zheng,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+k davis,True,32487951,51046501,K. Davis,K. Davis,2,4,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+k davis,True,32487951,2250383416,K. Davis,K. Davis,2,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+k davis,True,32487951,2111798344,K. Davis,K. Davis,2,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+k deisseroth,True,2799815,2247746871,K. Deisseroth,K. Deisseroth,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k harris,True,143943612,7917904,K. Harris,K. Harris,8,2,False,0,0.0,0.2,True,ambiguous_name_collision,manual_review
+k harris,True,143943612,144931354,K. Harris,K. Harris,8,3,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+k harris,True,7917904,144931354,K. Harris,K. Harris,2,3,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+k kording,True,150174214,2265968368,K. Kording,K. Kording,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k lam,True,2273928361,2555665,K. Lam,K. Lam,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k lee,True,2378401682,2115495374,K. Lee,K. Lee,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k li,True,2250918107,2107513690,K. Li,K. Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k li,True,2250918107,2219857650,K. Li,K. Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k li,True,2107513690,2219857650,K. Li,K. Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k martin,False,145942574,34737858,K. Martin,K. C. Martin,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k miller,True,2168720,35250885,K. Miller,K. Miller,2,5,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+k miller,False,35250885,115860989,K. Miller,K. J. Miller,5,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+k murata,True,3033925,143984869,K. Murata,K. Murata,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k nguyen,True,2128332,2066318060,K. Nguyen,K. Nguyen,3,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+k seymour,True,2061411982,3181951,K. Seymour,K. Seymour,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+k shen,True,7509181,47693320,K. Shen,K. Shen,5,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+kai kang,True,2114071971,2114069253,Kai Kang,Kai Kang,3,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+kai wang,True,2148896264,2387612032,Kai Wang,Kai Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+kai wang,True,2387612032,12436933,Kai Wang,Kai Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+kai wu,True,144295030,2115598027,Kai Wu,Kai Wu,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+ke chen,True,2262259696,32811782,Ke Chen,Ke Chen,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+keith smith,False,78855623,2110165016,Keith M. Smith,Keith J. Smith,3,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+keith smith,False,2110165016,2275723807,Keith J. Smith,Keith M. Smith,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+keun young kim,True,2155286648,2265619405,Keun-Young Kim,Keun-Young Kim,2,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+keun young kim,True,2155286648,2351405994,Keun-Young Kim,Keun-Young Kim,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+kun zhao,True,2364702855,2262113752,Kun Zhao,Kun Zhao,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+l abbott,True,145293717,2145281,L. Abbott,L. Abbott,4,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l abbott,True,2145281,2327552391,L. Abbott,L. Abbott,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l abbott,False,2145281,2404178285,L. Abbott,L. F. Abbott,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l abbott,True,2145281,46386728,L. Abbott,L. Abbott,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l abbott,False,2327552391,2404178285,L. Abbott,L. F. Abbott,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l abbott,True,2327552391,46386728,L. Abbott,L. Abbott,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l abbott,False,2404178285,46386728,L. F. Abbott,L. Abbott,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l astolfi,True,3006953,2380827594,L. Astolfi,L. Astolfi,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l barnes,False,32185410,2400626691,L. Barnes,L. L. Barnes,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+l cocchi,True,8894631,2305813793,L. Cocchi,L. Cocchi,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l luo,True,145586825,1703897111,L. Luo,L. Luo,5,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+l richards,False,1731223,2244607696,L. Richards,L. J. Richards,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l su,True,145235480,2069855184,L. Su,L. Su,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l uddin,True,9763151,2291876084,L. Uddin,L. Uddin,7,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+l williams,True,2234259876,2162166594,L. Williams,L. Williams,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+l zhang,True,48570713,1400088777,L. Zhang,L. Zhang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+lee,True,2224674347,2450724385,Lee,Lee,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+lei li,True,50444270,2151530314,Lei Li,Lei Li,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+leon cai,True,2153959548,2318285906,Leon Y Cai,Leon Y Cai,1,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+li chen,True,2267723029,2146027001,Li Chen,Li Chen,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+li chen,True,2267723029,2448920044,Li Chen,Li Chen,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+li chen,True,2146027001,2448920044,Li Chen,Li Chen,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+li shen,True,38862163,2312908856,Li Shen,Li Shen,4,1,False,0,0.0,0.2,False,ambiguous_name_collision,manual_review
+li shen,True,38862163,2121271401,Li Shen,Li Shen,4,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+li shen,True,2312908856,2121271401,Li Shen,Li Shen,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+li wang,True,2152722680,2152715077,Li Wang,Li Wang,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+li wang,True,2152722680,2362370057,Li Wang,Li Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+li wang,True,2152715077,49680659,Li Wang,Li Wang,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+li wang,True,2152715077,2362370057,Li Wang,Li Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+li wang,True,2152715077,46659719,Li Wang,Li Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+li wang,True,49680659,2362370057,Li Wang,Li Wang,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+li wang,True,2362370057,46659719,Li Wang,Li Wang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+liang zhan,True,2299155137,2243975081,Liang Zhan,Liang Zhan,1,2,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+lifang he,True,40901820,40901818,Lifang He,Lifang He,1,10,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+linqing feng,True,8315401,2261469639,Linqing Feng,Linqing Feng,6,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+liu qian,True,2023859788,2072789356,Liu Qian,Liu Qian,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+lukas frontzkowski,False,2266471580,1992768505,Lukas K Frontzkowski,Lukas Frontzkowski,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+m corbetta,True,144639500,1723344,M. Corbetta,M. Corbetta,2,7,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+m hashemi,True,34654124,2253422050,M. Hashemi,M. Hashemi,1,2,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+m he,True,143779099,40543897,M. Heß,M. He,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+m heuvel,True,2099339540,33923116,M. P. Heuvel,M. P. Heuvel,1,6,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+m jiang,True,2152156367,2244681555,M. Jiang,M. Jiang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+m law,True,145979301,2075447262,M. Law,M. Law,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+m lui,True,2243120677,2346410651,M. Lui,M. Lui,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m macdonald,True,145526224,7873160,M. Macdonald,M. MacDonald,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+m mahjoub,True,1707715,6514842,M. Mahjoub,M. Mahjoub,6,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+m mazri,False,2182060702,1825715236,M. F. Mazri,M. Mazri,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+m petersen,True,145854168,27457425,M. Petersen,M. Petersen,2,1,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+m reisert,True,2780327,2266824329,M. Reisert,M. Reisert,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m reisert,True,2266824329,2344924760,M. Reisert,M. Reisert,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+m richardson,True,32692498,2105967593,M. Richardson,M. Richardson,5,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+m roy,True,40560749,32932541,M. Roy,M. Roy,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+m shao,True,2292126013,5094391,M. Shao,M. Shao,2,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+m styner,False,143755814,2284163158,M. Styner,M.A. Styner,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m styner,True,143755814,1490813437,M. Styner,M. Styner,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m styner,False,2284163158,1490813437,M.A. Styner,M. Styner,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+m tisdall,True,36503437,2312051943,M. Tisdall,M. Tisdall,5,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m tisdall,True,36503437,1805494,M. Tisdall,M. Tisdall,5,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m ventresca,True,2642324,2294305808,M. Ventresca,M. Ventresca,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m walter,True,50194916,2074167459,M. Walter,M. Walter,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m walter,True,50194916,2280320546,M. Walter,M. Walter,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+m walter,True,2074167459,2280320546,M. Walter,M. Walter,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+m weiner,True,152560087,2339435032,M. Weiner,M. Weiner,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+m williams,False,50660783,2277159843,M. E. Williams,M. Williams,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+manuel schr ter,False,2276350375,2454741,Manuel Schröter,Manuel S. Schröter,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+manuel zimmer,True,2295960598,15271521,Manuel Zimmer,Manuel Zimmer,2,3,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+manuel zimmer,True,15271521,2324239875,Manuel Zimmer,Manuel Zimmer,3,2,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+marco agus,True,144346127,2261027323,Marco Agus,Marco Agus,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+marcus kaiser,True,144432513,144432514,Marcus Kaiser,Marcus Kaiser,5,5,False,0,0.0,0.666667,True,ambiguous_name_collision,manual_review
+martijn van den heuvel,False,2298429716,2391032712,Martijn van den Heuvel,Martijn P. van den Heuvel,1,4,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+martijn van den heuvel,True,2298429716,2391032745,Martijn van den Heuvel,Martijn van den Heuvel,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+martijn van den heuvel,False,2391032712,2391032745,Martijn P. van den Heuvel,Martijn van den Heuvel,4,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+martin schmidt,True,2184803830,2448709990,Martin Schmidt,Martin Schmidt,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+matteo mancini,True,33553839,2317978509,Matteo Mancini,Matteo Mancini,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+matthew brown,False,145465728,39537740,Matthew T. C. Brown,Matthew P. Brown,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+maxwell turner,True,38402775,2286036978,Maxwell H. Turner,Maxwell H. Turner,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+meng li,True,2004582591,49141099,Meng Li,Meng Li,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+mianxin liu,True,2318246845,113076775,Mianxin Liu,Mianxin Liu,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+michael anderson,True,2319860005,2266254405,Michael Anderson,Michael Anderson,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+michael pankratz,True,2251115443,2323989130,Michael J. Pankratz,Michael J Pankratz,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+min soo kim,True,2116507415,2289862332,Min-Soo Kim,Min-Soo Kim,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+min xu,True,2153555303,1406194585,Min Xu,Min Xu,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+mingrui xia,True,2285512469,2252098228,Mingrui Xia,Mingrui Xia,1,2,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+mingxia liu,True,2128817641,7830359,Mingxia Liu,Mingxia Liu,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+mingyang li,True,2159553726,2395830870,Mingyang Li,Mingyang Li,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+mitul mehta,True,2336722468,2223933122,Mitul A. Mehta,Mitul A Mehta,1,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+n chen,True,2251260529,31136266,N. Chen,N. Chen,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+n crossley,True,2241387577,2201472,N. Crossley,N. Crossley,1,1,False,0,0.0,0.666667,False,ambiguous_name_collision,manual_review
+n parikh,True,2293437549,3484740,N. Parikh,N. Parikh,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+nenggan zheng,True,2261747264,39436559,Nenggan Zheng,Nenggan Zheng,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+nicholas chua,True,2248085472,2175277759,Nicholas J. Chua,Nicholas J. Chua,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+nicolas farrugia,True,2240527657,2644837,Nicolas Farrugia,Nicolas Farrugia,1,3,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+o andreassen,True,1777021,2257730639,O. Andreassen,O. Andreassen,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+olaf sporns,True,2262343041,2257290101,Olaf Sporns,Olaf Sporns,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+olaf sporns,True,2238443848,2257290101,Olaf Sporns,Olaf Sporns,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+p hagmann,True,1896450,2251343912,P. Hagmann,P. Hagmann,20,1,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+p thompson,False,2149570536,2302521438,P. Thompson,P. M. Thompson,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+p thompson,True,2077480089,145363223,P. Thompson,P. Thompson,1,6,False,0,0.0,0.666667,True,ambiguous_name_collision,manual_review
+p thompson,True,2077480089,2258889863,P. Thompson,P. Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+p thompson,False,2077480089,2302521438,P. Thompson,P. M. Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+p thompson,False,2258889863,2302521438,P. Thompson,P. M. Thompson,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+p zhao,True,46737397,2360604382,P. Zhao,P. Zhao,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+parul verma,True,2237133962,4587421,Parul Verma,Parul Verma,2,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2252488132,Paul M. Thompson,Paul M. Thompson,3,2,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2260351082,Paul M. Thompson,Paul M. Thompson,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+paul thompson,False,2077479650,2324081301,Paul M. Thompson,Paul Thompson,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2263661823,Paul M. Thompson,Paul M. Thompson,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2248493807,Paul M. Thompson,Paul M. Thompson,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2273963610,Paul M. Thompson,Paul M. Thompson,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+paul thompson,True,2077479650,2412444158,Paul M. Thompson,Paul M. Thompson,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2252488132,2267464100,Paul M. Thompson,Paul M Thompson,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2252488132,2254281045,Paul M. Thompson,Paul M. Thompson,2,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+paul thompson,False,2252488132,2324081301,Paul M. Thompson,Paul Thompson,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2252488132,2263661823,Paul M. Thompson,Paul M. Thompson,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2252488132,2248493807,Paul M. Thompson,Paul M. Thompson,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+paul thompson,True,2252488132,2412444158,Paul M. Thompson,Paul M. Thompson,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2267464100,2260351082,Paul M Thompson,Paul M. Thompson,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,False,2267464100,2324081301,Paul M Thompson,Paul Thompson,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+paul thompson,True,2267464100,2263661823,Paul M Thompson,Paul M. Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2267464100,2248493807,Paul M Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2267464100,2273963610,Paul M Thompson,Paul M. Thompson,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2267464100,2412444158,Paul M Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2254281045,2260351082,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+paul thompson,False,2254281045,2324081301,Paul M. Thompson,Paul Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2254281045,2263661823,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2254281045,2248493807,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+paul thompson,True,2254281045,2273963610,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2254281045,2412444158,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,False,2260351082,2324081301,Paul M. Thompson,Paul Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2260351082,2263661823,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,True,2260351082,2248493807,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+paul thompson,True,2260351082,2412444158,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,False,2324081301,2263661823,Paul Thompson,Paul M. Thompson,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+paul thompson,False,2324081301,2248493807,Paul Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,False,2324081301,2273963610,Paul Thompson,Paul M. Thompson,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+paul thompson,False,2324081301,2412444158,Paul Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2263661823,2248493807,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2263661823,2273963610,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+paul thompson,True,2263661823,2412444158,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2248493807,2273963610,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2248493807,2412444158,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+paul thompson,True,2273963610,2412444158,Paul M. Thompson,Paul M. Thompson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+peng cao,True,152550893,2055003817,Peng Cao,Peng Cao,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+peng xie,True,1617900570,2260468064,Peng Xie,Peng Xie,3,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+peng zhao,True,2114871426,2446885230,Peng Zhao,Peng Zhao,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+petr znamenskiy,True,4435177,2323940877,Petr Znamenskiy,Petr Znamenskiy,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+phoebe thomson,True,152417567,2291016834,Phoebe Thomson,Phoebe Thomson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+pierre magistretti,False,2265513953,2354363157,Pierre Magistretti,Pierre J. Magistretti,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+q luo,True,73287920,1436057590,Q. Luo,Q. Luo,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+qi yang,True,2109122615,2116902350,Qi Yang,Qi Yang,3,1,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+qian wang,True,2215061296,2238161863,Qian Wang,Qian Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+qian wang,True,2215061296,2155616510,Qian Wang,Qian Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+qian wang,True,2238161863,2155616510,Qian Wang,Qian Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+qiang xu,True,145765202,2149106604,Qiang Xu,Qiang Xu,2,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+qing li,True,2117896467,2117895360,Qing Li,Qing Li,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+qing wang,True,2268969425,2117945774,Qing Wang,Qing Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+qingyu zhao,True,2354755077,47521948,Qingyu Zhao,Qingyu Zhao,1,3,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+qiong liu,True,2154741227,2154741322,Qiong Liu,Qiong Liu,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+qiongling li,True,2242473749,2105794,Qiongling Li,Qiongling Li,3,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+qiyong gong,True,2332556775,2252895667,Qiyong Gong,Qiyong Gong,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+qiyong gong,True,2332556775,2250128181,Qiyong Gong,Qiyong Gong,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+qiyong gong,True,2274334154,2252895667,Qiyong Gong,Qiyong Gong,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+qiyong gong,True,2274334154,2250128181,Qiyong Gong,Qiyong Gong,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+r betzel,True,2319127593,2065804738,R. Betzel,R. Betzel,6,1,False,0,0.0,0.166667,False,ambiguous_name_collision,manual_review
+r fields,True,145203858,2293737920,R. Fields,R. Fields,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+r lambiotte,True,1706831,2256689516,R. Lambiotte,R. Lambiotte,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+r mcintyre,False,8030249,32863048,R. McIntyre,R. L. McIntyre,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+r morey,True,2001160,2221073635,R. Morey,R. Morey,2,1,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+r prakash,True,2403829580,2465943,R. Prakash,R. Prakash,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+r reid,True,2247665719,2254043701,R. Reid,R. Reid,5,7,False,0,0.0,0.166667,False,ambiguous_name_collision,manual_review
+r shinohara,False,2507543,2331496911,R. Shinohara,R. T. Shinohara,7,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+r shinohara,False,2331496911,2238048515,R. T. Shinohara,R. Shinohara,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+r shinohara,False,2331496911,2114637239,R. T. Shinohara,R. Shinohara,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+r sullivan,True,2323177643,143651942,R. Sullivan,R. Sullivan,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+r wong,True,2272389164,2242363768,R. Wong,R. Wong,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+r yuste,True,47564140,2270746550,R. Yuste,R. Yuste,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+rachel wilson,True,1400235927,2310186242,Rachel I. Wilson,Rachel I. Wilson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+rafael yuste,True,2237418947,2333481083,Rafael Yuste,Rafael Yuste,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+ricardo coronado leija,True,1403294306,2336586790,Ricardo Coronado-Leija,Ricardo Coronado-Leija,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+robert gross,True,2253437426,2291660261,Robert E. Gross,Robert E. Gross,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+robert smith,False,2214312998,2239462102,Robert G. Smith,Robert E. Smith,1,2,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+robert smith,False,2214312998,2298916448,Robert G. Smith,Robert E. Smith,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+robert smith,False,2239462102,2115488282,Robert E. Smith,Robert G. Smith,2,3,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+robert smith,False,2239462102,2354638452,Robert E. Smith,Robert G. Smith,2,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+robert smith,True,2239462102,2298916448,Robert E. Smith,Robert E. Smith,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+robert smith,False,2115488282,2298916448,Robert G. Smith,Robert E. Smith,3,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+robert smith,False,2354638452,2298916448,Robert G. Smith,Robert E. Smith,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+rong zhang,True,2119062092,2152042337,Rong Zhang,Rong Zhang,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+rui zhang,True,2276180869,144142353,Rui Zhang,Rui Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+ruobing zhang,True,2110064896,2303415562,Ruobing Zhang,Ruobing Zhang,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+s bickel,True,143995469,2066057282,S. Bickel,S. Bickel,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+s brown,False,4374782,2111075866,S. P. Brown,S. Brown,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s brown,False,4374782,2108837229,S. P. Brown,S. Brown,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s brown,True,2111075866,2108837229,S. Brown,S. Brown,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s caspers,True,2301213239,1749053,S. Caspers,S. Caspers,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s chan,False,2148769127,2118786751,S. S. M. Chan,S. Y. Chan,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s cox,True,4609184,32628004,S. Cox,S. Cox,5,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+s cox,True,32628004,1600505736,S. Cox,S. Cox,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+s cox,True,32628004,2249497170,S. Cox,S. Cox,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+s eickhoff,True,2299122942,2256438152,S. Eickhoff,S. Eickhoff,1,4,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+s hosseini,False,1380725886,2366028651,S. A. Hosseini,S. H. Hosseini,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s khalsa,True,4326555,144271345,S. Khalsa,S. Khalsa,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+s nelson,False,144332223,3049675,S. M. Nelson,S. Nelson,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s schreiber,True,2316858407,145350029,S. Schreiber,S. Schreiber,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s sherman,True,143980134,2057502298,S. Sherman,S. Sherman,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s valk,True,2268372724,2249960955,S. Valk,S. Valk,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s warfield,True,145502062,2250419495,S. Warfield,S. Warfield,3,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+s williams,True,40383891,2243838768,S. Williams,S. Williams,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+s williams,True,40383891,2108671331,S. Williams,S. Williams,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+s williams,True,2107720438,2243838768,S. Williams,S. Williams,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+s williams,True,2107720438,2108671331,S. Williams,S. Williams,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+s williams,True,2243838768,2108671331,S. Williams,S. Williams,1,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+satrajit ghosh,True,2249070379,145436428,Satrajit S. Ghosh,Satrajit S. Ghosh,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+shu kondo,True,2241657946,2238444709,Shu Kondo,Shu Kondo,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+shuo chen,True,2108807430,2143480208,Shuo Chen,Shuo Chen,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+shuo chen,True,2263266213,2143480208,Shuo Chen,Shuo Chen,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+shuo chen,True,2143480208,2300201900,Shuo Chen,Shuo Chen,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+simon eickhoff,True,2316793971,2332595832,Simon B. Eickhoff,Simon B. Eickhoff,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+srinivas turaga,True,3178417,2269560464,Srinivas C. Turaga,Srinivas C. Turaga,9,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+stephen smith,False,2162210436,152225255,Stephen M. Smith,Stephen J. Smith,27,2,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+stephen smith,False,2162210436,2111052479,Stephen M. Smith,Stephen Smith,27,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+stephen smith,False,2162210436,2149153607,Stephen M. Smith,Stephen J. Smith,27,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+stephen smith,False,2254774234,152225255,Stephen M. Smith,Stephen J. Smith,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+stephen smith,True,2254774234,2251948753,Stephen M. Smith,Stephen M. Smith,1,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+stephen smith,False,2254774234,2111052479,Stephen M. Smith,Stephen Smith,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+stephen smith,False,2254774234,2149153607,Stephen M. Smith,Stephen J. Smith,1,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+stephen smith,False,2149153544,152225255,Stephen M. Smith,Stephen J. Smith,2,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+stephen smith,False,2149153544,2111052479,Stephen M. Smith,Stephen Smith,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+stephen smith,False,2149153544,2149153607,Stephen M. Smith,Stephen J. Smith,2,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+stephen smith,False,152225255,2251948753,Stephen J. Smith,Stephen M. Smith,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+stephen smith,False,152225255,2111052479,Stephen J. Smith,Stephen Smith,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+stephen smith,False,2251948753,2111052479,Stephen M. Smith,Stephen Smith,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+stephen smith,False,2251948753,2149153607,Stephen M. Smith,Stephen J. Smith,1,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+stephen smith,False,2111052479,2149153607,Stephen Smith,Stephen J. Smith,1,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+stewart mostofsky,False,2251508303,2273192932,Stewart H. Mostofsky,Stewart Mostofsky,1,1,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+t bolton,True,34897130,2316755722,T. Bolton,T. Bolton,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+t lett,True,2240969118,2613491,T. Lett,T. Lett,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+t nguyen,True,2157796031,47523407,T. Nguyen,T. Nguyen,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+t nguyen,False,2157796031,98684338,T. Nguyen,T. A. K. Nguyen,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+t nguyen,False,47523407,98684338,T. Nguyen,T. A. K. Nguyen,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+t roberts,True,153210994,2334015506,T. Roberts,T. Roberts,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+t roberts,True,153210994,4634776,T. Roberts,T. Roberts,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+t roberts,True,2334015506,4634776,T. Roberts,T. Roberts,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+tao fang,True,2288617248,2327066055,Tao Fang,Tao Fang,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+tao fang,True,2327066055,2057026124,Tao Fang,Tao Fang,1,2,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+tao li,True,2149200822,48779259,Tao Li,Tao Li,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+tao li,True,2149200822,2290137098,Tao Li,Tao Li,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+tao wang,True,2156018197,2156633812,Tao Wang,Tao Wang,1,2,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+thomas nowotny,True,2248819420,7619435,Thomas Nowotny,Thomas Nowotny,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+tianye jia,True,2323801574,2243441886,Tianye Jia,Tianye Jia,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+tianyu wang,True,49980839,2217892707,Tianyu Wang,Tianyu Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+ting gong,True,2309248948,2057552234,Ting Gong,Ting Gong,2,1,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+ting xu,True,153070206,2213778011,Ting Xu,Ting Xu,4,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+ting zhao,True,145786043,2114773827,Ting Zhao,Ting Zhao,12,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+ting zhao,True,2314546102,2114773827,Ting Zhao,Ting Zhao,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+ting zhao,True,2314546102,2114775208,Ting Zhao,Ting Zhao,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+todd huffman,True,2383266994,2389005242,Todd Huffman,Todd Huffman,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+u alon,True,8319448,2239074199,U. Alon,U. Alon,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+v jirsa,True,2296706988,2316574099,V. Jirsa,V. Jirsa,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+valeria andrea,True,1409191287,2301456447,Valeria d'Andrea,Valeria d’Andrea,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+valeria kebets,True,2312378593,2936046,Valeria Kebets,Valeria Kebets,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+w liao,True,1679587,34373497,W. Liao,W. Liao,8,2,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+wei chung allen lee,True,2243372740,2248062836,Wei-Chung Allen Lee,Wei-Chung Allen Lee,6,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+wei chung allen lee,True,2248062836,2351128394,Wei-Chung Allen Lee,Wei-Chung Allen Lee,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+wei wang,True,115438571,2266465152,Wei Wang,Wei Wang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+wei wang,True,115438571,2158630272,Wei Wang,Wei Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+wei wang,True,2266465152,2158630272,Wei Wang,Wei Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+wei wei,True,1768625446,2149191588,Wei Wei,Wei Wei,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+wei zhang,True,50549738,2345415773,Wei Zhang,Wei Zhang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+wei zhang,True,50549738,2323218594,Wei Zhang,Wei Zhang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+wei zhang,True,2345415773,2323218594,Wei Zhang,Wei Zhang,1,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+william smith,False,2320153681,2109083465,William V. Smith,William Smith,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+x shen,True,47435366,2241733,X. Shen,X. Shen,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+x shen,True,47435366,2337847006,X. Shen,X. Shen,2,1,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+x shen,True,2241733,2337847006,X. Shen,X. Shen,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+x zhang,True,2206588737,2402574447,X. Zhang,X. Zhang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+x zhuang,True,1837985,7521494,X. Zhuang,X. Zhuang,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xi chen,True,2145306992,2145307684,Xi Chen,Xi Chen,8,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xi chen,True,2145307684,41192764,Xi Chen,Xi Chen,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xi chen,True,2145307684,2296952207,Xi Chen,Xi Chen,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+xi chen,True,2145307684,2268629059,Xi Chen,Xi Chen,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xi jiang,True,143796247,2146346563,Xi Jiang,Xi Jiang,6,1,False,0,0.0,0.25,True,ambiguous_name_collision,manual_review
+xiang wang,True,2144797192,2268209368,Xiang Wang,Xiang Wang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+xiao jing wang,True,1519971010,2133404680,Xiao-Jing Wang,Xiao-jing Wang,6,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xiao jing wang,True,2118710538,2133404680,Xiao-Jing Wang,Xiao-jing Wang,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xiao jing wang,True,2255804158,2133404680,Xiao-Jing Wang,Xiao-jing Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xiaodong li,True,2118899732,2118899194,Xiaodong Li,Xiaodong Li,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+xiaoqi huang,True,8421221,2144649267,Xiaoqi Huang,Xiaoqi Huang,7,3,False,0,0.0,1.0,True,ambiguous_name_collision,manual_review
+xiaoyu ding,True,2151689846,50050188,Xiaoyu Ding,Xiaoyu Ding,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+xin wang,True,20576316,2279454674,Xin Wang,Xin Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+y jia,True,2411398763,2409574195,Y. Jia,Y. Jia,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+y kim,True,2119192425,123634149,Y. Kim,Y. Kim,4,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+y lin,True,4485835,46396068,Y. Lin,Y. Lin,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+y liu,True,2155143576,2144422706,Y. Liu,Y. Liu,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+y park,False,2215503016,46796929,Y. Park,Y. J. Park,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+y wang,True,2364110518,2157381428,Y. Wang,Y. Wang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yalin wang,True,49415638,33973920,Yalin Wang,Yalin Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yan hao,True,2403540663,2114157094,Yan Hao,Yan Hao,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yan li,True,2152890814,15463278,Yan Li,Yan Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yan wang,True,2339443170,2152539822,Yan Wang,Yan Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yan zhang,True,1591140646,2152819217,Yan Zhang,Yan Zhang,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yang li,True,2298885061,2154898018,Yang Li,Yang Li,1,3,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+yanmei tie,True,2318105897,3287521,Yanmei Tie,Yanmei Tie,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yaou liu,True,2264759980,49421421,Yaou Liu,Yaou Liu,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+ye wu,True,2258779588,2340466292,Ye Wu,Ye Wu,1,1,False,0,0.0,0.333333,True,ambiguous_name_collision,manual_review
+yee lian chew,True,12653154,2274026836,Yee Lian Chew,Yee Lian Chew,5,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yi jiang,True,2146419225,2146419507,Yi Jiang,Yi Jiang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yi jiang,True,2146419225,2146421613,Yi Jiang,Yi Jiang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yi sun,True,2116960595,2308425968,Yi Sun,Yi Sun,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yi sun,True,2116960595,2116959859,Yi Sun,Yi Sun,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yi sun,True,2308425968,2116959859,Yi Sun,Yi Sun,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yi wang,True,2154459331,2376304523,Yi Wang,Yi Wang,2,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yi zhang,True,2276672460,2239029727,Yi Zhang,Yi Zhang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yi zhang,True,2276672460,2275788633,Yi Zhang,Yi Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yi zhang,True,2239029727,2275788633,Yi Zhang,Yi Zhang,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+yifei zhang,True,2319183506,2381148417,Yifei Zhang,Yifei Zhang,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+yihan wu,True,2115665374,2317992765,Yihan Wu,Yihan Wu,1,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+yijun wang,True,2265558510,2108765571,Yijun Wang,Yijun Wang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+ying guo,True,2153202261,2158446905,Ying Guo,Ying Guo,3,1,False,0,0.0,0.666667,True,ambiguous_name_collision,manual_review
+yishi jin,True,2253859331,4686089,Yishi Jin,Yishi Jin,1,5,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yong he,True,2298522996,2118926146,Yong He,Yong He,2,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yong he,True,2238392863,2118926146,Yong He,Yong He,3,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yonggui yuan,True,2246660796,2388184706,Yonggui Yuan,Yonggui Yuan,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yonggui yuan,True,113701508,2388184706,Yonggui Yuan,Yonggui Yuan,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yonggui yuan,True,2288378038,2388184706,Yonggui Yuan,Yonggui Yuan,2,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+youyong kong,True,50412109,2304458958,Youyong Kong,Youyong Kong,5,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yu chen,True,2144838788,2272545866,Yu Chen,Yu Chen,1,2,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yu ping wang,True,2349823444,2256576029,Yu-Ping Wang,Yu-Ping Wang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yu wang,True,2153604888,2153609123,Yu Wang,Yu Wang,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yu wang,True,2153604888,40987227,Yu Wang,Yu Wang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yu xiao,True,2221031873,2339686266,Yu Xiao,Yu Xiao,1,2,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yu zhang,True,115116889,2255524810,Yu Zhang,Yu Zhang,7,3,False,0,0.0,0.75,False,ambiguous_name_collision,manual_review
+yu zhang,True,115116889,2153639050,Yu Zhang,Yu Zhang,7,1,False,0,0.0,0.5,True,ambiguous_name_collision,manual_review
+yu zhang,True,2255524810,2153635130,Yu Zhang,Yu Zhang,3,3,False,0,0.0,0.25,False,ambiguous_name_collision,manual_review
+yu zhang,True,2255524810,2251663542,Yu Zhang,Yu Zhang,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+yu zhang,True,2153635130,2153639050,Yu Zhang,Yu Zhang,3,1,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+yu zhang,True,2251663542,2153639050,Yu Zhang,Yu Zhang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+yu zhao,True,2110260070,2156698922,Yu Zhao,Yu Zhao,4,2,False,0,0.0,0.2,False,ambiguous_name_collision,manual_review
+yuan zhou,True,2116567344,1664642789,Yuan Zhou,Yuan Zhou,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yuanyuan li,True,2110615706,2206998340,Yuanyuan Li,Yuanyuan Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yuanyuan li,True,2110615706,2334761999,Yuanyuan Li,Yuanyuan Li,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yuanyuan li,True,2206998340,2334761999,Yuanyuan Li,Yuanyuan Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+yue zhou,True,2116450980,2261889357,Yue Zhou,Yue Zhou,1,2,False,0,0.0,0.333333,False,ambiguous_name_collision,manual_review
+yunman xia,True,2323935579,21015847,Yunman Xia,Yunman Xia,1,1,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+yunman xia,True,2323935579,2240121731,Yunman Xia,Yunman Xia,1,2,False,0,0.0,1.0,False,ambiguous_name_collision,manual_review
+zhe zhang,True,2117995280,2274469349,Zhe Zhang,Zhe Zhang,1,1,False,0,0.0,0.5,False,ambiguous_name_collision,manual_review
+zhe zhang,True,2117995280,1682342,Zhe Zhang,Zhe Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+zhe zhang,True,2274469349,1682342,Zhe Zhang,Zhe Zhang,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+zhefeng gong,True,2265559711,2053583675,Zhefeng Gong,Zhefeng Gong,2,1,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+zhiwei xiong,True,2248084109,2254314875,Zhiwei Xiong,Zhiwei Xiong,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review
+zhiwei xiong,True,2248084109,2352456,Zhiwei Xiong,Zhiwei Xiong,1,2,False,0,0.0,0.0,True,ambiguous_name_collision,manual_review
+ziyu li,True,2118274591,2118273841,Ziyu Li,Ziyu Li,1,1,False,0,0.0,0.0,False,ambiguous_name_collision,manual_review

@@ -1,0 +1,200 @@
+{
+  "checkpoint_label": "IA-007-v2 inclusive corpus (core + adjacent + role_bridge)",
+  "screened_works_total": 4136,
+  "corpus_works": 1912,
+  "corpus_share_of_screened": 0.4623,
+  "decision_counts": {
+    "core_relevant": 1075,
+    "adjacent_relevant": 613,
+    "role_bridge": 224
+  },
+  "source_group_counts": {
+    "core_audit": 1422,
+    "unresolved": 266,
+    "role_bridge": 224
+  },
+  "decision_by_source_group": {
+    "core_audit": {
+      "adjacent_relevant": 412,
+      "core_relevant": 976,
+      "role_bridge": 34
+    },
+    "role_bridge": {
+      "adjacent_relevant": 29,
+      "core_relevant": 55,
+      "role_bridge": 140
+    },
+    "unresolved": {
+      "adjacent_relevant": 172,
+      "core_relevant": 44,
+      "role_bridge": 50
+    }
+  },
+  "authors": {
+    "unique_authors_raw_strings": 7818,
+    "unique_authors_normalized_surname_initials": 6889,
+    "author_mentions": 14346,
+    "works_with_author_field": 1911,
+    "works_missing_author_field": 1,
+    "mean_authors_per_work": 7.51,
+    "median_authors_per_work": 5.0,
+    "max_authors_on_one_work": 304
+  },
+  "years": {
+    "min": 1984,
+    "max": 2026,
+    "median": 2021.0,
+    "missing": 0
+  },
+  "citations": {
+    "median": 12.0,
+    "mean": 68.62,
+    "p90": 145.80000000000018,
+    "zero_citation_works": 275
+  },
+  "confidence": {
+    "median": 0.88,
+    "below_0.85": 785,
+    "below_0.70": 38
+  },
+  "human_review_flagged_in_corpus": 785,
+  "top_roles": {
+    "biological_application": 1043,
+    "reconstruction_segmentation": 461,
+    "network_science": 438,
+    "structure_function_modeling": 331,
+    "infrastructure": 292,
+    "acquisition_preparation": 159,
+    "synapse_inference": 157,
+    "health_translation": 78,
+    "proofreading_qc": 76,
+    "alternative_modality": 44,
+    "training_outreach": 19
+  },
+  "top_venues": {
+    "bioRxiv": 467,
+    "": 83,
+    "arXiv.org": 64,
+    "eLife": 56,
+    "Nature": 48,
+    "Current Opinion in Neurobiology": 44,
+    "Neuron": 41,
+    "Journal of Neuroscience": 36,
+    "Nature Communications": 34,
+    "Current Biology": 27,
+    "Frontiers in Neuroanatomy": 26,
+    "Proceedings of the National Academy of Sciences of the United States of America": 25,
+    "Scientific Reports": 24,
+    "Nature Methods": 23,
+    "PLoS Comput. Biol.": 20
+  },
+  "decade_counts": {
+    "2020": 1167,
+    "2010": 698,
+    "2000": 42,
+    "1990": 3,
+    "1980": 2
+  },
+  "top_authors_by_work_count": [
+    {
+      "author": "J. Lichtman",
+      "works": 76,
+      "mentions": 76
+    },
+    {
+      "author": "H. Pfister",
+      "works": 55,
+      "mentions": 55
+    },
+    {
+      "author": "G. Jefferis",
+      "works": 42,
+      "mentions": 43
+    },
+    {
+      "author": "Kisuk Lee",
+      "works": 40,
+      "mentions": 40
+    },
+    {
+      "author": "Albert Cardona",
+      "works": 38,
+      "mentions": 39
+    },
+    {
+      "author": "S. Dorkenwald",
+      "works": 38,
+      "mentions": 38
+    },
+    {
+      "author": "P. Schlegel",
+      "works": 34,
+      "mentions": 34
+    },
+    {
+      "author": "Jingpeng Wu",
+      "works": 30,
+      "mentions": 31
+    },
+    {
+      "author": "Marta Costa",
+      "works": 30,
+      "mentions": 30
+    },
+    {
+      "author": "R. Lu",
+      "works": 30,
+      "mentions": 30
+    },
+    {
+      "author": "Stephen M. Plaza",
+      "works": 30,
+      "mentions": 30
+    },
+    {
+      "author": "Szi-chieh Yu",
+      "works": 29,
+      "mentions": 33
+    },
+    {
+      "author": "Xi Chen",
+      "works": 29,
+      "mentions": 29
+    },
+    {
+      "author": "D. Wei",
+      "works": 29,
+      "mentions": 29
+    },
+    {
+      "author": "C. Xu",
+      "works": 29,
+      "mentions": 29
+    },
+    {
+      "author": "Xueying Wang",
+      "works": 28,
+      "mentions": 29
+    },
+    {
+      "author": "F. Collman",
+      "works": 28,
+      "mentions": 28
+    },
+    {
+      "author": "Viren Jain",
+      "works": 28,
+      "mentions": 28
+    },
+    {
+      "author": "R. Schalek",
+      "works": 28,
+      "mentions": 28
+    },
+    {
+      "author": "Louis K. Scheffer",
+      "works": 28,
+      "mentions": 28
+    }
+  ]
+}

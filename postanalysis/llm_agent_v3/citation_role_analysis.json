@@ -1,0 +1,1146 @@
+{
+  "results": "postanalysis/llm_agent_v3/llm_relevance_results.csv",
+  "graph_source": "postanalysis/cleanup/derived_nanoscale_core.csv",
+  "author_policy": "trim_middle",
+  "consortium_min_authors": 20,
+  "author_trim_note": "Trim only authors whose sole corpus credit is one middle-author appearance (including middle on a consortium paper when that is their only inclusion). Consortium middles with other first/last/middle credit elsewhere are kept.",
+  "consortium_author_counts": {
+    "consortium_papers": 93,
+    "consortium_middle_mentions": 3534,
+    "consortium_middle_unique_persons": 1722,
+    "consortium_first_last_mentions": 186,
+    "consortium_middle_excluded_single_only": 816
+  },
+  "excluded_single_middle_only_persons": 3411,
+  "citation_graph_note": "Directed citation roles are asymmetric by construction; high out/in is normal. only_out does not mean peripheral \u2014 it often reflects importing methods/reviews. only_in reflects landmark outputs that others cite without reciprocal in-corpus cites. Papers with total in+out <= 2 in the corpus graph are weak; weak_unlinked (in=0) are especially weak \u2014 cited-back links are absent.",
+  "weak_link_threshold_total_degree": 2,
+  "inclusive_works": 1806,
+  "graph_matched_works": 1314,
+  "graph_match_rate": 0.7276,
+  "by_tier": [
+    {
+      "label": "adjacent_relevant",
+      "works": 911,
+      "graph_matched": 647,
+      "median_in_degree": 0.0,
+      "median_out_degree": 1.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.5928,
+      "citation_roles": {
+        "only_in": 85,
+        "only_out": 264,
+        "isolate": 96,
+        "broker": 200,
+        "hub": 2
+      },
+      "citation_link_strength": {
+        "weak": 87,
+        "weak_unlinked": 272,
+        "moderate": 199,
+        "strong": 89
+      },
+      "weak_links": 87,
+      "weak_unlinked": 272,
+      "ultra_core": 0
+    },
+    {
+      "label": "core_relevant",
+      "works": 694,
+      "graph_matched": 626,
+      "median_in_degree": 2.0,
+      "median_out_degree": 5.0,
+      "median_total_degree": 8.0,
+      "median_out_in_ratio": 1.75,
+      "median_k_core": 6.0,
+      "median_pagerank_percentile": 0.7754,
+      "citation_roles": {
+        "isolate": 39,
+        "broker": 338,
+        "only_in": 37,
+        "only_out": 187,
+        "hub": 25
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 97,
+        "moderate": 221,
+        "strong": 280,
+        "weak": 28
+      },
+      "weak_links": 28,
+      "weak_unlinked": 97,
+      "ultra_core": 40
+    },
+    {
+      "label": "role_bridge",
+      "works": 201,
+      "graph_matched": 41,
+      "median_in_degree": 0.0,
+      "median_out_degree": 3.0,
+      "median_total_degree": 5.0,
+      "median_out_in_ratio": 2.5,
+      "median_k_core": 4.0,
+      "median_pagerank_percentile": 0.6414,
+      "citation_roles": {
+        "broker": 15,
+        "only_out": 16,
+        "isolate": 8,
+        "only_in": 2
+      },
+      "citation_link_strength": {
+        "moderate": 16,
+        "weak_unlinked": 14,
+        "weak": 2,
+        "strong": 9
+      },
+      "weak_links": 2,
+      "weak_unlinked": 14,
+      "ultra_core": 0
+    }
+  ],
+  "by_community": [
+    {
+      "label": "Xiaoyin Chen / Yonggang Wang",
+      "works": 359,
+      "graph_matched": 240,
+      "median_in_degree": 0.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 2.0,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.5066,
+      "citation_roles": {
+        "only_out": 120,
+        "isolate": 40,
+        "broker": 64,
+        "only_in": 15,
+        "hub": 1
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 115,
+        "moderate": 72,
+        "strong": 35,
+        "weak": 18
+      },
+      "weak_links": 18,
+      "weak_unlinked": 115,
+      "ultra_core": 3,
+      "community_id": 0,
+      "community_label": "Xiaoyin Chen / Yonggang Wang",
+      "core": 106,
+      "adjacent": 213,
+      "role_bridge": 40
+    },
+    {
+      "label": "J. Lichtman / Hanspeter Pfister",
+      "works": 233,
+      "graph_matched": 184,
+      "median_in_degree": 3.0,
+      "median_out_degree": 5.0,
+      "median_total_degree": 9.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 8.0,
+      "median_pagerank_percentile": 0.8549,
+      "citation_roles": {
+        "broker": 104,
+        "only_out": 49,
+        "only_in": 14,
+        "hub": 9,
+        "isolate": 8
+      },
+      "citation_link_strength": {
+        "moderate": 59,
+        "strong": 90,
+        "weak_unlinked": 28,
+        "weak": 7
+      },
+      "weak_links": 7,
+      "weak_unlinked": 28,
+      "ultra_core": 12,
+      "community_id": 1,
+      "community_label": "J. Lichtman / Hanspeter Pfister",
+      "core": 147,
+      "adjacent": 66,
+      "role_bridge": 20
+    },
+    {
+      "label": "Albert Cardona / J. Vogelstein",
+      "works": 209,
+      "graph_matched": 155,
+      "median_in_degree": 1.0,
+      "median_out_degree": 4.0,
+      "median_total_degree": 6.0,
+      "median_out_in_ratio": 2.0,
+      "median_k_core": 6.0,
+      "median_pagerank_percentile": 0.7608,
+      "citation_roles": {
+        "isolate": 14,
+        "only_out": 43,
+        "only_in": 10,
+        "broker": 85,
+        "hub": 3
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 30,
+        "moderate": 59,
+        "strong": 59,
+        "weak": 7
+      },
+      "weak_links": 7,
+      "weak_unlinked": 30,
+      "ultra_core": 7,
+      "community_id": 3,
+      "community_label": "Albert Cardona / J. Vogelstein",
+      "core": 90,
+      "adjacent": 93,
+      "role_bridge": 26
+    },
+    {
+      "label": "H. Sebastian Seung / G. Jefferis",
+      "works": 159,
+      "graph_matched": 139,
+      "median_in_degree": 2.0,
+      "median_out_degree": 6.0,
+      "median_total_degree": 9.0,
+      "median_out_in_ratio": 1.646,
+      "median_k_core": 7.0,
+      "median_pagerank_percentile": 0.7799,
+      "citation_roles": {
+        "isolate": 9,
+        "broker": 78,
+        "only_out": 36,
+        "only_in": 8,
+        "hub": 8
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 21,
+        "moderate": 41,
+        "strong": 69,
+        "weak": 8
+      },
+      "weak_links": 8,
+      "weak_unlinked": 21,
+      "ultra_core": 8,
+      "community_id": 2,
+      "community_label": "H. Sebastian Seung / G. Jefferis",
+      "core": 111,
+      "adjacent": 38,
+      "role_bridge": 10
+    },
+    {
+      "label": "M. Helmstaedter / Winfried Denk",
+      "works": 141,
+      "graph_matched": 122,
+      "median_in_degree": 1.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 5.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 4.0,
+      "median_pagerank_percentile": 0.7763,
+      "citation_roles": {
+        "only_out": 24,
+        "isolate": 16,
+        "broker": 61,
+        "only_in": 19,
+        "hub": 2
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 27,
+        "moderate": 48,
+        "weak": 12,
+        "strong": 35
+      },
+      "weak_links": 12,
+      "weak_unlinked": 27,
+      "ultra_core": 7,
+      "community_id": 4,
+      "community_label": "M. Helmstaedter / Winfried Denk",
+      "core": 69,
+      "adjacent": 66,
+      "role_bridge": 6
+    },
+    {
+      "label": "Oliver Hobert / Steven J. Cook",
+      "works": 101,
+      "graph_matched": 85,
+      "median_in_degree": 1.0,
+      "median_out_degree": 3.0,
+      "median_total_degree": 6.0,
+      "median_out_in_ratio": 1.111,
+      "median_k_core": 5.0,
+      "median_pagerank_percentile": 0.729,
+      "citation_roles": {
+        "only_out": 22,
+        "isolate": 10,
+        "broker": 41,
+        "hub": 4,
+        "only_in": 8
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 19,
+        "moderate": 30,
+        "weak": 10,
+        "strong": 26
+      },
+      "weak_links": 10,
+      "weak_unlinked": 19,
+      "ultra_core": 3,
+      "community_id": 6,
+      "community_label": "Oliver Hobert / Steven J. Cook",
+      "core": 35,
+      "adjacent": 65,
+      "role_bridge": 1
+    },
+    {
+      "label": "Olaf Sporns / B. Mi\u0161i\u0107",
+      "works": 94,
+      "graph_matched": 42,
+      "median_in_degree": 1.0,
+      "median_out_degree": 4.0,
+      "median_total_degree": 5.0,
+      "median_out_in_ratio": 2.0,
+      "median_k_core": 4.5,
+      "median_pagerank_percentile": 0.723,
+      "citation_roles": {
+        "only_in": 4,
+        "only_out": 11,
+        "broker": 21,
+        "isolate": 6
+      },
+      "citation_link_strength": {
+        "weak": 4,
+        "weak_unlinked": 11,
+        "strong": 15,
+        "moderate": 12
+      },
+      "weak_links": 4,
+      "weak_unlinked": 11,
+      "ultra_core": 0,
+      "community_id": 5,
+      "community_label": "Olaf Sporns / B. Mi\u0161i\u0107",
+      "core": 12,
+      "adjacent": 63,
+      "role_bridge": 19
+    },
+    {
+      "label": "James R. Anderson / Bryan William Jones",
+      "works": 66,
+      "graph_matched": 54,
+      "median_in_degree": 1.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 3.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 3.0,
+      "median_pagerank_percentile": 0.7223,
+      "citation_roles": {
+        "broker": 28,
+        "only_out": 13,
+        "isolate": 8,
+        "only_in": 5
+      },
+      "citation_link_strength": {
+        "strong": 11,
+        "weak_unlinked": 16,
+        "moderate": 23,
+        "weak": 4
+      },
+      "weak_links": 4,
+      "weak_unlinked": 16,
+      "ultra_core": 0,
+      "community_id": 7,
+      "community_label": "James R. Anderson / Bryan William Jones",
+      "core": 35,
+      "adjacent": 26,
+      "role_bridge": 5
+    },
+    {
+      "label": "Javier DeFelipe / Michael W. Reimann",
+      "works": 55,
+      "graph_matched": 31,
+      "median_in_degree": 1.0,
+      "median_out_degree": 1.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.7136,
+      "citation_roles": {
+        "isolate": 6,
+        "only_in": 6,
+        "only_out": 8,
+        "broker": 11
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 11,
+        "weak": 5,
+        "moderate": 12,
+        "strong": 3
+      },
+      "weak_links": 5,
+      "weak_unlinked": 11,
+      "ultra_core": 0,
+      "community_id": 8,
+      "community_label": "Javier DeFelipe / Michael W. Reimann",
+      "core": 16,
+      "adjacent": 35,
+      "role_bridge": 4
+    },
+    {
+      "label": "Bradly Alicea / Matteo Cantarelli",
+      "works": 12,
+      "graph_matched": 7,
+      "median_in_degree": 1.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.7128,
+      "citation_roles": {
+        "broker": 3,
+        "only_out": 2,
+        "only_in": 2
+      },
+      "citation_link_strength": {
+        "strong": 2,
+        "weak": 3,
+        "moderate": 1,
+        "weak_unlinked": 1
+      },
+      "weak_links": 3,
+      "weak_unlinked": 1,
+      "ultra_core": 0,
+      "community_id": 9,
+      "community_label": "Bradly Alicea / Matteo Cantarelli",
+      "core": 1,
+      "adjacent": 8,
+      "role_bridge": 3
+    },
+    {
+      "label": "Hideyuki Okano / Alexander Woodward",
+      "works": 7,
+      "graph_matched": 5,
+      "median_in_degree": 1.0,
+      "median_out_degree": 1.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 1.357,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.8805,
+      "citation_roles": {
+        "only_out": 1,
+        "isolate": 1,
+        "only_in": 1,
+        "broker": 2
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 2,
+        "weak": 1,
+        "strong": 1,
+        "moderate": 1
+      },
+      "weak_links": 1,
+      "weak_unlinked": 2,
+      "ultra_core": 0,
+      "community_id": 12,
+      "community_label": "Hideyuki Okano / Alexander Woodward",
+      "core": 2,
+      "adjacent": 4,
+      "role_bridge": 1
+    },
+    {
+      "label": "K. Broadie / Nichalas Nelson",
+      "works": 7,
+      "graph_matched": 7,
+      "median_in_degree": 0.0,
+      "median_out_degree": 0.0,
+      "median_total_degree": 0.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 0.0,
+      "median_pagerank_percentile": 0.3517,
+      "citation_roles": {
+        "only_out": 2,
+        "isolate": 5
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 7
+      },
+      "weak_links": 0,
+      "weak_unlinked": 7,
+      "ultra_core": 0,
+      "community_id": 17,
+      "community_label": "K. Broadie / Nichalas Nelson",
+      "core": 0,
+      "adjacent": 7,
+      "role_bridge": 0
+    }
+  ],
+  "community_count": 285,
+  "community_labels": {
+    "0": "Xiaoyin Chen / Yonggang Wang",
+    "1": "J. Lichtman / Hanspeter Pfister",
+    "2": "H. Sebastian Seung / G. Jefferis",
+    "3": "Albert Cardona / J. Vogelstein",
+    "4": "M. Helmstaedter / Winfried Denk",
+    "5": "Olaf Sporns / B. Mi\u0161i\u0107",
+    "6": "Oliver Hobert / Steven J. Cook",
+    "7": "James R. Anderson / Bryan William Jones",
+    "8": "Javier DeFelipe / Michael W. Reimann",
+    "9": "Bradly Alicea / Matteo Cantarelli",
+    "10": "Andrew T. McKenzie / John F. Crary",
+    "11": "Megumu Takahashi / Masato Koike",
+    "12": "Hideyuki Okano / Alexander Woodward",
+    "13": "M. Vellema / Mariana Diales Rocha",
+    "14": "Sofia Grade / Judith Thomas",
+    "15": "Philipp H\u00f6vel / Jorge Ruiz",
+    "16": "Makoto Someya / H. Kazama",
+    "17": "K. Broadie / Nichalas Nelson",
+    "18": "P. G. \u00d6zdil / Pavan Ramdya",
+    "19": "Nobuhiko Ohno / Mitsuhiko Katoh",
+    "20": "K. Shen / D. Fair",
+    "21": "Jaeseung Jeong / Jerald D. Kralik",
+    "22": "Aindrila Saha / Abrar Rahman Abir",
+    "23": "Alice Geminiani / A. Antonietti",
+    "24": "L. Pastor / S. Galindo",
+    "25": "M. He\u00df / G. Wanner",
+    "26": "Bradley H. Theilman / Fred Rothganger",
+    "27": "Dongming Cai / Logan A. Walker",
+    "28": "Alexei Verkhratsky / F. Zeid\u00e1n-Chuli\u00e1",
+    "29": "Enrico Lanza / G. Ruocco",
+    "30": "N. Brunel / Heather K Titley",
+    "31": "D. Parker / R. Verma",
+    "32": "S. Bookheimer / M. D\u00edaz-Santos",
+    "33": "Eichi Takaya / Yusuke Takeichi",
+    "34": "Nimish Kumar / Rohan Gupta",
+    "35": "G\u00e1bor S. Szil\u00e1gyi / Zsolt Vassy",
+    "36": "D. Guidolin / M. Marcoli",
+    "37": "D. Zeidler / Lucy Ngo",
+    "38": "Elizabeth M. DiLoreto / Christopher Chute",
+    "39": "Karl Friedrichsen / Jen-Chun Hsiang",
+    "40": "Omar A. Hafez / Benjamin Escribano",
+    "41": "Enrico Corradini / Federica Parlapiano",
+    "42": "D. Ville / M. Preti",
+    "43": "Franco Pestilli / P. Rossini",
+    "44": "N. Chuhma / S. Rayport",
+    "45": "R. Borisyuk / D. Conte",
+    "46": "Alessio Franci / G. Drion",
+    "47": "K. Siju / Ilona C. Grunwald Kadow",
+    "48": "Anand Pathak / Shakti N. Menon",
+    "49": "Habib Benali / El-kaioum M. Moutuou",
+    "50": "Frank Werblin / John E. Dowling",
+    "51": "S. L. Goodman / Jeffrey W Percival",
+    "52": "O. G\u00fcnt\u00fcrk\u00fcn / Roland Pusch",
+    "53": "Kristyn M. Lizbinski / James M. Jeanne",
+    "54": "Arshad M. Khan / Christina E. D\u2019Arcy",
+    "55": "C. Eroglu / W. C. Risher",
+    "56": "Florian Unger / Jonathan Krebs",
+    "57": "Jacob J. Morra / M. Daley",
+    "58": "S. Flavell / A. Gordus",
+    "59": "H. Duffau / P. Valdes",
+    "60": "Snehil Dey / A. Bhattacharjee",
+    "61": "Egl\u0117 Audronyt\u0117 / G. Kaubrys",
+    "62": "V. Bitra / Deepthi Rapaka",
+    "63": "S. Fortunato / Darko Hric",
+    "64": "Afshin Khadangi / V. Rajagopal",
+    "65": "L. Silvestri / F. Pavone",
+    "66": "R. Badhwar / Ganesh Bagler",
+    "67": "Mitchell J. Vaughn / J. Haas",
+    "68": "L. Dipietro / Timothy Wagner",
+    "69": "William Dorrell / Peter E. Latham",
+    "70": "F\u00e1bio Lobato / Roberto Santana",
+    "71": "Matthew Amandola / Kurt Schilling",
+    "72": "Leehod Baruch / E. Segal",
+    "73": "Dongmei Shi / H. Noori",
+    "74": "Ben Williamson / Dimitra Kotouza",
+    "75": "Gerard Marx / Chaim Gilon",
+    "76": "S. Agarwala / Franklin Kenter",
+    "77": "T. Harkany / A. Alp\u00e1r",
+    "78": "Yasser Alem\u00e1n-G\u00f3mez / P. Hagmann",
+    "79": "J. van Pelt / H. Uylings",
+    "80": "Kazuma Sakamoto / T. Tsuji",
+    "81": "Harold K. Shearin / R. Stowers",
+    "82": "E. Marder / Cori Bargmann",
+    "83": "Sanga Mitra / Manikandan Narayanan",
+    "84": "Jacob L. Yates / B. Scholl",
+    "85": "Giulio Valperga / M. de Bono",
+    "86": "K. E. Linker / F. M. Leslie",
+    "87": "Madison T. Gray / Julie L. Lefebvre",
+    "88": "Edward Laurence / Vincent Thibeault",
+    "89": "S. Latifi / S. Carmichael",
+    "90": "J. Arle / Kristen W. Carlson",
+    "91": "Jean-Ren\u00e9 Martin / I. Salecker",
+    "92": "A. Padmore / J. Crofts",
+    "93": "Munehiro Hayashi / R. Kanzaki",
+    "94": "Keith M. Smith / J. Escudero",
+    "95": "J. Reichardt / S. Bornholdt",
+    "96": "H. Dodt / K. Becker",
+    "97": "F. V. Bussel / Marc Timme",
+    "98": "N. Pospelov / A. Gorsky",
+    "99": "A. Stabile / G. Di Sante",
+    "100": "Mahsa Khoshkhou / A. Montakhab",
+    "101": "M. Domenico / A. Arenas",
+    "102": "Linnaea E. Ostroff / Joseph E LeDoux",
+    "103": "Arturo Tozzi / L. Mariniello",
+    "104": "Alexis B'enichou / Christian L. Vestergaard",
+    "105": "Neele Wolterhoff / P. Hiesinger",
+    "106": "A. Stivala / A. Lomi",
+    "107": "Akash Pal / L. Tian",
+    "108": "Leandro Gonz\u00e1lez-Montesino / Rub\u00e9n Arma\u00f1anzas",
+    "109": "Valeria d'Andrea / 35131 Padova",
+    "110": "Meng-Tsen Ke / Takeshi Imai",
+    "111": "Rajat Saxena / Bruce L. McNaughton",
+    "112": "Nalin Dhiman / Siddharth Panwar",
+    "113": "P. Mulders / I. Tendolkar",
+    "114": "Ryan Ellison / Scott L. Hooper",
+    "115": "Yaroslav Felipe Kalle Kossio / Raoul-Martin Memmesheimer",
+    "116": "Adri\u00e1n Hern\u00e1ndez / J. Amig\u00f3",
+    "117": "K\u00e9vin Berlemont / G. Mongillo",
+    "118": "M. Ram / A. Narayan",
+    "119": "M. Piochowiak / Carsten Dachsbacher",
+    "120": "Mary-Anne B. MacKay / S. Dursun",
+    "121": "William F Tobin / Matthew C. Weston",
+    "122": "J. Staiger / C. Petersen",
+    "123": "C. Wozny / Stephen R. Williams",
+    "124": "Victor Buend\u00eda / A. Sanzeni",
+    "125": "Amin Karbasi / M. Vetterli",
+    "126": "Robert B. Levy / A. Reyes",
+    "127": "Laura Anton-Sanchez / Hermann Cuntz",
+    "128": "Megan Morrison / Lai-Sang Young",
+    "129": "R. L. McIntyre / G. Fahy",
+    "130": "Andrii Iudin / A. Patwardhan",
+    "131": "Elisabeth C. DeMarco / Estuardo Robles",
+    "132": "A. Butt / Alexei Verkhatsky",
+    "133": "Martin T. Henrich / D. Surmeier",
+    "134": "A. Morales-Gregorio / Karol\u00edna Korvasov\u00e1",
+    "135": "Sophie Bennett / G. Finnerty",
+    "136": "M. Catani / F. Dell\u2019Acqua",
+    "137": "Jong-Hyun Son / J. Bonkowsky",
+    "138": "Tyler Reese / D. Kelleher",
+    "139": "A. Salova / Istv'an A. Kov'acs",
+    "140": "Feici Diao / B. White",
+    "141": "Gonzalo Budelli / Carmen Bolatto",
+    "142": "Cesar Ceballos / R. Pena",
+    "143": "U. S. Bhat / Kavita Babu",
+    "144": "Ashley N. Hayden / Rachel N. Arey",
+    "145": "Christian Goodbrake / A. Goriely",
+    "146": "M. Bigot / Mariana Alonso",
+    "147": "K. Piekarz / Alberto Stolfi",
+    "148": "Ondrej Krejcar / H. Namazi",
+    "149": "James M. Kunert-Graf / D. Galas",
+    "150": "Yangfan Peng / J\u00f6rg R. P. Geiger",
+    "151": "Richard Benton / Karen Menuz",
+    "152": "J. Briggs / M. Lakadamyali",
+    "153": "E. Dennis / Paul M. Thompson",
+    "154": "Elsa Steinfath / Jan Clemens",
+    "155": "Efrain A. Ribeiro / E. Nestler",
+    "156": "Saarthak Sarup / K. Boahen",
+    "157": "Nova Qi / Wesley B. Grueber",
+    "158": "E. Vivi / B. Di Benedetto",
+    "159": "Madison Sneve / Kiryl D Piatkevich",
+    "160": "B. Szalkai / V. Grolmusz",
+    "161": "Claudia Gualtieri / Fernando J Vonhoff",
+    "162": "Alexander Braylan / Matthew Lease",
+    "163": "M. Veldhuizen / F. Fischmeister",
+    "164": "Alec Xu / L. Brattain",
+    "165": "I. Belevich / E. Jokitalo",
+    "166": "T. Boccato / N. Toschi",
+    "167": "Peter Grindrod / R. Sahasrabuddhe",
+    "168": "Nicholas Roberts / Vinay Uday Prabhu",
+    "169": "Safura Rashid Shomali / Sadra Sadeh",
+    "170": "Michael T Stobb / E. Gahtan",
+    "171": "Timothy W. Dunn / Peter K. Koo",
+    "172": "Alison Ehrlich / Justin Blau",
+    "173": "Emanuele Plebani / M. M. Dundar",
+    "174": "J. Karbowski / F. Rakowski",
+    "175": "Rachael Stentiford / Paul Graham",
+    "176": "Sebastian J. Kopetzky / Markus Butz-Ostendorf",
+    "177": "J\u00f8rgen Sugar / Natalie L. M. Cappaert",
+    "178": "S. Wernicke / Florian Rasche",
+    "179": "M. Shakiba / Nima Dehghani",
+    "180": "Jo\u00ebl Lefebvre / F. Lesage",
+    "181": "Haruo Mizutani / Toshihisa Takagi",
+    "182": "Alex J. Yu / C. Rankin",
+    "183": "Hua Bai / Lina Ni",
+    "184": "Yoav Printz / O. Yizhar",
+    "185": "C. Magliaro / A. Ahluwalia",
+    "186": "M. Marx / D. Feldmeyer",
+    "187": "Kazuaki Ikeda / N. Tanaka",
+    "188": "C. Fillinger / P. Veinante",
+    "189": "Michael G. Zhou / Jennifer O. Hasler",
+    "190": "Eline Pecho-Vrieseling / S. Arber",
+    "191": "S. Sigoillot / F. Selimi",
+    "192": "Luis O. Vargas / Randy S D'Amico",
+    "193": "Leone Costi / Dario Izzo",
+    "194": "M. Paveliev / Albert V. Aganov",
+    "195": "F. Latini / M. Ryttlefors",
+    "196": "F. Mastrogiuseppe / C. Machens",
+    "197": "A. Knoblauch / F. Sommer",
+    "198": "Marcus Kaiser / Sreedevi Varier",
+    "199": "M. Sacha / A. Destexhe",
+    "200": "M. Pedersen / Amir H. Omidvarnia",
+    "201": "E. A. P. Wright / A. Goltsev",
+    "202": "Colin J. Brown / G. Hamarneh",
+    "203": "O. Paredes / J. A. Morales",
+    "204": "E. Dow / A. Hudspeth",
+    "205": "Diya Prasanth / Matthew Tivnan",
+    "206": "M. van Oostrum / B. Wollscheid",
+    "207": "L. Vasung / P. Grant",
+    "208": "Jonas Pichat / M. Modat",
+    "209": "J. Ricker / S. Frey",
+    "210": "B. M. Aleogho / Kentaro Noma",
+    "211": "Leonid L. Moroz / D. Y. Romanova",
+    "212": "Bhanu Priya Somashekar / U. Bhalla",
+    "213": "V. George / G. Silva",
+    "214": "Haoyi Liang / D. Weller",
+    "215": "Patrick B. Chen / J. Flint",
+    "216": "D. Zendrikov / Alexander Paraskevov",
+    "217": "J. Y\u00e1\u00f1ez / R. Anad\u00f3n",
+    "218": "M. McDonnell / L. M. Ward",
+    "219": "David J. Smith / T. Starborg",
+    "220": "E. Mandonnet / L. Petit",
+    "221": "N. Kraynyukova / T. Tchumatchenko",
+    "222": "Francesco Bardozzo / R. Tagliaferri",
+    "223": "Stephan Dodt / Henning Fenselau",
+    "224": "Pablo J. Lituma / Sayan Nandi",
+    "225": "Zach Tosi / J. Beggs",
+    "226": "Hania J. Pavlou / S. Goodwin",
+    "227": "Elizabeth Gross / Despina Stasi",
+    "228": "V. Zerbi / N. Wenderoth",
+    "229": "C. Casadio / F. Benuzzi",
+    "230": "Nicolas Rault / T. Celikel",
+    "231": "\u00d6zg\u00fcn \u00c7i\u00e7ek / O. Ronneberger",
+    "232": "Anthony Deluca / M. Arbeitman",
+    "233": "Arent J. Kievits / J. Hoogenboom",
+    "234": "Claudia Groh / W. R\u00f6ssler",
+    "235": "V. Calbiague-Garcia / O. Marre",
+    "236": "D. Raman / Timothy O\u2019Leary",
+    "237": "A. De Benedictis / C. Marras",
+    "238": "Vikram Nathan / M. Chakravarty",
+    "239": "E. Perisse / S. Trouche",
+    "240": "K. Seymour / Lichtman Jeff",
+    "241": "Anmol Guragain / Juan Ignacio Godino-Llorente",
+    "242": "Naureen A. Hameed / Annika F. Barber",
+    "243": "V. Ivanov",
+    "244": "W. Nowinski",
+    "245": "T. Toyoizumi",
+    "246": "Mu Qiao",
+    "247": "R. Hoy",
+    "248": "M. Cobb",
+    "249": "Xundong Wu",
+    "250": "Julian Ungar-Sargon",
+    "251": "Terri L. Gilbert",
+    "252": "M. Vopson",
+    "253": "Terrence Adams",
+    "254": "Georgia Rapti",
+    "255": "J. J. Zhu",
+    "256": "Soroush Vahidi",
+    "257": "U. Homberg",
+    "258": "Sebastien Kawada",
+    "259": "Pascal Grange",
+    "260": "P. Daugulis",
+    "261": "R. Laughlin",
+    "262": "Melina E. Hale",
+    "263": "S. Therianos",
+    "264": "A. Gomez-Marin",
+    "265": "B. Pailthorpe",
+    "266": "Kaitlyn Casimo",
+    "267": "V. Brezina",
+    "268": "K. Stephan",
+    "269": "Andreu Ball\u00fas Santacana",
+    "270": "R. Wurtman",
+    "271": "Lu\u00eds F Seoane",
+    "272": "Leslie C. Griffith",
+    "273": "D. Taliaz",
+    "274": "Dawn M. Blitz",
+    "275": "J. Kershner",
+    "276": "Liza Gross",
+    "277": "G. Panagopoulos",
+    "278": "S. Shipp",
+    "279": "Bettina Schnell",
+    "280": "Venkatakrishnan Ramaswamy",
+    "281": "O. Dolgikh",
+    "282": "Ronald L. Davis",
+    "283": "E. White",
+    "284": "J. Wegiel"
+  },
+  "role_by_tier_crosstab": {
+    "broker": {
+      "adjacent_relevant": 200,
+      "core_relevant": 338,
+      "role_bridge": 15
+    },
+    "hub": {
+      "adjacent_relevant": 2,
+      "core_relevant": 25,
+      "role_bridge": 0
+    },
+    "isolate": {
+      "adjacent_relevant": 96,
+      "core_relevant": 39,
+      "role_bridge": 8
+    },
+    "no_graph": {
+      "adjacent_relevant": 264,
+      "core_relevant": 68,
+      "role_bridge": 160
+    },
+    "only_in": {
+      "adjacent_relevant": 85,
+      "core_relevant": 37,
+      "role_bridge": 2
+    },
+    "only_out": {
+      "adjacent_relevant": 264,
+      "core_relevant": 187,
+      "role_bridge": 16
+    }
+  },
+  "link_strength_by_tier": {
+    "moderate": {
+      "adjacent_relevant": 199,
+      "core_relevant": 221,
+      "role_bridge": 16
+    },
+    "no_graph": {
+      "adjacent_relevant": 264,
+      "core_relevant": 68,
+      "role_bridge": 160
+    },
+    "strong": {
+      "adjacent_relevant": 89,
+      "core_relevant": 280,
+      "role_bridge": 9
+    },
+    "weak": {
+      "adjacent_relevant": 87,
+      "core_relevant": 28,
+      "role_bridge": 2
+    },
+    "weak_unlinked": {
+      "adjacent_relevant": 272,
+      "core_relevant": 97,
+      "role_bridge": 14
+    }
+  },
+  "top_communities_role_crosstab": {
+    "broker": {
+      "A. Butt / Alexei Verkhatsky": 0,
+      "A. Gomez-Marin": 0,
+      "A. Knoblauch / F. Sommer": 1,
+      "A. Morales-Gregorio / Karol\u00edna Korvasov\u00e1": 0,
+      "A. Padmore / J. Crofts": 0,
+      "A. Salova / Istv'an A. Kov'acs": 1,
+      "Adri\u00e1n Hern\u00e1ndez / J. Amig\u00f3": 0,
+      "Aindrila Saha / Abrar Rahman Abir": 2,
+      "Akash Pal / L. Tian": 0,
+      "Albert Cardona / J. Vogelstein": 85,
+      "Alessio Franci / G. Drion": 0,
+      "Alex J. Yu / C. Rankin": 0
+    },
+    "hub": {
+      "A. Butt / Alexei Verkhatsky": 0,
+      "A. Gomez-Marin": 0,
+      "A. Knoblauch / F. Sommer": 0,
+      "A. Morales-Gregorio / Karol\u00edna Korvasov\u00e1": 0,
+      "A. Padmore / J. Crofts": 0,
+      "A. Salova / Istv'an A. Kov'acs": 0,
+      "Adri\u00e1n Hern\u00e1ndez / J. Amig\u00f3": 0,
+      "Aindrila Saha / Abrar Rahman Abir": 0,
+      "Akash Pal / L. Tian": 0,
+      "Albert Cardona / J. Vogelstein": 3,
+      "Alessio Franci / G. Drion": 0,
+      "Alex J. Yu / C. Rankin": 0
+    },
+    "isolate": {
+      "A. Butt / Alexei Verkhatsky": 0,
+      "A. Gomez-Marin": 0,
+      "A. Knoblauch / F. Sommer": 0,
+      "A. Morales-Gregorio / Karol\u00edna Korvasov\u00e1": 0,
+      "A. Padmore / J. Crofts": 0,
+      "A. Salova / Istv'an A. Kov'acs": 0,
+      "Adri\u00e1n Hern\u00e1ndez / J. Amig\u00f3": 0,
+      "Aindrila Saha / Abrar Rahman Abir": 0,
+      "Akash Pal / L. Tian": 0,
+      "Albert Cardona / J. Vogelstein": 14,
+      "Alessio Franci / G. Drion": 0,
+      "Alex J. Yu / C. Rankin": 0
+    },
+    "only_in": {
+      "A. Butt / Alexei Verkhatsky": 1,
+      "A. Gomez-Marin": 0,
+      "A. Knoblauch / F. Sommer": 0,
+      "A. Morales-Gregorio / Karol\u00edna Korvasov\u00e1": 0,
+      "A. Padmore / J. Crofts": 0,
+      "A. Salova / Istv'an A. Kov'acs": 0,
+      "Adri\u00e1n Hern\u00e1ndez / J. Amig\u00f3": 0,
+      "Aindrila Saha / Abrar Rahman Abir": 0,
+      "Akash Pal / L. Tian": 1,
+      "Albert Cardona / J. Vogelstein": 10,
+      "Alessio Franci / G. Drion": 1,
+      "Alex J. Yu / C. Rankin": 0
+    },
+    "only_out": {
+      "A. Butt / Alexei Verkhatsky": 0,
+      "A. Gomez-Marin": 1,
+      "A. Knoblauch / F. Sommer": 0,
+      "A. Morales-Gregorio / Karol\u00edna Korvasov\u00e1": 1,
+      "A. Padmore / J. Crofts": 1,
+      "A. Salova / Istv'an A. Kov'acs": 0,
+      "Adri\u00e1n Hern\u00e1ndez / J. Amig\u00f3": 1,
+      "Aindrila Saha / Abrar Rahman Abir": 3,
+      "Akash Pal / L. Tian": 0,
+      "Albert Cardona / J. Vogelstein": 43,
+      "Alessio Franci / G. Drion": 1,
+      "Alex J. Yu / C. Rankin": 1
+    },
+    "All": {
+      "A. Butt / Alexei Verkhatsky": 1,
+      "A. Gomez-Marin": 1,
+      "A. Knoblauch / F. Sommer": 1,
+      "A. Morales-Gregorio / Karol\u00edna Korvasov\u00e1": 1,
+      "A. Padmore / J. Crofts": 1,
+      "A. Salova / Istv'an A. Kov'acs": 1,
+      "Adri\u00e1n Hern\u00e1ndez / J. Amig\u00f3": 1,
+      "Aindrila Saha / Abrar Rahman Abir": 5,
+      "Akash Pal / L. Tian": 1,
+      "Albert Cardona / J. Vogelstein": 155,
+      "Alessio Franci / G. Drion": 2,
+      "Alex J. Yu / C. Rankin": 1
+    }
+  },
+  "coauthorship": {
+    "reconciled_people": true,
+    "author_policy": "trim_middle",
+    "consortium_min_authors": 20,
+    "eligible_authors": 3181,
+    "excluded_single_middle_only_persons": 3411,
+    "consortium": {
+      "consortium_papers": 93,
+      "consortium_middle_mentions": 3534,
+      "consortium_middle_unique_persons": 1722,
+      "consortium_first_last_mentions": 186,
+      "consortium_middle_excluded_single_only": 816
+    },
+    "middle_mentions_trimmed": 3411,
+    "nodes": 3181,
+    "edges": 53296,
+    "connected_components": 263,
+    "largest_component_nodes": 2596,
+    "communities": 285,
+    "top_weighted_degree": [
+      {
+        "display_name": "J. Lichtman",
+        "works_in_corpus": 75,
+        "weighted_degree": 660.0
+      },
+      {
+        "display_name": "Hanspeter Pfister",
+        "works_in_corpus": 55,
+        "weighted_degree": 570.0
+      },
+      {
+        "display_name": "H. Sebastian Seung",
+        "works_in_corpus": 46,
+        "weighted_degree": 1218.0
+      },
+      {
+        "display_name": "G. Jefferis",
+        "works_in_corpus": 42,
+        "weighted_degree": 1266.0
+      },
+      {
+        "display_name": "Kea-Joo Lee",
+        "works_in_corpus": 40,
+        "weighted_degree": 1192.0
+      },
+      {
+        "display_name": "Albert Cardona",
+        "works_in_corpus": 39,
+        "weighted_degree": 298.0
+      },
+      {
+        "display_name": "Sven Dorkenwald",
+        "works_in_corpus": 37,
+        "weighted_degree": 1308.0
+      },
+      {
+        "display_name": "Philipp Schlegel",
+        "works_in_corpus": 34,
+        "weighted_degree": 1131.0
+      },
+      {
+        "display_name": "Szi-chieh Yu",
+        "works_in_corpus": 33,
+        "weighted_degree": 1555.0
+      },
+      {
+        "display_name": "Stephen M. Plaza",
+        "works_in_corpus": 31,
+        "weighted_degree": 653.0
+      },
+      {
+        "display_name": "Jingpeng Wu",
+        "works_in_corpus": 30,
+        "weighted_degree": 967.0
+      },
+      {
+        "display_name": "Marta Costa",
+        "works_in_corpus": 30,
+        "weighted_degree": 939.0
+      },
+      {
+        "display_name": "Rongwen Lu",
+        "works_in_corpus": 29,
+        "weighted_degree": 1089.0
+      },
+      {
+        "display_name": "Viren Jain",
+        "works_in_corpus": 29,
+        "weighted_degree": 600.0
+      },
+      {
+        "display_name": "Donglai Wei",
+        "works_in_corpus": 29,
+        "weighted_degree": 354.0
+      }
+    ],
+    "top_betweenness": [
+      {
+        "display_name": "Marta Costa",
+        "betweenness": 0.06199
+      },
+      {
+        "display_name": "Eric T. Trautman",
+        "betweenness": 0.033349
+      },
+      {
+        "display_name": "A. S. Bates",
+        "betweenness": 0.01849
+      },
+      {
+        "display_name": "Chuanyun Xu",
+        "betweenness": 0.017764
+      },
+      {
+        "display_name": "Laia Serratosa Capdevila",
+        "betweenness": 0.016392
+      },
+      {
+        "display_name": "Joseph Hsu",
+        "betweenness": 0.01556
+      },
+      {
+        "display_name": "G. Meissner",
+        "betweenness": 0.014026
+      },
+      {
+        "display_name": "Siqi Fang",
+        "betweenness": 0.013687
+      },
+      {
+        "display_name": "Sanna Koskela",
+        "betweenness": 0.01332
+      },
+      {
+        "display_name": "Ladann Kiassat",
+        "betweenness": 0.013044
+      }
+    ],
+    "top_communities": [
+      {
+        "community_id": 0,
+        "size": 666,
+        "top_members": [
+          "Xiaoyin Chen",
+          "Yonggang Wang",
+          "Yuanyuan Li",
+          "Mark Ellisman",
+          "Hongqing Han",
+          "Yu-Xian Zhang"
+        ]
+      },
+      {
+        "community_id": 1,
+        "size": 380,
+        "top_members": [
+          "J. Lichtman",
+          "Hanspeter Pfister",
+          "Stephen M. Plaza",
+          "Viren Jain",
+          "Donglai Wei",
+          "Louis K. Scheffer"
+        ]
+      },
+      {
+        "community_id": 2,
+        "size": 365,
+        "top_members": [
+          "H. Sebastian Seung",
+          "G. Jefferis",
+          "Kea-Joo Lee",
+          "Sven Dorkenwald",
+          "Philipp Schlegel",
+          "Szi-chieh Yu"
+        ]
+      },
+      {
+        "community_id": 3,
+        "size": 350,
+        "top_members": [
+          "Albert Cardona",
+          "J. Vogelstein",
+          "C. Priebe",
+          "Brock Andrew Wester",
+          "Jordan K. Matelsky",
+          "William R. Gray-Roncal"
+        ]
+      },
+      {
+        "community_id": 4,
+        "size": 200,
+        "top_members": [
+          "M. Helmstaedter",
+          "Winfried Denk",
+          "K. Briggman",
+          "Srinivas C. Turaga",
+          "R. Friedrich",
+          "Joergen Kornfeld"
+        ]
+      },
+      {
+        "community_id": 5,
+        "size": 163,
+        "top_members": [
+          "Olaf Sporns",
+          "B. Mi\u0161i\u0107",
+          "M. P. van den heuvel",
+          "Caio Seguin",
+          "A. Fornito",
+          "Rembrandt Bakker"
+        ]
+      },
+      {
+        "community_id": 6,
+        "size": 146,
+        "top_members": [
+          "Oliver Hobert",
+          "Steven J. Cook",
+          "Scott W. Emmons",
+          "WR Schafer",
+          "D. Hall",
+          "Isabel Beets"
+        ]
+      },
+      {
+        "community_id": 7,
+        "size": 112,
+        "top_members": [
+          "Bryan William Jones",
+          "James R. Anderson",
+          "R. E. Marc",
+          "T. Tasdizen",
+          "C. Sigulinsky",
+          "Ann-Shyn Chiang"
+        ]
+      }
+    ]
+  }
+}

@@ -67,4 +67,33 @@ IA-007 runs after work reconciliation and abstract rescue on **all canonical wor
 - unresolved works as the primary relevance-classification population;
 - role-bridge works, including IA-006 recovered bridges.
 
-Therefore the current expected LLM denominator is **4,136 canonical works**, subject only to later reviewed corrections to work-version links. It is no longer 3,753 papers.
+Therefore the LLM **screen ingest** denominator was **4,136 canonical works**, subject only to later reviewed corrections to work-version links. It is no longer 3,753 papers.
+
+Audited manual same-work links (IA-008 / IA-014) later collapsed additional versions. **Current canonical-work count is 4,100** (`postanalysis/works/work_reconciliation_summary.json`). Collapsed records remain in `work_versions.csv`.
+
+## IA-007-v3 screening of record
+
+v2 agent adjudication (`postanalysis/llm_agent/`) is the historical high-recall pass. The **current screening of record** is IA-007-v3 (`prompt_version` `IA-007-v3-work-level`, complete ingest under `postanalysis/llm_agent_v3/`). Criteria: `docs/IA-007-v3-screening-criteria-draft.md` (filename retained; status is accepted). Agent JSON is not rewritten afterward.
+
+## IA-012 checkpoint derived layers (v2, historical)
+
+After IA-007-v2 adjudication completed, **IA-012** defined regenerable derived views under `postanalysis/checkpoint/`:
+
+- inclusive corpus = `{core_relevant, adjacent_relevant, role_bridge}`;
+- analysis tiers and curriculum labels from IA-007 decisions + current metadata only;
+- checkpoint person-name reconciliation for coauthorship graphs.
+
+These layers do **not** rewrite IA-007 decisions and do **not** use prior-run membership lists as labeling inputs. They are the **v2 checkpoint**, not the working v3 corpus. See `docs/IA-012-checkpoint-corpus-curriculum-and-person-recon.md`.
+
+## IA-014 overlays (working membership)
+
+Working inclusive membership applies, in order, on top of v3 agent decisions:
+
+1. human screening overlay — `human_review_decisions.csv` (`analysis/human_review.py`);
+2. manual seeds for frozen-discovery holes — `manual_seed_works.csv` (`analysis/manual_seeds.py`).
+
+Snapshot inclusive **full** corpus: `postanalysis/llm_agent_v3/corpus_full_works.csv`. Provenance index: `docs/IA-014-post-v3-overlays-and-decision-provenance.md`.
+
+## IA-013 graph situability
+
+Semantic inclusion (v3 + IA-014) is separate from citation-graph situability. Default “citation-integrated, with coverage rescue” view is `corpus_integrated_plus_rescue_works.csv`. Counts: `postanalysis/llm_agent_v3/viz/corpus_graph_views_stats.json`. See `docs/IA-013-corpus-graph-views-and-emergent-core.md`.

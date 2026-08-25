@@ -1,0 +1,22 @@
+{
+  "works": 4136,
+  "v2_decisions": {
+    "out_of_scope": 2028,
+    "uncertain": 43,
+    "adjacent_relevant": 613,
+    "core_relevant": 1075,
+    "insufficient_abstract": 153,
+    "role_bridge": 224
+  },
+  "v3_bootstrap_decisions": {
+    "out_of_scope": 2052,
+    "uncertain": 43,
+    "adjacent_relevant": 631,
+    "core_relevant": 1032,
+    "insufficient_abstract": 153,
+    "role_bridge": 225
+  },
+  "core_v2": 1075,
+  "core_v3": 1032,
+  "tier_changes": 43
+}

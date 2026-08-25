@@ -1,0 +1,388 @@
+{
+  "interpretation_doc": "postanalysis/llm_agent_v3/CORPUS_GRAPH_VIEW.md",
+  "screening": {
+    "v2_core": 1075,
+    "v3_core": 706,
+    "v2_ultra_core": 65,
+    "v3_ultra_core": 45,
+    "v3_inclusive": 1857,
+    "core_demotions_v2_to_v3": 380
+  },
+  "citation_graph": {
+    "graph_matched_rate": 0.734,
+    "weak_threshold_total_degree": 2,
+    "by_tier": {
+      "core_relevant": {
+        "graph_matched": 645,
+        "median_total_degree": 8.0,
+        "median_out_in_ratio": 1.8,
+        "weak_unlinked": 104,
+        "ultra_core": 39,
+        "citation_link_strength": {
+          "weak_unlinked": 104,
+          "moderate": 227,
+          "strong": 286,
+          "weak": 28
+        }
+      },
+      "adjacent_relevant": {
+        "graph_matched": 677,
+        "median_total_degree": 2.0,
+        "median_out_in_ratio": 1.0,
+        "weak_unlinked": 285,
+        "ultra_core": 0,
+        "citation_link_strength": {
+          "weak": 93,
+          "weak_unlinked": 285,
+          "moderate": 209,
+          "strong": 90
+        }
+      },
+      "role_bridge": {
+        "graph_matched": 41,
+        "median_total_degree": 5.0,
+        "median_out_in_ratio": 2.5,
+        "weak_unlinked": 14,
+        "ultra_core": 0,
+        "citation_link_strength": {
+          "moderate": 16,
+          "weak_unlinked": 14,
+          "weak": 2,
+          "strong": 9
+        }
+      }
+    }
+  },
+  "authorship": {
+    "policy": "trim_middle",
+    "trim_note": "Trim only authors whose sole corpus credit is one middle-author appearance (including middle on a consortium paper when that is their only inclusion). Consortium middles with other first/last/middle credit elsewhere are kept.",
+    "excluded_single_middle_only": 3399,
+    "consortium": {
+      "consortium_papers": 94,
+      "consortium_middle_mentions": 3573,
+      "consortium_middle_unique_persons": 1740,
+      "consortium_first_last_mentions": 188,
+      "consortium_middle_excluded_single_only": 837
+    },
+    "coauthor_nodes": 3287,
+    "coauthor_edges": 54011,
+    "communities": 296
+  },
+  "top_communities": [
+    {
+      "label": "Xiaoyin Chen / Yonggang Wang",
+      "works": 381,
+      "graph_matched": 259,
+      "median_in_degree": 0.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 2.0,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.5081,
+      "citation_roles": {
+        "only_out": 131,
+        "isolate": 40,
+        "broker": 69,
+        "only_in": 17,
+        "hub": 2
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 121,
+        "moderate": 80,
+        "strong": 40,
+        "weak": 18
+      },
+      "weak_links": 18,
+      "weak_unlinked": 121,
+      "ultra_core": 5,
+      "community_id": 0,
+      "community_label": "Xiaoyin Chen / Yonggang Wang",
+      "core": 118,
+      "adjacent": 221,
+      "role_bridge": 42
+    },
+    {
+      "label": "J. Lichtman / Hanspeter Pfister",
+      "works": 241,
+      "graph_matched": 189,
+      "median_in_degree": 3.0,
+      "median_out_degree": 5.0,
+      "median_total_degree": 10.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 8.0,
+      "median_pagerank_percentile": 0.8569,
+      "citation_roles": {
+        "broker": 109,
+        "only_out": 53,
+        "hub": 9,
+        "only_in": 12,
+        "isolate": 6
+      },
+      "citation_link_strength": {
+        "moderate": 60,
+        "strong": 95,
+        "weak_unlinked": 29,
+        "weak": 5
+      },
+      "weak_links": 5,
+      "weak_unlinked": 29,
+      "ultra_core": 12,
+      "community_id": 1,
+      "community_label": "J. Lichtman / Hanspeter Pfister",
+      "core": 150,
+      "adjacent": 68,
+      "role_bridge": 23
+    },
+    {
+      "label": "Albert Cardona / J. Vogelstein",
+      "works": 184,
+      "graph_matched": 152,
+      "median_in_degree": 1.0,
+      "median_out_degree": 3.0,
+      "median_total_degree": 6.0,
+      "median_out_in_ratio": 1.8,
+      "median_k_core": 5.0,
+      "median_pagerank_percentile": 0.766,
+      "citation_roles": {
+        "isolate": 14,
+        "only_out": 42,
+        "only_in": 13,
+        "broker": 80,
+        "hub": 3
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 32,
+        "moderate": 52,
+        "strong": 55,
+        "weak": 13
+      },
+      "weak_links": 13,
+      "weak_unlinked": 32,
+      "ultra_core": 7,
+      "community_id": 3,
+      "community_label": "Albert Cardona / J. Vogelstein",
+      "core": 91,
+      "adjacent": 74,
+      "role_bridge": 19
+    },
+    {
+      "label": "H. Sebastian Seung / G. Jefferis",
+      "works": 165,
+      "graph_matched": 146,
+      "median_in_degree": 2.0,
+      "median_out_degree": 5.5,
+      "median_total_degree": 9.0,
+      "median_out_in_ratio": 1.75,
+      "median_k_core": 7.0,
+      "median_pagerank_percentile": 0.7759,
+      "citation_roles": {
+        "isolate": 9,
+        "only_out": 40,
+        "broker": 82,
+        "only_in": 7,
+        "hub": 8
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 23,
+        "moderate": 45,
+        "strong": 70,
+        "weak": 8
+      },
+      "weak_links": 8,
+      "weak_unlinked": 23,
+      "ultra_core": 8,
+      "community_id": 2,
+      "community_label": "H. Sebastian Seung / G. Jefferis",
+      "core": 114,
+      "adjacent": 41,
+      "role_bridge": 10
+    },
+    {
+      "label": "M. Helmstaedter / R. Friedrich",
+      "works": 130,
+      "graph_matched": 103,
+      "median_in_degree": 1.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 5.0,
+      "median_out_in_ratio": 1.059,
+      "median_k_core": 4.0,
+      "median_pagerank_percentile": 0.7733,
+      "citation_roles": {
+        "only_out": 13,
+        "isolate": 18,
+        "broker": 55,
+        "only_in": 16,
+        "hub": 1
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 23,
+        "moderate": 42,
+        "strong": 30,
+        "weak": 8
+      },
+      "weak_links": 8,
+      "weak_unlinked": 23,
+      "ultra_core": 3,
+      "community_id": 4,
+      "community_label": "M. Helmstaedter / R. Friedrich",
+      "core": 50,
+      "adjacent": 70,
+      "role_bridge": 10
+    },
+    {
+      "label": "Oliver Hobert / Steven J. Cook",
+      "works": 121,
+      "graph_matched": 107,
+      "median_in_degree": 1.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 4.0,
+      "median_out_in_ratio": 1.05,
+      "median_k_core": 3.0,
+      "median_pagerank_percentile": 0.721,
+      "citation_roles": {
+        "only_in": 13,
+        "only_out": 32,
+        "isolate": 13,
+        "broker": 45,
+        "hub": 4
+      },
+      "citation_link_strength": {
+        "weak": 16,
+        "weak_unlinked": 28,
+        "moderate": 34,
+        "strong": 29
+      },
+      "weak_links": 16,
+      "weak_unlinked": 28,
+      "ultra_core": 3,
+      "community_id": 5,
+      "community_label": "Oliver Hobert / Steven J. Cook",
+      "core": 36,
+      "adjacent": 83,
+      "role_bridge": 2
+    },
+    {
+      "label": "Olaf Sporns / B. Mi\u0161i\u0107",
+      "works": 89,
+      "graph_matched": 38,
+      "median_in_degree": 1.0,
+      "median_out_degree": 4.0,
+      "median_total_degree": 6.0,
+      "median_out_in_ratio": 2.5,
+      "median_k_core": 5.0,
+      "median_pagerank_percentile": 0.7164,
+      "citation_roles": {
+        "only_out": 11,
+        "broker": 19,
+        "isolate": 6,
+        "only_in": 2
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 10,
+        "strong": 15,
+        "moderate": 11,
+        "weak": 2
+      },
+      "weak_links": 2,
+      "weak_unlinked": 10,
+      "ultra_core": 0,
+      "community_id": 6,
+      "community_label": "Olaf Sporns / B. Mi\u0161i\u0107",
+      "core": 13,
+      "adjacent": 57,
+      "role_bridge": 19
+    },
+    {
+      "label": "Javier DeFelipe / Henry Markram",
+      "works": 57,
+      "graph_matched": 33,
+      "median_in_degree": 1.0,
+      "median_out_degree": 1.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 1.5,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.7136,
+      "citation_roles": {
+        "isolate": 7,
+        "only_in": 6,
+        "only_out": 8,
+        "broker": 12
+      },
+      "citation_link_strength": {
+        "weak_unlinked": 12,
+        "weak": 5,
+        "moderate": 12,
+        "strong": 4
+      },
+      "weak_links": 5,
+      "weak_unlinked": 12,
+      "ultra_core": 0,
+      "community_id": 7,
+      "community_label": "Javier DeFelipe / Henry Markram",
+      "core": 17,
+      "adjacent": 36,
+      "role_bridge": 4
+    },
+    {
+      "label": "James R. Anderson / Bryan William Jones",
+      "works": 52,
+      "graph_matched": 41,
+      "median_in_degree": 1.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 3.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 3.0,
+      "median_pagerank_percentile": 0.7191,
+      "citation_roles": {
+        "broker": 22,
+        "only_out": 10,
+        "isolate": 6,
+        "only_in": 3
+      },
+      "citation_link_strength": {
+        "strong": 7,
+        "weak_unlinked": 12,
+        "moderate": 19,
+        "weak": 3
+      },
+      "weak_links": 3,
+      "weak_unlinked": 12,
+      "ultra_core": 0,
+      "community_id": 8,
+      "community_label": "James R. Anderson / Bryan William Jones",
+      "core": 28,
+      "adjacent": 20,
+      "role_bridge": 4
+    },
+    {
+      "label": "Bradly Alicea / Matteo Cantarelli",
+      "works": 12,
+      "graph_matched": 7,
+      "median_in_degree": 1.0,
+      "median_out_degree": 2.0,
+      "median_total_degree": 2.0,
+      "median_out_in_ratio": 1.0,
+      "median_k_core": 2.0,
+      "median_pagerank_percentile": 0.7128,
+      "citation_roles": {
+        "broker": 3,
+        "only_out": 2,
+        "only_in": 2
+      },
+      "citation_link_strength": {
+        "strong": 2,
+        "weak": 3,
+        "moderate": 1,
+        "weak_unlinked": 1
+      },
+      "weak_links": 3,
+      "weak_unlinked": 1,
+      "ultra_core": 0,
+      "community_id": 10,
+      "community_label": "Bradly Alicea / Matteo Cantarelli",
+      "core": 1,
+      "adjacent": 8,
+      "role_bridge": 3
+    }
+  ]
+}

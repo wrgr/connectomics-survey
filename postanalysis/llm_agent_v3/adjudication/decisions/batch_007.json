@@ -1,0 +1,1253 @@
+{
+  "batch": "batch_007",
+  "adjudicator": "agent:cursor/composer-2.5-fast",
+  "prompt_version": "IA-007-v3-work-level",
+  "criteria_sha256": "7fb4cab60b9426966bf43edf4e02e5c1b19b5ddf3ddd43cfb8292902f4b8b04a",
+  "decisions": {
+    "work_2c11127654ca836f": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.9,
+      "evidence": "fMRI Foundation Model of Brain Connectomes... pretraining large models on extensive unlabeled fMRI data",
+      "reason": "fMRI foundation model for functional connectomes.",
+      "noise_flags": [
+        "generic_machine_learning",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2c1e7572e1843bce": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.85,
+      "evidence": "connectome-guided resection conducted under awake mapping... diffuse glioma",
+      "reason": "Clinical neurosurgical connectome concept for glioma; macroscale.",
+      "noise_flags": [
+        "ambiguous_connectome_usage",
+        "generic_health_context"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2c23ff2f9ed14485": {
+      "decision": "core_relevant",
+      "roles": [
+        "reconstruction_segmentation",
+        "synapse_inference",
+        "proofreading_qc"
+      ],
+      "confidence": 0.94,
+      "evidence": "SegCLR automatically annotates segmented electron microscopy datasets of the brain... self-supervised contrastive learning",
+      "reason": "Self-supervised EM segmentation annotation for connectomic datasets.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "connectomics_pipeline_tool"
+    },
+    "work_2c3d7740e61c43c2": {
+      "decision": "core_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "biological_application"
+      ],
+      "confidence": 0.93,
+      "evidence": "ConnectionMiner... integrates scRNAseq data with electron microscopy-derived connectomes",
+      "reason": "Tool linking EM connectome with scRNAseq for circuit development.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2c3f92b048127b9c": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.87,
+      "evidence": "combine the locations of brain abnormalities in IGE (131 coordinates from 21 studies) with the human connectome to identify an IEG network",
+      "reason": "Macro human connectome network model for epilepsy.",
+      "noise_flags": [
+        "generic_health_context",
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2c51527577432d66": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.96,
+      "evidence": "CycADS: an annotation database system to ease the development and update of BioCyc databases",
+      "reason": "Metabolic pathway database annotation tool.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2c6fe44c1be1c300": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "reconstruction_segmentation",
+        "proofreading_qc",
+        "infrastructure"
+      ],
+      "confidence": 0.88,
+      "evidence": "Cellular-resolution connectomics: challenges of dense neural circuit reconstruction... crowd-sourcing and machine-learning approaches",
+      "reason": "Perspective on dense EM connectome reconstruction challenges; not a pipeline tool or wiring-graph release.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2c7491a70ff43d1d": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "NeoRS, a rsfMRI pipeline for neonates... functional connectivity analysis",
+      "reason": "Neonatal resting-state fMRI preprocessing pipeline.",
+      "noise_flags": [
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2c8025ad84de41d1": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "biological_application"
+      ],
+      "confidence": 0.84,
+      "evidence": "recurrent neural network (RNN) whose architecture is directly derived from the synaptic-resolution brain connectome of the fruit fly Drosophila melanogaster",
+      "reason": "Fly connectome-topology RNN for robust navigation.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2c8c868f5162a2f8": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.91,
+      "evidence": "reconstructing various functional MRI-based cortical maps using individualised eigenmodes... Human Connectome Project",
+      "reason": "HCP fMRI eigenmode reconstruction from structural connectomes.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2c969b3a386cee5f": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.9,
+      "evidence": "brain connectome, like many networks, is highly modular... meta-networking theory",
+      "reason": "Macro connectome review/theory without nanoscale focus.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2cc0677e9c1d540a": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application",
+        "synapse_inference"
+      ],
+      "confidence": 0.8,
+      "evidence": "circuit model could reproduce each cell type's activity from the measured activity of other cell types... mouse V1",
+      "reason": "In vivo/ex vivo circuit connectivity modeling in mouse V1.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2cc3229a1ee783db": {
+      "decision": "core_relevant",
+      "roles": [
+        "network_science",
+        "biological_application"
+      ],
+      "confidence": 0.92,
+      "evidence": "Updated and more complete chemical and gap junction connectomes of both adult sexes... analyze the overall structure of the connectivity network",
+      "reason": "Comprehensive C. elegans connectome network analysis for neuron function.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2cd8a8967328e13a": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application"
+      ],
+      "confidence": 0.83,
+      "evidence": "C. elegans was mapped at the level of genes, cells, and synapses, providing the first metazoan with a complete cell lineage, sequenced genome, and connectome",
+      "reason": "Review of C. elegans connectome neurodevelopment context.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ce6b2550bd20b4b": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.92,
+      "evidence": "neural correlates of executive functioning among the hubs in the resting-state functional connectome (rs-FCN)",
+      "reason": "Resting-state fMRI functional connectome in depression/suicidality.",
+      "noise_flags": [
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2d052f85fe177163": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.89,
+      "evidence": "cerebellar connectomics is then addressed, highlighting the interplay between cerebellar circuitry and neurological and psychiatric conditions",
+      "reason": "Macro cerebellar connectomics review.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2d23fc156da4f7ce": {
+      "decision": "role_bridge",
+      "roles": [
+        "reconstruction_segmentation",
+        "proofreading_qc"
+      ],
+      "confidence": 0.78,
+      "evidence": "TraceMontage... combination of multiple neuron traces... connectomics scale to increasingly larger neural systems",
+      "reason": "Tool for merging neuronal traces toward connectome-scale reconstruction.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2d2924a49bcf2d9e": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.87,
+      "evidence": "understanding the dynamics of the connectome (structure) from which emerges the cognitome (function)",
+      "reason": "Brain criticality essay; macro dynamics not nanoscale connectomics.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2d5170d4591ffa30": {
+      "decision": "role_bridge",
+      "roles": [
+        "acquisition_preparation",
+        "alternative_modality"
+      ],
+      "confidence": 0.8,
+      "evidence": "ultramicroscopy... allows optical sectioning of fixed mouse brains with cellular resolution... dendritic trees and spines",
+      "reason": "Light-sheet ultramicroscopy for 3D neuronal mapping.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2d64fdbc21798739": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "network_science",
+        "biological_application"
+      ],
+      "confidence": 0.85,
+      "evidence": "motif discovery in biological graphs remains an unsolved challenge... C. elegans connectome and the ellipsoid body of the Drosophila melanogaster fruit fly connectome",
+      "reason": "Motif discovery method applied to EM connectomes.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2d661ad24d89357b": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.88,
+      "evidence": "cortico-basal-cerebellar connectome: clinical and physiological considerations... MRI-based tractography",
+      "reason": "Macro connectome review using MRI tractography.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2d909c83a021450b": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.93,
+      "evidence": "intrinsic functional brain organization can be seamlessly reduced to three fundamental low-frequency spatiotemporal patterns",
+      "reason": "Resting-state fMRI intrinsic organization analysis.",
+      "noise_flags": [
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2d9d6eedc233bf3f": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.91,
+      "evidence": "produce networks that are maximally representative... functional and diffusion MRI data from the Human Connectome Project",
+      "reason": "HCP network construction methodology for macro connectomes.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2d9db6a73a195b1d": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "network_science"
+      ],
+      "confidence": 0.82,
+      "evidence": "generate an average dense model of the neuronal circuitry... measure synaptic innervation between all neurons within the model",
+      "reason": "In silico dense statistical connectome from sparse morphological data.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2dc534f16758c7f0": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.92,
+      "evidence": "peak alpha frequency (PAF) abnormalities are general features across chronic central and peripheral conditions... dynamic pain connectome (DPC)",
+      "reason": "MEG resting-state dynamic pain connectome in neuropathic pain.",
+      "noise_flags": [
+        "generic_health_context",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2dd597a5b9cb927d": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.9,
+      "evidence": "connectome analysis in patients with brain tumours... Resting-state functional MRI data",
+      "reason": "Resting-state fMRI connectome mapping for glioma surgery.",
+      "noise_flags": [
+        "generic_health_context",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2dd964b0e399a1fe": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application"
+      ],
+      "confidence": 0.8,
+      "evidence": "connectome, a complete matrix of structural connections... macroconnections... mesoconnections... microconnections... nanoconnections at synapses",
+      "reason": "Historical review spanning connectome levels including synaptic/nanoscale.",
+      "noise_flags": [],
+      "scale_relationship": "multi_scale_bridging",
+      "core_gate": "not_applicable"
+    },
+    "work_2df062ae66c16e94": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "network_science",
+        "biological_application"
+      ],
+      "confidence": 0.81,
+      "evidence": "locating similar sub-communities in a partially reconstructed Drosophila connectome",
+      "reason": "Community detection applied to partial Drosophila connectome.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2df8be6327964093": {
+      "decision": "core_relevant",
+      "roles": [
+        "reconstruction_segmentation",
+        "biological_application"
+      ],
+      "confidence": 0.93,
+      "evidence": "skeletonised 853 muscle cells and their desmosomal partners in volume electron microscopy data covering an entire larva... desmosomal connectome",
+      "reason": "Volume EM desmosomal connectome mapping in annelid larva.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_2e135d4ee49a93d1": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application"
+      ],
+      "confidence": 0.76,
+      "evidence": "From the Connectome to the Synaptome... connectivity at the ultrastructural level, the synaptome",
+      "reason": "Conceptual review linking connectome to synaptome/ultrastructure.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2e3405c14ff5b056": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.93,
+      "evidence": "multiscale structural connectivity framework... diffusion MRI... structural connectomes were constructed",
+      "reason": "Pediatric dMRI structural connectomics in leukemia survivors.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2e3c833ccaacbeed": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.92,
+      "evidence": "longitudinal resting-state functional magnetic resonance imaging data from 305 children... maturation of the core connectome gradient",
+      "reason": "Developmental rs-fMRI functional connectome gradients.",
+      "noise_flags": [
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2e7057c9bdb34818": {
+      "decision": "core_relevant",
+      "roles": [
+        "network_science",
+        "proofreading_qc"
+      ],
+      "confidence": 0.89,
+      "evidence": "bisected graph matching problem... match individual neurons in nanoscale connectomes... real connectome datasets",
+      "reason": "Graph matching method for bilateral neuron pairing in connectomes.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "connectomics_pipeline_tool"
+    },
+    "work_2e7c3864c43f74f0": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.97,
+      "evidence": "Genome (re-)annotation and open-source annotation pipelines",
+      "reason": "Genome annotation review; unrelated to connectomics.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2e89582f1e165cd3": {
+      "decision": "core_relevant",
+      "roles": [
+        "biological_application",
+        "structure_function_modeling"
+      ],
+      "confidence": 0.95,
+      "evidence": "reconstructed, from a whole CNS EM volume, the synaptic map of input and output neurons that underlie food intake behavior of Drosophila larvae",
+      "reason": "Whole-CNS EM feeding connectome reconstruction in Drosophila.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_2e8cffa3e3b6ba52": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application",
+        "structure_function_modeling"
+      ],
+      "confidence": 0.82,
+      "evidence": "activity during development also contributes to circuit assembly in the fly... specify the connectome",
+      "reason": "Developmental biology review of activity-dependent fly circuit assembly; connectome mentioned but no wiring reconstruction.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ebee200d32da75a": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "biological_application"
+      ],
+      "confidence": 0.8,
+      "evidence": "Raising the Connectome: The Emergence of Neuronal Activity and Behavior in Caenorhabditis elegans... connectogenetic process",
+      "reason": "Opinion on C. elegans connectogenesis modeling; conceptual developmental framing without EM wiring-map work.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ed1b4217bd49c80": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.91,
+      "evidence": "effect of amyloidosis on fear memory and functional connectome measures in mice",
+      "reason": "Mouse functional connectome imaging in amyloidosis.",
+      "noise_flags": [
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ed4c3dcef8226c3": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.92,
+      "evidence": "fMRI-based brain decoding... Human Connectome Project (HCP) S1200",
+      "reason": "HCP fMRI task decoding with graph CNN.",
+      "noise_flags": [
+        "generic_machine_learning",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2edafa9fb5f29e82": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application"
+      ],
+      "confidence": 0.77,
+      "evidence": "cellular-resolution gene expression atlas... integrated into the Max Planck Zebrafish Brain (mapzebrain) atlas... synaptic connectivity",
+      "reason": "Zebrafish atlas integrating gene expression with connectivity/tracing.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ee1fa2abb64985c": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.88,
+      "evidence": "annotated connectomes allow us to reconceptualize architectural features of networks",
+      "reason": "Macro annotated connectome review without nanoscale focus.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2f0f73920e21ef45": {
+      "decision": "core_relevant",
+      "roles": [
+        "biological_application",
+        "network_science"
+      ],
+      "confidence": 0.91,
+      "evidence": "mitotic lineage predicts neural connections beyond cell type alone... three C. elegans datasets",
+      "reason": "C. elegans connectome edge prediction incorporating developmental lineage.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2f3e497ffaa5e9d7": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "acquisition_preparation",
+        "reconstruction_segmentation"
+      ],
+      "confidence": 0.84,
+      "evidence": "Volume electron microscopy or volume EM (vEM)... key discoveries in neuronal wiring diagrams (connectomics)",
+      "reason": "Volume EM methods review for 3D ultrastructure; adjacent imaging science, not connectomics pipeline or graph analysis.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2f409874ec73fe00": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "network_science",
+        "biological_application"
+      ],
+      "confidence": 0.8,
+      "evidence": "network architecture of the Drosophila connectome at the mesoscopic scale... FlyCircuit database",
+      "reason": "Mesoscopic Drosophila connectivity network from single-neuron data.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2f433407fb707ab5": {
+      "decision": "uncertain",
+      "roles": [],
+      "confidence": 0.55,
+      "evidence": "graph model that matches non-random structure characterized and described as relevant in biological neuronal networks... fit to complex, biologically relevant reference connectomes",
+      "reason": "Computational graph model for cortical connectivity; unclear nanoscale connectomics scope from abstract.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_2f4a13ea9aef920f": {
+      "decision": "core_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "biological_application"
+      ],
+      "confidence": 0.86,
+      "evidence": "computational models of healthy and degenerated (both ON and OFF-type) cone bipolar cells (CBCs) with realistic morphologies extracted from connectomes of the healthy and early-stage degenerated rabbit retina",
+      "reason": "Retinal connectome-derived computational models for stimulation.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2f671ade1d1c2e2c": {
+      "decision": "core_relevant",
+      "roles": [
+        "biological_application",
+        "network_science"
+      ],
+      "confidence": 0.94,
+      "evidence": "identify 91 putative Fru or Dsx cell types... within the whole-brain connectome, using morphological similarity between electron microscopic (EM) reconstructions",
+      "reason": "Whole-brain EM connectome analysis of sexually dimorphic neurons.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2f6b66120e640199": {
+      "decision": "core_relevant",
+      "roles": [
+        "reconstruction_segmentation",
+        "synapse_inference",
+        "biological_application"
+      ],
+      "confidence": 0.95,
+      "evidence": "connectome from central macaque retina was generated by serial block-face scanning electron microscopy... synaptic inputs were analyzed",
+      "reason": "Macaque retinal connectome SBF-SEM synaptic analysis.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_2f968b5df6b0dd3d": {
+      "decision": "core_relevant",
+      "roles": [
+        "biological_application",
+        "structure_function_modeling"
+      ],
+      "confidence": 0.97,
+      "evidence": "mapped the synaptic-resolution connectome of an insect brain (Drosophila larva) comprising 3,013 neurons and 544,000 synapses",
+      "reason": "Complete synaptic-resolution insect brain connectome.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_2fa8d79af55043dd": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.92,
+      "evidence": "TheVirtualBrain-UK Biobank pipeline... generate connectome-based modelling inputs compatible for use with TheVirtualBrain",
+      "reason": "Macro structural/functional connectome pipeline for brain modeling.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2fb4d7c6fc7d1a14": {
+      "decision": "core_relevant",
+      "roles": [
+        "network_science",
+        "biological_application"
+      ],
+      "confidence": 0.92,
+      "evidence": "focused on the C. elegans connectome, which comprises 99 classes of bilaterally symmetrical neuron pairs... graph theoretical metrics for evaluating Redundancy and Reachability",
+      "reason": "Quantitative graph analysis of C. elegans connectome asymmetry.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2fdb721414ca6838": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.91,
+      "evidence": "fMRI datasets: the Human Connectome Project for connectome fingerprinting",
+      "reason": "fMRI neural network connectome fingerprinting.",
+      "noise_flags": [
+        "generic_machine_learning",
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2fe794228645ab5f": {
+      "decision": "core_relevant",
+      "roles": [
+        "biological_application",
+        "network_science"
+      ],
+      "confidence": 0.9,
+      "evidence": "Leveraging the available C. elegans connectomes that span all larval developmental stages, we show that clustered synapses are formed at the early stages",
+      "reason": "Developmental analysis of synaptic clustering using C. elegans connectomes.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2fec1e83fce4a3a0": {
+      "decision": "core_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "synapse_inference"
+      ],
+      "confidence": 0.88,
+      "evidence": "graph network model to predict synaptic connections and estimate synaptic strength by using the calcium activity data from C. elegans",
+      "reason": "Data-driven C. elegans synaptic connection/strength prediction model.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_2ff133b450151f26": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application",
+        "synapse_inference"
+      ],
+      "confidence": 0.82,
+      "evidence": "architectural reconstruction of complex cortical circuits... octuple-sexdecuple whole-cell patch-clamp recording system",
+      "reason": "Large-scale cortical circuit architecture via paired recordings.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ff1b06cdf15c198": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "in utero brain connectivity, analyzing high-quality dMRI data from 198 fetuses... structural connectomes",
+      "reason": "Fetal dMRI structural connectome development.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ff20dedc643aaf0": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "synapse_inference"
+      ],
+      "confidence": 0.79,
+      "evidence": "explicit method for reconstructing interaction networks of leaky integrate-and-fire neurons from the spike patterns",
+      "reason": "Network inference from neural spike data; adjacent synaptic connectivity inference.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_2ff4262f745dca36": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.92,
+      "evidence": "Frequency-Specific Resting-State MEG Network Characteristics of Tinnitus Patients... functional connectome",
+      "reason": "MEG resting-state functional connectome in tinnitus.",
+      "noise_flags": [
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_3016dcba9e741dca": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.87,
+      "evidence": "What Direct Electrostimulation of the Brain Taught Us About the Human Connectome",
+      "reason": "Clinical DES macro connectome review.",
+      "noise_flags": [
+        "generic_health_context",
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_301a9d575e21440b": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.93,
+      "evidence": "Structural connectomes were constructed using constrained spherical deconvolution tractography... adolescents with CHD",
+      "reason": "dMRI structural connectomics in congenital heart disease.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_302bd2eb29e0c597": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.86,
+      "evidence": "simulation-based approach, using a detailed, large-scale cortical network model... functional cell assemblies",
+      "reason": "Large-scale cortical simulation without connectomics reconstruction.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_303863c5da648395": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "image quality transfer (IQT)... diffusion MRI data set from the human connectome project (HCP)",
+      "reason": "HCP dMRI image quality transfer/super-resolution.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_304aa91b23a5fc9c": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.95,
+      "evidence": "in utero gene transfer system to the developing mouse brain using electroporation... neuronal migration",
+      "reason": "Developmental electroporation tool; no connectomics.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_305381daa71439b4": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "constrained spherical deconvolution tractography to perform connectivity-based segmentation of the human RN... Human Connectome Project",
+      "reason": "HCP DTI tractography segmentation of red nucleus.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_3071a936cc0cf634": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.88,
+      "evidence": "framework is related to neural-field and connectome models... low-frequency resonome of the human brain",
+      "reason": "Theoretical glial control of macro brain oscillations; not nanoscale connectomics.",
+      "noise_flags": [
+        "ambiguous_connectome_usage",
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_30755daec3a98a3c": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "network_science"
+      ],
+      "confidence": 0.78,
+      "evidence": "comparative spectral analysis of structural connectomes for various organisms using open-access data",
+      "reason": "Spectral analysis comparing structural connectomes across organisms.",
+      "noise_flags": [],
+      "scale_relationship": "multi_scale_bridging",
+      "core_gate": "not_applicable"
+    },
+    "work_308f5478abdb4fa4": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "network_science",
+        "biological_application"
+      ],
+      "confidence": 0.8,
+      "evidence": "distinguish between scans from different subjects; and in the C.elegans connectome, we are able to distinguish between chemical and electrical networks",
+      "reason": "Graph hypothesis test distinguishing C. elegans chemical vs electrical networks.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_30981973267aabd1": {
+      "decision": "core_relevant",
+      "roles": [
+        "reconstruction_segmentation",
+        "synapse_inference",
+        "biological_application"
+      ],
+      "confidence": 0.94,
+      "evidence": "connectomic reconstruction of color-coding pathways that originate from the foveal blue cone bipolar cell interneuron",
+      "reason": "Human foveal retinal connectomic color circuit reconstruction.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_30a1ebdb4c3baaba": {
+      "decision": "core_relevant",
+      "roles": [
+        "infrastructure",
+        "reconstruction_segmentation"
+      ],
+      "confidence": 0.92,
+      "evidence": "data compression approach employing Variational Autoencoders (VAEs)... human EM volumes (H01 dataset)... connectomics-based image analysis",
+      "reason": "EM image compression infrastructure for connectomics datasets.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "connectomics_pipeline_tool"
+    },
+    "work_30ab5719d541964d": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.91,
+      "evidence": "in silico lesioning of either brain regions or functional connections constituting the connectome of healthy individuals... Human Connectome Project",
+      "reason": "HCP functional connectome resilience heritability.",
+      "noise_flags": [
+        "resting_state_or_functional_connectivity"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_30ab633401383953": {
+      "decision": "role_bridge",
+      "roles": [
+        "reconstruction_segmentation",
+        "proofreading_qc"
+      ],
+      "confidence": 0.75,
+      "evidence": "Skeletonization of tubular structures from 3D imaging is essential for tasks such as... neural connectomes",
+      "reason": "Semi-automatic skeleton correction tool applicable to connectomics.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_30b183a150c2351a": {
+      "decision": "role_bridge",
+      "roles": [
+        "network_science"
+      ],
+      "confidence": 0.72,
+      "evidence": "test these algorithms on synthetic benchmark networks... as well as brain connectivity maps (connectomes) from various species",
+      "reason": "Network reciprocity control tested on connectomes among other graphs.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_30b9fcdedb89207a": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "acquisition_preparation",
+        "alternative_modality"
+      ],
+      "confidence": 0.81,
+      "evidence": "X-ray microtomography (\u00b5CT) for producing mesoscale brain maps... complementing other brain mapping and connectomics efforts",
+      "reason": "X-ray mesoscale brain mapping complementing connectomics.",
+      "noise_flags": [],
+      "scale_relationship": "multi_scale_bridging",
+      "core_gate": "not_applicable"
+    },
+    "work_30bd5df08824148c": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.95,
+      "evidence": "sf-pediatric, a scalable, end-to-end, age-adaptable dMRI pipeline",
+      "reason": "Pediatric dMRI processing pipeline.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_30ddead0bddcad17": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.96,
+      "evidence": "feed-forward loop (FFL)... transcription networks... network motifs",
+      "reason": "Gene regulatory network motifs; not neural connectomics.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_3124a20f92cb886a": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "network_science"
+      ],
+      "confidence": 0.82,
+      "evidence": "large-scale model of the multiregional mouse brain... built on mesoscopic connectome data for interareal cortical connections",
+      "reason": "Mesoscopic mouse connectome-constrained working memory model.",
+      "noise_flags": [],
+      "scale_relationship": "multi_scale_bridging",
+      "core_gate": "not_applicable"
+    },
+    "work_31486f2a35f6fd01": {
+      "decision": "role_bridge",
+      "roles": [
+        "structure_function_modeling",
+        "health_translation"
+      ],
+      "confidence": 0.76,
+      "evidence": "analyzed for connection similarities, graph distances... based on the neuroVIISAS rat connectome",
+      "reason": "Rat mesoscale connectome model for stroke functional impairment.",
+      "noise_flags": [],
+      "scale_relationship": "multi_scale_bridging",
+      "core_gate": "not_applicable"
+    },
+    "work_3148739c75d1bc8a": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.85,
+      "evidence": "maintenance of interneuronal connectome by oligodendroglia-dependent axonal myelination",
+      "reason": "Neuroglia review mentioning connectome broadly in health/disease context.",
+      "noise_flags": [
+        "generic_health_context"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_3149f9ccabae6a58": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.87,
+      "evidence": "cortical T1w/T2w myelin mapping methods... Human Connectome Project in Development",
+      "reason": "Developmental cortical myelination mapping via HCP; not connectomics core.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_3152d32968bdaeb1": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "SCNVIP neurons are required for normal circadian rhythmicity... optogenetic-assisted circuit mapping",
+      "reason": "Hypothalamic circadian circuit neuroscience without connectomics reconstruction.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_315c24ec66a9c2ef": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.97,
+      "evidence": "transcriptome assembly of the whiteleg shrimp (Litopenaeus vannamei)",
+      "reason": "Shrimp transcriptomics; unrelated.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_31613b70300a05e4": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.93,
+      "evidence": "Connectome Spatial Smoothing (CSS)... structural connectomes are increasingly mapped at high spatial resolutions... tractography",
+      "reason": "DTI structural connectome spatial smoothing method.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_3167944ed8876ef1": {
+      "decision": "core_relevant",
+      "roles": [
+        "biological_application",
+        "structure_function_modeling"
+      ],
+      "confidence": 0.94,
+      "evidence": "first synaptic-resolution connectome of the circuitry upstream of all modulatory neurons in a brain center for associative learning, the mushroom body (MB) of the Drosophila larva",
+      "reason": "Synaptic-resolution Drosophila MB connectome for learning circuits.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_318843cf74d33350": {
+      "decision": "role_bridge",
+      "roles": [
+        "training_outreach"
+      ],
+      "confidence": 0.7,
+      "evidence": "omics such as radiomics, pathomics, and connectomics, supported by computer-assisted technologies",
+      "reason": "Review introducing connectomics among omics tools for anatomists.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_318ed7e271ad3483": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "physics-driven deep learning (DL) methods... inverse problems in medical imaging",
+      "reason": "Medical imaging DL inverse problems; no connectomics.",
+      "noise_flags": [
+        "generic_machine_learning"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_31955c620b12a810": {
+      "decision": "core_relevant",
+      "roles": [
+        "structure_function_modeling",
+        "infrastructure"
+      ],
+      "confidence": 0.87,
+      "evidence": "Neuron_Reduce... reduce the morphological complexity and computational time of nonlinear neuron models... networks emerging from micro-connectomics efforts",
+      "reason": "Neuron model reduction for micro-connectomics-scale simulations.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "connectomics_pipeline_tool"
+    },
+    "work_31a48eaa47e3e43c": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.93,
+      "evidence": "Towards the Baby Connectome: Mapping the Structural Connectivity of the Newborn Brain... diffusion and high-resolution anatomic MRI",
+      "reason": "Newborn dMRI structural connectome mapping.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_31ad8b8ed510352c": {
+      "decision": "uncertain",
+      "roles": [],
+      "confidence": 0.52,
+      "evidence": "Cortical connectomics revealed an elaboration of disinhibitory motifs in human brains",
+      "reason": "Cellular neuroscience review with brief connectomics mention; insufficient nanoscale connectomics focus in abstract.",
+      "noise_flags": [],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_31c0a0ed4efb50d0": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "longitudinal diffusion MRI cohort of 604 participants, we map the developmental trajectory of the white matter connectome",
+      "reason": "Developmental dMRI white matter connectome.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_31c2ee577a96bb3b": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.9,
+      "evidence": "constructed a structural covariance network (SCN) from MRI measures of cortical thickness",
+      "reason": "MRI cortical thickness structural covariance networks.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "unclear",
+      "core_gate": "not_applicable"
+    },
+    "work_31d1fee6f2ffabfe": {
+      "decision": "core_relevant",
+      "roles": [
+        "biological_application",
+        "structure_function_modeling"
+      ],
+      "confidence": 0.93,
+      "evidence": "dense connectome of the circuitry upstream of all modulatory neurons... mushroom body (MB) of Drosophila... inferring the computations performed by neuronal circuits",
+      "reason": "Dense Drosophila MB connectome circuit analysis.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "analysis_on_wiring_graph"
+    },
+    "work_31d4ff5b664b68cf": {
+      "decision": "core_relevant",
+      "roles": [
+        "synapse_inference",
+        "reconstruction_segmentation"
+      ],
+      "confidence": 0.92,
+      "evidence": "deep-learning based workflow to detect synapses and predict their neurotransmitter type in the primitive chordate Ciona intestinalis (Ciona) EM images",
+      "reason": "EM synapse detection and neurotransmitter classification for connectomics.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "connectomics_pipeline_tool"
+    },
+    "work_31e342d0d3149cd8": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "synapse_inference",
+        "biological_application"
+      ],
+      "confidence": 0.83,
+      "evidence": "determine synaptic connectivity between nearby layer 2/3 pyramidal neurons in vitro... connection probability was related to the similarity of visually driven neuronal activity",
+      "reason": "Functional specificity of local synaptic connections (paired recording).",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_31fb04f37ca7ee17": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.86,
+      "evidence": "permutation tests... applied to real data from the Human Connectome Project (HCP)",
+      "reason": "Statistical permutation method using HCP as example.",
+      "noise_flags": [
+        "generic_network_neuroscience"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_322b6ec931f74a8c": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.93,
+      "evidence": "Structural brain networks derived from diffusion magnetic resonance imaging data",
+      "reason": "dMRI graph construction optimization study.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_3237794822a671c6": {
+      "decision": "adjacent_relevant",
+      "roles": [
+        "biological_application",
+        "synapse_inference"
+      ],
+      "confidence": 0.84,
+      "evidence": "cellular and synaptic architecture in medulla columns located downstream of photoreceptors in the dorsal rim area (DRA)... synaptically connected to Dm-DRA1",
+      "reason": "Fly visual circuit synaptic architecture for skylight orientation.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "not_applicable"
+    },
+    "work_323f149edd874840": {
+      "decision": "out_of_scope",
+      "roles": [],
+      "confidence": 0.94,
+      "evidence": "Structural brain networks constructed from diffusion MRI are important biomarkers",
+      "reason": "dMRI structural network classification for cognition.",
+      "noise_flags": [
+        "diffusion_mri_or_tractography"
+      ],
+      "scale_relationship": "macro_only",
+      "core_gate": "not_applicable"
+    },
+    "work_324fa11700fbfc52": {
+      "decision": "core_relevant",
+      "roles": [
+        "acquisition_preparation",
+        "reconstruction_segmentation"
+      ],
+      "confidence": 0.95,
+      "evidence": "Focused Ion Beam Scanning Electron Microscopy (FIB-SEM)... ideal for connectomics... imageable volume by more than four orders of magnitude",
+      "reason": "FIB-SEM advances for large-volume connectomics imaging.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_3250041480d5bfbb": {
+      "decision": "core_relevant",
+      "roles": [
+        "acquisition_preparation",
+        "reconstruction_segmentation"
+      ],
+      "confidence": 0.91,
+      "evidence": "serial section electron tomography (ET)... map brain circuits over large 3D volumes and reveal high-resolution, supramolecular details... chemical synapses, endocytic structures, and gap junctions",
+      "reason": "Electron tomography methods for connectomic-scale circuit mapping.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    },
+    "work_32508f097eb3c1ce": {
+      "decision": "core_relevant",
+      "roles": [
+        "acquisition_preparation",
+        "reconstruction_segmentation",
+        "synapse_inference"
+      ],
+      "confidence": 0.94,
+      "evidence": "serial block-face scanning electron microscopy allows us to acquire thousands of serial images... reconstruct neural circuits... synaptic network in the rat hippocampal CA1 area",
+      "reason": "SBF-SEM hippocampal synaptic network reconstruction methods.",
+      "noise_flags": [],
+      "scale_relationship": "nanoscale_only",
+      "core_gate": "em_or_synaptic_reconstruction"
+    }
+  }
+}

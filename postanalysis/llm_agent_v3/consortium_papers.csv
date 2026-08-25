@@ -1,0 +1,94 @@
+work_id,title,decision,n_authors,consortium_middle_count
+work_6f86d20c9bf6e84d,Whole-brain annotation and multi-connectome cell typing of Drosophila,core_relevant,304,302
+work_7773a3cd24b3497d,A connectome and analysis of the adult Drosophila central brain,core_relevant,115,113
+work_cbfb9642f5950bcf,Sexual dimorphism in the complete connectome of the Drosophila male central nervous system,core_relevant,111,109
+work_0c32ed27e86551f0,A Connectome of the Adult Drosophila Central Brain,core_relevant,105,103
+work_00d72fd3c4223cd5,Distributed control circuits across a brain-and-cord connectome.,core_relevant,100,98
+work_542d289b1df8abc6,A Connectome of the Male Drosophila Ventral Nerve Cord,core_relevant,84,82
+work_08619b07a36cc83e,A split-GAL4 driver line resource for Drosophila neuron types,adjacent_relevant,83,81
+work_ee5b7f908c56d881,Functional connectomics spanning multiple areas of mouse visual cortex,core_relevant,75,73
+work_a821a1b9fb48df72,The Developing Human Connectome Project Neonatal Data Release,role_bridge,74,72
+work_b6f9d48dfa37f399,Connectome-driven neural inventory of a complete visual system,core_relevant,71,69
+work_544c5eb927deccab,A connectomic resource for neural cataloguing and circuit dissection of the larval zebrafish brain,core_relevant,70,68
+work_9b32917a4d853259,2015 Brainhack Proceedings,role_bridge,70,68
+work_37de4cdb46f24752,The mouse cortico–basal ganglia–thalamic network,adjacent_relevant,66,64
+work_f5fd3ba3b38fed1d,NEURD offers automated proofreading and feature extraction for connectomics,core_relevant,58,56
+work_d83cba345d7415bb,Functional connectomics reveals general wiring rule in mouse visual cortex,core_relevant,56,54
+work_0ac82de3efe180e8,Connectomics of predicted Sst transcriptomic types in mouse visual cortex,core_relevant,51,49
+work_1f5d00869279e1e0,A whole-brain monosynaptic input connectome to neuron classes in mouse visual cortex,adjacent_relevant,51,49
+work_36cfd0a40b9962e3,Integrating EM and Patch-seq data: Synaptic connectivity and target specificity of predicted Sst transcriptomic types,core_relevant,50,48
+work_55a31c8884d2dba2,Cell-type-specific inhibitory circuitry from a connectomic census of mouse visual cortex,core_relevant,47,45
+work_f8b43696a85f2146,Perisomatic Features Enable Efficient and Dataset Wide Cell-Type Classifications Across Large-Scale Electron Microscopy Volumes,core_relevant,47,45
+work_be3603a175b093a4,Petascale neural circuit reconstruction: automated methods,core_relevant,46,44
+work_86ba4bfd64350171,Neuronal wiring diagram of an adult brain,core_relevant,46,44
+work_1b7d3ac1442704d3,Whole-neuron morphology and genetic identity define cell types and reveal principles of brain-wide connectivity.,adjacent_relevant,46,44
+work_2b21fd53a734b207,Integrated Classification of Cortical Cells and Quantitative Projectomic Mapping Unveil Organizational Principles of Brain-Wide Connectomes at Single Cell Level,adjacent_relevant,45,43
+work_c2eef6c0fa61c287,Brain-wide neuronal circuit connectome of human glioblastoma,adjacent_relevant,43,41
+work_69a812a079debc62,CAVE: Connectome Annotation Versioning Engine,core_relevant,42,40
+work_cdc13855d8ed503c,Whole-brain spatial organization of hippocampal single-neuron projectomes,adjacent_relevant,42,40
+work_0fec0014dc0379d0,Inhibitory specificity from a connectomic census of mouse visual cortex,core_relevant,41,39
+work_241b54c819ff405b,FlyWire: Online community for whole-brain connectomics,core_relevant,40,38
+work_15832f977411772d,Structure and function of axo-axonic inhibition,core_relevant,40,38
+work_632600d5b9961b96,Neural Networks of the Mouse Primary Visceromotor Cortex,adjacent_relevant,39,37
+work_3f33a09c75f65755,Perisomatic ultrastructure efficiently classifies cells in mouse cortex,core_relevant,38,36
+work_d8e0189ccce2bc1e,Nervous system-wide single-cell morphology atlas of excitatory and inhibitory neurons in larval zebrafish,adjacent_relevant,37,35
+work_e2f25ee5bf2bee47,Comparative connectomics of Drosophila descending and ascending neurons,adjacent_relevant,37,35
+work_68c16753f9b50e6c,Comparative connectomics of the descending and ascending neurons of the Drosophila nervous system: stereotypy and sexual dimorphism,core_relevant,36,34
+work_f957eea0477c4e04,Connectomic reconstruction of a female Drosophila ventral nerve cord,core_relevant,35,33
+work_9487955aca364a01,A mesoscale connectome of the mouse brain,adjacent_relevant,34,32
+work_5a5bf6e6db192920,A consensus cell type atlas from multiple connectomes reveals principles of circuit stereotypy and variation,core_relevant,33,31
+work_28f6b028bce5063b,Synaptic architecture of leg and wing premotor control networks in Drosophila,core_relevant,33,31
+work_1f5bc11fd70f625f,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,core_relevant,31,29
+work_c5aa0e100cacef51,Visual physiology of the layer 4 cortical circuit in silico,adjacent_relevant,30,28
+work_ffa35f4fc20ab175,Hierarchical X-ray microscopy and mesoscopic diffusion MRI in the same brain reveal the human connectome across scales,adjacent_relevant,30,28
+work_a7ac590f096a331d,"Reconstruction of 1,000 projection neurons reveals new cell types and organization of long-range connectivity in the mouse brain",adjacent_relevant,30,28
+work_3cfb4552d0463ce3,A connectomic study of a petascale fragment of human cerebral cortex,core_relevant,29,27
+work_ceb66b1db1935fdb,Predicting modular functions and neural coding of behavior from a synaptic wiring diagram,core_relevant,28,26
+work_bf26c692403dc5e3,Synaptic architecture of a memory engram in the mouse hippocampus,core_relevant,28,26
+work_434673087d1709d7,A connectome of a learning and memory center in the adult Drosophila brain,core_relevant,28,26
+work_397f26a63b62d9c9,Eyewire II – A connectomic resource for resolving cell types and circuits of the mouse retina,core_relevant,27,25
+work_4aacd75f73cf971f,Correlative light and electron microscopy reveals the fine circuit structure underlying evidence accumulation in larval zebrafish,core_relevant,27,25
+work_16b9df3949da837d,A leaky integrate-and-fire computational model based on the connectome of the entire adult Drosophila brain reveals insights into sensorimotor processing,core_relevant,27,25
+work_36602f0170e09b02,A Drosophila computational brain model reveals sensorimotor processing,core_relevant,27,25
+work_7a79d9fb47ef2201,Current Progress and Challenges in Large-Scale 3D Mitochondria Instance Segmentation,role_bridge,27,25
+work_03f185e6c6909898,"Integrative analysis of single-neuron projectomes links connectome, transcriptome, and function in the mouse cortex.",adjacent_relevant,26,24
+work_aa4ac55bf3d997c2,The Mind of a Mouse.,adjacent_relevant,25,23
+work_31d1fee6f2ffabfe,The connectome of the adult Drosophila mushroom body provides insights into function,core_relevant,25,23
+work_7fd39b6d64027898,SmartEM: machine-learning guided electron microscopy,core_relevant,24,22
+work_3beb8aa4ca1a3268,Developmental Connectomics of the Mouse Cerebellum,adjacent_relevant,24,22
+work_5ad30986684078d8,A High-Performance Computing Portal Applied to 3D Electron Microscopy,role_bridge,24,22
+work_2547e9b9bab8dbf7,Histopathological and ultrastructural changes in different cell types during ischemic and hemorrhagic stroke.,role_bridge,24,22
+work_403be6bf6a79f219,"Human Connectome Project Informatics: quality control, database services, and data visualization",role_bridge,24,22
+work_56c6cf090809380d,The Nereid on the rise: Platynereis as a model system,adjacent_relevant,24,22
+work_0c62223b980049c1,The connectome of the adult Drosophila mushroom body: implications for function,core_relevant,24,22
+work_087e18b9051261d3,A visual motion detection circuit suggested by Drosophila connectomics,core_relevant,24,22
+work_047e0665d50b50ba,Crowdsourcing the creation of image segmentation algorithms for connectomics,core_relevant,24,22
+work_43f9348b8e8dc3dc,Neuron-specific signatures in the chromosomal connectome associated with schizophrenia risk,adjacent_relevant,24,22
+work_8cba212f6e7b83ad,A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster,core_relevant,23,21
+work_ab693beb93fb50a7,Molecular topography of an entire nervous system,adjacent_relevant,23,21
+work_b0ddf4ae8c7faf63,Neurotransmitter classification from electron microscopy images at synaptic sites in Drosophila melanogaster,core_relevant,23,21
+work_e3277619bfed476c,Mapping brain asymmetry in health and disease through the ENIGMA consortium,role_bridge,22,20
+work_e38ae195f332be66,Mapping of Neuronal and Glial Primary Cilia Contactome and Connectome in the Human Cerebral Cortex,core_relevant,22,20
+work_c92a0fc5d845cc35,A scalable and modular automated pipeline for stitching of large electron microscopy datasets,core_relevant,22,20
+work_63ec5ea7fbf83d9e,Comparisons between the ON- and OFF-edge motion pathways in the Drosophila brain,core_relevant,22,20
+work_2023cc62cedb365a,Cross-modal coherent registration of whole mouse brains,adjacent_relevant,22,20
+work_6d7152bc3042d92f,Correlative three-dimensional super-resolution and block face electron microscopy of whole vitreously frozen cells,role_bridge,22,20
+work_52349a07a8609609,Regional and cell-type-specific afferent and efferent projections of the mouse claustrum,adjacent_relevant,22,20
+work_1f2d549356fe466e,Systematic annotation of a complete adult male Drosophila nerve cord connectome reveals principles of functional organisation,core_relevant,22,20
+work_234f011d0b64af9d,Scalable volumetric imaging for ultrahigh-speed brain mapping at synaptic resolution,adjacent_relevant,22,20
+work_ab4936e9fe95de49,Saturated Reconstruction of a Volume of Neocortex,core_relevant,21,19
+work_85e90cad98b9be25,Neural circuit basis of aversive odour processing in Drosophila from sensory input to descending output,core_relevant,21,19
+work_783a1dd4e73fe636,Multiplexed volumetric CLEM enabled by scFvs provides insights into the cytology of cerebellar cortex,adjacent_relevant,21,19
+work_d2c3bba07feec3fd,Buried Treasure? Overlooked and Newly Discovered Evolutionary Contributions to Human Brain Diseases,role_bridge,21,19
+work_5f55fd6af01886b4,Uncovering Sex Differences in the Drosophila Ventral Nerve Cord Through Connectome Alignment,core_relevant,21,19
+work_a83aea2e5aec23bc,Mapping Alzheimer’s Molecular Pathologies in Large-Scale Connectomics Data: A Publicly Accessible Correlative Microscopy Resource,core_relevant,21,19
+work_2f671ade1d1c2e2c,Sexually-dimorphic neurons in the Drosophila whole-brain connectome,core_relevant,21,19
+work_06a819921125fd5b,The complete connectome of a learning and memory centre in an insect brain,core_relevant,20,18
+work_fc8b4c576ab75783,Molecular Architecture of the Mouse Nervous System,adjacent_relevant,20,18
+work_161efa6714c403ba,ConnectomeDB – Sharing Human Brain Connectivity Data,role_bridge,20,18
+work_aebd692d3a9ff7ca,Connectomic Deep Brain Stimulation for Obsessive-Compulsive Disorder.,role_bridge,20,18
+work_2f968b5df6b0dd3d,The connectome of an insect brain,core_relevant,20,18
+work_d8b2bfa158091c64,"Exploiting large neuroimaging datasets to create connectome-constrained approaches for more robust, efficient, and adaptable artificial intelligence",role_bridge,20,18
+work_d877a14b14e535c5,Brain network dynamics determine tau presence while regional vulnerability governs tau load in Alzheimer’s disease,adjacent_relevant,20,18
+work_8fd725d2118803e2,A petascale automated imaging pipeline for mapping neuronal circuits with high-throughput transmission electron microscopy,core_relevant,20,18
+work_da35586ff18e6e97,The Open Connectome Project Data Cluster: Scalable Analysis and Vision for High-Throughput Neuroscience,role_bridge,20,18

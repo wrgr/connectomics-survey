@@ -1,0 +1,36 @@
+{
+  "n_inclusive": 1806,
+  "layers": {
+    "contextual": 1210,
+    "core": 425,
+    "hidden_gem": 92,
+    "ultra": 54,
+    "drop": 25
+  },
+  "contextual_sublabels": {
+    "complementary": 883,
+    "bridge": 259,
+    "translation": 68
+  },
+  "hidden_gem_reasons": {
+    "young_core_thin": 38,
+    "old_cite_band_2_to_4": 34,
+    "old_uncited_linked": 20
+  },
+  "drop_reasons": {
+    "old_uncited_unlinked": 25
+  },
+  "old_2_to_4_gems": 34,
+  "old_2_to_4_by_decision": {
+    "adjacent_relevant": 20,
+    "role_bridge": 7,
+    "core_relevant": 7
+  },
+  "rule": {
+    "old_year": 2020,
+    "contextual_cites": 5,
+    "drop_cites": 2,
+    "weak_max_io": 2,
+    "2_to_4_cites": "hidden_gem"
+  }
+}

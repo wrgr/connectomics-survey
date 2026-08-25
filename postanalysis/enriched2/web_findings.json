@@ -1,0 +1,69 @@
+{
+  "work_ad2245ba02976b6a": {
+    "pmid": "15339643",
+    "doi": "10.1016/j.neuron.2004.08.012",
+    "matched_title": "Synaptic connectivity and neuronal morphology: two sides of the same coin",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15339643/",
+    "note": "Chklovskii 2004 Neuron; corpus title had fused Viewpoint label"
+  },
+  "work_d98a322178dafa2e": {
+    "pmid": "14755531",
+    "doi": "10.1002/cne.11027",
+    "matched_title": "Synaptic connectivity of the diffuse bipolar cell type DB6 in the inner plexiform layer of primate retina",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14755531/",
+    "note": "Corpus title abbreviated DB6 wording"
+  },
+  "work_d293a4127c914354": {
+    "doi": "10.1109/GlobalSIP.2013.6736878",
+    "matched_title": "MIGRAINE: MRI Graph Reliability Analysis and Inference for Connectomics",
+    "url": "https://doi.org/10.1109/globalsip.2013.6736878",
+    "abstract": "Currently, connectomes (e.g., functional or structural brain graphs) can be estimated in humans at approximately 1 mm3 scale using a combination of diffusion weighted magnetic resonance imaging, functional magnetic resonance imaging and structural magnetic resonance imaging scans. This manuscript summarizes a novel, scalable implementation of open-source algorithms to rapidly estimate magnetic resonance connectomes, using both anatomical regions of interest (ROIs) and voxel-size vertices. To assess the reliability of our pipeline, we develop a novel non-parametric non-Euclidean reliability metric. Here we provide an overview of the methods used, demonstrate our implementation, and discuss available user extensions. We conclude with results showing the efficacy and reliability of the pipeline over previous state-of-the-art.",
+    "title_similarity": 0.95,
+    "note": "IEEE abstract recovered via web; DOI lookup previously empty"
+  },
+  "work_548046170ba366db": {
+    "pmid": "17483470",
+    "doi": "10.1073/pnas.0700384104",
+    "matched_title": "High-speed mapping of synaptic connectivity using photostimulation in Channelrhodopsin-2 transgenic mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17483470/",
+    "note": "Corpus title had fused transgenic mice prefix"
+  },
+  "work_c921958d205463c4": {
+    "doi": "10.1038/s41583-025-00957-8",
+    "matched_title": "Synaptic connectomics: status and prospects",
+    "url": "https://doi.org/10.1038/s41583-025-00957-8",
+    "abstract": "High-throughput volume electron microscopy and deep learning-driven automated segmentation have revolutionized the mapping of neural circuits at the level of individual neurons and synapses, revealing new cell types and unexpected network architectures in diverse species. Although prospects for continued progress in connectomics are excellent, substantial technical and conceptual hurdles remain.",
+    "title_similarity": 1.0,
+    "note": "Nature Reviews Neuroscience blurb; full structured abstract may be paywalled"
+  },
+  "work_9906649d49324506": {
+    "pmid": "41360941",
+    "doi": "10.1038/s41592-025-02943-5",
+    "matched_title": "Connectomics beyond electron microscopy",
+    "url": "https://europepmc.org/article/med/41360941",
+    "abstract": "Connectomics, the comprehensive mapping of neural circuits at nanoscale resolution, has historically relied on electron microscopy (EM), both transmission (TEM) and scanning (SEM). However, as connectomics scales towards larger brain volumes and whole mammalian brains, substantial technical challenges emerge. Here, we highlight key challenges and advancing approaches that hold promise, particularly those that integrate three-dimensional, multi-resolution and time-resolved imaging to capture both long-range and local wiring, down to supramolecular resolution.",
+    "title_similarity": 1.0,
+    "note": "Europe PMC said no abstract; recovered from Nature Methods collection page"
+  },
+  "work_295b058918128b54": {
+    "doi": "10.1101/2023.03.14.532674",
+    "matched_title": "NEURD offers automated proofreading and feature extraction for connectomics",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.03.14.532674",
+    "note": "bioRxiv preprint of Nature 2025 NEURD paper"
+  },
+  "work_21172651321be0c9": {
+    "doi": "10.1101/852863",
+    "matched_title": "Enabling FIB-SEM Systems for Large Volume Connectomics and Cell Biology",
+    "url": "https://www.biorxiv.org/content/10.1101/852863",
+    "note": "Preprint corresponding to Springer Methods Mol Biol chapter DOI already on record"
+  },
+  "work_02580fc06dfe3e98": {
+    "pmid": "26006009",
+    "doi": "10.1038/nmeth.3392",
+    "matched_title": "BigDataViewer: visualization and processing for large image data sets",
+    "url": "https://www.nature.com/articles/nmeth.3392",
+    "abstract": "The increasingly popular light-sheet microscopy techniques generate very large three-dimensional (3D) time-lapse recordings of living biological specimens. The need to make large volumetric data sets available for interactive visualization and analysis has been widely recognized. However, existing solutions build upon proprietary file formats requiring that data are copy converted before visualization, or they use dedicated servers to generate virtual slices that are transferred to client applications. In practice, the latter leads to frame rates (under ten frames per second) that are insufficient for a truly interactive experience. An easily accessible and extensible open-source solution for interactive arbitrary virtual reslicing of very large volumes and time series of volumes has been missing. We fill this gap with BigDataViewer (BDV), a Fiji plug-in to interactively navigate and visualize large image sequences from both local and remote data sources.",
+    "title_similarity": 1.0,
+    "note": "Nature Methods correspondence; PMID recovered via web"
+  }
+}

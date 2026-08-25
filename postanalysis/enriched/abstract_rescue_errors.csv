@@ -1,0 +1,4 @@
+work_id,source,identifier,error
+work_06030491fabc9e9d,europe_pmc,15339643,URLError(OSError('Tunnel connection failed: 403 Forbidden'))
+work_06030491fabc9e9d,europe_pmc,10.1016/s0896-6273(04)00498-2,URLError(OSError('Tunnel connection failed: 403 Forbidden'))
+work_06030491fabc9e9d,crossref,10.1016/s0896-6273(04)00498-2,URLError(OSError('Tunnel connection failed: 403 Forbidden'))

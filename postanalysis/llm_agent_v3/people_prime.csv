@@ -1,0 +1,2582 @@
+person_id,display_name,works,first_or_single,last,middle,core_works,adjacent_works,role_bridge_works,ultra_core_works,view
+person:j lichtman,J. Lichtman,69,3,19,47,50,14,5,6,prime
+person:hanspeter pfister,Hanspeter Pfister,54,1,22,31,43,7,4,3,prime
+person:h sebastian seung,H. Sebastian Seung,44,3,15,26,39,4,1,9,prime
+person:g jefferis,G. Jefferis,40,0,15,26,31,7,2,5,prime
+person:sven dorkenwald,Sven Dorkenwald,35,5,0,30,34,1,0,6,prime
+person:philipp schlegel,Philipp Schlegel,34,5,0,29,30,3,1,4,prime
+person:albert cardona,Albert Cardona,33,1,9,24,30,2,1,6,prime
+person:kea joo lee,Kea-Joo Lee,32,3,1,28,30,2,0,5,prime
+person:stephen plaza,Stephen M. Plaza,30,6,10,14,28,1,1,3,prime
+person:marta costa,Marta Costa,30,0,1,29,24,4,2,4,prime
+person:jingpeng wu,Jingpeng Wu,28,2,2,24,26,1,1,4,prime
+person:szi chieh yu,Szi-chieh Yu,28,2,1,29,26,2,0,4,prime
+person:rongwen lu,Rongwen Lu,28,2,0,26,27,1,0,4,prime
+person:viren jain,Viren Jain,27,1,6,20,22,4,1,5,prime
+person:donglai wei,Donglai Wei,27,1,6,20,20,4,3,2,prime
+person:louis scheffer,Louis K. Scheffer,27,5,4,18,23,4,0,4,prime
+person:r clay reid,R. Clay Reid,25,1,5,19,17,7,1,4,prime
+person:f collman,F. Collman,25,0,4,21,24,1,0,5,prime
+person:cm schneider mizell,CM Schneider-Mizell,25,4,1,20,25,0,0,5,prime
+person:j vogelstein,J. Vogelstein,24,4,7,13,8,12,4,2,prime
+person:y meirovitch,Y. Meirovitch,24,4,5,15,20,3,1,1,prime
+person:k eichler,K. Eichler,24,2,2,21,22,2,0,3,prime
+person:micha januszewski,Michał Januszewski,24,4,0,20,24,0,0,4,prime
+person:r schalek,R. Schalek,24,0,0,24,18,5,1,4,prime
+person:narayan kasthuri,Narayan Kasthuri,23,1,5,17,15,6,2,1,prime
+person:a bates,A. S. Bates,23,4,0,20,18,4,1,4,prime
+person:t macrina,T. Macrina,23,1,0,22,23,0,0,4,prime
+person:n kemnitz,N. Kemnitz,23,0,0,23,22,0,1,4,prime
+person:m helmstaedter,M. Helmstaedter,22,6,11,5,15,7,0,6,prime
+person:xiao jing wang,Xiao-jing Wang,22,6,5,12,6,13,3,0,prime
+person:g rubin,G. Rubin,22,0,4,18,19,3,0,5,prime
+person:c priebe,C. Priebe,21,2,9,10,5,14,2,2,prime
+person:brock andrew wester,Brock Andrew Wester,21,0,5,16,14,1,6,0,prime
+person:shin ya takemura,Shin-ya Takemura,21,5,0,23,17,3,1,5,prime
+person:c jordan,C. Jordan,21,0,0,21,21,0,0,4,prime
+person:j bae,J. Bae,21,0,0,21,20,0,1,3,prime
+person:william gray roncal,William R. Gray-Roncal,20,3,10,7,12,3,5,1,prime
+person:s saalfeld,S. Saalfeld,20,2,4,14,17,2,1,5,prime
+person:jan funke,Jan Funke,20,2,4,14,17,3,0,4,prime
+person:james anderson,James R. Anderson,20,3,1,16,15,5,0,0,prime
+person:chuanyun xu,Chuanyun Xu,20,1,1,18,12,7,1,3,prime
+person:yonggang wang,Yonggang Wang,20,6,0,15,8,7,5,1,prime
+person:jordan matelsky,Jordan K. Matelsky,20,6,0,14,13,1,6,0,prime
+person:yuanyuan li,Yuanyuan Li,20,4,0,16,9,8,3,0,prime
+person:fu ning li,Fu-Ning Li,20,2,0,18,19,0,1,7,prime
+person:aljoscha nern,Aljoscha Nern,20,1,0,19,15,5,0,3,prime
+person:yunming wu,Yunming Wu,20,1,0,19,14,4,2,3,prime
+person:w silversmith,W. Silversmith,20,0,0,20,19,0,1,4,prime
+person:bryan william jones,Bryan William Jones,19,0,5,14,13,6,0,0,prime
+person:a sterling,A. Sterling,19,0,0,19,18,1,0,3,prime
+person:harald hess,Harald F. Hess,18,0,7,11,15,2,1,3,prime
+person:d bock,D. Bock,18,1,4,13,14,3,1,4,prime
+person:yu xian zhang,Yu-Xian Zhang,18,2,1,16,10,5,3,0,prime
+person:s popovych,S. Popovych,18,1,0,17,18,0,0,4,prime
+person:r fetter,R. D. Fetter,18,0,0,18,18,0,0,6,prime
+person:d brittain,D. Brittain,18,0,0,18,18,0,0,5,prime
+person:akhilesh halageri,Akhilesh Halageri,18,0,0,18,18,0,0,4,prime
+person:oliver hobert,Oliver Hobert,17,0,11,6,5,12,0,1,prime
+person:m murthy,M. Murthy,17,0,6,11,15,1,1,3,prime
+person:xiaoyin chen,Xiaoyin Chen,17,0,3,14,12,3,2,0,prime
+person:zhi hang lin,Zhi-Hang Lin,17,4,0,13,11,5,1,2,prime
+person:n turner,N. Turner,17,1,0,16,17,0,0,1,prime
+person:m castro,M. C. Castro,17,0,0,17,17,0,0,4,prime
+person:s berg,S. Berg,16,1,4,11,16,0,0,2,prime
+person:mark ellisman,Mark Ellisman,16,0,4,13,11,1,4,0,prime
+person:tengda zhao,Tengda Zhao,16,4,1,11,12,3,1,4,prime
+person:arie matsliah,Arie Matsliah,16,1,1,14,15,1,0,2,prime
+person:zhi ming jia,Zhi-Ming Jia,16,0,0,16,15,1,0,4,prime
+person:d bumbarger,D. Bumbarger,16,0,0,16,15,1,0,2,prime
+person:d chklovskii,D. Chklovskii,15,1,9,5,10,5,0,4,prime
+person:i meinertzhagen,I. Meinertzhagen,15,3,7,7,10,4,1,3,prime
+person:r marc,R. E. Marc,15,4,5,6,11,4,0,0,prime
+person:winfried denk,Winfried Denk,15,1,5,9,12,3,0,6,prime
+person:n da costa,N. D. da Costa,15,0,4,11,15,0,0,2,prime
+person:p rivlin,P. Rivlin,15,0,1,14,12,0,3,3,prime
+person:yi shiuan liu,Yi-Shiuan Liu,15,4,0,11,2,10,3,1,prime
+person:zhiyuan lu,Zhiyuan Lu,15,1,0,16,15,0,0,5,prime
+person:d berger,D. Berger,15,1,0,14,14,0,1,5,prime
+person:r torres,R. Torres,15,1,0,14,15,0,0,2,prime
+person:wenjie yin,Wenjie Yin,15,1,0,14,13,0,2,2,prime
+person:barak nehoran,Barak Nehoran,15,0,0,15,15,0,0,4,prime
+person:eric mitchell,Eric Mitchell,15,0,0,15,15,0,0,4,prime
+person:shang mu,Shang Mu,15,0,0,15,15,0,0,4,prime
+person:n shavit,N. Shavit,14,0,9,5,12,2,0,1,prime
+person:john tuthill,John C. Tuthill,14,0,8,6,12,2,0,1,prime
+person:km harris,KM Harris,14,1,7,6,6,4,4,3,prime
+person:marta zlatic,Marta Zlatic,14,0,6,9,13,1,0,2,prime
+person:ashok litwin kumar,Ashok Litwin-Kumar,14,2,3,9,11,3,0,2,prime
+person:peter li,Peter H. Li,14,0,1,13,12,2,0,4,prime
+person:l elabbady,L. Elabbady,14,3,0,11,14,0,0,1,prime
+person:claire mckellar,Claire E. McKellar,14,0,0,14,12,2,0,3,prime
+person:kai li,Kai Li,14,0,0,14,14,0,0,1,prime
+person:marc takeno,Marc M. Takeno,14,0,0,14,14,0,0,1,prime
+person:hongqing han,Hongqing Han,13,0,7,6,9,3,1,0,prime
+person:g card,G. Card,13,0,5,8,10,2,1,0,prime
+person:k briggman,K. Briggman,13,3,4,6,9,4,0,4,prime
+person:hongkui zeng,Hongkui Zeng,13,1,3,9,5,8,0,0,prime
+person:scott emmons,Scott W. Emmons,13,6,2,5,10,3,0,1,prime
+person:johanna beyer,Johanna Beyer,13,4,1,8,8,2,3,0,prime
+person:gary huang,Gary B. Huang,13,4,0,9,11,0,2,2,prime
+person:steven cook,Steven J. Cook,13,4,0,9,9,4,0,1,prime
+person:g mahalingam,G. Mahalingam,13,1,0,12,13,0,0,1,prime
+person:d kapner,D. Kapner,13,0,0,13,13,0,0,2,prime
+person:a bodor,A. Bodor,13,0,0,13,13,0,0,1,prime
+person:j buchanan,J. Buchanan,13,0,0,13,13,0,0,1,prime
+person:gaspar jekely,Gáspár Jékely,12,0,11,1,10,2,0,0,prime
+person:srinivas turaga,Srinivas C. Turaga,12,0,7,5,8,4,0,4,prime
+person:olaf sporns,Olaf Sporns,12,6,3,3,2,9,1,1,prime
+person:junkyung kim,Junkyung Kim,12,3,3,6,4,7,1,2,prime
+person:jiazheng liu,Jiazheng Liu,12,3,2,8,8,3,1,0,prime
+person:v lyzinski,V. Lyzinski,12,2,2,8,1,9,2,0,prime
+person:w lee,W. Lee,12,0,2,10,10,2,0,4,prime
+person:w katz,W. M. Katz,12,1,1,10,12,0,0,3,prime
+person:yuh tarng chen,Yuh-tarng Chen,12,1,1,10,5,4,3,0,prime
+person:e marin,E. Marin,12,2,0,10,11,1,0,1,prime
+person:c sigulinsky,C. Sigulinsky,12,2,0,10,7,5,0,0,prime
+person:dodam ih,Dodam Ih,12,0,0,12,12,0,0,3,prime
+person:jim truman,Jim Truman,12,0,0,12,11,1,0,2,prime
+person:s kinn,S. Kinn,12,0,0,12,12,0,0,1,prime
+person:w wong,W. Wong,12,0,0,12,12,0,0,1,prime
+person:xiao ming li,Xiao-Ming Li,11,0,3,8,2,7,2,0,prime
+person:kazunori shinomiya,Kazunori Shinomiya,11,2,0,9,10,1,0,1,prime
+person:kenneth hayworth,Kenneth Hayworth,11,1,0,10,11,0,0,3,prime
+person:d olbris,D. J. Olbris,11,0,0,11,9,2,0,3,prime
+person:a champion,A. Champion,11,0,0,11,9,2,0,2,prime
+person:j bogovic,J. Bogovic,11,0,0,11,8,2,1,2,prime
+person:youngser park,Youngser Park,11,0,0,11,3,7,1,2,prime
+person:s mondal,S. Mondal,11,0,0,11,11,0,0,1,prime
+person:wr schafer,WR Schafer,10,1,6,3,4,6,0,2,prime
+person:hanchuan peng,Hanchuan Peng,10,2,4,4,4,5,1,1,prime
+person:joergen kornfeld,Joergen Kornfeld,10,2,3,5,10,0,0,1,prime
+person:markus hadwiger,Markus Hadwiger,10,1,3,6,7,1,2,0,prime
+person:yoshinori aso,Yoshinori Aso,10,1,1,8,5,5,0,2,prime
+person:t parag,T. Parag,10,3,0,7,9,0,1,1,prime
+person:erik johnson,Erik C. Johnson,10,3,0,7,5,1,4,0,prime
+person:n eckstein,N. Eckstein,10,2,0,8,8,2,0,3,prime
+person:jody clements,Jody Clements,10,2,0,8,8,2,0,1,prime
+person:qingyang wang,Qingyang Wang,10,2,0,8,1,9,0,0,prime
+person:d hall,D. Hall,10,1,0,9,7,3,0,2,prime
+person:l umayam,L. Umayam,10,0,0,10,10,0,0,2,prime
+person:daniel berger,Daniel R. Berger,10,0,0,10,6,3,1,1,prime
+person:michael reimann,Michael W. Reimann,9,5,4,0,1,8,0,0,prime
+person:t tasdizen,T. Tasdizen,9,0,4,6,8,0,1,1,prime
+person:henry markram,Henry Markram,9,0,4,5,0,9,0,0,prime
+person:hesheng liu,Hesheng Liu,9,3,3,3,2,6,1,0,prime
+person:a wanner,A. Wanner,9,5,2,2,6,3,0,0,prime
+person:xiaotang lu,Xiaotang Lu,9,2,2,5,6,2,1,0,prime
+person:a tolias,A. S. Tolias,9,0,2,7,8,1,0,1,prime
+person:isabel beets,Isabel Beets,9,0,2,7,1,7,1,0,prime
+person:v hartenstein,V. Hartenstein,9,0,1,8,6,2,1,3,prime
+person:hong sheng li,Hong-Sheng Li,9,3,0,6,6,2,1,0,prime
+person:tomke sturner,Tomke Stürner,9,2,0,8,8,1,0,1,prime
+person:j troidl,J. Troidl,9,2,0,7,6,2,1,1,prime
+person:yijie yin,Yijie Yin,9,1,0,8,9,0,0,2,prime
+person:zhenghua li,Zhenghua Li,9,1,0,8,4,4,1,0,prime
+person:jay gager,Jay Gager,9,0,0,9,9,0,0,4,prime
+person:christopher ordish,Christopher Ordish,9,0,0,9,9,0,0,2,prime
+person:aravinthan samuel,Aravinthan D. T. Samuel,9,0,0,9,7,1,1,2,prime
+person:marina gkantia,Marina Gkantia,9,0,0,9,7,2,0,1,prime
+person:aiqun li,Aiqun Li,9,0,0,10,1,8,0,1,prime
+person:andrew cook,Andrew P. Cook,9,0,0,9,8,1,0,0,prime
+person:eric bushong,Eric Bushong,9,0,0,9,6,1,2,0,prime
+person:hui gong,Hui Gong,9,0,0,10,1,8,0,0,prime
+person:e bullmore,E. Bullmore,8,0,6,2,3,5,0,3,prime
+person:r friedrich,R. Friedrich,8,2,5,1,5,3,0,0,prime
+person:m van den heuvel,M. P. van den heuvel,8,3,4,1,1,7,0,1,prime
+person:ed boyden,Ed Boyden,8,0,4,4,2,3,3,0,prime
+person:ann shyn chiang,Ann-Shyn Chiang,8,0,4,4,0,7,1,0,prime
+person:michael reiser,Michael B. Reiser,8,0,3,5,8,0,0,2,prime
+person:b gerber,B. Gerber,8,0,3,5,3,3,2,1,prime
+person:zhiwei xiong,Zhiwei Xiong,8,0,3,5,5,2,1,0,prime
+person:jinseop kim,Jinseop S. Kim,8,2,2,4,6,2,0,2,prime
+person:jingjing zhang,Jingjing Zhang,8,2,1,6,1,4,3,0,prime
+person:tingshan liu,Tingshan Liu,8,1,1,7,5,2,1,1,prime
+person:j reimer,J. Reimer,8,0,1,7,8,0,0,1,prime
+person:qingming luo,Qingming Luo,8,0,1,8,2,6,0,0,prime
+person:c veraszto,C. Verasztó,8,3,0,5,8,0,0,0,prime
+person:h cheong,H. S. Cheong,8,3,0,5,6,2,0,0,prime
+person:elizabeth williams,Elizabeth A. Williams,8,2,0,6,6,2,0,0,prime
+person:rebecca pfeiffer,Rebecca L. Pfeiffer,8,2,0,6,5,3,0,0,prime
+person:minh tang,Minh Tang,8,2,0,6,1,6,1,0,prime
+person:stephan gerhard,Stephan Gerhard,8,1,0,7,8,0,0,2,prime
+person:r shahidi,R. Shahidi,8,1,0,7,8,0,0,0,prime
+person:jia hui yang,Jia-Hui Yang,8,1,0,7,5,2,1,0,prime
+person:jeremy maitin shepard,Jeremy B. Maitin-Shepard,8,0,0,8,8,0,0,4,prime
+person:b silverman,B. Silverman,8,0,0,8,8,0,0,3,prime
+person:m dreher,M. Dreher,8,0,0,8,8,0,0,3,prime
+person:tansy yang,Tansy Yang,8,0,0,8,8,0,0,3,prime
+person:eric perlman,Eric Perlman,8,0,0,8,7,0,1,3,prime
+person:ruchi parekh,Ruchi Parekh,8,0,0,8,7,1,0,3,prime
+person:shuohong wang,Shuohong Wang,8,0,0,8,5,3,0,2,prime
+person:p vertes,P. Vértes,8,0,0,8,4,4,0,2,prime
+person:griffin badalamente,Griffin Badalamente,8,0,0,8,8,0,0,1,prime
+person:julie kovalyak,Julie Kovalyak,8,0,0,8,7,1,0,1,prime
+person:michael cook,Michael Cook,8,0,0,8,7,1,0,1,prime
+person:gabriella sterne,Gabriella R. Sterne,8,0,0,8,6,2,0,1,prime
+person:daniel xenes,Daniel Xenes,8,0,0,8,7,0,1,0,prime
+person:wenchang li,Wenchang Li,8,0,0,8,5,2,1,0,prime
+person:chih cheng chen,Chih-Cheng Chen,8,0,0,8,1,5,2,0,prime
+person:eli shlizerman,Eli Shlizerman,7,0,7,0,0,7,0,0,prime
+person:d dacey,D. Dacey,7,0,6,1,7,0,0,0,prime
+person:b misic,B. Mišić,7,0,5,2,3,3,1,0,prime
+person:s sorensen,S. Sorensen,7,0,4,3,2,5,0,0,prime
+person:won ki jeong,Won-Ki Jeong,7,2,3,2,6,0,1,1,prime
+person:v jayaraman,V. Jayaraman,7,0,3,4,6,1,0,2,prime
+person:b dickson,B. Dickson,7,0,3,4,4,2,1,1,prime
+person:s waddell,S. Waddell,7,0,2,5,5,2,0,2,prime
+person:caio seguin,Caio Seguin,7,0,2,5,4,3,0,0,prime
+person:hong wei dong,Hong-Wei Dong,7,0,2,6,2,4,1,0,prime
+person:daniel haehn,Daniel Haehn,7,3,1,3,7,0,0,0,prime
+person:j lauritzen,J. S. Lauritzen,7,2,1,4,7,0,0,1,prime
+person:l abbott,L. F. Abbott,7,1,1,5,4,3,0,2,prime
+person:d sussman,D. Sussman,7,1,1,5,1,5,1,1,prime
+person:javier defelipe,Javier DeFelipe,7,1,1,6,3,4,0,0,prime
+person:kechen zhang,Kechen Zhang,7,0,1,6,3,4,0,0,prime
+person:longfei li,Longfei Li,7,0,1,6,2,5,0,0,prime
+person:ruoxuan yang,Ruoxuan Yang,7,2,0,5,6,0,1,3,prime
+person:nadine randel,Nadine Randel,7,2,0,5,6,1,0,1,prime
+person:changjoon park,Changjoon Park,7,2,0,5,6,1,0,0,prime
+person:fuming yang,Fuming Yang,7,2,0,5,6,1,0,0,prime
+person:k boergens,K. Boergens,7,1,0,6,7,0,0,1,prime
+person:a zlateski,A. Zlateski,7,1,0,6,6,0,1,1,prime
+person:michael winding,Michael Winding,7,1,0,6,6,1,0,1,prime
+person:philip hubbard,Philip M. Hubbard,7,1,0,6,6,1,0,1,prime
+person:v kaynig,V. Kaynig,7,1,0,6,6,1,0,1,prime
+person:brandon mark,Brandon Mark,7,1,0,6,6,1,0,0,prime
+person:tim blakely,Tim Blakely,7,0,0,7,7,0,0,4,prime
+person:omotara ogundeyi,Omotara Ogundeyi,7,0,0,7,6,1,0,3,prime
+person:eric trautman,Eric T. Trautman,7,0,0,7,7,0,0,2,prime
+person:m pleijzier,M. W. Pleijzier,7,0,0,8,7,0,0,2,prime
+person:marissa sorek,Marissa Sorek,7,0,0,7,7,0,0,2,prime
+person:shirley lauchie,Shirley A Lauchie,7,0,0,7,7,0,0,2,prime
+person:erika neace,Erika Neace,7,0,0,7,7,0,0,1,prime
+person:tyler paterson,Tyler Paterson,7,0,0,7,7,0,0,1,prime
+person:x pitkow,X. Pitkow,7,0,0,7,7,0,0,1,prime
+person:a javier,A. Javier,7,0,0,7,6,1,0,1,prime
+person:fabian sinz,Fabian H. Sinz,7,0,0,7,6,1,0,1,prime
+person:saumil patel,Saumil S. Patel,7,0,0,7,6,1,0,1,prime
+person:siqi fang,Siqi Fang,7,0,0,7,5,1,1,1,prime
+person:eviatar yemini,Eviatar Yemini,7,0,0,7,3,4,0,1,prime
+person:s seshamani,S. Seshamani,7,0,0,7,7,0,0,0,prime
+person:c watt,C. Watt,7,0,0,7,6,1,0,0,prime
+person:l bezares calderon,L. A. Bezares-Calderón,7,0,0,7,6,1,0,0,prime
+person:s namiki,S. Namiki,7,0,0,7,5,2,0,0,prime
+person:wyatt korff,Wyatt L. Korff,7,0,0,7,4,3,0,0,prime
+person:r vogelstein,R. J. Vogelstein,7,0,0,7,2,3,2,0,prime
+person:g ascoli,G. Ascoli,6,0,5,1,2,4,0,0,prime
+person:yu ying zhou,Yu-ying Zhou,6,0,4,2,2,1,3,0,prime
+person:elad schneidman,Elad Schneidman,6,0,4,2,1,5,0,0,prime
+person:a fornito,A. Fornito,6,2,3,1,1,2,3,0,prime
+person:chung chuang lo,Chung-Chuang Lo,6,1,3,2,0,5,1,0,prime
+person:mei zhen,Mei Zhen,6,0,3,3,3,3,0,1,prime
+person:manuel zimmer,Manuel Zimmer,6,0,3,4,4,2,0,0,prime
+person:tao fang,Tao Fang,6,0,3,3,3,3,0,0,prime
+person:d essen,D. C. Essen,6,0,3,3,0,4,2,0,prime
+person:alexander borst,Alexander Borst,6,3,2,1,4,2,0,1,prime
+person:a lazar,A. Lazar,6,3,2,1,3,1,2,0,prime
+person:r burns,R. Burns,6,2,2,2,3,1,2,1,prime
+person:gergely odor,Gergely Ódor,6,2,2,2,3,3,0,0,prime
+person:tj sejnowski,TJ Sejnowski,6,0,2,4,2,1,3,1,prime
+person:a pacureanu,A. Pacureanu,6,0,2,4,4,1,1,0,prime
+person:gregg wildenberg,Gregg A. Wildenberg,6,3,1,2,3,3,0,0,prime
+person:aaron kuan,Aaron T. Kuan,6,1,1,4,5,1,0,1,prime
+person:c ribeiro,C. Ribeiro,6,0,1,5,6,0,0,2,prime
+person:stefan mihalas,Stefan Mihalas,6,0,1,5,1,5,0,0,prime
+person:lydia ng,Lydia Ng,6,0,1,5,0,6,0,0,prime
+person:claire eschbach,Claire Eschbach,6,4,0,2,5,0,1,1,prime
+person:brian matejek,Brian Matejek,6,3,0,3,6,0,0,0,prime
+person:haoran chen,Haoran Chen,6,3,0,3,3,2,1,0,prime
+person:jianwei lu,Jianwei Lu,6,2,0,4,3,3,0,1,prime
+person:wei chung allen lee,Wei-Chung Allen Lee,6,2,0,4,3,3,0,1,prime
+person:chris dallmann,Chris J. Dallmann,6,2,0,4,5,1,0,0,prime
+person:fabian svara,Fabian Svara,6,2,0,4,5,0,1,0,prime
+person:xiao yong zhang,Xiao-Yong Zhang,6,2,0,4,3,3,0,0,prime
+person:a athreya,A. Athreya,6,2,0,4,1,4,1,0,prime
+person:ignacio arganda carreras,Ignacio Arganda-Carreras,6,1,0,5,4,1,1,2,prime
+person:tri nguyen,Tri M. Nguyen,6,1,0,5,4,2,0,1,prime
+person:cun quan zhang,Cun-Quan Zhang,6,1,0,5,3,2,1,1,prime
+person:ruairi roberts,Ruairí J. V. Roberts,6,1,0,5,6,0,0,0,prime
+person:s jasek,S. Jasek,6,1,0,5,6,0,0,0,prime
+person:patricia rivlin,Patricia K. Rivlin,6,1,0,5,5,0,1,0,prime
+person:wenjing huang,Wenjing Huang,6,1,0,5,3,2,1,0,prime
+person:lidia ripoll sanchez,Lidia Ripoll-Sánchez,6,1,0,5,2,4,0,0,prime
+person:yuan yao lin,Yuan-Yao Lin,6,1,0,7,1,5,0,0,prime
+person:shenqin yao,Shenqin Yao,6,1,0,5,0,6,0,0,prime
+person:audrey francis,Audrey Francis,6,0,0,6,6,0,0,3,prime
+person:ryan willie,Ryan Willie,6,0,0,6,6,0,0,3,prime
+person:tom kazimiers,Tom Kazimiers,6,0,0,6,6,0,0,3,prime
+person:a peleg,A. Peleg,6,0,0,6,6,0,0,2,prime
+person:alanna lohff,Alanna Lohff,6,0,0,6,6,0,0,1,prime
+person:ashley scott,Ashley L. Scott,6,0,0,6,6,0,0,1,prime
+person:christopher knecht,Christopher Knecht,6,0,0,6,6,0,0,1,prime
+person:imaan tamimi,Imaan F. M. Tamimi,6,0,0,6,6,0,0,1,prime
+person:paul fahey,Paul G. Fahey,6,0,0,6,6,0,0,1,prime
+person:s papadopoulos,S. Papadopoulos,6,0,0,6,6,0,0,1,prime
+person:t jones,T. Jones,6,0,0,6,6,0,0,1,prime
+person:j tapia,J. C. Tapia,6,0,0,6,5,1,0,1,prime
+person:paul brooks,Paul Brooks,6,0,0,6,5,1,0,1,prime
+person:r george,R. George,6,0,0,6,5,1,0,1,prime
+person:kaiyu wang,Kaiyu Wang,6,0,0,6,3,2,1,1,prime
+person:h otsuna,H. Otsuna,6,0,0,6,2,4,0,1,prime
+person:arthur zhao,Arthur Zhao,6,0,0,6,6,0,0,0,prime
+person:orin packer,Orin Packer,6,0,0,6,6,0,0,0,prime
+person:anne sustar,Anne Sustar,6,0,0,6,5,1,0,0,prime
+person:billy morris,Billy J. Morris,6,0,0,6,5,1,0,0,prime
+person:grant chou,Grant M. Chou,6,0,0,6,5,1,0,0,prime
+person:jasper phelps,Jasper S. Phelps,6,0,0,6,5,1,0,0,prime
+person:qiwei xie,Qiwei Xie,6,0,0,6,5,1,0,0,prime
+person:song pang,Song Pang,6,0,0,6,4,1,1,0,prime
+person:li ping liu,Li-Ping Liu,6,0,0,6,2,2,2,0,prime
+person:a dacks,A. Dacks,5,0,5,0,4,1,0,0,prime
+person:jaeseung jeong,Jaeseung Jeong,5,0,5,0,4,1,0,0,prime
+person:albert laszlo barabasi,Albert-László Barabási,5,0,5,0,2,3,0,0,prime
+person:kristin scott,Kristin Scott,5,0,4,1,5,0,0,1,prime
+person:c doe,C. Doe,5,0,4,1,4,1,0,0,prime
+person:d bassett,D. Bassett,5,0,4,1,2,2,1,0,prime
+person:herwig baier,Herwig Baier,5,0,3,2,1,3,1,0,prime
+person:h duffau,H. Duffau,5,3,2,0,0,1,4,0,prime
+person:a kreshuk,A. Kreshuk,5,2,2,1,3,2,0,0,prime
+person:l luo,L. Luo,5,1,2,2,1,4,0,0,prime
+person:a seeds,A. Seeds,5,0,2,3,5,0,0,1,prime
+person:jongmin lee,Jongmin Lee,5,0,2,3,4,1,0,1,prime
+person:g knott,G. Knott,5,0,2,3,5,0,0,0,prime
+person:j neitz,J. Neitz,5,0,2,3,4,1,0,0,prime
+person:claire walsh,Claire Walsh,5,0,2,3,3,2,0,0,prime
+person:u grunert,U. Grünert,5,0,2,3,3,2,0,0,prime
+person:yongchuan zhu,Yongchuan Zhu,5,0,2,3,2,2,1,0,prime
+person:marcus kaiser,Marcus Kaiser,5,4,1,0,0,5,0,0,prime
+person:shengjin xu,Shengjin Xu,5,2,1,2,4,0,1,1,prime
+person:david deutsch,David S. Deutsch,5,1,1,3,5,0,0,3,prime
+person:mathias wernet,Mathias F. Wernet,5,1,1,3,3,2,0,1,prime
+person:minggang wang,MingGang Wang,5,1,1,3,2,0,3,1,prime
+person:ashwin vishwanathan,Ashwin Vishwanathan,5,1,1,3,4,1,0,0,prime
+person:m puxeddu,M. G. Puxeddu,5,1,1,3,3,2,0,0,prime
+person:carey priebe,Carey E. Priebe,5,0,1,4,2,3,0,1,prime
+person:zepeng yao,Zepeng Yao,5,0,1,4,2,3,0,1,prime
+person:r whitaker,R. Whitaker,5,0,1,4,5,0,0,0,prime
+person:sebastian seung,Sebastian Seung,5,0,1,4,5,0,0,0,prime
+person:lu mi,Lu Mi,5,0,1,4,4,1,0,0,prime
+person:s agrawal,S. Agrawal,5,0,1,4,4,1,0,0,prime
+person:e reilly,E. Reilly,5,0,1,4,3,1,1,0,prime
+person:lijun shen,Lijun Shen,5,0,1,4,2,1,2,0,prime
+person:peter eipert,Peter Eipert,5,0,1,4,0,3,2,0,prime
+person:rahul biswas,Rahul Biswas,5,5,0,0,1,4,0,0,prime
+person:oliver schmitt,Oliver Schmitt,5,5,0,0,0,3,2,0,prime
+person:zhihao zheng,Zhihao Zheng,5,4,0,1,5,0,0,2,prime
+person:sara patterson,Sara S. Patterson,5,3,0,2,4,1,0,0,prime
+person:r betzel,R. Betzel,5,3,0,2,3,2,0,0,prime
+person:albert lin,Albert Lin,5,2,0,3,4,1,0,2,prime
+person:b pedigo,B. Pedigo,5,2,0,3,3,2,0,1,prime
+person:anton miroschnikow,Anton Miroschnikow,5,2,0,3,5,0,0,0,prime
+person:a zarin,A. Zarin,5,2,0,3,4,1,0,0,prime
+person:ming quan chen,Ming-Quan Chen,5,2,0,3,3,1,1,0,prime
+person:qihua chen,Qihua Chen,5,2,0,3,3,2,0,0,prime
+person:richard betzel,Richard F. Betzel,5,2,0,3,2,3,0,0,prime
+person:zengmao wang,Zengmao Wang,5,2,0,3,2,2,1,0,prime
+person:l scholtens,L. H. Scholtens,5,2,0,3,0,5,0,0,prime
+person:rembrandt bakker,Rembrandt Bakker,5,2,0,3,0,4,1,0,prime
+person:donghyung lee,Donghyung Lee,5,1,0,4,4,1,0,3,prime
+person:j horne,J. Horne,5,1,0,4,5,0,0,2,prime
+person:k khairy,K. Khairy,5,1,0,4,5,0,0,2,prime
+person:n karlupia,N. Karlupia,5,1,0,4,4,1,0,2,prime
+person:hongyang wu,Hongyang Wu,5,1,0,4,3,1,1,2,prime
+person:anthony azevedo,Anthony W. Azevedo,5,1,0,4,5,0,0,1,prime
+person:javier valdes aleman,Javier Valdes-Aleman,5,1,0,4,5,0,0,1,prime
+person:seymour knowles barley,Seymour Knowles-Barley,5,1,0,4,5,0,0,1,prime
+person:steven calle schuler,Steven A. Calle-Schuler,5,1,0,4,5,0,0,1,prime
+person:mean hwan kim,Mean-Hwan Kim,5,1,0,4,4,1,0,1,prime
+person:andreas thum,Andreas S. Thum,5,1,0,4,3,2,0,1,prime
+person:andreas schoofs,Andreas Schoofs,5,1,0,4,5,0,0,0,prime
+person:caitlyn bishop,Caitlyn Bishop,5,1,0,4,5,0,0,0,prime
+person:aindrila saha,Aindrila Saha,5,1,0,4,4,1,0,0,prime
+person:ali al awami,Ali K. Al-Awami,5,1,0,4,4,0,1,0,prime
+person:a polilov,A. Polilov,5,1,0,4,3,2,0,0,prime
+person:xiangdong liu,Xiangdong Liu,5,1,0,4,3,2,0,0,prime
+person:constantin pape,Constantin Pape,5,1,0,4,2,2,1,0,prime
+person:keun young kim,Keun-Young Kim,5,1,0,4,2,1,2,0,prime
+person:s cachero,S. Cachero,5,1,0,4,2,3,0,0,prime
+person:d fishkind,D. E. Fishkind,5,1,0,4,0,3,2,0,prime
+person:james hebditch,James Hebditch,5,0,0,5,5,0,0,3,prime
+person:k willie,K. Willie,5,0,0,5,5,0,0,3,prime
+person:a shinomiya,A. Shinomiya,5,0,0,5,5,0,0,2,prime
+person:david grant colburn hildebrand,David Grant Colburn Hildebrand,5,0,0,5,5,0,0,2,prime
+person:doug bland,Doug Bland,5,0,0,5,5,0,0,2,prime
+person:lucia kmecova,Lucia Kmecova,5,0,0,5,5,0,0,2,prime
+person:georgia dempsey,Georgia Dempsey,5,0,0,5,4,1,0,2,prime
+person:tanya wolff,Tanya Wolff,5,0,0,5,4,1,0,2,prime
+person:brandon canino,Brandon S Canino,5,0,0,5,5,0,0,1,prime
+person:caroline mooney,Caroline Mooney,5,0,0,5,5,0,0,1,prime
+person:casey schneider mizell,Casey M. Schneider-Mizell,5,0,0,5,5,0,0,1,prime
+person:celia david,Celia David,5,0,0,5,5,0,0,1,prime
+person:charli maldonado,Charli A Maldonado,5,0,0,5,5,0,0,1,prime
+person:christopher dunne,Christopher R. Dunne,5,0,0,6,5,0,0,1,prime
+person:claire smith,Claire Smith,5,0,0,5,5,0,0,1,prime
+person:e phillips,E. M. Phillips,5,0,0,5,5,0,0,1,prime
+person:erick cobos,Erick Cobos,5,0,0,5,5,0,0,1,prime
+person:iris talebi,Iris Talebi,5,0,0,5,5,0,0,1,prime
+person:m arcia dos santos,M'arcia dos Santos,5,0,0,6,5,0,0,1,prime
+person:nneoma okeoma,Nneoma Okeoma,5,0,0,5,5,0,0,1,prime
+person:stefanie hampel,Stefanie Hampel,5,0,0,5,5,0,0,1,prime
+person:arlo sheridan,Arlo Sheridan,5,0,0,5,4,0,1,1,prime
+person:emily tenshaw,Emily Tenshaw,5,0,0,5,4,1,0,1,prime
+person:j mendenhall,J. Mendenhall,5,0,0,5,3,1,1,1,prime
+person:rob svirskas,Rob Svirskas,5,0,0,5,3,2,0,1,prime
+person:sridhar jagannathan,Sridhar R. Jagannathan,5,0,0,5,3,1,1,1,prime
+person:e froudarakis,E. Froudarakis,5,0,0,5,5,0,0,0,prime
+person:s romani,S. Romani,5,0,0,5,5,0,0,0,prime
+person:samantha finley may,Samantha Finley-May,5,0,0,5,5,0,0,0,prime
+person:d kleissas,D. Kleissas,5,0,0,5,4,0,1,0,prime
+person:daniel emrich,Daniel P. Emrich,5,0,0,5,4,1,0,0,prime
+person:ignacio tartavull,Ignacio Tartavull,5,0,0,5,4,0,1,0,prime
+person:raphael norman tenazas,Raphael Norman-Tenazas,5,0,0,5,4,0,1,0,prime
+person:christoph sommer,Christoph Sommer,5,0,0,5,2,3,0,0,prime
+person:m hawrylycz,M. Hawrylycz,5,0,0,5,2,3,0,0,prime
+person:m mallory,M. Mallory,5,0,0,5,2,3,0,0,prime
+person:dazheng feng,Dazheng Feng,5,0,0,5,1,4,0,0,prime
+person:stephen smith,Stephen M. Smith,5,0,0,5,1,2,2,0,prime
+person:tingting jiang,Tingting Jiang,5,0,0,5,1,4,0,0,prime
+person:c gerfen,C. Gerfen,5,0,0,5,0,5,0,0,prime
+person:m pankratz,M. Pankratz,4,0,4,0,4,0,0,0,prime
+person:bo du,Bo Du,4,0,4,0,3,0,1,0,prime
+person:gianluca lazzi,Gianluca Lazzi,4,0,4,0,2,2,0,0,prime
+person:t clandinin,T. R. Clandinin,4,0,3,1,3,0,1,0,prime
+person:a merchan perez,Á. Merchán-Pérez,4,0,3,1,2,2,0,0,prime
+person:i fiete,I. Fiete,4,0,3,1,1,3,0,0,prime
+person:j sanes,J. Sanes,4,0,3,1,1,3,0,0,prime
+person:m diesmann,M. Diesmann,4,0,3,1,0,1,3,0,prime
+person:david bader,David A. Bader,4,1,2,1,1,2,1,0,prime
+person:meital oren suissa,Meital Oren-Suissa,4,1,2,1,0,4,0,0,prime
+person:p fua,P. Fua,4,0,2,2,3,0,1,0,prime
+person:ruobing zhang,Ruobing Zhang,4,0,2,2,3,1,0,0,prime
+person:david miller,David M. Miller,4,0,2,2,2,2,0,0,prime
+person:florian engert,Florian Engert,4,0,2,2,2,2,0,0,prime
+person:s zipursky,S. Zipursky,4,0,2,2,2,2,0,0,prime
+person:eilif muller,Eilif B. Muller,4,0,2,2,1,3,0,0,prime
+person:yunfeng hua,Yunfeng Hua,4,2,1,1,4,0,0,1,prime
+person:bradly alicea,Bradly Alicea,4,2,1,1,1,3,0,0,prime
+person:seong kyun kim,Seong-Kyun Kim,4,1,1,2,4,0,0,1,prime
+person:josh morgan,Josh L. Morgan,4,1,1,2,3,1,0,1,prime
+person:linqing feng,Linqing Feng,4,1,1,2,1,2,1,0,prime
+person:m oberlaender,M. Oberlaender,4,1,1,2,1,3,0,0,prime
+person:d margulies,D. Margulies,4,1,1,2,0,3,1,0,prime
+person:tianrui zhang,Tianrui Zhang,4,1,1,2,0,3,1,0,prime
+person:j singer,J. Singer,4,0,1,3,3,1,0,0,prime
+person:konrad paul kording,Konrad Paul Kording,4,0,1,3,3,1,0,0,prime
+person:kristen harris,Kristen M. Harris,4,0,1,3,2,1,1,0,prime
+person:yingjie yang,Yingjie Yang,4,0,1,3,2,2,0,0,prime
+person:yangang sun,Yangang Sun,4,0,1,4,1,2,1,0,prime
+person:andrew zalesky,Andrew Zalesky,4,0,1,3,0,3,1,0,prime
+person:h kennedy,H. Kennedy,4,0,1,3,0,4,0,0,prime
+person:konrad rokicki,Konrad Rokicki,4,0,1,3,0,4,0,0,prime
+person:marco agus,Marco Agus,4,0,1,3,0,3,1,0,prime
+person:peter jonas,Peter Jonas,4,0,1,3,0,4,0,0,prime
+person:yeon jin kim,Yeon Jin Kim,4,4,0,0,4,0,0,0,prime
+person:nestor timonidis,Nestor Timonidis,4,4,0,0,0,4,0,0,prime
+person:c brittin,C. Brittin,4,3,0,1,4,0,0,1,prime
+person:y tsukamoto,Y. Tsukamoto,4,3,0,1,2,2,0,0,prime
+person:alessandro motta,Alessandro Motta,4,2,0,2,4,0,0,2,prime
+person:alexander shapson coe,Alexander Shapson-Coe,4,2,0,2,4,0,0,2,prime
+person:j white,J. White,4,2,0,2,2,2,0,2,prime
+person:c gamlin,C. Gamlin,4,2,0,2,4,0,0,1,prime
+person:zhiqiao liu,Zhiqiao Liu,4,2,0,2,3,1,0,1,prime
+person:hannah martinez,Hannah Martinez,4,2,0,2,3,0,1,0,prime
+person:justin joyce,Justin Joyce,4,2,0,2,3,0,1,0,prime
+person:m kuwajima,M. Kuwajima,4,2,0,2,3,0,1,0,prime
+person:minghui liao,Minghui Liao,4,2,0,2,3,0,1,0,prime
+person:yuqi tian,Yuqi Tian,4,2,0,2,1,3,0,0,prime
+person:xiaojing ding,Xiaojing Ding,4,2,0,2,0,4,0,0,prime
+person:hyoungkyu kim,Hyoungkyu Kim,4,1,0,3,3,1,0,2,prime
+person:b staffler,B. Staffler,4,1,0,3,4,0,0,1,prime
+person:j zung,J. Zung,4,1,0,3,4,0,0,1,prime
+person:gizem sancer,Gizem Sancer,4,1,0,3,3,1,0,1,prime
+person:r franconville,R. Franconville,4,1,0,3,3,1,0,1,prime
+person:ben mulcahy,Ben Mulcahy,4,1,0,3,2,2,0,1,prime
+person:daniel witvliet,Daniel K. Witvliet,4,1,0,3,2,2,0,1,prime
+person:keinosuke ito,Keinosuke Ito,4,1,0,5,2,2,0,1,prime
+person:qiongling li,Qiongling Li,4,1,0,3,2,2,0,1,prime
+person:t bartol,T. Bartol,4,1,0,3,2,0,2,1,prime
+person:a wilson,A. Wilson,4,1,0,3,4,0,0,0,prime
+person:amelio vazquez reina,Amelio Vázquez Reina,4,1,0,3,4,0,0,0,prime
+person:elisa pavarino,Elisa C. Pavarino,4,1,0,3,4,0,0,0,prime
+person:judith hoeller,Judith Hoeller,4,1,0,3,4,0,0,0,prime
+person:philipp schubert,Philipp J Schubert,4,1,0,3,4,0,0,0,prime
+person:shashata sawmya,Shashata Sawmya,4,1,0,3,4,0,0,0,prime
+person:a matveev,A. Matveev,4,1,0,3,3,1,0,0,prime
+person:bei hong,Bei Hong,4,1,0,3,3,1,0,0,prime
+person:guojia wan,Guojia Wan,4,1,0,3,3,0,1,0,prime
+person:nathan drenkow,Nathan Drenkow,4,1,0,3,3,0,1,0,prime
+person:jung seok choi,Jung-Seok Choi,4,1,0,3,2,1,1,0,prime
+person:bingzhang wang,Bingzhang Wang,4,1,0,3,1,2,1,0,prime
+person:hui hong zhang,Hui-hong Zhang,4,1,0,3,1,1,2,0,prime
+person:lingzi zhang,Lingzi Zhang,4,1,0,3,1,1,2,0,prime
+person:n dhanyasi,N. Dhanyasi,4,1,0,3,1,2,1,0,prime
+person:s haber,S. Haber,4,1,0,3,0,3,1,0,prime
+person:yu chi huang,Yu-Chi Huang,4,1,0,4,0,3,1,0,prime
+person:oluwaseun ogedengbe,Oluwaseun Ogedengbe,4,0,0,4,4,0,0,4,prime
+person:art pope,Art Pope,4,0,0,4,4,0,0,3,prime
+person:brett graham,Brett J. Graham,4,0,0,4,4,0,0,3,prime
+person:laramie leavitt,Laramie Leavitt,4,0,0,4,4,0,0,3,prime
+person:selden koolman,Selden Koolman,4,0,0,4,4,0,0,3,prime
+person:ingrid andrade,Ingrid V. Andrade,4,0,0,4,4,0,0,2,prime
+person:larry lindsey,Larry F. Lindsey,4,0,0,4,4,0,0,2,prime
+person:akira fushiki,Akira Fushiki,4,0,0,4,4,0,0,1,prime
+person:austin burke,Austin T Burke,4,0,0,4,4,0,0,1,prime
+person:elliott phillips,Elliott Phillips,4,0,0,4,4,0,0,1,prime
+person:farzaan salman,Farzaan Salman,4,0,0,4,4,0,0,1,prime
+person:joseph hsu,Joseph Hsu,4,0,0,4,4,0,0,1,prime
+person:miriam flynn,Miriam A. Flynn,4,0,0,4,4,0,0,1,prime
+person:natalie smith,Natalie Smith,4,0,0,4,4,0,0,1,prime
+person:nicole neubarth,Nicole N. Neubarth,4,0,0,4,4,0,0,1,prime
+person:r turnbull,R. Turnbull,4,0,0,4,4,0,0,1,prime
+person:robert smith,Robert G. Smith,4,0,0,4,4,0,0,1,prime
+person:s suckow,S. Suckow,4,0,0,4,4,0,0,1,prime
+person:stephan preibisch,Stephan Preibisch,4,0,0,4,4,0,0,1,prime
+person:tom dolafi,Tom Dolafi,4,0,0,4,4,0,0,1,prime
+person:emil kind,Emil Kind,4,0,0,4,3,1,0,1,prime
+person:fabian tschopp,Fabian Tschopp,4,0,0,4,3,1,0,1,prime
+person:g williams,G. Williams,4,0,0,4,3,1,0,1,prime
+person:manuel berning,Manuel Berning,4,0,0,4,3,0,1,1,prime
+person:david ackerman,David Ackerman,4,0,0,4,2,2,0,1,prime
+person:megan sammons,Megan Sammons,4,0,0,4,2,2,0,1,prime
+person:n otto,N. Otto,4,0,0,4,2,2,0,1,prime
+person:takashi kawase,Takashi Kawase,4,0,0,4,2,2,0,1,prime
+person:edward rogers,Edward M Rogers,4,0,0,4,4,0,0,0,prime
+person:k rapp,K. Rapp,4,0,0,4,4,0,0,0,prime
+person:l capdevila,L. Capdevila,4,0,0,4,4,0,0,0,prime
+person:markus conzelmann,Markus Conzelmann,4,0,0,4,4,0,0,0,prime
+person:haoshen zhai,Haoshen Zhai,4,0,0,4,3,1,0,0,prime
+person:hayk saribekyan,Hayk Saribekyan,4,0,0,4,3,1,0,0,prime
+person:i siwanowicz,I. Siwanowicz,4,0,0,4,3,1,0,0,prime
+person:isabella beckett,Isabella R. Beckett,4,0,0,4,3,1,0,0,prime
+person:jerald kralik,Jerald D. Kralik,4,0,0,4,3,1,0,0,prime
+person:jessica garcia,Jessica C. Garcia,4,0,0,4,3,1,0,0,prime
+person:l venkatasubramanian,L. Venkatasubramanian,4,0,0,4,3,1,0,0,prime
+person:m landgraf,M. Landgraf,4,0,0,4,3,1,0,0,prime
+person:peng zhao,Peng Zhao,4,0,0,4,3,1,0,0,prime
+person:emre aksay,Emre R. F. Aksay,4,0,0,4,2,1,1,0,prime
+person:huei fang yang,Huei-Fang Yang,4,0,0,4,2,1,1,0,prime
+person:sarah walling bell,Sarah Walling-Bell,4,0,0,4,2,2,0,0,prime
+person:victoria rose,Victoria A. Rose,4,0,0,4,2,0,2,0,prime
+person:alban cenameri,Alban Cenameri,4,0,0,4,1,3,0,0,prime
+person:andreas schaefer,Andreas T. Schaefer,4,0,0,4,1,2,1,0,prime
+person:gaia novarino,Gaia Novarino,4,0,0,4,1,3,0,0,prime
+person:hsi ping wang,Hsi-Ping Wang,4,0,0,4,1,2,1,0,prime
+person:michael robinette,Michael S. Robinette,4,0,0,4,1,1,2,0,prime
+person:qingxu liu,Qingxu Liu,4,0,0,4,1,3,0,0,prime
+person:tian min chen,Tian-min Chen,4,0,0,4,1,3,0,0,prime
+person:julie harris,Julie A. Harris,4,0,0,4,0,4,0,0,prime
+person:k svoboda,K. Svoboda,4,0,0,4,0,4,0,0,prime
+person:m glasser,M. Glasser,4,0,0,4,0,2,2,0,prime
+person:s froudist walsh,S. Froudist-Walsh,4,0,0,4,0,4,0,0,prime
+person:d marshak,D. Marshak,3,0,3,0,3,0,0,0,prime
+person:f hamprecht,F. Hamprecht,3,0,3,0,3,0,0,0,prime
+person:gregory hager,Gregory Hager,3,0,3,0,3,0,0,0,prime
+person:md shamsuzzoha bayzid,Md. Shamsuzzoha Bayzid,3,0,3,0,3,0,0,0,prime
+person:n cohen,N. Cohen,3,0,3,0,3,0,0,0,prime
+person:claus hilgetag,Claus C. Hilgetag,3,0,3,0,1,1,1,0,prime
+person:james fitzgerald,James E. Fitzgerald,3,0,3,0,1,2,0,0,prime
+person:pavan ramdya,Pavan Ramdya,3,0,3,0,1,2,0,0,prime
+person:r baines,R. Baines,3,0,3,0,1,2,0,0,prime
+person:dongming cai,Dongming Cai,3,0,3,0,0,1,2,0,prime
+person:j chandrashekar,J. Chandrashekar,3,0,3,0,0,3,0,0,prime
+person:j danzl,J. Danzl,3,0,3,0,0,3,0,0,prime
+person:p tiesinga,P. Tiesinga,3,0,3,0,0,3,0,0,prime
+person:s larson,S. Larson,3,0,3,0,0,3,0,0,prime
+person:a horn,A. Horn,3,1,2,0,0,0,3,0,prime
+person:meet zandawala,Meet Zandawala,3,0,2,1,3,0,0,1,prime
+person:sung soo kim,Sung Soo Kim,3,0,2,1,3,0,0,1,prime
+person:marion silies,Marion Silies,3,0,2,1,2,1,0,1,prime
+person:p tomancak,P. Tomančák,3,0,2,1,2,0,1,1,prime
+person:feng wu,Feng Wu,3,0,2,1,3,0,0,0,prime
+person:philipp hovel,Philipp Hövel,3,0,2,1,3,0,0,0,prime
+person:aradhana singh,Aradhana Singh,3,0,2,1,2,0,1,0,prime
+person:martina schifferer,Martina Schifferer,3,0,2,1,2,0,1,0,prime
+person:n omi,N. Omi,3,0,2,1,2,1,0,0,prime
+person:stanley heinze,Stanley Heinze,3,0,2,1,2,1,0,0,prime
+person:r wong,R. Wong,3,0,2,1,1,2,0,0,prime
+person:alexandra badea,Alexandra Badea,3,0,2,1,0,1,2,0,prime
+person:b bernhardt,B. Bernhardt,3,0,2,1,0,2,1,0,prime
+person:c clopath,C. Clopath,3,0,2,1,0,3,0,0,prime
+person:christof koch,Christof Koch,3,0,2,1,0,3,0,0,prime
+person:huanxiang lu,Huanxiang Lu,3,0,2,1,0,2,1,0,prime
+person:t mrsic flogel,T. Mrsic-Flogel,3,0,2,1,0,3,0,0,prime
+person:yishi jin,Yishi Jin,3,0,2,1,0,2,1,0,prime
+person:bohao chen,Bohao Chen,3,2,1,0,2,1,0,0,prime
+person:j de lucas,J. M. de Lucas,3,2,1,0,2,1,0,0,prime
+person:i rabinowitch,I. Rabinowitch,3,2,1,0,1,2,0,0,prime
+person:joshua lillvis,Joshua L. Lillvis,3,2,1,0,1,2,0,0,prime
+person:maria paz fernandez,María Paz Fernández,3,1,1,1,2,1,0,0,prime
+person:alon kaufman,Alon Kaufman,3,1,1,1,1,1,1,0,prime
+person:d arendt,D. Arendt,3,1,1,1,1,2,0,0,prime
+person:y kurmangaliyev,Y. Kurmangaliyev,3,1,1,1,1,2,0,0,prime
+person:katrin amunts,Katrin Amunts,3,1,1,1,0,2,1,0,prime
+person:lida kanari,Lida Kanari,3,1,1,1,0,3,0,0,prime
+person:s ahnert,S. Ahnert,3,0,1,2,3,0,0,1,prime
+person:rudy behnia,Rudy Behnia,3,0,1,2,2,1,0,1,prime
+person:toshihide hige,Toshihide Hige,3,0,1,2,2,1,0,1,prime
+person:m fee,M. Fee,3,0,1,2,3,0,0,0,prime
+person:michael dickinson,Michael H. Dickinson,3,0,1,2,2,1,0,0,prime
+person:xudong zhao,Xudong Zhao,3,0,1,2,2,0,1,0,prime
+person:yichen luo,Yichen Luo,3,0,1,2,2,1,0,0,prime
+person:zixuan deng,Zixuan Deng,3,0,1,2,2,1,0,0,prime
+person:carles bosch,Carles Bosch,3,0,1,2,1,1,1,0,prime
+person:christel genoud,Christel Genoud,3,0,1,2,1,2,0,0,prime
+person:g deco,G. Deco,3,0,1,2,1,2,0,0,prime
+person:marisel villafane delgado,Marisel Villafañe-Delgado,3,0,1,2,1,1,1,0,prime
+person:masato koike,Masato Koike,3,0,1,2,1,2,0,0,prime
+person:s grant,S. Grant,3,0,1,2,1,2,0,0,prime
+person:yisheng he,Yisheng He,3,0,1,2,1,1,1,0,prime
+person:d tank,D. Tank,3,0,1,2,0,2,1,0,prime
+person:f clasca,F. Clascá,3,0,1,2,0,3,0,0,prime
+person:giovanni idili,Giovanni Idili,3,0,1,2,0,2,1,0,prime
+person:hideyuki okano,Hideyuki Okano,3,0,1,2,0,2,1,0,prime
+person:jingdao chen,Jingdao Chen,3,0,1,2,0,2,1,0,prime
+person:junyang wang,Junyang Wang,3,0,1,4,0,1,2,0,prime
+person:lucy collinson,Lucy Collinson,3,0,1,2,0,1,2,0,prime
+person:martin jones,Martin L. Jones,3,0,1,2,0,0,3,0,prime
+person:s hofer,S. Hofer,3,0,1,2,0,3,0,0,prime
+person:shiuan tze wu,Shiuan-Tze Wu,3,0,1,2,0,2,1,0,prime
+person:yonggang shi,Yonggang Shi,3,0,1,2,0,3,0,0,prime
+person:zhanwei du,Zhanwei Du,3,0,1,2,0,3,0,0,prime
+person:abrar rahman abir,Abrar Rahman Abir,3,3,0,0,3,0,0,0,prime
+person:xiaomeng han,Xiaomeng Han,3,3,0,0,2,1,0,0,prime
+person:tirthabir biswas,Tirthabir Biswas,3,3,0,0,1,2,0,0,prime
+person:jacob morra,Jacob J. Morra,3,3,0,0,0,2,1,0,prime
+person:nobuhiko ohno,Nobuhiko Ohno,3,3,0,0,0,3,0,0,prime
+person:dustin garner,Dustin Garner,3,2,0,1,3,0,0,1,prime
+person:philipp hanslovsky,Philipp Hanslovsky,3,2,0,1,3,0,0,1,prime
+person:emma towlson,Emma K. Towlson,3,2,0,1,2,1,0,1,prime
+person:kerrianne ryan,Kerrianne Ryan,3,2,0,1,2,1,0,1,prime
+person:andrea bordt,Andrea S Bordt,3,2,0,1,3,0,0,0,prime
+person:chi xiao,Chi Xiao,3,2,0,1,3,0,0,0,prime
+person:ellen lesser,Ellen Lesser,3,2,0,1,3,0,0,0,prime
+person:c cali,C. Calì,3,2,0,1,2,1,0,0,prime
+person:catherine schretter,Catherine E. Schretter,3,2,0,1,2,1,0,0,prime
+person:jeff brown,Jeff B. Brown,3,2,0,1,2,1,0,0,prime
+person:a arnatkeviciute,A. Arnatkevic̆iūtė,3,2,0,1,1,1,1,0,prime
+person:i chandok,I. Chandok,3,2,0,1,1,0,2,0,prime
+person:joshua morgan,Joshua Morgan,3,2,0,1,1,1,1,0,prime
+person:longmi gao,Longmi Gao,3,2,0,2,1,2,0,0,prime
+person:mohammad dindoost,Mohammad Dindoost,3,2,0,1,1,1,1,0,prime
+person:seth taylor,Seth R. Taylor,3,2,0,1,1,2,0,0,prime
+person:thomas templier,Thomas Templier,3,2,0,1,1,1,1,0,prime
+person:julia michalska,Julia M. Michalska,3,2,0,1,0,3,0,0,prime
+person:m economo,M. Economo,3,2,0,1,0,3,0,0,prime
+person:c barnes,C. L. Barnes,3,1,0,2,3,0,0,2,prime
+person:s loomba,S. Loomba,3,1,0,2,3,0,0,2,prime
+person:brendan celii,Brendan Celii,3,1,0,2,3,0,0,1,prime
+person:i tastekin,I. Tastekin,3,1,0,2,3,0,0,1,prime
+person:mojtaba seyedhosseini,Mojtaba Seyedhosseini,3,1,0,2,3,0,0,1,prime
+person:nils reinhard,Nils Reinhard,3,1,0,2,3,0,0,1,prime
+person:young joon kim,Young-Joon Kim,3,1,0,2,3,0,0,1,prime
+person:julia buhmann,Julia M. Buhmann,3,1,0,2,2,1,0,1,prime
+person:k nguyen,K. Nguyen,3,1,0,2,2,1,0,1,prime
+person:michael chirillo,Michael A. Chirillo,3,1,0,2,2,0,1,1,prime
+person:jakob straehle,Jakob Straehle,3,1,0,2,1,1,1,1,prime
+person:nino mancini,Nino Mancini,3,1,0,2,1,2,0,1,prime
+person:yee lian chew,Yee Lian Chew,3,1,0,2,1,2,0,1,prime
+person:albina asadulina,Albina Asadulina,3,1,0,2,3,0,0,0,prime
+person:arya shahbazi,Arya Shahbazi,3,1,0,2,3,0,0,0,prime
+person:b pratt,B. Pratt,3,1,0,2,3,0,0,0,prime
+person:e jurrus,E. Jurrus,3,1,0,2,3,0,0,0,prime
+person:f drawitsch,F. Drawitsch,3,1,0,2,3,0,0,0,prime
+person:kit longden,Kit D Longden,3,1,0,2,3,0,0,0,prime
+person:nathan klapoetke,Nathan C. Klapoetke,3,1,0,2,3,0,0,0,prime
+person:sophie dvali,Sophie Dvali,3,1,0,2,3,0,0,0,prime
+person:su yee lee,Su-Yee J. Lee,3,1,0,2,3,0,0,0,prime
+person:sung soo moon,Sung Soo Moon,3,1,0,2,3,0,0,0,prime
+person:valentin gillet,Valentin Gillet,3,1,0,2,3,0,0,0,prime
+person:wenjing wang,Wenjing Wang,3,1,0,2,3,0,0,0,prime
+person:d rolnick,D. Rolnick,3,1,0,2,2,1,0,0,prime
+person:daniel barabasi,Dániel L. Barabási,3,1,0,2,2,1,0,0,prime
+person:daniel franco barranco,Daniel Franco-Barranco,3,1,0,2,2,0,1,0,prime
+person:e iseri,E. Iseri,3,1,0,2,2,1,0,0,prime
+person:e kerzner,E. Kerzner,3,1,0,2,2,1,0,0,prime
+person:emily heckman,Emily L. Heckman,3,1,0,2,2,1,0,0,prime
+person:eva dyer,Eva L. Dyer,3,1,0,2,2,1,0,0,prime
+person:g meissner,G. Meissner,3,1,0,2,2,1,0,0,prime
+person:j boulanger weill,J. Boulanger-Weill,3,1,0,2,2,1,0,0,prime
+person:jason adhinarta,Jason K. Adhinarta,3,1,0,2,2,1,0,0,prime
+person:p potocek,P. Potocek,3,1,0,2,2,1,0,0,prime
+person:xiao jun gu,Xiao-Jun Gu,3,1,0,2,2,1,0,0,prime
+person:ye yuan,Ye Yuan,3,1,0,2,2,1,0,0,prime
+person:fangfang wang,Fangfang Wang,3,1,0,2,1,1,1,0,prime
+person:jan watteyne,Jan Watteyne,3,1,0,2,1,1,1,0,prime
+person:jie zhi cheng,Jie-Zhi Cheng,3,1,0,2,1,2,0,0,prime
+person:jinfang li,Jinfang Li,3,1,0,2,1,0,2,0,prime
+person:juyoun yoo,Juyoun Yoo,3,1,0,2,1,2,0,0,prime
+person:kaifeng chen,Kaifeng Chen,3,1,0,2,1,2,0,0,prime
+person:kayson fakhar,Kayson Fakhar,3,1,0,2,1,0,2,0,prime
+person:m turegano lopez,M. Turégano-Lopez,3,1,0,2,1,2,0,0,prime
+person:nicole guittari,Nicole K. Guittari,3,1,0,2,1,0,2,0,prime
+person:s jbabdi,S. Jbabdi,3,1,0,2,1,1,1,0,prime
+person:yumei guo,Yumei Guo,3,1,0,2,1,1,1,0,prime
+person:a palyanov,A. Palyanov,3,1,0,2,0,3,0,0,prime
+person:douglas portman,Douglas S. Portman,3,1,0,2,0,3,0,0,prime
+person:hayden helm,Hayden S. Helm,3,1,0,2,0,3,0,0,prime
+person:k knoblauch,K. Knoblauch,3,1,0,2,0,3,0,0,prime
+person:k rockland,K. Rockland,3,1,0,2,0,2,1,0,prime
+person:l kuan,L. Kuan,3,1,0,2,0,3,0,0,prime
+person:m iacaruso,M. Iacaruso,3,1,0,2,0,3,0,0,prime
+person:matteo cantarelli,Matteo Cantarelli,3,1,0,2,0,2,1,0,prime
+person:ning wang,Ning Wang,3,1,0,2,0,3,0,0,prime
+person:p gleeson,P. Gleeson,3,1,0,2,0,2,1,0,prime
+person:p velicky,P. Velicky,3,1,0,2,0,3,0,0,prime
+person:ryan conrad,Ryan Conrad,3,1,0,2,0,1,2,0,prime
+person:shaul druckmann,Shaul Druckmann,3,1,0,2,0,2,1,0,prime
+person:yongxin zhao,Yongxin Zhao,3,1,0,2,0,1,2,0,prime
+person:kai kuehner,Kai Kuehner,3,0,0,3,3,0,0,3,prime
+person:merlin moore,Merlin Moore,3,0,0,3,3,0,0,3,prime
+person:amalia braun,Amalia Braun,3,0,0,3,3,0,0,2,prime
+person:avinash khandelwal,Avinash Khandelwal,3,0,0,3,3,0,0,2,prime
+person:david aley,David Aley,3,0,0,3,3,0,0,2,prime
+person:j wagner carena,J. Wagner-Carena,3,0,0,3,3,0,0,2,prime
+person:lei ann chang,Lei-Ann Chang,3,0,0,3,3,0,0,2,prime
+person:sarah morejohn,Sarah Morejohn,3,0,0,3,3,0,0,2,prime
+person:j schindelin,J. Schindelin,3,0,0,3,2,1,0,2,prime
+person:m longair,M. Longair,3,0,0,3,2,1,0,2,prime
+person:sandeep kumar,Sandeep Kumar,3,0,0,3,2,0,1,2,prime
+person:a fragniere,A. M. Fragniere,3,0,0,3,3,0,0,1,prime
+person:a scott,A. K. Scott,3,0,0,3,3,0,0,1,prime
+person:a suleiman,A. Suleiman,3,0,0,3,3,0,0,1,prime
+person:alex thomson,Alex G. Thomson,3,0,0,3,3,0,0,1,prime
+person:alexis santana cruz,Alexis Santana-Cruz,3,0,0,3,3,0,0,1,prime
+person:andrea sandoval,Andrea Sandoval,3,0,0,3,3,0,0,1,prime
+person:charlotte helfrich forster,Charlotte Helfrich-Förster,3,0,0,3,3,0,0,1,prime
+person:christos papadopoulos,Christos Papadopoulos,3,0,0,3,3,0,0,1,prime
+person:dagmar kainmueller,Dagmar Kainmueller,3,0,0,3,3,0,0,1,prime
+person:dennis bailey,Dennis Bailey,3,0,0,3,3,0,0,1,prime
+person:e munnelly,E. Munnelly,3,0,0,4,3,0,0,1,prime
+person:edgar walker,Edgar Y. Walker,3,0,0,3,3,0,0,1,prime
+person:emily manley,Emily A Manley,3,0,0,3,3,0,0,1,prime
+person:g hopkins,G. Hopkins,3,0,0,3,3,0,0,1,prime
+person:j rymer,J. Rymer,3,0,0,3,3,0,0,1,prime
+person:j spacek,J. Špaček,3,0,0,3,3,0,0,1,prime
+person:j walsh,J. Walsh,3,0,0,3,3,0,0,1,prime
+person:k fairbanks,K. Fairbanks,3,0,0,3,3,0,0,1,prime
+person:l kamentsky,L. Kamentsky,3,0,0,3,3,0,0,1,prime
+person:lucy houghton,Lucy Houghton,3,0,0,3,3,0,0,1,prime
+person:matthew nichols,Matthew Nichols,3,0,0,3,3,0,0,1,prime
+person:mike roberts,Mike Roberts,3,0,0,3,3,0,0,1,prime
+person:n drummond,N. Drummond,3,0,0,3,3,0,0,1,prime
+person:natasha cheatham,Natasha Cheatham,3,0,0,3,3,0,0,1,prime
+person:o duclos,O. Duclos,3,0,0,3,3,0,0,1,prime
+person:philip laserstein,Philip Laserstein,3,0,0,3,3,0,0,1,prime
+person:s ryan,S. Ryan,3,0,0,3,3,0,0,1,prime
+person:salil bidaye,Salil S. Bidaye,3,0,0,3,3,0,0,1,prime
+person:sari mclin,Sari McLin,3,0,0,3,3,0,0,1,prime
+person:serene dhawan,Serene Dhawan,3,0,0,3,3,0,0,1,prime
+person:yongguo yu,Yongguo Yu,3,0,0,3,3,0,0,1,prime
+person:ana correia,Ana Correia,3,0,0,3,2,1,0,1,prime
+person:diego pacheco,Diego A. Pacheco,3,0,0,3,2,0,1,1,prime
+person:jens goldammer,Jens Goldammer,3,0,0,4,2,1,0,1,prime
+person:laia serratosa capdevila,Laia Serratosa Capdevila,3,0,0,3,2,1,0,1,prime
+person:masayoshi ito,Masayoshi Ito,3,0,0,4,2,1,0,1,prime
+person:d milkie,D. Milkie,3,0,0,3,1,1,1,1,prime
+person:emily bayer,Emily A. Bayer,3,0,0,3,1,2,0,1,prime
+person:erhan bas,Erhan Bas,3,0,0,3,1,2,0,1,prime
+person:h meyer,H. S. Meyer,3,0,0,3,1,2,0,1,prime
+person:hyungjun choi,Hyungjun Choi,3,0,0,3,1,2,0,1,prime
+person:taehoon kim,Taehoon Kim,3,0,0,3,1,1,1,1,prime
+person:ting yuan wang,Ting-Yuan Wang,3,0,0,3,1,2,0,1,prime
+person:a pollreisz,A. Pollreisz,3,0,0,3,3,0,0,0,prime
+person:anthony moussa,Anthony J. Moussa,3,0,0,3,3,0,0,0,prime
+person:cristine kalinski,Cristine Kalinski,3,0,0,3,3,0,0,0,prime
+person:d budden,D. Budden,3,0,0,3,3,0,0,0,prime
+person:diego perez,Diego Perez,3,0,0,3,3,0,0,0,prime
+person:emily yakal,Emily A Yakal,3,0,0,3,3,0,0,0,prime
+person:g schuhknecht,G. Schuhknecht,3,0,0,3,3,0,0,0,prime
+person:gary patrick hopkins,Gary Patrick Hopkins,3,0,0,3,3,0,0,0,prime
+person:jinyue guo,Jinyue Guo,3,0,0,3,3,0,0,0,prime
+person:john walsh,John J Walsh,3,0,0,3,3,0,0,0,prime
+person:joseph downs,Joseph Downs,3,0,0,3,3,0,0,0,prime
+person:luke tseng,Luke Tseng,3,0,0,3,3,0,0,0,prime
+person:m shao,M. Shao,3,0,0,3,3,0,0,0,prime
+person:m sumathipala,M. Sumathipala,3,0,0,3,3,0,0,0,prime
+person:martin guhmann,Martin Gühmann,3,0,0,3,3,0,0,0,prime
+person:meghan leonard,Meghan Leonard,3,0,0,3,3,0,0,0,prime
+person:miller wilt,Miller Wilt,3,0,0,3,3,0,0,0,prime
+person:pat gunn,Pat Gunn,3,0,0,3,3,0,0,0,prime
+person:paul martin,Paul R. Martin,3,0,0,3,3,0,0,0,prime
+person:pavel koshevoy,Pavel A. Koshevoy,3,0,0,3,3,0,0,0,prime
+person:t uram,T. Uram,3,0,0,3,3,0,0,0,prime
+person:thomas athey,Thomas Athey,3,0,0,3,3,0,0,0,prime
+person:alana richards,Alana Richards,3,0,0,3,2,1,0,0,prime
+person:d mastronarde,D. Mastronarde,3,0,0,3,2,1,0,0,prime
+person:david peale,David Peale,3,0,0,3,2,0,1,0,prime
+person:eyal gruntman,Eyal Gruntman,3,0,0,3,2,1,0,0,prime
+person:ilina moitra,Ilina Moitra,3,0,0,3,2,1,0,0,prime
+person:j berg,J. Berg,3,0,0,3,2,1,0,0,prime
+person:j kuchenbecker,J. Kuchenbecker,3,0,0,3,2,1,0,0,prime
+person:jeebika dahal,Jeebika Dahal,3,0,0,3,2,1,0,0,prime
+person:jinglin zhao,Jinglin Zhao,3,0,0,3,2,0,1,0,prime
+person:jose rodrigo rodriguez,José-Rodrigo Rodríguez,3,0,0,3,2,1,0,0,prime
+person:lindsey kitchell,Lindsey M. Kitchell,3,0,0,3,2,0,1,0,prime
+person:masako terada,Masako Terada,3,0,0,3,2,0,1,0,prime
+person:maurice peemen,Maurice Peemen,3,0,0,3,2,1,0,0,prime
+person:max aragon,Max J Aragon,3,0,0,3,2,0,1,0,prime
+person:n gouwens,N. Gouwens,3,0,0,3,2,1,0,0,prime
+person:p nicovich,P. Nicovich,3,0,0,3,2,1,0,0,prime
+person:philipp berens,Philipp Berens,3,0,0,3,2,1,0,0,prime
+person:r dalley,R. Dalley,3,0,0,3,2,1,0,0,prime
+person:r schoenmakers,R. Schoenmakers,3,0,0,3,2,1,0,0,prime
+person:seung hee lee,Seung-Hee Lee,3,0,0,3,2,1,0,0,prime
+person:t jarsky,T. Jarsky,3,0,0,3,2,1,0,0,prime
+person:thomas misgeld,Thomas Misgeld,3,0,0,3,2,0,1,0,prime
+person:william zhang,William Zhang,3,0,0,3,2,1,0,0,prime
+person:won dong jang,Won-Dong Jang,3,0,0,3,2,0,1,0,prime
+person:zhaoxuan ruan,Zhaoxuan Ruan,3,0,0,3,2,0,1,0,prime
+person:alexis weinreb,Alexis Weinreb,3,0,0,3,1,2,0,0,prime
+person:ben fulcher,Ben D. Fulcher,3,0,0,3,1,1,1,0,prime
+person:bokyoung lee,Bokyoung Lee,3,0,0,3,1,2,0,0,prime
+person:brian zingg,Brian Zingg,3,0,0,4,1,2,0,0,prime
+person:chenxuan wang,Chenxuan Wang,3,0,0,3,1,2,0,0,prime
+person:daniela egas santander,Daniela Egas Santander,3,0,0,3,1,2,0,0,prime
+person:eva laurell,Eva Laurell,3,0,0,3,1,2,0,0,prime
+person:haosheng sun,Haosheng Sun,3,0,0,3,1,2,0,0,prime
+person:j zhuang,J. Zhuang,3,0,0,3,1,2,0,0,prime
+person:julia lyudchik,Julia Lyudchik,3,0,0,3,1,2,0,0,prime
+person:kevin boergens,Kevin M. Boergens,3,0,0,3,1,2,0,0,prime
+person:kunal lillaney,Kunal Lillaney,3,0,0,3,1,0,2,0,prime
+person:marc hammarlund,Marc Hammarlund,3,0,0,3,1,2,0,0,prime
+person:mingyang li,Mingyang Li,3,0,0,3,1,1,1,0,prime
+person:n iyer,N. Iyer,3,0,0,3,1,1,1,0,prime
+person:o gliko,O. Gliko,3,0,0,3,1,2,0,0,prime
+person:oliver alvarado rodriguez,Oliver Alvarado Rodriguez,3,0,0,3,1,1,1,0,prime
+person:peng xie,Peng Xie,3,0,0,3,1,2,0,0,prime
+person:shujing zhang,Shujing Zhang,3,0,0,3,1,0,2,0,prime
+person:tingting su,Tingting Su,3,0,0,3,1,2,0,0,prime
+person:yongbin wei,Yongbin Wei,3,0,0,3,1,2,0,0,prime
+person:ziwei huang,Ziwei Huang,3,0,0,3,1,2,0,0,prime
+person:bao lei zhang,Bao-Lei Zhang,3,0,0,4,0,3,0,0,prime
+person:benjamin ouellette,Benjamin Ouellette,3,0,0,3,0,3,0,0,prime
+person:bosiljka tasic,Bosiljka Tasic,3,0,0,3,0,3,0,0,prime
+person:chenxi jin,Chenxi Jin,3,0,0,3,0,2,1,0,prime
+person:cristian goina,Cristian Goina,3,0,0,3,0,3,0,0,prime
+person:cyril cros,Cyril C Cros,3,0,0,3,0,3,0,0,prime
+person:d ferkey,D. M. Ferkey,3,0,0,3,0,3,0,0,prime
+person:danqian liu,Danqian Liu,3,0,0,3,0,3,0,0,prime
+person:hsien chi kuo,Hsien-Chi Kuo,3,0,0,3,0,3,0,0,prime
+person:ian wickersham,Ian R. Wickersham,3,0,0,3,0,3,0,0,prime
+person:j watson,J. Watson,3,0,0,3,0,3,0,0,prime
+person:k deisseroth,K. Deisseroth,3,0,0,3,0,1,2,0,prime
+person:karen hibbard,Karen L. Hibbard,3,0,0,3,0,3,0,0,prime
+person:karla hirokawa,Karla E. Hirokawa,3,0,0,3,0,3,0,0,prime
+person:l ahmadinia,L. Ahmadinia,3,0,0,3,0,3,0,0,prime
+person:laila el hifnawi,Laila El-Hifnawi,3,0,0,3,0,3,0,0,prime
+person:lijie zhan,Lijie Zhan,3,0,0,3,0,2,1,0,prime
+person:lori glenwinkel,Lori Glenwinkel,3,0,0,3,0,3,0,0,prime
+person:luxuan wang,Luxuan Wang,3,0,0,3,0,1,2,0,prime
+person:p thompson,P. Thompson,3,0,0,3,0,0,3,0,prime
+person:pei tseng lee,Pei-Tseng Lee,3,0,0,3,0,3,0,0,prime
+person:phil lesnar,Phil Lesnar,3,0,0,3,0,3,0,0,prime
+person:robert anderson,Robert J Anderson,3,0,0,3,0,1,2,0,prime
+person:s khayrulin,S. Khayrulin,3,0,0,3,0,3,0,0,prime
+person:s phan,S. Phan,3,0,0,3,0,1,2,0,prime
+person:s sunkin,S. Sunkin,3,0,0,3,0,3,0,0,prime
+person:t deerinck,T. Deerinck,3,0,0,3,0,1,2,0,prime
+person:t wachtler,T. Wachtler,3,0,0,3,0,1,2,0,prime
+person:v dercksen,V. J. Dercksen,3,0,0,3,0,3,0,0,prime
+person:wei deng,Wei Deng,3,0,0,3,0,2,1,0,prime
+person:wei xiong,Wei Xiong,3,0,0,3,0,3,0,0,prime
+person:william schafer,William R. Schafer,3,0,0,3,0,3,0,0,prime
+person:xiuli kuang,Xiuli Kuang,3,0,0,3,0,3,0,0,prime
+person:y qi,Y. Qi,3,0,0,3,0,2,1,0,prime
+person:yikai liang,Yikai Liang,3,0,0,3,0,2,1,0,prime
+person:yoav ben simon,Yoav Ben-Simon,3,0,0,3,0,3,0,0,prime
+person:yuan ming zheng,Yuan-Ming Zheng,3,0,0,3,0,2,1,0,prime
+person:s brenner,S. Brenner,2,0,2,0,2,0,0,2,prime
+person:stephen wong,Stephen T. C. Wong,2,0,2,0,1,1,0,1,prime
+person:alon zaslaver,Alon Zaslaver,2,0,2,0,2,0,0,0,prime
+person:andrew leifer,Andrew M Leifer,2,0,2,0,2,0,0,0,prime
+person:c dovrolis,C. Dovrolis,2,0,2,0,2,0,0,0,prime
+person:damon clark,Damon A. Clark,2,0,2,0,2,0,0,0,prime
+person:david tank,David W. Tank,2,0,2,0,2,0,0,0,prime
+person:domenico ursino,Domenico Ursino,2,0,2,0,2,0,0,0,prime
+person:edward boyden,Edward S. Boyden,2,0,2,0,2,0,0,0,prime
+person:jonathan pillow,Jonathan W. Pillow,2,0,2,0,2,0,0,0,prime
+person:william kristan jr,William B. Kristan Jr.,2,0,2,0,2,0,0,0,prime
+person:anirvan ghosh,Anirvan Ghosh,2,0,2,0,1,1,0,0,prime
+person:carsten dachsbacher,Carsten Dachsbacher,2,0,2,0,1,0,1,0,prime
+person:fang guo,Fang Guo,2,0,2,0,1,1,0,0,prime
+person:h hioki,H. Hioki,2,0,2,0,1,1,0,0,prime
+person:h makse,H. Makse,2,0,2,0,1,1,0,0,prime
+person:k kaun,K. Kaun,2,0,2,0,1,1,0,0,prime
+person:p heng,P. Heng,2,0,2,0,1,1,0,0,prime
+person:satchidananda panda,Satchidananda Panda,2,0,2,1,1,0,1,0,prime
+person:vivek venkatachalam,Vivek Venkatachalam,2,0,2,0,1,1,0,0,prime
+person:a mousley,A. Mousley,2,0,2,0,0,2,0,0,prime
+person:andrew mckenzie,Andrew T. McKenzie,2,0,2,0,0,2,0,0,prime
+person:b sakmann,B. Sakmann,2,0,2,0,0,2,0,0,prime
+person:c eroglu,C. Eroglu,2,0,2,1,0,2,0,0,prime
+person:c stigloher,C. Stigloher,2,0,2,0,0,1,1,0,prime
+person:gary bader,Gary D. Bader,2,0,2,0,0,1,1,0,prime
+person:jagan srinivasan,Jagan Srinivasan,2,0,2,0,0,2,0,0,prime
+person:jeffrey olimpo,Jeffrey T. Olimpo,2,0,2,0,0,1,1,0,prime
+person:joerg bewersdorf,Joerg Bewersdorf,2,0,2,0,0,2,0,0,prime
+person:kedar narayan,Kedar Narayan,2,0,2,0,0,1,1,0,prime
+person:m breakspear,M. Breakspear,2,0,2,0,0,1,1,0,prime
+person:m daley,M. Daley,2,0,2,0,0,1,1,0,prime
+person:p basser,P. Basser,2,0,2,0,0,2,0,0,prime
+person:renmin han,Renmin Han,2,0,2,0,0,2,0,0,prime
+person:s mcmullan,S. McMullan,2,0,2,0,0,2,0,0,prime
+person:steven zucker,Steven W. Zucker,2,0,2,0,0,2,0,0,prime
+person:t margrie,T. Margrie,2,0,2,0,0,2,0,0,prime
+person:b fenyves,B. Fenyves,2,1,1,0,2,0,0,0,prime
+person:samia mohinta,Samia Mohinta,2,1,1,0,2,0,0,0,prime
+person:a simon,A. Simon,2,1,1,0,1,1,0,0,prime
+person:d ville,D. Ville,2,1,1,0,1,1,0,0,prime
+person:danping chen,Danping Chen,2,1,1,0,1,0,1,0,prime
+person:el kaioum moutuou,El-kaioum M. Moutuou,2,1,1,0,1,1,0,0,prime
+person:hernan makse,Hernán A. Makse,2,1,1,0,1,1,0,0,prime
+person:istvan kovacs,István A. Kovács,2,1,1,0,1,1,0,0,prime
+person:j hizanidis,J. Hizanidis,2,1,1,0,1,1,0,0,prime
+person:j karbowski,J. Karbowski,2,1,1,0,1,1,0,0,prime
+person:maxwell turner,Maxwell H. Turner,2,1,1,0,1,1,0,0,prime
+person:s flavell,S. Flavell,2,1,1,0,1,1,0,0,prime
+person:wei wei,Wei Wei,2,1,1,0,1,1,0,0,prime
+person:a stepanyants,A. Stepanyants,2,1,1,0,0,2,0,0,prime
+person:amit zeisel,Amit Zeisel,2,1,1,0,0,2,0,0,prime
+person:azusa kamikouchi,Azusa Kamikouchi,2,1,1,0,0,2,0,0,prime
+person:c antonopoulos,C. Antonopoulos,2,1,1,0,0,2,0,0,prime
+person:cencheng shen,Cencheng Shen,2,1,1,0,0,2,0,0,prime
+person:e marder,E. Marder,2,1,1,0,0,2,0,0,prime
+person:helen spiers,Helen Spiers,2,1,1,0,0,0,2,0,prime
+person:ian stewart,Ian Stewart,2,1,1,0,0,2,0,0,prime
+person:l pastor,L. Pastor,2,1,1,0,0,1,1,0,prime
+person:l swanson,L. Swanson,2,1,1,0,0,1,1,0,prime
+person:m berlanga,M. Berlanga,2,1,1,0,0,1,1,0,prime
+person:manuel schroter,Manuel S. Schröter,2,1,1,0,0,2,0,0,prime
+person:n chuhma,N. Chuhma,2,1,1,0,0,2,0,0,prime
+person:o gunturkun,O. Güntürkün,2,1,1,0,0,2,0,0,prime
+person:r kotter,R. Kötter,2,1,1,0,0,2,0,0,prime
+person:takuya hayashi,Takuya Hayashi,2,1,1,0,0,2,0,0,prime
+person:xianxiang tong,Xianxiang Tong,2,1,1,0,0,2,0,0,prime
+person:xu fei du,Xu-Fei Du,2,1,1,0,0,1,1,0,prime
+person:yusuf osmanl oglu,Yusuf Osmanlıoğlu,2,1,1,0,0,1,1,0,prime
+person:j diamond,J. Diamond,2,0,1,1,2,0,0,1,prime
+person:l prieto godino,L. Prieto-Godino,2,0,1,1,2,0,0,1,prime
+person:michael pankratz,Michael J. Pankratz,2,0,1,1,2,0,0,1,prime
+person:nilay yapici,Nilay Yapici,2,0,1,1,2,0,0,1,prime
+person:s williams,S. Williams,2,0,1,1,2,0,0,1,prime
+person:d anderson,D. J. Anderson,2,0,1,1,1,1,0,1,prime
+person:g henry,G. L. Henry,2,0,1,1,1,1,0,1,prime
+person:j magee,J. Magee,2,0,1,1,1,1,0,1,prime
+person:a bahl,A. Bahl,2,0,1,1,2,0,0,0,prime
+person:alexander kim,Alexander J. Kim,2,0,1,1,2,0,0,0,prime
+person:b hochner,B. Hochner,2,0,1,1,2,0,0,0,prime
+person:daniel colon ramos,Daniel A. Colón-Ramos,2,0,1,1,2,0,0,0,prime
+person:h kazama,H. Kazama,2,0,1,1,2,0,0,0,prime
+person:j simpson,J. Simpson,2,0,1,1,2,0,0,0,prime
+person:n ferrier,N. Ferrier,2,0,1,1,2,0,0,0,prime
+person:nuno macarico da costa,Nuno Maçarico da Costa,2,0,1,1,2,0,0,0,prime
+person:peter csermely,Peter Csermely,2,0,1,1,2,0,0,0,prime
+person:t schubert,T. Schubert,2,0,1,1,2,0,0,0,prime
+person:w scheirer,W. Scheirer,2,0,1,1,2,0,0,0,prime
+person:alison barth,Alison L. Barth,2,0,1,1,1,0,1,0,prime
+person:bingqing zhao,Bingqing Zhao,2,0,1,1,1,1,0,0,prime
+person:brian robinson,Brian S. Robinson,2,0,1,1,1,0,1,0,prime
+person:core francisco park,Core Francisco Park,2,0,1,1,1,0,1,0,prime
+person:franck polleux,Franck Polleux,2,0,1,1,1,1,0,0,prime
+person:gang yan,Gang Yan,2,0,1,1,1,1,0,0,prime
+person:h vergara,H. Vergara,2,0,1,1,1,1,0,0,prime
+person:habib benali,Habib Benali,2,0,1,1,1,1,0,0,prime
+person:hermann schmidt,Hermann Schmidt,2,0,1,1,1,1,0,0,prime
+person:j blagburn,J. Blagburn,2,0,1,1,1,1,0,0,prime
+person:k kording,K. Kording,2,0,1,1,1,0,1,0,prime
+person:lara lloret iglesias,Lara Lloret Iglesias,2,0,1,1,1,1,0,0,prime
+person:m dal maschio,M. dal Maschio,2,0,1,1,1,1,0,0,prime
+person:m heuvel,M. P. Heuvel,2,0,1,1,1,1,0,0,prime
+person:m hoon,M. Hoon,2,0,1,1,1,1,0,0,prime
+person:m preti,M. Preti,2,0,1,1,1,1,0,0,prime
+person:rafael yuste,Rafael Yuste,2,0,1,1,1,1,0,0,prime
+person:raunak sinha,Raunak Sinha,2,0,1,1,1,1,0,0,prime
+person:reza abbasi asl,Reza Abbasi-Asl,2,0,1,1,1,1,0,0,prime
+person:s brown,S. P. Brown,2,0,1,1,1,1,0,0,prime
+person:s lauritzen,S. Lauritzen,2,0,1,1,1,1,0,0,prime
+person:s sternson,S. Sternson,2,0,1,1,1,1,0,0,prime
+person:s suweis,S. Suweis,2,0,1,1,1,1,0,0,prime
+person:shin ishii,Shin Ishii,2,0,1,1,1,1,0,0,prime
+person:soma mukherjee,Soma Mukherjee,2,0,1,1,1,1,0,0,prime
+person:ting hao huang,Ting-hao Huang,2,0,1,1,1,1,0,0,prime
+person:zhefeng gong,Zhefeng Gong,2,0,1,1,1,1,0,0,prime
+person:aditi jha,Aditi Jha,2,0,1,1,0,0,2,0,prime
+person:alex szalay,Alex Szalay,2,0,1,1,0,0,2,0,prime
+person:andreas vlachos,Andreas Vlachos,2,0,1,1,0,1,1,0,prime
+person:anna kim,Anna Kim,2,0,1,1,0,1,1,0,prime
+person:beiya xu,Beiya Xu,2,0,1,1,0,2,0,0,prime
+person:c rorden,C. Rorden,2,0,1,1,0,1,1,0,prime
+person:carlos lois,Carlos Lois,2,0,1,1,0,2,0,0,prime
+person:catherine lee,Catherine Lee,2,0,1,1,0,2,0,0,prime
+person:chunhui li,Chunhui Li,2,0,1,1,0,0,2,0,prime
+person:d van essen,D. V. Van Essen,2,0,1,1,0,2,0,0,prime
+person:e callaway,E. Callaway,2,0,1,1,0,2,0,0,prime
+person:e ozkan,E. Özkan,2,0,1,2,0,2,0,0,prime
+person:franco pestilli,Franco Pestilli,2,0,1,1,0,2,0,0,prime
+person:gavin yang,Gavin Yang,2,0,1,1,0,0,2,0,prime
+person:jiu lin du,Jiu-lin Du,2,0,1,1,0,1,1,0,prime
+person:juliane thoener,Juliane Thoener,2,0,1,1,0,2,0,0,prime
+person:jun yan,Jun Yan,2,0,1,1,0,2,0,0,prime
+person:krzysztof gorgolewski,Krzysztof J. Gorgolewski,2,0,1,1,0,1,1,0,prime
+person:l bonilha,L. Bonilha,2,0,1,1,0,0,2,0,prime
+person:m de reus,M. D. de Reus,2,0,1,1,0,2,0,0,prime
+person:m macdonald,M. Macdonald,2,0,1,1,0,1,1,0,prime
+person:martin weigert,Martin Weigert,2,0,1,1,0,2,0,0,prime
+person:n brunel,N. Brunel,2,0,1,1,0,2,0,0,prime
+person:paul sternberg,Paul W. Sternberg,2,0,1,1,0,2,0,0,prime
+person:paul tiesinga,Paul H. Tiesinga,2,0,1,1,0,2,0,0,prime
+person:r levi,R. Levi,2,0,1,1,0,2,0,0,prime
+person:r silver,R. Silver,2,0,1,1,0,1,1,0,prime
+person:r verma,R. Verma,2,0,1,1,0,1,1,0,prime
+person:s bookheimer,S. Bookheimer,2,0,1,1,0,0,2,0,prime
+person:s chu,S. Chu,2,0,1,1,0,2,0,0,prime
+person:s saitoh,S. Saitoh,2,0,1,1,0,2,0,0,prime
+person:sarah king,Sarah B. King,2,0,1,1,0,2,0,0,prime
+person:susie huang,Susie Y. Huang,2,0,1,1,0,2,0,0,prime
+person:t kirchhausen,T. Kirchhausen,2,0,1,1,0,1,1,0,prime
+person:xiaohong xu,Xiaohong Xu,2,0,1,1,0,2,0,0,prime
+person:y saeys,Y. Saeys,2,0,1,1,0,2,0,0,prime
+person:yachuang hu,Yachuang Hu,2,0,1,1,0,2,0,0,prime
+person:z toroczkai,Z. Toroczkai,2,0,1,1,0,2,0,0,prime
+person:b hulse,B. Hulse,2,2,0,0,2,0,0,1,prime
+person:barry bentley,Barry L. Bentley,2,2,0,0,2,0,0,1,prime
+person:y mishchenko,Y. Mishchenko,2,2,0,0,1,1,0,1,prime
+person:bryant avila,Bryant Avila,2,2,0,0,2,0,0,0,prime
+person:dean pospisil,Dean A. Pospisil,2,2,0,0,2,0,0,0,prime
+person:enrico corradini,Enrico Corradini,2,2,0,0,2,0,0,0,prime
+person:georg kislinger,Georg Kislinger,2,2,0,0,2,0,0,0,prime
+person:jason pipkin,Jason Pipkin,2,2,0,0,2,0,0,0,prime
+person:leander lauenburg,Leander Lauenburg,2,2,0,0,2,0,0,0,prime
+person:p kim,P. Kim,2,2,0,0,2,0,0,0,prime
+person:p yadav,P. Yadav,2,2,0,0,2,0,0,0,prime
+person:philip shiu,Philip K. Shiu,2,2,0,0,2,0,0,0,prime
+person:v sampathkumar,V. Sampathkumar,2,2,0,0,2,0,0,0,prime
+person:adam haber,Adam Haber,2,2,0,0,1,1,0,0,prime
+person:angela zhang,Angela Zhang,2,2,0,0,1,1,0,0,prime
+person:carlo giachello,Carlo N. G. Giachello,2,2,0,0,1,1,0,0,prime
+person:fatemeh hadaeghi,Fatemeh Hadaeghi,2,2,0,0,1,0,1,0,prime
+person:filip milisav,Filip Milisav,2,2,0,0,1,1,0,0,prime
+person:g zamora lopez,G. Zamora-López,2,2,0,0,1,1,0,0,prime
+person:ishani ganguly,Ishani Ganguly,2,2,0,0,1,1,0,0,prime
+person:janne lappalainen,Janne K. Lappalainen,2,2,0,0,1,1,0,0,prime
+person:kaylynn coates,Kaylynn E. Coates,2,2,0,0,1,1,0,0,prime
+person:ketan mehta,Ketan Mehta,2,2,0,0,1,1,0,0,prime
+person:larissa heinrich,Larissa Heinrich,2,2,0,0,1,1,0,0,prime
+person:m cirunay,M. Cirunay,2,2,0,0,1,1,0,0,prime
+person:m piochowiak,M. Piochowiak,2,2,0,0,1,0,1,0,prime
+person:nalin dhiman,Nalin Dhiman,2,2,0,0,1,1,0,0,prime
+person:p ozdil,P. G. Özdil,2,2,0,0,1,1,0,0,prime
+person:t furuta,T. Furuta,2,2,0,0,1,1,0,0,prime
+person:a goulas,A. Goulas,2,2,0,0,0,2,0,0,prime
+person:bowen shi,Bowen Shi,2,2,0,0,0,1,1,0,prime
+person:c shih,C. Shih,2,2,0,0,0,2,0,0,prime
+person:elizabeth diloreto,Elizabeth M. DiLoreto,2,2,0,0,0,2,0,0,prime
+person:i toker,I. A. Toker,2,2,0,0,0,2,0,0,prime
+person:j roels,J. Roels,2,2,0,0,0,2,0,0,prime
+person:l collins,L. Collins,2,2,0,0,0,2,0,0,prime
+person:louise atkinson,Louise E. Atkinson,2,2,0,0,0,2,0,0,prime
+person:lukas anneser,Lukas Anneser,2,2,0,0,0,2,0,0,prime
+person:oren richter,Oren Richter,2,2,0,0,0,2,0,0,prime
+person:p jusuf,P. Jusuf,2,2,0,0,0,2,0,0,prime
+person:r gamanut,R. Gămănuţ,2,2,0,0,0,2,0,0,prime
+person:s markert,S. Markert,2,2,0,0,0,1,1,0,prime
+person:valentina baena,Valentina Baena,2,2,0,0,0,1,1,0,prime
+person:vladyslava pechuk,Vladyslava Pechuk,2,2,0,0,0,2,0,0,prime
+person:anthony moreno sanchez,Anthony Moreno-Sanchez,2,1,0,1,2,0,0,1,prime
+person:d turner evans,D. Turner-Evans,2,1,0,1,2,0,0,1,prime
+person:eleni samara,Eleni Samara,2,1,0,1,2,0,0,1,prime
+person:hyun tek yim,Hyun-Tek Yim,2,1,0,1,2,0,0,1,prime
+person:l varshney,L. Varshney,2,1,0,1,2,0,0,1,prime
+person:p shiu,P. Shiu,2,1,0,1,2,0,0,1,prime
+person:tran minh quan,Tran Minh Quan,2,1,0,1,2,0,0,1,prime
+person:xinyue cui,Xinyue Cui,2,1,0,1,2,0,0,1,prime
+person:changming sun,Changming Sun,2,1,0,1,1,1,0,1,prime
+person:e barsotti,E. Barsotti,2,1,0,1,1,1,0,1,prime
+person:m richardson,M. Richardson,2,1,0,1,1,1,0,1,prime
+person:rachel wilson,Rachel I. Wilson,2,1,0,1,1,1,0,1,prime
+person:a jorstad,A. Jorstad,2,1,0,1,2,0,0,0,prime
+person:alex kunin,Alex Kunin,2,1,0,1,2,0,0,0,prime
+person:alexandra rother,Alexandra Rother,2,1,0,1,2,0,0,0,prime
+person:ali karimi,Ali Karimi,2,1,0,1,2,0,0,0,prime
+person:andrea santuy,Andrea Santuy,2,1,0,1,2,0,0,0,prime
+person:anjali gour,Anjali Gour,2,1,0,1,2,0,0,0,prime
+person:felix gonda,Felix Gonda,2,1,0,1,2,0,0,0,prime
+person:flavie bidel,Flavie Bidel,2,1,0,1,2,0,0,0,prime
+person:gabor szilagyi,Gábor S. Szilágyi,2,1,0,1,2,0,0,0,prime
+person:haoxing zhu,Haoxing Zhu,2,1,0,1,2,0,0,0,prime
+person:jaeyeong han,Jaeyeong Han,2,1,0,1,2,0,0,0,prime
+person:juan nunez iglesias,Juan Nunez-Iglesias,2,1,0,1,2,0,0,0,prime
+person:julius jonaitis,Julius Jonaitis,2,1,0,1,2,0,0,0,prime
+person:k sabrin,K. M. Sabrin,2,1,0,1,2,0,0,0,prime
+person:m sayre,M. E. Sayre,2,1,0,1,2,0,0,0,prime
+person:makoto someya,Makoto Someya,2,1,0,1,2,0,0,0,prime
+person:mariela petkova,Mariela D. Petkova,2,1,0,1,2,0,0,0,prime
+person:meng xu,Meng Xu,2,1,0,1,2,0,0,0,prime
+person:p kosta,P. Kosta,2,1,0,1,2,0,0,0,prime
+person:piero sanfilippo,Piero Sanfilippo,2,1,0,1,2,0,0,0,prime
+person:rafael vescovi,Rafael Vescovi,2,1,0,1,2,0,0,0,prime
+person:ritwik kumar,Ritwik K. Kumar,2,1,0,1,2,0,0,0,prime
+person:s engert,S. Engert,2,1,0,1,2,0,0,0,prime
+person:sarah pugliese,Sarah M. Pugliese,2,1,0,1,2,0,0,0,prime
+person:sebastian huckesfeld,Sebastian Hückesfeld,2,1,0,1,2,0,0,0,prime
+person:shi yan lee,Shi Yan Lee,2,1,0,1,2,0,0,0,prime
+person:t sizemore,T. Sizemore,2,1,0,1,2,0,0,0,prime
+person:xiaoyan sun,Xiaoyan Sun,2,1,0,1,2,0,0,0,prime
+person:yuchao jiang,Yuchao Jiang,2,1,0,1,2,0,0,0,prime
+person:zhangcan ding,Zhangcan Ding,2,1,0,2,2,0,0,0,prime
+person:andras ecker,András Ecker,2,1,0,1,1,1,0,0,prime
+person:aurelia song,Aurelia Song,2,1,0,1,1,1,0,0,prime
+person:ayana hellevik,Ayana M. Hellevik,2,1,0,1,1,1,0,0,prime
+person:ben piazza,Ben Piazza,2,1,0,1,1,1,0,0,prime
+person:christopher lynn,Christopher W. Lynn,2,1,0,1,1,1,0,0,prime
+person:chung heng yeh,Chung-Heng Yeh,2,1,0,1,1,0,1,0,prime
+person:chunxiuzi liu,Chunxiuzi Liu,2,1,0,1,1,1,0,0,prime
+person:e dona,E. Donà,2,1,0,1,1,1,0,0,prime
+person:fei zhu,Fei Zhu,2,1,0,1,1,1,0,0,prime
+person:hyeyoung lee,Hyeyoung Lee,2,1,0,1,1,1,0,0,prime
+person:jayde livingstone,Jayde Livingstone,2,1,0,1,1,1,0,0,prime
+person:kyle loizos,Kyle Loizos,2,1,0,1,1,1,0,0,prime
+person:m ahrens,M. Ahrens,2,1,0,1,1,1,0,0,prime
+person:m haberl,M. Haberl,2,1,0,1,1,1,0,0,prime
+person:mark dombrovski,Mark Dombrovski,2,1,0,1,1,1,0,0,prime
+person:markus reigl,Markus Reigl,2,1,0,1,1,1,0,0,prime
+person:maryam majeed,Maryam Majeed,2,1,0,1,1,1,0,0,prime
+person:michael devine,Michael J. Devine,2,1,0,1,1,1,0,0,prime
+person:morgan sanchez,Morgan Sanchez,2,1,0,1,1,0,1,0,prime
+person:nikul ukani,Nikul H. Ukani,2,1,0,1,1,0,1,0,prime
+person:paul watkins,Paul V. Watkins,2,1,0,1,1,1,0,0,prime
+person:po yuan wang,Po-Yuan Wang,2,1,0,1,1,0,1,0,prime
+person:r egger,R. Egger,2,1,0,1,1,1,0,0,prime
+person:r giuly,R. Giuly,2,1,0,1,1,0,1,0,prime
+person:s mikula,S. Mikula,2,1,0,1,1,1,0,0,prime
+person:samuel asinof,Samuel K Asinof,2,1,0,1,1,0,1,0,prime
+person:snehil dey,Snehil Dey,2,1,0,1,1,1,0,0,prime
+person:sung yong kim,Sung Yong Kim,2,1,0,1,1,1,0,0,prime
+person:xiaolin huang,Xiaolin Huang,2,1,0,1,1,1,0,0,prime
+person:xin yuan,Xin Yuan,2,1,0,1,1,1,0,0,prime
+person:y kubota,Y. Kubota,2,1,0,1,1,0,1,0,prime
+person:yan hao,Yan Hao,2,1,0,1,1,1,0,0,prime
+person:yuda zou,Yuda Zou,2,1,0,1,1,0,1,0,prime
+person:zhaoxiang zhang,Zhaoxiang Zhang,2,1,0,1,1,1,0,0,prime
+person:a alyakin,A. Alyakin,2,1,0,1,0,2,0,0,prime
+person:a bhattacharya,A. Bhattacharya,2,1,0,1,0,2,0,0,prime
+person:a mahzarnia,A. Mahzarnia,2,1,0,1,0,0,2,0,prime
+person:a makarova,A. Makarova,2,1,0,1,0,2,0,0,prime
+person:arshad khan,Arshad M. Khan,2,1,0,1,0,1,1,0,prime
+person:biyu ren,Biyu Ren,2,1,0,1,0,2,0,0,prime
+person:bowen dempsey,Bowen Dempsey,2,1,0,1,0,2,0,0,prime
+person:böttger|j,Joachim Böttger,2,1,0,1,0,2,0,0,prime
+person:c peddie,C. Peddie,2,1,0,1,0,1,1,0,prime
+person:chen chieh liao,Chen-Chieh Liao,2,1,0,1,0,2,0,0,prime
+person:christina arcy,Christina E. D’Arcy,2,1,0,1,0,1,1,0,prime
+person:christoph pokorny,Christoph Pokorny,2,1,0,1,0,2,0,0,prime
+person:danke zhang,Danke Zhang,2,1,0,1,0,1,1,0,prime
+person:dirk jan ardesch,Dirk Jan Ardesch,2,1,0,1,0,2,0,0,prime
+person:e rancz,E. Rancz,2,1,0,1,0,2,0,0,prime
+person:edanur sen,Edanur Sen,2,1,0,1,0,2,0,0,prime
+person:emily berghoff,Emily G. Berghoff,2,1,0,1,0,2,0,0,prime
+person:emmanouil karagiannis,Emmanouil D. Karagiannis,2,1,0,1,0,1,1,0,prime
+person:eric wanjau,Eric Wanjau,2,1,0,1,0,2,0,0,prime
+person:erik bloss,Erik B. Bloss,2,1,0,1,0,2,0,0,prime
+person:esther serrano saiz,Esther Serrano-Saiz,2,1,0,1,0,2,0,0,prime
+person:feng xiong,Feng Xiong,2,1,0,1,0,2,0,0,prime
+person:g johnson,G. Johnson,2,1,0,1,0,2,0,0,prime
+person:h ko,H. Ko,2,1,0,1,0,2,0,0,prime
+person:houri hintiryan,Houri Hintiryan,2,1,0,2,0,2,0,0,prime
+person:i hunter,I. Hunter,2,1,0,1,0,2,0,0,prime
+person:j rilling,J. Rilling,2,1,0,1,0,2,0,0,prime
+person:jacobs|r,R. Jacobs,2,1,0,1,0,2,0,0,prime
+person:jaewon chung,Jaewon Chung,2,1,0,1,0,2,0,0,prime
+person:james carson,James P. Carson,2,1,0,1,0,0,2,0,prime
+person:james manton,James D. Manton,2,1,0,1,0,1,1,0,prime
+person:jianren song,Jianren Song,2,1,0,1,0,1,1,0,prime
+person:jingbin yuan,Jingbin Yuan,2,1,0,1,0,1,1,0,prime
+person:johan winnubst,Johan Winnubst,2,1,0,1,0,2,0,0,prime
+person:k shen,K. Shen,2,1,0,1,0,2,0,0,prime
+person:luciano dyballa,Luciano Dyballa,2,1,0,1,0,2,0,0,prime
+person:m abdellah,M. Abdellah,2,1,0,1,0,2,0,0,prime
+person:m hodge,M. Hodge,2,1,0,1,0,0,2,0,prime
+person:m lenz,M. Lenz,2,1,0,1,0,1,1,0,prime
+person:m rubinov,M. Rubinov,2,1,0,1,0,2,0,0,prime
+person:macy garrood,Macy Garrood,2,1,0,1,0,2,0,0,prime
+person:matthieu chourrout,Matthieu Chourrout,2,1,0,1,0,2,0,0,prime
+person:max nolte,Max Nolte,2,1,0,1,0,2,0,0,prime
+person:michael kunst,Michael Kunst,2,1,0,1,0,2,0,0,prime
+person:miguel wimbish,Miguel E. Wimbish,2,1,0,1,0,0,2,0,prime
+person:nimish kumar,Nimish Kumar,2,1,0,1,0,2,0,0,prime
+person:o kobler,O. Kobler,2,1,0,1,0,1,1,0,prime
+person:osung kwon,Osung Kwon,2,1,0,1,0,1,1,0,prime
+person:p majka,P. Majka,2,1,0,1,0,1,1,0,prime
+person:qian quan sun,Qian-Quan Sun,2,1,0,1,0,2,0,0,prime
+person:r ypma,R. Ypma,2,1,0,1,0,2,0,0,prime
+person:robert carrillo,Robert A. Carrillo,2,1,0,1,0,2,0,0,prime
+person:robert court,Robert Court,2,1,0,1,0,0,2,0,prime
+person:ronald xie,Ronald Xie,2,1,0,1,0,1,1,0,prime
+person:ruiyu li,Ruiyu Li,2,1,0,1,0,2,0,0,prime
+person:runkai zhao,Runkai Zhao,2,1,0,1,0,2,0,0,prime
+person:s galindo,S. Galindo,2,1,0,1,0,1,1,0,prime
+person:s lariviere,S. Larivière,2,1,0,1,0,1,1,0,prime
+person:shouqiang cheng,Shouqiang Cheng,2,1,0,1,0,1,1,0,prime
+person:t shin,T. Shin,2,1,0,1,0,1,1,0,prime
+person:v thiyagarajan,V. Thiyagarajan,2,1,0,1,0,0,2,0,prime
+person:xiaochong fan,Xiaochong Fan,2,1,0,1,0,1,1,0,prime
+person:yichun shuai,Yichun Shuai,2,1,0,1,0,2,0,0,prime
+person:yuqing yan,Yuqing Yan,2,1,0,1,0,0,2,0,prime
+person:a fitzmaurice,A. Fitzmaurice,2,0,0,2,2,0,0,2,prime
+person:benjamin field,Benjamin Field,2,0,0,2,2,0,0,2,prime
+person:christopher baker,Christopher A. Baker,2,0,0,2,2,0,0,2,prime
+person:christopher sigmund,Christopher Sigmund,2,0,0,2,2,0,0,2,prime
+person:evelina sjostedt,Evelina Sjostedt,2,0,0,2,2,0,0,2,prime
+person:greg hood,Greg Hood,2,0,0,2,2,0,0,2,prime
+person:j lau,J. Lau,2,0,0,2,2,0,0,2,prime
+person:j thomson,J. Thomson,2,0,0,2,2,0,0,2,prime
+person:krzysztof kruk,Krzysztof Kruk,2,0,0,2,2,0,0,2,prime
+person:lucas encarnacion rivera,Lucas Encarnacion-Rivera,2,0,0,2,2,0,0,2,prime
+person:luke bailey,Luke Bailey,2,0,0,2,2,0,0,2,prime
+person:r morey,R. Morey,2,0,0,2,2,0,0,2,prime
+person:rohin kar,Rohin Kar,2,0,0,2,2,0,0,2,prime
+person:a chisholm,A. Chisholm,2,0,0,2,2,0,0,1,prime
+person:adam bleckert,Adam A. Bleckert,2,0,0,2,2,0,0,1,prime
+person:annika bast,Annika Bast,2,0,0,2,2,0,0,1,prime
+person:bryon eubanks,Bryon Eubanks,2,0,0,2,2,0,0,1,prime
+person:burak gur,Burak Gür,2,0,0,2,2,0,0,1,prime
+person:cailey bromer,Cailey Bromer,2,0,0,2,2,0,0,1,prime
+person:chan hyuk kang,Chan Hyuk Kang,2,0,0,2,2,0,0,1,prime
+person:chandan singh,Chandan Singh,2,0,0,2,2,0,0,1,prime
+person:chelsea alvarado,Chelsea X. Alvarado,2,0,0,2,2,0,0,1,prime
+person:christopher patrick,Christopher Patrick,2,0,0,2,2,0,0,1,prime
+person:connor laughland,Connor W. Laughland,2,0,0,2,2,0,0,1,prime
+person:corey fisher,Corey B. Fisher,2,0,0,2,2,0,0,1,prime
+person:d holmyard,D. Holmyard,2,0,0,2,2,0,0,1,prime
+person:daniel choe,Daniel T. Choe,2,0,0,2,2,0,0,1,prime
+person:daniel han,Daniel S Han,2,0,0,2,2,0,0,1,prime
+person:devon jones,Devon Jones,2,0,0,2,2,0,0,1,prime
+person:dorota tarnogorska,Dorota Tarnogorska,2,0,0,2,2,0,0,1,prime
+person:emily joyce,Emily M Joyce,2,0,0,2,2,0,0,1,prime
+person:emmanouil froudakis,Emmanouil Froudakis,2,0,0,2,2,0,0,1,prime
+person:guangwei si,Guangwei Si,2,0,0,2,2,0,0,1,prime
+person:h haberkern,H. Haberkern,2,0,0,2,2,0,0,1,prime
+person:heiko wissler,Heiko Wissler,2,0,0,2,2,0,0,1,prime
+person:ildiko stark,Ildiko Stark,2,0,0,2,2,0,0,1,prime
+person:iqbal ali,Iqbal J. Ali,2,0,0,2,2,0,0,1,prime
+person:irene salgarella,Irene Salgarella,2,0,0,2,2,0,0,1,prime
+person:istvan taisz,István Taisz,2,0,0,2,2,0,0,1,prime
+person:j borycz,J. Borycz,2,0,0,2,2,0,0,1,prime
+person:jack lindsey,Jack W Lindsey,2,0,0,2,2,0,0,1,prime
+person:jackie swift,Jackie Swift,2,0,0,2,2,0,0,1,prime
+person:james mitchell,James K. Mitchell,2,0,0,2,2,0,0,1,prime
+person:jonas chojetzki,Jonas Chojetzki,2,0,0,2,2,0,0,1,prime
+person:kelsey smith,Kelsey Smith,2,0,0,2,2,0,0,1,prime
+person:ladann kiassat,Ladann Kiassat,2,0,0,2,2,0,0,1,prime
+person:lena lorsch,Lena Lörsch,2,0,0,2,2,0,0,1,prime
+person:logan thomas,Logan A. Thomas,2,0,0,2,2,0,0,1,prime
+person:m saunders,M. Saunders,2,0,0,2,2,0,0,1,prime
+person:madelaine robertson,Madelaine K Robertson,2,0,0,2,2,0,0,1,prime
+person:margaret sobeski,Margaret A. Sobeski,2,0,0,2,2,0,0,1,prime
+person:maria ioannidou,Maria Ioannidou,2,0,0,2,2,0,0,1,prime
+person:mark larson,Mark Larson,2,0,0,2,2,0,0,1,prime
+person:meike sievers,Meike Sievers,2,0,0,2,2,0,0,1,prime
+person:mert erginkaya,Mert Erginkaya,2,0,0,2,2,0,0,1,prime
+person:miatta ndama,Miatta Ndama,2,0,0,2,2,0,0,1,prime
+person:michael lin,Michael Lin,2,0,0,2,2,0,0,1,prime
+person:n forknall,N. Forknall,2,0,0,2,2,0,0,1,prime
+person:nadiya sharifi,Nadiya Sharifi,2,0,0,2,2,0,0,1,prime
+person:natalie heike,Natalie Heike,2,0,0,2,2,0,0,1,prime
+person:neha rampally,Neha Rampally,2,0,0,2,2,0,0,1,prime
+person:nicholas padilla,Nicholas Padilla,2,0,0,2,2,0,0,1,prime
+person:nicole kirk,Nicole A Kirk,2,0,0,2,2,0,0,1,prime
+person:nikitas serafetinidis,Nikitas Serafetinidis,2,0,0,2,2,0,0,1,prime
+person:roxanne aniceto,Roxanne Aniceto,2,0,0,2,2,0,0,1,prime
+person:samantha ballinger,Samantha Ballinger,2,0,0,2,2,0,0,1,prime
+person:samantha finley,Samantha Finley,2,0,0,2,2,0,0,1,prime
+person:sanna koskela,Sanna Koskela,2,0,0,2,2,0,0,1,prime
+person:sebastian molina obando,Sebastian Molina-Obando,2,0,0,2,2,0,0,1,prime
+person:su ji cho,Su-Ji Cho,2,0,0,2,2,0,0,1,prime
+person:temour tokhi,Temour Tokhi,2,0,0,2,2,0,0,1,prime
+person:tim fliss,Tim Fliss,2,0,0,2,2,0,0,1,prime
+person:travis jarrell,Travis A. Jarrell,2,0,0,2,2,0,0,1,prime
+person:varun sane,Varun A. Sane,2,0,0,3,2,0,0,1,prime
+person:william grisaitis,William Grisaitis,2,0,0,2,2,0,0,1,prime
+person:zixiao tan,Zixiao Tan,2,0,0,2,2,0,0,1,prime
+person:a bharioke,A. Bharioke,2,0,0,2,1,1,0,1,prime
+person:a diez,Á. S. Díez,2,0,0,2,1,1,0,1,prime
+person:a wetzel,A. Wetzel,2,0,0,2,1,0,1,1,prime
+person:angela wong,Angela Wong,2,0,0,2,1,1,0,1,prime
+person:atsuko adachi,Atsuko Adachi,2,0,0,2,1,1,0,1,prime
+person:e myers,E. Myers,2,0,0,2,1,1,0,1,prime
+person:gerald rubin,Gerald M. Rubin,2,0,0,2,1,1,0,1,prime
+person:glenn turner,Glenn C. Turner,2,0,0,2,1,1,0,1,prime
+person:j kinney,J. Kinney,2,0,0,2,1,0,1,1,prime
+person:j price,J. Price,2,0,0,2,1,1,0,1,prime
+person:julie simpson,Julie H. Simpson,2,0,0,2,1,0,1,1,prime
+person:lei guo,Lei Guo,2,0,0,2,1,1,0,1,prime
+person:luis hernandez nunez,Luis Hernandez-Nunez,2,0,0,2,1,1,0,1,prime
+person:m kazhdan,M. Kazhdan,2,0,0,2,1,0,1,1,prime
+person:matthieu louis,Matthieu Louis,2,0,0,2,1,0,1,1,prime
+person:monika patel,Monika Patel,2,0,0,2,1,0,1,1,prime
+person:t saumweber,T. Saumweber,2,0,0,2,1,0,1,1,prime
+person:tuyen pham,Tuyen Pham,2,0,0,2,1,1,0,1,prime
+person:xiaobo zhou,Xiaobo Zhou,2,0,0,2,1,1,0,1,prime
+person:a mukora,A. Mukora,2,0,0,2,2,0,0,0,prime
+person:adam gohain,Adam Gohain,2,0,0,2,2,0,0,0,prime
+person:alina hebling,Alina Hebling,2,0,0,2,2,0,0,0,prime
+person:andrew miller hansen,Andrew J. Miller-Hansen,2,0,0,2,2,0,0,0,prime
+person:anirban chakraborty,Anirban Chakraborty,2,0,0,2,2,0,0,0,prime
+person:b grimm,B. Grimm,2,0,0,2,2,0,0,0,prime
+person:b nigro,B. Nigro,2,0,0,2,2,0,0,0,prime
+person:benjamin cocanougher,Benjamin T. Cocanougher,2,0,0,2,2,0,0,0,prime
+person:brian hu,Brian Hu,2,0,0,2,2,0,0,0,prime
+person:c becker,C. Becker,2,0,0,2,2,0,0,0,prime
+person:c puller,C. Puller,2,0,0,2,2,0,0,0,prime
+person:christine curcio,Christine A. Curcio,2,0,0,2,2,0,0,0,prime
+person:christopher rapp,Christopher N. Rapp,2,0,0,2,2,0,0,0,prime
+person:clay reid,Clay Reid,2,0,0,2,2,0,0,0,prime
+person:corban rivera,Corban Rivera,2,0,0,2,2,0,0,0,prime
+person:d krzeminski,D. Krzemiński,2,0,0,2,2,0,0,0,prime
+person:d shepherd,D. Shepherd,2,0,0,2,2,0,0,0,prime
+person:dana hockling,Dana Hockling,2,0,0,2,2,0,0,0,prime
+person:david berson,David Berson,2,0,0,2,2,0,0,0,prime
+person:e miller,E. Miller,2,0,0,2,2,0,0,0,prime
+person:eric hammerschmith,Eric W. Hammerschmith,2,0,0,2,2,0,0,0,prime
+person:eric wang,Eric Y. Wang,2,0,0,2,2,0,0,0,prime
+person:federica parlapiano,Federica Parlapiano,2,0,0,2,2,0,0,0,prime
+person:florian kampf,Florian Kämpf,2,0,0,2,2,0,0,0,prime
+person:frank loesche,Frank Loesche,2,0,0,2,2,0,0,0,prime
+person:giorgio terracina,Giorgio Terracina,2,0,0,2,2,0,0,0,prime
+person:giulia manoli,Giulia Manoli,2,0,0,2,2,0,0,0,prime
+person:h huo,H. Huo,2,0,0,2,2,0,0,0,prime
+person:h ploegh,H. Ploegh,2,0,0,2,2,0,0,0,prime
+person:hannah cowley,Hannah P. Cowley,2,0,0,2,2,0,0,0,prime
+person:hongtao su,Hongtao Su,2,0,0,2,2,0,0,0,prime
+person:i de haan vicente,I. de Haan Vicente,2,0,0,2,2,0,0,0,prime
+person:i hameed,I. Hameed,2,0,0,2,2,0,0,0,prime
+person:i zinke,I. Zinke,2,0,0,2,2,0,0,0,prime
+person:j ogilvie,J. Ogilvie,2,0,0,2,2,0,0,0,prime
+person:jacob ralston,Jacob D. Ralston,2,0,0,2,2,0,0,0,prime
+person:james tompkin,James Tompkin,2,0,0,2,2,0,0,0,prime
+person:jeffery kinnison,Jeffery Kinnison,2,0,0,2,2,0,0,0,prime
+person:jiang ning zhou,Jiang-Ning Zhou,2,0,0,2,2,0,0,0,prime
+person:joe strout,Joe Strout,2,0,0,2,2,0,0,0,prime
+person:jorge ruiz,Jorge Ruiz,2,0,0,2,2,0,0,0,prime
+person:k herrera,K. Herrera,2,0,0,2,2,0,0,0,prime
+person:k skutt kakaria,K. Skutt-Kakaria,2,0,0,2,2,0,0,0,prime
+person:kai kang,Kai Kang,2,0,0,2,2,0,0,0,prime
+person:laura burnett,Laura E Burnett,2,0,0,2,2,0,0,0,prime
+person:lauren zhang,Lauren L. Zhang,2,0,0,2,2,0,0,0,prime
+person:laurence lindsey,Laurence Lindsey,2,0,0,2,2,0,0,0,prime
+person:lee,Lee,2,0,0,2,2,0,0,0,prime
+person:lingsheng kong,Lingsheng Kong,2,0,0,2,2,0,0,0,prime
+person:louis scuderi,Louis A Scuderi,2,0,0,2,2,0,0,0,prime
+person:luis rodriguez,Luis M. Rodriguez,2,0,0,2,2,0,0,0,prime
+person:m cantoni,M. Cantoni,2,0,0,2,2,0,0,0,prime
+person:m meyer,M. Meyer,2,0,0,2,2,0,0,0,prime
+person:m montero crespo,M. Montero-Crespo,2,0,0,3,2,0,0,0,prime
+person:m shaw,M. V. Shaw,2,0,0,2,2,0,0,0,prime
+person:m tammam,M. Tammam,2,0,0,2,2,0,0,0,prime
+person:m wawrzyniak,M. Wawrzyniak,2,0,0,2,2,0,0,0,prime
+person:marisa hughes,Marisa J. Hughes,2,0,0,2,2,0,0,0,prime
+person:mark goldman,Mark S. Goldman,2,0,0,2,2,0,0,0,prime
+person:ming du,Ming Du,2,0,0,2,2,0,0,0,prime
+person:moritz stingl,Moritz Stingl,2,0,0,2,2,0,0,0,prime
+person:mukesh bangalore renuka,Mukesh Bangalore Renuka,2,0,0,2,2,0,0,0,prime
+person:myung kyu choi,Myung-Kyu Choi,2,0,0,2,2,0,0,0,prime
+person:n spiller,N. Spiller,2,0,0,2,2,0,0,0,prime
+person:nao rho,Nao Rho,2,0,0,2,2,0,0,0,prime
+person:neha simha,Neha Simha,2,0,0,2,2,0,0,0,prime
+person:nicolo ceffa,Nicolò Ceffa,2,0,0,2,2,0,0,0,prime
+person:nishika gupta,Nishika Gupta,2,0,0,2,2,0,0,0,prime
+person:noah nelson,Noah T. Nelson,2,0,0,2,2,0,0,0,prime
+person:p augusto,P. Augusto,2,0,0,2,2,0,0,0,prime
+person:patrick breads,Patrick Breads,2,0,0,2,2,0,0,0,prime
+person:patrick parker,Patrick H. Parker,2,0,0,2,2,0,0,0,prime
+person:pavithraa seenivasan,Pavithraa Seenivasan,2,0,0,2,2,0,0,0,prime
+person:rebecca arruda,Rebecca Arruda,2,0,0,2,2,0,0,0,prime
+person:rebecca girresch,Rebecca J Girresch,2,0,0,2,2,0,0,0,prime
+person:robert tiller,Robert Tiller,2,0,0,2,2,0,0,0,prime
+person:ruohong wang,Ruohong C. Wang,2,0,0,2,2,0,0,0,prime
+person:sebastian hueckesfeld,Sebastian Hueckesfeld,2,0,0,2,2,0,0,0,prime
+person:shoeb mohammed,Shoeb Mohammed,2,0,0,2,2,0,0,0,prime
+person:sumiya kuroda,Sumiya Kuroda,2,0,0,2,2,0,0,0,prime
+person:t oram,T. Oram,2,0,0,2,2,0,0,0,prime
+person:t pietzsch,T. Pietzsch,2,0,0,2,2,0,0,0,prime
+person:t tuan,T. Tuan,2,0,0,2,2,0,0,0,prime
+person:theodore lagrow,Theodore J. LaGrow,2,0,0,2,2,0,0,0,prime
+person:thomas euler,Thomas Euler,2,0,0,2,2,0,0,0,prime
+person:tomoko ohyama,Tomoko Ohyama,2,0,0,2,2,0,0,0,prime
+person:u kothe,U. Köthe,2,0,0,2,2,0,0,0,prime
+person:wei qiu,Wei Qiu,2,0,0,2,2,0,0,0,prime
+person:yingying tang,Yingying Tang,2,0,0,2,2,0,0,0,prime
+person:youngjo song,Youngjo Song,2,0,0,2,2,0,0,0,prime
+person:zhengyun zhou,Zhengyun Zhou,2,0,0,2,2,0,0,0,prime
+person:zsolt vassy,Zsolt Vassy,2,0,0,2,2,0,0,0,prime
+person:a ijspeert,A. Ijspeert,2,0,0,2,1,1,0,0,prime
+person:a ramirez,A. Ramírez,2,0,0,2,1,1,0,0,prime
+person:a robie,A. Robie,2,0,0,2,1,0,1,0,prime
+person:a strange,A. Strange,2,0,0,2,1,0,1,0,prime
+person:aikta sharma,Aikta Sharma,2,0,0,2,1,1,0,0,prime
+person:akinao nose,Akinao Nose,2,0,0,2,1,1,0,0,prime
+person:akira mamiya,Akira Mamiya,2,0,0,2,1,1,0,0,prime
+person:alex baden,Alex Baden,2,0,0,2,1,0,1,0,prime
+person:alexander kunin,Alexander B. Kunin,2,0,0,2,1,0,1,0,prime
+person:atsushi yoshida,Atsushi Yoshida,2,0,0,2,1,1,0,0,prime
+person:aya takenaka,Aya Takenaka,2,0,0,2,1,1,0,0,prime
+person:brian lee,Brian R. Lee,2,0,0,2,1,1,0,0,prime
+person:bw brunton,BW Brunton,2,0,0,2,1,1,0,0,prime
+person:chao tsung yang,chao-tsung Yang,2,0,0,2,1,1,0,0,prime
+person:clara scherrer,Clara Scherrer,2,0,0,2,1,1,0,0,prime
+person:daichi yamada,Daichi Yamada,2,0,0,2,1,1,0,0,prime
+person:daniel bushey,Daniel Bushey,2,0,0,2,1,1,0,0,prime
+person:david phillips,David Phillips,2,0,0,2,1,1,0,0,prime
+person:elif sevde meral,Elif Sevde Meral,2,0,0,2,1,1,0,0,prime
+person:finja klemm,Finja Klemm,2,0,0,2,1,1,0,0,prime
+person:fred rieke,Fred Rieke,2,0,0,2,1,1,0,0,prime
+person:fumi kubo,Fumi Kubo,2,0,0,2,1,1,0,0,prime
+person:g barnea,G. Barnea,2,0,0,2,1,1,0,0,prime
+person:g fabig,G. Fabig,2,0,0,2,1,1,0,0,prime
+person:h kohsaka,H. Kohsaka,2,0,0,2,1,1,0,0,prime
+person:h le,H. Le,2,0,0,2,1,0,1,0,prime
+person:hannah joo,Hannah R. Joo,2,0,0,2,1,0,1,0,prime
+person:hyun seung mun,Hyun-Seung Mun,2,0,0,2,1,1,0,0,prime
+person:isaac western,Isaac Western,2,0,0,2,1,0,1,0,prime
+person:istv an papp,Istv'an Papp,2,0,0,2,1,1,0,0,prime
+person:j macke,J. Macke,2,0,0,2,1,1,0,0,prime
+person:j trimmer,J. Trimmer,2,0,0,2,1,0,1,0,prime
+person:jean livet,Jean Livet,2,0,0,2,1,1,0,0,prime
+person:jean marie bouteiller,Jean-Marie C. Bouteiller,2,0,0,2,1,1,0,0,prime
+person:jonathan arreguit,Jonathan Arreguit,2,0,0,2,1,1,0,0,prime
+person:kaoru isa,Kaoru Isa,2,0,0,2,1,1,0,0,prime
+person:kazumi ohta,Kazumi Ohta,2,0,0,2,1,0,1,0,prime
+person:kenta yamauchi,Kenta Yamauchi,2,0,0,2,1,1,0,0,prime
+person:kristin tessmar raible,Kristin Tessmar‐Raible,2,0,0,2,1,1,0,0,prime
+person:kuankuan xin,Kuankuan Xin,2,0,0,2,1,1,0,0,prime
+person:leonie kugel,Leonie Kugel,2,0,0,2,1,1,0,0,prime
+person:m bruchez,M. Bruchez,2,0,0,2,1,0,1,0,prime
+person:m mazri,M. F. Mazri,2,0,0,2,1,1,0,0,prime
+person:m salzmann,M. Salzmann,2,0,0,2,1,0,1,0,prime
+person:m turkcan,M. Turkcan,2,0,0,2,1,0,1,0,prime
+person:mason mcgill,Mason McGill,2,0,0,2,1,1,0,0,prime
+person:megumu takahashi,Megumu Takahashi,2,0,0,2,1,1,0,0,prime
+person:metta riebesell,Metta Riebesell,2,0,0,2,1,1,0,0,prime
+person:michael john dolan,Michael-John Dolan,2,0,0,2,1,1,0,0,prime
+person:muye zhu,Muye Zhu,2,0,0,3,1,1,0,0,prime
+person:n kouvaris,N. Kouvaris,2,0,0,2,1,1,0,0,prime
+person:nenggan zheng,Nenggan Zheng,2,0,0,2,1,1,0,0,prime
+person:norman rzepka,Norman Rzepka,2,0,0,2,1,0,1,0,prime
+person:p cloetens,P. Cloetens,2,0,0,2,1,1,0,0,prime
+person:parmis mirshahidi,Parmis S. Mirshahidi,2,0,0,3,1,1,0,0,prime
+person:pedro machado,Pedro Machado,2,0,0,2,1,0,1,0,prime
+person:priya manavalan,Priya Manavalan,2,0,0,2,1,0,1,0,prime
+person:qiuying zhao,Qiuying Zhao,2,0,0,2,1,1,0,0,prime
+person:r goldin,R. Goldin,2,0,0,2,1,1,0,0,prime
+person:ruixue qin,Ruixue Qin,2,0,0,2,1,1,0,0,prime
+person:s frechter,S. Frechter,2,0,0,2,1,1,0,0,prime
+person:s kakuta,S. Kakuta,2,0,0,2,1,1,0,0,prime
+person:s schreiber,S. Schreiber,2,0,0,2,1,1,0,0,prime
+person:s sherman,S. Sherman,2,0,0,2,1,1,0,0,prime
+person:samuel lang,Samuel Lang,2,0,0,2,1,1,0,0,prime
+person:selimzhan chalyshkan,Selimzhan Chalyshkan,2,0,0,2,1,1,0,0,prime
+person:shadnan asraf,Shadnan Asraf,2,0,0,2,1,1,0,0,prime
+person:shinichiro okamoto,Shinichiro Okamoto,2,0,0,2,1,1,0,0,prime
+person:sridhama prakhya,Sridhama Prakhya,2,0,0,2,1,1,0,0,prime
+person:tadashi isa,Tadashi Isa,2,0,0,2,1,1,0,0,prime
+person:todd huffman,Todd Huffman,2,0,0,2,1,1,0,0,prime
+person:u alon,U. Alon,2,0,0,2,1,1,0,0,prime
+person:u sumbul,U. Sümbül,2,0,0,2,1,1,0,0,prime
+person:wan qing yu,Wan-Qing Yu,2,0,0,2,1,0,1,0,prime
+person:x zhuang,X. Zhuang,2,0,0,2,1,1,0,0,prime
+person:xianghui xiao,Xianghui Xiao,2,0,0,2,1,1,0,0,prime
+person:xiaojuan qi,Xiaojuan Qi,2,0,0,2,1,1,0,0,prime
+person:xiaoming yang,Xiaoming Yang,2,0,0,2,1,1,0,0,prime
+person:y uchiyama,Y. Uchiyama,2,0,0,2,1,1,0,0,prime
+person:yazan billeh,Yazan N. Billeh,2,0,0,2,1,1,0,0,prime
+person:yichen qin,Yichen Qin,2,0,0,2,1,0,1,0,prime
+person:yoko ishida,Yoko Ishida,2,0,0,2,1,1,0,0,prime
+person:yuen ngan fan,Yuen Ngan Fan,2,0,0,2,1,1,0,0,prime
+person:yunlong shen,Yunlong Shen,2,0,0,2,1,1,0,0,prime
+person:yutian fan,Yutian Fan,2,0,0,2,1,0,1,0,prime
+person:zengru di,Zengru Di,2,0,0,2,1,1,0,0,prime
+person:zhen qiu,Zhen Qiu,2,0,0,2,1,1,0,0,prime
+person:zhuangzhuang zhao,Zhuangzhuang Zhao,2,0,0,2,1,0,1,0,prime
+person:a antonietti,A. Antonietti,2,0,0,2,0,1,1,0,prime
+person:a bernasconi,A. Bernasconi,2,0,0,2,0,1,1,0,prime
+person:a goodchild,A. Goodchild,2,0,0,2,0,2,0,0,prime
+person:a irvine,A. Irvine,2,0,0,2,0,2,0,0,prime
+person:a keenlyside,A. Keenlyside,2,0,0,2,0,2,0,0,prime
+person:a lex,A. Lex,2,0,0,2,0,1,1,0,prime
+person:a marblestone,A. Marblestone,2,0,0,2,0,1,1,0,prime
+person:a maule,A. Maule,2,0,0,2,0,2,0,0,prime
+person:a petruncio,A. Petruncio,2,0,0,2,0,2,0,0,prime
+person:a toga,A. Toga,2,0,0,2,0,2,0,0,prime
+person:a yendiki,A. Yendiki,2,0,0,2,0,2,0,0,prime
+person:abigail poff,Abigail J. Poff,2,0,0,2,0,2,0,0,prime
+person:aditi chaubey,Aditi H. Chaubey,2,0,0,2,0,2,0,0,prime
+person:alec barrett,Alec Barrett,2,0,0,2,0,2,0,0,prime
+person:alessandro venturino,Alessandro Venturino,2,0,0,2,0,2,0,0,prime
+person:alexander abrams,Alexander Abrams,2,0,0,2,0,2,0,0,prime
+person:ali cetin,Ali H. Cetin,2,0,0,2,0,2,0,0,prime
+person:alice geminiani,Alice Geminiani,2,0,0,2,0,1,1,0,prime
+person:alice weiglein,Aliće Weiglein,2,0,0,2,0,1,1,0,prime
+person:allison sowa,Allison Sowa,2,0,0,2,0,2,0,0,prime
+person:amauche emenari,Amauche Emenari,2,0,0,2,0,1,1,0,prime
+person:amy bernard,Amy Bernard,2,0,0,2,0,2,0,0,prime
+person:b fischl,B. Fischl,2,0,0,2,0,2,0,0,prime
+person:b park,B. Park,2,0,0,2,0,2,0,0,prime
+person:b rosa,B. Rosa,2,0,0,2,0,2,0,0,prime
+person:ben sutton,Ben Sutton,2,0,0,2,0,2,0,0,prime
+person:berta vidal,Berta Vidal,2,0,0,2,0,2,0,0,prime
+person:bramwell coulson,Bramwell Coulson,2,0,0,2,0,2,0,0,prime
+person:bruno pichler,Bruno Pichler,2,0,0,2,0,2,0,0,prime
+person:bryan hooks,Bryan M. Hooks,2,0,0,2,0,2,0,0,prime
+person:c farrel,C. Farrel,2,0,0,2,0,2,0,0,prime
+person:c paquola,C. Paquola,2,0,0,2,0,1,1,0,prime
+person:carmen alonso martinez,Carmen Alonso-Martínez,2,0,0,2,0,2,0,0,prime
+person:charles viau,Charles Viau,2,0,0,2,0,2,0,0,prime
+person:chiara maffei,Chiara Maffei,2,0,0,2,0,2,0,0,prime
+person:chie satou,Chie Satou,2,0,0,2,0,2,0,0,prime
+person:chinh dang,Chinh Dang,2,0,0,2,0,2,0,0,prime
+person:christiaan de kock,Christiaan P. J. de Kock,2,0,0,2,0,2,0,0,prime
+person:christopher chute,Christopher Chute,2,0,0,2,0,2,0,0,prime
+person:christopher white,Christopher M. White,2,0,0,2,0,2,0,0,prime
+person:chuan shi,Chuan Shi,2,0,0,2,0,2,0,0,prime
+person:chun xiao huang,Chun-Xiao Huang,2,0,0,2,0,2,0,0,prime
+person:claire managan,Claire Managan,2,0,0,2,0,2,0,0,prime
+person:claudia de sanctis,Claudia De Sanctis,2,0,0,2,0,2,0,0,prime
+person:courtney lau,Courtney Lau,2,0,0,2,0,2,0,0,prime
+person:d barch,D. Barch,2,0,0,2,0,0,2,0,prime
+person:d parker,D. Parker,2,0,0,2,0,1,1,0,prime
+person:daniel bliss,Daniel P. Bliss,2,0,0,2,0,2,0,0,prime
+person:daoyang wang,Daoyang Wang,2,0,0,3,0,2,0,0,prime
+person:e earl,E. R. Earl,2,0,0,2,0,0,2,0,prime
+person:e thorn,E. Thorn,2,0,0,2,0,2,0,0,prime
+person:e varol,E. Varol,2,0,0,2,0,2,0,0,prime
+person:elke vandewyer,Elke Vandewyer,2,0,0,2,0,2,0,0,prime
+person:emma costa,Emma K. Costa,2,0,0,2,0,1,1,0,prime
+person:eric bridgeford,Eric W. Bridgeford,2,0,0,2,0,2,0,0,prime
+person:eric harley,Eric T. Harley,2,0,0,2,0,1,1,0,prime
+person:eyal ben david,Eyal Ben-David,2,0,0,2,0,2,0,0,prime
+person:f mckay,F. McKay,2,0,0,2,0,2,0,0,prime
+person:f yeh,F. Yeh,2,0,0,2,0,1,1,0,prime
+person:feng chen,Feng Chen,2,0,0,2,0,0,2,0,prime
+person:francesco sorrentino,Francesco Sorrentino,2,0,0,2,0,2,0,0,prime
+person:frauke ru,Frauke Ruß,2,0,0,2,0,1,1,0,prime
+person:g burgess,G. C. Burgess,2,0,0,2,0,0,2,0,prime
+person:g chindemi,G. Chindemi,2,0,0,2,0,2,0,0,prime
+person:g cofer,G. Cofer,2,0,0,2,0,2,0,0,prime
+person:g santpere,G. Santpere,2,0,0,2,0,2,0,0,prime
+person:gal goldman,Gal Goldman,2,0,0,2,0,2,0,0,prime
+person:giulia mizzon,Giulia Mizzon,2,0,0,2,0,1,1,0,prime
+person:gudrun ihrke,Gudrun Ihrke,2,0,0,2,0,2,0,0,prime
+person:h bellen,H. Bellen,2,0,0,2,0,2,0,0,prime
+person:h hege,H. Hege,2,0,0,2,0,2,0,0,prime
+person:h hotz,H. Hotz,2,0,0,2,0,2,0,0,prime
+person:han yang hu,Han-Yang Hu,2,0,0,2,0,2,0,0,prime
+person:hannah hochgerner,Hannah Hochgerner,2,0,0,2,0,2,0,0,prime
+person:hongtu ma,Hongtu Ma,2,0,0,2,0,1,1,0,prime
+person:ibnul rafi,Ibnul Rafi,2,0,0,2,0,2,0,0,prime
+person:j autio,J. Autio,2,0,0,2,0,2,0,0,prime
+person:j brunet,J. Brunet,2,0,0,2,0,2,0,0,prime
+person:j de folter,J. de Folter,2,0,0,2,0,0,2,0,prime
+person:j elam,J. S. Elam,2,0,0,2,0,0,2,0,prime
+person:j king,J. King,2,0,0,2,0,2,0,0,prime
+person:j lippincott schwartz,J. Lippincott-Schwartz,2,0,0,2,0,1,1,0,prime
+person:j seidlitz,J. Seidlitz,2,0,0,2,0,2,0,0,prime
+person:jacques stout,Jacques A Stout,2,0,0,2,0,0,2,0,prime
+person:jaison omoto,Jaison J. Omoto,2,0,0,2,0,2,0,0,prime
+person:james isbister,James B. Isbister,2,0,0,2,0,2,0,0,prime
+person:janek rieger,Janek Rieger,2,0,0,2,0,2,0,0,prime
+person:jeong seuk kang,Jeong Seuk Kang,2,0,0,2,0,1,1,0,prime
+person:jesus arroyo,Jesús Arroyo,2,0,0,2,0,2,0,0,prime
+person:jia qu,Jia Qu,2,0,0,2,0,2,0,0,prime
+person:jia wen huang,Jia-wen Huang,2,0,0,2,0,2,0,0,prime
+person:john conroy,John M. Conroy,2,0,0,2,0,1,1,0,prime
+person:john crary,John F. Crary,2,0,0,2,0,2,0,0,prime
+person:jonathon hoffman,Jonathon Hoffman,2,0,0,2,0,2,0,0,prime
+person:jorge jaramillo,Jorge Jaramillo,2,0,0,2,0,2,0,0,prime
+person:jorge rivera,Jorge L. Rivera,2,0,0,2,0,0,2,0,prime
+person:joshua agterberg,Joshua Agterberg,2,0,0,2,0,2,0,0,prime
+person:julia andrade,Julia Andrade,2,0,0,2,0,2,0,0,prime
+person:julia beier,Julia Beier,2,0,0,2,0,1,1,0,prime
+person:julian hennies,Julian Hennies,2,0,0,2,0,2,0,0,prime
+person:junjie jiang,Junjie Jiang,2,0,0,2,0,2,0,0,prime
+person:jurgen beck,Jürgen Beck,2,0,0,2,0,1,1,0,prime
+person:k archie,K. A. Archie,2,0,0,2,0,0,2,0,prime
+person:k hess,K. Hess,2,0,0,2,0,2,0,0,prime
+person:k roessler,K. Roessler,2,0,0,2,0,2,0,0,prime
+person:kanar kadir,Kanar Kadir,2,0,0,2,0,1,1,0,prime
+person:karan saini,Karan S. Saini,2,0,0,2,0,2,0,0,prime
+person:kelly jin,Kelly Jin,2,0,0,2,0,2,0,0,prime
+person:kuan lin feng,Kuan-Lin Feng,2,0,0,2,0,2,0,0,prime
+person:kurt farrell,Kurt Farrell,2,0,0,2,0,2,0,0,prime
+person:l barrett,L. F. Barrett,2,0,0,2,0,2,0,0,prime
+person:l podrazik,L. J. Podrazik,2,0,0,2,0,1,1,0,prime
+person:lauren kruse,Lauren Kruse,2,0,0,2,0,2,0,0,prime
+person:leanne lin,Leanne Lin,2,0,0,2,0,1,1,0,prime
+person:li deng,Li Deng,2,0,0,2,0,2,0,0,prime
+person:li jun chen,Li-jun Chen,2,0,0,2,0,2,0,0,prime
+person:li ye,Li Ye,2,0,0,2,0,1,1,0,prime
+person:lin gou,Lin Gou,2,0,0,3,0,2,0,0,prime
+person:liuqin qian,Liuqin Qian,2,0,0,2,0,2,0,0,prime
+person:li|n,Ningfei Li,2,0,0,2,0,0,2,0,prime
+person:logan walker,Logan A. Walker,2,0,0,2,0,1,1,0,prime
+person:luis garcia,Luis Garcia,2,0,0,3,0,2,0,0,prime
+person:luke esposito,Luke Esposito,2,0,0,2,0,2,0,0,prime
+person:luke geiger,Luke T. Geiger,2,0,0,2,0,2,0,0,prime
+person:luke nightingale,Luke Nightingale,2,0,0,2,0,0,2,0,prime
+person:m carandini,M. Carandini,2,0,0,2,0,2,0,0,prime
+person:m currie,M. Currie,2,0,0,2,0,2,0,0,prime
+person:m ercsey ravasz,M. Ercsey-Ravasz,2,0,0,2,0,2,0,0,prime
+person:m harms,M. P. Harms,2,0,0,2,0,0,2,0,prime
+person:m jenkinson,M. Jenkinson,2,0,0,2,0,0,2,0,prime
+person:m martone,M. Martone,2,0,0,2,0,1,1,0,prime
+person:m mitreva,M. Mitreva,2,0,0,2,0,2,0,0,prime
+person:m mortrud,M. Mortrud,2,0,0,2,0,2,0,0,prime
+person:m naeemi,M. Naeemi,2,0,0,2,0,2,0,0,prime
+person:m rosa,M. Rosa,2,0,0,2,0,2,0,0,prime
+person:m schleyer,M. Schleyer,2,0,0,2,0,1,1,0,prime
+person:m schwarz,M. Schwarz,2,0,0,2,0,1,1,0,prime
+person:manasa basavaraju,Manasa Basavaraju,2,0,0,2,0,2,0,0,prime
+person:maria garcia amado,María García-Amado,2,0,0,2,0,2,0,0,prime
+person:mario rubio teves,Mario Rubio-Teves,2,0,0,2,0,2,0,0,prime
+person:mark hinton,Mark A. Hinton,2,0,0,2,0,0,2,0,prime
+person:michael hileman,Michael Hileman,2,0,0,2,0,0,2,0,prime
+person:michael mckay,Michael McKay,2,0,0,2,0,0,2,0,prime
+person:ming chin wu,Ming-Chin Wu,2,0,0,2,0,1,1,0,prime
+person:mitsuhiko katoh,Mitsuhiko Katoh,2,0,0,2,0,2,0,0,prime
+person:molly reilly,Molly B. Reilly,2,0,0,2,0,2,0,0,prime
+person:monica song,Monica Y. Song,2,0,0,2,0,2,0,0,prime
+person:n bernasconi,N. Bernasconi,2,0,0,2,0,1,1,0,prime
+person:n jahanshad,N. Jahanshad,2,0,0,2,0,0,2,0,prime
+person:n marks,N. Marks,2,0,0,2,0,2,0,0,prime
+person:n sestan,N. Šestan,2,0,0,2,0,2,0,0,prime
+person:n skene,N. Skene,2,0,0,2,0,2,0,0,prime
+person:natalie chen,Natalie Chen,2,0,0,2,0,2,0,0,prime
+person:nicholas cain,Nicholas Cain,2,0,0,2,0,2,0,0,prime
+person:nicole stock,Nicole Stock,2,0,0,2,0,0,2,0,prime
+person:noah reger,Noah Reger,2,0,0,2,0,2,0,0,prime
+person:nouwar mokayes,Nouwar Mokayes,2,0,0,2,0,2,0,0,prime
+person:o robles,O. D. Robles,2,0,0,2,0,1,1,0,prime
+person:p sjostrom,P. J. Sjöström,2,0,0,2,0,2,0,0,prime
+person:pablo toharia,Pablo Toharia,2,0,0,2,0,1,1,0,prime
+person:paul tafforeau,Paul Tafforeau,2,0,0,2,0,2,0,0,prime
+person:pierre magistretti,Pierre J. Magistretti,2,0,0,2,0,1,1,0,prime
+person:r bola,R. A. Bola,2,0,0,2,0,2,0,0,prime
+person:r oostenveld,R. Oostenveld,2,0,0,2,0,0,2,0,prime
+person:r perin,R. Perin,2,0,0,2,0,2,0,0,prime
+person:r romero garcia,R. Romero‐Garcia,2,0,0,2,0,2,0,0,prime
+person:rebecca mcwhirter,Rebecca D. McWhirter,2,0,0,2,0,2,0,0,prime
+person:reinder vos de wael,Reinder Vos de Wael,2,0,0,2,0,1,1,0,prime
+person:renee miller,Renee M. Miller,2,0,0,2,0,2,0,0,prime
+person:richard axel,Richard Axel,2,0,0,3,0,2,0,0,prime
+person:rick herrick,Rick Herrick,2,0,0,2,0,0,2,0,prime
+person:ruiyu wang,Ruiyu Wang,2,0,0,2,0,2,0,0,prime
+person:ruth benavides piccione,Ruth Benavides-Piccione,2,0,0,2,0,2,0,0,prime
+person:s boorboor,S. Boorboor,2,0,0,2,0,1,1,0,prime
+person:s jamadar,S. Jamadar,2,0,0,2,0,2,0,0,prime
+person:s kratzer,S. Kratzer,2,0,0,2,0,1,1,0,prime
+person:s locascio,S. LoCascio,2,0,0,2,0,2,0,0,prime
+person:s siegert,S. Siegert,2,0,0,2,0,2,0,0,prime
+person:s sotiropoulos,S. Sotiropoulos,2,0,0,2,0,1,1,0,prime
+person:samantha bryce,Samantha Bryce,2,0,0,2,0,2,0,0,prime
+person:sandra curtiss,Sandra W. Curtiss,2,0,0,2,0,0,2,0,prime
+person:seita yamashita,Seita Yamashita,2,0,0,3,0,2,0,0,prime
+person:sheng le,Sheng Le,2,0,0,2,0,2,0,0,prime
+person:shoh asano,Shoh M. Asano,2,0,0,2,0,1,1,0,prime
+person:song lin ding,Song-Lin Ding,2,0,0,2,0,2,0,0,prime
+person:steffen schneider,Steffen Schneider,2,0,0,2,0,1,1,0,prime
+person:t coalson,T. Coalson,2,0,0,2,0,1,1,0,prime
+person:t czech,T. Czech,2,0,0,2,0,2,0,0,prime
+person:t karlsson,T. Karlsson,2,0,0,2,0,2,0,0,prime
+person:t rohlfing,T. Rohlfing,2,0,0,2,0,1,1,0,prime
+person:tiago ferreira,Tiago A. Ferreira,2,0,0,2,0,2,0,0,prime
+person:timothy brown,Timothy Brown,2,0,0,2,0,0,2,0,prime
+person:timothy olsen,Timothy R. Olsen,2,0,0,2,0,0,2,0,prime
+person:tobias potjans,Tobias C. Potjans,2,0,0,2,0,1,1,0,prime
+person:tongchao li,Tongchao Li,2,0,0,2,0,2,0,0,prime
+person:v calhoun,V. Calhoun,2,0,0,2,0,2,0,0,prime
+person:v lev ram,V. Lev-Ram,2,0,0,2,0,0,2,0,prime
+person:w philips,W. Philips,2,0,0,2,0,2,0,0,prime
+person:wayne wakeman,Wayne Wakeman,2,0,0,2,0,2,0,0,prime
+person:wen jie xu,Wen-Jie Xu,2,0,0,2,0,2,0,0,prime
+person:william horton,William Horton,2,0,0,2,0,0,2,0,prime
+person:william janssen,William Janssen,2,0,0,2,0,2,0,0,prime
+person:xiaoxue shi,Xiaoxue Shi,2,0,0,2,0,2,0,0,prime
+person:xiu dan zheng,Xiu-Dan Zheng,2,0,0,2,0,1,1,0,prime
+person:xueyan jia,Xueyan Jia,2,0,0,2,0,2,0,0,prime
+person:y saitoh,Y. Saitoh,2,0,0,2,0,2,0,0,prime
+person:yael balbastre,Yaël Balbastre,2,0,0,2,0,2,0,0,prime
+person:yehuda salzberg,Yehuda Salzberg,2,0,0,2,0,2,0,0,prime
+person:yong wei zhong,Yong-Wei Zhong,2,0,0,2,0,1,1,0,prime
+person:yuji komaki,Yuji Komaki,2,0,0,2,0,1,1,0,prime
+person:zhao feng,Zhao Feng,2,0,0,2,0,2,0,0,prime
+person:zhenqing chen,Zhenqing Chen,2,0,0,2,0,2,0,0,prime
+person:zhi feng yu,Zhi-Feng Yu,2,0,0,2,0,2,0,0,prime
+person:j wegiel,J. Wegiel,1,1,1,0,0,1,0,0,prime
+person:e jokitalo,E. Jokitalo,1,0,1,0,1,0,0,1,prime
+person:horstmann|h,H. Horstmann,1,0,1,0,1,0,0,1,prime
+person:r douglas,R. Douglas,1,0,1,0,1,0,0,1,prime
+person:a goltsev,A. Goltsev,1,0,1,0,1,0,0,0,prime
+person:a gordus,A. Gordus,1,0,1,0,1,0,0,0,prime
+person:a hudspeth,A. Hudspeth,1,0,1,0,1,0,0,0,prime
+person:a sanzeni,A. Sanzeni,1,0,1,0,1,0,0,0,prime
+person:a yuille,A. Yuille,1,0,1,0,1,0,0,0,prime
+person:anita devineni,Anita V. Devineni,1,0,1,0,1,0,0,0,prime
+person:ann hermundstad,Ann M. Hermundstad,1,0,1,0,1,0,0,0,prime
+person:anton maximov,Anton Maximov,1,0,1,0,1,0,0,0,prime
+person:b kasthuri,B. Kasthuri,1,0,1,0,1,0,0,0,prime
+person:b manjunath,B. Manjunath,1,0,1,0,1,0,0,0,prime
+person:b scott,B. Scott,1,0,1,0,1,0,0,0,prime
+person:bingni brunton,Bingni W. Brunton,1,0,1,0,1,0,0,0,prime
+person:c alonso,C. Alonso,1,0,1,0,1,0,0,0,prime
+person:c forest,C. Forest,1,0,1,0,1,0,0,0,prime
+person:changsong zhou,Changsong Zhou,1,0,1,0,1,0,0,0,prime
+person:chiara zurzolo,Chiara Zurzolo,1,0,1,0,1,0,0,0,prime
+person:christian vestergaard,Christian L. Vestergaard,1,0,1,0,1,0,0,0,prime
+person:d anastassiou,D. Anastassiou,1,0,1,0,1,0,0,0,prime
+person:d galas,D. Galas,1,0,1,0,1,0,0,0,prime
+person:d wagenaar,D. Wagenaar,1,0,1,0,1,0,0,0,prime
+person:dario izzo,Dario Izzo,1,0,1,0,1,0,0,0,prime
+person:e anton,E. S. Anton,1,0,1,0,1,0,0,0,prime
+person:e ruppin,E. Ruppin,1,0,1,0,1,0,0,0,prime
+person:ellie heckscher,Ellie S. Heckscher,1,0,1,0,1,0,0,0,prime
+person:f komaki,F. Komaki,1,0,1,0,1,0,0,0,prime
+person:franklin kenter,Franklin Kenter,1,0,1,0,1,0,0,0,prime
+person:guozhang chen,Guozhang Chen,1,0,1,0,1,0,0,0,prime
+person:iibdgc consortium,Iibdgc Consortium,1,0,1,0,1,0,0,0,prime
+person:istv an kov acs,Istv'an A. Kov'acs,1,0,1,0,1,0,0,0,prime
+person:j dowling,J. Dowling,1,0,1,0,1,0,0,0,prime
+person:j kutz,J. Kutz,1,0,1,0,1,0,0,0,prime
+person:james jeanne,James M. Jeanne,1,0,1,0,1,0,0,0,prime
+person:jason cong,Jason Cong,1,0,1,0,1,0,0,0,prime
+person:jennifer hasler,Jennifer O. Hasler,1,0,1,0,1,0,0,0,prime
+person:jessica ausborn,Jessica Ausborn,1,0,1,0,1,0,0,0,prime
+person:johann bollmann,Johann H Bollmann,1,0,1,0,1,0,0,0,prime
+person:johann danzl,Johann G. Danzl,1,0,1,0,1,0,0,0,prime
+person:jonathan krebs,Jonathan Krebs,1,0,1,0,1,0,0,0,prime
+person:jurgen rybak,Jürgen Rybak,1,0,1,0,1,0,0,0,prime
+person:k arikawa,K. Arikawa,1,0,1,0,1,0,0,0,prime
+person:k josic,K. Josić,1,0,1,0,1,0,0,0,prime
+person:k miller,K. Miller,1,0,1,0,1,0,0,0,prime
+person:k stratford,K. Stratford,1,0,1,0,1,0,0,0,prime
+person:karolina korvasova,Karolína Korvasová,1,0,1,0,1,0,0,0,prime
+person:l alonso nanclares,L. Alonso-Nanclares,1,0,1,1,1,0,0,0,prime
+person:l brattain,L. Brattain,1,0,1,0,1,0,0,0,prime
+person:lai sang young,Lai-Sang Young,1,0,1,0,1,0,0,0,prime
+person:lichtman jeff,Lichtman Jeff,1,0,1,0,1,0,0,0,prime
+person:m babadi,M. Babadi,1,0,1,0,1,0,0,0,prime
+person:m dundar,M. M. Dundar,1,0,1,0,1,0,0,0,prime
+person:m gordon,M. D. Gordon,1,0,1,0,1,0,0,0,prime
+person:m hausser,M. Häusser,1,0,1,0,1,0,0,0,prime
+person:m long,M. A. Long,1,0,1,0,1,0,0,0,prime
+person:mauricio barahona,Mauricio Barahona,1,0,1,0,1,0,0,0,prime
+person:nathan schroeder,Nathan E. Schroeder,1,0,1,0,1,0,0,0,prime
+person:nima dehghani,Nima Dehghani,1,0,1,0,1,0,0,0,prime
+person:pan gao,Pan Gao,1,0,1,0,1,0,0,0,prime
+person:paul graham,Paul Graham,1,0,1,0,1,0,0,0,prime
+person:r melzer,R. Melzer,1,0,1,0,1,0,0,0,prime
+person:r pena,R. Pena,1,0,1,0,1,0,0,0,prime
+person:r sahasrabuddhe,R. Sahasrabuddhe,1,0,1,0,1,0,0,0,prime
+person:ruben armananzas,Rubén Armañanzas,1,0,1,0,1,0,0,0,prime
+person:s sprecher,S. Sprecher,1,0,1,0,1,0,0,0,prime
+person:siddharth panwar,Siddharth Panwar,1,0,1,0,1,0,0,0,prime
+person:srijita sarkar,Srijita Sarkar,1,0,1,0,1,0,0,0,prime
+person:steven flavell,Steven W. Flavell,1,0,1,0,1,0,0,0,prime
+person:sun|p,Pei Sun,1,0,1,0,1,0,0,0,prime
+person:t mcginnity,T. McGinnity,1,0,1,1,1,0,0,0,prime
+person:t tsuji,T. Tsuji,1,0,1,0,1,0,0,0,prime
+person:takashi kohno,Takashi Kohno,1,0,1,0,1,0,0,0,prime
+person:thomas serre,Thomas Serre,1,0,1,0,1,0,0,0,prime
+person:tim dahmen,Tim Dahmen,1,0,1,0,1,0,0,0,prime
+person:v folli,V. Folli,1,0,1,0,1,0,0,0,prime
+person:vikas bhandawat,Vikas Bhandawat,1,0,1,0,1,0,0,0,prime
+person:w debello,W. DeBello,1,0,1,0,1,0,0,0,prime
+person:xintian hu,Xintian Hu,1,0,1,0,1,0,0,0,prime
+person:yanan sui,Yanan Sui,1,0,1,0,1,0,0,0,prime
+person:yoonsuck choe,Yoonsuck Choe,1,0,1,0,1,0,0,0,prime
+person:35131 padova,35131 Padova,1,0,1,0,0,1,0,0,prime
+person:a ahluwalia,A. Ahluwalia,1,0,1,0,0,1,0,0,prime
+person:a arenas,A. Arenas,1,0,1,0,0,0,1,0,prime
+person:a burkhalter,A. Burkhalter,1,0,1,0,0,1,0,0,prime
+person:a destexhe,A. Destexhe,1,0,1,0,0,1,0,0,prime
+person:a forbes,A. Forbes,1,0,1,0,0,0,1,0,prime
+person:a gorsky,A. Gorsky,1,0,1,0,0,1,0,0,prime
+person:a gozzi,A. Gozzi,1,0,1,0,0,1,0,0,prime
+person:a lomi,A. Lomi,1,0,1,0,0,0,1,0,prime
+person:a mcintosh,A. Mcintosh,1,0,1,0,0,1,0,0,prime
+person:a patwardhan,A. Patwardhan,1,0,1,0,0,0,1,0,prime
+person:a pedrocchi,A. Pedrocchi,1,0,1,0,0,0,1,0,prime
+person:a reyes,A. Reyes,1,0,1,0,0,1,0,0,prime
+person:a sanz,A. Sanz,1,0,1,0,0,1,0,0,prime
+person:a vercelli,A. Vercelli,1,0,1,0,0,0,1,0,prime
+person:a wree,A. Wree,1,0,1,0,0,1,0,0,prime
+person:alberto stolfi,Alberto Stolfi,1,0,1,0,0,1,0,0,prime
+person:alexei verkhatsky,Alexei Verkhatsky,1,0,1,0,0,1,0,0,prime
+person:amy arnsten,Amy F. T. Arnsten,1,0,1,0,0,1,0,0,prime
+person:ana zdravkovic,Ana Zdravković,1,0,1,0,0,0,1,0,prime
+person:arber|s,S. Arber,1,0,1,0,0,1,0,0,prime
+person:ashish raj,Ashish Raj,1,0,1,0,0,1,0,0,prime
+person:astle|d,D. Astle,1,0,1,0,0,0,1,0,prime
+person:aubrey weigel,Aubrey V. Weigel,1,0,1,0,0,1,0,0,prime
+person:b di benedetto,B. Di Benedetto,1,0,1,0,0,1,0,0,prime
+person:b honig,B. Honig,1,0,1,0,0,1,0,0,prime
+person:b mathur,B. Mathur,1,0,1,0,0,1,0,0,prime
+person:b medhi,B. Medhi,1,0,1,0,0,0,1,0,prime
+person:b webb,B. Webb,1,0,1,0,0,1,0,0,prime
+person:b weyers,B. Weyers,1,0,1,0,0,0,1,0,prime
+person:b white,B. White,1,0,1,0,0,1,0,0,prime
+person:bd fulcher,BD Fulcher,1,0,1,0,0,0,1,0,prime
+person:blackmore|mg,Murray G. Blackmore,1,0,1,0,0,1,0,0,prime
+person:borys wrobel,Borys Wróbel,1,0,1,0,0,1,0,0,prime
+person:brasselet|r,R. Brasselet,1,0,1,0,0,1,0,0,prime
+person:butz-ostendorf|m,Markus Butz-Ostendorf,1,0,1,0,0,1,0,0,prime
+person:byunghyuk kim,Byunghyuk Kim,1,0,1,0,0,1,0,0,prime
+person:c bajaj,C. Bajaj,1,0,1,0,0,0,1,0,prime
+person:c cepko,C. Cepko,1,0,1,0,0,1,0,0,prime
+person:c duch,C. Duch,1,0,1,0,0,1,0,0,prime
+person:c francks,C. Francks,1,0,1,0,0,0,1,0,prime
+person:c goetz,C. Goetz,1,0,1,0,0,0,1,0,prime
+person:c hilgetag,C. Hilgetag,1,0,1,0,0,1,0,0,prime
+person:c leibold,C. Leibold,1,0,1,0,0,1,0,0,prime
+person:c mcintyre,C. McIntyre,1,0,1,0,0,1,0,0,prime
+person:c petersen,C. Petersen,1,0,1,0,0,1,0,0,prime
+person:chaim gilon,Chaim Gilon,1,0,1,0,0,1,0,0,prime
+person:christian hansel,Christian Hansel,1,0,1,0,0,1,0,0,prime
+person:chuan fang,Chuan Fang,1,0,1,0,0,0,1,0,prime
+person:d bergles,D. Bergles,1,0,1,0,0,0,1,0,prime
+person:d feldmeyer,D. Feldmeyer,1,0,1,0,0,1,0,0,prime
+person:d ginty,D. Ginty,1,0,1,0,0,1,0,0,prime
+person:d holschneider,D. Holschneider,1,0,1,0,0,1,0,0,prime
+person:d kelleher,D. Kelleher,1,0,1,0,0,1,0,0,prime
+person:d marcus,D. Marcus,1,0,1,0,0,0,1,0,prime
+person:d romanova,D. Y. Romanova,1,0,1,0,0,1,0,0,prime
+person:d weller,D. Weller,1,0,1,0,0,0,1,0,prime
+person:d wojcik,D. Wójcik,1,0,1,0,0,0,1,0,prime
+person:d zeidler,D. Zeidler,1,0,1,0,0,1,0,0,prime
+person:dagmar kainmuller,Dagmar Kainmüller,1,0,1,0,0,1,0,0,prime
+person:daisuke shimaoka,Daisuke Shimaoka,1,0,1,0,0,1,0,0,prime
+person:daniel graham,Daniel J. Graham,1,0,1,0,0,1,0,0,prime
+person:david amaral1,David G Amaral1,1,0,1,0,0,1,0,0,prime
+person:david hunt,David L. Hunt,1,0,1,0,0,1,0,0,prime
+person:david osumi sutherland,David Osumi-Sutherland,1,0,1,0,0,0,1,0,prime
+person:dimitra kotouza,Dimitra Kotouza,1,0,1,0,0,0,1,0,prime
+person:douglas smith,Douglas H. Smith,1,0,1,0,0,1,0,0,prime
+person:e angelo,E. D’Angelo,1,0,1,0,0,1,0,0,prime
+person:e gahtan,E. Gahtan,1,0,1,0,0,1,0,0,prime
+person:e garyfallidis,E. Garyfallidis,1,0,1,0,0,0,1,0,prime
+person:e segal,E. Segal,1,0,1,0,0,1,0,0,prime
+person:estuardo robles,Estuardo Robles,1,0,1,0,0,1,0,0,prime
+person:eugene myers,Eugene W. Myers,1,0,1,0,0,0,1,0,prime
+person:eva naumann,Eva A. Naumann,1,0,1,0,0,1,0,0,prime
+person:f benuzzi,F. Benuzzi,1,0,1,0,0,0,1,0,prime
+person:f dell acqua,F. Dell’Acqua,1,0,1,0,0,1,0,0,prime
+person:f fischmeister,F. Fischmeister,1,0,1,0,0,1,0,0,prime
+person:f lesage,F. Lesage,1,0,1,0,0,0,1,0,prime
+person:f leslie,F. M. Leslie,1,0,1,0,0,1,0,0,prime
+person:f pavone,F. Pavone,1,0,1,0,0,1,0,0,prime
+person:f schurmann,F. Schürmann,1,0,1,0,0,1,0,0,prime
+person:f sommer,F. Sommer,1,0,1,0,0,1,0,0,prime
+person:florian rasche,Florian Rasche,1,0,1,0,0,0,1,0,prime
+person:fumino fujiyama,Fumino Fujiyama,1,0,1,0,0,1,0,0,prime
+person:fumitaka osakada,Fumitaka Osakada,1,0,1,0,0,1,0,0,prime
+person:g allan johnson,G. Allan Johnson,1,0,1,0,0,1,0,0,prime
+person:g buzsaki,G. Buzsáki,1,0,1,0,0,1,0,0,prime
+person:g danuser,G. Danuser,1,0,1,0,0,0,1,0,prime
+person:g di sante,G. Di Sante,1,0,1,0,0,0,1,0,prime
+person:g fahy,G. Fahy,1,0,1,0,0,1,0,0,prime
+person:g finnerty,G. Finnerty,1,0,1,0,0,1,0,0,prime
+person:g hamarneh,G. Hamarneh,1,0,1,0,0,0,1,0,prime
+person:g kidd,G. Kidd,1,0,1,0,0,1,0,0,prime
+person:g mongillo,G. Mongillo,1,0,1,0,0,1,0,0,prime
+person:g sapiro,G. Sapiro,1,0,1,0,0,1,0,0,prime
+person:g silva,G. Silva,1,0,1,0,0,1,0,0,prime
+person:g westmeyer,G. Westmeyer,1,0,1,0,0,0,1,0,prime
+person:gabrielle gutierrez,Gabrielle J. Gutierrez,1,0,1,0,0,0,1,0,prime
+person:gerado moreno,Gerado Moreno,1,0,1,0,0,0,1,0,prime
+person:gunnar poplawski,Gunnar H. D. Poplawski,1,0,1,0,0,1,0,0,prime
+person:h corporaal,H. Corporaal,1,0,1,0,0,1,0,0,prime
+person:h namazi,H. Namazi,1,0,1,0,0,1,0,0,prime
+person:h noori,H. Noori,1,0,1,0,0,1,0,0,prime
+person:hagmann|p,P. Hagmann,1,0,1,0,0,0,1,0,prime
+person:helen yang,Helen H. Yang,1,0,1,0,0,0,1,0,prime
+person:hiromu tanimoto,Hiromu Tanimoto,1,0,1,0,0,1,0,0,prime
+person:hric|d,Darko Hric,1,0,1,0,0,0,1,0,prime
+person:i mody,I. Módy,1,0,1,0,0,0,1,0,prime
+person:i tendolkar,I. Tendolkar,1,0,1,0,0,0,1,0,prime
+person:igor yakushev,Igor Yakushev,1,0,1,0,0,1,0,0,prime
+person:ilona grunwald kadow,Ilona C. Grunwald Kadow,1,0,1,0,0,1,0,0,prime
+person:j amigo,J. Amigó,1,0,1,0,0,1,0,0,prime
+person:j benda,J. Benda,1,0,1,0,0,0,1,0,prime
+person:j bonkowsky,J. Bonkowsky,1,0,1,0,0,1,0,0,prime
+person:j escudero,J. Escudero,1,0,1,0,0,0,1,0,prime
+person:j flint,J. Flint,1,0,1,0,0,0,1,0,prime
+person:j hajnal,J. Hajnal,1,0,1,0,0,0,1,0,prime
+person:j hoffmann,J. Hoffmann,1,0,1,0,0,0,1,0,prime
+person:j hoogenboom,J. Hoogenboom,1,0,1,0,0,0,1,0,prime
+person:j kittler,J. Kittler,1,0,1,0,0,1,0,0,prime
+person:j mcintosh,J. Mcintosh,1,0,1,0,0,1,0,0,prime
+person:j morales,J. A. Morales,1,0,1,0,0,1,0,0,prime
+person:j roerdink,J. Roerdink,1,0,1,0,0,1,0,0,prime
+person:j schneider,J. Schneider,1,0,1,0,0,1,0,0,prime
+person:j suckling,J. Suckling,1,0,1,0,0,1,0,0,prime
+person:jack glaser,Jack R. Glaser,1,0,1,0,0,1,0,0,prime
+person:jan clemens,Jan Clemens,1,0,1,0,0,0,1,0,prime
+person:jan pielage,Jan Pielage,1,0,1,0,0,1,0,0,prime
+person:jarecki|j,J. Jarecki,1,0,1,0,0,1,0,0,prime
+person:jeffrey kelling,Jeffrey Kelling,1,0,1,0,0,1,0,0,prime
+person:jeffrey smith,Jeffrey C. Smith,1,0,1,0,0,1,0,0,prime
+person:jerry chen,Jerry L. Chen,1,0,1,0,0,1,0,0,prime
+person:jorg jenssen,Jörg Jenssen,1,0,1,0,0,1,0,0,prime
+person:joris de wit,Joris de Wit,1,0,1,0,0,1,0,0,prime
+person:joseph ledoux,Joseph E LeDoux,1,0,1,0,0,1,0,0,prime
+person:justin blau,Justin Blau,1,0,1,0,0,1,0,0,prime
+person:justus kebschull,Justus M. Kebschull,1,0,1,0,0,1,0,0,prime
+person:k becker,K. Becker,1,0,1,0,0,0,1,0,prime
+person:k branson,K. Branson,1,0,1,0,0,0,1,0,prime
+person:k zinn,K. Zinn,1,0,1,0,0,1,0,0,prime
+person:karen menuz,Karen Menuz,1,0,1,0,0,1,0,0,prime
+person:karthikeyan ravi,Karthikeyan Ravi,1,0,1,0,0,1,0,0,prime
+person:kaubrys|g,G. Kaubrys,1,0,1,0,0,0,1,0,prime
+person:kavita babu,Kavita Babu,1,0,1,0,0,1,0,0,prime
+person:kenji tanaka,Kenji F. Tanaka,1,0,1,0,0,0,1,0,prime
+person:kentaro noma,Kentaro Noma,1,0,1,0,0,0,1,0,prime
+person:kiryl piatkevich,Kiryl D Piatkevich,1,0,1,0,0,1,0,0,prime
+person:kristen carlson,Kristen W. Carlson,1,0,1,0,0,1,0,0,prime
+person:kühn|a,A. Kühn,1,0,1,0,0,0,1,0,prime
+person:l agnati,L. Agnati,1,0,1,0,0,1,0,0,prime
+person:l groschner,L. Groschner,1,0,1,0,0,1,0,0,prime
+person:l looger,L. Looger,1,0,1,0,0,1,0,0,prime
+person:l mariniello,L. Mariniello,1,0,1,0,0,1,0,0,prime
+person:l petit,L. Petit,1,0,1,0,0,1,0,0,prime
+person:l tian,L. Tian,1,0,1,0,0,1,0,0,prime
+person:l ward,L. M. Ward,1,0,1,0,0,1,0,0,prime
+person:larry zipursky,Larry Zipursky,1,0,1,0,0,1,0,0,prime
+person:leonardo gollo,Leonardo L. Gollo,1,0,1,0,0,1,0,0,prime
+person:lina ni,Lina Ni,1,0,1,0,0,0,1,0,prime
+person:long cai,Long Cai,1,0,1,0,0,1,0,0,prime
+person:luke hammond,Luke A. Hammond,1,0,1,0,0,1,0,0,prime
+person:m chakravarty,M. Chakravarty,1,0,1,0,0,1,0,0,prime
+person:m esposito,M. D’Esposito,1,0,1,0,0,1,0,0,prime
+person:m goldman,M. Goldman,1,0,1,0,0,1,0,0,prime
+person:m heisenberg,M. Heisenberg,1,0,1,0,0,1,0,0,prime
+person:m karsy,M. Karsy,1,0,1,0,0,0,1,0,prime
+person:m modat,M. Modat,1,0,1,0,0,0,1,0,prime
+person:m munoz,M. A. Muñoz,1,0,1,0,0,1,0,0,prime
+person:m suga,M. Suga,1,0,1,0,0,0,1,0,prime
+person:m terasaki,M. Terasaki,1,0,1,0,0,1,0,0,prime
+person:m vetterli,M. Vetterli,1,0,1,0,0,1,0,0,prime
+person:marc timme,Marc Timme,1,0,1,0,0,1,0,0,prime
+person:mark hallett,Mark Hallett,1,0,1,0,0,1,0,0,prime
+person:marras|c,C. Marras,1,0,1,0,0,1,0,0,prime
+person:matthew lease,Matthew Lease,1,0,1,0,0,0,1,0,prime
+person:matthew pecot,Matthew Y. Pecot,1,0,1,0,0,1,0,0,prime
+person:matthew tivnan,Matthew Tivnan,1,0,1,0,0,1,0,0,prime
+person:mayberg|h,H. Mayberg,1,0,1,0,0,0,1,0,prime
+person:minmin luo,Minmin Luo,1,0,1,0,0,1,0,0,prime
+person:miriah meyer,Miriah D. Meyer,1,0,1,0,0,1,0,0,prime
+person:mowafa househ,Mowafa J Househ,1,0,1,0,0,1,0,0,prime
+person:n toschi,N. Toschi,1,0,1,0,0,1,0,0,prime
+person:n wenderoth,N. Wenderoth,1,0,1,0,0,0,1,0,prime
+person:nan ji,Nan Ji,1,0,1,0,0,1,0,0,prime
+person:natalie cappaert,Natalie L. M. Cappaert,1,0,1,0,0,1,0,0,prime
+person:nils gehlenborg,Nils Gehlenborg,1,0,1,0,0,0,1,0,prime
+person:o marre,O. Marre,1,0,1,0,0,1,0,0,prime
+person:o ronneberger,O. Ronneberger,1,0,1,0,0,0,1,0,prime
+person:o schnell,O. Schnell,1,0,1,0,0,1,0,0,prime
+person:omidvarnia|ah,Amir H. Omidvarnia,1,0,1,0,0,0,1,0,prime
+person:on behalf of the minc faculty,on behalf of the Minc faculty,1,0,1,0,0,0,1,0,prime
+person:p chadderton,P. Chadderton,1,0,1,0,0,1,0,0,prime
+person:p grant,P. Grant,1,0,1,0,0,1,0,0,prime
+person:p hiesinger,P. Hiesinger,1,0,1,0,0,1,0,0,prime
+person:p mitra,P. Mitra,1,0,1,0,0,1,0,0,prime
+person:p riviere,P. L. Rivière,1,0,1,0,0,1,0,0,prime
+person:paul thompson,Paul M. Thompson,1,0,1,0,0,1,0,0,prime
+person:peter koo,Peter K. Koo,1,0,1,0,0,1,0,0,prime
+person:peter latham,Peter E. Latham,1,0,1,0,0,1,0,0,prime
+person:r portugues,R. Portugues,1,0,1,0,0,0,1,0,prime
+person:r rosenbaum,R. Rosenbaum,1,0,1,0,0,1,0,0,prime
+person:r sepulchre,R. Sepulchre,1,0,1,0,0,1,0,0,prime
+person:r sommer,R. Sommer,1,0,1,0,0,1,0,0,prime
+person:r stowers,R. Stowers,1,0,1,0,0,1,0,0,prime
+person:r tagliaferri,R. Tagliaferri,1,0,1,0,0,1,0,0,prime
+person:r tsien,R. Tsien,1,0,1,0,0,0,1,0,prime
+person:rachel arey,Rachel N. Arey,1,0,1,0,0,0,1,0,prime
+person:randal koene,Randal A. Koene,1,0,1,0,0,1,0,0,prime
+person:raoul martin memmesheimer,Raoul-Martin Memmesheimer,1,0,1,0,0,1,0,0,prime
+person:rapaka|d,Deepthi Rapaka,1,0,1,0,0,1,0,0,prime
+person:richard hans robert hahnloser,Richard Hans Robert Hahnloser,1,0,1,0,0,0,1,0,prime
+person:robert williams,Robert W. Williams,1,0,1,0,0,1,0,0,prime
+person:roberto santana,Roberto Santana,1,0,1,0,0,1,0,0,prime
+person:roland pusch,Roland Pusch,1,0,1,0,0,1,0,0,prime
+person:s aerts,S. Aerts,1,0,1,0,0,1,0,0,prime
+person:s akbarian,S. Akbarian,1,0,1,0,0,1,0,0,prime
+person:s bornholdt,S. Bornholdt,1,0,1,0,0,0,1,0,prime
+person:s carmichael,S. Carmichael,1,0,1,0,0,0,1,0,prime
+person:s dursun,S. Dursun,1,0,1,0,0,0,1,0,prime
+person:s frey,S. Frey,1,0,1,0,0,0,1,0,prime
+person:s goodwin,S. Goodwin,1,0,1,0,0,1,0,0,prime
+person:s keller,S. Keller,1,0,1,0,0,0,1,0,prime
+person:s linnarsson,S. Linnarsson,1,0,1,0,0,1,0,0,prime
+person:s ohno,S. Ohno,1,0,1,0,0,1,0,0,prime
+person:s palmer,S. Palmer,1,0,1,0,0,1,0,0,prime
+person:s siegelbaum,S. Siegelbaum,1,0,1,0,0,1,0,0,prime
+person:s sinha,S. Sinha,1,0,1,0,0,1,0,0,prime
+person:s soffe,S. Soffe,1,0,1,0,0,1,0,0,prime
+person:sadra sadeh,Sadra Sadeh,1,0,1,0,0,1,0,0,prime
+person:satoshi kurihara,Satoshi Kurihara,1,0,1,0,0,0,1,0,prime
+person:saurabh gandhi,Saurabh R. Gandhi,1,0,1,0,0,1,0,0,prime
+person:sayan nandi,Sayan Nandi,1,0,1,0,0,1,0,0,prime
+person:schilling|k,Kurt Schilling,1,0,1,0,0,1,0,0,prime
+person:selimi|f,F. Selimi,1,0,1,0,0,1,0,0,prime
+person:sepulcre|j,Jorge Sepulcre,1,0,1,0,0,1,0,0,prime
+person:seth tomchik,Seth M. Tomchik,1,0,1,0,0,1,0,0,prime
+person:shikui tu,Shikui Tu,1,0,1,0,0,0,1,0,prime
+person:songting li,Songting Li,1,0,1,0,0,0,1,0,prime
+person:stephen rao,Stephen M. Rao,1,0,1,0,0,1,0,0,prime
+person:stephen williams,Stephen R. Williams,1,0,1,0,0,1,0,0,prime
+person:sunil manjila,Sunil Manjila,1,0,1,0,0,0,1,0,prime
+person:t behrens,T. Behrens,1,0,1,0,0,1,0,0,prime
+person:t lippert,T. Lippert,1,0,1,0,0,1,0,0,prime
+person:t murphy,T. Murphy,1,0,1,0,0,0,1,0,prime
+person:t starborg,T. Starborg,1,0,1,0,0,1,0,0,prime
+person:t tchumatchenko,T. Tchumatchenko,1,0,1,0,0,1,0,0,prime
+person:t yoshimatsu,T. Yoshimatsu,1,0,1,0,0,1,0,0,prime
+person:tetsuo yamamori,Tetsuo Yamamori,1,0,1,0,0,1,0,0,prime
+person:timothy wagner,Timothy Wagner,1,0,1,0,0,1,0,0,prime
+person:tonghui xu,Tonghui Xu,1,0,1,0,0,0,1,0,prime
+person:toshihisa takagi,Toshihisa Takagi,1,0,1,0,0,1,0,0,prime
+person:u bhalla,U. Bhalla,1,0,1,0,0,1,0,0,prime
+person:u kubitscheck,U. Kubitscheck,1,0,1,0,0,0,1,0,prime
+person:u manor,U. Manor,1,0,1,0,0,0,1,0,prime
+person:ulrich thomas,Ulrich Thomas,1,0,1,0,0,0,1,0,prime
+person:v grolmusz,V. Grolmusz,1,0,1,0,0,0,1,0,prime
+person:v rajagopal,V. Rajagopal,1,0,1,0,0,1,0,0,prime
+person:vinay uday prabhu,Vinay Uday Prabhu,1,0,1,0,0,1,0,0,prime
+person:vincent thibeault,Vincent Thibeault,1,0,1,0,0,1,0,0,prime
+person:w koroshetz,W. Koroshetz,1,0,1,0,0,0,1,0,prime
+person:weidong tom cai,Weidong (Tom) Cai,1,0,1,0,0,1,0,0,prime
+person:weiskopf|n,N. Weiskopf,1,0,1,0,0,1,0,0,prime
+person:wesley grueber,Wesley B. Grueber,1,0,1,0,0,1,0,0,prime
+person:wiebke mobius,Wiebke Möbius,1,0,1,0,0,1,0,0,prime
+person:william severa,William M. Severa,1,0,1,0,0,0,1,0,prime
+person:woong sun,Woong Sun,1,0,1,0,0,1,0,0,prime
+person:xiaochen tang,Xiaochen Tang,1,0,1,0,0,1,0,0,prime
+person:xinghuo yu,Xinghuo Yu,1,0,1,0,0,0,1,0,prime
+person:y schwab,Y. Schwab,1,0,1,0,0,0,1,0,prime
+person:f davis,F. Davis,1,1,0,0,1,0,0,1,prime
+person:g shepherd,G. Shepherd,1,1,0,0,1,0,0,1,prime
+person:huayu ding,Huayu Ding,1,1,0,0,1,0,0,1,prime
+person:i belevich,I. Belevich,1,1,0,0,1,0,0,1,prime
+person:j alexander bae,J. Alexander Bae,1,1,0,0,1,0,0,1,prime
+person:jasper maniates selvin,Jasper T. Maniates-Selvin,1,1,0,0,1,0,0,1,prime
+person:m chalfie,M. Chalfie,1,1,0,0,1,0,0,1,prime
+person:matthew berck,Matthew E. Berck,1,1,0,0,1,0,0,1,prime
+person:ranga srinivasan,Ranga Srinivasan,1,1,0,0,1,0,0,1,prime
+person:a bhattacharjee,A. Bhattacharjee,1,1,0,0,1,0,0,0,prime
+person:a gross,A. Gross,1,1,0,0,1,0,0,0,prime
+person:a matsushita,A. Matsushita,1,1,0,0,1,0,0,0,prime
+person:a morales gregorio,A. Morales-Gregorio,1,1,0,0,1,0,0,0,prime
+person:a pournaki,A. Pournaki,1,1,0,0,1,0,0,0,prime
+person:a salova,A. Salova,1,1,0,0,1,0,0,0,prime
+person:abhimanyu talwar,Abhimanyu Talwar,1,1,0,0,1,0,0,0,prime
+person:alberto bailoni,Alberto Bailoni,1,1,0,0,1,0,0,0,prime
+person:alec xu,Alec Xu,1,1,0,0,1,0,0,0,prime
+person:alexander helm,Alexander Helm,1,1,0,0,1,0,0,0,prime
+person:alexis enichou,Alexis B'enichou,1,1,0,0,1,0,0,0,prime
+person:alfred laugros,Alfred Laugros,1,1,0,0,1,0,0,0,prime
+person:alicia costalago meruelo,Alicia Costalago-Meruelo,1,1,0,0,1,0,0,0,prime
+person:arthur wetzel,Arthur W. Wetzel,1,1,0,0,1,0,0,0,prime
+person:bella brezovec,Bella E. Brezovec,1,1,0,0,1,0,0,0,prime
+person:benjamin li,Benjamin Li,1,1,0,0,1,0,0,0,prime
+person:c fieseler,C. Fieseler,1,1,0,0,1,0,0,0,prime
+person:c graydon,C. Graydon,1,1,0,0,1,0,0,0,prime
+person:c jones,C. Jones,1,1,0,0,1,0,0,0,prime
+person:c zucker,C. Zucker,1,1,0,0,1,0,0,0,prime
+person:cesar ceballos,Cesar Ceballos,1,1,0,0,1,0,0,0,prime
+person:citation hayworth,Citation Hayworth,1,1,0,0,1,0,0,0,prime
+person:d atasoy,D. Atasoy,1,1,0,0,1,0,0,0,prime
+person:d sharma,D. Sharma,1,1,0,0,1,0,0,0,prime
+person:daniel sanculi,Daniel Sanculi,1,1,0,0,1,0,0,0,prime
+person:david minnen,David C. Minnen,1,1,0,0,1,0,0,0,prime
+person:davit buniatyan,Davit Buniatyan,1,1,0,0,1,0,0,0,prime
+person:diego cordero cervantes,Diégo Cordero Cervantes,1,1,0,0,1,0,0,0,prime
+person:dika kuljis,Dika A. Kuljis,1,1,0,0,1,0,0,0,prime
+person:dimitrios giakoumas,Dimitrios S. Giakoumas,1,1,0,0,1,0,0,0,prime
+person:drew linsley,Drew Linsley,1,1,0,0,1,0,0,0,prime
+person:e dow,E. Dow,1,1,0,1,1,0,0,0,prime
+person:e wright,E. A. P. Wright,1,1,0,0,1,0,0,0,prime
+person:eleonora grasso,Eleonora Grasso,1,1,0,0,1,0,0,0,prime
+person:emanuele plebani,Emanuele Plebani,1,1,0,0,1,0,0,0,prime
+person:enrico lanza,Enrico Lanza,1,1,0,0,1,0,0,0,prime
+person:eric jonas,Eric Jonas,1,1,0,0,1,0,0,0,prime
+person:f rakowski,F. Rakowski,1,1,0,0,1,0,0,0,prime
+person:f randi,F. Randi,1,1,0,0,1,0,0,0,prime
+person:florian unger,Florian Unger,1,1,0,0,1,0,0,0,prime
+person:g spirou,G. Spirou,1,1,0,0,1,0,0,0,prime
+person:g sunil,G. Sunil,1,1,0,0,1,0,0,0,prime
+person:garrett sager,Garrett Sager,1,1,0,0,1,0,0,0,prime
+person:georg ammer,Georg Ammer,1,1,0,0,1,0,0,0,prime
+person:gregory schwartzman,Gregory Schwartzman,1,1,0,0,1,0,0,0,prime
+person:gyu hyun kim,Gyu Hyun Kim,1,1,0,0,1,0,0,0,prime
+person:h shan,H. Shan,1,1,0,0,1,0,0,0,prime
+person:h urakubo,H. Urakubo,1,1,0,0,1,0,0,0,prime
+person:hugo calligaro,Hugo Calligaro,1,1,0,0,1,0,0,0,prime
+person:ishaan batta,Ishaan Batta,1,1,0,0,1,0,0,0,prime
+person:ivan larderet,Ivan Larderet,1,1,0,0,1,0,0,0,prime
+person:j ng,J. Ng,1,1,0,0,1,0,0,0,prime
+person:j picao osorio,J. Picao-Osorio,1,1,0,0,1,0,0,0,prime
+person:jacqueline cornean,Jacqueline Cornean,1,1,0,0,1,0,0,0,prime
+person:james kunert graf,James M. Kunert-Graf,1,1,0,0,1,0,0,0,prime
+person:jayadratha gayen,Jayadratha Gayen,1,1,0,0,1,0,0,0,prime
+person:jessica jones,Jessica M Jones,1,1,0,0,1,0,0,0,prime
+person:ji ryang chung,Ji Ryang Chung,1,1,0,0,1,0,0,0,prime
+person:jules berman,Jules Berman,1,1,0,0,1,0,0,0,prime
+person:junchao qiu,Junchao Qiu,1,1,0,0,1,0,0,0,prime
+person:k bacik,K. Bacik,1,1,0,0,1,0,0,0,prime
+person:k seymour,K. Seymour,1,1,0,0,1,0,0,0,prime
+person:kai yang,Kai Yang,1,1,0,0,1,0,0,0,prime
+person:kara fulton,Kara A. Fulton,1,1,0,0,1,0,0,0,prime
+person:karl friedrichsen,Karl Friedrichsen,1,1,0,0,1,0,0,0,prime
+person:karl marrett,Karl Marrett,1,1,0,0,1,0,0,0,prime
+person:kavin nunez,Kavin M. Nuñez,1,1,0,0,1,0,0,0,prime
+person:kazuma sakamoto,Kazuma Sakamoto,1,1,0,0,1,0,0,0,prime
+person:kei jokura,Kei Jokura,1,1,0,0,1,0,0,0,prime
+person:kerem uzel,Kerem Uzel,1,1,0,0,1,0,0,0,prime
+person:l rogerson,L. Rogerson,1,1,0,0,1,0,0,0,prime
+person:laura lungu,Laura Lungu,1,1,0,0,1,0,0,0,prime
+person:lauren wool,Lauren E. Wool,1,1,0,0,1,0,0,0,prime
+person:leandro gonzalez montesino,Leandro González-Montesino,1,1,0,0,1,0,0,0,prime
+person:leone costi,Leone Costi,1,1,0,0,1,0,0,0,prime
+person:liangyu tao,Liangyu Tao,1,1,0,0,1,0,0,0,prime
+person:lydia gruber,Lydia Gruber,1,1,0,0,1,0,0,0,prime
+person:m ashaber,M. Ashaber,1,1,0,0,1,0,0,0,prime
+person:m dominguez alvaro,M. Domínguez-Álvaro,1,1,0,0,1,0,0,0,prime
+person:m kleinnijenhuis,M. Kleinnijenhuis,1,1,0,0,1,0,0,0,prime
+person:m samavat,M. Samavat,1,1,0,0,1,0,0,0,prime
+person:m shakiba,M. Shakiba,1,1,0,0,1,0,0,0,prime
+person:m shewarega,M. Shewarega,1,1,0,0,1,0,0,0,prime
+person:m uytiepo,M. Uytiepo,1,1,0,0,1,0,0,0,prime
+person:maedeh seyedolmohadesin,Maedeh Seyedolmohadesin,1,1,0,0,1,0,0,0,prime
+person:manuel beiran,Manuel Beiran,1,1,0,0,1,0,0,0,prime
+person:marco zenari,Marco Zenari,1,1,0,0,1,0,0,0,prime
+person:maximilian joesch,Maximilian Joesch,1,1,0,0,1,0,0,0,prime
+person:maximilian schmidt,Maximilian Schmidt,1,1,0,0,1,0,0,0,prime
+person:megan morrison,Megan Morrison,1,1,0,0,1,0,0,0,prime
+person:michael harris,Michael R. Harris,1,1,0,0,1,0,0,0,prime
+person:michael zhou,Michael G. Zhou,1,1,0,0,1,0,0,0,prime
+person:miljan petrovic,Miljan Petrović,1,1,0,0,1,0,0,0,prime
+person:mojtaba tavakoli,Mojtaba R. Tavakoli,1,1,0,0,1,0,0,0,prime
+person:mu qiao,Mu Qiao,1,1,0,0,1,0,0,0,prime
+person:n chapochnikov,N. Chapochnikov,1,1,0,0,1,0,0,0,prime
+person:naomi shvedov,Naomi R. Shvedov,1,1,0,0,1,0,0,0,prime
+person:neehal tumma,Neehal Tumma,1,1,0,0,1,0,0,0,prime
+person:nelson medina,Nelson D. Medina,1,1,0,0,1,0,0,0,prime
+person:nicholas chua,Nicholas J. Chua,1,1,0,0,1,0,0,0,prime
+person:noelle koonce,Noelle L. Koonce,1,1,0,0,1,0,0,0,prime
+person:o shafer,O.T. Shafer,1,1,0,0,1,0,0,0,prime
+person:paavo huoviala,Paavo Huoviala,1,1,0,0,1,0,0,0,prime
+person:peter grindrod,Peter Grindrod,1,1,0,0,1,0,0,0,prime
+person:rachael stentiford,Rachael Stentiford,1,1,0,0,1,0,0,0,prime
+person:roger bermudez chacon,Róger Bermúdez-Chacón,1,1,0,0,1,0,0,0,prime
+person:rotem ruach,Rotem Ruach,1,1,0,0,1,0,0,0,prime
+person:ruby jacobs,Ruby V. Jacobs,1,1,0,0,1,0,0,0,prime
+person:ruohua shi,Ruohua Shi,1,1,0,0,1,0,0,0,prime
+person:ryosuke tanaka,Ryosuke Tanaka (田中涼介),1,1,0,0,1,0,0,0,prime
+person:s agarwala,S. Agarwala,1,1,0,0,1,0,0,0,prime
+person:s therianos,S. Therianos,1,1,0,0,1,0,0,0,prime
+person:scott wilke,Scott A. Wilke,1,1,0,0,1,0,0,0,prime
+person:sebastian stroh,Sebastian Ströh,1,1,0,0,1,0,0,0,prime
+person:sebastien kawada,Sebastien Kawada,1,1,0,0,1,0,0,0,prime
+person:shayan farzad,Shayan Farzad,1,1,0,0,1,0,0,0,prime
+person:shengdian jiang,Shengdian Jiang,1,1,0,0,1,0,0,0,prime
+person:shibani santurkar,Shibani Santurkar,1,1,0,0,1,0,0,0,prime
+person:shingo yoshikawa,Shingo Yoshikawa,1,1,0,0,1,0,0,0,prime
+person:silvia park,Silvia J. H. Park,1,1,0,0,1,0,0,0,prime
+person:simone holler,Simone Holler,1,1,0,0,1,0,0,0,prime
+person:soroush vahidi,Soroush Vahidi,1,1,0,0,1,0,0,0,prime
+person:sunny duan,Sunny Duan,1,1,0,0,1,0,0,0,prime
+person:t maertens,T. Maertens,1,1,0,0,1,0,0,0,prime
+person:tae song chung,Tae-Song Chung,1,1,0,0,1,0,0,0,prime
+person:takuya nanami,Takuya Nanami,1,1,0,0,1,0,0,0,prime
+person:te shi,Te Shi,1,1,0,0,1,0,0,0,prime
+person:theresa mckim,Theresa H. McKim,1,1,0,0,1,0,0,0,prime
+person:timothy currier,Timothy A. Currier,1,1,0,0,1,0,0,0,prime
+person:timothy lee,Timothy J. Lee,1,1,0,0,1,0,0,0,prime
+person:tobias lehmann,Tobias Lehmann,1,1,0,0,1,0,0,0,prime
+person:tony liu,Tony X. Liu,1,1,0,0,1,0,0,0,prime
+person:ugur dag,Ugur Dag,1,1,0,0,1,0,0,0,prime
+person:v varadan,V. Varadan,1,1,0,0,1,0,0,0,prime
+person:varun sanjay birari,Varun Sanjay Birari,1,1,0,0,1,0,0,0,prime
+person:victor buendia,Victor Buendía,1,1,0,0,1,0,0,0,prime
+person:vincent casser,Vincent Casser,1,1,0,0,1,0,0,0,prime
+person:wei shen,Wei Shen,1,1,0,0,1,0,0,0,prime
+person:xiangrui ma,Xiangrui Ma,1,1,0,0,1,0,0,0,prime
+person:xundong wu,Xundong Wu,1,1,0,0,1,0,0,0,prime
+person:y hirabayashi,Y. Hirabayashi,1,1,0,0,1,0,0,0,prime
+person:ya hui chou,Ya-Hui Chou,1,1,0,0,1,0,0,0,prime
+person:yunkyu sohn,Yunkyu Sohn,1,1,0,0,1,0,0,0,prime
+person:yuval balshayi,Yuval Balshayi,1,1,0,0,1,0,0,0,prime
+person:zehao jin,Zehao Jin,1,1,0,0,1,0,0,0,prime
+person:a alcantara,A. A. Alcantara,1,1,0,0,0,1,0,0,prime
+person:a butt,A. Butt,1,1,0,0,0,1,0,0,prime
+person:a dizaji,A. S. Dizaji,1,1,0,0,0,0,1,0,prime
+person:a eberle,A. L. Eberle,1,1,0,0,0,1,0,0,prime
+person:a gomez marin,A. Gomez-Marin,1,1,0,0,0,0,1,0,prime
+person:a knoblauch,A. Knoblauch,1,1,0,0,0,1,0,0,prime
+person:a miri,A. Miri,1,1,0,0,0,0,1,0,prime
+person:a muller,A. Müller,1,1,0,0,0,1,0,0,prime
+person:a pezier,A. Pézier,1,1,0,0,0,1,0,0,prime
+person:a stabile,A. Stabile,1,1,0,0,0,0,1,0,prime
+person:a stivala,A. Stivala,1,1,0,0,0,0,1,0,prime
+person:a watakabe,A. Watakabe,1,1,0,0,0,1,0,0,prime
+person:abhilash sawant,Abhilash Sawant,1,1,0,0,0,1,0,0,prime
+person:abhranil das,Abhranil Das,1,1,0,0,0,1,0,0,prime
+person:adam packer,Adam Packer,1,1,0,0,0,1,0,0,prime
+person:adrian hernandez,Adrián Hernández,1,1,0,0,0,1,0,0,prime
+person:afshin khadangi,Afshin Khadangi,1,1,0,0,0,1,0,0,prime
+person:akash pal,Akash Pal,1,1,0,0,0,1,0,0,prime
+person:al-qadhi|a,Al-Fahad Al-Qadhi,1,1,0,0,0,1,0,0,prime
+person:alan gutman wei,Alan Y. Gutman-Wei,1,1,0,0,0,1,0,0,prime
+person:alemán-gómez|y,Yasser Alemán-Gómez,1,1,0,0,0,0,1,0,prime
+person:alexander braylan,Alexander Braylan,1,1,0,0,0,0,1,0,prime
+person:alina sergeeva,Alina P. Sergeeva,1,1,0,0,0,1,0,0,prime
+person:alison ehrlich,Alison Ehrlich,1,1,0,0,0,1,0,0,prime
+person:amandola|m,Matthew Amandola,1,1,0,0,0,1,0,0,prime
+person:amin karbasi,Amin Karbasi,1,1,0,0,0,1,0,0,prime
+person:anand pathak,Anand Pathak,1,1,0,0,0,1,0,0,prime
+person:andre fiala,André Fiala,1,1,0,0,0,1,0,0,prime
+person:andrea nathansen,Andrea Nathansen,1,1,0,0,0,0,1,0,prime
+person:andrew murphy,Andrew C. Murphy,1,1,0,0,0,0,1,0,prime
+person:andria slaughter,Andria Slaughter,1,1,0,0,0,1,0,0,prime
+person:andrii iudin,Andrii Iudin,1,1,0,0,0,0,1,0,prime
+person:ankur gogoi,Ankur Gogoi,1,1,0,0,0,1,0,0,prime
+person:ann sizemore,Ann E. Sizemore,1,1,0,0,0,1,0,0,prime
+person:annie bryant,Annie G. Bryant,1,1,0,0,0,0,1,0,prime
+person:anton arkhipov,Anton Arkhipov,1,1,0,0,0,1,0,0,prime
+person:antonio diaz parra,Antonio Díaz-Parra,1,1,0,0,0,1,0,0,prime
+person:arent kievits,Arent J. Kievits,1,1,0,0,0,0,1,0,prime
+person:arianna sala,Arianna Sala,1,1,0,0,0,1,0,0,prime
+person:arturo tozzi,Arturo Tozzi,1,1,0,0,0,1,0,0,prime
+person:ashley hayden,Ashley N. Hayden,1,1,0,0,0,0,1,0,prime
+person:audronytė|e,Eglė Audronytė,1,1,0,0,0,0,1,0,prime
+person:aydogan|d,D. Aydogan,1,1,0,0,0,1,0,0,prime
+person:b aleogho,B. M. Aleogho,1,1,0,0,0,0,1,0,prime
+person:b michels,B. Michels,1,1,0,0,0,0,1,0,prime
+person:b ozpolat,B. Özpolat,1,1,0,0,0,1,0,0,prime
+person:b pailthorpe,B. Pailthorpe,1,1,0,0,0,1,0,0,prime
+person:b szalkai,B. Szalkai,1,1,0,0,0,0,1,0,prime
+person:baldermann|j,J. Baldermann,1,1,0,0,0,0,1,0,prime
+person:barbara feulner,Barbara Feulner,1,1,0,0,0,1,0,0,prime
+person:ben williamson,Ben Williamson,1,1,0,0,0,0,1,0,prime
+person:benedetta gambosi,Benedetta Gambosi,1,1,0,0,0,0,1,0,prime
+person:benedictis|ad,A. De Benedictis,1,1,0,0,0,1,0,0,prime
+person:benjamin gallusser,Benjamin Gallusser,1,1,0,0,0,1,0,0,prime
+person:benjamin schmid,Benjamin Schmid,1,1,0,0,0,1,0,0,prime
+person:bettina schnell,Bettina Schnell,1,1,0,0,0,1,0,0,prime
+person:bhanu priya somashekar,Bhanu Priya Somashekar,1,1,0,0,0,1,0,0,prime
+person:bintao he,Bintao He,1,1,0,0,0,1,0,0,prime
+person:bitra|v,V. Bitra,1,1,0,0,0,1,0,0,prime
+person:bueichekú|e,E. Bueichekú,1,1,0,0,0,1,0,0,prime
+person:c casadio,C. Casadio,1,1,0,0,0,0,1,0,prime
+person:c magliaro,C. Magliaro,1,1,0,0,0,1,0,0,prime
+person:c rees,C. L. Rees,1,1,0,0,0,1,0,0,prime
+person:c wozny,C. Wozny,1,1,0,0,0,1,0,0,prime
+person:cameron condylis,Cameron Condylis,1,1,0,0,0,1,0,0,prime
+person:cameron rawanduzy,Cameron A. Rawanduzy,1,1,0,0,0,0,1,0,prime
+person:carsten tischbirek,Carsten H. Tischbirek,1,1,0,0,0,1,0,0,prime
+person:cheng xing,Cheng Xing,1,1,0,0,0,0,1,0,prime
+person:chloe mickels,Chloe A Mickels,1,1,0,0,0,1,0,0,prime
+person:christian donner,Christian Donner,1,1,0,0,0,1,0,0,prime
+person:christianus hotama,Christianus F Hotama,1,1,0,0,0,1,0,0,prime
+person:christine saleeba,Christine Saleeba,1,1,0,0,0,1,0,0,prime
+person:christopher adamson,Christopher Adamson,1,1,0,0,0,0,1,0,prime
+person:cody baker,Cody Baker,1,1,0,0,0,1,0,0,prime
+person:colin brown,Colin J. Brown,1,1,0,0,0,0,1,0,prime
+person:cori bargmann,Cori Bargmann,1,1,0,0,0,1,0,0,prime
+person:d donohue,D. Donohue,1,1,0,0,0,1,0,0,prime
+person:d english,D. English,1,1,0,0,0,1,0,0,prime
+person:d galili,D. Galili,1,1,0,0,0,1,0,0,prime
+person:d guidolin,D. Guidolin,1,1,0,0,0,1,0,0,prime
+person:d hoffman,D. Hoffman,1,1,0,0,0,0,1,0,prime
+person:d kleinfeld,D. Kleinfeld,1,1,0,0,0,1,0,0,prime
+person:d schreiner,D. Schreiner,1,1,0,0,0,1,0,0,prime
+person:dana byrd,Dana T. Byrd,1,1,0,0,0,1,0,0,prime
+person:daniel eskenazi,Daniel Eskenazi,1,1,0,0,0,1,0,0,prime
+person:daniel marcus,Daniel S. Marcus,1,1,0,0,0,0,1,0,prime
+person:david grayson,David S. Grayson,1,1,0,0,0,1,0,0,prime
+person:david smith,David J. Smith,1,1,0,0,0,1,0,0,prime
+person:david vandael,David Vandael,1,1,0,0,0,1,0,0,prime
+person:dawn blitz,Dawn M. Blitz,1,1,0,0,0,1,0,0,prime
+person:deepak ropireddy,Deepak Ropireddy,1,1,0,0,0,1,0,0,prime
+person:dibbanti harikrishnareddy,Dibbanti HariKrishnaReddy,1,1,0,0,0,0,1,0,prime
+person:dimitry fisher,Dimitry Fisher,1,1,0,0,0,1,0,0,prime
+person:ding|y,Yun Ding,1,1,0,0,0,1,0,0,prime
+person:disa mhembere,Disa Mhembere,1,1,0,0,0,1,0,0,prime
+person:diya prasanth,Diya Prasanth,1,1,0,0,0,1,0,0,prime
+person:dominic berns,Dominic S. Berns,1,1,0,0,0,1,0,0,prime
+person:dongmei shi,Dongmei Shi,1,1,0,0,0,1,0,0,prime
+person:dongyoung kim,Dongyoung Kim,1,1,0,0,0,1,0,0,prime
+person:e dennis,E. Dennis,1,1,0,0,0,1,0,0,prime
+person:e gleichgerrcht,E. Gleichgerrcht,1,1,0,0,0,0,1,0,prime
+person:e jin,E. J. Jin,1,1,0,0,0,1,0,0,prime
+person:e litvina,E. Litvina,1,1,0,0,0,0,1,0,prime
+person:e mandonnet,E. Mandonnet,1,1,0,0,0,1,0,0,prime
+person:e middlebrooks,E. Middlebrooks,1,1,0,0,0,0,1,0,prime
+person:e vivi,E. Vivi,1,1,0,0,0,1,0,0,prime
+person:e white,E. White,1,1,0,0,0,1,0,0,prime
+person:edward laurence,Edward Laurence,1,1,0,0,0,1,0,0,prime
+person:edwards|a,A. Edwards,1,1,0,0,0,0,1,0,prime
+person:eichi takaya,Eichi Takaya,1,1,0,0,0,0,1,0,prime
+person:eleonora meschi,Eleonora Meschi,1,1,0,0,0,1,0,0,prime
+person:elisabeth demarco,Elisabeth C. DeMarco,1,1,0,0,0,1,0,0,prime
+person:elmalem|ms,Michael S. Elmalem,1,1,0,0,0,0,1,0,prime
+person:elsa steinfath,Elsa Steinfath,1,1,0,0,0,0,1,0,prime
+person:f bussel,F. V. Bussel,1,1,0,0,0,1,0,0,prime
+person:f putter,F. D. Putter,1,1,0,0,0,1,0,0,prime
+person:fabio lobato,Fábio Lobato,1,1,0,0,0,1,0,0,prime
+person:fang yan,Fang Yan,1,1,0,0,0,1,0,0,prime
+person:feici diao,Feici Diao,1,1,0,1,0,1,0,0,prime
+person:felice dunn,Felice A. Dunn,1,1,0,0,0,1,0,0,prime
+person:felix sigmund,Felix Sigmund,1,1,0,0,0,0,1,0,prime
+person:felix zhou,Felix Y. Zhou,1,1,0,0,0,0,1,0,prime
+person:fortunato|s,S. Fortunato,1,1,0,0,0,0,1,0,prime
+person:francesco bardozzo,Francesco Bardozzo,1,1,0,0,0,1,0,0,prime
+person:frank werblin,Frank Werblin,1,1,0,0,0,0,1,0,prime
+person:fred shen,Fred Y. Shen,1,1,0,0,0,1,0,0,prime
+person:frederic roemschied,Frederic A. Roemschied,1,1,0,0,0,0,1,0,prime
+person:g bischof,G. Bischof,1,1,0,0,0,0,1,0,prime
+person:g drion,G. Drion,1,1,0,0,0,1,0,0,prime
+person:g panagopoulos,G. Panagopoulos,1,1,0,0,0,1,0,0,prime
+person:g sarma,G. Sarma,1,1,0,0,0,1,0,0,prime
+person:gagandeep singh,Gagandeep Singh,1,1,0,0,0,0,1,0,prime
+person:georgia rapti,Georgia Rapti,1,1,0,0,0,1,0,0,prime
+person:gerard marx,Gerard Marx,1,1,0,0,0,1,0,0,prime
+person:h akil,H. Akil,1,1,0,0,0,1,0,0,prime
+person:h dodt,H. Dodt,1,1,0,0,0,0,1,0,prime
+person:h isaac chen,H. Isaac Chen,1,1,0,0,0,1,0,0,prime
+person:h kaplan,H. S. Kaplan,1,1,0,0,0,1,0,0,prime
+person:h karnath,H. Karnath,1,1,0,0,0,1,0,0,prime
+person:hania pavlou,Hania J. Pavlou,1,1,0,0,0,1,0,0,prime
+person:haoyi liang,Haoyi Liang,1,1,0,0,0,0,1,0,prime
+person:harold shearin,Harold K. Shearin,1,1,0,0,0,1,0,0,prime
+person:haruo mizutani,Haruo Mizutani,1,1,0,0,0,1,0,0,prime
+person:heather titley,Heather K Titley,1,1,0,0,0,1,0,0,prime
+person:hidehiko inagaki,Hidehiko K. Inagaki,1,1,0,0,0,1,0,0,prime
+person:hongfei zhao,Hongfei Zhao,1,1,0,0,0,1,0,0,prime
+person:hua bai,Hua Bai,1,1,0,0,0,0,1,0,prime
+person:hua shi,Hua Shi,1,1,0,0,0,1,0,0,prime
+person:i hardege,I. Hardege,1,1,0,0,0,1,0,0,prime
+person:ian leifer,Ian Leifer,1,1,0,0,0,1,0,0,prime
+person:ibrahim kays,Ibrahim Kays,1,1,0,0,0,1,0,0,prime
+person:inbal shainer,Inbal Shainer,1,1,0,0,0,1,0,0,prime
+person:ioannis pisokas,Ioannis Pisokas,1,1,0,0,0,1,0,0,prime
+person:istiaque ahmed,Istiaque Ahmed,1,1,0,0,0,1,0,0,prime
+person:ivanov|v,V. Ivanov,1,1,0,0,0,0,1,0,prime
+person:ivo ros,Ivo G. Ros,1,1,0,0,0,1,0,0,prime
+person:j arle,J. Arle,1,1,0,0,0,1,0,0,prime
+person:j conway,J. R. Conway,1,1,0,0,0,0,1,0,prime
+person:j edwards,J. Edwards,1,1,0,0,0,0,1,0,prime
+person:j engel,J. Engel,1,1,0,0,0,0,1,0,prime
+person:j gornet,J. Gornet,1,1,0,0,0,1,0,0,prime
+person:j grewe,J. Grewe,1,1,0,0,0,0,1,0,prime
+person:j hansen,J. Hansen,1,1,0,0,0,1,0,0,prime
+person:j kershner,J. Kershner,1,1,0,0,0,0,1,0,prime
+person:j kremer,J. Kremer,1,1,0,0,0,1,0,0,prime
+person:j reichardt,J. Reichardt,1,1,0,0,0,0,1,0,prime
+person:j rgen sugar,Jørgen Sugar,1,1,0,0,0,1,0,0,prime
+person:j ricker,J. Ricker,1,1,0,0,0,0,1,0,prime
+person:j robinson,J. Robinson,1,1,0,0,0,1,0,0,prime
+person:j rodriguez gatica,J. Rodriguez-Gatica,1,1,0,0,0,0,1,0,prime
+person:j sorger,J. Sorger,1,1,0,0,0,0,1,0,prime
+person:j staiger,J. Staiger,1,1,0,0,0,1,0,0,prime
+person:j wit,J. Wit,1,1,0,0,0,1,0,0,prime
+person:j zhu,J. J. Zhu,1,1,0,0,0,1,0,0,prime
+person:jacopo bono,Jacopo Bono,1,1,0,0,0,1,0,0,prime
+person:jareckil|j,Jill Jareckil,1,1,0,0,0,1,0,0,prime
+person:jason kim,Jason Z. Kim,1,1,0,0,0,1,0,0,prime
+person:jennifer dulin,Jennifer N Dulin,1,1,0,0,0,1,0,0,prime
+person:jesse brown,Jesse A. Brown,1,1,0,0,0,0,1,0,prime
+person:joel lefebvre,Joël Lefebvre,1,1,0,0,0,0,1,0,prime
+person:johnson keiriz,Johnson J. G. Keiriz,1,1,0,0,0,0,1,0,prime
+person:jonas pichat,Jonas Pichat,1,1,0,0,0,0,1,0,prime
+person:jong hyun son,Jong-Hyun Son,1,1,0,0,0,1,0,0,prime
+person:june hoan kim,June Hoan Kim,1,1,0,0,0,1,0,0,prime
+person:k cover,K. K. Cover,1,1,0,0,0,1,0,0,prime
+person:k kaltdorf,K. V. Kaltdorf,1,1,0,0,0,0,1,0,prime
+person:k linker,K. E. Linker,1,1,0,0,0,1,0,0,prime
+person:k manjunatha,K. Manjunatha,1,1,0,0,0,1,0,0,prime
+person:k piekarz,K. Piekarz,1,1,0,0,0,1,0,0,prime
+person:k siju,K. Siju,1,1,0,0,0,1,0,0,prime
+person:k stephan,K. Stephan,1,1,0,0,0,0,1,0,prime
+person:k venkatesh,K. Venkatesh,1,1,0,0,0,1,0,0,prime
+person:kaitlyn casimo,Kaitlyn Casimo,1,1,0,0,0,0,1,0,prime
+person:katrin vogt,Katrin Vogt,1,1,0,0,0,1,0,0,prime
+person:keisuke imoto,Keisuke Imoto,1,1,0,0,0,1,0,0,prime
+person:keith smith,Keith M. Smith,1,1,0,0,0,0,1,0,prime
+person:kevin beier,Kevin T. Beier,1,1,0,0,0,1,0,0,prime
+person:kevin berlemont,Kévin Berlemont,1,1,0,0,0,1,0,0,prime
+person:kevin schultz,Kevin M. Schultz,1,1,0,0,0,1,0,0,prime
+person:khaled althelaya,Khaled A. Althelaya,1,1,0,0,0,1,0,0,prime
+person:kohki konishi,Kohki Konishi,1,1,0,0,0,0,1,0,prime
+person:kopetzky|sj,Sebastian J. Kopetzky,1,1,0,0,0,1,0,0,prime
+person:kuo jen hsu,Kuo-Jen Hsu,1,1,0,0,0,1,0,0,prime
+person:kwame kutten,Kwame S. Kutten,1,1,0,0,0,0,1,0,prime
+person:l coletta,L. Coletta,1,1,0,0,0,1,0,0,prime
+person:l dipietro,L. Dipietro,1,1,0,0,0,1,0,0,prime
+person:l magrou,L. Magrou,1,1,0,0,0,1,0,0,prime
+person:l parajuli,L. Parajuli,1,1,0,0,0,1,0,0,prime
+person:l petrucco,L. Petrucco,1,1,0,0,0,0,1,0,prime
+person:l richards,L. J. Richards,1,1,0,0,0,1,0,0,prime
+person:l silvestri,L. Silvestri,1,1,0,0,0,1,0,0,prime
+person:l vasung,L. Vasung,1,1,0,0,0,1,0,0,prime
+person:l yang,L. Yang,1,1,0,0,0,0,1,0,prime
+person:laura pereira,Laura Pereira,1,1,0,0,0,1,0,0,prime
+person:leehod baruch,Leehod Baruch,1,1,0,0,0,1,0,0,prime
+person:leesun ryu,Leesun Ryu,1,1,0,0,0,1,0,0,prime
+person:leonid moroz,Leonid L. Moroz,1,1,0,0,0,1,0,0,prime
+person:leonie schadt,Leonie C Schadt,1,1,0,0,0,1,0,0,prime
+person:leslie griffith,Leslie C. Griffith,1,1,0,0,0,1,0,0,prime
+person:li xiao,Li Xiao,1,1,0,0,0,0,1,0,prime
+person:linnaea ostroff,Linnaea E. Ostroff,1,1,0,0,0,1,0,0,prime
+person:lisa mais,Lisa Mais,1,1,0,0,0,1,0,0,prime
+person:liza gross,Liza Gross,1,1,0,0,0,1,0,0,prime
+person:luca golinelli,Luca Golinelli,1,1,0,0,0,0,1,0,prime
+person:lune bellec,Lune P Bellec,1,1,0,0,0,0,1,0,prime
+person:m axer,M. Axer,1,1,0,0,0,1,0,0,prime
+person:m bota,M. Bota,1,1,0,0,0,0,1,0,prime
+person:m catani,M. Catani,1,1,0,0,0,1,0,0,prime
+person:m diaz santos,M. Díaz-Santos,1,1,0,0,0,0,1,0,prime
+person:m domenico,M. Domenico,1,1,0,0,0,0,1,0,prime
+person:m hart,M. Hart,1,1,0,0,0,1,0,0,prime
+person:m kozinski,M. Koziński,1,1,0,0,0,0,1,0,prime
+person:m lowe,M. Lowe,1,1,0,0,0,1,0,0,prime
+person:m marx,M. Marx,1,1,0,0,0,1,0,0,prime
+person:m mcdonnell,M. McDonnell,1,1,0,0,0,1,0,0,prime
+person:m patino,M. Patiño,1,1,0,0,0,1,0,0,prime
+person:m petersen,M. Petersen,1,1,0,0,0,1,0,0,prime
+person:m sacha,M. Sacha,1,1,0,0,0,1,0,0,prime
+person:m shanahan,M. Shanahan,1,1,0,0,0,1,0,0,prime
+person:m veldhuizen,M. Veldhuizen,1,1,0,0,0,1,0,0,prime
+person:m vopson,M. Vopson,1,1,0,0,0,1,0,0,prime
+person:m zhong,M. Zhong,1,1,0,0,0,0,1,0,prime
+person:madison sneve,Madison Sneve,1,1,0,0,0,1,0,0,prime
+person:mario dipoppa,Mario Dipoppa,1,1,0,0,0,1,0,0,prime
+person:marta pallotto,Marta Pallotto,1,1,0,0,0,1,0,0,prime
+person:mary anne mackay,Mary-Anne B. MacKay,1,1,0,0,0,0,1,0,prime
+person:mateo velez fort,Mateo Vélez‐Fort,1,1,0,0,0,1,0,0,prime
+person:matthias christenson,Matthias P. Christenson,1,1,0,0,0,1,0,0,prime
+person:maxwell shinn,Maxwell Shinn,1,1,0,0,0,1,0,0,prime
+person:mayank kabra,Mayank Kabra,1,1,0,0,0,0,1,0,prime
+person:mccolgan|p,P. McColgan,1,1,0,0,0,1,0,0,prime
+person:mei yao,Mei Yao,1,1,0,0,0,1,0,0,prime
+person:melina hale,Melina E. Hale,1,1,0,0,0,1,0,0,prime
+person:melissa silva,Melissa Silva,1,1,0,0,0,0,1,0,prime
+person:michael stobb,Michael T Stobb,1,1,0,0,0,1,0,0,prime
+person:michelle pang,Michelle M. Pang,1,1,0,0,0,0,1,0,prime
+person:n allen,N. J. Allen,1,1,0,0,0,1,0,0,prime
+person:n cano astorga,N. Cano-Astorga,1,1,0,0,0,1,0,0,prime
+person:n cayco gajic,N. A. Cayco-Gajic,1,1,0,0,0,1,0,0,prime
+person:n diederich,N. J. Diederich,1,1,0,0,0,0,1,0,prime
+person:n kraynyukova,N. Kraynyukova,1,1,0,0,0,1,0,0,prime
+person:n pospelov,N. Pospelov,1,1,0,0,0,1,0,0,prime
+person:n takata,N. Takata,1,1,0,0,0,0,1,0,prime
+person:natali barros zulaica,Natalí Barros-Zulaica,1,1,0,0,0,1,0,0,prime
+person:neele wolterhoff,Neele Wolterhoff,1,1,0,0,0,1,0,0,prime
+person:nicholas foster,Nicholas N. Foster,1,1,0,1,0,1,0,0,prime
+person:nicholas roberts,Nicholas Roberts,1,1,0,0,0,1,0,0,prime
+person:nova qi,Nova Qi,1,1,0,0,0,1,0,0,prime
+person:o dolgikh,O. Dolgikh,1,1,0,0,0,1,0,0,prime
+person:o paredes,O. Paredes,1,1,0,0,0,1,0,0,prime
+person:o saad,O. M’Saad,1,1,0,0,0,1,0,0,prime
+person:okray|z,Zeynep Okray,1,1,0,0,0,1,0,0,prime
+person:okun|m,Michael Okun,1,1,0,0,0,1,0,0,prime
+person:omar hafez,Omar A. Hafez,1,1,0,0,0,1,0,0,prime
+person:ondrej krejcar,Ondrej Krejcar,1,1,0,0,0,1,0,0,prime
+person:orkun akin,Orkun Akin,1,1,0,0,0,1,0,0,prime
+person:ozgun cicek,Özgün Çiçek,1,1,0,0,0,0,1,0,prime
+person:p mulders,P. Mulders,1,1,0,0,0,0,1,0,prime
+person:p rajarajan,P. Rajarajan,1,1,0,0,0,1,0,0,prime
+person:p ronchi,P. Ronchi,1,1,0,0,0,0,1,0,prime
+person:p rossini,P. Rossini,1,1,0,0,0,1,0,0,prime
+person:p valdes,P. Valdes,1,1,0,0,0,0,1,0,prime
+person:pablo lituma,Pablo J. Lituma,1,1,0,0,0,1,0,0,prime
+person:parmida ghahremani,Parmida Ghahremani,1,1,0,0,0,0,1,0,prime
+person:patricia smith,Patricia Smith,1,1,0,0,0,0,1,0,prime
+person:patrick chen,Patrick B. Chen,1,1,0,0,0,0,1,0,prime
+person:pecho-vrieseling|e,Eline Pecho-Vrieseling,1,1,0,0,0,1,0,0,prime
+person:pedersen|m,M. Pedersen,1,1,0,0,0,0,1,0,prime
+person:penelope kale,Penelope J. Kale,1,1,0,0,0,1,0,0,prime
+person:peter weinberg,Peter Weinberg,1,1,0,0,0,1,0,0,prime
+person:pratyush kandimalla,Pratyush Kandimalla,1,1,0,0,0,1,0,0,prime
+person:qiru feng,Qiru Feng,1,1,0,0,0,1,0,0,prime
+person:qiyu zhang,Qiyu Zhang,1,1,0,0,0,1,0,0,prime
+person:quan wen,Quan Wen,1,1,0,0,0,1,0,0,prime
+person:quilee simeon,Quilee Simeon,1,1,0,0,0,0,1,0,prime
+person:r blumenfeld,R. Blumenfeld,1,1,0,0,0,1,0,0,prime
+person:r borisyuk,R. Borisyuk,1,1,0,0,0,1,0,0,prime
+person:r de schepper,R. De Schepper,1,1,0,0,0,1,0,0,prime
+person:r fields,R. Fields,1,1,0,0,0,1,0,0,prime
+person:r hoy,R. Hoy,1,1,0,0,0,0,1,0,prime
+person:r laughlin,R. Laughlin,1,1,0,0,0,1,0,0,prime
+person:r mcintyre,R. L. McIntyre,1,1,0,0,0,1,0,0,prime
+person:r wurtman,R. Wurtman,1,1,0,0,0,1,0,0,prime
+person:rafael lujan,Rafael Luján,1,1,0,0,0,1,0,0,prime
+person:ray hong,Ray L. Hong,1,1,0,0,0,1,0,0,prime
+person:remy petkantchin,Remy Petkantchin,1,1,0,0,0,1,0,0,prime
+person:rhessa weber langstaff,Rhessa A. Weber-Langstaff,1,1,0,0,0,0,1,0,prime
+person:richard benton,Richard Benton,1,1,0,0,0,1,0,0,prime
+person:robert levy,Robert B. Levy,1,1,0,0,0,1,0,0,prime
+person:rohan gupta,Rohan Gupta,1,1,0,0,0,1,0,0,prime
+person:ronald davis,Ronald L. Davis,1,1,0,0,0,1,0,0,prime
+person:royer|j,J. Royer,1,1,0,0,0,1,0,0,prime
+person:ruaridh clark,Ruaridh A. Clark,1,1,0,0,0,0,1,0,prime
+person:s de lange,S. D. de Lange,1,1,0,0,0,1,0,0,prime
+person:s goodman,S. L. Goodman,1,1,0,0,0,1,0,0,prime
+person:s hurkey,S. Hürkey,1,1,0,0,0,1,0,0,prime
+person:s jaume,S. Jaume,1,1,0,0,0,1,0,0,prime
+person:s latifi,S. Latifi,1,1,0,0,0,0,1,0,prime
+person:s millard,S. Millard,1,1,0,0,0,1,0,0,prime
+person:s oh,S. W. Oh,1,1,0,0,0,1,0,0,prime
+person:s pandya,S. Pandya,1,1,0,0,0,1,0,0,prime
+person:s shibata,S. Shibata,1,1,0,0,0,1,0,0,prime
+person:s shipp,S. Shipp,1,1,0,0,0,1,0,0,prime
+person:s tappan,S. Tappan,1,1,0,0,0,1,0,0,prime
+person:s wernicke,S. Wernicke,1,1,0,0,0,0,1,0,prime
+person:safura rashid shomali,Safura Rashid Shomali,1,1,0,0,0,1,0,0,prime
+person:sahil moza,Sahil Moza,1,1,0,0,0,1,0,0,prime
+person:sarada viswanathan,Sarada Viswanathan,1,1,0,0,0,1,0,0,prime
+person:sarah heilbronner,Sarah R. Heilbronner,1,1,0,0,0,1,0,0,prime
+person:sarthak chandra,Sarthak Chandra,1,1,0,0,0,1,0,0,prime
+person:savik kinger,Savik Kinger,1,1,0,0,0,1,0,0,prime
+person:scott trinkle,Scott Trinkle,1,1,0,0,0,1,0,0,prime
+person:sebastian goldt,Sebastian Goldt,1,1,0,0,0,1,0,0,prime
+person:sebastian spreizer,Sebastian Spreizer,1,1,0,0,0,0,1,0,prime
+person:sen song,Sen Song,1,1,0,0,0,1,0,0,prime
+person:sergio bernal garcia,Sergio Bernal-Garcia,1,1,0,0,0,1,0,0,prime
+person:seth daetwiler,Seth Daetwiler,1,1,0,0,0,0,1,0,prime
+person:sharan prakash,Sharan J. Prakash,1,1,0,0,0,1,0,0,prime
+person:shen|r,R. Shen,1,1,0,0,0,0,1,0,prime
+person:shivesh chaudhary,Shivesh Chaudhary,1,1,0,0,0,0,1,0,prime
+person:shou qiu,Shou Qiu,1,1,0,0,0,1,0,0,prime
+person:sibo wang chen,Sibo Wang-Chen,1,1,0,0,0,1,0,0,prime
+person:sigoillot|s,S. Sigoillot,1,1,0,0,0,1,0,0,prime
+person:sophie bennett,Sophie Bennett,1,1,0,0,0,1,0,0,prime
+person:steven winter,Steven Winter,1,1,0,0,0,0,1,0,prime
+person:susanne kunkel,Susanne Kunkel,1,1,0,0,0,0,1,0,prime
+person:sveva dallere,Sveva Dallere,1,1,0,0,0,0,1,0,prime
+person:t boccato,T. Boccato,1,1,0,0,0,1,0,0,prime
+person:t toyoizumi,T. Toyoizumi,1,1,0,0,0,1,0,0,prime
+person:talya kramer,Talya S. Kramer,1,1,0,0,0,1,0,0,prime
+person:tamara boto,Tamara Boto,1,1,0,0,0,1,0,0,prime
+person:terri gilbert,Terri L. Gilbert,1,1,0,0,0,0,1,0,prime
+person:timothy dunn,Timothy W. Dunn,1,1,0,0,0,1,0,0,prime
+person:tiruvadi|v,V. Tiruvadi,1,1,0,0,0,0,1,0,prime
+person:tyler reese,Tyler Reese,1,1,0,0,0,1,0,0,prime
+person:u bhat,U. S. Bhat,1,1,0,0,0,1,0,0,prime
+person:ulysse klatzmann,Ulysse Klatzmann,1,1,0,0,0,1,0,0,prime
+person:uzair shah,Uzair Shah,1,1,0,0,0,1,0,0,prime
+person:v brezina,V. Brezina,1,1,0,0,0,1,0,0,prime
+person:v calbiague garcia,V. Calbiague-Garcia,1,1,0,0,0,1,0,0,prime
+person:v george,V. George,1,1,0,0,0,1,0,0,prime
+person:v zerbi,V. Zerbi,1,1,0,0,0,0,1,0,prime
+person:valeria andrea,Valeria d'Andrea,1,1,0,0,0,1,0,0,prime
+person:venkatakrishnan ramaswamy,Venkatakrishnan Ramaswamy,1,1,0,0,0,1,0,0,prime
+person:vikram nathan,Vikram Nathan,1,1,0,0,0,1,0,0,prime
+person:villegas|p,Pablo Villegas,1,1,0,0,0,1,0,0,prime
+person:vivek gopalakrishnan,Vivek Gopalakrishnan,1,1,0,0,0,1,0,0,prime
+person:w nowinski,W. Nowinski,1,1,0,0,0,1,0,0,prime
+person:w risher,W. C. Risher,1,1,0,0,0,1,0,0,prime
+person:wei cheng chang,Wei-Cheng Chang,1,1,0,0,0,1,0,0,prime
+person:william dorrell,William Dorrell,1,1,0,0,0,1,0,0,prime
+person:x shu,X. Shu,1,1,0,0,0,0,1,0,prime
+person:xiang zhen kong,Xiang-zhen Kong,1,1,0,0,0,0,1,0,prime
+person:xiangyi meng,Xiangyi Meng,1,1,0,0,0,1,0,0,prime
+person:xiaolong jiang,Xiaolong Jiang,1,1,0,0,0,1,0,0,prime
+person:xia|m,Mingrui Xia,1,1,0,0,0,0,1,0,prime
+person:y xu,Y. K. Xu,1,1,0,0,0,0,1,0,prime
+person:yanxun yu,Yanxun V. Yu,1,1,0,0,0,1,0,0,prime
+person:yaroslav felipe kalle kossio,Yaroslav Felipe Kalle Kossio,1,1,0,0,0,1,0,0,prime
+person:yaroslav molkov,Yaroslav I. Molkov,1,1,0,0,0,1,0,0,prime
+person:yokoyama|c,C. Yokoyama,1,1,0,0,0,1,0,0,prime
+person:z kisvarday,Z. Kisvárday,1,1,0,0,0,1,0,0,prime
+person:zhiying pan,Zhiying Pan,1,1,0,0,0,1,0,0,prime

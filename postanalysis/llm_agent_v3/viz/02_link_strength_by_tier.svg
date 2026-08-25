@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400">
+<rect width="100%" height="100%" fill="#fafafa"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600">Citation link strength by v3 tier (in+out ≤ 2 = weak)</text>
+<text x="25" y="195.0" transform="rotate(-90 25,195.0)" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">graph-matched works</text>
+<line x1="70" y1="340" x2="700" y2="340" stroke="#333"/>
+<line x1="70" y1="50" x2="70" y2="340" stroke="#333"/>
+<text x="175.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">adjacent</text>
+<text x="385.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">core</text>
+<text x="595.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">bridge</text>
+<rect x="106.8" y="301.3" width="136.5" height="38.7" fill="#c44e52"/>
+<rect x="106.8" y="290.8" width="136.5" height="10.4" fill="#e8956a"/>
+<rect x="106.8" y="206.3" width="136.5" height="84.6" fill="#8da0cb"/>
+<rect x="106.8" y="99.7" width="136.5" height="106.5" fill="#4c72b0"/>
+<rect x="316.8" y="233.8" width="136.5" height="106.2" fill="#c44e52"/>
+<rect x="316.8" y="199.2" width="136.5" height="34.6" fill="#e8956a"/>
+<rect x="316.8" y="121.3" width="136.5" height="77.8" fill="#8da0cb"/>
+<rect x="316.8" y="87.8" width="136.5" height="33.5" fill="#4c72b0"/>
+<rect x="526.8" y="334.8" width="136.5" height="5.2" fill="#c44e52"/>
+<rect x="526.8" y="334.0" width="136.5" height="0.7" fill="#e8956a"/>
+<rect x="526.8" y="328.1" width="136.5" height="6.0" fill="#8da0cb"/>
+<rect x="526.8" y="324.7" width="136.5" height="3.4" fill="#4c72b0"/>
+<rect x="70" y="372" width="10" height="10" fill="#c44e52"/>
+<text x="84" y="382" font-family="system-ui,sans-serif" font-size="10">weak unlinked</text>
+<rect x="178" y="372" width="10" height="10" fill="#e8956a"/>
+<text x="192" y="382" font-family="system-ui,sans-serif" font-size="10">weak</text>
+<rect x="232" y="372" width="10" height="10" fill="#8da0cb"/>
+<text x="246" y="382" font-family="system-ui,sans-serif" font-size="10">moderate</text>
+<rect x="310" y="372" width="10" height="10" fill="#4c72b0"/>
+<text x="324" y="382" font-family="system-ui,sans-serif" font-size="10">strong</text>
+</svg>

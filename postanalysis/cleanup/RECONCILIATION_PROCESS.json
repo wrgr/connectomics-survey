@@ -1,0 +1,24 @@
+{
+  "status": "IA-004 derived post-processing; frozen source corpus unchanged",
+  "paper_scope": {
+    "direct": "scope_reasons contains direct_scope+resolution",
+    "inherited_connectome_provenance": "non-direct + specific connectome-analysis language + >=2 directed citations to direct-resolution papers + no macroscale flag",
+    "derived_nanoscale_core": "direct OR inherited_connectome_provenance",
+    "note": "The >=2 threshold is an empirical calibration on the frozen run, not a literature-standard cutoff; it must remain reported as such."
+  },
+  "person_reconciliation": {
+    "blocking": "exact normalized name OR normalization that removes only single-letter middle initials",
+    "evidence": "coauthor-neighborhood overlap + temporal compatibility; axes retained as descriptive corroboration",
+    "collision_rule": "same-name IDs that directly coauthor are classified as collision evidence; the blocked candidate name is excluded from coauthor-overlap metrics",
+    "merge_policy": "no automatic merge; require reviewed alias decision, preferably corroborated by ORCID/S2/publication evidence",
+    "probable_threshold": ">=3 shared normalized coauthor names + coauthor Jaccard >=0.20 + overlapping relevant-year intervals",
+    "possible_threshold": ">=1 shared normalized coauthor name + coauthor Jaccard >=0.10 + overlapping relevant-year intervals",
+    "note": "Thresholds are local conservative heuristics, not universal literature-standard cutoffs."
+  },
+  "principles": [
+    "Never mutate the preregistered broad corpus; create derived views only.",
+    "Never merge people from name equality alone.",
+    "Keep source author IDs and first-discovery provenance intact.",
+    "Apply approved identity merges only through an auditable alias table."
+  ]
+}

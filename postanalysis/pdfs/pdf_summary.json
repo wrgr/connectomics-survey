@@ -1,0 +1,36 @@
+{
+  "corpus_works": 1806,
+  "with_landing_url": 1806,
+  "with_doi": 1718,
+  "with_pdf_url": 1664,
+  "downloaded": 1688,
+  "direct_search_matches": 211,
+  "status_counts": {
+    "download_failed": 17,
+    "downloaded": 1688,
+    "linked": 101
+  },
+  "pdf_sources": {
+    "acm_browser": 1,
+    "arxiv": 246,
+    "author": 1,
+    "biorxiv": 298,
+    "cell_browser": 1,
+    "direct_search": 200,
+    "europepmc": 133,
+    "manual_oa": 26,
+    "mdpi_res": 9,
+    "openalex": 5,
+    "pmc_browser": 162,
+    "pmc_pdfdir": 10,
+    "pubmed": 173,
+    "unpaywall": 417,
+    "wiley_browser": 1
+  },
+  "files_dir": "files",
+  "title_similarity_floor": 0.92,
+  "note": "PDFs are OA/direct only; paywalled works keep landing URLs. Title/DOI search hits are flagged pdf_source=direct_search for audit.",
+  "seed_pdf_reject_citing_articles": true,
+  "direct_search_audit_rows": 211,
+  "out": "postanalysis/pdfs"
+}

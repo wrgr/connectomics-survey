@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400">
+<rect width="100%" height="100%" fill="#fafafa"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600">prime: directed citation roles by tier</text>
+<text x="25" y="195.0" transform="rotate(-90 25,195.0)" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">graph-matched works</text>
+<line x1="70" y1="340" x2="700" y2="340" stroke="#333"/>
+<line x1="70" y1="50" x2="70" y2="340" stroke="#333"/>
+<text x="175.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">core</text>
+<text x="385.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">adjacent</text>
+<text x="595.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">bridge</text>
+<rect x="106.8" y="328.1" width="136.5" height="11.9" fill="#4c72b0"/>
+<rect x="106.8" y="167.0" width="136.5" height="161.1" fill="#55a868"/>
+<rect x="106.8" y="149.3" width="136.5" height="17.6" fill="#8172b3"/>
+<rect x="106.8" y="87.8" width="136.5" height="61.5" fill="#ccb974"/>
+<rect x="106.8" y="87.8" width="136.5" height="0.0" fill="#c44e52"/>
+<rect x="316.8" y="339.0" width="136.5" height="1.0" fill="#4c72b0"/>
+<rect x="316.8" y="243.7" width="136.5" height="95.3" fill="#55a868"/>
+<rect x="316.8" y="203.2" width="136.5" height="40.5" fill="#8172b3"/>
+<rect x="316.8" y="161.2" width="136.5" height="41.9" fill="#ccb974"/>
+<rect x="316.8" y="161.2" width="136.5" height="0.0" fill="#c44e52"/>
+<rect x="526.8" y="340.0" width="136.5" height="0.0" fill="#4c72b0"/>
+<rect x="526.8" y="332.8" width="136.5" height="7.2" fill="#55a868"/>
+<rect x="526.8" y="331.9" width="136.5" height="1.0" fill="#8172b3"/>
+<rect x="526.8" y="327.1" width="136.5" height="4.8" fill="#ccb974"/>
+<rect x="526.8" y="327.1" width="136.5" height="0.0" fill="#c44e52"/>
+<rect x="70" y="372" width="10" height="10" fill="#4c72b0"/>
+<text x="84" y="382" font-family="system-ui,sans-serif" font-size="10">hub</text>
+<rect x="118" y="372" width="10" height="10" fill="#55a868"/>
+<text x="132" y="382" font-family="system-ui,sans-serif" font-size="10">broker</text>
+<rect x="184" y="372" width="10" height="10" fill="#8172b3"/>
+<text x="198" y="382" font-family="system-ui,sans-serif" font-size="10">only_in</text>
+<rect x="256" y="372" width="10" height="10" fill="#ccb974"/>
+<text x="270" y="382" font-family="system-ui,sans-serif" font-size="10">only_out</text>
+<rect x="334" y="372" width="10" height="10" fill="#c44e52"/>
+<text x="348" y="382" font-family="system-ui,sans-serif" font-size="10">isolate</text>
+</svg>

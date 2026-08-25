@@ -1,0 +1,71 @@
+{
+  "ranking": "works desc, then last, first_or_single, ultra_core, core (trim_middle eligible only)",
+  "ia": "IA-013",
+  "files": {
+    "full": "people_full.csv",
+    "top100_full": "people_full_top100.csv",
+    "prime": "people_prime.csv",
+    "top100_prime": "people_prime_top100.csv",
+    "graph_matched": "people_graph_matched.csv",
+    "top100_graph_matched": "people_graph_matched_top100.csv",
+    "integrated": "people_integrated.csv",
+    "top100_integrated": "people_integrated_top100.csv",
+    "integrated_plus_rescue": "people_integrated_plus_rescue.csv",
+    "top100_integrated_plus_rescue": "people_integrated_plus_rescue_top100.csv"
+  },
+  "full": {
+    "view": "full",
+    "works": 1806,
+    "author_mentions_raw": 13646,
+    "unique_persons_raw": 6592,
+    "excluded_single_middle_only": 3411,
+    "unique_persons_trim_middle": 3181,
+    "persons_with_first_or_last": 2163,
+    "top_100_min_works": 14,
+    "top_100_median_works": 21.0
+  },
+  "prime": {
+    "view": "prime",
+    "works": 1423,
+    "author_mentions_raw": 11277,
+    "unique_persons_raw": 5478,
+    "excluded_single_middle_only": 2897,
+    "unique_persons_trim_middle": 2581,
+    "persons_with_first_or_last": 1737,
+    "top_100_min_works": 13,
+    "top_100_median_works": 18.5
+  },
+  "graph_matched": {
+    "view": "graph_matched",
+    "works": 1314,
+    "author_mentions_raw": 10147,
+    "unique_persons_raw": 4861,
+    "excluded_single_middle_only": 2462,
+    "unique_persons_trim_middle": 2399,
+    "persons_with_first_or_last": 1612,
+    "top_100_min_works": 12,
+    "top_100_median_works": 18.0
+  },
+  "integrated": {
+    "view": "integrated",
+    "works": 931,
+    "author_mentions_raw": 7778,
+    "unique_persons_raw": 3620,
+    "excluded_single_middle_only": 1867,
+    "unique_persons_trim_middle": 1753,
+    "persons_with_first_or_last": 1145,
+    "top_100_min_works": 10,
+    "top_100_median_works": 16.0
+  },
+  "integrated_plus_rescue": {
+    "view": "integrated_plus_rescue",
+    "works": 1038,
+    "author_mentions_raw": 8895,
+    "unique_persons_raw": 4240,
+    "excluded_single_middle_only": 2289,
+    "unique_persons_trim_middle": 1951,
+    "persons_with_first_or_last": 1272,
+    "top_100_min_works": 12,
+    "top_100_median_works": 17.0
+  }
+}

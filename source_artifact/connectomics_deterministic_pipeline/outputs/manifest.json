@@ -1,0 +1,71 @@
+{
+  "package_version": "0.1.5",
+  "started_utc": "2026-08-22T15:59:53.039287+00:00",
+  "ended_utc": "2026-08-22T18:22:40.942355+00:00",
+  "config_sha256": "a11c830a0401647f6dec16b1b1f84107b6c139f3ad7f0491a814e5dcc13354f8",
+  "query_file_sha256": "65c0ee7b75172b778bad25fb5b3f2436c965aaec6350df445d499b3a51db0b1d",
+  "mode": "fresh",
+  "citation_hops": 1,
+  "counts": {
+    "retained_papers": 3768,
+    "people": 15565,
+    "paper_edges": 8065,
+    "health_bridge_papers": 1590,
+    "training_outreach_papers": 349,
+    "funding_projects": 0,
+    "axis_counts": {
+      "acquisition_preparation": 87,
+      "alternative_modality": 36,
+      "biological_application": 107,
+      "direct_connectomics": 242,
+      "health_translation": 891,
+      "infrastructure": 110,
+      "network_science": 2044,
+      "people_development": 213,
+      "proofreading_qc": 106,
+      "reconstruction": 38,
+      "structure_function": 161,
+      "synapse_inference": 13
+    },
+    "tier_counts": {
+      "peripheral": 1460,
+      "core_candidate": 746,
+      "supported": 1562
+    },
+    "retrieval_channel_counts": {
+      "lexical": 1776,
+      "1hop_references": 40271,
+      "1hop_citations": 30157,
+      "1hop_references_error": 137,
+      "1hop_citations_error": 1,
+      "author_saturation": 77261,
+      "author_saturation_error": 1
+    }
+  },
+  "deviations": {
+    "skip_frozen_349_screener_tagging": true,
+    "skip_absolute_core_independent_groups": true,
+    "disclosure": "Short-term protocol deviation: true author-group independence is not adjudicated in this run. Frozen-349 screener tagging and Absolute-Core/independent-groups checks are deferred and must be disclosed in reporting.\n"
+  },
+  "output_sha256": {
+    "coauthor_edges.csv": "b2d6d8544e391661915a2b27bde2cf5a0eae0b50b74f0fda89e49039d12fe3bb",
+    "coauthor_graph.graphml": "776aa12cca84e6b70e51edc52e158dd3195272bed44405d037e2ac6e25814dbe",
+    "coverage_summary.json": "6107583106b90c4a91c3d280aa00745302b6f8c383d07ec6f2ddf3bc6d92bd84",
+    "crossref_verification.csv": "9b273b9a033ff1a12c69bcd5b4143a0b32bd71d60842e1664174a1c2d747f05a",
+    "dedupe_log.csv": "d6134c81c2cbec8a41dd8029ca5b36718bd271acae13f25bc54d6d0163fa9902",
+    "funding_people.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "funding_projects.jsonl": "413f05589c7b9a0267ff0501c3b2b32607a0e1ed03ddc937931ca941923143e6",
+    "health_bridge.csv": "c3d92f786a0f98110ab8ccf4b6ec883c7665ea931a78a9a7f21b1a434d175a1a",
+    "paper_author_edges.csv": "b9a9b533890044017d908ff7ecc23ee2e69d8c6738e7e6fd2d0eb083952fcafe",
+    "paper_graph.graphml": "1cac5d80849b0782f754575cd3733a434cc293d1b0e771ce4482d71dbf9a7675",
+    "paper_graph_edges.csv": "5f936b7f0c8e1f4826b447d04acb8ba20417ad64543baa4dcfc16bd3c0ad1f54",
+    "paper_metrics.csv": "c6971b17e58b2de9e9c1bac2f669ed4a161b5cffb58503adb7eee969f597aba9",
+    "papers_all.csv": "b527e746f1476f9d6f82b3ef13bb8b2ab9418a387ed6d352acdd4ed696c83739",
+    "papers_retained.csv": "ca031fc88c5622927650a83f9e6243a1838ee87cf1e10b5e3288b45abe5350cd",
+    "people.csv": "adb15948888d5f7b57d9f42b86c58c53d3d44ce3d68c89ab1973fe61c3c51aa9",
+    "retrieval_log.jsonl": "3874275bd366016bbaf6c27c66b89bc27501d93d2369b9588d4e3579f6418cb5",
+    "screening_log.csv": "8f2bd04972ea124ea322082e5c5549a05461c3cf88b0a874983c68eec20009de",
+    "training_outreach.csv": "db70dc19dfbcc1bc600088d3d2bf7892dd98bb54af3d0755df4a9f54d3a24a2b"
+  },
+  "secret_handling": "SEMANTIC_SCHOLAR_API_KEY read from environment only; never serialized."
+}

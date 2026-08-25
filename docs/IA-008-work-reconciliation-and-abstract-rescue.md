@@ -43,10 +43,11 @@ Therefore the **raw semantic-analysis universe is 4,159 records**. The recovered
 2. normalizes titles and author surnames;
 3. generates conservative candidate pairs using exact-title and author-surname blocking;
 4. links strong version pairs using title similarity, author overlap, publication timing and preprint/publication status;
-5. preserves every source record in `work_versions.csv`;
-6. chooses a canonical display version, preferring a DOI-bearing non-preprint/journal version and richer metadata;
-7. carries the longest available abstract across linked versions;
-8. emits all link evidence in `work_link_evidence.csv`.
+5. applies optional manual same-work links from `manual_work_links.csv` in the output directory (or `--manual-links-csv`);
+6. preserves every source record in `work_versions.csv`;
+7. chooses a canonical display version, preferring a DOI-bearing non-preprint/journal version and richer metadata;
+8. carries the longest available abstract across linked versions;
+9. emits all link evidence in `work_link_evidence.csv`.
 
 ### Frozen-run dry-run
 
@@ -59,6 +60,10 @@ On artifact SHA-256 `6c1b7ea962fb1dd58e4e8c84c216d2d2d6999392949b598165016a2c205
 - work-level source groups before LLM screening: **1,678 core-audit, 2,062 unresolved, 396 role-bridge**.
 
 These counts may change if later manual review approves or rejects work-link candidates; raw records never disappear.
+
+### Addendum — audited manual links after screen ingest (2026-08-24)
+
+v2 and v3 screens ingested the **4,136-work** dry-run denominator. Subsequent audited pairs in `postanalysis/works/manual_work_links.csv` were applied on rebuild (`manual_links_applied` in `work_reconciliation_summary.json`). **Current canonical works: 4,100** (58 multi-version works; 59 records collapsed). This is version collapse, not exclusion. See IA-014.
 
 ## Citation aggregation
 

@@ -1,0 +1,39 @@
+{
+  "works": 4136,
+  "targets": 153,
+  "rescued": 75,
+  "missing_after": 78,
+  "rescued_by_source": {
+    "openalex": 60,
+    "web_identifier": 7,
+    "semantic_scholar": 3,
+    "web_page": 2,
+    "crossref": 1,
+    "europe_pmc": 1,
+    "internal_corpus": 1
+  },
+  "rescued_by_match_method": {
+    "identifier": 46,
+    "title_similarity": 20,
+    "web_identifier": 7,
+    "web_page": 2
+  },
+  "rescued_by_record_type": {
+    "research_paper": 67,
+    "peer_review_report": 5,
+    "erratum_correction": 1,
+    "editorial_commentary": 1,
+    "book_or_chapter": 1
+  },
+  "still_missing_by_record_type": {
+    "research_paper": 68,
+    "peer_review_report": 3,
+    "editorial_commentary": 3,
+    "book_or_chapter": 2,
+    "erratum_correction": 2
+  },
+  "title_match_review_queue": 9,
+  "web_search_queue": 78,
+  "title_similarity_floor": 0.92,
+  "note": "Pass-2 only; does not mutate postanalysis/enriched/. Wrong title matches are worse than gaps \u2014 review queue is authoritative for title/web fills."
+}

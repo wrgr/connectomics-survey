@@ -1,0 +1,192 @@
+work_id,source,identifier,error
+work_6de7a23e22856f8d,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6de7a23e22856f8d,datacite,10.1007/978-3-642-31208-3_6,<HTTPError 404: 'Not Found'>
+work_bc30ed97160e9e40,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_bc30ed97160e9e40,semantic_scholar,10.1111/ejn.14988/v1/review1,<HTTPError 429: ''>
+work_bc30ed97160e9e40,semantic_scholar,title,<HTTPError 429: ''>
+work_bc30ed97160e9e40,datacite,10.1111/ejn.14988/v1/review1,<HTTPError 404: 'Not Found'>
+work_ad2245ba02976b6a,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_4ff57c8e5c8f500e,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_4ff57c8e5c8f500e,semantic_scholar,title,<HTTPError 429: ''>
+work_b053626fbc21b334,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_9906649d49324506,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6ab7a357b4798918,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6ab7a357b4798918,semantic_scholar,title,<HTTPError 429: ''>
+work_6ab7a357b4798918,datacite,10.1016/j.plgene.2017.09.002,<HTTPError 404: 'Not Found'>
+work_6e83906bbd05541c,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6e83906bbd05541c,semantic_scholar,10.1007/978-1-0716-0691-9_14,<HTTPError 429: ''>
+work_6e83906bbd05541c,semantic_scholar,title,<HTTPError 429: ''>
+work_6e83906bbd05541c,datacite,10.1007/978-1-0716-0691-9_14,<HTTPError 404: 'Not Found'>
+work_30c6328fb5c37345,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_951fb77dafd531c1,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_951fb77dafd531c1,semantic_scholar,10.1007/s13295-016-0029-z,<HTTPError 429: ''>
+work_951fb77dafd531c1,semantic_scholar,title,<HTTPError 429: ''>
+work_951fb77dafd531c1,datacite,10.1007/s13295-016-0029-z,<HTTPError 404: 'Not Found'>
+work_633c537471d43a43,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_af05a96a7b98a578,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_af05a96a7b98a578,semantic_scholar,10.1016/b978-0-12-396460-1.00018-4,<HTTPError 429: ''>
+work_af05a96a7b98a578,semantic_scholar,title,<HTTPError 429: ''>
+work_af05a96a7b98a578,datacite,10.1016/b978-0-12-396460-1.00018-4,<HTTPError 404: 'Not Found'>
+work_a23d14dc6d3353f4,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_d85375e37eebccc4,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_d85375e37eebccc4,datacite,10.1016/b978-0-12-821861-7.00019-1,<HTTPError 404: 'Not Found'>
+work_69fc20e5a79a0fb9,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_69fc20e5a79a0fb9,semantic_scholar,10.1016/s0925-2312(02)00454-x,<HTTPError 429: ''>
+work_69fc20e5a79a0fb9,semantic_scholar,title,<HTTPError 429: ''>
+work_69fc20e5a79a0fb9,datacite,10.1016/s0925-2312(02)00454-x,<HTTPError 404: 'Not Found'>
+work_f63b8b7b7d092e9f,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6197cb0a19e134a2,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6197cb0a19e134a2,semantic_scholar,title,<HTTPError 429: ''>
+work_323495406f39c0b9,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_323495406f39c0b9,semantic_scholar,title,<HTTPError 429: ''>
+work_db5006897fc18923,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_db5006897fc18923,semantic_scholar,title,<HTTPError 429: ''>
+work_c921958d205463c4,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_2571e4f07b07fe14,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_2571e4f07b07fe14,semantic_scholar,10.1166/jnsne.2013.1046,<HTTPError 429: ''>
+work_2571e4f07b07fe14,semantic_scholar,title,<HTTPError 429: ''>
+work_2571e4f07b07fe14,datacite,10.1166/jnsne.2013.1046,<HTTPError 404: 'Not Found'>
+work_d4adb6b78aefd6e0,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_d4adb6b78aefd6e0,datacite,10.1016/b978-0-12-816633-8.00021-1,<HTTPError 404: 'Not Found'>
+work_189e64868871c682,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_189e64868871c682,semantic_scholar,title,<HTTPError 429: ''>
+work_5784e0fb41b66242,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_5784e0fb41b66242,datacite,10.1038/s41592-018-0166-0,<HTTPError 404: 'Not Found'>
+work_c6efde88fad32fc4,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_c6efde88fad32fc4,semantic_scholar,10.1007/978-3-031-43895-0_73,<HTTPError 429: ''>
+work_c6efde88fad32fc4,semantic_scholar,title,<HTTPError 429: ''>
+work_c6efde88fad32fc4,datacite,10.1007/978-3-031-43895-0_73,<HTTPError 404: 'Not Found'>
+work_b7c5c00e96df714c,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_b7c5c00e96df714c,semantic_scholar,10.1016/0378-8733(78)90021-7,<HTTPError 429: ''>
+work_b7c5c00e96df714c,semantic_scholar,title,<HTTPError 429: ''>
+work_b7c5c00e96df714c,datacite,10.1016/0378-8733(78)90021-7,<HTTPError 404: 'Not Found'>
+work_5aa5cbcf3f678396,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_5aa5cbcf3f678396,semantic_scholar,10.1007/978-3-031-26390-3_1,<HTTPError 429: ''>
+work_5aa5cbcf3f678396,semantic_scholar,title,<HTTPError 429: ''>
+work_5aa5cbcf3f678396,datacite,10.1007/978-3-031-26390-3_1,<HTTPError 404: 'Not Found'>
+work_ed733afc84891fc7,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_ed733afc84891fc7,semantic_scholar,title,<HTTPError 429: ''>
+work_a96fe36903088e18,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_4d5ee35a5b45078b,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_e75bb913a1bb3e89,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_e75bb913a1bb3e89,semantic_scholar,10.1038/s41592-025-02988-6,<HTTPError 429: ''>
+work_e75bb913a1bb3e89,datacite,10.1038/s41592-025-02988-6,<HTTPError 404: 'Not Found'>
+work_67618dfebaf7bb42,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_8663fe0ff3a1e60e,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_8663fe0ff3a1e60e,semantic_scholar,10.1038/s41592-026-03052-7,<HTTPError 429: ''>
+work_8663fe0ff3a1e60e,datacite,10.1038/s41592-026-03052-7,<HTTPError 404: 'Not Found'>
+work_c797299f5f6bfb8b,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_c797299f5f6bfb8b,semantic_scholar,10.1007/978-1-4614-2356-0_55,<HTTPError 429: ''>
+work_c797299f5f6bfb8b,semantic_scholar,title,<HTTPError 429: ''>
+work_c797299f5f6bfb8b,datacite,10.1007/978-1-4614-2356-0_55,<HTTPError 404: 'Not Found'>
+work_d68614e9234e908d,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_d68614e9234e908d,semantic_scholar,10.1038/s41583-024-00879-x,<HTTPError 429: ''>
+work_d68614e9234e908d,datacite,10.1038/s41583-024-00879-x,<HTTPError 404: 'Not Found'>
+work_8556a02cf489d2d5,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_8556a02cf489d2d5,semantic_scholar,title,<HTTPError 429: ''>
+work_a8224c2e80828d9a,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_058739ee82382c88,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_058739ee82382c88,semantic_scholar,10.1002/cne.24932/v1/review2,<HTTPError 429: ''>
+work_058739ee82382c88,semantic_scholar,title,<HTTPError 429: ''>
+work_058739ee82382c88,datacite,10.1002/cne.24932/v1/review2,<HTTPError 404: 'Not Found'>
+work_464ca7457c3d0c83,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_464ca7457c3d0c83,semantic_scholar,10.7912/c2vh24,<HTTPError 429: ''>
+work_5d1a82db0c714b0e,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_5d1a82db0c714b0e,semantic_scholar,10.1007/978-3-031-21083-9_12,<HTTPError 429: ''>
+work_5d1a82db0c714b0e,semantic_scholar,title,<HTTPError 429: ''>
+work_5d1a82db0c714b0e,datacite,10.1007/978-3-031-21083-9_12,<HTTPError 404: 'Not Found'>
+work_0c5cdd3de8680ee3,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_0c5cdd3de8680ee3,semantic_scholar,10.1016/j.algal.2022.102943,<HTTPError 429: ''>
+work_0c5cdd3de8680ee3,semantic_scholar,title,<HTTPError 429: ''>
+work_0c5cdd3de8680ee3,datacite,10.1016/j.algal.2022.102943,<HTTPError 404: 'Not Found'>
+work_ae79040e025d26fb,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_ae79040e025d26fb,semantic_scholar,10.1007/s13721-019-0192-6,<HTTPError 429: ''>
+work_ae79040e025d26fb,semantic_scholar,title,<HTTPError 429: ''>
+work_ae79040e025d26fb,datacite,10.1007/s13721-019-0192-6,<HTTPError 404: 'Not Found'>
+work_4383cd87e4a9f214,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_b7671bc4976f1fe5,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_b7671bc4976f1fe5,datacite,10.53053/qfxt1842,<HTTPError 404: 'Not Found'>
+work_5cda401253232b55,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_5cda401253232b55,datacite,10.1007/978-3-030-32251-9_51,<HTTPError 404: 'Not Found'>
+work_c35bc9b5d9a82cfe,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_c35bc9b5d9a82cfe,datacite,10.1016/j.neulet.2017.09.002,<HTTPError 404: 'Not Found'>
+work_3eeadd4ace5b5f2e,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_3eeadd4ace5b5f2e,semantic_scholar,title,<HTTPError 429: ''>
+work_6e7cfb821a1c3304,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6e7cfb821a1c3304,semantic_scholar,title,<HTTPError 429: ''>
+work_d71641fa0893683c,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_d71641fa0893683c,semantic_scholar,10.1016/s0920-9964(97)88513-1,<HTTPError 429: ''>
+work_d71641fa0893683c,semantic_scholar,title,<HTTPError 429: ''>
+work_d71641fa0893683c,datacite,10.1016/s0920-9964(97)88513-1,<HTTPError 404: 'Not Found'>
+work_a9f4291de842d4c9,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_a9f4291de842d4c9,semantic_scholar,10.1007/978-3-030-32391-2,<HTTPError 429: ''>
+work_a9f4291de842d4c9,semantic_scholar,title,<HTTPError 429: ''>
+work_a9f4291de842d4c9,datacite,10.1007/978-3-030-32391-2,<HTTPError 404: 'Not Found'>
+work_3ec2672b886ad260,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_3ec2672b886ad260,semantic_scholar,title,<HTTPError 429: ''>
+work_3ec2672b886ad260,datacite,10.1007/978-3-319-12913-6_1,<HTTPError 404: 'Not Found'>
+work_e3d43c22f15e17a3,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_f61bd0548913eaaa,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_23451f238867b69a,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_23451f238867b69a,semantic_scholar,10.1038/d41586-024-03182-y,<HTTPError 429: ''>
+work_23451f238867b69a,semantic_scholar,title,<HTTPError 429: ''>
+work_23451f238867b69a,datacite,10.1038/d41586-024-03182-y,<HTTPError 404: 'Not Found'>
+work_e80c6bc77f7211bd,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_e80c6bc77f7211bd,semantic_scholar,title,<HTTPError 429: ''>
+work_5ef7933f6a4f127a,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_5ef7933f6a4f127a,semantic_scholar,title,<HTTPError 429: ''>
+work_4c04dead9c739144,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_4c04dead9c739144,datacite,10.1007/978-3-319-46976-8_26,<HTTPError 404: 'Not Found'>
+work_c6cb28062aa269f5,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_ffd60f2d9085f84d,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_ffd60f2d9085f84d,semantic_scholar,title,<HTTPError 429: ''>
+work_ffd60f2d9085f84d,datacite,10.1007/978-1-4615-1235-6_10,<HTTPError 404: 'Not Found'>
+work_b2b287b17fb9a689,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_b2b287b17fb9a689,semantic_scholar,title,<HTTPError 429: ''>
+work_b2b287b17fb9a689,datacite,10.1016/b978-0-12-804076-8.00016-5,<HTTPError 404: 'Not Found'>
+work_b3bb626c156d60fc,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_b3bb626c156d60fc,datacite,10.1007/s00338-021-02213-8,<HTTPError 404: 'Not Found'>
+work_28f861d75395bfb5,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_28f861d75395bfb5,datacite,10.1038/nature13877,<HTTPError 404: 'Not Found'>
+work_89fbbf9a9745feb9,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_bd07f974efc37587,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_bd07f974efc37587,datacite,10.1515/s13295-016-0029-z,<HTTPError 404: 'Not Found'>
+work_3a2a250adcf4072f,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_007a21bf306095ee,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_007a21bf306095ee,datacite,10.1007/978-1-4757-3783-7_6,<HTTPError 404: 'Not Found'>
+work_09b81d0a3b3ce10d,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_02580fc06dfe3e98,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_ba35af28814b98ba,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_ba35af28814b98ba,semantic_scholar,10.1016/b978-0-12-374709-9.00014-6,<HTTPError 429: ''>
+work_ba35af28814b98ba,semantic_scholar,title,<HTTPError 429: ''>
+work_ba35af28814b98ba,datacite,10.1016/b978-0-12-374709-9.00014-6,<HTTPError 404: 'Not Found'>
+work_85b3713ae7f97543,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_85b3713ae7f97543,semantic_scholar,10.1016/j.baga.2013.04.001,<HTTPError 429: ''>
+work_85b3713ae7f97543,datacite,10.1016/j.baga.2013.04.001,<HTTPError 404: 'Not Found'>
+work_89a1c3d1c130ab2c,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_89a1c3d1c130ab2c,semantic_scholar,10.7554/elife.26349.042,<HTTPError 429: ''>
+work_89a1c3d1c130ab2c,semantic_scholar,title,<HTTPError 429: ''>
+work_89a1c3d1c130ab2c,datacite,10.7554/elife.26349.042,<HTTPError 404: 'Not Found'>
+work_a95f051840c2a18c,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_a95f051840c2a18c,semantic_scholar,10.1007/978-3-030-32281-6_11,<HTTPError 429: ''>
+work_a95f051840c2a18c,datacite,10.1007/978-3-030-32281-6_11,<HTTPError 404: 'Not Found'>
+work_a8a6a9c7c936885b,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_a8a6a9c7c936885b,datacite,10.1007/s00787-022-02089-1,<HTTPError 404: 'Not Found'>
+work_364121399118444e,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_364121399118444e,semantic_scholar,title,<HTTPError 429: ''>
+work_9f6db33a12953586,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_9f6db33a12953586,semantic_scholar,title,<HTTPError 429: ''>
+work_6e745af38acdf0be,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_6e745af38acdf0be,semantic_scholar,title,<HTTPError 429: ''>
+work_1ba7f76b710b4f43,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_1ba7f76b710b4f43,semantic_scholar,10.1007/978-3-031-46005-0_9,<HTTPError 429: ''>
+work_1ba7f76b710b4f43,semantic_scholar,title,<HTTPError 429: ''>
+work_1ba7f76b710b4f43,datacite,10.1007/978-3-031-46005-0_9,<HTTPError 404: 'Not Found'>
+work_0b38618c926fc003,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_67372207b468d762,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_fe76e4c6b99b279f,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_7166c3e23069646c,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_64cf91ee08576f41,openalex,title,<HTTPError 429: 'Too Many Requests'>
+work_64cf91ee08576f41,semantic_scholar,10.1016/j.neures.2009.09.1554,<HTTPError 429: ''>
+work_64cf91ee08576f41,semantic_scholar,title,<HTTPError 429: ''>
+work_64cf91ee08576f41,datacite,10.1016/j.neures.2009.09.1554,<HTTPError 404: 'Not Found'>

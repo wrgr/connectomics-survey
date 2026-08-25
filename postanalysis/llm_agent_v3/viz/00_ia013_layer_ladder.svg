@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400">
+<rect width="100%" height="100%" fill="#fafafa"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600">IA-013 layer ladder (semantic → matched → integrated → +rescue)</text>
+<text x="25" y="195.0" transform="rotate(-90 25,195.0)" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">works</text>
+<line x1="70" y1="340" x2="700" y2="340" stroke="#333"/>
+<line x1="70" y1="50" x2="70" y2="340" stroke="#333"/>
+<text x="133.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">inclusive</text>
+<text x="259.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">core</text>
+<text x="385.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">adjacent</text>
+<text x="511.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">bridge</text>
+<text x="637.0" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">ultra_core</text>
+<rect x="92.0" y="87.8" width="18.4" height="252.2" fill="#8da0cb"/>
+<rect x="218.1" y="243.1" width="18.4" height="96.9" fill="#8da0cb"/>
+<rect x="344.1" y="212.8" width="18.4" height="127.2" fill="#8da0cb"/>
+<rect x="470.1" y="311.9" width="18.4" height="28.1" fill="#8da0cb"/>
+<rect x="596.0" y="332.5" width="18.4" height="7.5" fill="#8da0cb"/>
+<rect x="112.5" y="156.5" width="18.4" height="183.5" fill="#8172b2"/>
+<rect x="238.5" y="252.6" width="18.4" height="87.4" fill="#8172b2"/>
+<rect x="364.5" y="249.7" width="18.4" height="90.3" fill="#8172b2"/>
+<rect x="490.5" y="334.3" width="18.4" height="5.7" fill="#8172b2"/>
+<rect x="616.5" y="334.4" width="18.4" height="5.6" fill="#8172b2"/>
+<rect x="133.0" y="210.0" width="18.4" height="130.0" fill="#4c72b0"/>
+<rect x="259.0" y="266.1" width="18.4" height="73.9" fill="#4c72b0"/>
+<rect x="385.0" y="287.6" width="18.4" height="52.4" fill="#4c72b0"/>
+<rect x="511.0" y="336.2" width="18.4" height="3.8" fill="#4c72b0"/>
+<rect x="637.0" y="334.4" width="18.4" height="5.6" fill="#4c72b0"/>
+<rect x="153.5" y="195.1" width="18.4" height="144.9" fill="#55a868"/>
+<rect x="279.5" y="261.9" width="18.4" height="78.1" fill="#55a868"/>
+<rect x="405.5" y="281.9" width="18.4" height="58.1" fill="#55a868"/>
+<rect x="531.5" y="331.2" width="18.4" height="8.8" fill="#55a868"/>
+<rect x="657.5" y="332.5" width="18.4" height="7.5" fill="#55a868"/>
+<rect x="70" y="372" width="10" height="10" fill="#8da0cb"/>
+<text x="84" y="382" font-family="system-ui,sans-serif" font-size="10">A full</text>
+<rect x="136" y="372" width="10" height="10" fill="#8172b2"/>
+<text x="150" y="382" font-family="system-ui,sans-serif" font-size="10">B matched</text>
+<rect x="220" y="372" width="10" height="10" fill="#4c72b0"/>
+<text x="234" y="382" font-family="system-ui,sans-serif" font-size="10">C integrated</text>
+<rect x="322" y="372" width="10" height="10" fill="#55a868"/>
+<text x="336" y="382" font-family="system-ui,sans-serif" font-size="10">C∪D +rescue</text>
+</svg>

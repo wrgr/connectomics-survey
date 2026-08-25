@@ -1,0 +1,16 @@
+{
+  "run_mode": "agent_offline",
+  "model": "agent:cursor/claude-opus-5-thinking@2026-08-24",
+  "prompt_version": "IA-007-v3-work-level",
+  "criteria_sha256": "7fb4cab60b9426966bf43edf4e02e5c1b19b5ddf3ddd43cfb8292902f4b8b04a",
+  "works_csv_sha256": "3f2209099783b0803bca2aea3a8da5eac3ade36365645f1557a067151ad392e7",
+  "works_csv": "postanalysis/enriched/canonical_works_enriched.csv",
+  "started_at": "2026-08-24T20:04:54Z",
+  "adjudicator_date": "2026-08-24",
+  "batch_size": 100,
+  "limit": 0,
+  "cache_schema": "ia007-cache-v2",
+  "completed_at": "2026-08-24T20:05:10Z",
+  "screened_works": 4136,
+  "undecided_works": 0
+}

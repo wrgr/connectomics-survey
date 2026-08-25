@@ -1,0 +1,133 @@
+{
+  "triage_version": "IA-010-v1-record-type",
+  "input": {
+    "path": "postanalysis/works/canonical_works.csv",
+    "sha256": "1a617ebf22f3296f082d169c39e25103b241696732f5537e3521445a66822af1",
+    "rows": 4136
+  },
+  "counts_by_record_type": {
+    "research_paper": 4086,
+    "peer_review_report": 10,
+    "erratum_correction": 9,
+    "editorial_commentary": 24,
+    "book_or_chapter": 3,
+    "conference_abstract": 4
+  },
+  "counts_by_source_group_and_record_type": {
+    "core_audit": {
+      "editorial_commentary": 13,
+      "erratum_correction": 5,
+      "peer_review_report": 7,
+      "research_paper": 1653
+    },
+    "role_bridge": {
+      "editorial_commentary": 1,
+      "research_paper": 395
+    },
+    "unresolved": {
+      "book_or_chapter": 3,
+      "conference_abstract": 4,
+      "editorial_commentary": 10,
+      "erratum_correction": 4,
+      "peer_review_report": 3,
+      "research_paper": 2038
+    }
+  },
+  "confidence_by_record_type": {
+    "research_paper": {
+      "high": 4066,
+      "medium": 20
+    },
+    "peer_review_report": {
+      "medium": 10
+    },
+    "erratum_correction": {
+      "high": 2,
+      "medium": 7
+    },
+    "editorial_commentary": {
+      "high": 7,
+      "medium": 17
+    },
+    "book_or_chapter": {
+      "medium": 1,
+      "low": 2
+    },
+    "conference_abstract": {
+      "high": 2,
+      "medium": 2
+    }
+  },
+  "signal_provenance": {
+    "title_rule_counts": {
+      "abstract_collection": 1,
+      "author_response": 7,
+      "comment_on": 1,
+      "commentary_prefix": 2,
+      "correction_prefix": 2,
+      "correction_to": 1,
+      "corrigendum": 1,
+      "editorial_prefix": 4,
+      "erratum": 4,
+      "named_correction": 1,
+      "numbered_abstract": 3,
+      "numbered_chapter": 1,
+      "perspective_chapter": 1,
+      "qa_interview": 2,
+      "reply_to": 2,
+      "review_for_quoted": 3
+    },
+    "publication_type_signal_counts": {
+      "Book": 1,
+      "Editorial": 14,
+      "News": 1
+    },
+    "vetoed_publication_type_counts": {
+      "Editorial": 5
+    },
+    "watchlist_counts": {
+      "proceedings_mention": 3,
+      "special_issue": 1,
+      "supplement": 1,
+      "tutorial_or_keynote": 1,
+      "viewpoint_prefix": 1
+    },
+    "works_without_publication_types": 661,
+    "non_papers_from_title_evidence_only": 34
+  },
+  "abstract_status": {
+    "works_without_abstract": 321,
+    "non_papers_without_abstract": 18,
+    "non_paper_types_without_abstract": {
+      "book_or_chapter": 3,
+      "editorial_commentary": 4,
+      "erratum_correction": 3,
+      "peer_review_report": 8
+    },
+    "research_papers_without_abstract": 303
+  },
+  "denominators": {
+    "canonical_works_original": 4136,
+    "non_paper_records": 50,
+    "revised_paper_denominator": 4086,
+    "invariant": "4136 canonical works = 4086 research papers + 50 non-paper records",
+    "note": "Non-paper records are labelled and retained, never deleted. Frozen retrieval provenance (3,768 retained, 391 recovered, 4,159 record universe, 4,136 canonical works) is unchanged; only the reported paper denominator differs.",
+    "expected_canonical_works": 4136,
+    "complete": true
+  },
+  "review_queue": {
+    "rows": 66,
+    "non_papers_awaiting_confirmation": 46,
+    "papers_flagged_for_a_second_look": 20,
+    "reasons": {
+      "nonpaper_with_substantial_abstract": 18,
+      "signal_conflict": 8,
+      "unconfirmed_nonpaper_low_confidence": 2,
+      "unconfirmed_nonpaper_medium_confidence": 37,
+      "vetoed_nonpaper_signal_kept_as_paper": 5,
+      "watchlist_title": 7,
+      "weak_nonpaper_signal_kept_as_paper": 9
+    }
+  },
+  "principle": "Deterministic, high-precision in the non-paper direction. Anchored title patterns only; a contradicted or weak signal resolves to research_paper plus human review rather than exclusion. No keep, core, bridge, work-link or abstract status is mutated."
+}

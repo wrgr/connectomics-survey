@@ -1,0 +1,16 @@
+{
+  "ia": "IA-013 \u00a73",
+  "definition": "core_relevant \u2227 \u00acultra \u2227 year\u22652019 \u2227 (cites_per_year\u2265p90_recent=12.6071 \u2228 cites_pct_in_year\u22650.9 \u2228 (year\u22652023 \u2227 cites\u226520))",
+  "ref_year": 2026,
+  "n": 68,
+  "cites_per_year_p90_recent_non_ultra": 12.607142857142858,
+  "by_link_strength": {
+    "strong": 46,
+    "moderate": 15,
+    "weak_unlinked": 3,
+    "no_graph": 3,
+    "weak": 1
+  },
+  "in_integrated_plus_rescue": 65,
+  "weak_unlinked": 3
+}

@@ -1,0 +1,11 @@
+role,origin,paper_count,min_direct_core_relations,cites_core,cited_by_core,macroscale_flagged
+training_outreach,retained_noncore,0,1,0,0,0
+training_outreach,recovered_keep_false,32,1,27,6,2
+health,retained_noncore,8,2,6,6,3
+health,recovered_keep_false,59,2,26,39,6
+proofreading_annotation,retained_noncore,2,1,1,1,0
+proofreading_annotation,recovered_keep_false,113,1,99,20,2
+infrastructure_methods,retained_noncore,2,2,1,2,0
+infrastructure_methods,recovered_keep_false,144,2,114,74,0
+network_science,retained_noncore,4,2,1,3,1
+network_science,recovered_keep_false,50,2,26,34,0
