@@ -27,6 +27,7 @@ Rows 26–28 were applied to the repo copy of v3 during execution on 2026-08-25 
 | 42 | LLM involvement in vocabulary/criteria under-specified | **New §5.6**: LLMs may *extract* terms (each adopted term traceable to a source review) and *audit* criteria adversarially (logged); they never author criteria; §1 execution-context logging applies to every use |
 | 43 | Many steps; execution risk of drowning in machinery | §24 opens with a **critical path** — the twelve steps that constitute the study; everything else is marked supporting and cannot block them |
 | 44 | Audience-facing views (curriculum lists, reading paths) could be mistaken for protocol outputs | §22.1: **audience views are a different thing** — downstream editorial products built *from* a released corpus version, allowed to be opinionated, carrying no evidentiary weight, never feeding back into tiers |
+| 45 | The exploratory review pool accreted beyond the written bootstrap (only ~2,240 of 6,506 records from the A1–A4 anchor searches; ~3,200 from an open venue sweep, ~1,226 from citation expansion, 22 ad-hoc term passes) | §5.2 fully specified and **re-executed from zero** under the written procedure with §19 logging; the D-002 lesson becomes a rule-based dedicated-review-venue supplement instead of an open sweep; the re-derived pool is the review pool of record, the exploratory pool is retained as such, and the diff between them is reported |
 
 ---
 
@@ -133,7 +134,27 @@ No person enters because they are presumed important.
 
 ## 5. Search vocabulary development
 
-*(§5.1–§5.4 unchanged from v3: controlled vocabulary; the §5.2 canonical-review bootstrap — pass-1 anchor searches executed 2026-08-25, candidate pool of ~6,506 review records frozen in the repository; retrieved-paper vocabulary with logged additions; era stratification with the three anchor-term sets. The lexicon remains a frozen, timestamped, reproducible artifact — extraction and freeze are the remaining §24 Phase-0 steps.)*
+*(§5.1, §5.3, §5.4 unchanged from v3: controlled vocabulary; retrieved-paper vocabulary with logged additions; era stratification with the three anchor-term sets. The lexicon remains a frozen, timestamped, reproducible artifact.)*
+
+### 5.2 Canonical reviews — bootstrap procedure *(fully specified; supersedes the exploratory pool)*
+
+An exploratory candidate pool (~6,506 records) was accumulated during protocol development through anchor searches plus ad-hoc supplements (open venue sweep, citation expansion, 22 unregistered term passes; deviation D-002). It is **retained as an exploratory artifact** (`bootstrap_2026-08-25/`) and is not the pool of record. The pool of record is re-derived from zero under this procedure, executed with §19 logging; the diff against the exploratory pool is reported (what accretion added that the procedure misses, and vice versa).
+
+**Retrieval (mechanical; no judgment).**
+
+1. Four anchor-term searches, verbatim, in two sources:
+   - **A1** connectome*/connectomic* · **A2** "serial section(s)" AND "electron microscopy" · **A3** "volume electron microscopy" / "volume EM" · **A4** "dense reconstruction" / "saturated reconstruction".
+   - **PubMed** (E-utilities): title/abstract fields with `Review[pt]`, e.g. A1 = `(connectome*[tiab] OR connectomic*[tiab]) AND Review[pt]`.
+   - **OpenAlex**: `title_and_abstract.search` equivalents with `type:review`.
+2. **Dedicated-review-venue supplement (the D-002 fix, as a rule).** Review-type filters under-retrieve (many genuine reviews are not typed as reviews). Therefore the same four anchor queries are additionally run **without** the type filter, restricted to venues that publish only or predominantly reviews, defined by name rule: *Nature Reviews \**, *Annual Review of \**, *Current Opinion in \**, *Trends in \**, *Physiological Reviews*, *Nature Reviews Methods Primers*. No open venue sweep; no per-venue judgment calls. (The supplement executes in OpenAlex, whose venue metadata supports the name rule; PubMed's journal field cannot express name-prefix rules — recorded in the derivation log.)
+3. Deduplicate by DOI, then PMID, then normalized title. Record per §19: source, exact query, date, result count.
+4. The gap-fill additions (G1–G9) and the frozen panel enter by their own logged routes and are unaffected.
+
+Retrieval purity is about provenance, not noise: off-scope records in the pool are harmless because inclusion into the lexicon-source set happens only at selection.
+
+**Selection (judgment; recorded).** From the pool: the top-cited review per 5-year window from 1990 onward, plus the top-cited review per pipeline stratum (§17), to a minimum of one review per stratum, with in-scope adjudication under §2 at selection time and selection counts recorded. Citation counts for selection are taken from OpenAlex/S2 at selection time and recorded.
+
+**Iteration.** After lexicon extraction, re-run step 1 once with the expanded lexicon; add newly surfaced reviews; stop. Reviews selected are tagged with their COI status relative to the screener roster at selection time.
 
 ### 5.5 Probe/attestation panel *(executed and frozen 2026-08-25)*
 

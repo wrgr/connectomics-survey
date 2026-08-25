@@ -1,0 +1,211 @@
+{
+  "procedure": "v4 §5.2",
+  "run_started": "2026-08-25T21:18:57+00:00",
+  "queries": [
+    {
+      "source": "pubmed",
+      "query": "(connectome*[tiab] OR connectomic*[tiab]) AND Review[pt]",
+      "route": "PMv2-A1",
+      "date": "2026-08-25T21:18:57+00:00",
+      "count": 1128,
+      "cached": false,
+      "status": "complete"
+    },
+    {
+      "source": "pubmed",
+      "query": "(\"serial section\"[tiab] OR \"serial sections\"[tiab] OR \"serial-section\"[tiab]) AND \"electron microscopy\"[tiab] AND Review[pt]",
+      "route": "PMv2-A2",
+      "date": "2026-08-25T21:18:57+00:00",
+      "count": 40,
+      "cached": false,
+      "status": "complete"
+    },
+    {
+      "source": "pubmed",
+      "query": "(\"volume electron microscopy\"[tiab] OR \"volume EM\"[tiab]) AND Review[pt]",
+      "route": "PMv2-A3",
+      "date": "2026-08-25T21:18:57+00:00",
+      "count": 58,
+      "cached": false,
+      "status": "complete"
+    },
+    {
+      "source": "pubmed",
+      "query": "(\"dense reconstruction\"[tiab] OR \"saturated reconstruction\"[tiab]) AND Review[pt]",
+      "route": "PMv2-A4",
+      "date": "2026-08-25T21:18:57+00:00",
+      "count": 3,
+      "cached": false,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,type:review",
+      "route": "OAv2-A1",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,type:review",
+      "route": "OAv2-A2",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,type:review",
+      "route": "OAv2-A3",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,type:review",
+      "route": "OAv2-A4",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.display_name.search:nature%20reviews",
+      "route": "OAv2-A1-venue:nature reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.display_name.search:annual%20review%20of",
+      "route": "OAv2-A1-venue:annual review of",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.display_name.search:current%20opinion%20in",
+      "route": "OAv2-A1-venue:current opinion in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.display_name.search:trends%20in",
+      "route": "OAv2-A1-venue:trends in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.display_name.search:physiological%20reviews",
+      "route": "OAv2-A1-venue:physiological reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.display_name.search:nature%20reviews",
+      "route": "OAv2-A2-venue:nature reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.display_name.search:annual%20review%20of",
+      "route": "OAv2-A2-venue:annual review of",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.display_name.search:current%20opinion%20in",
+      "route": "OAv2-A2-venue:current opinion in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.display_name.search:trends%20in",
+      "route": "OAv2-A2-venue:trends in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.display_name.search:physiological%20reviews",
+      "route": "OAv2-A2-venue:physiological reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.display_name.search:nature%20reviews",
+      "route": "OAv2-A3-venue:nature reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.display_name.search:annual%20review%20of",
+      "route": "OAv2-A3-venue:annual review of",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.display_name.search:current%20opinion%20in",
+      "route": "OAv2-A3-venue:current opinion in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.display_name.search:trends%20in",
+      "route": "OAv2-A3-venue:trends in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.display_name.search:physiological%20reviews",
+      "route": "OAv2-A3-venue:physiological reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.display_name.search:nature%20reviews",
+      "route": "OAv2-A4-venue:nature reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.display_name.search:annual%20review%20of",
+      "route": "OAv2-A4-venue:annual review of",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.display_name.search:current%20opinion%20in",
+      "route": "OAv2-A4-venue:current opinion in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.display_name.search:trends%20in",
+      "route": "OAv2-A4-venue:trends in",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.display_name.search:physiological%20reviews",
+      "route": "OAv2-A4-venue:physiological reviews",
+      "date": "2026-08-25T21:18:57+00:00",
+      "status": "PENDING (budget exhausted)"
+    }
+  ],
+  "complete": false
+}
