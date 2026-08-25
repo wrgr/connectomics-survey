@@ -554,7 +554,7 @@ def main() -> int:
             print("    !! RETRACTION NOTICE FOUND")
 
     pool = {
-        "artifact": "review_pool.json",
+        "artifact": "gapfill_panel_resolution.json",
         "schema_version": "IA-015.1",
         "generated_at": run_ts,
         "screener_of_record": {
@@ -582,7 +582,10 @@ def main() -> int:
         ],
         "entries": pool_entries,
     }
-    pool_path = OUT_DIR / "review_pool.json"
+    # Resolution/verification record for the 15 gap-fill/panel works. The
+    # working review pool (bootstrap pool + gap-fill merge + COI tags) is
+    # review_pool.json, produced by analysis/sync_bootstrap_pool.py.
+    pool_path = OUT_DIR / "gapfill_panel_resolution.json"
     pool_path.write_text(json.dumps(pool, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {pool_path}")
 

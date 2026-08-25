@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-08-25T19:32:10+00:00",
+  "coi_artifact": {
+    "path": "postanalysis/review_pool/coi/COI_sets_WGR_frozen.json",
+    "file_sha256": "b162b0ca4aea466c272bb7fd62f8a188d6748a49660bf0dcfd4b616b6ef3d060",
+    "internal_content_sha256": "46f8688242f00b4e3c162d3958ca062b898f748f4e16461d27b268ae0aaf9d08"
+  },
+  "role_approximation": "Qualifying roles approximated as first- and last-listed OpenAlex authorship; corresponding-author metadata not captured. Middle-author d1 matches are reported as evidence but do not raise the tag to COI-1 on their own.",
+  "works": {
+    "G1": {
+      "doi": "10.1016/s0074-7696(08)60956-0",
+      "citation": "Ware RW, LoPresti V (1975). Three-dimensional reconstruction from serial sections. Int. Rev. Cytol. 40:325-440",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "G2": {
+      "doi": "10.1111/j.1365-2818.2005.01466.x",
+      "citation": "Fiala JC (2005). Reconstruct: a free editor for serial section microscopy. J. Microscopy 218:52-61",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "G3": {
+      "doi": "10.1146/annurev-cellbio-100818-125444",
+      "citation": "Scheffer LK, Meinertzhagen IA (2019). The Fly Brain Atlas. Annu. Rev. Cell Dev. Biol. 35:637-653",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "G4": {
+      "doi": "10.1038/s43586-022-00131-9",
+      "citation": "Peddie CJ, Genoud C, Kreshuk A, ..., Collinson LM (2022). Volume electron microscopy. Nat. Rev. Methods Primers 2:51",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "G5": {
+      "doi": "10.1038/s41592-018-0219-4",
+      "citation": "Wassie AT, Zhao Y, Boyden ES (2019). Expansion microscopy: principles and uses in biological research. Nat. Methods 16:33-41",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "G6": {
+      "doi": "10.1038/s41592-018-0185-x",
+      "citation": "Kebschull JM, Zador AM (2018). Cellular barcoding: lineage tracing, screening and beyond. Nat. Methods 15:871-879",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "G7": {
+      "doi": "10.1038/s41592-018-0181-1",
+      "citation": "Vogelstein JT, Perlman E, Falk B, et al. (2018). A community-developed open-source computational ecosystem for big neuro data. Nat. Methods 15:846-847",
+      "coi_screener_tag": "COI-0",
+      "evidence": [
+        "screener OpenAlex author ID present in authorship"
+      ]
+    },
+    "G8": {
+      "doi": "10.1111/jmi.13134",
+      "citation": "Kievits AJ, Lane R, Carroll EC, Hoogenboom JP (2022). How innovations in methodology offer new prospects for volume electron microscopy. J. Microscopy 287:114-137",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "G9": {
+      "doi": "10.1111/cgf.14574",
+      "citation": "Beyer J, et al. (2022). A Survey of Visualization and Analysis in High-Resolution Connectomics. Comput. Graph. Forum 41:573-607",
+      "coi_screener_tag": "COI-1",
+      "evidence": [
+        "last-listed author Hanspeter Pfister (A5043151044) in frozen d1 set"
+      ]
+    },
+    "R1": {
+      "doi": "10.1038/s41583-025-00998-z",
+      "citation": "Helmstaedter M (2025). Synaptic-resolution connectomics: towards large brains and connectomic screening. Nat. Rev. Neurosci.",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "R2": {
+      "doi": "10.1016/j.conb.2019.04.001",
+      "citation": "Lee K, Turner N, Macrina T, et al. (2019). Convolutional nets for reconstructing neural circuits from brain images acquired by serial section electron microscopy. Curr. Opin. Neurobiol. 55:188-198",
+      "coi_screener_tag": "COI-1",
+      "evidence": [
+        "first-listed author Kisuk Lee (A5101950460) in frozen d1 set",
+        "last-listed author H. Sebastian Seung (A5044273339) in frozen d1 set",
+        "d1 middle-author overlap (not tag-raising): Nicholas L. Turner (A5042520357); Thomas Macrina (A5021620351); Jingpeng Wu (A5047394906)"
+      ]
+    },
+    "R3": {
+      "doi": "10.1016/j.cois.2022.100968",
+      "citation": "Galili DS, Jefferis GSXE, et al. (2022). Connectomics and the neural basis of behaviour. Curr. Opin. Insect Sci.",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "R4": {
+      "doi": "10.1016/j.conb.2019.07.007",
+      "citation": "Litwin-Kumar A, Turaga SC (2019). Constraining computational models using electron microscopy wiring diagrams. Curr. Opin. Neurobiol. 58:94-100",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "R5": {
+      "doi": "10.1016/j.crmeth.2025.100988",
+      "citation": "Collins LT, Huffman T, Koene RA (2025). Comparative prospects of imaging methods for whole-brain mammalian connectomics. Cell Rep. Methods",
+      "coi_screener_tag": "none",
+      "evidence": []
+    },
+    "R6": {
+      "doi": "10.1016/j.cell.2020.08.010",
+      "citation": "Abbott LF, et al. (2020). The Mind of a Mouse. Cell 182:1372-1376",
+      "coi_screener_tag": "none",
+      "evidence": [
+        "d1 middle-author overlap (not tag-raising): Davi D. Bock (A5057532346); Narayanan Kasthuri (A5091300565); Jeff W. Lichtman (A5037495122); R. Clay Reid (A5005494448); H. Sebastian Seung (A5044273339)"
+      ]
+    }
+  }
+}

@@ -14,9 +14,9 @@ The execution spec was written against the external protocol document at an out-
 
 | Spec reference | Status in this repo | Handling |
 |---|---|---|
-| `connectomics_bibliography_methodology_v3.md` §§3.1, 5, 9.1, 11, 12, 14, 17, 19, 24 | **Not in repo** (external protocol doc) | Section numbers treated as external pointers; repo-side equivalents named below. Splice-map rows 26–28 of its revision table must be applied in that document, not here. |
-| `review_pool.json` working artifact | Did not exist | Created fresh: `postanalysis/review_pool/review_pool.json` (§3 below). |
-| `COI_sets_WGR_frozen.json` (SHA-256 46f86882…) | **Not in repo** | COI tagging of pool/panel entries is **deferred**; author-ID lists are captured now so tagging is mechanical once the artifact is synced. G7 carries its COI-0 flag from the spec directly. |
+| `connectomics_bibliography_methodology_v3.md` §§3.1, 5, 9.1, 11, 12, 14, 17, 19, 24 | **Synced into repo 2026-08-25** as `docs/protocol/connectomics_bibliography_methodology_v3.md` (screener-supplied) | Splice applied on sync: amendment rows 26–28, new §5.5 and §9.1, §14 reopening rule, §24 items 3b/3c/16b — all dated and pointing at the artifacts below. |
+| `review_pool.json` working artifact | **Synced 2026-08-25 (second round)**: the real pool is the ~6,506-record bootstrap candidate pool (screener-supplied bundle, pristine copy in `bootstrap_2026-08-25/`) | Working pool = `postanalysis/review_pool/review_pool.json` (bootstrap pool + gap-fill merge + COI tags via `analysis/sync_bootstrap_pool.py`). The 15-work resolution record built in the first round is `gapfill_panel_resolution.json` (§3 below). |
+| `COI_sets_WGR_frozen.json` (SHA-256 46f86882…) | **Synced 2026-08-25** to `postanalysis/review_pool/coi/` | The recorded `46f86882…` is the file's *internal content-hash field* (consistent with spec and manifest) but is **not independently reproducible** from the content, and the file carries two freeze timestamps — see `coi/COI_SYNC_NOTE.md` and §9. COI tagging executed: `coi/coi_tags_gapfill_panel.json`. |
 | "Seven-paper held-out set" and "136-paper independent core" | **Not in repo** under those definitions (nearest repo analogues — `label_ultra_core.csv` 65 works, `label_field_defining.csv` 122 works — are *different objects*) | 3b mutual-exclusivity check cannot be evaluated here; 3b is gated off (§5). Do not map these names onto repo labels without the screener. |
 | §5 lexicon freeze ("freeze panel alongside the lexicon, same OSF deposit") | No lexicon-freeze artifact in repo | Panel frozen now as a standalone artifact; OSF deposit target is an open item for the screener (§7). |
 | Phase 2/3 completion + §14 stopping evaluated (timing precondition for Step 3) | Repo retrieval is frozen and complete (118,165 discovered; provenance invariant `3,768 = 1,685 + 15 + 2,068`) | Precondition satisfied in repo terms: convergence ran **after** all frozen retrieval and screening, so "convergence found it" is distinguishable from "anything would have found it". |
@@ -104,11 +104,21 @@ Results (2026-08-25; full tables in `convergence/`):
 
 1. Whether an ultracore seed list will be designated; if so, supply `ultracore_seeds_frozen.json` (identifiers + per-paper rationale + COI tag), disjoint from the held-out sets or explicitly traded against them. Default remains: consume no held-out papers.
 2. OSF deposit target for `probe_panel_frozen.json` (and the lexicon, which lives in the external protocol world).
-3. Sync `COI_sets_WGR_frozen.json` into (or alongside) this repo so pool/panel COI tagging can run.
+3. ~~Sync `COI_sets_WGR_frozen.json`.~~ **Done 2026-08-25** (§8'); tagging executed. Remaining sub-item: re-freeze the COI artifact with a byte-stream hash + sidecar to cure the unverifiable internal hash (logged deviation; see `coi/COI_SYNC_NOTE.md`).
 4. Decide whether the 47 screened-out convergence candidates get a human-overlay review round (§5).
-5. Apply splice-map rows 26–28 in the external `connectomics_bibliography_methodology_v3.md` revision table, pointing its new §5.5/§9.1/§14-amendment text at the artifacts recorded here.
+5. ~~Apply splice-map rows 26–28 in `connectomics_bibliography_methodology_v3.md`.~~ **Done 2026-08-25**: the protocol was synced into the repo (`docs/protocol/`) and the splice applied there as dated amendments. If a copy of v3 is maintained anywhere else, the repo copy is now ahead of it.
 
 ---
+
+## 8'. Second sync round (2026-08-25, later the same day)
+
+The screener supplied three external artifacts; all are now in-repo:
+
+1. **Protocol** → `docs/protocol/connectomics_bibliography_methodology_v3.md`, with the execution spec's splice applied as dated amendments (revision rows 26–28; new §5.5 and §9.1; §14 reopening rule; §24 items 3b/3c/16b).
+2. **Bootstrap working state** (`bootstrap_working_state_2026-08-25.zip`) → `postanalysis/review_pool/bootstrap_2026-08-25/`, pristine. Its manifest confirms the external state was **exploratory, pre-registration**, with the gap-fill and panel freeze listed as open items — i.e., this IA executed exactly those open items. The real `review_pool.json` is its ~6,506-record candidate pool; `analysis/sync_bootstrap_pool.py` merged the gap-fill into it (routes appended on G2/G4/G8, which the bootstrap passes had already retrieved; records created for G1/G3/G5/G6/G7/G9) and wrote the working pool. R1's `WGR-nominated` route is confirmed by the pool record itself.
+3. **COI freeze** → `postanalysis/review_pool/coi/COI_sets_WGR_frozen.json`. Hash finding in `COI_SYNC_NOTE.md`: the spec-recorded `46f86882…` matches the file's internal content-hash field, but that hash cannot be independently recomputed (post-hash edits; two freeze timestamps). Recommended logged deviation: re-freeze with a byte-stream hash in a sidecar, per the panel convention.
+
+**COI tagging executed** (`coi/coi_tags_gapfill_panel.json`; qualifying roles approximated as first/last-listed authorship, noted in the overlay): G7 **COI-0 confirmed by author-ID match**, not just declaration. **P6/G9 (Beyer survey) is COI-1** (last author Hanspeter Pfister in d1) and **P3/R2 (Lee et al.) is COI-1** (first author Kisuk Lee in d1) — both panel members' attestations therefore fall under the §12.5 with/without-COI-1 sensitivity reporting. P9 (Abbott, 25 authors) has five d1 **middle** authors, recorded as evidence but not tag-raising. All other gap-fill/panel works: none. The frozen panel artifact was not rewritten; tags live in the overlay and in the working pool records.
 
 ## 8. Reproduction
 
