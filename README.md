@@ -5,3 +5,4 @@ Nanoscale connectomics evidence map. Frozen retrieval provenance is unchanged; l
 - Counting chain: [`docs/POSTANALYSIS_PAPER_FLOW.md`](docs/POSTANALYSIS_PAPER_FLOW.md)
 - Which file is source of record after v3: [`docs/IA-014-post-v3-overlays-and-decision-provenance.md`](docs/IA-014-post-v3-overlays-and-decision-provenance.md)
 - Post-analysis tooling: [`analysis/README.md`](analysis/README.md)
+- Review pool, probe/attestation panel, and panel convergence: [`docs/IA-015-review-pool-probe-panel-convergence.md`](docs/IA-015-review-pool-probe-panel-convergence.md)

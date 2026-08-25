@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-25T18:59:49+00:00",
+  "step_3a": {
+    "probe_members": 8,
+    "reference_list_source_per_member": {
+      "P1": "crossref",
+      "P2": "semantic_scholar",
+      "P3": "semantic_scholar",
+      "P4": "crossref",
+      "P5": "semantic_scholar",
+      "P6": "crossref",
+      "P7": "crossref",
+      "P8": "semantic_scholar",
+      "P9": "crossref"
+    },
+    "total_distinct_cited_works": 903,
+    "candidates_k2": 112,
+    "candidates_k3": 39,
+    "abbott_corroborated_among_k2": 5
+  },
+  "step_3b": {
+    "ran": false,
+    "gate": "no ultracore seed artifact designated (ultracore_seeds_frozen.json absent); designation is a screener decision (IA-015 open item), and the mutual-exclusivity check against held-out validation sets must pass before any run."
+  },
+  "step_3c": {
+    "unique_find_count": 0,
+    "unique_find_note": "candidates flagged by convergence and absent from the frozen discovery log (S2-ID exact join, then DOI, then normalized title); this is the operator's marginal discovery value.",
+    "unique_find_items": [],
+    "lexicon_gap_alarm_count": 0,
+    "lexicon_gap_rule": ">=4 distinct clusters and not retrieved by frozen searches",
+    "lexicon_gap_items": [],
+    "discovered_but_not_in_working_corpus": 47,
+    "seed_lineage_limitation": "convergence finds the panel's lineage - ancestors, descendants, peers, parallel work. It systematically misses important work disconnected from that lineage (sparse-coupling infrastructure, very recent work, untouched subfields). It supplements the term/institutional/date routes; it substitutes for none."
+  },
+  "discovery_only": "No convergence statistic is evidence; every candidate requires normal screening, verification, and inclusion decisions."
+}

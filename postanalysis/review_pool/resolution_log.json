@@ -1,0 +1,215 @@
+{
+  "run_timestamp": "2026-08-25T18:19:21+00:00",
+  "entries": [
+    {
+      "pool_id": "G1",
+      "doi": "10.1016/s0074-7696(08)60956-0",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "52c9155ce9df9ded5782963fee27e116035baa8a",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G2",
+      "doi": "10.1111/j.1365-2818.2005.01466.x",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "3d7173583b5e5bbcd06dc70dd66464f9f95604f4",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G3",
+      "doi": "10.1146/annurev-cellbio-100818-125444",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "fd74875cb1965ecd18c9bfb01381703129833344",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G4",
+      "doi": "10.1038/s43586-022-00131-9",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "3898a255657838f26cd8e5ce7bd97f0205bfbab2",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G5",
+      "doi": "10.1038/s41592-018-0219-4",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "acb8546133cbd487fd491c5b99c357271716791b",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G6",
+      "doi": "10.1038/s41592-018-0185-x",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "4fb393bebcab5548dde8521c19aae869dd1acd11",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G7",
+      "doi": "10.1038/s41592-018-0181-1",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "cab75a3583fb37617bfa99ead39a119fd9776ed9",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G8",
+      "doi": "10.1111/jmi.13134",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "afb38ff1fee65101810048490683203aaa2fc07a",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "G9",
+      "doi": "10.1111/cgf.14574",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "ebaf6fafb4adb7f3657fdbb869249c727ffccf7e",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "R1",
+      "doi": "10.1038/s41583-025-00998-z",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "d3f0407421aa3f05f94efa908b620bc42b4810ea",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "R2",
+      "doi": "10.1016/j.conb.2019.04.001",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "d8014842d8030d24c4078c0434ac366886c869b0",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "R3",
+      "doi": "10.1016/j.cois.2022.100968",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "e67ce2076b1edb61228f9401bda7a0ea81f3055a",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "R4",
+      "doi": "10.1016/j.conb.2019.07.007",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "15434d389c900723fd2aeb884d3cb23dbb1303e3",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "R5",
+      "doi": "10.1016/j.crmeth.2025.100988",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "061c1b682bb068b5b1f05666ff9480eccc8bb9ce",
+      "openalex_status": "ok"
+    },
+    {
+      "pool_id": "R6",
+      "doi": "10.1016/j.cell.2020.08.010",
+      "checks": {
+        "identifier_resolves": true,
+        "title_consistent": true,
+        "year_consistent": true,
+        "venue_consistent": true,
+        "s2_title_consistent": true
+      },
+      "retracted": false,
+      "s2_paper_id": "912140f1819ae4634fa8785c97b1658ba319365b",
+      "openalex_status": "ok"
+    }
+  ]
+}
