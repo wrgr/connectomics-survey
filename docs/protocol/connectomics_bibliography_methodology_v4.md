@@ -26,6 +26,7 @@ Rows 26–28 were applied to the repo copy of v3 during execution on 2026-08-25 
 | 41 | Draft criteria could be shaped around specific papers without a trace | **Calibration disclosure** (§24 item 5): the touchstone papers used to sanity-check draft criteria are listed and frozen with the parameters; criteria are justified in field terms, never by which papers they admit |
 | 42 | LLM involvement in vocabulary/criteria under-specified | **New §5.6**: LLMs may *extract* terms (each adopted term traceable to a source review) and *audit* criteria adversarially (logged); they never author criteria; §1 execution-context logging applies to every use |
 | 43 | Many steps; execution risk of drowning in machinery | §24 opens with a **critical path** — the twelve steps that constitute the study; everything else is marked supporting and cannot block them |
+| 44 | Audience-facing views (curriculum lists, reading paths) could be mistaken for protocol outputs | §22.1: **audience views are a different thing** — downstream editorial products built *from* a released corpus version, allowed to be opinionated, carrying no evidentiary weight, never feeding back into tiers |
 
 ---
 
@@ -243,6 +244,17 @@ Comparison-identified misses are **not silently added**. The diagnosis is record
 - **D. Search and Audit Record** — queries, provenance with iteration stamps, screening counts and agreement (human–agent κ and agent–agent reproducibility separately), citation iterations, diagnostics, ablations, adjudication log (§25), QC results, deviations.
 
 Outputs remain separable so metadata improvements never require repeating discovery.
+
+### 22.1 Audience views are a different thing *(new)*
+
+Outputs A–D are the protocol's claims; they carry the evidence rules of this document. **Audience views** — a student curriculum, a newcomer reading path, a stratum syllabus, a funder-facing overview, a "start here" shelf — are *editorial products built from a released corpus version*, and are explicitly outside the protocol's claim apparatus:
+
+- Each view names the release it draws from (e.g., "built from corpus v1.0") and states its selection rule in a sentence, but the rule is editorial and **may be opinionated** — a curriculum is allowed to say "read these twelve first" without that being a Core claim.
+- Views carry **no evidentiary weight**: appearing in a view confers nothing toward tiers, and no view is cited as evidence anywhere in outputs A–D.
+- Views **never feed back**: changing a view requires no adjudication (§25 governs the corpus, not its presentations), and nothing flows from a view into the corpus except through the ordinary nomination route, like any other human conviction.
+- Views may freely use the internal working taxonomies (§15.2) that the protocol itself does not publish, because a teaching judgment ("students should know this lab's arc") is a different act from an evidentiary classification — the same distinction, in both directions.
+
+This keeps both things healthy: the evidence map stays defensible because it never bends to presentation needs, and the views stay useful because they are free to be curatorial.
 
 ---
 
