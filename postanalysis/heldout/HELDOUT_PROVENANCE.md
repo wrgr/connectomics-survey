@@ -47,6 +47,17 @@ columns read as a personal reading list formalized), or a predecessor of it.
 No separate artifact found. Recommended: treat "bespoke bibliography" and
 "126-paper backbone" as one set unless the screener locates a distinct file.
 
+## Screener statement on the backbone's quality (added 2026-08-25, same day)
+
+The screener states the backbone list was **not thoughtfully created** — it is
+an early working list from the learning phase, not a considered expert
+curation. Consequence: it is unsuitable not only as a validation set but also
+as a wholesale §9.1b seed designation (which requires per-paper designation
+rationale the screener cannot honestly supply). Its status is **historical
+artifact only**. The legitimate channel for any genuine knowledge embedded in
+it is per-paper nomination: route `WGR-nominated` (family a) with a one-line
+rationale, subject to normal screening — never wholesale designation.
+
 ## Proposed protocol amendments (screener decision; not yet applied)
 
 - **D-010:** §4/§21 "136-paper independent core" → "126-paper curated backbone
