@@ -22,6 +22,10 @@ Rows 26–28 were applied to the repo copy of v3 during execution on 2026-08-25 
 | 37 | Freeze hashes under-specified (COI artifact's internal hash proved irreproducible) | Freeze discipline: every frozen artifact is hashed over its **byte stream** with a sidecar file; the repository is the single source of truth; external copies are exports. COI artifact to be re-frozen under this convention (cures D-004) |
 | 38 | Executed Phase-0 items read as future steps | §24 records already-executed items in past tense with artifact SHAs and dates |
 | 39 | No governance for changes after the run | **New §25: post-freeze adjudication** — typed change classes (errata / nomination / removal / tier recomputation), a single adjudication log, versioned releases, and a prohibition on item-wise tier edits |
+| 40 | Steps not tied to their published standards; no independent search-string review | **New §1.1 methodological grounding table** citing the standard each component follows (PRISMA-ScR/-S, TARCiS, JBI, PRESS, ROSES, living-review guidance, percentile-indicator literature), with extensions beyond standard practice named as such; §24 item 4 gains a **PRESS-style search-string review** before the strings freeze |
+| 41 | Draft criteria could be shaped around specific papers without a trace | **Calibration disclosure** (§24 item 5): the touchstone papers used to sanity-check draft criteria are listed and frozen with the parameters; criteria are justified in field terms, never by which papers they admit |
+| 42 | LLM involvement in vocabulary/criteria under-specified | **New §5.6**: LLMs may *extract* terms (each adopted term traceable to a source review) and *audit* criteria adversarially (logged); they never author criteria; §1 execution-context logging applies to every use |
+| 43 | Many steps; execution risk of drowning in machinery | §24 opens with a **critical path** — the twelve steps that constitute the study; everything else is marked supporting and cannot block them |
 
 ---
 
@@ -42,6 +46,26 @@ This is a scoping/evidence-mapping review with bibliometric augmentation. Search
 **Execution context.** If any part of retrieval, screening, or metadata extraction is performed by an LLM-based agent, this is stated in the audit record, and the verification standard (§12) applies without exception. Confabulated references are the dominant failure mode of LLM-assisted bibliography work; this project's own development history includes three instances caught by verification (a nonexistent "community-standards" citation, a mis-titled review, a phantom validation set), which is the operational argument for §12.
 
 **Positionality.** The investigators designing and executing this protocol are active researchers in the field and will appear, with their coauthors, among the authors of candidate works. This is handled by disclosure (§12.5) and ablation (§18), not by exclusion or recusal.
+
+### 1.1 Methodological grounding
+
+Each component of this protocol follows a published standard where one exists; the table is the citation map. Components with no published standard are listed separately as extensions, with their rationale — the claim is never that everything here is conventional, only that departures are named.
+
+| Component | Standard followed | Citation |
+|---|---|---|
+| Study type: scoping/evidence map with no importance-based inclusion | Scoping-review framework; evidence-map methodology | Arksey & O'Malley, *Int J Soc Res Methodol* 2005;8:19–32; Miake-Lye et al., *Syst Rev* 2016;5:28 |
+| Conduct and charting (§11–§12) | JBI scoping-review guidance; PRISMA-ScR reporting | Peters et al., *JBI Evid Synth* 2020;18:2119–26; Tricco et al., *Ann Intern Med* 2018;169:467–73 |
+| Search documentation (§19) | PRISMA-S (exact strings, dates, counts, per source) | Rethlefsen et al., *Syst Rev* 2021;10:39; Page et al., *BMJ* 2021;372:n71 |
+| Search-string review before freeze (§24.4) | PRESS peer review of electronic search strategies | McGowan et al., *J Clin Epidemiol* 2016;75:40–46 |
+| Citation searching: terminology, seeds, iterations, stopping (§9) | TARCiS statement | Hirt et al., *BMJ* 2024;385:e078384 |
+| Co-citation and bibliographic coupling (§9.1, §10) | Classical bibliometric operators | Small, *JASIS* 1973;24:265–69; Kessler, *Am Doc* 1963;14:10–25 |
+| Percentile-within-cell Core thresholds (§3.1) | Percentile-based indicators; field/era normalization | Waltman & Schreiber, *JASIST* 2013;64:372–79; Hicks et al. (Leiden Manifesto), *Nature* 2015;520:429–31 |
+| Authorship-role evidence (§15.1) | CRediT contributor taxonomy | Brand et al., *Learned Publishing* 2015;28:151–55 |
+| Retraction checking (§12.3, §25-R) | Crossref/Retraction Watch practice per systematic-review guidance | Cochrane Handbook (Higgins et al., eds.), current version |
+| Versioned post-freeze updating (§25) | Living systematic review model | Elliott et al., *PLoS Med* 2014;11:e1001603 |
+| Reporting completeness for map-type syntheses | ROSES forms as a checklist cross-check | Haddaway et al., *Environ Evid* 2018;7:7 |
+
+**Extensions beyond standard practice** (no published standard exists; each is pre-specified here so it can be evaluated as method, not improvisation): the frozen probe/attestation panel and its convergence-based saturation audit (§5.5, §9.1a, §14); dial-invariance labeling of Core membership (§3.1); the design-path ablation clause (§18), which generalizes self-citation-exclusion practice from citations to editorial decisions; screener COI tagging by frozen coauthorship distance (§12.5); and the typed adjudication classes of §25, which specialize the living-review model with an explicit prohibition on item-wise tier edits.
 
 ---
 
@@ -115,6 +139,15 @@ A fixed panel of reviews serves two separable roles: **reference-list probe** (d
 The panel — P1–P8 probes spanning eight institutional/intellectual clusters (MPI-Frankfurt, Crick–EMBL, Princeton–Seung, Janelia–FlyEM, Cambridge–natverse, Harvard–Pfister, Columbia–Janelia, outside-field), plus P9 (Abbott et al. 2020) as confirmation-only — is frozen as `probe_panel_frozen.json`, byte-stream SHA-256 `0029158eed5344c358e38d9780e2a86bda5ec04ce0f5eb065aebbb28bd3f3149`, with resolved identifiers, tri-source author lists, cluster labels, and flags. Post-freeze changes are logged deviations.
 
 Logged with the freeze: the Kornfeld & Denk 2018 exclusion (same lineage as P1; a second draw from the MPI distribution, not an independent probe); declared gaps (proofreading/QC and alignment have no probe; Plaza et al. 2014 is attestation-eligible but not a systematic probe); and screener-COI tags per member (P3 and P6 are COI-1 to the screener — their attestations fall under the §12.5 sensitivity reporting; P9 carries five distance-1 middle authors, recorded, not tag-raising).
+
+### 5.6 LLM roles in vocabulary and criteria *(new)*
+
+LLM-based agents may hold exactly two roles in vocabulary and criteria development; both are logged per §1's execution-context clause (model, prompt, date, input, output, human adjudication).
+
+1. **Extractor.** A model may extract candidate terms from the frozen review pool (§5.2). Every adopted term records its source review and is verifiable against that review's text — the authority is the published review, never the model. Terms a model proposes from its own knowledge, with no source in the pool or in retrieved papers (§5.3), are not adopted.
+2. **Auditor.** A model may adversarially review draft or frozen criteria and search strings — which classes of work would these miss; which criterion reads as tuned — with the critique logged as review input that the screener adjudicates. This is the accepted mechanism for machine assistance against, rather than into, screener bias, and may serve as (or supplement) the PRESS-style review of §24 item 4.
+
+Models never author criteria. An LLM's prior is a training-distribution prior — it over-weights prominent, English-language, fashionably-termed work, which is correlated with the preferential-attachment bias this protocol's date sweep and institutional route exist to counter. Substituting model judgment for screener judgment would replace a disclosed, frozen, ablatable bias with an uninspectable one.
 
 ---
 
@@ -226,7 +259,22 @@ Residuals that cannot be reduced are reported as limitations.
 
 ## 24. Execution checklist
 
-Ordered. **FREEZE** items produce a byte-stream-hashed artifact (SHA-256 sidecar) committed to the repository and included in the registration deposit. Items marked ✓ were executed during protocol development and are recorded here in past tense with their artifacts; they are deposited as-is.
+**Critical path.** Twelve steps constitute the study; everything else in this document supports them and cannot block them. If execution ever feels like it is drowning in machinery, this is the study:
+
+1. Extract and **freeze** the lexicon from the review pool.
+2. **Freeze** search strings (after PRESS-style review) and parameters (with calibration papers listed).
+3. **Deposit** protocol + frozen artifacts; record the DOI.
+4. Calibrate on 50 records.
+5. Run the frozen subject searches.
+6. Run the institutional route and the date sweep.
+7. Screen, verify, deduplicate; **freeze** the seed corpus.
+8. Expand by citation until §14 saturation, then run the §9.1a convergence audit.
+9. Derive tiers through the §3.0 gates and §3.1 thresholds.
+10. Run the human reliability screen; compute ablations and COI sensitivity.
+11. **Freeze** release v1.0; run the §21 pilot comparison; record diagnoses.
+12. Write limitations; handle all later change through §25.
+
+Full ordered checklist below. **FREEZE** items produce a byte-stream-hashed artifact (SHA-256 sidecar) committed to the repository and included in the registration deposit. Items marked ✓ were executed during protocol development and are recorded here in past tense with their artifacts; they are deposited as-is.
 
 **Phase 0 — Registration**
 1. ✓ Screener roster: WGR (ORCID 0000-0002-7362-9665; OpenAlex + verified S2 author IDs in the COI artifact). Agents operate under the named human and inherit their COI tags.
@@ -234,8 +282,8 @@ Ordered. **FREEZE** items produce a byte-stream-hashed artifact (SHA-256 sidecar
 3. ✓ §5.2 bootstrap pass 1 executed 2026-08-25 (~6,506-record candidate review pool, frozen in-repo). Remaining: extract lexicon; tag terms by era and class; **FREEZE** lexicon.
    3b. ✓ Gap-fill executed 2026-08-25 (9 works; Ware DOI resolved; Vogelstein COI-0 confirmed by author-ID match).
    3c. ✓ Panel frozen 2026-08-25 (`probe_panel_frozen.json`, SHA `0029158e…`).
-4. Write database-specific search strings per family × era × source. **FREEZE** strings.
-5. Record pre-registered parameters: Core thresholds 5/10/20%; minimum cell size 30; stopping floor max(3, 1%N); date-sweep window 48 months; batch size 100; reliability sample 10% + all Core candidates + all COI-0/1; emergent-rule parameters; ablation list (§18). **FREEZE** parameters.
+4. Write database-specific search strings per family × era × source. Subject the strings to a **PRESS-style review** (McGowan et al. 2016) by a person who has not seen the pilot outputs where feasible, and/or the §5.6 LLM audit, with the review logged. **FREEZE** strings.
+5. Record pre-registered parameters: Core thresholds 5/10/20%; minimum cell size 30; stopping floor max(3, 1%N); date-sweep window 48 months; batch size 100; reliability sample 10% + all Core candidates + all COI-0/1; emergent-rule parameters; ablation list (§18); **and the calibration papers** — the list of touchstone works used to sanity-check the draft criteria, disclosed so criterion-shaping around specific papers is visible rather than possible in private. Criteria themselves are justified in field terms, never by which papers they admit. **FREEZE** parameters.
 6. **Deposit** protocol (this document), items 1–5, the pilot-corpus pointer (repo tag + run-manifest SHAs), the bias register, and the deviations register to OSF/Zenodo. Record DOI. *(After this step, "deviation" is a defined term.)*
 
 **Phase 1 — Calibration**
