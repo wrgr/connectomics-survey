@@ -47,6 +47,7 @@ Nothing in this chain mutates the preregistered retrieval corpus or original `ke
 | IA-012 | Inclusive checkpoint + curriculum from **v2** | yes as v2 checkpoint; **not** working corpus |
 | IA-013 | Graph situability layers; emergent-core | yes as views over v3+overlays |
 | **IA-014** | **This file — overlays + which numbers to cite** | **yes for membership overlays** |
+| IA-015 | Review pool + frozen probe panel + panel convergence; amended §6 seed wording (seeds were discovered-then-screened-out, not undiscovered) | yes |
 
 ---
 
@@ -67,7 +68,7 @@ Snapshot **2026-08-25**.
 | Human overlay rows | 68 | `human_review_decisions.csv` |
 | of which `out_of_scope` | 57 | same |
 | of which agent≠human | 35 | same |
-| Manual seeds (not in frozen discovery) | 8 | `manual_seed_works.csv` |
+| Manual seeds (discovered but `keep=False` in frozen pipeline; recovered) | 8 | `manual_seed_works.csv` |
 | Working inclusive (**full**) | **1,806** | `corpus_full_works.csv` (core 694, adjacent 911, bridge 201) |
 | Graph-matched | 1,314 | `viz/corpus_graph_views_stats.json` |
 | Integrated | 931 | same |
@@ -112,7 +113,7 @@ Audited preprint/journal and near-duplicate pairs that automatic title similarit
 **`source_group`:** `manual_seed`  
 **`prompt_version`:** `IA-007-v3-manual-seed`
 
-Eight landmark works cited from Helmstaedter 2025 *Nature Reviews Neuroscience* coverage holes and **absent from frozen Semantic Scholar discovery**. Human-assigned `core_relevant`. Concatenated into citation-role / corpus views only; they do not alter `keep` on the retrieval artifact.
+Eight landmark works cited from Helmstaedter 2025 *Nature Reviews Neuroscience* coverage holes. All eight **were discovered by the frozen pipeline** (two via the lexical stage and 1-hop, six via 1-hop citation expansion only) and **dropped at screening (`keep=False`)**; they are screening false-negatives recovered as manual seeds, not discovery holes. Human-assigned `core_relevant`. Concatenated into citation-role / corpus views only; they do not alter `keep` on the retrieval artifact. *(Wording amended 2026-08-25 per IA-015 §6: this section previously said "absent from frozen Semantic Scholar discovery," which was wrong — see `screening_log.csv` rows for the seed paper IDs.)*
 
 | Year | Work |
 |---:|---|

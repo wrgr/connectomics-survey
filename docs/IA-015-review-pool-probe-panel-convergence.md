@@ -94,7 +94,7 @@ Results (2026-08-25; full tables in `convergence/`):
 
 ## 6. Findings routed to the screener (not applied)
 
-1. **IA-014 §6 wording is imprecise.** The eight manual seeds are described as "absent from frozen Semantic Scholar discovery." Seven of them appear in the frozen `screening_log.csv` via the 1-hop citation-expansion stage with `keep=False` (e.g., White et al. 1986, paper `62d36f23…`, the same canonical paper ID the seed CSV uses). The defensible statement is: *discovered by 1-hop expansion, dropped by lexical screening, later recovered as manual seeds.* Recommend amending IA-014 §6 (a wording amendment, not a membership change). Not applied here because IA-014 is the provenance index of record.
+1. **IA-014 §6 wording was imprecise — amendment APPLIED 2026-08-25 on screener instruction.** The eight manual seeds were described as "absent from frozen Semantic Scholar discovery." All eight appear in the frozen `screening_log.csv` with `keep=False`: Helmstaedter 2011 (KNOSSOS/RESCOP) and Helmstaedter 2013 (mouse IPL) via the lexical stage and 1-hop; the other six via 1-hop citation expansion only (e.g., White et al. 1986, paper `62d36f23…`, the same canonical paper ID the seed CSV uses). The defensible statement, now in IA-014 §6 and its §3 counting-chain row: *discovered by the frozen pipeline, dropped at screening, later recovered as manual seeds* — screening false-negatives, not discovery holes. Membership and `keep` values unchanged.
 2. **The 47-candidate screening-review queue** (§5), sorted by cluster count in `panel_convergence_candidates.csv`.
 3. **Open items** (§7).
 
