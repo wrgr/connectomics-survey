@@ -47,9 +47,37 @@ preBötzinger circuit paper flagged only because their abstracts lack the
 keywords). It is a *review queue*, applied as a view during exploration and
 adjudicated per-work at formal charting.
 
+## LLM-guided sanity pass (2026-08-26; screener-directed)
+
+Per §5.6 discipline: adjudicator = this session's screening agent (operating
+under WGR), rubric stated here, every disposition recorded.
+
+**Prune adjudication** (`exploration_prune_adjudicated.csv`): all 240
+candidates read and adjudicated against the scope rubric — keep if the work is
+EM/ultrastructure, a vEM/pipeline method, an alternative *synaptic-resolution*
+modality (multipatch, monosynaptic rabies, mGRASP-class detectors, ExM, X-ray),
+analysis or modeling *on* a nanoscale connectome, comparative connectomics, a
+field essay, or a training/infrastructure piece; drop if macroscale network
+modeling, generic graph/ML theory, molecular synapse biology without mapping,
+or functional-only inference. Result: **67 rescued (28% false-positive rate —
+the keyword filter alone is not safe to apply unreviewed), 173 confirmed
+drops.** Rescues include the fly-medulla connectome paper, Helmstaedter's dense
+vEM review, EM computer-vision methods, ExM/X-ray modality papers, Chklovskii
+2002 potential connectivity, and the Neurokernel emulation.
+
+**Disconnection rule** (screener-directed: works citing neither into nor out of
+the corpus network can be dropped; `exploration_disconnected.csv`): applied to
+graph-matched works with corpus in-degree = out-degree = 0. **61 dropped**
+(including 19 `core_relevant` works, listed — in-scope but isolated; removed
+from the exploration view per the rule, recoverable at charting), **28
+deferred** (year ≥ 2024: citation/reference lag), and the **492 graph-unmatched
+works are NOT treated as disconnected** — unmatched is a measurement gap, not a
+zero.
+
 ## Net
 
-Exploration working set ≈ **1,806 − 240 + 53 = 1,619** works, as a view.
+Exploration working set = **1,806 − 173 (adjudicated prunes) − 61
+(disconnected) + 53 (fill) = 1,625** works, as a view.
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.
