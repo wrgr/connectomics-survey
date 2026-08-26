@@ -195,6 +195,41 @@ def venue_matches_rule(venue: str) -> bool:
     return any(v.startswith(f) or (f in v and f == "nature reviews") for f in VENUE_FAMILIES)
 
 
+def resolve_venue_sources() -> list[dict]:
+    """Resolve the venue-name rule to OpenAlex source IDs (frozen in the log).
+
+    OpenAlex works-filters cannot search source display names, so the name
+    rule is applied on the /sources endpoint and works are filtered by
+    primary_location.source.id.
+    """
+    sources = []
+    for family in VENUE_FAMILIES:
+        page = 1
+        while True:
+            data = _get(
+                "https://api.openalex.org/sources?search=" + urllib.parse.quote(family)
+                + f"&per-page=200&page={page}&select=id,display_name,works_count",
+                1.2,
+            )
+            rows = data.get("results", [])
+            for s in rows:
+                if venue_matches_rule(s.get("display_name", "")):
+                    sources.append(
+                        {"id": s["id"].rsplit("/", 1)[-1],
+                         "display_name": s["display_name"],
+                         "works_count": s.get("works_count")}
+                    )
+            if len(rows) < 200:
+                break
+            page += 1
+    seen, out = set(), []
+    for s in sorted(sources, key=lambda x: -(x["works_count"] or 0)):
+        if s["id"] not in seen:
+            seen.add(s["id"])
+            out.append(s)
+    return out
+
+
 # --- main -----------------------------------------------------------------
 
 
@@ -231,12 +266,25 @@ def main() -> int:
     for aid, q in ANCHORS.items():
         oa_jobs.append((f"OAv2-{aid}",
                         "title_and_abstract.search:" + urllib.parse.quote(q["oa"]) + ",type:review", None))
-    for aid, q in ANCHORS.items():
-        for vf in VENUE_FAMILIES:
-            oa_jobs.append((f"OAv2-{aid}-venue:{vf}",
-                            "title_and_abstract.search:" + urllib.parse.quote(q["oa"])
-                            + ",primary_location.source.display_name.search:" + urllib.parse.quote(vf),
-                            vf))
+    try:
+        venue_sources, vs_cached = cached("oa_venue_sources", resolve_venue_sources)
+        log["venue_source_resolution"] = {
+            "rule": VENUE_FAMILIES, "n_sources": len(venue_sources),
+            "cached": vs_cached, "sources": venue_sources,
+        }
+        print(f"venue rule resolved to {len(venue_sources)} OpenAlex sources")
+        sids = [s["id"] for s in venue_sources]
+        for aid, q in ANCHORS.items():
+            for i in range(0, len(sids), 40):
+                batch = sids[i : i + 40]
+                oa_jobs.append((f"OAv2-{aid}-venues:{i//40}",
+                                "title_and_abstract.search:" + urllib.parse.quote(q["oa"])
+                                + ",primary_location.source.id:" + "|".join(batch),
+                                "venue-rule"))
+    except BudgetExhausted:
+        log["complete"] = False
+        log["venue_source_resolution"] = {"status": "PENDING (budget exhausted)"}
+        print("venue source resolution: budget exhausted; pending")
     for route, filt, vf in oa_jobs:
         try:
             rows, was_cached = cached(route, lambda filt=filt: openalex_query(filt))
@@ -271,6 +319,32 @@ def main() -> int:
                     pool[key]["routes"].append(route)
         else:
             pool[key] = r
+    # Merge the frozen gap-fill/panel works with their own logged routes
+    # (§5.2: they enter independently of the anchor bootstrap).
+    res = json.loads((POOL_DIR / "gapfill_panel_resolution.json").read_text(encoding="utf-8"))
+    tags = json.loads((POOL_DIR / "coi" / "coi_tags_gapfill_panel.json").read_text(encoding="utf-8"))
+    n_gap_new = 0
+    for e in res["entries"]:
+        doi = _norm_doi(e["doi"])
+        route = e["route"] if e["route"] != "external-pool-member (reconstructed)" else "panel-member (reconstructed provenance)"
+        rec = pool.get(doi)
+        if rec is None:
+            oa, s2, cr = e.get("openalex", {}), e.get("semantic_scholar", {}), e.get("crossref", {})
+            rec = pool[doi] = {
+                "oa_id": oa.get("openalex_id"), "doi": doi,
+                "title": cr.get("title") or s2.get("title"),
+                "year": cr.get("year") or s2.get("year"),
+                "venue": cr.get("container") or s2.get("venue"),
+                "cites": oa.get("cited_by_count", s2.get("citation_count")),
+                "routes": [],
+            }
+            n_gap_new += 1
+        if route not in rec["routes"]:
+            rec["routes"].append(route)
+        rec["pool_id"] = e["pool_id"]
+        rec["coi_screener_tag"] = tags["works"].get(e["pool_id"], {}).get("coi_screener_tag", "none")
+    print(f"gap-fill/panel merge: {len(res['entries'])} works ({n_gap_new} not retrieved by anchors/venues)")
+
     out = {
         "artifact": "review_pool_v2.json",
         "procedure": "connectomics_bibliography_methodology_v4.md §5.2",
