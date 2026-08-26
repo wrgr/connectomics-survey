@@ -175,23 +175,32 @@ out of scope by the screener; **25 remain unverifiable** — identities now
 resolved (most have OpenAlex records) but no index serves their references
 (2026 items, conference abstracts, one book).
 
-Exploration working set = **1,548** works = 1,495 retained corpus members +
-53 fill candidates. (Corrects the earlier arithmetic figure of 1,540: the
-per-list removal counts double-counted 8 works that appear in two queues —
-4 excluded-unverifiable works were also prune-adjudicated drops, 2 odd-type
-drops were also disconnection drops, 1 out-of-scope work and 1 OA-zero work
-were also prune drops. Deduplicated by work_id: 311 unique removals from the
-1,806.) Zero limbo: every record is in, out with a named reason, or
-unverifiable-with-re-admission-path.
+**Unverifiable set adjudicated by the screener (2026-08-26):** the 25
+excluded-unverifiable works were triaged on scope, and the screener ruled:
+**14 keep** (re-admitted; in scope regardless of index coverage — vEM
+segmentation/proofreading methods, analyses on the Drosophila connectome,
+the massive-EM latent-feature paper, two field commentaries, the symmetry-
+fibrations network-science bridge, and others; dispositions in
+`exploration_oa_ref_resolution.csv`) and **11 drop** (out of scope —
+clinical/macroscale conference abstracts, the Sporns macroscale book,
+BrainViewer, and generic network-science items). The symmetry-fibrations
+keep also overrides its earlier prune-drop (row updated in
+`exploration_prune_adjudicated.csv`). For the 14 keeps, citation-link
+verification remains pending via PDF reference-list extraction (11 already
+have PDFs; 3 are on the retrieval list).
 
-**PDF coverage (2026-08-26, vs `postanalysis/pdfs/paper_links.csv`):** 1,402
-of the 1,495 retained corpus members have downloaded PDFs; **93 still need
-retrieval** (81 never resolved to a PDF, 12 failed downloads), plus the 47
-fill candidates not already in the catalog and 5 of the 25
-excluded-unverifiable works (retrieving those enables reference-list
-extraction — the manual re-admission path; the other 20 unverifiable works
-already have PDFs on disk). Full list:
-`postanalysis/pdfs/pdfs_still_needed.csv` (145 rows, same columns as the
+Exploration working set = **1,562** works = 1,509 retained corpus members +
+53 fill candidates. (This also corrects the earlier arithmetic figure of
+1,540: per-list removal counts double-counted 8 works that appear in two
+queues; deduplicated by work_id, unique removals are 297 from the 1,806.)
+Zero limbo: every record is in, or out with a named screener-traceable
+reason.
+
+**PDF coverage (2026-08-26, vs `postanalysis/pdfs/paper_links.csv`):** 1,413
+of the 1,509 retained corpus members have downloaded PDFs; **96 still need
+retrieval** (unresolved or failed downloads), plus the 47 fill candidates
+not already in the catalog. Full list:
+`postanalysis/pdfs/pdfs_still_needed.csv` (143 rows, same columns as the
 retrieval catalog).
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
