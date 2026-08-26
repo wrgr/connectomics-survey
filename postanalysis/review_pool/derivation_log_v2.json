@@ -1,0 +1,2096 @@
+{
+  "procedure": "v4 §5.2",
+  "run_started": "2026-08-26T00:25:07+00:00",
+  "queries": [
+    {
+      "source": "pubmed",
+      "query": "(connectome*[tiab] OR connectomic*[tiab]) AND Review[pt]",
+      "route": "PMv2-A1",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1128,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "pubmed",
+      "query": "(\"serial section\"[tiab] OR \"serial sections\"[tiab] OR \"serial-section\"[tiab]) AND \"electron microscopy\"[tiab] AND Review[pt]",
+      "route": "PMv2-A2",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 40,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "pubmed",
+      "query": "(\"volume electron microscopy\"[tiab] OR \"volume EM\"[tiab]) AND Review[pt]",
+      "route": "PMv2-A3",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 58,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "pubmed",
+      "query": "(\"dense reconstruction\"[tiab] OR \"saturated reconstruction\"[tiab]) AND Review[pt]",
+      "route": "PMv2-A4",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 3,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,type:review",
+      "route": "OAv2-A1",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 76,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,type:review",
+      "route": "OAv2-A2",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,type:review",
+      "route": "OAv2-A3",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,type:review",
+      "route": "OAv2-A4",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S136233269|S79131028|S89023782|S2765079064|S31167473|S114966740|S139283865|S186543748|S147849156|S23939942|S587692|S118628157|S26843219|S201780205|S175155502|S8553189|S196724125|S93373720|S132270157|S170047187|S120775027|S160464432|S56802129|S103771297|S204673346|S41211651|S15258550|S192051125|S57372075|S18618073|S110589544|S93802863|S116174365|S179395531|S182404557|S31702427|S67076826|S69957782|S67216020|S4210172747",
+      "route": "OAv2-A1-venues:0",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 97,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S177945262|S116269268|S35563517|S203964698|S78310130|S106299656|S22232893|S145244763|S62674001|S120397320|S41981144|S203280300|S84926904|S185853653|S196366644|S53860259|S64855341|S104459788|S16909082|S13215328|S184974915|S2764936482|S37062379|S75106429|S188383068|S203035050|S66851268|S13845130|S82779230|S15004046|S974056801|S2764746430|S136526455|S92576693|S90670110|S177382209|S2764716574|S165675472|S2764372282|S4210171953",
+      "route": "OAv2-A1-venues:1",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 21,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S153840704|S106953758|S195167216|S92134727|S36461803|S2764598273|S2489902859|S113591250|S177297213|S61274580|S2764908915|S109088427|S7637673|S169493037|S2765069123|S131371711|S135981667|S160110530|S2764555239|S29882555|S118096098|S2764724535|S2764917516|S148489009|S4210195801|S4210201506|S93285647|S4210174246|S4210210487|S2764388829|S4210234670|S4210205963|S60350835|S112282628|S78690241|S4210178125|S108074651|S4210205868|S2898549194|S2898239524",
+      "route": "OAv2-A1-venues:2",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 20,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S2764595184|S8194976|S176558078|S4210194226|S2764584420|S2898133657|S4210196632|S169042182|S119405978|S4210223659|S4210237610|S197825871|S4210210178|S2764941636|S5491134|S8095556|S171268996|S4210226544|S165210498|S59069355|S4210231269|S2898224786|S196715598|S87014875|S2898549711|S2765058439|S4387286573|S167445989|S188288600|S4157722|S76844451|S139800560|S171259723|S43203325|S2764400230|S4210185937|S161759566|S168261188|S4210211198|S2764917282",
+      "route": "OAv2-A1-venues:3",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 3,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S4210170931|S4210229628|S4210237588|S185750702|S4390963326|S2491293328|S2898140573|S4210217375|S4390297115|S23270015|S4210222997|S2898253115|S4210200923|S4387284882|S4210191548|S4210173072|S4210185341|S200200930|S4210217709|S4210182318|S4210223271|S4210178937|S20279327|S91943596|S5407042882|S4210234554|S146185615|S4394735723|S5407042881|S4210217772|S4210191328|S4210232080|S4387278629|S4210181248|S141422530|S4210186687|S2764798477|S4210173716|S4210214748|S4387292579",
+      "route": "OAv2-A1-venues:4",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 5,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S25405442|S4210209873|S4210191544|S4210177632|S4210236698|S4210235369|S4387291841|S4210233705|S4210190168|S4393919408|S4306533303|S4210224867|S5407043096|S2898415390|S4210198274|S2765077507|S4210228530|S4210178519|S4210213437|S5407043140|S4210168198|S4210228017|S4210235082|S4210210378|S4390648375|S4210236364|S4210185443|S5407010576|S4210185143|S5407037472|S4387291447|S4210202220|S4210218953|S4210217753|S148719026|S4387288227|S105028133|S4210192940|S4404669354|S5407050665",
+      "route": "OAv2-A1-venues:5",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S4210175056|S2764533006|S4387278592|S4210205749|S4210170143|S5407050810|S24746147|S4210205915|S4404676745|S4210240372|S4390296870|S4404663269|S4210197592|S4404677055|S4404675037|S4210216011|S4387291700|S5407042567|S5407047879|S2764983061|S4387284909|S5407054826|S183301237|S4210189487|S4306417681|S4210221657|S4210174212|S5407051026|S4210206112|S4306421085|S5407051859|S2764842924|S4210199054|S4210213219|S5407044632|S5407053640|S4210199373|S4210222711|S4210237196|S4210221980",
+      "route": "OAv2-A1-venues:6",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S4210181134|S4210181379|S4210209249|S4210172452|S4210183321|S4210223278|S4210219704|S5407050729|S5407054922|S4210184703|S4387278799|S7407056657|S4210210232|S4387288049|S4210180232|S4404677375|S4306502363|S4387288304|S4210193340|S206828615|S5407055209|S4210235508|S4210225855|S7407063568|S4210224525|S4393916446|S4210193984|S4210211520|S4210237505|S2764581491|S5407051145|S2765015917|S4210229247|S4210225024|S170524175|S4210232160|S2764430644|S4306533302|S5407039749|S4393913813",
+      "route": "OAv2-A1-venues:7",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:connectome%20OR%20connectomics%20OR%20connectomic,primary_location.source.id:S2755564186|S2764438633|S2764971989|S4393916875|S4363607180|S4387277812|S4393916874|S4393916876|S4377196203|S2764992003|S4306400674|S4393918606|S4306533300|S4306421084|S7407061778|S4393915482",
+      "route": "OAv2-A1-venues:8",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S136233269|S79131028|S89023782|S2765079064|S31167473|S114966740|S139283865|S186543748|S147849156|S23939942|S587692|S118628157|S26843219|S201780205|S175155502|S8553189|S196724125|S93373720|S132270157|S170047187|S120775027|S160464432|S56802129|S103771297|S204673346|S41211651|S15258550|S192051125|S57372075|S18618073|S110589544|S93802863|S116174365|S179395531|S182404557|S31702427|S67076826|S69957782|S67216020|S4210172747",
+      "route": "OAv2-A2-venues:0",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 5,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S177945262|S116269268|S35563517|S203964698|S78310130|S106299656|S22232893|S145244763|S62674001|S120397320|S41981144|S203280300|S84926904|S185853653|S196366644|S53860259|S64855341|S104459788|S16909082|S13215328|S184974915|S2764936482|S37062379|S75106429|S188383068|S203035050|S66851268|S13845130|S82779230|S15004046|S974056801|S2764746430|S136526455|S92576693|S90670110|S177382209|S2764716574|S165675472|S2764372282|S4210171953",
+      "route": "OAv2-A2-venues:1",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S153840704|S106953758|S195167216|S92134727|S36461803|S2764598273|S2489902859|S113591250|S177297213|S61274580|S2764908915|S109088427|S7637673|S169493037|S2765069123|S131371711|S135981667|S160110530|S2764555239|S29882555|S118096098|S2764724535|S2764917516|S148489009|S4210195801|S4210201506|S93285647|S4210174246|S4210210487|S2764388829|S4210234670|S4210205963|S60350835|S112282628|S78690241|S4210178125|S108074651|S4210205868|S2898549194|S2898239524",
+      "route": "OAv2-A2-venues:2",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S2764595184|S8194976|S176558078|S4210194226|S2764584420|S2898133657|S4210196632|S169042182|S119405978|S4210223659|S4210237610|S197825871|S4210210178|S2764941636|S5491134|S8095556|S171268996|S4210226544|S165210498|S59069355|S4210231269|S2898224786|S196715598|S87014875|S2898549711|S2765058439|S4387286573|S167445989|S188288600|S4157722|S76844451|S139800560|S171259723|S43203325|S2764400230|S4210185937|S161759566|S168261188|S4210211198|S2764917282",
+      "route": "OAv2-A2-venues:3",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S4210170931|S4210229628|S4210237588|S185750702|S4390963326|S2491293328|S2898140573|S4210217375|S4390297115|S23270015|S4210222997|S2898253115|S4210200923|S4387284882|S4210191548|S4210173072|S4210185341|S200200930|S4210217709|S4210182318|S4210223271|S4210178937|S20279327|S91943596|S5407042882|S4210234554|S146185615|S4394735723|S5407042881|S4210217772|S4210191328|S4210232080|S4387278629|S4210181248|S141422530|S4210186687|S2764798477|S4210173716|S4210214748|S4387292579",
+      "route": "OAv2-A2-venues:4",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S25405442|S4210209873|S4210191544|S4210177632|S4210236698|S4210235369|S4387291841|S4210233705|S4210190168|S4393919408|S4306533303|S4210224867|S5407043096|S2898415390|S4210198274|S2765077507|S4210228530|S4210178519|S4210213437|S5407043140|S4210168198|S4210228017|S4210235082|S4210210378|S4390648375|S4210236364|S4210185443|S5407010576|S4210185143|S5407037472|S4387291447|S4210202220|S4210218953|S4210217753|S148719026|S4387288227|S105028133|S4210192940|S4404669354|S5407050665",
+      "route": "OAv2-A2-venues:5",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S4210175056|S2764533006|S4387278592|S4210205749|S4210170143|S5407050810|S24746147|S4210205915|S4404676745|S4210240372|S4390296870|S4404663269|S4210197592|S4404677055|S4404675037|S4210216011|S4387291700|S5407042567|S5407047879|S2764983061|S4387284909|S5407054826|S183301237|S4210189487|S4306417681|S4210221657|S4210174212|S5407051026|S4210206112|S4306421085|S5407051859|S2764842924|S4210199054|S4210213219|S5407044632|S5407053640|S4210199373|S4210222711|S4210237196|S4210221980",
+      "route": "OAv2-A2-venues:6",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S4210181134|S4210181379|S4210209249|S4210172452|S4210183321|S4210223278|S4210219704|S5407050729|S5407054922|S4210184703|S4387278799|S7407056657|S4210210232|S4387288049|S4210180232|S4404677375|S4306502363|S4387288304|S4210193340|S206828615|S5407055209|S4210235508|S4210225855|S7407063568|S4210224525|S4393916446|S4210193984|S4210211520|S4210237505|S2764581491|S5407051145|S2765015917|S4210229247|S4210225024|S170524175|S4210232160|S2764430644|S4306533302|S5407039749|S4393913813",
+      "route": "OAv2-A2-venues:7",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22serial%20section%22%20%22electron%20microscopy%22,primary_location.source.id:S2755564186|S2764438633|S2764971989|S4393916875|S4363607180|S4387277812|S4393916874|S4393916876|S4377196203|S2764992003|S4306400674|S4393918606|S4306533300|S4306421084|S7407061778|S4393915482",
+      "route": "OAv2-A2-venues:8",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S136233269|S79131028|S89023782|S2765079064|S31167473|S114966740|S139283865|S186543748|S147849156|S23939942|S587692|S118628157|S26843219|S201780205|S175155502|S8553189|S196724125|S93373720|S132270157|S170047187|S120775027|S160464432|S56802129|S103771297|S204673346|S41211651|S15258550|S192051125|S57372075|S18618073|S110589544|S93802863|S116174365|S179395531|S182404557|S31702427|S67076826|S69957782|S67216020|S4210172747",
+      "route": "OAv2-A3-venues:0",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 9,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S177945262|S116269268|S35563517|S203964698|S78310130|S106299656|S22232893|S145244763|S62674001|S120397320|S41981144|S203280300|S84926904|S185853653|S196366644|S53860259|S64855341|S104459788|S16909082|S13215328|S184974915|S2764936482|S37062379|S75106429|S188383068|S203035050|S66851268|S13845130|S82779230|S15004046|S974056801|S2764746430|S136526455|S92576693|S90670110|S177382209|S2764716574|S165675472|S2764372282|S4210171953",
+      "route": "OAv2-A3-venues:1",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S153840704|S106953758|S195167216|S92134727|S36461803|S2764598273|S2489902859|S113591250|S177297213|S61274580|S2764908915|S109088427|S7637673|S169493037|S2765069123|S131371711|S135981667|S160110530|S2764555239|S29882555|S118096098|S2764724535|S2764917516|S148489009|S4210195801|S4210201506|S93285647|S4210174246|S4210210487|S2764388829|S4210234670|S4210205963|S60350835|S112282628|S78690241|S4210178125|S108074651|S4210205868|S2898549194|S2898239524",
+      "route": "OAv2-A3-venues:2",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S2764595184|S8194976|S176558078|S4210194226|S2764584420|S2898133657|S4210196632|S169042182|S119405978|S4210223659|S4210237610|S197825871|S4210210178|S2764941636|S5491134|S8095556|S171268996|S4210226544|S165210498|S59069355|S4210231269|S2898224786|S196715598|S87014875|S2898549711|S2765058439|S4387286573|S167445989|S188288600|S4157722|S76844451|S139800560|S171259723|S43203325|S2764400230|S4210185937|S161759566|S168261188|S4210211198|S2764917282",
+      "route": "OAv2-A3-venues:3",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 3,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S4210170931|S4210229628|S4210237588|S185750702|S4390963326|S2491293328|S2898140573|S4210217375|S4390297115|S23270015|S4210222997|S2898253115|S4210200923|S4387284882|S4210191548|S4210173072|S4210185341|S200200930|S4210217709|S4210182318|S4210223271|S4210178937|S20279327|S91943596|S5407042882|S4210234554|S146185615|S4394735723|S5407042881|S4210217772|S4210191328|S4210232080|S4387278629|S4210181248|S141422530|S4210186687|S2764798477|S4210173716|S4210214748|S4387292579",
+      "route": "OAv2-A3-venues:4",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S25405442|S4210209873|S4210191544|S4210177632|S4210236698|S4210235369|S4387291841|S4210233705|S4210190168|S4393919408|S4306533303|S4210224867|S5407043096|S2898415390|S4210198274|S2765077507|S4210228530|S4210178519|S4210213437|S5407043140|S4210168198|S4210228017|S4210235082|S4210210378|S4390648375|S4210236364|S4210185443|S5407010576|S4210185143|S5407037472|S4387291447|S4210202220|S4210218953|S4210217753|S148719026|S4387288227|S105028133|S4210192940|S4404669354|S5407050665",
+      "route": "OAv2-A3-venues:5",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S4210175056|S2764533006|S4387278592|S4210205749|S4210170143|S5407050810|S24746147|S4210205915|S4404676745|S4210240372|S4390296870|S4404663269|S4210197592|S4404677055|S4404675037|S4210216011|S4387291700|S5407042567|S5407047879|S2764983061|S4387284909|S5407054826|S183301237|S4210189487|S4306417681|S4210221657|S4210174212|S5407051026|S4210206112|S4306421085|S5407051859|S2764842924|S4210199054|S4210213219|S5407044632|S5407053640|S4210199373|S4210222711|S4210237196|S4210221980",
+      "route": "OAv2-A3-venues:6",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S4210181134|S4210181379|S4210209249|S4210172452|S4210183321|S4210223278|S4210219704|S5407050729|S5407054922|S4210184703|S4387278799|S7407056657|S4210210232|S4387288049|S4210180232|S4404677375|S4306502363|S4387288304|S4210193340|S206828615|S5407055209|S4210235508|S4210225855|S7407063568|S4210224525|S4393916446|S4210193984|S4210211520|S4210237505|S2764581491|S5407051145|S2765015917|S4210229247|S4210225024|S170524175|S4210232160|S2764430644|S4306533302|S5407039749|S4393913813",
+      "route": "OAv2-A3-venues:7",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22volume%20electron%20microscopy%22%20OR%20%22volume%20EM%22,primary_location.source.id:S2755564186|S2764438633|S2764971989|S4393916875|S4363607180|S4387277812|S4393916874|S4393916876|S4377196203|S2764992003|S4306400674|S4393918606|S4306533300|S4306421084|S7407061778|S4393915482",
+      "route": "OAv2-A3-venues:8",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S136233269|S79131028|S89023782|S2765079064|S31167473|S114966740|S139283865|S186543748|S147849156|S23939942|S587692|S118628157|S26843219|S201780205|S175155502|S8553189|S196724125|S93373720|S132270157|S170047187|S120775027|S160464432|S56802129|S103771297|S204673346|S41211651|S15258550|S192051125|S57372075|S18618073|S110589544|S93802863|S116174365|S179395531|S182404557|S31702427|S67076826|S69957782|S67216020|S4210172747",
+      "route": "OAv2-A4-venues:0",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S177945262|S116269268|S35563517|S203964698|S78310130|S106299656|S22232893|S145244763|S62674001|S120397320|S41981144|S203280300|S84926904|S185853653|S196366644|S53860259|S64855341|S104459788|S16909082|S13215328|S184974915|S2764936482|S37062379|S75106429|S188383068|S203035050|S66851268|S13845130|S82779230|S15004046|S974056801|S2764746430|S136526455|S92576693|S90670110|S177382209|S2764716574|S165675472|S2764372282|S4210171953",
+      "route": "OAv2-A4-venues:1",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S153840704|S106953758|S195167216|S92134727|S36461803|S2764598273|S2489902859|S113591250|S177297213|S61274580|S2764908915|S109088427|S7637673|S169493037|S2765069123|S131371711|S135981667|S160110530|S2764555239|S29882555|S118096098|S2764724535|S2764917516|S148489009|S4210195801|S4210201506|S93285647|S4210174246|S4210210487|S2764388829|S4210234670|S4210205963|S60350835|S112282628|S78690241|S4210178125|S108074651|S4210205868|S2898549194|S2898239524",
+      "route": "OAv2-A4-venues:2",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 1,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S2764595184|S8194976|S176558078|S4210194226|S2764584420|S2898133657|S4210196632|S169042182|S119405978|S4210223659|S4210237610|S197825871|S4210210178|S2764941636|S5491134|S8095556|S171268996|S4210226544|S165210498|S59069355|S4210231269|S2898224786|S196715598|S87014875|S2898549711|S2765058439|S4387286573|S167445989|S188288600|S4157722|S76844451|S139800560|S171259723|S43203325|S2764400230|S4210185937|S161759566|S168261188|S4210211198|S2764917282",
+      "route": "OAv2-A4-venues:3",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S4210170931|S4210229628|S4210237588|S185750702|S4390963326|S2491293328|S2898140573|S4210217375|S4390297115|S23270015|S4210222997|S2898253115|S4210200923|S4387284882|S4210191548|S4210173072|S4210185341|S200200930|S4210217709|S4210182318|S4210223271|S4210178937|S20279327|S91943596|S5407042882|S4210234554|S146185615|S4394735723|S5407042881|S4210217772|S4210191328|S4210232080|S4387278629|S4210181248|S141422530|S4210186687|S2764798477|S4210173716|S4210214748|S4387292579",
+      "route": "OAv2-A4-venues:4",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S25405442|S4210209873|S4210191544|S4210177632|S4210236698|S4210235369|S4387291841|S4210233705|S4210190168|S4393919408|S4306533303|S4210224867|S5407043096|S2898415390|S4210198274|S2765077507|S4210228530|S4210178519|S4210213437|S5407043140|S4210168198|S4210228017|S4210235082|S4210210378|S4390648375|S4210236364|S4210185443|S5407010576|S4210185143|S5407037472|S4387291447|S4210202220|S4210218953|S4210217753|S148719026|S4387288227|S105028133|S4210192940|S4404669354|S5407050665",
+      "route": "OAv2-A4-venues:5",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S4210175056|S2764533006|S4387278592|S4210205749|S4210170143|S5407050810|S24746147|S4210205915|S4404676745|S4210240372|S4390296870|S4404663269|S4210197592|S4404677055|S4404675037|S4210216011|S4387291700|S5407042567|S5407047879|S2764983061|S4387284909|S5407054826|S183301237|S4210189487|S4306417681|S4210221657|S4210174212|S5407051026|S4210206112|S4306421085|S5407051859|S2764842924|S4210199054|S4210213219|S5407044632|S5407053640|S4210199373|S4210222711|S4210237196|S4210221980",
+      "route": "OAv2-A4-venues:6",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S4210181134|S4210181379|S4210209249|S4210172452|S4210183321|S4210223278|S4210219704|S5407050729|S5407054922|S4210184703|S4387278799|S7407056657|S4210210232|S4387288049|S4210180232|S4404677375|S4306502363|S4387288304|S4210193340|S206828615|S5407055209|S4210235508|S4210225855|S7407063568|S4210224525|S4393916446|S4210193984|S4210211520|S4210237505|S2764581491|S5407051145|S2765015917|S4210229247|S4210225024|S170524175|S4210232160|S2764430644|S4306533302|S5407039749|S4393913813",
+      "route": "OAv2-A4-venues:7",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    },
+    {
+      "source": "openalex",
+      "filter": "title_and_abstract.search:%22dense%20reconstruction%22%20OR%20%22saturated%20reconstruction%22,primary_location.source.id:S2755564186|S2764438633|S2764971989|S4393916875|S4363607180|S4387277812|S4393916874|S4393916876|S4377196203|S2764992003|S4306400674|S4393918606|S4306533300|S4306421084|S7407061778|S4393915482",
+      "route": "OAv2-A4-venues:8",
+      "date": "2026-08-26T00:25:07+00:00",
+      "count": 0,
+      "cached": true,
+      "status": "complete"
+    }
+  ],
+  "complete": true,
+  "venue_source_resolution": {
+    "rule": [
+      "nature reviews",
+      "annual review of",
+      "current opinion in",
+      "trends in",
+      "physiological reviews"
+    ],
+    "n_sources": 336,
+    "cached": true,
+    "sources": [
+      {
+        "id": "S136233269",
+        "display_name": "Trends in Biochemical Sciences",
+        "works_count": 9358
+      },
+      {
+        "id": "S79131028",
+        "display_name": "Trends in Ecology & Evolution",
+        "works_count": 8247
+      },
+      {
+        "id": "S89023782",
+        "display_name": "Trends in Food Science & Technology",
+        "works_count": 8119
+      },
+      {
+        "id": "S2765079064",
+        "display_name": "TRENDS IN THE SCIENCES",
+        "works_count": 7907
+      },
+      {
+        "id": "S31167473",
+        "display_name": "Trends in Pharmacological Sciences",
+        "works_count": 7576
+      },
+      {
+        "id": "S114966740",
+        "display_name": "Trends in Neurosciences",
+        "works_count": 7494
+      },
+      {
+        "id": "S139283865",
+        "display_name": "Trends in Genetics",
+        "works_count": 7204
+      },
+      {
+        "id": "S186543748",
+        "display_name": "Nature Reviews Drug Discovery",
+        "works_count": 6844
+      },
+      {
+        "id": "S147849156",
+        "display_name": "Trends in biotechnology",
+        "works_count": 6398
+      },
+      {
+        "id": "S23939942",
+        "display_name": "Current Opinion in Biotechnology",
+        "works_count": 6147
+      },
+      {
+        "id": "S587692",
+        "display_name": "Trends in Microbiology",
+        "works_count": 5312
+      },
+      {
+        "id": "S118628157",
+        "display_name": "Trends in Cell Biology",
+        "works_count": 5238
+      },
+      {
+        "id": "S26843219",
+        "display_name": "Nature reviews. Neuroscience",
+        "works_count": 5214
+      },
+      {
+        "id": "S201780205",
+        "display_name": "Trends in Plant Science",
+        "works_count": 5167
+      },
+      {
+        "id": "S175155502",
+        "display_name": "Current Opinion in Structural Biology",
+        "works_count": 5097
+      },
+      {
+        "id": "S8553189",
+        "display_name": "Nature Reviews Genetics",
+        "works_count": 5040
+      },
+      {
+        "id": "S196724125",
+        "display_name": "Nature Reviews Molecular Cell Biology",
+        "works_count": 5023
+      },
+      {
+        "id": "S93373720",
+        "display_name": "Nature reviews. Immunology",
+        "works_count": 4978
+      },
+      {
+        "id": "S132270157",
+        "display_name": "Current Opinion in Anaesthesiology",
+        "works_count": 4858
+      },
+      {
+        "id": "S170047187",
+        "display_name": "Current Opinion in Immunology",
+        "works_count": 4825
+      },
+      {
+        "id": "S120775027",
+        "display_name": "Current Opinion in Neurobiology",
+        "works_count": 4796
+      },
+      {
+        "id": "S160464432",
+        "display_name": "Nature reviews. Cancer",
+        "works_count": 4693
+      },
+      {
+        "id": "S56802129",
+        "display_name": "Nature Reviews Microbiology",
+        "works_count": 4645
+      },
+      {
+        "id": "S103771297",
+        "display_name": "Current Opinion in Cell Biology",
+        "works_count": 4627
+      },
+      {
+        "id": "S204673346",
+        "display_name": "Current Opinion in Pediatrics",
+        "works_count": 4518
+      },
+      {
+        "id": "S41211651",
+        "display_name": "Current Opinion in Gastroenterology",
+        "works_count": 4403
+      },
+      {
+        "id": "S15258550",
+        "display_name": "Current Opinion in Psychiatry",
+        "works_count": 4388
+      },
+      {
+        "id": "S192051125",
+        "display_name": "Trends in Cognitive Sciences",
+        "works_count": 4343
+      },
+      {
+        "id": "S57372075",
+        "display_name": "Current Opinion in Cardiology",
+        "works_count": 4260
+      },
+      {
+        "id": "S18618073",
+        "display_name": "Nature Reviews Nephrology",
+        "works_count": 4209
+      },
+      {
+        "id": "S110589544",
+        "display_name": "Current Opinion in Urology",
+        "works_count": 4114
+      },
+      {
+        "id": "S93802863",
+        "display_name": "Trends in Endocrinology and Metabolism",
+        "works_count": 4111
+      },
+      {
+        "id": "S116174365",
+        "display_name": "Current Opinion in Genetics & Development",
+        "works_count": 4079
+      },
+      {
+        "id": "S179395531",
+        "display_name": "Current Opinion in Oncology",
+        "works_count": 3878
+      },
+      {
+        "id": "S182404557",
+        "display_name": "Trends in Parasitology",
+        "works_count": 3861
+      },
+      {
+        "id": "S31702427",
+        "display_name": "Current Opinion in Rheumatology",
+        "works_count": 3791
+      },
+      {
+        "id": "S67076826",
+        "display_name": "Current Opinion in Infectious Diseases",
+        "works_count": 3784
+      },
+      {
+        "id": "S69957782",
+        "display_name": "Current Opinion in Plant Biology",
+        "works_count": 3753
+      },
+      {
+        "id": "S67216020",
+        "display_name": "Nature Reviews Urology",
+        "works_count": 3709
+      },
+      {
+        "id": "S4210172747",
+        "display_name": "Trends in mathematics",
+        "works_count": 3688
+      },
+      {
+        "id": "S177945262",
+        "display_name": "Current Opinion in Neurology",
+        "works_count": 3666
+      },
+      {
+        "id": "S116269268",
+        "display_name": "Nature Reviews Endocrinology",
+        "works_count": 3566
+      },
+      {
+        "id": "S35563517",
+        "display_name": "Current Opinion in Chemical Biology",
+        "works_count": 3503
+      },
+      {
+        "id": "S203964698",
+        "display_name": "Current Opinion in Lipidology",
+        "works_count": 3498
+      },
+      {
+        "id": "S78310130",
+        "display_name": "Nature Reviews Rheumatology",
+        "works_count": 3494
+      },
+      {
+        "id": "S106299656",
+        "display_name": "Current Opinion in Microbiology",
+        "works_count": 3490
+      },
+      {
+        "id": "S22232893",
+        "display_name": "Nature Reviews Neurology",
+        "works_count": 3455
+      },
+      {
+        "id": "S145244763",
+        "display_name": "Current Opinion in Ophthalmology",
+        "works_count": 3434
+      },
+      {
+        "id": "S62674001",
+        "display_name": "Nature Reviews Cardiology",
+        "works_count": 3406
+      },
+      {
+        "id": "S120397320",
+        "display_name": "Nature Reviews Gastroenterology & Hepatology",
+        "works_count": 3363
+      },
+      {
+        "id": "S41981144",
+        "display_name": "Nature Reviews Clinical Oncology",
+        "works_count": 3363
+      },
+      {
+        "id": "S203280300",
+        "display_name": "Current Opinion in Obstetrics & Gynecology",
+        "works_count": 3342
+      },
+      {
+        "id": "S84926904",
+        "display_name": "Trends in Immunology",
+        "works_count": 3338
+      },
+      {
+        "id": "S185853653",
+        "display_name": "Current Opinion in Nephrology & Hypertension",
+        "works_count": 3299
+      },
+      {
+        "id": "S196366644",
+        "display_name": "Annual Review of Physiology",
+        "works_count": 3258
+      },
+      {
+        "id": "S53860259",
+        "display_name": "Annual Review of Biochemistry",
+        "works_count": 3248
+      },
+      {
+        "id": "S64855341",
+        "display_name": "Trends in Molecular Medicine",
+        "works_count": 3222
+      },
+      {
+        "id": "S104459788",
+        "display_name": "Current Opinion in Critical Care",
+        "works_count": 3124
+      },
+      {
+        "id": "S16909082",
+        "display_name": "Annual Review of Medicine",
+        "works_count": 3080
+      },
+      {
+        "id": "S13215328",
+        "display_name": "Current Opinion in Pharmacology",
+        "works_count": 2956
+      },
+      {
+        "id": "S184974915",
+        "display_name": "Current Opinion in Otolaryngology & Head & Neck Surgery",
+        "works_count": 2945
+      },
+      {
+        "id": "S2764936482",
+        "display_name": "Trends in Biosciences/Trends in biosciences",
+        "works_count": 2940
+      },
+      {
+        "id": "S37062379",
+        "display_name": "Trends in Cardiovascular Medicine",
+        "works_count": 2929
+      },
+      {
+        "id": "S75106429",
+        "display_name": "Current Opinion in Clinical Nutrition & Metabolic Care",
+        "works_count": 2790
+      },
+      {
+        "id": "S188383068",
+        "display_name": "Current Opinion in Pulmonary Medicine",
+        "works_count": 2790
+      },
+      {
+        "id": "S203035050",
+        "display_name": "Physiological Reviews",
+        "works_count": 2703
+      },
+      {
+        "id": "S66851268",
+        "display_name": "Current Opinion in Organ Transplantation",
+        "works_count": 2614
+      },
+      {
+        "id": "S13845130",
+        "display_name": "Current Opinion in Allergy and Clinical Immunology",
+        "works_count": 2470
+      },
+      {
+        "id": "S82779230",
+        "display_name": "Annual Review of Microbiology",
+        "works_count": 2433
+      },
+      {
+        "id": "S15004046",
+        "display_name": "Current Opinion in Hematology",
+        "works_count": 2348
+      },
+      {
+        "id": "S974056801",
+        "display_name": "Current Opinion in Colloid & Interface Science",
+        "works_count": 2282
+      },
+      {
+        "id": "S2764746430",
+        "display_name": "Current Opinion in Psychology",
+        "works_count": 2265
+      },
+      {
+        "id": "S136526455",
+        "display_name": "Annual Review of Physical Chemistry",
+        "works_count": 2087
+      },
+      {
+        "id": "S92576693",
+        "display_name": "Annual Review of Entomology",
+        "works_count": 2058
+      },
+      {
+        "id": "S90670110",
+        "display_name": "Annual Review of Psychology",
+        "works_count": 2014
+      },
+      {
+        "id": "S177382209",
+        "display_name": "Trends in Glycoscience and Glycotechnology",
+        "works_count": 1952
+      },
+      {
+        "id": "S2764716574",
+        "display_name": "Trends in Anaesthesia and Critical Care",
+        "works_count": 1850
+      },
+      {
+        "id": "S165675472",
+        "display_name": "Annual Review of Phytopathology",
+        "works_count": 1813
+      },
+      {
+        "id": "S2764372282",
+        "display_name": "Current Opinion in Electrochemistry",
+        "works_count": 1747
+      },
+      {
+        "id": "S4210171953",
+        "display_name": "Trends in Sciences",
+        "works_count": 1740
+      },
+      {
+        "id": "S153840704",
+        "display_name": "Current Opinion in Environmental Sustainability",
+        "works_count": 1676
+      },
+      {
+        "id": "S106953758",
+        "display_name": "Current Opinion in HIV and AIDS",
+        "works_count": 1654
+      },
+      {
+        "id": "S195167216",
+        "display_name": "Annual Review of Anthropology",
+        "works_count": 1619
+      },
+      {
+        "id": "S92134727",
+        "display_name": "Annual Review of Genetics",
+        "works_count": 1610
+      },
+      {
+        "id": "S36461803",
+        "display_name": "Current Opinion in Orthopedics",
+        "works_count": 1571
+      },
+      {
+        "id": "S2764598273",
+        "display_name": "Current Opinion in Behavioral Sciences",
+        "works_count": 1563
+      },
+      {
+        "id": "S2489902859",
+        "display_name": "Current Opinion in Virology",
+        "works_count": 1519
+      },
+      {
+        "id": "S113591250",
+        "display_name": "Annual Review of Public Health",
+        "works_count": 1518
+      },
+      {
+        "id": "S177297213",
+        "display_name": "Current Opinion in Endocrinology Diabetes and Obesity",
+        "works_count": 1495
+      },
+      {
+        "id": "S61274580",
+        "display_name": "Annual Review of Sociology",
+        "works_count": 1486
+      },
+      {
+        "id": "S2764908915",
+        "display_name": "Current Opinion in Insect Science",
+        "works_count": 1482
+      },
+      {
+        "id": "S109088427",
+        "display_name": "Annual Review of Immunology",
+        "works_count": 1481
+      },
+      {
+        "id": "S7637673",
+        "display_name": "Current Opinion in Solid State and Materials Science",
+        "works_count": 1420
+      },
+      {
+        "id": "S169493037",
+        "display_name": "Annual Review of Fluid Mechanics",
+        "works_count": 1416
+      },
+      {
+        "id": "S2765069123",
+        "display_name": "Trends in cancer",
+        "works_count": 1406
+      },
+      {
+        "id": "S131371711",
+        "display_name": "Annual Review of Neuroscience",
+        "works_count": 1383
+      },
+      {
+        "id": "S135981667",
+        "display_name": "Annual Review of Earth and Planetary Sciences",
+        "works_count": 1373
+      },
+      {
+        "id": "S160110530",
+        "display_name": "Annual Review of Nutrition",
+        "works_count": 1348
+      },
+      {
+        "id": "S2764555239",
+        "display_name": "Current Opinion in Food Science",
+        "works_count": 1345
+      },
+      {
+        "id": "S29882555",
+        "display_name": "Annual Review of Astronomy and Astrophysics",
+        "works_count": 1334
+      },
+      {
+        "id": "S118096098",
+        "display_name": "Trends in Organized Crime",
+        "works_count": 1268
+      },
+      {
+        "id": "S2764724535",
+        "display_name": "Current Opinion in Chemical Engineering",
+        "works_count": 1234
+      },
+      {
+        "id": "S2764917516",
+        "display_name": "Nature Reviews Materials",
+        "works_count": 1183
+      },
+      {
+        "id": "S148489009",
+        "display_name": "Current Opinion in Supportive and Palliative Care",
+        "works_count": 1153
+      },
+      {
+        "id": "S4210195801",
+        "display_name": "Current Opinion in Green and Sustainable Chemistry",
+        "works_count": 1105
+      },
+      {
+        "id": "S4210201506",
+        "display_name": "Nature Reviews Disease Primers",
+        "works_count": 1071
+      },
+      {
+        "id": "S93285647",
+        "display_name": "Annual Review of Cell and Developmental Biology",
+        "works_count": 1050
+      },
+      {
+        "id": "S4210174246",
+        "display_name": "Nature Reviews Chemistry",
+        "works_count": 1025
+      },
+      {
+        "id": "S4210210487",
+        "display_name": "Trends in Chemistry",
+        "works_count": 977
+      },
+      {
+        "id": "S2764388829",
+        "display_name": "Trends in Urology & Men s Health",
+        "works_count": 977
+      },
+      {
+        "id": "S4210234670",
+        "display_name": "Nature Reviews Physics",
+        "works_count": 974
+      },
+      {
+        "id": "S4210205963",
+        "display_name": "Annual Review of Ecology and Systematics",
+        "works_count": 974
+      },
+      {
+        "id": "S60350835",
+        "display_name": "Current Opinion in Endocrinology & Diabetes",
+        "works_count": 881
+      },
+      {
+        "id": "S112282628",
+        "display_name": "Annual Review of Nuclear and Particle Science",
+        "works_count": 842
+      },
+      {
+        "id": "S78690241",
+        "display_name": "Annual Review of Materials Science",
+        "works_count": 832
+      },
+      {
+        "id": "S4210178125",
+        "display_name": "Nature Reviews Earth & Environment",
+        "works_count": 815
+      },
+      {
+        "id": "S108074651",
+        "display_name": "Annual Review of Applied Linguistics",
+        "works_count": 815
+      },
+      {
+        "id": "S4210205868",
+        "display_name": "Annual Review of Plant Physiology",
+        "works_count": 803
+      },
+      {
+        "id": "S2898549194",
+        "display_name": "Current Opinion in Physiology",
+        "works_count": 779
+      },
+      {
+        "id": "S2898239524",
+        "display_name": "Current Opinion in Environmental Science & Health",
+        "works_count": 762
+      },
+      {
+        "id": "S2764595184",
+        "display_name": "Trends in Hearing",
+        "works_count": 754
+      },
+      {
+        "id": "S8194976",
+        "display_name": "Annual Review of Political Science",
+        "works_count": 719
+      },
+      {
+        "id": "S176558078",
+        "display_name": "Annual Review of Plant Biology",
+        "works_count": 710
+      },
+      {
+        "id": "S4210194226",
+        "display_name": "Trends in logic",
+        "works_count": 707
+      },
+      {
+        "id": "S2764584420",
+        "display_name": "Trends in Psychiatry and Psychotherapy",
+        "works_count": 691
+      },
+      {
+        "id": "S2898133657",
+        "display_name": "Current Opinion in Biomedical Engineering",
+        "works_count": 690
+      },
+      {
+        "id": "S4210196632",
+        "display_name": "Trends in language acquisition research",
+        "works_count": 673
+      },
+      {
+        "id": "S169042182",
+        "display_name": "Trends in Applied Sciences Research",
+        "works_count": 656
+      },
+      {
+        "id": "S119405978",
+        "display_name": "Annual Review of Ecology Evolution and Systematics",
+        "works_count": 619
+      },
+      {
+        "id": "S4210223659",
+        "display_name": "Annual Review of Plant Physiology and Plant Molecular Biology",
+        "works_count": 619
+      },
+      {
+        "id": "S4210237610",
+        "display_name": "Nature Reviews Psychology",
+        "works_count": 608
+      },
+      {
+        "id": "S197825871",
+        "display_name": "Annual Review of Biophysics and Biomolecular Structure",
+        "works_count": 608
+      },
+      {
+        "id": "S4210210178",
+        "display_name": "Annual Review of Nuclear Science",
+        "works_count": 608
+      },
+      {
+        "id": "S2764941636",
+        "display_name": "Current Opinion in Systems Biology",
+        "works_count": 593
+      },
+      {
+        "id": "S5491134",
+        "display_name": "Annual Review of Environment and Resources",
+        "works_count": 570
+      },
+      {
+        "id": "S8095556",
+        "display_name": "Annual Review of Genomics and Human Genetics",
+        "works_count": 556
+      },
+      {
+        "id": "S171268996",
+        "display_name": "Annual Review of Biomedical Engineering",
+        "works_count": 550
+      },
+      {
+        "id": "S4210226544",
+        "display_name": "Trends in Psychology",
+        "works_count": 545
+      },
+      {
+        "id": "S165210498",
+        "display_name": "Annual Review of Materials Research",
+        "works_count": 521
+      },
+      {
+        "id": "S59069355",
+        "display_name": "Annual Review of Law and Social Science",
+        "works_count": 514
+      },
+      {
+        "id": "S4210231269",
+        "display_name": "Nature Reviews Methods Primers",
+        "works_count": 511
+      },
+      {
+        "id": "S2898224786",
+        "display_name": "Current Opinion in Endocrine and Metabolic Research",
+        "works_count": 504
+      },
+      {
+        "id": "S196715598",
+        "display_name": "Annual Review of Economics",
+        "works_count": 503
+      },
+      {
+        "id": "S87014875",
+        "display_name": "Annual Review of Clinical Psychology",
+        "works_count": 499
+      },
+      {
+        "id": "S2898549711",
+        "display_name": "Current Opinion in Toxicology",
+        "works_count": 497
+      },
+      {
+        "id": "S2765058439",
+        "display_name": "Annual Review of Nursing Research",
+        "works_count": 492
+      },
+      {
+        "id": "S4387286573",
+        "display_name": "Nature Reviews Bioengineering",
+        "works_count": 486
+      },
+      {
+        "id": "S167445989",
+        "display_name": "Current Opinion in Internal Medicine",
+        "works_count": 475
+      },
+      {
+        "id": "S188288600",
+        "display_name": "Annual Review of Pathology Mechanisms of Disease",
+        "works_count": 451
+      },
+      {
+        "id": "S4157722",
+        "display_name": "Annual Review of Biophysics",
+        "works_count": 449
+      },
+      {
+        "id": "S76844451",
+        "display_name": "Annual Review of Resource Economics",
+        "works_count": 444
+      },
+      {
+        "id": "S139800560",
+        "display_name": "Annual Review of Energy and the Environment",
+        "works_count": 439
+      },
+      {
+        "id": "S171259723",
+        "display_name": "Annual Review of Analytical Chemistry",
+        "works_count": 431
+      },
+      {
+        "id": "S43203325",
+        "display_name": "Annual Review of Marine Science",
+        "works_count": 421
+      },
+      {
+        "id": "S2764400230",
+        "display_name": "Trends in Biomaterials and Artificial Organs",
+        "works_count": 415
+      },
+      {
+        "id": "S4210185937",
+        "display_name": "Annual Review of Food Science and Technology",
+        "works_count": 396
+      },
+      {
+        "id": "S161759566",
+        "display_name": "Annual Review of Chemical and Biomolecular Engineering",
+        "works_count": 382
+      },
+      {
+        "id": "S168261188",
+        "display_name": "Trends in Classics",
+        "works_count": 382
+      },
+      {
+        "id": "S4210211198",
+        "display_name": "Annual Review of Pharmacology",
+        "works_count": 381
+      },
+      {
+        "id": "S2764917282",
+        "display_name": "Annual Review of Virology",
+        "works_count": 371
+      },
+      {
+        "id": "S4210170931",
+        "display_name": "Annual Review of Financial Economics",
+        "works_count": 356
+      },
+      {
+        "id": "S4210229628",
+        "display_name": "Trends in the history of science",
+        "works_count": 355
+      },
+      {
+        "id": "S4210237588",
+        "display_name": "Trends in Textile Engineering & Fashion Technology",
+        "works_count": 337
+      },
+      {
+        "id": "S185750702",
+        "display_name": "Annual Review of Condensed Matter Physics",
+        "works_count": 333
+      },
+      {
+        "id": "S4390963326",
+        "display_name": "Nature Reviews Electrical Engineering",
+        "works_count": 325
+      },
+      {
+        "id": "S2491293328",
+        "display_name": "Annual Review of Animal Biosciences",
+        "works_count": 306
+      },
+      {
+        "id": "S2898140573",
+        "display_name": "Trends in Environmental Analytical Chemistry",
+        "works_count": 305
+      },
+      {
+        "id": "S4210217375",
+        "display_name": "Annual Review of Statistics and Its Application",
+        "works_count": 297
+      },
+      {
+        "id": "S4390297115",
+        "display_name": "Trends in Social Sciences and Humanities Research",
+        "works_count": 293
+      },
+      {
+        "id": "S23270015",
+        "display_name": "Annual Review of Energy",
+        "works_count": 292
+      },
+      {
+        "id": "S4210222997",
+        "display_name": "Annual Review of Vision Science",
+        "works_count": 286
+      },
+      {
+        "id": "S2898253115",
+        "display_name": "Trends in Neuroscience and Education",
+        "works_count": 283
+      },
+      {
+        "id": "S4210200923",
+        "display_name": "Annual Review of Organizational Psychology and Organizational Behavior",
+        "works_count": 282
+      },
+      {
+        "id": "S4387284882",
+        "display_name": "Trends in Higher Education",
+        "works_count": 277
+      },
+      {
+        "id": "S4210191548",
+        "display_name": "Annual Review of Linguistics",
+        "works_count": 274
+      },
+      {
+        "id": "S4210173072",
+        "display_name": "Trends in Immunotherapy",
+        "works_count": 272
+      },
+      {
+        "id": "S4210185341",
+        "display_name": "Annual Review of Biophysics and Bioengineering",
+        "works_count": 261
+      },
+      {
+        "id": "S200200930",
+        "display_name": "Trends in Amplification",
+        "works_count": 254
+      },
+      {
+        "id": "S4210217709",
+        "display_name": "Trends in Computational and Applied Mathematics",
+        "works_count": 253
+      },
+      {
+        "id": "S4210182318",
+        "display_name": "Trends in andrology and sexual medicine",
+        "works_count": 244
+      },
+      {
+        "id": "S4210223271",
+        "display_name": "Trends in Green Chemistry",
+        "works_count": 238
+      },
+      {
+        "id": "S4210178937",
+        "display_name": "Annual Review of Cancer Biology",
+        "works_count": 229
+      },
+      {
+        "id": "S20279327",
+        "display_name": "Trends in Medical Research",
+        "works_count": 226
+      },
+      {
+        "id": "S91943596",
+        "display_name": "Annual Review of Information Science and Technology",
+        "works_count": 225
+      },
+      {
+        "id": "S5407042882",
+        "display_name": "Nature Reviews Clean Technology",
+        "works_count": 207
+      },
+      {
+        "id": "S4210234554",
+        "display_name": "Trends in Medicine",
+        "works_count": 207
+      },
+      {
+        "id": "S146185615",
+        "display_name": "Annual Review of Cell Biology",
+        "works_count": 205
+      },
+      {
+        "id": "S4394735723",
+        "display_name": "Trends in Pediatrics",
+        "works_count": 204
+      },
+      {
+        "id": "S5407042881",
+        "display_name": "Nature Reviews Biodiversity",
+        "works_count": 194
+      },
+      {
+        "id": "S4210217772",
+        "display_name": "Annual Review of Criminology",
+        "works_count": 192
+      },
+      {
+        "id": "S4210191328",
+        "display_name": "Annual Review of Control Robotics and Autonomous Systems",
+        "works_count": 186
+      },
+      {
+        "id": "S4210232080",
+        "display_name": "Annual Review of Biomedical Data Science",
+        "works_count": 186
+      },
+      {
+        "id": "S4387278629",
+        "display_name": "Trends in Business and Economics",
+        "works_count": 184
+      },
+      {
+        "id": "S4210181248",
+        "display_name": "Trends in Renewable Energy",
+        "works_count": 179
+      },
+      {
+        "id": "S141422530",
+        "display_name": "Trends in Urology Gynaecology & Sexual Health",
+        "works_count": 177
+      },
+      {
+        "id": "S4210186687",
+        "display_name": "Trends in Education",
+        "works_count": 175
+      },
+      {
+        "id": "S2764798477",
+        "display_name": "Annual Review of Gerontology and Geriatrics",
+        "works_count": 172
+      },
+      {
+        "id": "S4210173716",
+        "display_name": "Trends in Horticulture",
+        "works_count": 171
+      },
+      {
+        "id": "S4210214748",
+        "display_name": "Trends in Mechanical Engineering & Technology",
+        "works_count": 169
+      },
+      {
+        "id": "S4387292579",
+        "display_name": "Trends in Finance and Economics",
+        "works_count": 169
+      },
+      {
+        "id": "S25405442",
+        "display_name": "Annual Review of Sex Research",
+        "works_count": 160
+      },
+      {
+        "id": "S4210209873",
+        "display_name": "Annual Review of Developmental Psychology",
+        "works_count": 152
+      },
+      {
+        "id": "S4210191544",
+        "display_name": "Annual Review of Biophysics and Biophysical Chemistry",
+        "works_count": 150
+      },
+      {
+        "id": "S4210177632",
+        "display_name": "Trends in Undergraduate Research",
+        "works_count": 148
+      },
+      {
+        "id": "S4210236698",
+        "display_name": "Trends in Technical & Scientific Research",
+        "works_count": 145
+      },
+      {
+        "id": "S4210235369",
+        "display_name": "Trends in Telemedicine & E-health",
+        "works_count": 145
+      },
+      {
+        "id": "S4387291841",
+        "display_name": "Trends in Agricultural Sciences",
+        "works_count": 140
+      },
+      {
+        "id": "S4210233705",
+        "display_name": "Trends in abstract and applied analysis",
+        "works_count": 137
+      },
+      {
+        "id": "S4210190168",
+        "display_name": "Annual Review of Museum Anthropology",
+        "works_count": 136
+      },
+      {
+        "id": "S4393919408",
+        "display_name": "Trends in Nursing and Health Care Journal",
+        "works_count": 132
+      },
+      {
+        "id": "S4306533303",
+        "display_name": "Trends in Phytochemical Research",
+        "works_count": 128
+      },
+      {
+        "id": "S4210224867",
+        "display_name": "Trends in Computer Science and Information Technology",
+        "works_count": 126
+      },
+      {
+        "id": "S5407043096",
+        "display_name": "Trends in Animal and Plant Sciences",
+        "works_count": 125
+      },
+      {
+        "id": "S2898415390",
+        "display_name": "Annual Review of Fish Diseases",
+        "works_count": 124
+      },
+      {
+        "id": "S4210198274",
+        "display_name": "Trends in History",
+        "works_count": 123
+      },
+      {
+        "id": "S2765077507",
+        "display_name": "Trends in hematological malignancies",
+        "works_count": 116
+      },
+      {
+        "id": "S4210228530",
+        "display_name": "Trends in Transplantation",
+        "works_count": 110
+      },
+      {
+        "id": "S4210178519",
+        "display_name": "Annual Review of Cognitive Linguistics",
+        "works_count": 108
+      },
+      {
+        "id": "S4210213437",
+        "display_name": "Trends in Civil Engineering and its Architecture",
+        "works_count": 103
+      },
+      {
+        "id": "S5407043140",
+        "display_name": "Trends in Biotechnology and Plant Sciences",
+        "works_count": 102
+      },
+      {
+        "id": "S4210168198",
+        "display_name": "Annual Review of Biomedical Sciences",
+        "works_count": 88
+      },
+      {
+        "id": "S4210228017",
+        "display_name": "Annual Review of Health Social Science",
+        "works_count": 81
+      },
+      {
+        "id": "S4210235082",
+        "display_name": "Trends in Medical Sciences",
+        "works_count": 80
+      },
+      {
+        "id": "S4210210378",
+        "display_name": "Trends in Research",
+        "works_count": 77
+      },
+      {
+        "id": "S4390648375",
+        "display_name": "Trends in Natural Products Research",
+        "works_count": 75
+      },
+      {
+        "id": "S4210236364",
+        "display_name": "Annual Review of Computer Science",
+        "works_count": 70
+      },
+      {
+        "id": "S4210185443",
+        "display_name": "Trends in Ophthalmology Open Access Journal",
+        "works_count": 70
+      },
+      {
+        "id": "S5407010576",
+        "display_name": "Trends in Current Biology",
+        "works_count": 69
+      },
+      {
+        "id": "S4210185143",
+        "display_name": "Trends in Agriculture & Life Sciences",
+        "works_count": 68
+      },
+      {
+        "id": "S5407037472",
+        "display_name": "Trends in Ecological and Indoor Environmental Engineering",
+        "works_count": 65
+      },
+      {
+        "id": "S4387291447",
+        "display_name": "Current Opinion in Epidemiology and Public Health",
+        "works_count": 64
+      },
+      {
+        "id": "S4210202220",
+        "display_name": "Trends in Oncology",
+        "works_count": 64
+      },
+      {
+        "id": "S4210218953",
+        "display_name": "Trends in Machine Design",
+        "works_count": 62
+      },
+      {
+        "id": "S4210217753",
+        "display_name": "Current Opinion in Gynecology and Obstetrics",
+        "works_count": 61
+      },
+      {
+        "id": "S148719026",
+        "display_name": "Trends in Bioinformatics",
+        "works_count": 61
+      },
+      {
+        "id": "S4387288227",
+        "display_name": "Trends in Scholarly Publishing",
+        "works_count": 61
+      },
+      {
+        "id": "S105028133",
+        "display_name": "Trends in Agricultural Economics",
+        "works_count": 59
+      },
+      {
+        "id": "S4210192940",
+        "display_name": "Trends in Transport Engineering and Applications",
+        "works_count": 56
+      },
+      {
+        "id": "S4404669354",
+        "display_name": "Trends in intellectual property research.",
+        "works_count": 56
+      },
+      {
+        "id": "S5407050665",
+        "display_name": "Trends in Biological Sciences",
+        "works_count": 56
+      },
+      {
+        "id": "S4210175056",
+        "display_name": "Trends in augmentation of human performance",
+        "works_count": 53
+      },
+      {
+        "id": "S2764533006",
+        "display_name": "Trends in polymer science",
+        "works_count": 52
+      },
+      {
+        "id": "S4387278592",
+        "display_name": "Trends in Internal Medicine",
+        "works_count": 49
+      },
+      {
+        "id": "S4210205749",
+        "display_name": "Trends in Nursing Administration & Education",
+        "works_count": 49
+      },
+      {
+        "id": "S4210170143",
+        "display_name": "Annual review of nano research",
+        "works_count": 47
+      },
+      {
+        "id": "S5407050810",
+        "display_name": "Trends in Environmental Sciences",
+        "works_count": 44
+      },
+      {
+        "id": "S24746147",
+        "display_name": "Trends in Communication",
+        "works_count": 41
+      },
+      {
+        "id": "S4210205915",
+        "display_name": "Trends in Nursing",
+        "works_count": 41
+      },
+      {
+        "id": "S4404676745",
+        "display_name": "Trends in Advanced Sciences and Technology",
+        "works_count": 41
+      },
+      {
+        "id": "S4210240372",
+        "display_name": "Trends in linguistics. Documentation",
+        "works_count": 40
+      },
+      {
+        "id": "S4390296870",
+        "display_name": "Trends in Pharmaceutical Biotechnology",
+        "works_count": 39
+      },
+      {
+        "id": "S4404663269",
+        "display_name": "Trends in pharmacy.",
+        "works_count": 38
+      },
+      {
+        "id": "S4210197592",
+        "display_name": "Trends in medieval philology",
+        "works_count": 38
+      },
+      {
+        "id": "S4404677055",
+        "display_name": "Trends in Agricultural and Environmental Sciences.",
+        "works_count": 37
+      },
+      {
+        "id": "S4404675037",
+        "display_name": "Trends in Economics, Finance and Management Journal",
+        "works_count": 36
+      },
+      {
+        "id": "S4210216011",
+        "display_name": "Annual review of cold atoms and molecules",
+        "works_count": 35
+      },
+      {
+        "id": "S4387291700",
+        "display_name": "Trends in Sociology",
+        "works_count": 32
+      },
+      {
+        "id": "S5407042567",
+        "display_name": "Trends in General Medicine",
+        "works_count": 32
+      },
+      {
+        "id": "S5407047879",
+        "display_name": "Trends in Surgical Sciences",
+        "works_count": 32
+      },
+      {
+        "id": "S2764983061",
+        "display_name": "Annual review of chronopharmacology",
+        "works_count": 29
+      },
+      {
+        "id": "S4387284909",
+        "display_name": "Trends in Clinical and Medical Sciences",
+        "works_count": 29
+      },
+      {
+        "id": "S5407054826",
+        "display_name": "Trends in Routine to Research",
+        "works_count": 29
+      },
+      {
+        "id": "S183301237",
+        "display_name": "Trends in Evolutionary Biology",
+        "works_count": 28
+      },
+      {
+        "id": "S4210189487",
+        "display_name": "Trends in international migration",
+        "works_count": 28
+      },
+      {
+        "id": "S4306417681",
+        "display_name": "Annual review of Cybertherapy and Telemedicine",
+        "works_count": 27
+      },
+      {
+        "id": "S4210221657",
+        "display_name": "Trends in Infection and Global Health",
+        "works_count": 26
+      },
+      {
+        "id": "S4210174212",
+        "display_name": "Trends in Diabetes and Metabolism",
+        "works_count": 25
+      },
+      {
+        "id": "S5407051026",
+        "display_name": "Trends in Pharmacology and Toxicology",
+        "works_count": 25
+      },
+      {
+        "id": "S4210206112",
+        "display_name": "Trends in linguistics. Studies and monographs",
+        "works_count": 24
+      },
+      {
+        "id": "S4306421085",
+        "display_name": "Trends in Functional Programming",
+        "works_count": 23
+      },
+      {
+        "id": "S5407051859",
+        "display_name": "Trends in physical education and sport",
+        "works_count": 22
+      },
+      {
+        "id": "S2764842924",
+        "display_name": "Current opinion in neurology and neurosurgery",
+        "works_count": 21
+      },
+      {
+        "id": "S4210199054",
+        "display_name": "Trends in Artificial Intelligence",
+        "works_count": 21
+      },
+      {
+        "id": "S4210213219",
+        "display_name": "Trends in Biomedical Research",
+        "works_count": 20
+      },
+      {
+        "id": "S5407044632",
+        "display_name": "Trends in Applied Sciences Social Science and Education",
+        "works_count": 20
+      },
+      {
+        "id": "S5407053640",
+        "display_name": "Trends in Animal and Poultry Sciences",
+        "works_count": 20
+      },
+      {
+        "id": "S4210199373",
+        "display_name": "Annual Review of Language Acquisition",
+        "works_count": 19
+      },
+      {
+        "id": "S4210222711",
+        "display_name": "Current Opinion in Creativity Innovation and Entrepreneurship",
+        "works_count": 19
+      },
+      {
+        "id": "S4210237196",
+        "display_name": "Trends in Horticultural Research",
+        "works_count": 19
+      },
+      {
+        "id": "S4210221980",
+        "display_name": "Trends in Entomology",
+        "works_count": 19
+      },
+      {
+        "id": "S4210181134",
+        "display_name": "Trends in General Practice",
+        "works_count": 19
+      },
+      {
+        "id": "S4210181379",
+        "display_name": "Trends in Anatomy and Physiology",
+        "works_count": 18
+      },
+      {
+        "id": "S4210209249",
+        "display_name": "Trends in Geriatric Healthcare",
+        "works_count": 16
+      },
+      {
+        "id": "S4210172452",
+        "display_name": "Trends in Pharmaceuticals and Nanotechnology",
+        "works_count": 16
+      },
+      {
+        "id": "S4210183321",
+        "display_name": "Trends in the transport sector",
+        "works_count": 15
+      },
+      {
+        "id": "S4210223278",
+        "display_name": "Trends in Genetics and Evolution",
+        "works_count": 13
+      },
+      {
+        "id": "S4210219704",
+        "display_name": "Trends in Cancer Research and Chemotherapy",
+        "works_count": 13
+      },
+      {
+        "id": "S5407050729",
+        "display_name": "Trends in Social Sciences",
+        "works_count": 13
+      },
+      {
+        "id": "S5407054922",
+        "display_name": "Trends in Public Health",
+        "works_count": 13
+      },
+      {
+        "id": "S4210184703",
+        "display_name": "Annual review of developments in globalization and regional integration in the countries of the ESCWA region ...",
+        "works_count": 12
+      },
+      {
+        "id": "S4387278799",
+        "display_name": "Trends in Otorhinolaryngology- Head and Neck Surgery",
+        "works_count": 11
+      },
+      {
+        "id": "S7407056657",
+        "display_name": "Trends in Biosciences Research",
+        "works_count": 11
+      },
+      {
+        "id": "S4210210232",
+        "display_name": "Trends in Developmental Biology",
+        "works_count": 10
+      },
+      {
+        "id": "S4387288049",
+        "display_name": "Trends in Electrical Engineering",
+        "works_count": 10
+      },
+      {
+        "id": "S4210180232",
+        "display_name": "Trends in Pulmonary and Respiratory Medicine",
+        "works_count": 8
+      },
+      {
+        "id": "S4404677375",
+        "display_name": "Annual Review of Legal Studies",
+        "works_count": 7
+      },
+      {
+        "id": "S4306502363",
+        "display_name": "Annual Review of Hiroshima Society for Science of Arts",
+        "works_count": 7
+      },
+      {
+        "id": "S4387288304",
+        "display_name": "Trends in Physical Chemistry",
+        "works_count": 7
+      },
+      {
+        "id": "S4210193340",
+        "display_name": "Trends in Molecular Sciences",
+        "works_count": 7
+      },
+      {
+        "id": "S206828615",
+        "display_name": "Current opinion in molecular therapeutics",
+        "works_count": 6
+      },
+      {
+        "id": "S5407055209",
+        "display_name": "Trends in Pharmacology and Drug Delivery",
+        "works_count": 6
+      },
+      {
+        "id": "S4210235508",
+        "display_name": "Trends in Vector Research and Parasitology",
+        "works_count": 5
+      },
+      {
+        "id": "S4210225855",
+        "display_name": "Trends in Humanities and Social Sciences",
+        "works_count": 5
+      },
+      {
+        "id": "S7407063568",
+        "display_name": "Trends in Educational Research",
+        "works_count": 4
+      },
+      {
+        "id": "S4210224525",
+        "display_name": "Trends in Bacteriology",
+        "works_count": 3
+      },
+      {
+        "id": "S4393916446",
+        "display_name": "Trends in Applied Spectroscopy",
+        "works_count": 3
+      },
+      {
+        "id": "S4210193984",
+        "display_name": "Trends in Organic Chemistry",
+        "works_count": 3
+      },
+      {
+        "id": "S4210211520",
+        "display_name": "Trends in Photochemistry & Photobiology",
+        "works_count": 3
+      },
+      {
+        "id": "S4210237505",
+        "display_name": "Trends in Anesthesia and Surgery",
+        "works_count": 3
+      },
+      {
+        "id": "S2764581491",
+        "display_name": "Annual review of OCLC research",
+        "works_count": 2
+      },
+      {
+        "id": "S5407051145",
+        "display_name": "Annual Review of Psychology",
+        "works_count": 2
+      },
+      {
+        "id": "S2765015917",
+        "display_name": "Current opinion in radiology",
+        "works_count": 2
+      },
+      {
+        "id": "S4210229247",
+        "display_name": "Trends in Cell & Molecular Biology",
+        "works_count": 2
+      },
+      {
+        "id": "S4210225024",
+        "display_name": "Trends in Cancer Research",
+        "works_count": 2
+      },
+      {
+        "id": "S170524175",
+        "display_name": "Current opinion in drug discovery & development",
+        "works_count": 1
+      },
+      {
+        "id": "S4210232160",
+        "display_name": "Trends in classics. Supplementary volumes",
+        "works_count": 1
+      },
+      {
+        "id": "S2764430644",
+        "display_name": "Trends in health care, law & ethics",
+        "works_count": 1
+      },
+      {
+        "id": "S4306533302",
+        "display_name": "Trends in pharmaceutical sciences",
+        "works_count": 1
+      },
+      {
+        "id": "S5407039749",
+        "display_name": "Trends in Psychiatry",
+        "works_count": 1
+      },
+      {
+        "id": "S4393913813",
+        "display_name": "Annual review of rehabilitation",
+        "works_count": 0
+      },
+      {
+        "id": "S2755564186",
+        "display_name": "Annual review of population law",
+        "works_count": 0
+      },
+      {
+        "id": "S2764438633",
+        "display_name": "Annual Review of Automatic Programming",
+        "works_count": 0
+      },
+      {
+        "id": "S2764971989",
+        "display_name": "Current opinion in dentistry",
+        "works_count": 0
+      },
+      {
+        "id": "S4393916875",
+        "display_name": "Current opinion in periodontology",
+        "works_count": 0
+      },
+      {
+        "id": "S4363607180",
+        "display_name": "Current opinion in investigational drugs (London, England : 2000)",
+        "works_count": 0
+      },
+      {
+        "id": "S4387277812",
+        "display_name": "Current Opinion in Pulmonary Medicine",
+        "works_count": 0
+      },
+      {
+        "id": "S4393916874",
+        "display_name": "Current opinion in general surgery",
+        "works_count": 0
+      },
+      {
+        "id": "S4393916876",
+        "display_name": "Current opinion in cosmetic dentistry",
+        "works_count": 0
+      },
+      {
+        "id": "S4377196203",
+        "display_name": "Current Opinion in Creativity, Innovation and Enterpreneurship ",
+        "works_count": 0
+      },
+      {
+        "id": "S2764992003",
+        "display_name": "Trends in Education",
+        "works_count": 0
+      },
+      {
+        "id": "S4306400674",
+        "display_name": "Trends in Renewable Energy (Trends in Renewable Energy)",
+        "works_count": 0
+      },
+      {
+        "id": "S4393918606",
+        "display_name": "Trends in Sport Science/Trends in Sport Sciences",
+        "works_count": 0
+      },
+      {
+        "id": "S4306533300",
+        "display_name": "Trends in Electrical Engineering",
+        "works_count": 0
+      },
+      {
+        "id": "S4306421084",
+        "display_name": "Trends in Enterprise Architecture Research",
+        "works_count": 0
+      },
+      {
+        "id": "S7407061778",
+        "display_name": "Trends in Peptide and Protein Sciences",
+        "works_count": 0
+      },
+      {
+        "id": "S4393915482",
+        "display_name": "Physiological reviews. Supplement",
+        "works_count": 0
+      }
+    ]
+  }
+}

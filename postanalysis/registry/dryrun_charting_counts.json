@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-08-26T01:30:48+00:00",
+  "status": "EXPLORATION DRY-RUN - draft tags, no protocol standing",
+  "n_works": 1806,
+  "coverage": {
+    "tagged_with_any_dataset": 567,
+    "tagged_with_any_stage": 1365,
+    "untagged_by_both": 300
+  },
+  "dataset_usage": {
+    "DS01 C. elegans (White+)": 240,
+    "DS09/DS10 mouse retina": 80,
+    "DS03 Drosophila larva": 63,
+    "DS15 zebrafish": 53,
+    "DS13 MICrONS": 46,
+    "DS07 VNC (FANC/MANC)": 25,
+    "DS06 FlyWire": 22,
+    "DS22 Platynereis": 15,
+    "DS12 L4 barrel cortex": 13,
+    "DS05 hemibrain": 12,
+    "DS19 songbird": 12,
+    "DS14 H01 human cortex": 9,
+    "DS04 FAFB": 8,
+    "DS11 Kasthuri neocortex": 7,
+    "DS20 Ciona": 5,
+    "DS21 octopus": 3,
+    "DS16 calyx of Held": 1
+  },
+  "stage_counts": {
+    "graph_analysis": 788,
+    "infrastructure": 450,
+    "proofreading": 332,
+    "segmentation": 291,
+    "modeling": 214,
+    "acquisition": 166,
+    "sectioning": 165,
+    "preparation": 143,
+    "synapses": 81,
+    "alignment": 71
+  },
+  "stage_by_era": {
+    "sectioning": {
+      "2015-present": 127,
+      "2005-2015": 34,
+      "pre-2005": 4
+    },
+    "synapses": {
+      "2015-present": 73,
+      "2005-2015": 8
+    },
+    "graph_analysis": {
+      "2015-present": 659,
+      "2005-2015": 125,
+      "pre-2005": 4
+    },
+    "proofreading": {
+      "2005-2015": 66,
+      "2015-present": 266
+    },
+    "segmentation": {
+      "2015-present": 248,
+      "2005-2015": 42,
+      "pre-2005": 1
+    },
+    "infrastructure": {
+      "2015-present": 382,
+      "2005-2015": 68
+    },
+    "preparation": {
+      "2015-present": 115,
+      "2005-2015": 26,
+      "pre-2005": 2
+    },
+    "modeling": {
+      "2015-present": 184,
+      "2005-2015": 30
+    },
+    "acquisition": {
+      "2015-present": 125,
+      "2005-2015": 40,
+      "pre-2005": 1
+    },
+    "alignment": {
+      "2015-present": 58,
+      "2005-2015": 13
+    }
+  }
+}

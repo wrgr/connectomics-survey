@@ -1,0 +1,2468 @@
+{
+  "artifact": "review_pool.json",
+  "schema_version": "IA-015.1",
+  "generated_at": "2026-08-25T18:19:21+00:00",
+  "screener_of_record": {
+    "name": "William Gray Roncal",
+    "orcid": "0000-0002-7362-9665"
+  },
+  "sync_note": "This pool is reconstructed inside the repo from the IA-015 execution spec. Entries with route 'external-pool-member (reconstructed)' predate this artifact in the external protocol audit record; their original routes are not in this repo.",
+  "role_separation": "A review may serve as a reference-list probe (discovery) and/or an attestation source (evidence). Discovery is never evidence.",
+  "declared_standing_gaps": [
+    "alignment/registration has no review; stratum reported thin; Saalfeld/Cardona enter later as primary literature."
+  ],
+  "known_absent_by_decision": [
+    "'Collinson et al. 2023 community-standards piece' - could not be verified to exist (likely conflation with Peddie et al. 2022). Do not search further; this retraction of the claim is itself the log entry."
+  ],
+  "entries": [
+    {
+      "pool_id": "G1",
+      "doi": "10.1016/s0074-7696(08)60956-0",
+      "citation": "Ware RW, LoPresti V (1975). Three-dimensional reconstruction from serial sections. Int. Rev. Cytol. 40:325-440",
+      "stratum_era": "Reconstruction / era-1",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Era-1 anchor vocabulary source; the pre-dormancy methods review.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": "Spec-marked UNRESOLVED; resolved 2026-08-25 via Crossref query.bibliographic (title+container); DOI exists in Elsevier backfile, so the works-without-DOI path was not needed. Pages 325-440 and author set match the spec citation.",
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Three-Dimensional Reconstruction from Serial Sections",
+        "container": "International Review of Cytology",
+        "year": 1975,
+        "authors": [
+          {
+            "family": "Ware",
+            "given": "Randle W.",
+            "orcid": null
+          },
+          {
+            "family": "Lopresti",
+            "given": "Vincent",
+            "orcid": null
+          }
+        ],
+        "reference_count": 248
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "52c9155ce9df9ded5782963fee27e116035baa8a",
+        "corpus_id": 83964497,
+        "title": "Three-dimensional reconstruction from serial sections.",
+        "year": 1975,
+        "venue": "International Review of Cytology",
+        "reference_count": 141,
+        "citation_count": 65,
+        "authors": [
+          {
+            "author_id": "153542560",
+            "name": "Randle W. Ware"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W1870633229",
+        "is_retracted": false,
+        "cited_by_count": 110,
+        "authors": [
+          {
+            "openalex_author_id": "A5056778263",
+            "name": "Randle W. Ware",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5082811844",
+            "name": "V. Lopresti",
+            "orcid": null
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": null,
+        "in_frozen_discovery_by_title": "00e09f3d82c8436d81c0f122b5377808d4be45b8"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G2",
+      "doi": "10.1111/j.1365-2818.2005.01466.x",
+      "citation": "Fiala JC (2005). Reconstruct: a free editor for serial section microscopy. J. Microscopy 218:52-61",
+      "stratum_era": "Reconstruction tooling / era-1->2 boundary",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Tool paper, not review; enters as software-linked teaching/reference. Vocabulary: manual tracing terminology.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "<i>Reconstruct</i>\n                    : a free editor for serial section microscopy",
+        "container": "Journal of Microscopy",
+        "year": 2005,
+        "authors": [
+          {
+            "family": "FIALA",
+            "given": "J. C.",
+            "orcid": null
+          }
+        ],
+        "reference_count": 47
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "3d7173583b5e5bbcd06dc70dd66464f9f95604f4",
+        "corpus_id": 54595070,
+        "title": "Reconstruct: a free editor for serial section microscopy",
+        "year": 2005,
+        "venue": "Journal of Microscopy",
+        "reference_count": 47,
+        "citation_count": 796,
+        "authors": [
+          {
+            "author_id": "37764931",
+            "name": "J. Fiala"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W2142784661",
+        "is_retracted": false,
+        "cited_by_count": 915,
+        "authors": [
+          {
+            "openalex_author_id": "A5108544656",
+            "name": "John C. Fiala",
+            "orcid": null
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": null,
+        "in_frozen_discovery_by_title": "3d7173583b5e5bbcd06dc70dd66464f9f95604f4"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G3",
+      "doi": "10.1146/annurev-cellbio-100818-125444",
+      "citation": "Scheffer LK, Meinertzhagen IA (2019). The Fly Brain Atlas. Annu. Rev. Cell Dev. Biol. 35:637-653",
+      "stratum_era": "Organism (Drosophila) / era-3",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Low-cited relative to importance; canonical organism review.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "The Fly Brain Atlas",
+        "container": "Annual Review of Cell and Developmental Biology",
+        "year": 2019,
+        "authors": [
+          {
+            "family": "Scheffer",
+            "given": "Louis K.",
+            "orcid": null
+          },
+          {
+            "family": "Meinertzhagen",
+            "given": "Ian A.",
+            "orcid": null
+          }
+        ],
+        "reference_count": 77
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "fd74875cb1965ecd18c9bfb01381703129833344",
+        "corpus_id": 195844157,
+        "title": "The Fly Brain Atlas.",
+        "year": 2019,
+        "venue": "Annual Review of Cell and Developmental Biology",
+        "reference_count": 0,
+        "citation_count": 34,
+        "authors": [
+          {
+            "author_id": "21286469",
+            "name": "Louis K. Scheffer"
+          },
+          {
+            "author_id": "2489607",
+            "name": "I. Meinertzhagen"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W2962637298",
+        "is_retracted": false,
+        "cited_by_count": 43,
+        "authors": [
+          {
+            "openalex_author_id": "A5010126679",
+            "name": "Louis K. Scheffer",
+            "orcid": "https://orcid.org/0000-0002-3289-6564"
+          },
+          {
+            "openalex_author_id": "A5056046056",
+            "name": "Ian A. Meinertzhagen",
+            "orcid": "https://orcid.org/0000-0002-6578-4526"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": null,
+        "in_frozen_discovery_by_title": "fd74875cb1965ecd18c9bfb01381703129833344"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G4",
+      "doi": "10.1038/s43586-022-00131-9",
+      "citation": "Peddie CJ, Genoud C, Kreshuk A, ..., Collinson LM (2022). Volume electron microscopy. Nat. Rev. Methods Primers 2:51",
+      "stratum_era": "Acquisition + preparation / era-3",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Systematic vEM nomenclature source.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [
+          {
+            "notice_doi": "10.1038/s43586-022-00163-1",
+            "type": "correction",
+            "label": "Correction"
+          }
+        ],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Volume electron microscopy",
+        "container": "Nature Reviews Methods Primers",
+        "year": 2022,
+        "authors": [
+          {
+            "family": "Peddie",
+            "given": "Christopher J.",
+            "orcid": "https://orcid.org/0000-0002-8329-5419"
+          },
+          {
+            "family": "Genoud",
+            "given": "Christel",
+            "orcid": null
+          },
+          {
+            "family": "Kreshuk",
+            "given": "Anna",
+            "orcid": null
+          },
+          {
+            "family": "Meechan",
+            "given": "Kimberly",
+            "orcid": "https://orcid.org/0000-0003-4939-4170"
+          },
+          {
+            "family": "Micheva",
+            "given": "Kristina D.",
+            "orcid": "https://orcid.org/0000-0003-1138-3732"
+          },
+          {
+            "family": "Narayan",
+            "given": "Kedar",
+            "orcid": null
+          },
+          {
+            "family": "Pape",
+            "given": "Constantin",
+            "orcid": null
+          },
+          {
+            "family": "Parton",
+            "given": "Robert G.",
+            "orcid": "https://orcid.org/0000-0002-7494-5248"
+          },
+          {
+            "family": "Schieber",
+            "given": "Nicole L.",
+            "orcid": null
+          },
+          {
+            "family": "Schwab",
+            "given": "Yannick",
+            "orcid": null
+          },
+          {
+            "family": "Titze",
+            "given": "Benjamin",
+            "orcid": null
+          },
+          {
+            "family": "Verkade",
+            "given": "Paul",
+            "orcid": "https://orcid.org/0000-0002-2497-1026"
+          },
+          {
+            "family": "Weigel",
+            "given": "Aubrey",
+            "orcid": null
+          },
+          {
+            "family": "Collinson",
+            "given": "Lucy M.",
+            "orcid": "https://orcid.org/0000-0003-0260-613X"
+          }
+        ],
+        "reference_count": 289
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "3898a255657838f26cd8e5ce7bd97f0205bfbab2",
+        "corpus_id": 250365332,
+        "title": "Volume electron microscopy",
+        "year": 2022,
+        "venue": "Nature Reviews Methods Primers",
+        "reference_count": 299,
+        "citation_count": 192,
+        "authors": [
+          {
+            "author_id": "2307132",
+            "name": "C. Peddie"
+          },
+          {
+            "author_id": "1894827",
+            "name": "C. Genoud"
+          },
+          {
+            "author_id": "3190177",
+            "name": "A. Kreshuk"
+          },
+          {
+            "author_id": "1573416828",
+            "name": "Kimberly I. Meechan"
+          },
+          {
+            "author_id": "4323453",
+            "name": "Kristina D. Micheva"
+          },
+          {
+            "author_id": "40519126",
+            "name": "Kedar Narayan"
+          },
+          {
+            "author_id": "8814947",
+            "name": "Constantin Pape"
+          },
+          {
+            "author_id": "3825957",
+            "name": "R. Parton"
+          },
+          {
+            "author_id": "3707667",
+            "name": "N. Schieber"
+          },
+          {
+            "author_id": "2021624",
+            "name": "Y. Schwab"
+          },
+          {
+            "author_id": "92767345",
+            "name": "B. Titze"
+          },
+          {
+            "author_id": "2126287",
+            "name": "P. Verkade"
+          },
+          {
+            "author_id": "3502169",
+            "name": "Aubrey V. Weigel"
+          },
+          {
+            "author_id": "3533792",
+            "name": "L. Collinson"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W4284664944",
+        "is_retracted": false,
+        "cited_by_count": 238,
+        "authors": [
+          {
+            "openalex_author_id": "A5037445001",
+            "name": "Christopher J. Peddie",
+            "orcid": "https://orcid.org/0000-0002-8329-5419"
+          },
+          {
+            "openalex_author_id": "A5039723259",
+            "name": "Christel Genoud",
+            "orcid": "https://orcid.org/0000-0002-0933-9911"
+          },
+          {
+            "openalex_author_id": "A5038898203",
+            "name": "Anna Kreshuk",
+            "orcid": "https://orcid.org/0000-0003-1334-6388"
+          },
+          {
+            "openalex_author_id": "A5082713157",
+            "name": "Kimberly Meechan",
+            "orcid": "https://orcid.org/0000-0003-4939-4170"
+          },
+          {
+            "openalex_author_id": "A5063151170",
+            "name": "Kristina D. Micheva",
+            "orcid": "https://orcid.org/0000-0003-1138-3732"
+          },
+          {
+            "openalex_author_id": "A5016690921",
+            "name": "Kedar Narayan",
+            "orcid": "https://orcid.org/0000-0001-7982-6494"
+          },
+          {
+            "openalex_author_id": "A5023230414",
+            "name": "Constantin Pape",
+            "orcid": "https://orcid.org/0000-0001-6562-7187"
+          },
+          {
+            "openalex_author_id": "A5029211283",
+            "name": "Robert G. Parton",
+            "orcid": "https://orcid.org/0000-0002-7494-5248"
+          },
+          {
+            "openalex_author_id": "A5012206249",
+            "name": "Nicole L. Schieber",
+            "orcid": "https://orcid.org/0000-0002-3212-5057"
+          },
+          {
+            "openalex_author_id": "A5083499327",
+            "name": "Yannick Schwab",
+            "orcid": "https://orcid.org/0000-0001-8027-1836"
+          },
+          {
+            "openalex_author_id": "A5006529487",
+            "name": "Benjamin Titze",
+            "orcid": "https://orcid.org/0000-0001-9801-9188"
+          },
+          {
+            "openalex_author_id": "A5068325710",
+            "name": "Paul Verkade",
+            "orcid": "https://orcid.org/0000-0002-2497-1026"
+          },
+          {
+            "openalex_author_id": "A5072128833",
+            "name": "Aubrey V. Weigel",
+            "orcid": "https://orcid.org/0000-0003-1694-4420"
+          },
+          {
+            "openalex_author_id": "A5032614754",
+            "name": "Lucy Collinson",
+            "orcid": "https://orcid.org/0000-0003-0260-613X"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": null,
+        "in_frozen_discovery_by_title": "3898a255657838f26cd8e5ce7bd97f0205bfbab2"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G5",
+      "doi": "10.1038/s41592-018-0219-4",
+      "citation": "Wassie AT, Zhao Y, Boyden ES (2019). Expansion microscopy: principles and uses in biological research. Nat. Methods 16:33-41",
+      "stratum_era": "Alternative modality (ExM) / era-3",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Tag alternative-modality; substantive-use test applies at corpus time.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Expansion microscopy: principles and uses in biological research",
+        "container": "Nature Methods",
+        "year": 2018,
+        "authors": [
+          {
+            "family": "Wassie",
+            "given": "Asmamaw T.",
+            "orcid": null
+          },
+          {
+            "family": "Zhao",
+            "given": "Yongxin",
+            "orcid": null
+          },
+          {
+            "family": "Boyden",
+            "given": "Edward S.",
+            "orcid": null
+          }
+        ],
+        "reference_count": 63
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "acb8546133cbd487fd491c5b99c357271716791b",
+        "corpus_id": 58629598,
+        "title": "Expansion Microscopy: Principles and Uses in Biological Research",
+        "year": 2018,
+        "venue": "Nature Methods",
+        "reference_count": 132,
+        "citation_count": 428,
+        "authors": [
+          {
+            "author_id": "8624819",
+            "name": "A. Wassie"
+          },
+          {
+            "author_id": "46317560",
+            "name": "Yongxin Zhao"
+          },
+          {
+            "author_id": "16087476",
+            "name": "E. Boyden"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W2905344744",
+        "is_retracted": false,
+        "cited_by_count": 501,
+        "authors": [
+          {
+            "openalex_author_id": "A5089880023",
+            "name": "Asmamaw T. Wassie",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5084952545",
+            "name": "Yongxin Zhao",
+            "orcid": "https://orcid.org/0000-0003-4188-5725"
+          },
+          {
+            "openalex_author_id": "A5109593948",
+            "name": "Edward S. Boyden",
+            "orcid": null
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": null,
+        "in_frozen_discovery_by_title": "acb8546133cbd487fd491c5b99c357271716791b"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G6",
+      "doi": "10.1038/s41592-018-0185-x",
+      "citation": "Kebschull JM, Zador AM (2018). Cellular barcoding: lineage tracing, screening and beyond. Nat. Methods 15:871-879",
+      "stratum_era": "Alternative modality (sequencing) / era-3",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Alternative-modality handling as G5; MAPseq/BARseq vocabulary.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Cellular barcoding: lineage tracing, screening and beyond",
+        "container": "Nature Methods",
+        "year": 2018,
+        "authors": [
+          {
+            "family": "Kebschull",
+            "given": "Justus M.",
+            "orcid": null
+          },
+          {
+            "family": "Zador",
+            "given": "Anthony M.",
+            "orcid": null
+          }
+        ],
+        "reference_count": 100
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "4fb393bebcab5548dde8521c19aae869dd1acd11",
+        "corpus_id": 53115706,
+        "title": "Cellular barcoding: lineage tracing, screening and beyond",
+        "year": 2018,
+        "venue": "Nature Methods",
+        "reference_count": 104,
+        "citation_count": 168,
+        "authors": [
+          {
+            "author_id": "6481849",
+            "name": "Justus M. Kebschull"
+          },
+          {
+            "author_id": "3199565",
+            "name": "A. Zador"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W2895795340",
+        "is_retracted": false,
+        "cited_by_count": 206,
+        "authors": [
+          {
+            "openalex_author_id": "A5053014910",
+            "name": "Justus M. Kebschull",
+            "orcid": "https://orcid.org/0000-0002-4851-0267"
+          },
+          {
+            "openalex_author_id": "A5068098071",
+            "name": "Anthony M. Zador",
+            "orcid": "https://orcid.org/0000-0002-8431-9136"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": null,
+        "in_frozen_discovery_by_title": "4fb393bebcab5548dde8521c19aae869dd1acd11"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G7",
+      "doi": "10.1038/s41592-018-0181-1",
+      "citation": "Vogelstein JT, Perlman E, Falk B, et al. (2018). A community-developed open-source computational ecosystem for big neuro data. Nat. Methods 15:846-847",
+      "stratum_era": "Infrastructure / era-3",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Infrastructure stratum coverage.",
+      "coi": "COI-0 (screener is author)",
+      "flags": [
+        "self-tagged"
+      ],
+      "special_handling": "Role-tag evidence must come from third-party sources only; always in the human reliability sample.",
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "A community-developed open-source computational ecosystem for big neuro data",
+        "container": "Nature Methods",
+        "year": 2018,
+        "authors": [
+          {
+            "family": "Vogelstein",
+            "given": "Joshua T.",
+            "orcid": "https://orcid.org/0000-0003-2487-6237"
+          },
+          {
+            "family": "Perlman",
+            "given": "Eric",
+            "orcid": null
+          },
+          {
+            "family": "Falk",
+            "given": "Benjamin",
+            "orcid": null
+          },
+          {
+            "family": "Baden",
+            "given": "Alex",
+            "orcid": null
+          },
+          {
+            "family": "Gray Roncal",
+            "given": "William",
+            "orcid": null
+          },
+          {
+            "family": "Chandrashekhar",
+            "given": "Vikram",
+            "orcid": "https://orcid.org/0000-0001-7478-5304"
+          },
+          {
+            "family": "Collman",
+            "given": "Forrest",
+            "orcid": null
+          },
+          {
+            "family": "Seshamani",
+            "given": "Sharmishtaa",
+            "orcid": null
+          },
+          {
+            "family": "Patsolic",
+            "given": "Jesse L.",
+            "orcid": null
+          },
+          {
+            "family": "Lillaney",
+            "given": "Kunal",
+            "orcid": null
+          },
+          {
+            "family": "Kazhdan",
+            "given": "Michael",
+            "orcid": null
+          },
+          {
+            "family": "Hider",
+            "given": "Robert",
+            "orcid": null
+          },
+          {
+            "family": "Pryor",
+            "given": "Derek",
+            "orcid": null
+          },
+          {
+            "family": "Matelsky",
+            "given": "Jordan",
+            "orcid": null
+          },
+          {
+            "family": "Gion",
+            "given": "Timothy",
+            "orcid": null
+          },
+          {
+            "family": "Manavalan",
+            "given": "Priya",
+            "orcid": null
+          },
+          {
+            "family": "Wester",
+            "given": "Brock",
+            "orcid": null
+          },
+          {
+            "family": "Chevillet",
+            "given": "Mark",
+            "orcid": null
+          },
+          {
+            "family": "Trautman",
+            "given": "Eric T.",
+            "orcid": null
+          },
+          {
+            "family": "Khairy",
+            "given": "Khaled",
+            "orcid": null
+          },
+          {
+            "family": "Bridgeford",
+            "given": "Eric",
+            "orcid": null
+          },
+          {
+            "family": "Kleissas",
+            "given": "Dean M.",
+            "orcid": null
+          },
+          {
+            "family": "Tward",
+            "given": "Daniel J.",
+            "orcid": null
+          },
+          {
+            "family": "Crow",
+            "given": "Ailey K.",
+            "orcid": null
+          },
+          {
+            "family": "Hsueh",
+            "given": "Brian",
+            "orcid": null
+          },
+          {
+            "family": "Wright",
+            "given": "Matthew A.",
+            "orcid": null
+          },
+          {
+            "family": "Miller",
+            "given": "Michael I.",
+            "orcid": null
+          },
+          {
+            "family": "Smith",
+            "given": "Stephen J.",
+            "orcid": null
+          },
+          {
+            "family": "Vogelstein",
+            "given": "R. Jacob",
+            "orcid": null
+          },
+          {
+            "family": "Deisseroth",
+            "given": "Karl",
+            "orcid": null
+          },
+          {
+            "family": "Burns",
+            "given": "Randal",
+            "orcid": null
+          }
+        ],
+        "reference_count": 6
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "cab75a3583fb37617bfa99ead39a119fd9776ed9",
+        "corpus_id": 4715172,
+        "title": "A community-developed open-source computational ecosystem for big neuro data",
+        "year": 2018,
+        "venue": "Nature Methods",
+        "reference_count": 20,
+        "citation_count": 61,
+        "authors": [
+          {
+            "author_id": "1717958",
+            "name": "J. Vogelstein"
+          },
+          {
+            "author_id": "2083123459",
+            "name": "E. Perlman"
+          },
+          {
+            "author_id": "2055975334",
+            "name": "Benjamin Falk"
+          },
+          {
+            "author_id": "145880533",
+            "name": "Alex Baden"
+          },
+          {
+            "author_id": "119683714",
+            "name": "William Gray Roncal"
+          },
+          {
+            "author_id": "92187482",
+            "name": "V. Chandrashekhar"
+          },
+          {
+            "author_id": "6598643",
+            "name": "F. Collman"
+          },
+          {
+            "author_id": "1700529",
+            "name": "S. Seshamani"
+          },
+          {
+            "author_id": "2253497205",
+            "name": "Jesse L. Patsolic"
+          },
+          {
+            "author_id": "2336924",
+            "name": "Kunal Lillaney"
+          },
+          {
+            "author_id": "1690653",
+            "name": "M. Kazhdan"
+          },
+          {
+            "author_id": "49530703",
+            "name": "Robert Hider"
+          },
+          {
+            "author_id": "11107030",
+            "name": "Derek Pryor"
+          },
+          {
+            "author_id": "2261929536",
+            "name": "Jordan Matelsky"
+          },
+          {
+            "author_id": "40880032",
+            "name": "T. Gion"
+          },
+          {
+            "author_id": "20431706",
+            "name": "Priya Manavalan"
+          },
+          {
+            "author_id": "1916423",
+            "name": "Brock Andrew Wester"
+          },
+          {
+            "author_id": "2188372",
+            "name": "Mark A. Chevillet"
+          },
+          {
+            "author_id": "3543156",
+            "name": "Eric T. Trautman"
+          },
+          {
+            "author_id": "3060419",
+            "name": "K. Khairy"
+          },
+          {
+            "author_id": "5470543",
+            "name": "Eric W. Bridgeford"
+          },
+          {
+            "author_id": "1718768",
+            "name": "D. Kleissas"
+          },
+          {
+            "author_id": "3077186",
+            "name": "D. Tward"
+          },
+          {
+            "author_id": "2045949",
+            "name": "A. Crow"
+          },
+          {
+            "author_id": "2332770",
+            "name": "Brian Hsueh"
+          },
+          {
+            "author_id": "2253418448",
+            "name": "M. Wright"
+          },
+          {
+            "author_id": "2256800452",
+            "name": "Michael I. Miller"
+          },
+          {
+            "author_id": "2253898616",
+            "name": "Stephen J. Smith"
+          },
+          {
+            "author_id": "1711244",
+            "name": "R. J. Vogelstein"
+          },
+          {
+            "author_id": "2799815",
+            "name": "K. Deisseroth"
+          },
+          {
+            "author_id": "145542377",
+            "name": "R. Burns"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W2963908804",
+        "is_retracted": false,
+        "cited_by_count": 69,
+        "authors": [
+          {
+            "openalex_author_id": "A5065441417",
+            "name": "Joshua T Vogelstein",
+            "orcid": "https://orcid.org/0000-0003-2487-6237"
+          },
+          {
+            "openalex_author_id": "A5001311633",
+            "name": "Eric Perlman",
+            "orcid": "https://orcid.org/0000-0001-5542-1302"
+          },
+          {
+            "openalex_author_id": "A5033021733",
+            "name": "Benjamin Falk",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5068552062",
+            "name": "Alex Baden",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5110718333",
+            "name": "William Gray Roncal",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5012473250",
+            "name": "Vikram Chandrashekhar",
+            "orcid": "https://orcid.org/0000-0001-7478-5304"
+          },
+          {
+            "openalex_author_id": "A5081737132",
+            "name": "Forrest Collman",
+            "orcid": "https://orcid.org/0000-0002-0280-7022"
+          },
+          {
+            "openalex_author_id": "A5081264796",
+            "name": "Sharmishtaa Seshamani",
+            "orcid": "https://orcid.org/0000-0001-7289-3184"
+          },
+          {
+            "openalex_author_id": "A5069734929",
+            "name": "Jesse Patsolic",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5084586353",
+            "name": "Kunal Lillaney",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5108546455",
+            "name": "Michael Kazhdan",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5020843793",
+            "name": "Robert C. Hider",
+            "orcid": "https://orcid.org/0000-0003-1330-5797"
+          },
+          {
+            "openalex_author_id": "A5056208080",
+            "name": "Derek Pryor",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5015037960",
+            "name": "Jordan Matelsky",
+            "orcid": "https://orcid.org/0000-0002-9470-760X"
+          },
+          {
+            "openalex_author_id": "A5011085633",
+            "name": "Timothy Gion",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5076071391",
+            "name": "Priya Manavalan",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5069909173",
+            "name": "Brock A. Wester",
+            "orcid": "https://orcid.org/0000-0002-1500-2143"
+          },
+          {
+            "openalex_author_id": "A5048447532",
+            "name": "Mark A. Chevillet",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5030949277",
+            "name": "Eric T. Trautman",
+            "orcid": "https://orcid.org/0000-0001-8588-0569"
+          },
+          {
+            "openalex_author_id": "A5009717967",
+            "name": "Khaled Khairy",
+            "orcid": "https://orcid.org/0000-0002-9274-5928"
+          },
+          {
+            "openalex_author_id": "A5085717731",
+            "name": "Eric Bridgeford",
+            "orcid": "https://orcid.org/0000-0001-6115-719X"
+          },
+          {
+            "openalex_author_id": "A5058322230",
+            "name": "Dean M. Kleissas",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5082725826",
+            "name": "Daniel J. Tward",
+            "orcid": "https://orcid.org/0000-0002-4607-6807"
+          },
+          {
+            "openalex_author_id": "A5023947454",
+            "name": "Ailey Crow",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5101943290",
+            "name": "Brian Hsueh",
+            "orcid": "https://orcid.org/0000-0003-1460-8044"
+          },
+          {
+            "openalex_author_id": "A5101935888",
+            "name": "Matthew A. Wright",
+            "orcid": "https://orcid.org/0000-0001-7131-7492"
+          },
+          {
+            "openalex_author_id": "A5033151214",
+            "name": "Michael I. Miller",
+            "orcid": "https://orcid.org/0000-0003-4689-3855"
+          },
+          {
+            "openalex_author_id": "A5012609270",
+            "name": "Stephen J Smith",
+            "orcid": "https://orcid.org/0000-0002-2290-8701"
+          },
+          {
+            "openalex_author_id": "A5087223421",
+            "name": "R. Jacob Vogelstein",
+            "orcid": "https://orcid.org/0000-0001-8159-9577"
+          },
+          {
+            "openalex_author_id": "A5014360828",
+            "name": "Karl Deisseroth",
+            "orcid": "https://orcid.org/0000-0001-9440-3967"
+          },
+          {
+            "openalex_author_id": "A5084849539",
+            "name": "Randal Burns",
+            "orcid": "https://orcid.org/0000-0002-2924-1997"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": null,
+        "in_frozen_discovery_by_title": "cab75a3583fb37617bfa99ead39a119fd9776ed9"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G8",
+      "doi": "10.1111/jmi.13134",
+      "citation": "Kievits AJ, Lane R, Carroll EC, Hoogenboom JP (2022). How innovations in methodology offer new prospects for volume electron microscopy. J. Microscopy 287:114-137",
+      "stratum_era": "Preparation & throughput / era-3",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Only genuine review in an otherwise empty stratum; non-consortium (Delft) attestation base.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "How innovations in methodology offer new prospects for volume electron microscopy",
+        "container": "Journal of Microscopy",
+        "year": 2022,
+        "authors": [
+          {
+            "family": "Kievits",
+            "given": "Arent J.",
+            "orcid": "https://orcid.org/0000-0003-4457-9627"
+          },
+          {
+            "family": "Lane",
+            "given": "Ryan",
+            "orcid": "https://orcid.org/0000-0002-5887-2069"
+          },
+          {
+            "family": "Carroll",
+            "given": "Elizabeth C.",
+            "orcid": "https://orcid.org/0000-0002-8615-913X"
+          },
+          {
+            "family": "Hoogenboom",
+            "given": "Jacob P.",
+            "orcid": "https://orcid.org/0000-0003-4539-8772"
+          }
+        ],
+        "reference_count": 186
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "afb38ff1fee65101810048490683203aaa2fc07a",
+        "corpus_id": 250409559,
+        "title": "How innovations in methodology offer new prospects for volume electron microscopy",
+        "year": 2022,
+        "venue": "Journal of Microscopy",
+        "reference_count": 188,
+        "citation_count": 30,
+        "authors": [
+          {
+            "author_id": "2175565569",
+            "name": "Arent J. Kievits"
+          },
+          {
+            "author_id": "2040543528",
+            "name": "R. Lane"
+          },
+          {
+            "author_id": "2070532487",
+            "name": "Elizabeth C. Carroll"
+          },
+          {
+            "author_id": "1924977",
+            "name": "J. Hoogenboom"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W4284988743",
+        "is_retracted": false,
+        "cited_by_count": 42,
+        "authors": [
+          {
+            "openalex_author_id": "A5009469746",
+            "name": "Arent J. Kievits",
+            "orcid": "https://orcid.org/0000-0003-4457-9627"
+          },
+          {
+            "openalex_author_id": "A5042115820",
+            "name": "Ryan Lane",
+            "orcid": "https://orcid.org/0000-0002-5887-2069"
+          },
+          {
+            "openalex_author_id": "A5073063146",
+            "name": "Elizabeth C. Carroll",
+            "orcid": "https://orcid.org/0000-0002-8615-913X"
+          },
+          {
+            "openalex_author_id": "A5079838306",
+            "name": "Jacob P. Hoogenboom",
+            "orcid": "https://orcid.org/0000-0003-4539-8772"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": null,
+        "in_canonical_works": {
+          "work_id": "work_f042760cc79f80e4",
+          "source_group": "role_bridge"
+        },
+        "in_frozen_discovery_by_title": "afb38ff1fee65101810048490683203aaa2fc07a"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "G9",
+      "doi": "10.1111/cgf.14574",
+      "citation": "Beyer J, et al. (2022). A Survey of Visualization and Analysis in High-Resolution Connectomics. Comput. Graph. Forum 41:573-607",
+      "stratum_era": "Infrastructure & visualization / era-3",
+      "route": "targeted-title-search (gap-fill)",
+      "route_family": "a",
+      "rationale": "Systematic survey; only comprehensive reference list for the software stratum.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": "Spec said resolve by exact-title search; DOI taken from the frozen corpus record (exact title match in canonical_works_enriched_pass2.csv), verified against Crossref.",
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "A Survey of Visualization and Analysis in High\u2010Resolution Connectomics",
+        "container": "Computer Graphics Forum",
+        "year": 2022,
+        "authors": [
+          {
+            "family": "Beyer",
+            "given": "Johanna",
+            "orcid": null
+          },
+          {
+            "family": "Troidl",
+            "given": "Jakob",
+            "orcid": null
+          },
+          {
+            "family": "Boorboor",
+            "given": "Saeed",
+            "orcid": null
+          },
+          {
+            "family": "Hadwiger",
+            "given": "Markus",
+            "orcid": null
+          },
+          {
+            "family": "Kaufman",
+            "given": "Arie",
+            "orcid": null
+          },
+          {
+            "family": "Pfister",
+            "given": "Hanspeter",
+            "orcid": null
+          }
+        ],
+        "reference_count": 251
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "ebaf6fafb4adb7f3657fdbb869249c727ffccf7e",
+        "corpus_id": 248912992,
+        "title": "A Survey of Visualization and Analysis in High\u2010Resolution Connectomics",
+        "year": 2022,
+        "venue": "Computer graphics forum (Print)",
+        "reference_count": 247,
+        "citation_count": 30,
+        "authors": [
+          {
+            "author_id": "47273741",
+            "name": "Johanna Beyer"
+          },
+          {
+            "author_id": "1995573509",
+            "name": "J. Troidl"
+          },
+          {
+            "author_id": "51218383",
+            "name": "S. Boorboor"
+          },
+          {
+            "author_id": "1761518",
+            "name": "Markus Hadwiger"
+          },
+          {
+            "author_id": "2257157534",
+            "name": "A. Kaufman"
+          },
+          {
+            "author_id": "2062947008",
+            "name": "Hanspeter Pfister"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W4298724002",
+        "is_retracted": false,
+        "cited_by_count": 29,
+        "authors": [
+          {
+            "openalex_author_id": "A5010238198",
+            "name": "Johanna Beyer",
+            "orcid": "https://orcid.org/0000-0002-3505-9171"
+          },
+          {
+            "openalex_author_id": "A5075706889",
+            "name": "Jakob Troidl",
+            "orcid": "https://orcid.org/0009-0006-7958-867X"
+          },
+          {
+            "openalex_author_id": "A5024261564",
+            "name": "Saeed Boorboor",
+            "orcid": "https://orcid.org/0000-0001-6644-5983"
+          },
+          {
+            "openalex_author_id": "A5008754293",
+            "name": "Markus Hadwiger",
+            "orcid": "https://orcid.org/0000-0003-1239-4871"
+          },
+          {
+            "openalex_author_id": "A5039517392",
+            "name": "Arie Kaufman",
+            "orcid": "https://orcid.org/0000-0002-0796-6196"
+          },
+          {
+            "openalex_author_id": "A5043151044",
+            "name": "Hanspeter Pfister",
+            "orcid": "https://orcid.org/0000-0002-3620-2582"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": {
+          "paper_id": "ebaf6fafb4adb7f3657fdbb869249c727ffccf7e",
+          "keep": "True"
+        },
+        "in_canonical_works": {
+          "work_id": "work_5c9f2aea432a60e2",
+          "source_group": "core_audit"
+        },
+        "in_frozen_discovery_by_title": "ebaf6fafb4adb7f3657fdbb869249c727ffccf7e"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "R1",
+      "doi": "10.1038/s41583-025-00998-z",
+      "citation": "Helmstaedter M (2025). Synaptic-resolution connectomics: towards large brains and connectomic screening. Nat. Rev. Neurosci.",
+      "stratum_era": "Field synthesis / era-3",
+      "route": "WGR-nominated",
+      "route_family": "a",
+      "rationale": "Era-3 anchor review; already the source of the IA-014 manual-seed coverage holes.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": "Route per execution spec ('already logged'); external audit record is source of the original log entry.",
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Synaptic-resolution connectomics: towards large brains and connectomic screening",
+        "container": "Nature Reviews Neuroscience",
+        "year": 2025,
+        "authors": [
+          {
+            "family": "Helmstaedter",
+            "given": "Moritz",
+            "orcid": "https://orcid.org/0000-0001-7973-0767"
+          }
+        ],
+        "reference_count": 179
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "d3f0407421aa3f05f94efa908b620bc42b4810ea",
+        "corpus_id": 283689403,
+        "title": "Synaptic-resolution connectomics: towards large brains and connectomic screening",
+        "year": 2025,
+        "venue": "Nature Reviews Neuroscience",
+        "reference_count": 180,
+        "citation_count": 13,
+        "authors": [
+          {
+            "author_id": "2495450",
+            "name": "M. Helmstaedter"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W4417098329",
+        "is_retracted": false,
+        "cited_by_count": 10,
+        "authors": [
+          {
+            "openalex_author_id": "A5069874653",
+            "name": "Moritz Helmstaedter",
+            "orcid": "https://orcid.org/0000-0001-7973-0767"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": {
+          "paper_id": "d3f0407421aa3f05f94efa908b620bc42b4810ea",
+          "keep": "True"
+        },
+        "in_canonical_works": {
+          "work_id": "work_75371f7313f33c66",
+          "source_group": "core_audit"
+        },
+        "in_frozen_discovery_by_title": "d3f0407421aa3f05f94efa908b620bc42b4810ea"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "R2",
+      "doi": "10.1016/j.conb.2019.04.001",
+      "citation": "Lee K, Turner N, Macrina T, et al. (2019). Convolutional nets for reconstructing neural circuits from brain images acquired by serial section electron microscopy. Curr. Opin. Neurobiol. 55:188-198",
+      "stratum_era": "Reconstruction / era-3",
+      "route": "external-pool-member (reconstructed)",
+      "route_family": null,
+      "rationale": "Panel member P3; DOI resolved from the frozen corpus record per spec.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": "Original discovery route lives in the external protocol audit record (out of sync with this repo).",
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Convolutional nets for reconstructing neural circuits from brain images acquired by serial section electron microscopy",
+        "container": "Current Opinion in Neurobiology",
+        "year": 2019,
+        "authors": [
+          {
+            "family": "Lee",
+            "given": "Kisuk",
+            "orcid": null
+          },
+          {
+            "family": "Turner",
+            "given": "Nicholas",
+            "orcid": null
+          },
+          {
+            "family": "Macrina",
+            "given": "Thomas",
+            "orcid": null
+          },
+          {
+            "family": "Wu",
+            "given": "Jingpeng",
+            "orcid": "https://orcid.org/0000-0003-1604-8802"
+          },
+          {
+            "family": "Lu",
+            "given": "Ran",
+            "orcid": null
+          },
+          {
+            "family": "Seung",
+            "given": "H Sebastian",
+            "orcid": null
+          }
+        ],
+        "reference_count": 87
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "d8014842d8030d24c4078c0434ac366886c869b0",
+        "corpus_id": 140219867,
+        "title": "Convolutional nets for reconstructing neural circuits from brain images acquired by serial section electron microscopy",
+        "year": 2019,
+        "venue": "Current Opinion in Neurobiology",
+        "reference_count": 89,
+        "citation_count": 55,
+        "authors": [
+          {
+            "author_id": "2785521",
+            "name": "Kisuk Lee"
+          },
+          {
+            "author_id": "152772071",
+            "name": "N. Turner"
+          },
+          {
+            "author_id": "5056982",
+            "name": "T. Macrina"
+          },
+          {
+            "author_id": "31421132",
+            "name": "Jingpeng Wu"
+          },
+          {
+            "author_id": "1406193129",
+            "name": "R. Lu"
+          },
+          {
+            "author_id": "144924970",
+            "name": "H. Seung"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W2943035624",
+        "is_retracted": false,
+        "cited_by_count": 61,
+        "authors": [
+          {
+            "openalex_author_id": "A5101950460",
+            "name": "Kisuk Lee",
+            "orcid": "https://orcid.org/0000-0001-5707-0155"
+          },
+          {
+            "openalex_author_id": "A5042520357",
+            "name": "Nicholas L. Turner",
+            "orcid": "https://orcid.org/0000-0001-5382-3420"
+          },
+          {
+            "openalex_author_id": "A5021620351",
+            "name": "Thomas Macrina",
+            "orcid": "https://orcid.org/0000-0002-0622-9338"
+          },
+          {
+            "openalex_author_id": "A5047394906",
+            "name": "Jingpeng Wu",
+            "orcid": "https://orcid.org/0000-0003-1604-8802"
+          },
+          {
+            "openalex_author_id": "A5036614566",
+            "name": "Ran Lu",
+            "orcid": "https://orcid.org/0000-0002-2077-8165"
+          },
+          {
+            "openalex_author_id": "A5044273339",
+            "name": "H. Sebastian Seung",
+            "orcid": "https://orcid.org/0000-0002-8591-6733"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": {
+          "paper_id": "d8014842d8030d24c4078c0434ac366886c869b0",
+          "keep": "True"
+        },
+        "in_canonical_works": {
+          "work_id": "work_a03a07a6d277a87e",
+          "source_group": "core_audit"
+        },
+        "in_frozen_discovery_by_title": "d8014842d8030d24c4078c0434ac366886c869b0"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "R3",
+      "doi": "10.1016/j.cois.2022.100968",
+      "citation": "Galili DS, Jefferis GSXE, et al. (2022). Connectomics and the neural basis of behaviour. Curr. Opin. Insect Sci.",
+      "stratum_era": "Fly analysis / era-3",
+      "route": "external-pool-member (reconstructed)",
+      "route_family": null,
+      "rationale": "Panel member P5; DOI resolved from the frozen corpus record per spec.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": "Original discovery route lives in the external protocol audit record.",
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Connectomics and the neural basis of behaviour",
+        "container": "Current Opinion in Insect Science",
+        "year": 2022,
+        "authors": [
+          {
+            "family": "Galili",
+            "given": "Dana S",
+            "orcid": null
+          },
+          {
+            "family": "Jefferis",
+            "given": "Gregory SXE",
+            "orcid": null
+          },
+          {
+            "family": "Costa",
+            "given": "Marta",
+            "orcid": null
+          }
+        ],
+        "reference_count": 81
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "e67ce2076b1edb61228f9401bda7a0ea81f3055a",
+        "corpus_id": 252267840,
+        "title": "Connectomics and the neural basis of behaviour",
+        "year": 2022,
+        "venue": "Current Opinion in Insect Science",
+        "reference_count": 84,
+        "citation_count": 36,
+        "authors": [
+          {
+            "author_id": "47014419",
+            "name": "D. Galili"
+          },
+          {
+            "author_id": "145196228",
+            "name": "G. Jefferis"
+          },
+          {
+            "author_id": "2116353110",
+            "name": "Marta Costa"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W4296122806",
+        "is_retracted": false,
+        "cited_by_count": 61,
+        "authors": [
+          {
+            "openalex_author_id": "A5031268201",
+            "name": "Dana S. Galili",
+            "orcid": "https://orcid.org/0000-0002-8253-211X"
+          },
+          {
+            "openalex_author_id": "A5055440525",
+            "name": "Gregory S.X.E. Jefferis",
+            "orcid": "https://orcid.org/0000-0002-0587-9355"
+          },
+          {
+            "openalex_author_id": "A5076457920",
+            "name": "Marta Costa",
+            "orcid": "https://orcid.org/0000-0001-5948-3092"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": {
+          "paper_id": "e67ce2076b1edb61228f9401bda7a0ea81f3055a",
+          "keep": "True"
+        },
+        "in_canonical_works": {
+          "work_id": "work_c2c927525ced25b9",
+          "source_group": "core_audit"
+        },
+        "in_frozen_discovery_by_title": "e67ce2076b1edb61228f9401bda7a0ea81f3055a"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "R4",
+      "doi": "10.1016/j.conb.2019.07.007",
+      "citation": "Litwin-Kumar A, Turaga SC (2019). Constraining computational models using electron microscopy wiring diagrams. Curr. Opin. Neurobiol. 58:94-100",
+      "stratum_era": "Theory & NeuroAI / era-3",
+      "route": "external-pool-member (reconstructed)",
+      "route_family": null,
+      "rationale": "Panel member P7; DOI resolved from the frozen corpus record.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": "TITLE CORRECTION: the execution spec cites this as 'Constraining computation with connectomics'; the published title differs. Author set (Litwin-Kumar, Turaga), venue, and year uniquely match; no other Litwin-Kumar/Turaga 2019 Curr. Opin. Neurobiol. review exists.",
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Constraining computational models using electron microscopy wiring diagrams",
+        "container": "Current Opinion in Neurobiology",
+        "year": 2019,
+        "authors": [
+          {
+            "family": "Litwin-Kumar",
+            "given": "Ashok",
+            "orcid": null
+          },
+          {
+            "family": "Turaga",
+            "given": "Srinivas C",
+            "orcid": null
+          }
+        ],
+        "reference_count": 61
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "15434d389c900723fd2aeb884d3cb23dbb1303e3",
+        "corpus_id": 201646760,
+        "title": "Constraining computational models using electron microscopy wiring diagrams.",
+        "year": 2019,
+        "venue": "Current Opinion in Neurobiology",
+        "reference_count": 66,
+        "citation_count": 25,
+        "authors": [
+          {
+            "author_id": "1401265175",
+            "name": "Ashok Litwin-Kumar"
+          },
+          {
+            "author_id": "3178417",
+            "name": "Srinivas C. Turaga"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W2970825820",
+        "is_retracted": false,
+        "cited_by_count": 36,
+        "authors": [
+          {
+            "openalex_author_id": "A5020551914",
+            "name": "Ashok Litwin-Kumar",
+            "orcid": "https://orcid.org/0000-0003-2422-6576"
+          },
+          {
+            "openalex_author_id": "A5066189518",
+            "name": "Srinivas C. Turaga",
+            "orcid": "https://orcid.org/0000-0003-3247-6487"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": {
+          "paper_id": "15434d389c900723fd2aeb884d3cb23dbb1303e3",
+          "keep": "True"
+        },
+        "in_canonical_works": {
+          "work_id": "work_4888d0293b40ce35",
+          "source_group": "core_audit"
+        },
+        "in_frozen_discovery_by_title": "15434d389c900723fd2aeb884d3cb23dbb1303e3"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "R5",
+      "doi": "10.1016/j.crmeth.2025.100988",
+      "citation": "Collins LT, Huffman T, Koene RA (2025). Comparative prospects of imaging methods for whole-brain mammalian connectomics. Cell Rep. Methods",
+      "stratum_era": "Alternative modalities & emulation / era-3",
+      "route": "external-pool-member (reconstructed)",
+      "route_family": null,
+      "rationale": "Panel member P8; published DOI resolved from the frozen corpus record; reconcile with arXiv:2405.10488.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": "arXiv:2405.10488",
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "Comparative prospects of imaging methods for whole-brain mammalian connectomics",
+        "container": "Cell Reports Methods",
+        "year": 2025,
+        "authors": [
+          {
+            "family": "Collins",
+            "given": "Logan Thrasher",
+            "orcid": "https://orcid.org/0000-0003-1239-4310"
+          },
+          {
+            "family": "Huffman",
+            "given": "Todd",
+            "orcid": null
+          },
+          {
+            "family": "Koene",
+            "given": "Randal",
+            "orcid": null
+          }
+        ],
+        "reference_count": 72
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "061c1b682bb068b5b1f05666ff9480eccc8bb9ce",
+        "corpus_id": 278190965,
+        "title": "Comparative prospects of imaging methods for whole-brain mammalian connectomics",
+        "year": 2024,
+        "venue": "Cell Reports Methods",
+        "reference_count": 76,
+        "citation_count": 5,
+        "authors": [
+          {
+            "author_id": "8424052",
+            "name": "L. Collins"
+          },
+          {
+            "author_id": "2383266994",
+            "name": "Todd Huffman"
+          },
+          {
+            "author_id": "2358152863",
+            "name": "Randal A. Koene"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W4407698623",
+        "is_retracted": false,
+        "cited_by_count": 3,
+        "authors": [
+          {
+            "openalex_author_id": "A5066201103",
+            "name": "Logan Thrasher Collins",
+            "orcid": "https://orcid.org/0000-0003-1239-4310"
+          },
+          {
+            "openalex_author_id": "A5105368524",
+            "name": "Todd Huffman",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5035193391",
+            "name": "Randal A. Koene",
+            "orcid": "https://orcid.org/0000-0001-8316-5326"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": {
+          "paper_id": "061c1b682bb068b5b1f05666ff9480eccc8bb9ce",
+          "keep": "True"
+        },
+        "in_canonical_works": {
+          "work_id": "work_4fa3a9808ba6a3df",
+          "source_group": "core_audit"
+        },
+        "in_frozen_discovery_by_title": "061c1b682bb068b5b1f05666ff9480eccc8bb9ce"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    },
+    {
+      "pool_id": "R6",
+      "doi": "10.1016/j.cell.2020.08.010",
+      "citation": "Abbott LF, et al. (2020). The Mind of a Mouse. Cell 182:1372-1376",
+      "stratum_era": "Cross-cluster consensus / era-3",
+      "route": "external-pool-member (reconstructed)",
+      "route_family": null,
+      "rationale": "Panel member P9; DOI resolved from the frozen corpus record.",
+      "coi": "none declared (frozen COI artifact not in this repo; tagging deferred to sync)",
+      "flags": [],
+      "special_handling": null,
+      "identifier_resolution": null,
+      "provenance_note": null,
+      "preprint_of": null,
+      "verification": {
+        "checked_at": "2026-08-25T18:19:21+00:00",
+        "checks": {
+          "identifier_resolves": true,
+          "title_consistent": true,
+          "year_consistent": true,
+          "venue_consistent": true,
+          "s2_title_consistent": true
+        },
+        "retraction_notices": [],
+        "retracted": false
+      },
+      "crossref": {
+        "resolved": true,
+        "title": "The Mind of a Mouse",
+        "container": "Cell",
+        "year": 2020,
+        "authors": [
+          {
+            "family": "Abbott",
+            "given": "Larry F.",
+            "orcid": null
+          },
+          {
+            "family": "Bock",
+            "given": "Davi D.",
+            "orcid": null
+          },
+          {
+            "family": "Callaway",
+            "given": "Edward M.",
+            "orcid": null
+          },
+          {
+            "family": "Denk",
+            "given": "Winfried",
+            "orcid": null
+          },
+          {
+            "family": "Dulac",
+            "given": "Catherine",
+            "orcid": null
+          },
+          {
+            "family": "Fairhall",
+            "given": "Adrienne L.",
+            "orcid": null
+          },
+          {
+            "family": "Fiete",
+            "given": "Ila",
+            "orcid": null
+          },
+          {
+            "family": "Harris",
+            "given": "Kristen M.",
+            "orcid": null
+          },
+          {
+            "family": "Helmstaedter",
+            "given": "Moritz",
+            "orcid": null
+          },
+          {
+            "family": "Jain",
+            "given": "Viren",
+            "orcid": null
+          },
+          {
+            "family": "Kasthuri",
+            "given": "Narayanan",
+            "orcid": null
+          },
+          {
+            "family": "LeCun",
+            "given": "Yann",
+            "orcid": null
+          },
+          {
+            "family": "Lichtman",
+            "given": "Jeff W.",
+            "orcid": null
+          },
+          {
+            "family": "Littlewood",
+            "given": "Peter B.",
+            "orcid": null
+          },
+          {
+            "family": "Luo",
+            "given": "Liqun",
+            "orcid": null
+          },
+          {
+            "family": "Maunsell",
+            "given": "John H.R.",
+            "orcid": null
+          },
+          {
+            "family": "Reid",
+            "given": "R. Clay",
+            "orcid": null
+          },
+          {
+            "family": "Rosen",
+            "given": "Bruce R.",
+            "orcid": null
+          },
+          {
+            "family": "Rubin",
+            "given": "Gerald M.",
+            "orcid": null
+          },
+          {
+            "family": "Sejnowski",
+            "given": "Terrence J.",
+            "orcid": null
+          },
+          {
+            "family": "Seung",
+            "given": "H. Sebastian",
+            "orcid": null
+          },
+          {
+            "family": "Svoboda",
+            "given": "Karel",
+            "orcid": null
+          },
+          {
+            "family": "Tank",
+            "given": "David W.",
+            "orcid": null
+          },
+          {
+            "family": "Tsao",
+            "given": "Doris",
+            "orcid": null
+          },
+          {
+            "family": "Van Essen",
+            "given": "David C.",
+            "orcid": null
+          }
+        ],
+        "reference_count": 15
+      },
+      "semantic_scholar": {
+        "resolved": true,
+        "paper_id": "912140f1819ae4634fa8785c97b1658ba319365b",
+        "corpus_id": 221766693,
+        "title": "The Mind of a Mouse.",
+        "year": 2020,
+        "venue": "Cell",
+        "reference_count": 15,
+        "citation_count": 175,
+        "authors": [
+          {
+            "author_id": "145293717",
+            "name": "L. Abbott"
+          },
+          {
+            "author_id": "35571193",
+            "name": "D. Bock"
+          },
+          {
+            "author_id": "1686212",
+            "name": "E. Callaway"
+          },
+          {
+            "author_id": "144922222",
+            "name": "W. Denk"
+          },
+          {
+            "author_id": "4941310",
+            "name": "C. Dulac"
+          },
+          {
+            "author_id": "2595942",
+            "name": "A. Fairhall"
+          },
+          {
+            "author_id": "8657128",
+            "name": "I. Fiete"
+          },
+          {
+            "author_id": "2055588434",
+            "name": "Kristen M. Harris"
+          },
+          {
+            "author_id": "2495450",
+            "name": "M. Helmstaedter"
+          },
+          {
+            "author_id": "35086944",
+            "name": "Viren Jain"
+          },
+          {
+            "author_id": "48299334",
+            "name": "N. Kasthuri"
+          },
+          {
+            "author_id": "1688882",
+            "name": "Yann LeCun"
+          },
+          {
+            "author_id": "27103730",
+            "name": "J. Lichtman"
+          },
+          {
+            "author_id": "2100284",
+            "name": "P. Littlewood"
+          },
+          {
+            "author_id": "145586825",
+            "name": "L. Luo"
+          },
+          {
+            "author_id": "39009279",
+            "name": "John H. R. Maunsell"
+          },
+          {
+            "author_id": "46567235",
+            "name": "R. Reid"
+          },
+          {
+            "author_id": "145207020",
+            "name": "B. Rosen"
+          },
+          {
+            "author_id": "34660241",
+            "name": "G. Rubin"
+          },
+          {
+            "author_id": "50504368",
+            "name": "T. Sejnowski"
+          },
+          {
+            "author_id": "144924970",
+            "name": "H. Seung"
+          },
+          {
+            "author_id": "145919007",
+            "name": "K. Svoboda"
+          },
+          {
+            "author_id": "2516142",
+            "name": "D. Tank"
+          },
+          {
+            "author_id": "34762467",
+            "name": "D. Tsao"
+          },
+          {
+            "author_id": "2880368",
+            "name": "D. C. Essen"
+          }
+        ]
+      },
+      "openalex": {
+        "resolved": true,
+        "openalex_id": "W3087638917",
+        "is_retracted": false,
+        "cited_by_count": 192,
+        "authors": [
+          {
+            "openalex_author_id": "A5110860328",
+            "name": "Larry Abbott",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5057532346",
+            "name": "Davi D. Bock",
+            "orcid": "https://orcid.org/0000-0002-8218-7926"
+          },
+          {
+            "openalex_author_id": "A5061630723",
+            "name": "Edward M. Callaway",
+            "orcid": "https://orcid.org/0000-0002-6366-5267"
+          },
+          {
+            "openalex_author_id": "A5020934124",
+            "name": "Winfried Denk",
+            "orcid": "https://orcid.org/0000-0002-0704-6998"
+          },
+          {
+            "openalex_author_id": "A5089691588",
+            "name": "Catherine Dulac",
+            "orcid": "https://orcid.org/0000-0001-5024-5418"
+          },
+          {
+            "openalex_author_id": "A5077273776",
+            "name": "Adrienne L. Fairhall",
+            "orcid": "https://orcid.org/0000-0001-6779-953X"
+          },
+          {
+            "openalex_author_id": "A5083541135",
+            "name": "Ila Fiete",
+            "orcid": "https://orcid.org/0000-0003-4738-2539"
+          },
+          {
+            "openalex_author_id": "A5053361991",
+            "name": "Kristen M. Harris",
+            "orcid": "https://orcid.org/0000-0002-1943-4744"
+          },
+          {
+            "openalex_author_id": "A5069874653",
+            "name": "Moritz Helmstaedter",
+            "orcid": "https://orcid.org/0000-0001-7973-0767"
+          },
+          {
+            "openalex_author_id": "A5021276997",
+            "name": "Viren Jain",
+            "orcid": "https://orcid.org/0000-0003-1488-3505"
+          },
+          {
+            "openalex_author_id": "A5091300565",
+            "name": "Narayanan Kasthuri",
+            "orcid": "https://orcid.org/0000-0003-3825-931X"
+          },
+          {
+            "openalex_author_id": "A5001226970",
+            "name": "Yann LeCun",
+            "orcid": null
+          },
+          {
+            "openalex_author_id": "A5037495122",
+            "name": "Jeff W. Lichtman",
+            "orcid": "https://orcid.org/0000-0002-0208-3212"
+          },
+          {
+            "openalex_author_id": "A5073368437",
+            "name": "P. B. Littlewood",
+            "orcid": "https://orcid.org/0000-0003-0282-9325"
+          },
+          {
+            "openalex_author_id": "A5019791073",
+            "name": "Liqun Luo",
+            "orcid": "https://orcid.org/0000-0001-5467-9264"
+          },
+          {
+            "openalex_author_id": "A5070986885",
+            "name": "John H. R. Maunsell",
+            "orcid": "https://orcid.org/0000-0003-0018-4439"
+          },
+          {
+            "openalex_author_id": "A5005494448",
+            "name": "R. Clay Reid",
+            "orcid": "https://orcid.org/0000-0002-8697-6797"
+          },
+          {
+            "openalex_author_id": "A5004268054",
+            "name": "Bruce R. Rosen",
+            "orcid": "https://orcid.org/0000-0002-8576-0839"
+          },
+          {
+            "openalex_author_id": "A5086255792",
+            "name": "Gerald M. Rubin",
+            "orcid": "https://orcid.org/0000-0001-8762-8703"
+          },
+          {
+            "openalex_author_id": "A5044141636",
+            "name": "Terrence J. Sejnowski",
+            "orcid": "https://orcid.org/0000-0002-0622-7391"
+          },
+          {
+            "openalex_author_id": "A5044273339",
+            "name": "H. Sebastian Seung",
+            "orcid": "https://orcid.org/0000-0002-8591-6733"
+          },
+          {
+            "openalex_author_id": "A5088944052",
+            "name": "Karel Svoboda",
+            "orcid": "https://orcid.org/0000-0002-6670-7362"
+          },
+          {
+            "openalex_author_id": "A5042778805",
+            "name": "David W. Tank",
+            "orcid": "https://orcid.org/0000-0002-9423-4267"
+          },
+          {
+            "openalex_author_id": "A5023431990",
+            "name": "Doris Y. Tsao",
+            "orcid": "https://orcid.org/0000-0003-1083-1919"
+          },
+          {
+            "openalex_author_id": "A5048953880",
+            "name": "David C. Van Essen",
+            "orcid": "https://orcid.org/0000-0001-7044-4721"
+          }
+        ]
+      },
+      "corpus_crossref": {
+        "in_frozen_retained": {
+          "paper_id": "912140f1819ae4634fa8785c97b1658ba319365b",
+          "keep": "True"
+        },
+        "in_canonical_works": {
+          "work_id": "work_aa4ac55bf3d997c2",
+          "source_group": "core_audit"
+        },
+        "in_frozen_discovery_by_title": "912140f1819ae4634fa8785c97b1658ba319365b"
+      },
+      "added_at": "2026-08-25T18:19:21+00:00"
+    }
+  ]
+}
