@@ -1,30 +1,30 @@
-work_id,year,title,resolved_doi,oa_type,status
-work_0b58677ca30e94c9,2017.0,Statistical Inference on Random Dot Product Graphs: a Survey,10.48550/arxiv.1709.05454,preprint,resolved (arxiv)
-work_0f2e576ce4d24d6a,2026.0,Mapping Connectomic Structure to Function(s) in Cerebellar-like Networks using Kernel Regression,10.48550/arxiv.2601.09320,preprint,resolved (arxiv)
-work_16956a138acecbe4,2026.0,"CLABTOOLKIT: An Open-Source Toolkit for Routine Processing, Manipulation, and Visualization of Neuro",,,unresolved (no DOI found)
-work_222a233df7db45f4,2020.0,Detecting structural perturbations from time series with deep learning,10.48550/arxiv.2006.05232,preprint,resolved (arxiv)
-work_22a069f788d55d8d,2018.0,The Allen Brain Atlas as a Resource for Teaching Undergraduate Neuroscience.,,,unresolved (no DOI found)
-work_308f5478abdb4fa4,2014.0,Two-sample Hypothesis Testing for Random Dot Product Graphs via Adjacency Spectral Embedding,,,unresolved (no DOI found)
-work_3a9691a3258cc3e4,2016.0,Explicitly Linking Regional Activation and Function Connectivity: Community Structure of Weighted Ne,,,unresolved (no DOI found)
-work_43b7faaf8820340a,2025.0,Symmetries of Living Systems: Symmetry Fibrations and Synchronization in Biological Networks,10.48550/arxiv.2502.18713,preprint,resolved (arxiv)
-work_47ccbd8bc04d1dc3,2015.0,Image Segmentation by Size-Dependent Single Linkage Clustering of a Watershed Basin Graph,10.48550/arxiv.1505.00249,preprint,resolved (arxiv)
-work_52b939fbc87f459e,2025.0,Fluctuation-dissipation of the Kuramoto model on fruit-fly connectomes,10.48550/arxiv.2503.20708,preprint,resolved (arxiv)
-work_641578dd51d3aa3a,2020.0,Graph Signal Processing of Indefinite and Complex Graphs using Directed Variation,10.48550/arxiv.2003.00621,preprint,resolved (arxiv)
-work_6fa69d42fe148f72,2011.0,Large (Brain) Graph Matching via Fast Approximate Quadratic Programming,,,unresolved (no DOI found)
-work_75014d39a0c4236c,2026.0,Optimal photostimulation selection for iterative activity maps,10.48550/arxiv.2607.12930,preprint,resolved (arxiv)
-work_8a6ce05393695c68,2020.0,Latent Feature Representation via Unsupervised Learning for Pattern Discovery in Massive Electron Mi,,,unresolved (no DOI found)
-work_8e8573ac5d1bbfd7,2014.0,Common Connectome Constraints: From C. elegans and Drosophila to Homo sapiens,10.48550/arxiv.1405.3334,preprint,resolved (arxiv)
-work_92dec379d1c56f26,2024.0,"Modularity, Hierarchical Flows and Symmetry of the Drosophila Connectome",10.48550/arxiv.2412.13202,preprint,resolved (arxiv)
-work_961403604355e4a7,2019.0,Deep Connectomics Networks: Neural Network Architectures Inspired by Neuronal Networks,10.48550/arxiv.1912.08986,preprint,resolved (arxiv)
-work_a5aafa50c460274e,2024.0,"Modular segmentation, spatial analysis and visualization of volume electron microscopy datasets",10.1038/s41596-024-00957-5,journal-article,resolved (crossref)
-work_ab6296b9c563d6c0,2025.0,Restoring Network Evolution from Static Structure,10.48550/arxiv.2512.08209,preprint,resolved
-work_b4c2e7661a5e5142,2021.0,Large-scale image segmentation based on distributed clustering algorithms,10.48550/arxiv.2106.10795,preprint,resolved
-work_c359e0f8d709c787,2015.0,What Properties are Desirable from an Electron Microscopy Segmentation Algorithm,10.48550/arxiv.1503.05430,preprint,resolved (arxiv)
-work_d009d02c21871957,2016.0,Machine Learning on Human Connectome Data from MRI,10.48550/arxiv.1611.08699,preprint,resolved (arxiv)
-work_d4395c114414a2d9,2023.0,Hypergraphs Demonstrate Anastomoses During Divergent Integration,10.48550/arxiv.2311.17067,preprint,resolved (arxiv)
-work_d8c666468a7edf78,2022.0,BrainViewer: interacting with spatial connectome data at the mesoscale,10.48550/arxiv.2205.02291,preprint,resolved
-work_d9b7b7ed16c392bd,2023.0,Inferring Causality from Time Series data based on Structural Causal Model and its application to Ne,,,unresolved (no DOI found)
-work_e2cbde329dc5c463,2018.0,A Review of Network Inference Techniques for Neural Activation Time Series,10.48550/arxiv.1806.08212,preprint,resolved (arxiv)
-work_ed758019e16d0616,2025.0,AI-driven Large-scale Electron Microscopy enables Whole-tissue Subcellular Digitization,10.21203/rs.3.rs-9065308/v1,posted-content,resolved (crossref)
-work_f7d82000e0d7fff7,2020.0,Neuro-PC: Causal Functional Connectivity from Neural Dynamics,10.48550/arxiv.2011.03913,preprint,resolved (arxiv)
-work_f7ecc587c80f537e,2021.0,Leveraging semantically similar queries for ranking via combining representations,10.48550/arxiv.2106.12621,preprint,resolved (arxiv)
+work_id,year,title,resolved_doi,oa_type,status,authoritative_id
+work_0b58677ca30e94c9,2017.0,Statistical Inference on Random Dot Product Graphs: a Survey,10.48550/arxiv.1709.05454,preprint,resolved (arxiv),
+work_0f2e576ce4d24d6a,2026.0,Mapping Connectomic Structure to Function(s) in Cerebellar-like Networks using Kernel Regression,10.48550/arxiv.2601.09320,preprint,resolved (arxiv),
+work_16956a138acecbe4,2026.0,"CLABTOOLKIT: An Open-Source Toolkit for Routine Processing, Manipulation, and Visualization of Neuro",,,screener-adjudicated: out of scope (2026-08-26),
+work_222a233df7db45f4,2020.0,Detecting structural perturbations from time series with deep learning,10.48550/arxiv.2006.05232,preprint,resolved (arxiv),
+work_22a069f788d55d8d,2018.0,The Allen Brain Atlas as a Resource for Teaching Undergraduate Neuroscience.,,article,resolved-no-doi (OpenAlex ID is authoritative identifier per v5 §12.3),openalex:W2986568670
+work_308f5478abdb4fa4,2014.0,Two-sample Hypothesis Testing for Random Dot Product Graphs via Adjacency Spectral Embedding,,preprint,resolved-no-doi (OpenAlex ID is authoritative identifier per v5 §12.3),openalex:W2795598025
+work_3a9691a3258cc3e4,2016.0,Explicitly Linking Regional Activation and Function Connectivity: Community Structure of Weighted Ne,,,screener-adjudicated: out of scope (2026-08-26),
+work_43b7faaf8820340a,2025.0,Symmetries of Living Systems: Symmetry Fibrations and Synchronization in Biological Networks,10.48550/arxiv.2502.18713,preprint,resolved (arxiv),
+work_47ccbd8bc04d1dc3,2015.0,Image Segmentation by Size-Dependent Single Linkage Clustering of a Watershed Basin Graph,10.48550/arxiv.1505.00249,preprint,resolved (arxiv),
+work_52b939fbc87f459e,2025.0,Fluctuation-dissipation of the Kuramoto model on fruit-fly connectomes,10.48550/arxiv.2503.20708,preprint,resolved (arxiv),
+work_641578dd51d3aa3a,2020.0,Graph Signal Processing of Indefinite and Complex Graphs using Directed Variation,10.48550/arxiv.2003.00621,preprint,resolved (arxiv),
+work_6fa69d42fe148f72,2011.0,Large (Brain) Graph Matching via Fast Approximate Quadratic Programming,,preprint,resolved-no-doi (OpenAlex ID is authoritative identifier per v5 §12.3),openalex:W2437184351
+work_75014d39a0c4236c,2026.0,Optimal photostimulation selection for iterative activity maps,10.48550/arxiv.2607.12930,preprint,resolved (arxiv),
+work_8a6ce05393695c68,2020.0,Latent Feature Representation via Unsupervised Learning for Pattern Discovery in Massive Electron Mi,10.48550/arxiv.2012.12175,preprint,"resolved (screener-supplied identifier, arXiv-verified 2026-08-26; Janelia FlyEM)",
+work_8e8573ac5d1bbfd7,2014.0,Common Connectome Constraints: From C. elegans and Drosophila to Homo sapiens,10.48550/arxiv.1405.3334,preprint,resolved (arxiv),
+work_92dec379d1c56f26,2024.0,"Modularity, Hierarchical Flows and Symmetry of the Drosophila Connectome",10.48550/arxiv.2412.13202,preprint,resolved (arxiv),
+work_961403604355e4a7,2019.0,Deep Connectomics Networks: Neural Network Architectures Inspired by Neuronal Networks,10.48550/arxiv.1912.08986,preprint,resolved (arxiv),
+work_a5aafa50c460274e,2024.0,"Modular segmentation, spatial analysis and visualization of volume electron microscopy datasets",10.1038/s41596-024-00957-5,journal-article,resolved (crossref),
+work_ab6296b9c563d6c0,2025.0,Restoring Network Evolution from Static Structure,10.48550/arxiv.2512.08209,preprint,resolved,
+work_b4c2e7661a5e5142,2021.0,Large-scale image segmentation based on distributed clustering algorithms,10.48550/arxiv.2106.10795,preprint,resolved,
+work_c359e0f8d709c787,2015.0,What Properties are Desirable from an Electron Microscopy Segmentation Algorithm,10.48550/arxiv.1503.05430,preprint,resolved (arxiv),
+work_d009d02c21871957,2016.0,Machine Learning on Human Connectome Data from MRI,10.48550/arxiv.1611.08699,preprint,resolved (arxiv),
+work_d4395c114414a2d9,2023.0,Hypergraphs Demonstrate Anastomoses During Divergent Integration,10.48550/arxiv.2311.17067,preprint,resolved (arxiv),
+work_d8c666468a7edf78,2022.0,BrainViewer: interacting with spatial connectome data at the mesoscale,10.48550/arxiv.2205.02291,preprint,resolved,
+work_d9b7b7ed16c392bd,2023.0,Inferring Causality from Time Series data based on Structural Causal Model and its application to Ne,,,screener-adjudicated: out of scope (2026-08-26),
+work_e2cbde329dc5c463,2018.0,A Review of Network Inference Techniques for Neural Activation Time Series,10.48550/arxiv.1806.08212,preprint,resolved (arxiv),
+work_ed758019e16d0616,2025.0,AI-driven Large-scale Electron Microscopy enables Whole-tissue Subcellular Digitization,10.21203/rs.3.rs-9065308/v1,posted-content,resolved (crossref),
+work_f7d82000e0d7fff7,2020.0,Neuro-PC: Causal Functional Connectivity from Neural Dynamics,10.48550/arxiv.2011.03913,preprint,resolved (arxiv),
+work_f7ecc587c80f537e,2021.0,Leveraging semantically similar queries for ranking via combining representations,10.48550/arxiv.2106.12621,preprint,resolved (arxiv),

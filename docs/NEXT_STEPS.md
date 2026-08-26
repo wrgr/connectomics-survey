@@ -5,26 +5,30 @@ leftovers (optional, nothing locks in), the formal-run gate (the v5 critical
 path), and standing rules. Source docs: protocol v5 (`docs/protocol/`),
 IA-016 (registration decision), `postanalysis/registry/EXPLORATION_SET.md`.
 
-## A. Exploration leftovers (optional; all lock-free)
+## A. Exploration leftovers (updated 2026-08-26 — machine-side items DONE)
 
-1. **Screener review of the registry package** — the main human input still
-   needed: mark up `dataset_registry_draft.csv`, `MILESTONES_DRAFT.md`,
-   `methods_registry_draft.csv` (40 entries), and the fill/prune lists.
-   Everything is provisional until this pass.
-2. **7 DOI-less works** → manual identity resolution
-   (`exploration_doi_resolution.csv`, status `unresolved`).
-3. **135 protected unmatched works** (107 reference-lists elided from S2, 21
-   not in S2, 7 no-DOI) → optionally re-resolve via OpenAlex
-   `referenced_works` now that a keyed budget exists; otherwise they resolve
-   at the formal run.
-4. **~65 no-axis strays** → per-work adjudication (the residual after the
-   biology/conceptual axes were added).
-5. **Version links**: apply the LICONN preprint/published link and review the
-   rest of `suspected_unmerged_duplicates.csv` into
-   `manual_work_links.csv`.
-6. **25 deferred recent works** (reference lists not yet served) → recheck as
-   S2/OpenAlex coverage catches up; they are protected until verified.
-7. Optionally refresh the field-map artifact with the 1,595-work view.
+Completed by the exploration sweep: protected-works resolution via keyed
+OpenAlex (112 linked / 12 drop / 31 protected), no-axis strays adjudicated
+(35 keep / 9 drop-noted), odd types triaged (3 drop-noted / 4 kept), DOI
+recovery (33/37 carry authoritative identifiers), 53 version links proposed.
+What remains is screener-side:
+
+1. **Review the registry package** — `dataset_registry_draft.csv` (23),
+   `MILESTONES_DRAFT.md`, `methods_registry_draft.csv` (40), the
+   fill/prune/stray adjudication CSVs. Everything stays provisional until
+   this pass.
+2. **Version links DECIDED and applied** (screener-delegated LLM
+   adjudication, 2026-08-26): 117 linked into `manual_work_links.csv`, 45
+   rejected with reasons (`exploration_duplicates_adjudicated.csv`).
+   Optional: spot-check the decisions; run the reconciliation rebuild to
+   materialize version collapse + citation summing.
+3. **Manual identity queue: CLEARED** — the massive-EM latent-feature
+   paper resolved by screener-supplied arXiv 2012.12175 (verified; Janelia
+   FlyEM); the other three adjudicated out of scope (2026-08-26).
+4. 28 excluded-unverifiable works re-admit automatically as index coverage
+   catches up (list: `exploration_oa_ref_resolution.csv`; 3 of the original
+   31 were adjudicated out of scope).
+5. Optionally refresh the field-map artifact with the 1,538-work view.
 
 ## B. The formal-run gate (v5 critical path; order matters)
 

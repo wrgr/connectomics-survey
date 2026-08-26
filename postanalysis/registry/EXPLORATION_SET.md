@@ -129,10 +129,91 @@ its preprint/published pair remains a flagged version-link candidate
 (`suspected_unmerged_duplicates.csv`); now also added to the methods registry
 and 2025 milestone, which had missed it.
 
-Exploration working set = **1,806 − 173 (adjudicated prunes) − 61
-(disconnected) − 3 (verified-zero recents) − 27 (verified-zero unmatched,
-pre-2024) + 53 (fill) = 1,595** works, as a view, with 25 recent works
-deferred-protected and 135 unmatched-unresolved protected.
+**Keyed-OpenAlex resolution of the protected works (2026-08-26,
+`exploration_oa_ref_resolution.csv`):** of 157 targets (135 protected
+unmatched + 22 unresolved recents), **112 verified linked to the graph** —
+their reference lists existed in OpenAlex despite S2 elision — 12 verified
+zero-outbound (drop, pre-2024), 2 verified zero but recent (defer), 31
+unresolved (not in OpenAlex or no references served; stay protected).
+
+**Third-round adjudications:** 44 no-axis strays → 35 kept with axis
+assignments, 9 drop-noted; odd record types → 3 drop-noted, 4 kept as
+field-argument commentary; 53 proposed version links await screener sign-off
+(`proposed_work_links.csv`); DOI-less queue reduced to 4 true manual items.
+
+**Rule tightened (screener, 2026-08-26): links TO the corpus or out —
+recency buys no exemption.** The 2 verified-zero recent works drop (deferral
+removed), and the 31 works whose reference lists no index serves are
+**excluded-unverifiable**: the burden of proof sits on the work, and each
+re-admits automatically the moment S2/OpenAlex serves its references (list
+retained in `exploration_oa_ref_resolution.csv`; note the set includes 3
+conference abstracts, one book, and several 2026 items awaiting indexing).
+
+**Duplicate hunt (corpus-wide, `exploration_duplicates_expanded.csv`):**
+beyond the 41 applied links, 69 suspected pairs, and 53 earlier proposals,
+blocking + Jaccard search over all canonical works found **109 new candidate
+pairs** — 31 preprint/published, 4 exact-title, 74 near-duplicates — of
+which 35 touch the working view (17 both-in, 18 one-in). Merging policy is
+IA-008's existing machinery: preprint collapses under the publication node,
+versions retained, `citation_count_sum_versions` aggregated. All pairs await
+screener sign-off before application.
+
+**Duplicate adjudication (LLM, all 162 pairs, 2026-08-26,
+`exploration_duplicates_adjudicated.csv`):** 117 links confirmed and applied
+to `manual_work_links.csv` (69 preprint/published, 14 conference-abstract
+versions, 10 eLife author-response artifacts, 9 same-contribution
+cross-venue, 6 redundant records, 6 corrections/errata, 2 supplements, 1
+reprint); **45 rejected with reasons** — chiefly the Connectomic-Atlas
+chapter series and gyrus-anatomy series (template titles, distinct papers),
+plus comment-exchanges and companion studies. Version collapse and citation
+summing take effect at the next reconciliation rebuild.
+
+**Title-based OpenAlex retry of the unverifiable set:** 2 re-admitted (Allen
+Atlas teaching, RDPG testing — each with a verified corpus link), 1 more
+verified-zero drop (FAQ graph matching, 0/5 refs), 3 previously adjudicated
+out of scope by the screener; **25 remain unverifiable** — identities now
+resolved (most have OpenAlex records) but no index serves their references
+(2026 items, conference abstracts, one book).
+
+**Unverifiable set adjudicated by the screener (2026-08-26):** the 25
+excluded-unverifiable works were triaged on scope, and the screener ruled:
+**14 keep** (re-admitted; in scope regardless of index coverage — vEM
+segmentation/proofreading methods, analyses on the Drosophila connectome,
+the massive-EM latent-feature paper, two field commentaries, the symmetry-
+fibrations network-science bridge, and others; dispositions in
+`exploration_oa_ref_resolution.csv`) and **11 drop** (out of scope —
+clinical/macroscale conference abstracts, the Sporns macroscale book,
+BrainViewer, and generic network-science items). The symmetry-fibrations
+keep also overrides its earlier prune-drop (row updated in
+`exploration_prune_adjudicated.csv`). For the 14 keeps, citation-link
+verification remains pending via PDF reference-list extraction (11 already
+have PDFs; 3 are on the retrieval list).
+
+Exploration working set = **1,562** works = 1,509 retained corpus members +
+53 fill candidates. (This also corrects the earlier arithmetic figure of
+1,540: per-list removal counts double-counted 8 works that appear in two
+queues; deduplicated by work_id, unique removals are 297 from the 1,806.)
+Zero limbo: every record is in, or out with a named screener-traceable
+reason.
+
+**PDF coverage (2026-08-26, vs `postanalysis/pdfs/paper_links.csv`):** 1,416
+of the 1,509 retained corpus members have downloaded PDFs; **93 still need
+retrieval**, plus the 47 fill candidates not already in the catalog. Full
+list: `postanalysis/pdfs/pdfs_still_needed.csv` (140 rows, same columns as
+the retrieval catalog).
+
+**Retrieval attempt on the 96 (2026-08-26, automated, this session):**
+S2 batch openAccessPdf, OpenAlex locations (keyed), Unpaywall, bioRxiv
+pattern URLs, and a repository-prioritized retry with browser headers — 3
+recovered (`s2_oa` x2, `oa_retry` x1; added to `files/`, catalog updated).
+Ceiling for scripted retrieval in this environment: 59/96 have no OA record
+at all per OpenAlex; 34 are OA-flagged but resolve only to publisher-hosted
+or JS-gated pages a plain HTTP client can't pull PDF bytes from (landing
+pages returned 200 with `Content-Type: text/html`, not blocked — genuinely
+not scriptable without a real browser/session). Per-work status and a
+manual-retrieval URL (`oa_url` where OpenAlex has one) for all 96 are in the
+session scratchpad manifest sent to the screener; not committed (ceases to
+be current the moment any are retrieved by hand).
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.

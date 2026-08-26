@@ -1,0 +1,45 @@
+work_id,year,decision,adjudication,axis_or_reason,title
+work_030d659739b83f09,2016.0,role_bridge,keep,bridge:network-science,Community detection in networks: A user guide
+work_03f019b1ea59c828,2022.0,adjacent_relevant,keep,biology:comparative-EM,The 3D ultrastructure of the chordotonal organs in the antenna of a microwasp remains complex although simplified
+work_06fe6252132bc249,2022.0,core_relevant,keep,analysis:network-on-brain,"Percolation may explain efficiency, robustness, and economy of the brain"
+work_0e4e42b0cb08974f,2023.0,adjacent_relevant,keep,conceptual:big-data,The evolution of Big Data in neuroscience and neurology
+work_17ed44014244fb80,2007.0,adjacent_relevant,keep,stage:segmentation(LM lineage),3D Axon Structure Extraction and Analysis in Confocal Fluorescence Microscopy Images
+work_18e897cfbf7dee38,2023.0,core_relevant,keep,biology:EM-reconstruction (Wilson),3D reconstruction of the cerebellar germinal layer reveals tunneling connections between developing granule cells
+work_1d6abaf611b14dde,2018.0,adjacent_relevant,drop-noted,"glial/molecular, no mapping tie",Glial mechanisms underlying substance use disorders
+work_2241b9b401acc9e2,2014.0,adjacent_relevant,keep,conceptual:big-data (prior rescue),The Big Data Problem: Turning Maps into Knowledge
+work_2528fed4e090c0a8,2026.0,role_bridge,keep,bridge:health,"Brain-wide mapping of oligodendrocyte organization, oligodendrogenesis, and myelin injury"
+work_2e8cffa3e3b6ba52,2020.0,adjacent_relevant,keep,biology:fly-development,Activity regulates brain development in the fly.
+work_35c1ecb5d4fa2f12,2022.0,role_bridge,keep,bridge:health-people,Advancing the Science of Recruitment and Retention in Alzheimer’s disease Clinical Studies among Spanish‐speaking immigr
+work_43cffa0131a4b3c8,2020.0,adjacent_relevant,drop-noted,"functional-imaging tools, no synaptic-structure tie",Imaging voltage and brain chemistry with genetically encoded sensors and modulators.
+work_4880cacffadd6077,2021.0,core_relevant,keep,biology:fly-circuit,Drosophila gustatory projections are segregated by taste modality and connectivity
+work_4f1a3d9f690cb72b,2024.0,adjacent_relevant,keep,stage:preparation,Creating Efficient Workflows for Electron Microscopy Laboratories with Automated Specimen Preparation
+work_5068984fac4abafd,2019.0,adjacent_relevant,keep,modality:sequencing (prior rescue),DNA sequencing in high-throughput neuroanatomy.
+work_510f1f5d7f3a7c0c,2022.0,role_bridge,keep,bridge:health,Multiscale imaging informs translational mouse modeling of neurological disease.
+work_55710d158a1a37b5,2024.0,adjacent_relevant,keep,biology:fly-circuit,Compensatory enhancement of input maintains aversive dopaminergic reinforcement in hungry Drosophila
+work_5672c64d21c23a39,2024.0,role_bridge,keep,bridge:health,Updates on mouse models of Alzheimer’s disease
+work_601a56be8326088e,2026.0,adjacent_relevant,keep,biology:axon-circuit,Long-range axon branching: contributions to brain network plasticity and repair
+work_670d152db316d10c,2026.0,adjacent_relevant,drop-noted,glial physiology,Physiology of oligodendroglia.
+work_6902b71a851fc6e1,2020.0,role_bridge,keep,bridge:health,Determinants of seeding and spreading of α-synuclein pathology in the brain
+work_6a858df52678b5b3,2018.0,adjacent_relevant,keep,modality:mGRASP-optogenetics,Combining mGRASP and Optogenetics Enables High-Resolution Functional Mapping of Descending Cortical Projections
+work_6e6d74dd4f3c6069,2019.0,adjacent_relevant,keep,modality:ExM,Expansion Microscopy of Lipid Membranes
+work_8848e6db059151a5,2024.0,adjacent_relevant,drop-noted,glial development,Brain stars take the lead during critical periods of early postnatal brain development: relevance of astrocytes in healt
+work_97db5339b48de23b,2024.0,adjacent_relevant,keep,biology:fly-MB-review,What do the mushroom bodies do for the insect brain? Twenty-five years of progress
+work_9ca6628105d0c4ad,2023.0,adjacent_relevant,keep,stage:preparation+health (prior rescue),Technical report: surgical preparation of human brain tissue for clinical and basic research
+work_a79338d25cd0e172,2023.0,adjacent_relevant,keep,biology:navigation-circuits,Neural Networks for Navigation: From Connections to Computations.
+work_aa4ac55bf3d997c2,2020.0,adjacent_relevant,keep,DUPLICATE-CANDIDATE of Abbott 2020 Mind of a Mouse (P9) - route to version links,The Mind of a Mouse.
+work_b10bac4e00e6d5c6,2026.0,adjacent_relevant,drop-noted,generic network physics,Surface optimization governs the local design of physical networks
+work_b40a22a2240776e3,2022.0,role_bridge,keep,bridge:training,Enhancing Student Research Experiences with Open Data from the Allen Brain Map.
+work_b9d08d3f470a376f,2023.0,adjacent_relevant,keep,biology:fly-vision,How Flies See Motion.
+work_bbd9387a25c87eb2,2025.0,role_bridge,keep,bridge:training,An Advanced Undergraduate Laboratory Course: Calcium Imaging and Data Analysis – a Mini Graduate Research Experience
+work_c0291cd6d5d32157,2019.0,role_bridge,keep,bridge:infrastructure-program,BRAIN Initiative: Cutting-Edge Tools and Resources for the Community
+work_c9bf6cbc3f5f5e1f,2026.0,adjacent_relevant,keep,stage:reconstruction (prior rescue),vEMINR: Ultra‐Fast Isotropic Reconstruction for Volume Electron Microscopy With Implicit Neural Representation
+work_cb964ec21532f053,2016.0,role_bridge,keep,bridge:network-science,Further Insight into the Brain's Rich-Club Architecture
+work_db6e1fc5db501b2d,2017.0,core_relevant,keep,modeling:connectome-constrained,Generating Executable Models of the Drosophila Central Complex
+work_dcf30967b3ef3766,2019.0,role_bridge,keep,bridge:education-health,Neuroscience and education: Cerebral lateralization of networks and oscillations in dyslexia
+work_e3277619bfed476c,2019.0,role_bridge,keep,bridge:health (macroscale consortium; role-bridge purpose),Mapping brain asymmetry in health and disease through the ENIGMA consortium
+work_e4b57c3bbf92905b,2015.0,adjacent_relevant,drop-noted,macroscale methods,Measuring macroscopic brain connections in vivo
+work_e50b457cd2b8a4c8,2016.0,adjacent_relevant,drop-noted,"circuit theory, no nanoscale tie",Neural Elements for Predictive Coding
+work_e5648adb68d2b733,2017.0,adjacent_relevant,keep,modality:in-vitro-MEA,Multichannel activity propagation across an engineered axon network
+work_f3bf613c4a35bd2f,2019.0,adjacent_relevant,drop-noted,molecular wiring development,Modular transcriptional programs separately define axon and dendrite connectivity
+work_fc8b4c576ab75783,2018.0,adjacent_relevant,drop-noted,"transcriptomic atlas, no nanoscale tie",Molecular Architecture of the Mouse Nervous System
+work_fe4fbe0b28a2fe59,2023.0,role_bridge,keep,stage:infrastructure (fly atlas),Virtual Fly Brain—An interactive atlas of the Drosophila nervous system
