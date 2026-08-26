@@ -1,12 +1,17 @@
 # Dataset & methods registry — preliminary draft (v5 checklist step 2)
 
-**PLACEHOLDER v0.1 (2026-08-26).** Quick-pass snapshot for exploration: every
+**PLACEHOLDER v0.2 (2026-08-26).** Quick-pass snapshot for exploration: every
 entry is provisional and will be revisited wholesale at formal charting.
-Remaining `needs_verification` flags after the quick pass: DS17 (enumerate the
-specific NCMIR volumes), DS20 (comparative placeholder), the methods-per-stage
-table (no per-entry identifier verification yet), and the BRAIN CONNECTS
-roadmap milestone. Nothing here is frozen or deposited; nothing locks anything
-in.
+**All v0.1 todos resolved:** the methods table is now backed by
+`methods_registry_draft.csv` — 39 entries, every one Crossref-verified to a
+resolving DOI with matching title or recorded as a software record
+(`analysis/build_methods_registry.py` reproduces the verification); DS20's
+placeholder became three corpus-pinned comparative datasets (Ciona 2016,
+octopus vertical lobe, Platynereis); DS17 was resolved by scoping decision
+(platform collection + pinned method anchors; volume enumeration is
+charting-time work); the BRAIN CONNECTS milestone is pinned to "The Mind of a
+Mouse" (in corpus) plus the program launch. Nothing here is frozen or
+deposited; nothing locks anything in.
 
 **Status: DRAFT for screener review — nothing here is frozen.** Seeds the v5 §5
 dataset registry and sketches the stage × methods × bridges map. Entries marked
@@ -33,6 +38,12 @@ WormWiring, EyeWire museum, CCDB/Cell Image Library (NCMIR), OpenOrganelle
 (Janelia COSEM; cell-biology vEM), DANDI, EBRAINS.
 
 ## 2. Methods anchored to each pipeline stage (representative, not exhaustive)
+
+**Verified version of record: `methods_registry_draft.csv`** (39 entries;
+per-entry Crossref-verified DOI + title, pilot-corpus cross-check, software
+records for repository-only tools; rebuilt by
+`analysis/build_methods_registry.py`). The table below is the readable
+summary; where they disagree, the CSV wins.
 
 | Stage | Significant methods/tools | Groups (for representation) |
 |---|---|---|

@@ -1,0 +1,40 @@
+stage,method,group,doi,repo,verified_title,year,status,in_pilot_corpus
+preparation,Large-volume en-bloc staining (rOTO),Hua/Helmstaedter (MPI),10.1038/ncomms8923,,Large-volume en-bloc staining for electron microscopy-based connectomics,2015,verified,yes
+preparation,Whole-brain EM staining,Mikula/Denk (MPI),10.1038/nmeth.3361,,High-resolution whole-brain staining for electron microscopic circuit reconstruction,2015,verified,
+preparation,ECS-preserving fixation,Pallotto/Briggman (NIH),10.7554/elife.08206,,Extracellular space preservation aids the connectomic analysis of neural circuits,2015,verified,yes
+sectioning,SBF-SEM,Denk & Horstmann (MPI),10.1371/journal.pbio.0020329,,Serial Block-Face Scanning Electron Microscopy to Reconstruct Three-Dimensional Tissue Nanostructure,2004,verified,
+sectioning,ATUM + WaferMapper,Hayworth/Lichtman (Harvard),10.3389/fncir.2014.00068,,Imaging ATUM ultrathin section libraries with WaferMapper: a multi-scale approach to EM reconstruction of neural circuits,2014,verified,
+sectioning,FIB-SEM for circuits,Knott (EPFL),10.1523/jneurosci.3189-07.2008,,Serial Section Scanning Electron Microscopy of Adult Brain Tissue Using Focused Ion Beam Milling,2008,verified,
+sectioning,Enhanced long-run FIB-SEM,Xu/Hess (Janelia),10.7554/elife.25916,,Enhanced FIB-SEM systems for large-volume 3D imaging,2017,verified,yes
+sectioning,GridTape TEM,Phelps/Lee (Harvard),10.1016/j.cell.2020.12.013,,Reconstruction of motor control circuits in adult Drosophila using automated transmission electron microscopy,2021,verified,
+sectioning,Hot-knife partitioning,Hayworth (Janelia),10.1038/nmeth.3292,,Ultrastructurally smooth thick partitioning and volume stitching for large-scale connectomics,2015,verified,yes
+sectioning,GCIB-SEM,Hayworth (Janelia),10.1038/s41592-019-0641-2,,Gas cluster ion beam SEM for imaging of large tissue samples with 10 nm isotropic resolution,2019,verified,
+acquisition,TEMCA camera-array ssTEM,Bock (Janelia),10.1038/nature09802,,Network anatomy and in vivo physiology of visual cortical neurons,2011,verified,yes
+acquisition,Multibeam SEM,Eberle (Zeiss),10.1111/jmi.12224,,"High‐resolution, high‐throughput imaging with a multibeam scanning electron microscope",2015,verified,
+acquisition,FAST-EM array tomography,Kievits/Hoogenboom (Delft),10.1515/mim-2024-0005,,FAST-EM array tomography: a workflow for multibeam volume electron microscopy,2024,verified,
+acquisition,SmartEM ML-guided acquisition,MIT/Harvard,10.1038/s41592-025-02929-3,,SmartEM: machine learning-guided electron microscopy,2025,verified,yes
+alignment,Elastic serial-section alignment,Saalfeld (Janelia),10.1038/nmeth.2072,,Elastic volume reconstruction from series of ultra-thin microscopy sections,2012,verified,
+alignment,SOFIMA flow-based alignment,Google,,https://github.com/google-research/sofima,,,software-record (v5 §2: repository suffices),
+segmentation,Flood-filling networks,Januszewski/Jain (Google),10.1038/s41592-018-0049-4,,High-precision automated reconstruction of neurons with flood-filling networks,2018,verified,
+segmentation,SegEM,Berning/Helmstaedter (MPI),10.1016/j.neuron.2015.09.003,,SegEM: Efficient Image Analysis for High-Resolution Connectomics,2015,verified,
+segmentation,GALA agglomeration,Nunez-Iglesias (Janelia),10.3389/fninf.2014.00034,,Graph-based active learning of agglomeration (GALA): a Python library to segment 2D and 3D neuroimages,2014,verified,yes
+segmentation,Structured-loss affinity segmentation,Funke (Janelia),10.1109/tpami.2018.2835450,,Large Scale Image Segmentation with Structured Loss Based Deep Learning for Connectome Reconstruction,2019,verified,yes
+segmentation,CDeep3M cloud segmentation,Ellisman (NCMIR),10.1038/s41592-018-0106-z,,CDeep3M—Plug-and-Play cloud-based deep learning for image segmentation,2018,verified,yes
+proofreading,CATMAID,Saalfeld/Cardona,10.1093/bioinformatics/btp266,,CATMAID: collaborative annotation toolkit for massive amounts of image data,2009,verified,yes
+proofreading,KNOSSOS + RESCOP consensus,Helmstaedter (MPI),10.1038/nn.2868,,High-accuracy neurite reconstruction for high-throughput neuroanatomy,2011,verified,
+proofreading,EyeWire crowd proofreading,Kim/Seung (MIT/Princeton),10.1038/nature13240,,Space–time wiring specificity supports direction selectivity in the retina,2014,verified,
+proofreading,webKnossos,Boergens/Helmstaedter (MPI),10.1038/nmeth.4331,,webKnossos: efficient online 3D data annotation for connectomics,2017,verified,yes
+proofreading,VAST,Berger/Lichtman (Harvard),10.3389/fncir.2018.00088,,VAST (Volume Annotation and Segmentation Tool): Efficient Manual and Semi-Automatic Labeling of Large 3D Image Stacks,2018,verified,yes
+proofreading,Neuroglancer,Maitin-Shepard (Google),,https://github.com/google/neuroglancer,,,software-record (v5 §2: repository suffices),
+proofreading,CAVE / PyChunkedGraph,Dorkenwald (Princeton/Allen),10.1038/s41592-024-02426-z,,CAVE: Connectome Annotation Versioning Engine,2025,verified,yes
+synapses,SynEM,Staffler/Helmstaedter (MPI),10.7554/elife.26414,,"SynEM, automated synapse detection for connectomics",2017,verified,yes
+synapses,Synful partner prediction,Buhmann/Funke (Janelia),10.1038/s41592-021-01183-7,,Automatic detection of synaptic partners in a whole-brain Drosophila electron microscopy data set,2021,verified,
+synapses,ilastik interactive ML,Berg/Kreshuk (EMBL),10.1038/s41592-019-0582-9,,ilastik: interactive machine learning for (bio)image analysis,2019,verified,
+synapses,SyConn,Dorkenwald/Kornfeld (MPI),10.1038/nmeth.4206,,Automated synaptic connectivity inference for volume electron microscopy,2017,verified,yes
+infrastructure,BossDB ecosystem,Vogelstein/Gray Roncal (APL/JHU; COI-0),10.1038/s41592-018-0181-1,,A community-developed open-source computational ecosystem for big neuro data,2018,verified,
+infrastructure,neuPrint,Plaza (Janelia),10.3389/fninf.2022.896292,,neuPrint: An open access tool for EM connectomics,2022,verified,yes
+infrastructure,DVID,Katz/Plaza (Janelia),10.3389/fncir.2019.00005,,DVID: Distributed Versioned Image-Oriented Dataservice,2019,verified,yes
+infrastructure,CloudVolume/Igneous,Silversmith (Princeton),,https://github.com/seung-lab/cloud-volume,,,software-record (v5 §2: repository suffices),
+analysis,natverse,Bates/Jefferis (Cambridge),10.7554/elife.53350,,"The natverse, a versatile toolbox for combining and analysing neuroanatomical data",2020,verified,yes
+analysis,Network motifs,Milo/Alon (Weizmann),10.1126/science.298.5594.824,,Network Motifs: Simple Building Blocks of Complex Networks,2002,verified,
+modeling,Connectome-constrained visual-system model,Lappalainen/Turaga (Janelia),10.1038/s41586-024-07939-3,,Connectome-constrained networks predict neural activity across the fly visual system,2024,verified,yes
