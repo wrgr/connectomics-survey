@@ -22,6 +22,12 @@ identifier resolution before the registry freeze. Representation is intended to
 be fair across labs and consortia and is explicitly **non-exhaustive**; the
 registry grows during charting, with growth logged.
 
+**Companion files:** `methods_registry_draft.csv` (verified methods),
+`MILESTONES_DRAFT.md` (progression axes), and `REVIEWS_FIELD_OPINION.md`
+(the 15-review diverse set and cross-cluster citation counts — the
+field-opinion layer; e.g., FAFB cited by all 8 panel clusters, White 1986
+by 6).
+
 ## 1. Datasets (registry seed)
 
 See `dataset_registry_draft.csv` (20 seed entries): the *C. elegans* lineage
