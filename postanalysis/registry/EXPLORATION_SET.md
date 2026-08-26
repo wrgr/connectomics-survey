@@ -244,3 +244,49 @@ be current the moment any are retrieved by hand).
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.
+
+## Reference-extraction verification of the 14 keeps (2026-08-26)
+
+Of the 14 screener-kept works from the unverifiable-25 set, PDF binaries are
+gitignored (only the catalog is tracked) and this session's environment only
+had the 3 it retrieved itself, so 7 of 12 pending works were re-fetched
+directly (all arXiv/preprint-server) and their extracted text checked for
+DOI/normalized-title matches against all 1,806 corpus works. **All 7 verified
+≥1 outbound corpus link** (1–9 each; `pdf_ref_extraction` column in
+`exploration_oa_ref_resolution.csv`). One (the Drosophila-modularity paper,
+`work_92dec379d1c56f26`) required manual confirmation — its bibliography is
+numbered-physics-style (author/journal/volume, no titles), which the
+title-matcher can't see; the actual reference [2] is Dorkenwald et al.'s
+FlyWire connectome paper, in-corpus. **5 works remain unchecked** (no
+retrievable PDF in this environment: `work_06fed2e30ee196ac`,
+`work_6b6ad2c0b18afc7e`, `work_00c9ebcec8853471`, `work_2ac6946a28922c27`,
+`work_5ffdfd4866eae431`) — Will has these locally; extraction there would
+close the loop.
+
+## Data-integrity finding: truncated arXiv IDs (2026-08-26)
+
+While re-fetching one of the 7 (`work_0f2e576ce4d24d6a`), the retrieved PDF
+was a completely unrelated paper — wrong title, wrong authors, wrong field.
+Root cause: `paper_links.csv`'s `arxiv_id` column silently drops a trailing
+`0` on any 5-digit post-2015 arXiv suffix (consistent with a float
+round-trip somewhere upstream — `float("2601.09320") == 2601.0932`). Scanned
+the full catalog for the pattern (post-2015 arXiv ID with only 4 suffix
+digits): **22 hits**; verified 21 by fetching the corrected (`+0`) ID from
+arXiv and confirming title match — all 21 confirmed. (The 22nd,
+`work_0902ad628efcc7dd`, has an unrelated stored `arxiv_id` that doesn't fit
+the pattern — it already carries a correct published DOI and PDF; left
+alone.) **Fixed the catalog**: `arxiv_id` corrected for all 21 confirmed
+rows.
+
+**Binary-file risk, not just metadata:** of the 21, **8 have a
+`arxiv_<truncated-id>` PDF filename stem** (vs. a DOI-derived stem for the
+other 13, which were fetched via their published-venue DOI and are
+unaffected) — meaning the actual downloaded PDF file for these 8 is very
+likely the wrong paper, confirmed for one (`work_0f2e576ce4d24d6a`) and
+presumed for the rest until checked: `work_020893805fee7188`,
+`work_0da77aa3fcf687df`, `work_75014d39a0c4236c`, `work_791ccba206b1bbdc`,
+`work_8fd6124f2a3e58a1`, `work_c608ded31d0a89bd`, `work_e143e75aec23746b`.
+**Action needed on Will's machine**: delete and re-download these 8 PDFs
+under their corrected arXiv IDs (now in `paper_links.csv`); the corrected
+`arxiv_2601.09320.pdf` for the confirmed case was fetched and added to
+`files/` in this session as a spot-check, not a bulk fix.
