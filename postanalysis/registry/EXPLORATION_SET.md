@@ -158,11 +158,26 @@ IA-008's existing machinery: preprint collapses under the publication node,
 versions retained, `citation_count_sum_versions` aggregated. All pairs await
 screener sign-off before application.
 
-Exploration working set = **1,806 − 173 (prunes) − 61 (disconnected) − 3 − 27
-− 12 − 2 (verified-zero: recents/unmatched/OA rounds) − 9 (stray drop-notes)
-− 3 (odd types) − 31 (excluded-unverifiable) + 53 (fill) = 1,538** works.
-Zero works remain in limbo: every record is in, out with a named reason, or
-excluded-unverifiable with an automatic re-admission path.
+**Duplicate adjudication (LLM, all 162 pairs, 2026-08-26,
+`exploration_duplicates_adjudicated.csv`):** 117 links confirmed and applied
+to `manual_work_links.csv` (69 preprint/published, 14 conference-abstract
+versions, 10 eLife author-response artifacts, 9 same-contribution
+cross-venue, 6 redundant records, 6 corrections/errata, 2 supplements, 1
+reprint); **45 rejected with reasons** — chiefly the Connectomic-Atlas
+chapter series and gyrus-anatomy series (template titles, distinct papers),
+plus comment-exchanges and companion studies. Version collapse and citation
+summing take effect at the next reconciliation rebuild.
+
+**Title-based OpenAlex retry of the unverifiable set:** 2 re-admitted (Allen
+Atlas teaching, RDPG testing — each with a verified corpus link), 1 more
+verified-zero drop (FAQ graph matching, 0/5 refs), 3 previously adjudicated
+out of scope by the screener; **25 remain unverifiable** — identities now
+resolved (most have OpenAlex records) but no index serves their references
+(2026 items, conference abstracts, one book).
+
+Exploration working set = **1,540** works (prior 1,538 + 2 re-admissions;
+the FAQ drop was already excluded). Zero limbo: every record is in, out with
+a named reason, or unverifiable-with-re-admission-path.
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.

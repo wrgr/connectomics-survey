@@ -17,8 +17,11 @@ What remains is screener-side:
    `MILESTONES_DRAFT.md`, `methods_registry_draft.csv` (40), the
    fill/prune/stray adjudication CSVs. Everything stays provisional until
    this pass.
-2. **Sign off (or edit) the 53 proposed version links**
-   (`proposed_work_links.csv`) → then apply into `manual_work_links.csv`.
+2. **Version links DECIDED and applied** (screener-delegated LLM
+   adjudication, 2026-08-26): 117 linked into `manual_work_links.csv`, 45
+   rejected with reasons (`exploration_duplicates_adjudicated.csv`).
+   Optional: spot-check the decisions; run the reconciliation rebuild to
+   materialize version collapse + citation summing.
 3. **Manual identity queue: CLEARED** — the massive-EM latent-feature
    paper resolved by screener-supplied arXiv 2012.12175 (verified; Janelia
    FlyEM); the other three adjudicated out of scope (2026-08-26).
