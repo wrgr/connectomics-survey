@@ -49,8 +49,13 @@ WormWiring, EyeWire museum, CCDB/Cell Image Library (NCMIR), OpenOrganelle
   connectome graphs (substantive-use test governs adjacency). Pilot
   network-science axis: 2,044 works (broad; needs the boundary test).
 - **Health / translation:** pathology and clinical vEM; human surgical/postmortem
-  volumes (H01 epilepsy-tissue provenance; Wilson human feeding-circuit work);
-  disease-model connectomics. Pilot health axis: 891 works.
+  volumes (H01 epilepsy-tissue provenance; Wilson-lab immersion-fixation brain
+  banking for ultrastructure-preserving human postmortem tissue — the enabling
+  step for banked-brain connectomics); disease-model connectomics. Pilot health
+  axis: 891 works. *(Correction 2026-08-26: an earlier draft attributed "human
+  feeding-circuit" work to the Wilson lab; that claim could not be verified
+  against any publication or release and is retracted — the retraction is the
+  log entry.)*
 
 ## 4. Fair-representation checklist (screener's concern, made explicit)
 
