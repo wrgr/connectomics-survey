@@ -141,12 +141,28 @@ assignments, 9 drop-noted; odd record types → 3 drop-noted, 4 kept as
 field-argument commentary; 53 proposed version links await screener sign-off
 (`proposed_work_links.csv`); DOI-less queue reduced to 4 true manual items.
 
-Exploration working set = **1,806 − 173 (prunes) − 61 (disconnected) − 3
-(verified-zero recents) − 27 (verified-zero unmatched) − 12 (OA
-verified-zero) − 9 (stray drop-notes) − 3 (odd types) + 53 (fill) =
-1,571** works, as a view, with 33 works still protected-unresolved (31
-no-references-served + 2 recent-deferred). Every removal is a named, reasoned,
-reversible row.
+**Rule tightened (screener, 2026-08-26): links TO the corpus or out —
+recency buys no exemption.** The 2 verified-zero recent works drop (deferral
+removed), and the 31 works whose reference lists no index serves are
+**excluded-unverifiable**: the burden of proof sits on the work, and each
+re-admits automatically the moment S2/OpenAlex serves its references (list
+retained in `exploration_oa_ref_resolution.csv`; note the set includes 3
+conference abstracts, one book, and several 2026 items awaiting indexing).
+
+**Duplicate hunt (corpus-wide, `exploration_duplicates_expanded.csv`):**
+beyond the 41 applied links, 69 suspected pairs, and 53 earlier proposals,
+blocking + Jaccard search over all canonical works found **109 new candidate
+pairs** — 31 preprint/published, 4 exact-title, 74 near-duplicates — of
+which 35 touch the working view (17 both-in, 18 one-in). Merging policy is
+IA-008's existing machinery: preprint collapses under the publication node,
+versions retained, `citation_count_sum_versions` aggregated. All pairs await
+screener sign-off before application.
+
+Exploration working set = **1,806 − 173 (prunes) − 61 (disconnected) − 3 − 27
+− 12 − 2 (verified-zero: recents/unmatched/OA rounds) − 9 (stray drop-notes)
+− 3 (odd types) − 31 (excluded-unverifiable) + 53 (fill) = 1,538** works.
+Zero works remain in limbo: every record is in, out with a named reason, or
+excluded-unverifiable with an automatic re-admission path.
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.
