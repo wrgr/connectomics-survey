@@ -38,9 +38,9 @@ KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
 _last = {"t": 0.0}
 
 
-def _get(url, tries=6, backoff=12.0):
+def _get(url, tries=10, backoff=30.0):
     for a in range(tries):
-        w = 1.15 - (time.time() - _last["t"])
+        w = 1.5 - (time.time() - _last["t"])
         if w > 0:
             time.sleep(w)
         h = {"User-Agent": "connectomics-survey-exploration"}
@@ -143,20 +143,35 @@ def main():
         for r in csv.DictReader(FULL.open()):
             if not (r.get("corpus_in_degree") or "").strip() and not (r.get("corpus_out_degree") or "").strip():
                 unmatched.append(r)
+        # resume support: progress journal survives crashes/429 storms
+        prog_path = Path(os.environ.get("IA015_CACHE_DIR", str(REG))) / "unmatched_progress.jsonl"
+        done = {}
+        if prog_path.exists():
+            for line in prog_path.open():
+                rec = json.loads(line)
+                done[rec["work_id"]] = rec
+        print(f"resume: {len(done)}/{len(unmatched)} already done")
+        prog = prog_path.open("a")
         out = []
         for i, r in enumerate(unmatched):
+            if r["work_id"] in done:
+                out.append(done[r["work_id"]])
+                continue
             doi = nd(id2work.get(r["work_id"], {}).get("doi"))
             status, n = outbound_links(doi, s2ids, dois)
             if status == "verified":
                 disp = "resolved: linked to graph" if n and n > 0 else "resolved: verified zero outbound links"
             else:
                 disp = f"unresolved ({status})"
-            out.append({"work_id": r["work_id"], "year": r.get("year") or r.get("year_enr") or "",
-                        "decision": r["decision"], "ref_check": status,
-                        "verified_outbound_links": n if n is not None else "",
-                        "final_disposition": disp, "title": (r["title"] or "")[:120]})
-            if (i + 1) % 50 == 0:
-                print(f"...{i+1}/{len(unmatched)}")
+            rec = {"work_id": r["work_id"], "year": r.get("year") or r.get("year_enr") or "",
+                   "decision": r["decision"], "ref_check": status,
+                   "verified_outbound_links": n if n is not None else "",
+                   "final_disposition": disp, "title": (r["title"] or "")[:120]}
+            out.append(rec)
+            prog.write(json.dumps(rec) + "\n")
+            prog.flush()
+            if (i + 1) % 25 == 0:
+                print(f"...{i+1}/{len(unmatched)}", flush=True)
         with (REG / "exploration_unmatched_resolved.csv").open("w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
             w.writeheader()

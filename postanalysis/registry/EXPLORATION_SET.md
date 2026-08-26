@@ -97,6 +97,26 @@ zero.
    contains in-scope works — the Wilson cerebellar germinal-layer paper and
    the microwasp are both in it).
 
+## DOI recovery and record-type triage (2026-08-26, third round)
+
+- **Recent-work verification complete** (`exploration_recent_verified.csv`):
+  of 28 deferred ≥2024 works, 3 keep (verified outbound corpus links), 3 drop
+  (verified zero), 22 unresolved (reference lists elided/not yet served —
+  stay deferred). Retrieved-graph degree alone would have wrongly dropped
+  all 28.
+- **DOI recovery for the 37 DOI-less unmatched works**
+  (`exploration_doi_resolution.csv`): 8 are the manual seeds whose DOIs were
+  already in `manual_seed_works.csv` (join artifact — White 1986 was never
+  really disconnected); of the remaining 29, **22 resolved** (17 arXiv
+  preprint DOIs, 2 published via Crossref, 3 via OpenAlex) and **7 remain
+  unresolved** for manual identity work (mostly conference/CS items).
+- **Odd record types** (`exploration_odd_types.csv`, screener rule: abstracts,
+  errata, and the like drop with a note): the working view contains only 7 —
+  3 drop-noted (a peer-review response, a meeting editorial, a viewpoint
+  piece), 4 kept as field-argument commentary per v5 §2 eligibility (incl.
+  the Open Connectome Project and synchrotron X-ray Q&As). Conference-abstract
+  strays had already been caught by the prune adjudication and recents pass.
+
 ## Net
 
 Exploration working set = **1,806 − 173 (adjudicated prunes) − 61
