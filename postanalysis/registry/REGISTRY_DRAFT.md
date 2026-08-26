@@ -1,5 +1,13 @@
 # Dataset & methods registry — preliminary draft (v5 checklist step 2)
 
+**PLACEHOLDER v0.1 (2026-08-26).** Quick-pass snapshot for exploration: every
+entry is provisional and will be revisited wholesale at formal charting.
+Remaining `needs_verification` flags after the quick pass: DS17 (enumerate the
+specific NCMIR volumes), DS20 (comparative placeholder), the methods-per-stage
+table (no per-entry identifier verification yet), and the BRAIN CONNECTS
+roadmap milestone. Nothing here is frozen or deposited; nothing locks anything
+in.
+
 **Status: DRAFT for screener review — nothing here is frozen.** Seeds the v5 §5
 dataset registry and sketches the stage × methods × bridges map. Entries marked
 `corpus-anchored` have verified presence in the frozen pilot corpus (grep-level

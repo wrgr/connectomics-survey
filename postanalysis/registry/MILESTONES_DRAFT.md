@@ -1,5 +1,10 @@
 # Field-progression axes and milestones — preliminary draft
 
+**PLACEHOLDER v0.1 (2026-08-26).** Quick-pass snapshot; revisit wholesale at
+formal charting. Note: DOI-pinned rows use the identifiers as they appear in
+the frozen pilot corpus (preprint DOIs where the corpus holds the preprint;
+version reconciliation happens at charting).
+
 **Status: DRAFT for screener review — nothing frozen.** Companion to
 `REGISTRY_DRAFT.md`, implementing v5 §7's field-progression view. Two layers,
 kept distinct on purpose: the **axes and their metrics** are charted facts
@@ -38,8 +43,9 @@ identifier verification before use.
 | 2021 | H01 human cortex petascale volume (Shapson-Coe); MICrONS mm³ function+structure; *C. elegans* developmental series (Witvliet) | A1 A4 A5 A8 | DS14 DS13 DS02 | corpus-anchored |
 | 2023 | Whole-larva brain connectome with full synaptic graph (Winding) | A1 A6 | DS03 | corpus-anchored |
 | 2024 | FlyWire: whole adult fly brain, community-proofread, public (Dorkenwald); connectome-constrained models predicting activity (Lappalainen) | A1 A6 A7 | DS06 | corpus-anchored |
-| 2024–25 | Male CNS / optic lobe releases; sexual dimorphism at connectome scale | A5 | DS08 | needs_verification |
-| 2025 | MICrONS flagship analyses released; mouse whole-brain roadmaps (BRAIN CONNECTS) | A1 A8 | DS13 | needs_verification |
+| 2024–25 | Male CNS releases; sexual dimorphism at connectome scale (10.1101/2025.10.09.680999; MANC 10.7554/elife.96084) | A5 | DS08 | corpus-anchored |
+| 2025 | MICrONS flagship: functional connectomics across mouse visual cortex (10.1038/s41586-025-08790-w); songbird basal ganglia connectome (10.1101/2025.10.25.684569) | A1 A4 A5 | DS13 DS19 | corpus-anchored |
+| 2025– | Mouse whole-brain roadmaps (BRAIN CONNECTS program) | A1 A8 | program | needs_verification |
 
 ## 3. How this is used without re-adding machinery
 
