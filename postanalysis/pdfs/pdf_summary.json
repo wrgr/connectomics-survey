@@ -3,12 +3,13 @@
   "with_landing_url": 1806,
   "with_doi": 1718,
   "with_pdf_url": 1664,
-  "downloaded": 1688,
+  "downloaded": 1762,
   "direct_search_matches": 211,
   "status_counts": {
-    "download_failed": 17,
-    "downloaded": 1688,
-    "linked": 101
+    "download_failed": 5,
+    "downloaded": 1762,
+    "linked": 35,
+    "paywall": 4
   },
   "pdf_sources": {
     "acm_browser": 1,
@@ -18,12 +19,12 @@
     "cell_browser": 1,
     "direct_search": 200,
     "europepmc": 133,
-    "manual_oa": 26,
+    "manual_closed": 38,
+    "manual_oa": 52,
     "mdpi_res": 9,
     "openalex": 5,
-    "pmc_browser": 162,
-    "pmc_pdfdir": 10,
-    "pubmed": 173,
+    "pmc_browser": 172,
+    "pubmed": 167,
     "unpaywall": 417,
     "wiley_browser": 1
   },

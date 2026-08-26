@@ -189,10 +189,37 @@ keep also overrides its earlier prune-drop (row updated in
 verification remains pending via PDF reference-list extraction (11 already
 have PDFs; 3 are on the retrieval list).
 
-Exploration working set = **1,562** works = 1,509 retained corpus members +
-53 fill candidates. (This also corrects the earlier arithmetic figure of
-1,540: per-list removal counts double-counted 8 works that appear in two
-queues; deduplicated by work_id, unique removals are 297 from the 1,806.)
+**Screener exclusions from remaining PDF retrieval (2026-08-26,
+`exploration_screener_exclusions.csv`):** eighteen works dropped from the
+exploration working set. Original four: Fields 2025 Neuroscientist, TINS 2025
+pheromone-perception, Neuroscience 2025 *Taking flight*, and Clinical Neurology
+and Neurosurgery 2026 glioma-as-network review. Added: TIM 2026 slice-thickness
+NN (`10.1109/tim.2026.3693404`), IEEE NICE 2026 Loihi/Flywire
+(`10.1109/nice69539.2026.11567466`; moved from PDF-unavailable to exclude),
+SPIE BiOS 2025 Drosophila light-sheet abstract (`10.1117/12.3047770`),
+Developmental Biology 2024 ellipsoid-body ER-neurons (`10.1016/j.ydbio.2024.07.018`),
+DATE 2026 neural-array IC (`10.23919/date69613.2026.11539470`), AAN Neurology
+2019 SPG7 meeting abstract (`10.1212/wnl.92.15_supplement.p1.8-006`), and
+Journal of Neuroscience Methods 2020 filled-neuron morphology
+(`10.1016/j.jneumeth.2020.109062`).
+
+Added further (meeting abstracts/proceedings): CUP Microscopy 2018 Drosophila
+FIB-SEM prep (`10.1017/s1431927618007742`), SPIE 2019 skeleton-based serial-EM
+registration (`10.1117/12.2512808`; distinct from Chen 2022 SPIE `10.1117/12.2611465`),
+and CUP Microscopy 2020 transforming FIB-SEM (`10.1017/s1431927620015226`).
+
+Moved from PDF-unavailable to screener exclude (out of the working set): Takasaki
+2021 Optica BRAIN (`10.1364/brain.2021.bm3b.2`) and Chen 2022 SPIE serial-section
+registration (`10.1117/12.2611465`).
+
+Added: JoCN 2025 extended-reality cranial neurosurgery (`10.1016/j.jocn.2025.111652`)
+— macroscale clinical XR/connectomics; not nanoscale mapping. ICICSP 2023
+thickness-from-deformation (`10.1109/icicsp59554.2023.10390629`) — IEEE meeting
+proceedings; not needed for exploration retrieval.
+
+Exploration working set = **1,544** works = 1,491 retained corpus members +
+53 fill candidates. (Earlier arithmetic: unique overlay removals were 297
+from the 1,806; these eighteen exclusions bring unique removals to **315**.)
 Zero limbo: every record is in, or out with a named screener-traceable
 reason.
 
