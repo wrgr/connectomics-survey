@@ -196,12 +196,24 @@ queues; deduplicated by work_id, unique removals are 297 from the 1,806.)
 Zero limbo: every record is in, or out with a named screener-traceable
 reason.
 
-**PDF coverage (2026-08-26, vs `postanalysis/pdfs/paper_links.csv`):** 1,413
-of the 1,509 retained corpus members have downloaded PDFs; **96 still need
-retrieval** (unresolved or failed downloads), plus the 47 fill candidates
-not already in the catalog. Full list:
-`postanalysis/pdfs/pdfs_still_needed.csv` (143 rows, same columns as the
-retrieval catalog).
+**PDF coverage (2026-08-26, vs `postanalysis/pdfs/paper_links.csv`):** 1,416
+of the 1,509 retained corpus members have downloaded PDFs; **93 still need
+retrieval**, plus the 47 fill candidates not already in the catalog. Full
+list: `postanalysis/pdfs/pdfs_still_needed.csv` (140 rows, same columns as
+the retrieval catalog).
+
+**Retrieval attempt on the 96 (2026-08-26, automated, this session):**
+S2 batch openAccessPdf, OpenAlex locations (keyed), Unpaywall, bioRxiv
+pattern URLs, and a repository-prioritized retry with browser headers — 3
+recovered (`s2_oa` x2, `oa_retry` x1; added to `files/`, catalog updated).
+Ceiling for scripted retrieval in this environment: 59/96 have no OA record
+at all per OpenAlex; 34 are OA-flagged but resolve only to publisher-hosted
+or JS-gated pages a plain HTTP client can't pull PDF bytes from (landing
+pages returned 200 with `Content-Type: text/html`, not blocked — genuinely
+not scriptable without a real browser/session). Per-work status and a
+manual-retrieval URL (`oa_url` where OpenAlex has one) for all 96 are in the
+session scratchpad manifest sent to the screener; not committed (ceases to
+be current the moment any are retrieved by hand).
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.
