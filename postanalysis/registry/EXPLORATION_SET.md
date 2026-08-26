@@ -74,10 +74,35 @@ deferred** (year ≥ 2024: citation/reference lag), and the **492 graph-unmatche
 works are NOT treated as disconnected** — unmatched is a measurement gap, not a
 zero.
 
+## Rule refinements (2026-08-26, screener-directed, second round)
+
+1. **Recent works must have verified links TO the graph.** The 28 deferred
+   ≥2024 zero-degree works are being verified against their actual S2
+   reference lists (`analysis/verify_disconnected.py --recent` →
+   `exploration_recent_verified.csv`): verified ≥1 outbound corpus link →
+   keep; verified zero → drop; reference list elided/unavailable →
+   unresolved, stays deferred. Retrieved-graph out-degree is never taken as
+   fact without this check.
+2. **Graph-unmatched works (492) are a separate resolution queue,
+   prune-ineligible until resolved.** Unmatched is a measurement gap.
+   Mechanical resolution (S2 reference fetch → verified outbound links) via
+   `--unmatched` mode populates `exploration_unmatched_resolved.csv`; only
+   *resolved* works become eligible for the disconnection rule.
+3. **Axis coverage.** Of 300 works matching no stage/dataset keyword, 183 fit
+   a *biological application / circuit biology* axis and 52 a *conceptual /
+   field synthesis* axis — both §17 strata missing from the dry-run tagger,
+   now added to the v5 charting form's axis-coverage rule. Role-bridge works
+   chart to bridge fields by design. Residual true strays: ~65 (3.6% of
+   corpus), each requiring per-work adjudication (the residual demonstrably
+   contains in-scope works — the Wilson cerebellar germinal-layer paper and
+   the microwasp are both in it).
+
 ## Net
 
 Exploration working set = **1,806 − 173 (adjudicated prunes) − 61
-(disconnected) + 53 (fill) = 1,625** works, as a view.
+(disconnected) + 53 (fill) = 1,625** works, as a view — pending the
+recent-work verification and unmatched-queue resolution above, which can only
+move works back IN (both rules err toward keeping).
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.
