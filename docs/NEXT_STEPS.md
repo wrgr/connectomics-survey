@@ -19,13 +19,13 @@ What remains is screener-side:
    this pass.
 2. **Sign off (or edit) the 53 proposed version links**
    (`proposed_work_links.csv`) → then apply into `manual_work_links.csv`.
-3. **1 manual-queue identity item** remains (the massive-EM
-   latent-feature conference paper). CLABTOOLKIT, the OHBM-style abstract,
-   and the causality-SCM paper were screener-adjudicated out of scope
-   (2026-08-26).
-4. 33 protected-unresolved works recheck as index coverage catches up
-   (list: `exploration_oa_ref_resolution.csv`).
-5. Optionally refresh the field-map artifact with the 1,571-work view.
+3. **Manual identity queue: CLEARED** — the massive-EM latent-feature
+   paper resolved by screener-supplied arXiv 2012.12175 (verified; Janelia
+   FlyEM); the other three adjudicated out of scope (2026-08-26).
+4. 28 excluded-unverifiable works re-admit automatically as index coverage
+   catches up (list: `exploration_oa_ref_resolution.csv`; 3 of the original
+   31 were adjudicated out of scope).
+5. Optionally refresh the field-map artifact with the 1,538-work view.
 
 ## B. The formal-run gate (v5 critical path; order matters)
 
