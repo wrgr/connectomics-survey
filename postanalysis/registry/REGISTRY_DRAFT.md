@@ -43,8 +43,12 @@ WormWiring, EyeWire museum, CCDB/Cell Image Library (NCMIR), OpenOrganelle
 
 - **Training / outreach / citizen science:** EyeWire (crowdsourced proofreading
   as public engagement); FlyWire community proofreading and annotation
-  community; platform-based courses and hackathons (BossDB/APL outreach;
-  Allen Institute education). Pilot corpus people-development axis: 213 works.
+  community; **CIRCUIT summer program** (undergraduate connectomics research/
+  outreach, JHU/APL — Gray Roncal; **COI-0, screener's own program**; in the
+  retained corpus, doi:10.1109/isecon.2018.8340467, and the pilot's positive
+  control for outreach role-bridge detection); platform-based courses and
+  hackathons (BossDB/APL outreach; Allen Institute education). Pilot corpus
+  people-development axis: 213 works.
 - **Network science:** motif/topology/null-model literature applied to
   connectome graphs (substantive-use test governs adjacency). Pilot
   network-science axis: 2,044 works (broad; needs the boundary test).
