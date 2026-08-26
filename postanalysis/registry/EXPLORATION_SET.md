@@ -129,10 +129,24 @@ its preprint/published pair remains a flagged version-link candidate
 (`suspected_unmerged_duplicates.csv`); now also added to the methods registry
 and 2025 milestone, which had missed it.
 
-Exploration working set = **1,806 − 173 (adjudicated prunes) − 61
-(disconnected) − 3 (verified-zero recents) − 27 (verified-zero unmatched,
-pre-2024) + 53 (fill) = 1,595** works, as a view, with 25 recent works
-deferred-protected and 135 unmatched-unresolved protected.
+**Keyed-OpenAlex resolution of the protected works (2026-08-26,
+`exploration_oa_ref_resolution.csv`):** of 157 targets (135 protected
+unmatched + 22 unresolved recents), **112 verified linked to the graph** —
+their reference lists existed in OpenAlex despite S2 elision — 12 verified
+zero-outbound (drop, pre-2024), 2 verified zero but recent (defer), 31
+unresolved (not in OpenAlex or no references served; stay protected).
+
+**Third-round adjudications:** 44 no-axis strays → 35 kept with axis
+assignments, 9 drop-noted; odd record types → 3 drop-noted, 4 kept as
+field-argument commentary; 53 proposed version links await screener sign-off
+(`proposed_work_links.csv`); DOI-less queue reduced to 4 true manual items.
+
+Exploration working set = **1,806 − 173 (prunes) − 61 (disconnected) − 3
+(verified-zero recents) − 27 (verified-zero unmatched) − 12 (OA
+verified-zero) − 9 (stray drop-notes) − 3 (odd types) + 53 (fill) =
+1,571** works, as a view, with 33 works still protected-unresolved (31
+no-references-served + 2 recent-deferred). Every removal is a named, reasoned,
+reversible row.
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.
