@@ -119,10 +119,20 @@ zero.
 
 ## Net
 
+**Unmatched queue resolved (2026-08-26, via S2 batch endpoint — 9 calls, ~3
+min):** of 492, **327 (66%) verified linked to the graph** (join artifact —
+they rejoin fully situated), **30 verified zero outbound** (27 pre-2024 drop
+under the disconnection rule; 3 recent defer), **135 protected** (107
+reference-lists elided, 21 not in S2, 7 no-DOI). Audit spot-check: LICONN
+(Nature 2025) confirmed in the working corpus as core_relevant/integrated;
+its preprint/published pair remains a flagged version-link candidate
+(`suspected_unmerged_duplicates.csv`); now also added to the methods registry
+and 2025 milestone, which had missed it.
+
 Exploration working set = **1,806 − 173 (adjudicated prunes) − 61
-(disconnected) + 53 (fill) = 1,625** works, as a view — pending the
-recent-work verification and unmatched-queue resolution above, which can only
-move works back IN (both rules err toward keeping).
+(disconnected) − 3 (verified-zero recents) − 27 (verified-zero unmatched,
+pre-2024) + 53 (fill) = 1,595** works, as a view, with 25 recent works
+deferred-protected and 135 unmatched-unresolved protected.
 What only the formal run can add (not patched here): a recency sweep past the
 pilot's 2026-08-22 retrieval date; targeted searches for the thin alignment
 and synapse strata; PRISMA-S-logged provenance for every addition.

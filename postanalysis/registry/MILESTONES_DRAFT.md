@@ -44,7 +44,7 @@ identifier verification before use.
 | 2023 | Whole-larva brain connectome with full synaptic graph (Winding) | A1 A6 | DS03 | corpus-anchored |
 | 2024 | FlyWire: whole adult fly brain, community-proofread, public (Dorkenwald); connectome-constrained models predicting activity (Lappalainen) | A1 A6 A7 | DS06 | corpus-anchored |
 | 2024–25 | Male CNS releases; sexual dimorphism at connectome scale (10.1101/2025.10.09.680999; MANC 10.7554/elife.96084) | A5 | DS08 | corpus-anchored |
-| 2025 | MICrONS flagship: functional connectomics across mouse visual cortex (10.1038/s41586-025-08790-w); songbird basal ganglia connectome (10.1101/2025.10.25.684569) | A1 A4 A5 | DS13 DS19 | corpus-anchored |
+| 2025 | MICrONS flagship: functional connectomics across mouse visual cortex (10.1038/s41586-025-08790-w); songbird basal ganglia connectome (10.1101/2025.10.25.684569); **LICONN: light-microscopy-based connectomic reconstruction** (10.1038/s41586-025-08985-1) — first LM route to dense synapse-level reconstruction, alternative-modality milestone | A1 A4 A5 | DS13 DS19 method | corpus-anchored |
 | 2020 / 2023– | Whole-mouse-brain ambition: "The Mind of a Mouse" consensus proposal (10.1016/j.cell.2020.08.010, in corpus) → NIH BRAIN CONNECTS program launch (first awards 2023; program identifier, not DOI) | A1 A8 | program | resolved-as-program-citation |
 
 ## 3. How this is used without re-adding machinery
