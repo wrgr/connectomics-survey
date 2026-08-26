@@ -59,6 +59,7 @@ One form per included work, drafted by the agent and human-verified on the relia
 - **Dataset genealogy map:** per registry entry — producing work, method lineage (works developing methods on it), analysis/reuse works, serving infrastructure; counts and timelines. Usage counts are reported as facts; no derived importance tier.
 - **Stage × era coverage:** counts of works per pipeline stage per era; thin cells reported as gaps with the targeted searches that were attempted.
 - **Descriptive bibliometrics:** year-normalized citation distributions and platform/funding provenance reported descriptively, clearly labeled as description, never as inclusion or ranking criteria.
+- **Field progression:** the registry timeline annotated with reported capability metrics per progression axis (imaged volume, neurons/synapses reconstructed, acquisition throughput, automation level, modality integration, organism/lifespan coverage, openness/community model, translation). Release dates and paper-reported metrics are charted facts; any *curated* milestone shortlist built on top of them is an audience view (§10), not a review output.
 - **Gap diagnosis against the pilot:** after charting is frozen, the corpus is compared with the pilot corpus; misses in either direction are diagnosed (which search family or screening era failed) and reported. Agreement is weak evidence (shared blind spots); disagreement is a gap diagnosis. Diagnosed misses are not silently added; late additions enter as labeled post-freeze nominations (§9).
 
 ## 8. Conflicts of interest and positionality
