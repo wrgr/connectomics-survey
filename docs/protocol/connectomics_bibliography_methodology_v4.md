@@ -1,5 +1,7 @@
 # Methodology for Building the Nanoscale Connectomics Training Bibliography (v4)
 
+> **Superseded 2026-08-26 by v5** (`connectomics_bibliography_methodology_v5.md`), a lean JBI/PRISMA-ScR scoping-review protocol that withdraws this version's importance-claiming machinery in favor of dataset-anchored descriptive charting. This v4 text is retained unchanged as the design record.
+
 **Status: DRAFT — not yet frozen or deposited.** This version supersedes v3 (`connectomics_bibliography_methodology_v3.md`, retained unchanged as the historical record). Because no version has been deposited, the changes below are **draft revisions**, not amendments or deviations; "deviation" becomes a defined term only after the §24 deposit. Upon deposit, this document is the protocol of record.
 
 ## Summary of revisions from v3
