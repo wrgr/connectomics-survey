@@ -37,3 +37,5 @@ Each view is `{ "id", "title", "description", "kind": "rank"|"group", ... }`.
 - group views: `{ "groups": [{ "key", "label", "uuids" }] }`
 
 Papers never appear only in a view. Membership is always the collection.
+
+First NeuroTrailblazers export is this collection only (the visible core). The 1,806 catalog is not exported yet.

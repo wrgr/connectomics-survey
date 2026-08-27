@@ -2,6 +2,8 @@
 
 One collection. Multiple views. Export this directory into NeuroTrailblazers so `/content-library/journal-papers/` and `/technical-training/journal-club/` stop being two corpora.
 
+**First export = visible core only (1,074 papers).** Do not copy the 1,806 catalog or the 1,488 working set. The 1,142 figure was the pre-split SOTA+history union; it is not this drop.
+
 Rebuild:
 
 ```bash

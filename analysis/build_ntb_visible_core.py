@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build the NeuroTrailblazers visible-core source: one collection, many views.
 
-Reads the tagged 1,806 catalog and writes source_artifact/neurotrailblazers_visible_core/.
+First export is the visible core only (not the 1,806 catalog).
+Reads the tagged core table and writes source_artifact/neurotrailblazers_visible_core/.
 Does not rewrite paper_links.csv. Does not copy PDFs.
 """
 from __future__ import annotations
@@ -513,6 +514,11 @@ def main() -> None:
         "annotation_status": {str(k): int(v) for k, v in pd.Series([p["annotation_status"] for p in papers]).value_counts().items()},
         "rule": "≤2018 history (P≥50 or k≥3); 2019–2024 contemporary (that or Out≥3); 2026 Out≥3 OR In≥1; 2025 Out≥3 AND In≥2",
         "uuid": "doi lowercase, else work_id",
+        "export_scope": "visible_core_only",
+        "n_catalog_not_exported": 1806,
+        "n_working_set_not_exported": 1488,
+        "n_earlier_two_period_union": 1142,
+        "earlier_union_note": "1,142 was history-through-2023 plus 2024–2026 SOTA before the 2019–2024 contemporary split and dropping 4 unavailable PDFs. First NTB export is the current core, not that union and not the 1,806 catalog.",
         "source_catalog": "postanalysis/pdfs/paper_links.csv",
         "source_core": "postanalysis/registry/sota_history_core_labeled.csv",
         "replaces": [

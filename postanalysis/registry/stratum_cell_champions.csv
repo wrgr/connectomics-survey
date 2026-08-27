@@ -1,0 +1,484 @@
+facet,value,era,time_role,n_working_set,n_global_core,champion_work_id,champion_doi,champion_title,champion_year,champion_in_global_core,in,out,k_core,year_cites_percentile
+axis,untagged,pre-2005,history,4,1,work_001454df91336514,10.1523/jneurosci.15-12-08177.1995,Role of neural activity during synaptogenesis in Drosophila,1995,,1,0,1,38
+axis,pipeline_stage,pre-2005,history,4,4,work_39c260e37ed45039,10.1098/rstb.1986.0056,The structure of the nervous system of the nematode Caenorhabditis elegans,1986,yes,135,0,13,100
+stage,segmentation,pre-2005,history,1,1,work_02c7b46148a6c4a5,10.1523/jneurosci.18-20-08300.1998,Three-Dimensional Structure and Composition of CA3→CA1 Axons in Rat Hippocampal Slices: Implications for Presynaptic Connectivity and Compartmentalization,1998,yes,4,0,4,62
+stage,preparation,pre-2005,history,1,1,work_21c10d8f3b695a0c,10.1371/journal.pbio.0020329,Serial Block-Face Scanning Electron Microscopy to Reconstruct Three-Dimensional Tissue Nanostructure,2004,yes,50,0,13,85
+stage,sectioning,pre-2005,history,2,2,work_39c260e37ed45039,10.1098/rstb.1986.0056,The structure of the nervous system of the nematode Caenorhabditis elegans,1986,yes,135,0,13,100
+stage,acquisition,pre-2005,history,1,1,work_21c10d8f3b695a0c,10.1371/journal.pbio.0020329,Serial Block-Face Scanning Electron Microscopy to Reconstruct Three-Dimensional Tissue Nanostructure,2004,yes,50,0,13,85
+stage,graph_analysis,pre-2005,history,2,2,work_39c260e37ed45039,10.1098/rstb.1986.0056,The structure of the nervous system of the nematode Caenorhabditis elegans,1986,yes,135,0,13,100
+organism,fly,pre-2005,history,1,0,work_001454df91336514,10.1523/jneurosci.15-12-08177.1995,Role of neural activity during synaptogenesis in Drosophila,1995,,1,0,1,38
+organism,other,pre-2005,history,1,1,work_02c7b46148a6c4a5,10.1523/jneurosci.18-20-08300.1998,Three-Dimensional Structure and Composition of CA3→CA1 Axons in Rat Hippocampal Slices: Implications for Presynaptic Connectivity and Compartmentalization,1998,yes,4,0,4,62
+organism,elegans,pre-2005,history,2,2,work_39c260e37ed45039,10.1098/rstb.1986.0056,The structure of the nervous system of the nematode Caenorhabditis elegans,1986,yes,135,0,13,100
+organism,mouse,pre-2005,history,1,1,work_7b69c0d654c6eb2e,10.1016/s0896-6273(02)00652-9,Geometry and structural plasticity of synaptic connectivity.,2002,yes,0,0,0,50
+dataset,DS01 C. elegans (White+),pre-2005,history,2,2,work_39c260e37ed45039,10.1098/rstb.1986.0056,The structure of the nervous system of the nematode Caenorhabditis elegans,1986,yes,135,0,13,100
+method,SBF-SEM,pre-2005,history,1,1,work_21c10d8f3b695a0c,10.1371/journal.pbio.0020329,Serial Block-Face Scanning Electron Microscopy to Reconstruct Three-Dimensional Tissue Nanostructure,2004,yes,50,0,13,85
+method,serial-section EM,pre-2005,history,2,2,work_39c260e37ed45039,10.1098/rstb.1986.0056,The structure of the nervous system of the nematode Caenorhabditis elegans,1986,yes,135,0,13,100
+axis,pipeline_stage,2005–2009,history,17,12,work_c3af570cd83d4cfb,10.1371/journal.pcbi.1001066,Structural Properties of the Caenorhabditis elegans Neuronal Network,2009,yes,75,0,13,100
+axis,untagged,2005–2009,history,1,0,work_17ed44014244fb80,10.1162/neco.2008.05-07-519,3D Axon Structure Extraction and Analysis in Confocal Fluorescence Microscopy Images,2007,,1,0,1,20
+axis,registry_dataset,2005–2009,history,3,3,work_fc5029f7b2497692,10.1371/journal.pcbi.0020167,Gene Expression of Caenorhabditis elegans Neurons Carries Information on Their Synaptic Connectivity,2006,yes,5,0,4,15
+stage,synapses,2005–2009,history,1,0,work_12ba8e6479fb9eac,10.1371/journal.pcbi.1000120,Using Expression Profiles of Caenorhabditis elegans Neurons To Identify Genes That Mediate Synaptic Connectivity,2008,,2,0,2,30
+stage,infrastructure,2005–2009,history,4,4,work_186acb8763d28840,10.1371/journal.pcbi.0010042,The Human Connectome: A Structural Description of the Human Brain,2005,yes,42,0,10,100
+stage,acquisition,2005–2009,history,3,3,work_440fdfad4902f6ae,10.1016/j.conb.2008.08.010,Ome sweet ome: what can the genome tell us about the connectome?,2008,yes,43,0,12,70
+stage,graph_analysis,2005–2009,history,9,7,work_c3af570cd83d4cfb,10.1371/journal.pcbi.1001066,Structural Properties of the Caenorhabditis elegans Neuronal Network,2009,yes,75,0,13,100
+stage,preparation,2005–2009,history,2,1,work_5b3cc3d12b85117b,10.1371/journal.pbio.1000074,A Computational Framework for Ultrastructural Mapping of Neural Circuitry,2009,yes,9,0,6,73
+stage,sectioning,2005–2009,history,1,1,work_5b3cc3d12b85117b,10.1371/journal.pbio.1000074,A Computational Framework for Ultrastructural Mapping of Neural Circuitry,2009,yes,9,0,6,73
+stage,alignment,2005–2009,history,1,1,work_5b3cc3d12b85117b,10.1371/journal.pbio.1000074,A Computational Framework for Ultrastructural Mapping of Neural Circuitry,2009,yes,9,0,6,73
+stage,proofreading,2005–2009,history,2,2,work_fd6353a8d1e9547e,10.1371/journal.pbio.0030068,Highly Nonrandom Features of Synaptic Connectivity in Local Cortical Circuits,2005,yes,17,0,11,77
+stage,segmentation,2005–2009,history,2,2,work_a76161ef8ea1dd6b,10.1109/tvcg.2009.178,Scalable and Interactive Segmentation and Visualization of Neural Processes in EM Datasets,2009,yes,4,0,4,55
+stage,modeling,2005–2009,history,2,0,work_b690ec4d0c358a16,10.3389/neuro.01.018.2008,"The Neuroanatomist's Dream, the Problems and Solutions, and the Ultimate Aim",2008,,0,0,0,40
+organism,elegans,2005–2009,history,5,4,work_c3af570cd83d4cfb,10.1371/journal.pcbi.1001066,Structural Properties of the Caenorhabditis elegans Neuronal Network,2009,yes,75,0,13,100
+organism,mouse,2005–2009,history,2,1,work_5b3cc3d12b85117b,10.1371/journal.pbio.1000074,A Computational Framework for Ultrastructural Mapping of Neural Circuitry,2009,yes,9,0,6,73
+organism,other,2005–2009,history,3,3,work_fd6353a8d1e9547e,10.1371/journal.pbio.0030068,Highly Nonrandom Features of Synaptic Connectivity in Local Cortical Circuits,2005,yes,17,0,11,77
+organism,human,2005–2009,history,1,0,work_e2ae1abc294095e6,10.1371/journal.pbio.0060164,From Structure to Function: Mapping the Connection Matrix of the Human Brain,2008,,0,0,0,10
+dataset,DS01 C. elegans (White+),2005–2009,history,5,4,work_c3af570cd83d4cfb,10.1371/journal.pcbi.1001066,Structural Properties of the Caenorhabditis elegans Neuronal Network,2009,yes,75,0,13,100
+dataset,DS09/DS10 mouse retina,2005–2009,history,3,3,work_5b3cc3d12b85117b,10.1371/journal.pbio.1000074,A Computational Framework for Ultrastructural Mapping of Neural Circuitry,2009,yes,9,0,6,73
+method,confocal,2005–2009,history,1,0,work_17ed44014244fb80,10.1162/neco.2008.05-07-519,3D Axon Structure Extraction and Analysis in Confocal Fluorescence Microscopy Images,2007,,1,0,1,20
+method,ssTEM,2005–2009,history,1,1,work_5b3cc3d12b85117b,10.1371/journal.pbio.1000074,A Computational Framework for Ultrastructural Mapping of Neural Circuitry,2009,yes,9,0,6,73
+method,X-ray microscopy,2005–2009,history,1,0,work_b01bce564ce2e416,10.1088/1742-6596/186/1/012092,X-ray microscopy for neural circuit reconstruction,2009,,0,0,0,9
+method,Network motifs,2005–2009,history,1,1,work_c3af570cd83d4cfb,10.1371/journal.pcbi.1001066,Structural Properties of the Caenorhabditis elegans Neuronal Network,2009,yes,75,0,13,100
+axis,pipeline_stage,2010–2015,history,169,135,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+axis,untagged,2010–2015,history,29,22,work_41a8c234a5f33895,10.1038/nn.3837,The big data challenges of connectomics,2014,yes,21,4,12,90
+axis,biological_application,2010–2015,history,2,2,work_087e18b9051261d3,10.1038/nature12450,A visual motion detection circuit suggested by Drosophila connectomics,2013,yes,157,5,13,94
+axis,registry_dataset,2010–2015,history,9,7,work_1afd0f5b17737035,10.1038/nmeth.2451,From the connectome to brain function,2013,yes,34,2,13,90
+axis,field_synthesis,2010–2015,history,2,1,work_2241b9b401acc9e2,10.1016/j.neuron.2014.09.008,The Big Data Problem: Turning Maps into Knowledge,2014,,0,2,2,34
+axis,training_outreach,2010–2015,history,1,1,work_f0209d7bdfe6efad,10.1038/sdata.2015.46,A resource from 3D electron microscopy of hippocampal neuropil for user training and tool development,2015,yes,8,16,11,42
+stage,proofreading,2010–2015,history,52,42,work_b8f2f5617e12eb28,10.7554/elife.12059,Quantitative neuroanatomy for connectomics in Drosophila,2015,yes,101,18,13,86
+stage,graph_analysis,2010–2015,history,89,71,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+stage,segmentation,2010–2015,history,37,32,work_5c2378945eccb27f,10.1038/nature12346,Connectomic reconstruction of the inner plexiform layer in the mouse retina,2013,yes,52,1,13,98
+stage,infrastructure,2010–2015,history,51,39,work_ab4936e9fe95de49,10.1016/j.cell.2015.06.054,Saturated Reconstruction of a Volume of Neocortex,2015,yes,94,7,13,98
+stage,synapses,2010–2015,history,6,4,work_0641fb974f5264cf,10.1038/nmeth.1784,mGRASP enables mapping mammalian synaptic connectivity with light microscopy,2011,yes,5,1,6,80
+stage,modeling,2010–2015,history,15,9,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+stage,preparation,2010–2015,history,19,16,work_c295eac10773de92,10.1038/nmeth.3292,Ultrastructurally-smooth thick partitioning and volume stitching for larger-scale connectomics,2015,yes,50,5,13,68
+stage,sectioning,2010–2015,history,31,27,work_5b4312b985894934,10.1016/j.neuron.2010.08.014,Ultrastructural analysis of hippocampal neuropil from the connectomics perspective,2010,yes,74,7,13,81
+stage,acquisition,2010–2015,history,36,31,work_2c6fe44c1be1c300,10.1038/nmeth.2476,Cellular-resolution connectomics: challenges of dense neural circuit reconstruction,2013,yes,74,1,13,84
+stage,alignment,2010–2015,history,10,7,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+organism,mouse,2010–2015,history,44,38,work_ab4936e9fe95de49,10.1016/j.cell.2015.06.054,Saturated Reconstruction of a Volume of Neocortex,2015,yes,94,7,13,98
+organism,fly,2010–2015,history,17,13,work_087e18b9051261d3,10.1038/nature12450,A visual motion detection circuit suggested by Drosophila connectomics,2013,yes,157,5,13,94
+organism,elegans,2010–2015,history,28,19,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+organism,other,2010–2015,history,22,16,work_5b4312b985894934,10.1016/j.neuron.2010.08.014,Ultrastructural analysis of hippocampal neuropil from the connectomics perspective,2010,yes,74,7,13,81
+organism,zebrafish,2010–2015,history,2,2,work_9b0affa5a4f9b682,10.1371/journal.pone.0037292,Graph Theoretical Model of a Sensorimotor Connectome in Zebrafish,2012,yes,2,5,4,25
+dataset,DS01 C. elegans (White+),2010–2015,history,29,20,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+dataset,DS09/DS10 mouse retina,2010–2015,history,14,13,work_5c2378945eccb27f,10.1038/nature12346,Connectomic reconstruction of the inner plexiform layer in the mouse retina,2013,yes,52,1,13,98
+dataset,DS22 Platynereis,2010–2015,history,4,4,work_ddf7c8ffd5f4396b,10.7554/elife.02730,Neuronal connectome of a sensory-motor circuit for visual navigation,2014,yes,28,4,13,78
+dataset,DS11 Kasthuri neocortex,2010–2015,history,3,2,work_ab4936e9fe95de49,10.1016/j.cell.2015.06.054,Saturated Reconstruction of a Volume of Neocortex,2015,yes,94,7,13,98
+dataset,DS03 Drosophila larva,2010–2015,history,1,1,work_4785092574ee1f39,10.1093/bioinformatics/btq219,As-rigid-as-possible mosaicking and serial section registration of large ssTEM datasets,2010,yes,11,0,10,56
+dataset,DS15 zebrafish,2010–2015,history,2,2,work_9b0affa5a4f9b682,10.1371/journal.pone.0037292,Graph Theoretical Model of a Sensorimotor Connectome in Zebrafish,2012,yes,2,5,4,25
+dataset,DS12 L4 barrel cortex,2010–2015,history,2,2,work_d63621d00ed628b6,10.1093/cercor/bhr317,Cell Type–Specific Three-Dimensional Structure of Thalamocortical Circuits in a Column of Rat Vibrissal Cortex,2011,yes,2,1,3,85
+dataset,DS13 MICrONS,2010–2015,history,1,1,work_ddf9e040f87db575,10.1016/j.conb.2011.11.010,Computational Methods and Challenges for Large-Scale Circuit Mapping,2012,yes,1,1,2,59
+method,mGRASP,2010–2015,history,4,2,work_0641fb974f5264cf,10.1038/nmeth.1784,mGRASP enables mapping mammalian synaptic connectivity with light microscopy,2011,yes,5,1,6,80
+method,FIB-SEM,2010–2015,history,6,6,work_c295eac10773de92,10.1038/nmeth.3292,Ultrastructurally-smooth thick partitioning and volume stitching for larger-scale connectomics,2015,yes,50,5,13,68
+method,ssTEM,2010–2015,history,8,7,work_5b4312b985894934,10.1016/j.neuron.2010.08.014,Ultrastructural analysis of hippocampal neuropil from the connectomics perspective,2010,yes,74,7,13,81
+method,serial-section EM,2010–2015,history,12,11,work_5b4312b985894934,10.1016/j.neuron.2010.08.014,Ultrastructural analysis of hippocampal neuropil from the connectomics perspective,2010,yes,74,7,13,81
+method,ATUM + WaferMapper,2010–2015,history,1,1,work_38b49edc6e3d2483,10.1016/j.micron.2014.01.009,Exploring the third dimension: volume electron microscopy comes of age.,2014,yes,4,2,5,95
+method,CLEM,2010–2015,history,1,1,work_38b49edc6e3d2483,10.1016/j.micron.2014.01.009,Exploring the third dimension: volume electron microscopy comes of age.,2014,yes,4,2,5,95
+method,SBF-SEM,2010–2015,history,6,6,work_5c2378945eccb27f,10.1038/nature12346,Connectomic reconstruction of the inner plexiform layer in the mouse retina,2013,yes,52,1,13,98
+method,two-photon,2010–2015,history,4,4,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+method,natverse,2010–2015,history,1,1,work_4396bf2e9890909a,10.1101/006353,The natverse: a versatile computational toolbox to combine and analyse neuroanatomical data,2014,yes,4,9,13,46
+method,TrakEM2,2010–2015,history,4,4,work_bb4463044f5b072c,10.1371/journal.pone.0038011,TrakEM2 Software for Neural Circuit Reconstruction,2012,yes,44,0,13,100
+method,Structured-loss affinity segmentation,2010–2015,history,1,1,work_47ccbd8bc04d1dc3,nan,Image Segmentation by Size-Dependent Single Linkage Clustering of a Watershed Basin Graph,2015,yes,11,0,9,46
+method,array tomography,2010–2015,history,2,1,work_790c4fa540195de1,10.1038/nmeth.3365,High-performance probes for light and electron microscopy,2015,yes,7,1,5,80
+method,Network motifs,2010–2015,history,4,4,work_ad7b99d70c070146,nan,Exploring the retinal connectome,2011,yes,37,4,10,73
+method,super-resolution LM,2010–2015,history,1,1,work_790c4fa540195de1,10.1038/nmeth.3365,High-performance probes for light and electron microscopy,2015,yes,7,1,5,80
+method,TEMCA camera-array ssTEM,2010–2015,history,1,1,work_7afda5ab9166c6fb,10.1038/nature09802,Network anatomy and in vivo physiology of visual cortical neurons,2011,yes,54,1,13,100
+method,Large-volume en-bloc staining (rOTO),2010–2015,history,1,1,work_7bd29d9809ae56eb,10.1038/ncomms8923,Large-volume en-bloc staining for electron microscopy-based connectomics,2015,yes,20,1,13,83
+method,serial two-photon,2010–2015,history,1,1,work_9487955aca364a01,10.1038/nature13186,A mesoscale connectome of the mouse brain,2014,yes,187,9,13,100
+method,ilastik interactive ML,2010–2015,history,2,2,work_e967f552dce67b5b,10.1371/journal.pone.0024899,Automated Detection and Segmentation of Synaptic Contacts in Nearly Isotropic Serial Electron Microscopy Images,2011,yes,10,2,9,66
+method,EyeWire crowd proofreading,2010–2015,history,1,1,work_a83752a657d4ec4e,10.1038/nature13240,Space-time wiring specificity supports direction selectivity in the retina,2014,yes,27,1,13,98
+method,GALA agglomeration,2010–2015,history,1,1,work_aa243bbb4279b65b,10.3389/fninf.2014.00034,Graph-based active learning of agglomeration (GALA): a Python library to segment 2D and 3D neuroimages,2014,yes,22,6,12,60
+method,TEM,2010–2015,history,4,4,work_ad7b99d70c070146,nan,Exploring the retinal connectome,2011,yes,37,4,10,73
+method,confocal,2010–2015,history,1,0,work_b729320814493b09,10.1016/j.jneumeth.2012.03.002,Serial section registration of axonal confocal microscopy datasets for long-range neural circuit reconstruction,2012,,0,1,1,6
+method,Elastic serial-section alignment,2010–2015,history,1,1,work_bc2a2e1a0560d061,10.1371/journal.pone.0059573,Automated Transmission-Mode Scanning Electron Microscopy (tSEM) for Large Volume Analysis at Nanoscale Resolution,2013,yes,4,2,5,51
+method,Hot-knife partitioning,2010–2015,history,1,1,work_c295eac10773de92,10.1038/nmeth.3292,Ultrastructurally-smooth thick partitioning and volume stitching for larger-scale connectomics,2015,yes,50,5,13,68
+method,ECS-preserving fixation,2010–2015,history,1,1,work_c9c465720a1c8c5a,10.7554/elife.08206,Extracellular space preservation aids the connectomic analysis of neural circuits,2015,yes,21,11,13,57
+method,KNOSSOS + RESCOP consensus,2010–2015,history,1,1,work_cf9199d8b0ccf668,10.1038/nn.2868,High-accuracy neurite reconstruction for high-throughput neuroanatomy,2011,yes,27,1,13,83
+axis,bridge,2016–2017,history,2,2,work_030d659739b83f09,10.1016/j.physrep.2016.09.002,Community detection in networks: A user guide,2016,yes,2,0,2,99
+axis,pipeline_stage,2016–2017,history,105,87,work_8cba212f6e7b83ad,10.1016/j.cell.2018.06.019,A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster,2017,yes,90,10,13,99
+axis,registry_dataset,2016–2017,history,12,10,work_cd1ed09029d2ef12,10.1101/044990,Synaptic transmission parallels neuromodulation in a central food-intake circuit,2016,yes,11,2,10,75
+axis,untagged,2016–2017,history,16,14,work_7ee1f288ebd5d281,10.1038/nature17192,Anatomy and function of an excitatory network in the visual cortex,2016,yes,101,8,13,97
+axis,biological_application,2016–2017,history,2,1,work_15ae850b7d2a05bb,10.1016/j.conb.2016.12.004,Synapse biology in the 'circuit-age' - paths towards molecular connectomics,2016,yes,6,2,3,48
+stage,infrastructure,2016–2017,history,28,22,work_8cba212f6e7b83ad,10.1016/j.cell.2018.06.019,A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster,2017,yes,90,10,13,99
+stage,graph_analysis,2016–2017,history,62,49,work_c7e9554f3a7935e3,10.1101/037721,The wiring diagram of a glomerular olfactory system,2016,yes,52,2,13,82
+stage,modeling,2016–2017,history,10,8,work_872019d711145384,10.7554/elife.24394,The comprehensive connectome of a neural substrate for ‘ON’ motion detection in Drosophila,2017,yes,14,3,12,83
+stage,preparation,2016–2017,history,9,8,work_7f1202eef0e8289e,10.7554/elife.26414,"SynEM, automated synapse detection for connectomics",2017,yes,33,16,13,63
+stage,sectioning,2016–2017,history,17,16,work_434673087d1709d7,10.7554/elife.26975,A connectome of a learning and memory center in the adult Drosophila brain,2017,yes,70,6,13,92
+stage,alignment,2016–2017,history,7,6,work_1d87c152cf48058c,10.7554/elife.25916,Enhanced FIB-SEM systems for large-volume 3D imaging,2017,yes,61,10,13,93
+stage,segmentation,2016–2017,history,28,27,work_7b437ce3ba4d27c5,10.1038/s41592-018-0049-4,High-precision automated reconstruction of neurons with flood-filling networks,2017,yes,60,5,13,94
+stage,acquisition,2016–2017,history,19,17,work_434673087d1709d7,10.7554/elife.26975,A connectome of a learning and memory center in the adult Drosophila brain,2017,yes,70,6,13,92
+stage,proofreading,2016–2017,history,27,25,work_8cba212f6e7b83ad,10.1016/j.cell.2018.06.019,A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster,2017,yes,90,10,13,99
+stage,synapses,2016–2017,history,7,5,work_ee4535711d4eeb37,10.3389/fncir.2018.00087,Fully-Automatic Synapse Prediction and Validation on a Large Data Set,2016,yes,36,11,13,65
+organism,elegans,2016–2017,history,21,17,work_fe975f52ca253f7e,10.1371/journal.pcbi.1005283,The Multilayer Connectome of Caenorhabditis elegans,2016,yes,48,8,12,85
+organism,fly,2016–2017,history,22,20,work_8cba212f6e7b83ad,10.1016/j.cell.2018.06.019,A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster,2017,yes,90,10,13,99
+organism,other,2016–2017,history,11,10,work_7b437ce3ba4d27c5,10.1038/s41592-018-0049-4,High-precision automated reconstruction of neurons with flood-filling networks,2017,yes,60,5,13,94
+organism,mouse,2016–2017,history,24,20,work_7ee1f288ebd5d281,10.1038/nature17192,Anatomy and function of an excitatory network in the visual cortex,2016,yes,101,8,13,97
+organism,zebrafish,2016–2017,history,6,5,work_6c16ccac03d903e6,10.1038/nmeth.4206,Automated synaptic connectivity inference for volume electron microscopy,2017,yes,24,4,13,78
+dataset,DS01 C. elegans (White+),2016–2017,history,21,17,work_fe975f52ca253f7e,10.1371/journal.pcbi.1005283,The Multilayer Connectome of Caenorhabditis elegans,2016,yes,48,8,12,85
+dataset,DS07 VNC (FANC/MANC),2016–2017,history,1,1,work_053a6d2ad8e9d69a,10.7554/elife.25751,An intersectional gene regulatory strategy defines subclass diversity of C. elegans motor neurons,2017,yes,0,1,1,60
+dataset,DS03 Drosophila larva,2016–2017,history,7,7,work_c7e9554f3a7935e3,10.1101/037721,The wiring diagram of a glomerular olfactory system,2016,yes,52,2,13,82
+dataset,DS13 MICrONS,2016–2017,history,3,3,work_0c913304a5fb2574,10.1109/aipr.2016.8010595,Registering large volume serial-section electron microscopy image sets for neural circuit reconstruction using FFT signal whitening,2016,yes,17,5,12,51
+dataset,DS15 zebrafish,2016–2017,history,6,5,work_6c16ccac03d903e6,10.1038/nmeth.4206,Automated synaptic connectivity inference for volume electron microscopy,2017,yes,24,4,13,78
+dataset,DS11 Kasthuri neocortex,2016–2017,history,2,2,work_c608ded31d0a89bd,nan,A Multi-Pass Approach to Large-Scale Connectomics,2016,yes,13,6,12,63
+dataset,DS09/DS10 mouse retina,2016–2017,history,6,5,work_77f7a01eb5b8c41e,10.3109/01677063.2016.1166224,Connectome studies on Drosophila: a short perspective on a tiny brain,2016,yes,8,11,12,32
+dataset,DS19 songbird,2016–2017,history,3,3,work_7b437ce3ba4d27c5,10.1038/s41592-018-0049-4,High-precision automated reconstruction of neurons with flood-filling networks,2017,yes,60,5,13,94
+dataset,DS20 Ciona,2016–2017,history,1,1,work_796386b4ebec693b,10.7554/elife.16962,The CNS connectome of a tadpole larva of Ciona intestinalis (L.) highlights sidedness in the brain of a chordate sibling,2016,yes,26,3,13,87
+dataset,DS22 Platynereis,2016–2017,history,1,1,work_94ff9e171c976c2c,10.7554/elife.26349,Synaptic and peptidergic connectome of a neurosecretory center in the annelid brain,2017,yes,17,11,12,66
+method,serial-section EM,2016–2017,history,6,6,work_caed8e9015be8439,10.1101/143727,Conserved neural circuit structure across Drosophila larval development revealed by comparative connectomics,2017,yes,31,6,13,70
+method,Enhanced long-run FIB-SEM,2016–2017,history,1,1,work_1d87c152cf48058c,10.7554/elife.25916,Enhanced FIB-SEM systems for large-volume 3D imaging,2017,yes,61,10,13,93
+method,FIB-SEM,2016–2017,history,1,1,work_1d87c152cf48058c,10.7554/elife.25916,Enhanced FIB-SEM systems for large-volume 3D imaging,2017,yes,61,10,13,93
+method,light-sheet,2016–2017,history,2,1,work_5646fd682952c8b6,10.1007/978-3-319-66182-7_32,A Large Deformation Diffeomorphic Approach to Registration of CLARITY Images via Mutual Information,2016,,0,2,2,28
+method,electron tomography,2016–2017,history,1,1,work_25d9bf42bedbc0f2,10.1371/journal.pcbi.1005317,FIJI Macro 3D ART VeSElecT: 3D Automated Reconstruction Tool for Vesicle Structures of Electron Tomograms,2017,yes,0,3,3,20
+method,X-ray microscopy,2016–2017,history,3,3,work_30b9fcdedb89207a,10.1523/eneuro.0195-17.2017,Quantifying Mesoscale Neuroanatomy Using X-Ray Microtomography,2016,yes,3,3,6,71
+method,SBF-SEM,2016–2017,history,5,5,work_7b437ce3ba4d27c5,10.1038/s41592-018-0049-4,High-precision automated reconstruction of neurons with flood-filling networks,2017,yes,60,5,13,94
+method,ssTEM,2016–2017,history,2,2,work_90122b36b9362b91,10.3389/fnana.2016.00104,ON Bipolar Cells in Macaque Retina: Type-Specific Synaptic Connectivity with Special Reference to OFF Counterparts,2016,yes,6,0,6,66
+method,Flood-filling networks,2016–2017,history,2,2,work_7b437ce3ba4d27c5,10.1038/s41592-018-0049-4,High-precision automated reconstruction of neurons with flood-filling networks,2017,yes,60,5,13,94
+method,array tomography,2016–2017,history,2,1,work_c25a5e51b5abfb6d,10.1117/1.nph.3.4.041802,Filling the gap: adding super-resolution to array tomography for correlated ultrastructural and molecular identification of electrical synapses at the C. elegans connectome,2016,yes,4,6,6,58
+method,SEM,2016–2017,history,3,3,work_434673087d1709d7,10.7554/elife.26975,A connectome of a learning and memory center in the adult Drosophila brain,2017,yes,70,6,13,92
+method,super-resolution LM,2016–2017,history,2,2,work_c25a5e51b5abfb6d,10.1117/1.nph.3.4.041802,Filling the gap: adding super-resolution to array tomography for correlated ultrastructural and molecular identification of electrical synapses at the C. elegans connectome,2016,yes,4,6,6,58
+method,Network motifs,2016–2017,history,1,0,work_4f8595c70c667637,10.3233/jin-170019,A computational approach towards the microscale mouse brain connectome from the mesoscale.,2017,,0,2,2,17
+method,SyConn,2016–2017,history,1,1,work_6c16ccac03d903e6,10.1038/nmeth.4206,Automated synaptic connectivity inference for volume electron microscopy,2017,yes,24,4,13,78
+method,SegEM,2016–2017,history,1,1,work_6dfd679b90335d75,nan,A Deep Structured Learning Approach Towards Automating Connectome Reconstruction from 3D Electron Micrographs,2017,yes,8,4,9,34
+method,U-Net,2016–2017,history,2,2,work_ee4535711d4eeb37,10.3389/fncir.2018.00087,Fully-Automatic Synapse Prediction and Validation on a Large Data Set,2016,yes,36,11,13,65
+method,webKnossos,2016–2017,history,1,1,work_7c9431dcfcc3ff31,10.1038/nmeth.4331,webKnossos: efficient online 3D data annotation for connectomics,2017,yes,22,3,13,82
+method,SynEM,2016–2017,history,1,1,work_7f1202eef0e8289e,10.7554/elife.26414,"SynEM, automated synapse detection for connectomics",2017,yes,33,16,13,63
+method,Large-volume en-bloc staining (rOTO),2016–2017,history,1,1,work_7f1202eef0e8289e,10.7554/elife.26414,"SynEM, automated synapse detection for connectomics",2017,yes,33,16,13,63
+method,ATUM + WaferMapper,2016–2017,history,1,1,work_93a7c9cf869575ac,10.1038/s41598-018-32820-5,Correlated Light-Serial Scanning Electron Microscopy (CoLSSEM) for ultrastructural visualization of single neurons in vivo,2017,yes,4,12,9,28
+method,CLEM,2016–2017,history,1,1,work_93a7c9cf869575ac,10.1038/s41598-018-32820-5,Correlated Light-Serial Scanning Electron Microscopy (CoLSSEM) for ultrastructural visualization of single neurons in vivo,2017,yes,4,12,9,28
+method,confocal,2016–2017,history,1,1,work_93a7c9cf869575ac,10.1038/s41598-018-32820-5,Correlated Light-Serial Scanning Electron Microscopy (CoLSSEM) for ultrastructural visualization of single neurons in vivo,2017,yes,4,12,9,28
+method,TEM,2016–2017,history,1,1,work_94ff9e171c976c2c,10.7554/elife.26349,Synaptic and peptidergic connectome of a neurosecretory center in the annelid brain,2017,yes,17,11,12,66
+method,two-photon,2016–2017,history,3,3,work_e00a7fb6feedbf91,10.7554/elife.10566,A platform for brain-wide imaging and reconstruction of individual neurons,2016,yes,6,1,6,94
+axis,pipeline_stage,2018–2019,history,162,129,work_cfa0e3eb48787eff,10.1038/s41586-019-1352-7,Whole-animal connectomes of both Caenorhabditis elegans sexes,2019,yes,154,16,13,100
+axis,registry_dataset,2018–2019,history,19,17,work_fefe636e68acdb8a,10.1101/406207,Plasticity of the electrical connectome of C. elegans,2018,yes,20,8,11,88
+axis,untagged,2018–2019,history,13,11,work_20e028bfe929110a,10.1016/j.conb.2019.03.012,"Big data in nanoscale connectomics, and the greed for training labels.",2019,yes,9,13,13,59
+axis,training_outreach,2018–2019,history,1,0,work_22a069f788d55d8d,nan,The Allen Brain Atlas as a Resource for Teaching Undergraduate Neuroscience.,2018,,0,1,1,37
+axis,health_translation,2018–2019,history,2,1,work_e3277619bfed476c,10.1002/hbm.25033,Mapping brain asymmetry in health and disease through the ENIGMA consortium,2019,yes,2,0,2,95
+axis,biological_application,2018–2019,history,1,1,work_85e90cad98b9be25,10.1101/394403,Neural circuit basis of aversive odour processing in Drosophila from sensory input to descending output,2018,yes,6,2,8,62
+axis,bridge,2018–2019,history,1,1,work_c0291cd6d5d32157,10.1523/jneurosci.1169-19.2019,BRAIN Initiative: Cutting-Edge Tools and Resources for the Community,2019,yes,0,0,0,62
+stage,synapses,2018–2019,history,15,13,work_cc31e996b2ec9309,10.1109/isbi45749.2020.9098489,Synaptic Partner Assignment Using Attentional Voxel Association Networks,2019,yes,26,14,13,72
+stage,graph_analysis,2018–2019,history,86,69,work_cfa0e3eb48787eff,10.1038/s41586-019-1352-7,Whole-animal connectomes of both Caenorhabditis elegans sexes,2019,yes,154,16,13,100
+stage,proofreading,2018–2019,history,35,27,work_f56a7ec87aa3e03a,10.3389/fncir.2018.00088,VAST (Volume Annotation and Segmentation Tool): Efficient Manual and Semi-Automatic Labeling of Large 3D Image Stacks,2018,yes,23,9,13,93
+stage,preparation,2018–2019,history,18,10,work_de4d7cf37dfad297,10.3389/fnana.2018.00112,Multi-Beam Scanning Electron Microscopy for High-Throughput Imaging in Connectomics Research,2018,yes,14,20,13,69
+stage,sectioning,2018–2019,history,26,22,work_d552830c86eb491f,10.1109/tpami.2018.2835450,Large Scale Image Segmentation with Structured Loss Based Deep Learning for Connectome Reconstruction,2019,yes,52,2,13,97
+stage,acquisition,2018–2019,history,28,22,work_c6b4755fa98e0894,10.1126/science.aay3134,Dense connectomic reconstruction in layer 4 of the somatosensory cortex,2018,yes,98,27,13,97
+stage,modeling,2018–2019,history,23,17,work_4888d0293b40ce35,10.1016/j.conb.2019.07.007,Constraining computational models using electron microscopy wiring diagrams.,2019,yes,9,9,13,57
+stage,segmentation,2018–2019,history,38,35,work_c6b4755fa98e0894,10.1126/science.aay3134,Dense connectomic reconstruction in layer 4 of the somatosensory cortex,2018,yes,98,27,13,97
+stage,alignment,2018–2019,history,10,7,work_8eb544cf75eb1e58,10.1242/jeb.164954,Of what use is connectomics? A personal perspective on the Drosophila connectome,2018,yes,21,13,13,69
+stage,infrastructure,2018–2019,history,47,33,work_9bc341caddd144e5,10.3389/fncir.2019.00005,DVID: Distributed Versioned Image-Oriented Dataservice,2019,yes,22,10,13,64
+organism,fly,2018–2019,history,32,27,work_8eb544cf75eb1e58,10.1242/jeb.164954,Of what use is connectomics? A personal perspective on the Drosophila connectome,2018,yes,21,13,13,69
+organism,mouse,2018–2019,history,36,30,work_c6b4755fa98e0894,10.1126/science.aay3134,Dense connectomic reconstruction in layer 4 of the somatosensory cortex,2018,yes,98,27,13,97
+organism,elegans,2018–2019,history,34,32,work_cfa0e3eb48787eff,10.1038/s41586-019-1352-7,Whole-animal connectomes of both Caenorhabditis elegans sexes,2019,yes,154,16,13,100
+organism,zebrafish,2018–2019,history,5,4,work_17f8a533cf7cabc4,10.1016/j.neuron.2019.04.034,A Cellular-Resolution Atlas of the Larval Zebrafish Brain.,2019,yes,4,1,5,98
+organism,other,2018–2019,history,10,8,work_3a8e55c0032e0c3d,10.1523/jneurosci.0778-19.2019,Connectomic Identification and Three-Dimensional Color Tuning of S-OFF Midget Ganglion Cells in the Primate Retina,2018,yes,6,2,6,64
+dataset,DS09/DS10 mouse retina,2018–2019,history,11,9,work_3a8e55c0032e0c3d,10.1523/jneurosci.0778-19.2019,Connectomic Identification and Three-Dimensional Color Tuning of S-OFF Midget Ganglion Cells in the Primate Retina,2018,yes,6,2,6,64
+dataset,DS01 C. elegans (White+),2018–2019,history,34,32,work_cfa0e3eb48787eff,10.1038/s41586-019-1352-7,Whole-animal connectomes of both Caenorhabditis elegans sexes,2019,yes,154,16,13,100
+dataset,DS13 MICrONS,2018–2019,history,4,4,work_8fd725d2118803e2,10.1038/s41467-020-18659-3,A petascale automated imaging pipeline for mapping neuronal circuits with high-throughput transmission electron microscopy,2019,yes,17,6,13,93
+dataset,DS03 Drosophila larva,2018–2019,history,12,10,work_8eb544cf75eb1e58,10.1242/jeb.164954,Of what use is connectomics? A personal perspective on the Drosophila connectome,2018,yes,21,13,13,69
+dataset,DS15 zebrafish,2018–2019,history,5,4,work_17f8a533cf7cabc4,10.1016/j.neuron.2019.04.034,A Cellular-Resolution Atlas of the Larval Zebrafish Brain.,2019,yes,4,1,5,98
+dataset,DS20 Ciona,2018–2019,history,1,1,work_4b7413fa018067cf,10.1016/j.conb.2018.10.015,"Neuronal Identity: The neuron types of a simple chordate sibling, the tadpole larva of Ciona intestinalis.",2018,yes,2,3,4,57
+dataset,DS07 VNC (FANC/MANC),2018–2019,history,2,2,work_ed43e8259dc6cab9,10.1101/855130,En bloc preparation of Drosophila brains enables high-throughput FIB-SEM connectomics,2019,yes,14,17,13,49
+dataset,DS22 Platynereis,2018–2019,history,2,2,work_5347d2a55426a9b6,10.7554/elife.36440,Ciliary and rhabdomeric photoreceptor-cell circuits form a spectral depth gauge in marine zooplankton,2018,yes,3,5,7,64
+dataset,DS19 songbird,2018–2019,history,2,0,work_784400c91f3cd26f,10.7554/elife.43194,Accelerated redevelopment of vocal skills is preceded by lasting reorganization of the song motor circuitry,2019,,0,1,1,42
+dataset,DS12 L4 barrel cortex,2018–2019,history,2,2,work_c6b4755fa98e0894,10.1126/science.aay3134,Dense connectomic reconstruction in layer 4 of the somatosensory cortex,2018,yes,98,27,13,97
+method,U-Net,2018–2019,history,7,6,work_d552830c86eb491f,10.1109/tpami.2018.2835450,Large Scale Image Segmentation with Structured Loss Based Deep Learning for Connectome Reconstruction,2019,yes,52,2,13,97
+method,MagC,2018–2019,history,1,1,work_022f4537397531be,10.7554/elife.45696,"MagC, magnetic collection of ultrathin sections for volumetric correlative light and electron microscopy",2019,yes,2,2,4,47
+method,CLEM,2018–2019,history,2,2,work_022f4537397531be,10.7554/elife.45696,"MagC, magnetic collection of ultrathin sections for volumetric correlative light and electron microscopy",2019,yes,2,2,4,47
+method,FIB-SEM,2018–2019,history,9,7,work_8eb544cf75eb1e58,10.1242/jeb.164954,Of what use is connectomics? A personal perspective on the Drosophila connectome,2018,yes,21,13,13,69
+method,GCIB-SEM,2018–2019,history,1,1,work_0f028df4c1bb42a4,10.1101/563239,GCIB-SEM: A path to 10 nm isotropic imaging of cubic millimeter volumes,2019,yes,3,5,7,25
+method,mGRASP,2018–2019,history,2,1,work_1d55827a54abb8bd,10.1523/jneurosci.0155-18.2018,Schaffer Collateral Inputs to CA1 Excitatory and Inhibitory Neurons Follow Different Connectivity Rules,2018,yes,1,3,4,39
+method,serial-section EM,2018–2019,history,7,6,work_f56a7ec87aa3e03a,10.3389/fncir.2018.00088,VAST (Volume Annotation and Segmentation Tool): Efficient Manual and Semi-Automatic Labeling of Large 3D Image Stacks,2018,yes,23,9,13,93
+method,TEM,2018–2019,history,3,3,work_8fd725d2118803e2,10.1038/s41467-020-18659-3,A petascale automated imaging pipeline for mapping neuronal circuits with high-throughput transmission electron microscopy,2019,yes,17,6,13,93
+method,light-sheet,2018–2019,history,1,0,work_2d23fc156da4f7ce,10.1101/703900,TraceMontage: a Method for Merging Multiple Independent Neuronal Traces,2019,,0,1,1,10
+method,confocal,2018–2019,history,3,1,work_a5f954f4563fcfc9,10.1101/278515,Flexible Learning-Free Segmentation and Reconstruction for Sparse Neuronal Circuit Tracing,2018,yes,0,6,6,2
+method,SBF-SEM,2018–2019,history,6,6,work_de4d7cf37dfad297,10.3389/fnana.2018.00112,Multi-Beam Scanning Electron Microscopy for High-Throughput Imaging in Connectomics Research,2018,yes,14,20,13,69
+method,Network motifs,2018–2019,history,3,3,work_6068f1e615a91237,10.1016/j.neuron.2019.10.031,A Genetic Model of the Connectome,2019,yes,17,22,13,80
+method,super-resolution LM,2018–2019,history,1,1,work_6d7152bc3042d92f,10.1126/science.aaz5357,Correlative three-dimensional super-resolution and block face electron microscopy of whole vitreously frozen cells,2019,yes,2,1,3,98
+method,expansion microscopy,2018–2019,history,1,1,work_6e6d74dd4f3c6069,10.1101/829903,Expansion Microscopy of Lipid Membranes,2019,yes,1,0,1,72
+method,DVID,2018–2019,history,2,2,work_9bc341caddd144e5,10.3389/fncir.2019.00005,DVID: Distributed Versioned Image-Oriented Dataservice,2019,yes,22,10,13,64
+method,X-ray microscopy,2018–2019,history,1,1,work_a5f954f4563fcfc9,10.1101/278515,Flexible Learning-Free Segmentation and Reconstruction for Sparse Neuronal Circuit Tracing,2018,yes,0,6,6,2
+method,SEM,2018–2019,history,3,3,work_b60d03383c437391,10.1002/cne.24840,Wide-field amacrine cell inputs to ON parasol ganglion cells in macaque retina,2019,yes,5,3,6,39
+method,two-photon,2018–2019,history,2,2,work_b9427d82f30c52ed,10.1101/847152,The neuroanatomical ultrastructure and function of a biological ring attractor,2019,yes,12,0,8,93
+method,array tomography,2018–2019,history,2,2,work_de4d7cf37dfad297,10.3389/fnana.2018.00112,Multi-Beam Scanning Electron Microscopy for High-Throughput Imaging in Connectomics Research,2018,yes,14,20,13,69
+method,Flood-filling networks,2018–2019,history,2,2,work_d3260d4a80ed1193,10.1109/cvpr.2019.00862,Cross-Classification Clustering: An Efficient Multi-Object Tracking Technique for 3-D Instance Segmentation in Connectomics,2018,yes,20,17,13,59
+method,Structured-loss affinity segmentation,2018–2019,history,1,1,work_d552830c86eb491f,10.1109/tpami.2018.2835450,Large Scale Image Segmentation with Structured Loss Based Deep Learning for Connectome Reconstruction,2019,yes,52,2,13,97
+method,ssTEM,2018–2019,history,1,1,work_de69d8974ed67b3a,10.1016/j.tice.2018.08.011,Serial block face scanning electron microscopy in cell biology: Applications and technology.,2019,yes,3,4,6,80
+method,electron tomography,2018–2019,history,1,1,work_de69d8974ed67b3a,10.1016/j.tice.2018.08.011,Serial block face scanning electron microscopy in cell biology: Applications and technology.,2019,yes,3,4,6,80
+method,ATUM + WaferMapper,2018–2019,history,1,1,work_e0129a80e8df81ba,10.1016/bs.mcb.2019.04.004,Serial-section electron microscopy using Automated Tape-Collecting Ultramicrotome (ATUM),2019,yes,9,4,6,81
+method,Hot-knife partitioning,2018–2019,history,1,1,work_ed43e8259dc6cab9,10.1101/855130,En bloc preparation of Drosophila brains enables high-throughput FIB-SEM connectomics,2019,yes,14,17,13,49
+method,VAST,2018–2019,history,1,1,work_f56a7ec87aa3e03a,10.3389/fncir.2018.00088,VAST (Volume Annotation and Segmentation Tool): Efficient Manual and Semi-Automatic Labeling of Large 3D Image Stacks,2018,yes,23,9,13,93
+method,CDeep3M cloud segmentation,2018–2019,history,1,1,work_f8eabb08474bb993,10.1038/s41592-018-0106-z,CDeep3M - Plug-and-Play cloud based deep learning for image segmentation,2018,yes,3,1,4,90
+axis,pipeline_stage,2020–2021,history,179,142,work_ee5b7f908c56d881,10.1038/s41586-025-08790-w,Functional connectomics spanning multiple areas of mouse visual cortex,2021,yes,126,37,13,99
+axis,registry_dataset,2020–2021,history,23,20,work_3dbce6aa5261fb05,10.7554/elife.62567,Circuits for integrating learned and innate valences in the insect brain,2021,yes,13,9,12,84
+axis,biological_application,2020–2021,history,9,7,work_31d1fee6f2ffabfe,10.7554/elife.62576,The connectome of the adult Drosophila mushroom body provides insights into function,2020,yes,62,16,13,98
+axis,training_outreach,2020–2021,history,3,1,work_d4793789155c9aab,10.1523/eneuro.0274-21.2021,"NEST Desktop, an Educational Application for Neuroscience",2021,,1,1,2,46
+axis,untagged,2020–2021,history,24,20,work_aa4ac55bf3d997c2,10.1016/j.cell.2020.08.010,The Mind of a Mouse.,2020,yes,28,2,13,94
+axis,health_translation,2020–2021,history,1,1,work_6902b71a851fc6e1,10.1126/sciadv.abc2487,Determinants of seeding and spreading of α-synuclein pathology in the brain,2020,yes,0,1,1,87
+axis,field_synthesis,2020–2021,history,1,0,work_7c688ddd3be395b9,10.1016/j.neulet.2021.136052,A historical perspective on training students to create standardized maps of novel brain structure: Newly-uncovered resonances between past and present research-based neuroanatomy curricula,2021,,0,1,1,15
+stage,sectioning,2020–2021,history,25,20,work_e55d932cde0c77af,10.1038/s41586-021-03778-8,Connectomes across development reveal principles of brain maturation,2021,yes,119,20,13,100
+stage,acquisition,2020–2021,history,30,25,work_241b54c819ff405b,10.1038/s41592-021-01330-0,FlyWire: Online community for whole-brain connectomics,2020,yes,107,27,13,97
+stage,segmentation,2020–2021,history,47,38,work_241b54c819ff405b,10.1038/s41592-021-01330-0,FlyWire: Online community for whole-brain connectomics,2020,yes,107,27,13,97
+stage,proofreading,2020–2021,history,42,31,work_ee5b7f908c56d881,10.1038/s41586-025-08790-w,Functional connectomics spanning multiple areas of mouse visual cortex,2021,yes,126,37,13,99
+stage,synapses,2020–2021,history,12,11,work_3cfb4552d0463ce3,10.1101/2021.05.29.446289,A connectomic study of a petascale fragment of human cerebral cortex,2021,yes,72,21,13,97
+stage,infrastructure,2020–2021,history,54,51,work_241b54c819ff405b,10.1038/s41592-021-01330-0,FlyWire: Online community for whole-brain connectomics,2020,yes,107,27,13,97
+stage,graph_analysis,2020–2021,history,98,75,work_ee5b7f908c56d881,10.1038/s41586-025-08790-w,Functional connectomics spanning multiple areas of mouse visual cortex,2021,yes,126,37,13,99
+stage,preparation,2020–2021,history,21,15,work_3cfb4552d0463ce3,10.1101/2021.05.29.446289,A connectomic study of a petascale fragment of human cerebral cortex,2021,yes,72,21,13,97
+stage,modeling,2020–2021,history,29,21,work_a1904fa7e0f72eb3,10.1038/s41593-019-0576-z,Whitening of odor representations by the wiring diagram of the olfactory bulb,2020,yes,30,4,13,87
+stage,alignment,2020–2021,history,9,7,work_e2f8e06c9049f5f3,10.7554/elife.53350,"The natverse, a versatile toolbox for combining and analysing neuroanatomical data",2020,yes,24,10,13,93
+organism,elegans,2020–2021,history,39,32,work_e55d932cde0c77af,10.1038/s41586-021-03778-8,Connectomes across development reveal principles of brain maturation,2021,yes,119,20,13,100
+organism,mouse,2020–2021,history,52,40,work_ee5b7f908c56d881,10.1038/s41586-025-08790-w,Functional connectomics spanning multiple areas of mouse visual cortex,2021,yes,126,37,13,99
+organism,other,2020–2021,history,12,10,work_9ea9181c0d4620fd,10.1101/2020.08.21.260984,Whole-animal connectome and cell-type complement of the three-segmented Platynereis dumerilii larva,2020,yes,21,21,13,78
+organism,fly,2020–2021,history,48,42,work_241b54c819ff405b,10.1038/s41592-021-01330-0,FlyWire: Online community for whole-brain connectomics,2020,yes,107,27,13,97
+organism,zebrafish,2020–2021,history,7,6,work_a1904fa7e0f72eb3,10.1038/s41593-019-0576-z,Whitening of odor representations by the wiring diagram of the olfactory bulb,2020,yes,30,4,13,87
+organism,human,2020–2021,history,1,1,work_3cfb4552d0463ce3,10.1101/2021.05.29.446289,A connectomic study of a petascale fragment of human cerebral cortex,2021,yes,72,21,13,97
+dataset,DS01 C. elegans (White+),2020–2021,history,40,33,work_e55d932cde0c77af,10.1038/s41586-021-03778-8,Connectomes across development reveal principles of brain maturation,2021,yes,119,20,13,100
+dataset,DS09/DS10 mouse retina,2020–2021,history,13,11,work_97fef5d2214981f3,10.1016/j.neuron.2020.09.014,Circuit reorganization shapes the developing human foveal midget connectome towards single-cone resolution,2020,yes,5,4,6,58
+dataset,DS12 L4 barrel cortex,2020–2021,history,4,3,work_27e18aa6bae94e96,10.1126/science.abb4534,Postnatal connectomic development of inhibition in mouse barrel cortex,2020,yes,15,2,10,85
+dataset,DS05 hemibrain,2020–2021,history,2,2,work_d21c268780bf38d6,10.7554/elife.66018,"Information flow, cell types and stereotypy in a full olfactory connectome",2020,yes,47,26,13,92
+dataset,DS15 zebrafish,2020–2021,history,8,7,work_a1904fa7e0f72eb3,10.1038/s41593-019-0576-z,Whitening of odor representations by the wiring diagram of the olfactory bulb,2020,yes,30,4,13,87
+dataset,DS22 Platynereis,2020–2021,history,5,5,work_9ea9181c0d4620fd,10.1101/2020.08.21.260984,Whole-animal connectome and cell-type complement of the three-segmented Platynereis dumerilii larva,2020,yes,21,21,13,78
+dataset,DS19 songbird,2020–2021,history,1,1,work_239dd3ff619a0a41,10.1101/2020.02.18.954354,An anatomical substrate of credit assignment in reinforcement learning,2020,yes,5,9,11,44
+dataset,DS06 FlyWire,2020–2021,history,1,1,work_241b54c819ff405b,10.1038/s41592-021-01330-0,FlyWire: Online community for whole-brain connectomics,2020,yes,107,27,13,97
+dataset,DS13 MICrONS,2020–2021,history,7,5,work_3cfb4552d0463ce3,10.1101/2021.05.29.446289,A connectomic study of a petascale fragment of human cerebral cortex,2021,yes,72,21,13,97
+dataset,DS14 H01 human cortex,2020–2021,history,1,1,work_3cfb4552d0463ce3,10.1101/2021.05.29.446289,A connectomic study of a petascale fragment of human cerebral cortex,2021,yes,72,21,13,97
+dataset,DS03 Drosophila larva,2020–2021,history,10,9,work_c264471fa138e632,10.1038/s41593-020-0607-9,Recurrent architecture for adaptive regulation of learning in the insect brain,2020,yes,15,3,13,91
+dataset,DS11 Kasthuri neocortex,2020–2021,history,1,1,work_cea033bf4ba903e5,10.4103/1673-5374.314307,Analyzing neural degeneration of the retina with connectomics,2021,yes,0,4,3,10
+dataset,DS07 VNC (FANC/MANC),2020–2021,history,1,1,work_e323a05fc48f61c0,10.1101/2020.01.10.902478,Reconstruction of motor control circuits in adult Drosophila using automated transmission electron microscopy,2020,yes,27,7,13,96
+method,FIB-SEM,2020–2021,history,6,6,work_001c0f01391e19c4,10.1038/s41598-020-70859-5,Estimation of the number of synapses in the hippocampus and brain-wide by volume electron microscopy and genetic labeling,2020,yes,1,1,2,81
+method,confocal,2020–2021,history,2,2,work_e4ddb9363ec5d96d,10.1080/01677063.2021.1892096,A quick and versatile protocol for the 3D visualization of transgene expression across the whole body of larval Drosophila,2021,yes,1,2,3,37
+method,SBF-SEM,2020–2021,history,4,3,work_18a630f143863a39,10.1073/pnas.2106785118,A specialized spinal circuit for command amplification and directionality during escape behavior,2021,yes,2,3,4,54
+method,ATUM + WaferMapper,2020–2021,history,1,1,work_0a1427cd13f43c85,10.1016/j.isci.2020.101290,Multiscale ATUM-FIB Microscopy Enables Targeted Ultrastructural Analysis at Isotropic Resolution,2020,yes,0,4,4,44
+method,ssTEM,2020–2021,history,3,3,work_32632f2c4700ef08,10.3389/fnana.2021.627368,Three-Dimensional Structure of Dendritic Spines Revealed by Volume Electron Microscopy Techniques,2021,yes,2,19,12,46
+method,neuPrint,2020–2021,history,1,1,work_0da43b963c6e7486,10.1101/2020.01.16.909465,neuPrint: Analysis Tools for EM Connectomics,2020,yes,26,11,13,84
+method,light-sheet,2020–2021,history,4,3,work_e4ddb9363ec5d96d,10.1080/01677063.2021.1892096,A quick and versatile protocol for the 3D visualization of transgene expression across the whole body of larval Drosophila,2021,yes,1,2,3,37
+method,two-photon,2020–2021,history,4,3,work_f071283c3295aa52,10.7554/elife.63392,Permeabilization-free en bloc immunohistochemistry for correlative microscopy,2020,yes,8,12,13,62
+method,serial two-photon,2020–2021,history,1,1,work_2023cc62cedb365a,10.1038/s41592-021-01334-w,Cross-modal coherent registration of whole mouse brains,2021,yes,1,1,2,93
+method,serial-section EM,2020–2021,history,9,8,work_e55d932cde0c77af,10.1038/s41586-021-03778-8,Connectomes across development reveal principles of brain maturation,2021,yes,119,20,13,100
+method,FlyWire,2020–2021,history,1,1,work_241b54c819ff405b,10.1038/s41592-021-01330-0,FlyWire: Online community for whole-brain connectomics,2020,yes,107,27,13,97
+method,SEM,2020–2021,history,2,2,work_2f6b66120e640199,10.1002/cne.25156,Synaptic inputs to broad thorny ganglion cells in macaque retina,2021,yes,3,6,6,49
+method,Network motifs,2020–2021,history,5,5,work_4514cd847994dcc7,10.1101/2020.12.08.413955,A connectome of the Drosophila central complex reveals network motifs suitable for flexible navigation and context-dependent action selection,2020,yes,59,29,13,99
+method,Multibeam SEM,2020–2021,history,1,1,work_3cfb4552d0463ce3,10.1101/2021.05.29.446289,A connectomic study of a petascale fragment of human cerebral cortex,2021,yes,72,21,13,97
+method,X-ray microscopy,2020–2021,history,1,0,work_72b1d33f49042f77,10.1017/s1431927621009168,Multi-Scale Imaging of Connectomes With Photons and Electrons,2021,,0,1,1,10
+method,expansion microscopy,2020–2021,history,2,2,work_e537b8e00c039417,10.1038/s41467-020-18422-8,Light microscopy based approach for mapping connectivity with molecular specificity,2020,yes,9,8,12,79
+method,super-resolution LM,2020–2021,history,3,2,work_7bdad385499dc937,10.1101/2021.12.03.471084,Imaging Three-Dimensional Brain Organoid Architecture from Meso- to Nanoscale across Development,2021,yes,1,0,1,62
+method,TEM,2020–2021,history,2,2,work_b5084356dd64493c,10.7554/elife.65745,Unveiling the sensory and interneuronal pathways of the neuroendocrine connectome in Drosophila,2021,yes,5,9,9,74
+method,array tomography,2020–2021,history,2,1,work_c92a0fc5d845cc35,10.1101/2021.11.24.469932,A scalable and modular automated pipeline for stitching of large electron microscopy datasets,2021,yes,10,15,12,69
+method,natverse,2020–2021,history,1,1,work_e2f8e06c9049f5f3,10.7554/elife.53350,"The natverse, a versatile toolbox for combining and analysing neuroanatomical data",2020,yes,24,10,13,93
+method,GridTape TEM,2020–2021,history,1,1,work_e323a05fc48f61c0,10.1101/2020.01.10.902478,Reconstruction of motor control circuits in adult Drosophila using automated transmission electron microscopy,2020,yes,27,7,13,96
+method,Structured-loss affinity segmentation,2020–2021,history,1,1,work_e3fe7b657f85f0ee,10.1101/2020.01.17.909572,Accelerated EM Connectome Reconstruction using 3D Visualization and Segmentation Graphs,2020,yes,9,7,12,36
+method,U-Net,2020–2021,history,1,1,work_f51a122abe38a644,10.1016/j.bspc.2021.102829,An effective AI integrated system for neuron tracing on anisotropic electron microscopy volume,2021,yes,3,5,7,38
+axis,pipeline_stage,2022–2023,history,162,132,work_2f968b5df6b0dd3d,10.1126/science.add9330,The connectome of an insect brain,2022,yes,49,21,13,100
+axis,biological_application,2022–2023,history,11,9,work_a79338d25cd0e172,10.1146/annurev-neuro-110920-032645,Neural Networks for Navigation: From Connections to Computations.,2023,yes,5,4,7,92
+axis,registry_dataset,2022–2023,history,28,23,work_f4089e71d372f0e5,10.1126/science.abo0924,Connectomic comparison of mouse and human cortex,2022,yes,38,5,13,99
+axis,field_synthesis,2022–2023,history,1,1,work_0e4e42b0cb08974f,10.1186/s40537-023-00751-2,The evolution of Big Data in neuroscience and neurology,2023,yes,0,3,3,89
+axis,untagged,2022–2023,history,16,14,work_fe4fbe0b28a2fe59,10.3389/fphys.2023.1076533,Virtual Fly Brain—An interactive atlas of the Drosophila nervous system,2023,yes,13,13,12,95
+axis,health_translation,2022–2023,history,7,5,work_aea20c42d6eebc8d,10.1111/dgd.12890,Studying zebrafish nervous system structure and function in health and disease with electron microscopy,2023,yes,0,7,6,28
+axis,training_outreach,2022–2023,history,3,1,work_9224f576c520ade6,10.1007/s00418-023-02204-6,Online citizen science with the Zooniverse for analysis of biological volumetric data,2023,yes,0,2,2,70
+stage,segmentation,2022–2023,history,49,40,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+stage,proofreading,2022–2023,history,47,38,work_ab6b317a17285c28,10.1038/s41592-024-02226-5,RoboEM: automated 3D flight tracing for synaptic-resolution connectomics,2022,yes,16,36,13,81
+stage,graph_analysis,2022–2023,history,89,74,work_2f968b5df6b0dd3d,10.1126/science.add9330,The connectome of an insect brain,2022,yes,49,21,13,100
+stage,preparation,2022–2023,history,14,11,work_579bab55f1835737,10.1016/j.biopsych.2023.01.025,Immersion fixation and staining of multi-cubic millimeter volumes for electron microscopy-based connectomics of human brain biopsies,2023,yes,13,12,13,87
+stage,modeling,2022–2023,history,21,17,work_fafef48ad68a0f38,10.1101/2023.03.11.532232,Connectome-constrained deep mechanistic networks predict neural responses across the fly visual system at single-neuron resolution,2023,yes,6,12,13,87
+stage,sectioning,2022–2023,history,20,14,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+stage,acquisition,2022–2023,history,30,25,work_542d289b1df8abc6,10.1101/2023.06.05.543757,A Connectome of the Male Drosophila Ventral Nerve Cord,2023,yes,37,12,13,99
+stage,infrastructure,2022–2023,history,46,38,work_4d88921e492f9434,10.3389/fninf.2022.896292,neuPrint: An open access tool for EM connectomics,2022,yes,32,17,13,93
+stage,alignment,2022–2023,history,10,6,work_bf960a676e2587a3,10.1038/s41467-023-44354-0,Petascale pipeline for precise alignment of images from serial section electron microscopy,2022,yes,7,7,11,80
+stage,synapses,2022–2023,history,14,12,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+organism,mouse,2022–2023,history,33,27,work_55a31c8884d2dba2,10.1101/2023.01.23.525290,Cell-type-specific inhibitory circuitry from a connectomic census of mouse visual cortex,2023,yes,11,28,13,91
+organism,other,2022–2023,history,12,10,work_3fddccfee3181b91,10.1038/s41592-022-01624-x,SyConn2: dense synaptic connectivity inference for volume electron microscopy,2022,yes,11,11,12,67
+organism,elegans,2022–2023,history,35,29,work_be884a73cedf8f72,10.1016/j.neuron.2023.09.043,The neuropeptidergic connectome of C. elegans,2022,yes,28,27,13,97
+organism,fly,2022–2023,history,64,55,work_2f968b5df6b0dd3d,10.1126/science.add9330,The connectome of an insect brain,2022,yes,49,21,13,100
+organism,zebrafish,2022–2023,history,14,13,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+organism,human,2022–2023,history,4,3,work_f4089e71d372f0e5,10.1126/science.abo0924,Connectomic comparison of mouse and human cortex,2022,yes,38,5,13,99
+dataset,DS21 octopus,2022–2023,history,3,2,work_f104e8c98ee2c0bf,10.7554/elife.84257,Connectomics of the Octopus vulgaris vertical lobe provides insight into conserved and novel principles of a memory acquisition network,2022,yes,8,25,13,70
+dataset,DS01 C. elegans (White+),2022–2023,history,35,29,work_be884a73cedf8f72,10.1016/j.neuron.2023.09.043,The neuropeptidergic connectome of C. elegans,2022,yes,28,27,13,97
+dataset,DS06 FlyWire,2022–2023,history,4,3,work_5a5bf6e6db192920,10.1101/2023.06.27.546055,A consensus cell type atlas from multiple connectomes reveals principles of circuit stereotypy and variation,2023,yes,12,14,13,99
+dataset,DS20 Ciona,2022–2023,history,3,3,work_8891f2f24aa7086a,10.3389/fnsyn.2021.754814,Towards a Comprehensive Optical Connectome at Single Synapse Resolution via Expansion Microscopy,2022,yes,2,22,12,58
+dataset,DS03 Drosophila larva,2022–2023,history,10,7,work_2f968b5df6b0dd3d,10.1126/science.add9330,The connectome of an insect brain,2022,yes,49,21,13,100
+dataset,DS11 Kasthuri neocortex,2022–2023,history,1,1,work_2a3d2820efed2cfe,10.1101/2022.03.16.484431,Saturated reconstruction of living brain tissue,2022,yes,0,3,3,39
+dataset,DS15 zebrafish,2022–2023,history,14,13,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+dataset,DS09/DS10 mouse retina,2022–2023,history,11,8,work_f9b44f50d727179b,10.1073/pnas.2300545120,Comparative connectomics reveals noncanonical wiring for color vision in human foveal retina,2023,yes,4,8,6,78
+dataset,DS04 FAFB,2022–2023,history,2,2,work_32bc69744c269989,10.1038/s41467-024-45971-z,Heterogeneity of synaptic connectivity in the fly visual system,2023,yes,4,10,11,70
+dataset,DS19 songbird,2022–2023,history,1,1,work_3fddccfee3181b91,10.1038/s41592-022-01624-x,SyConn2: dense synaptic connectivity inference for volume electron microscopy,2022,yes,11,11,12,67
+dataset,DS13 MICrONS,2022–2023,history,6,6,work_579bab55f1835737,10.1016/j.biopsych.2023.01.025,Immersion fixation and staining of multi-cubic millimeter volumes for electron microscopy-based connectomics of human brain biopsies,2023,yes,13,12,13,87
+dataset,DS05 hemibrain,2022–2023,history,4,4,work_5a5bf6e6db192920,10.1101/2023.06.27.546055,A consensus cell type atlas from multiple connectomes reveals principles of circuit stereotypy and variation,2023,yes,12,14,13,99
+dataset,DS07 VNC (FANC/MANC),2022–2023,history,4,4,work_542d289b1df8abc6,10.1101/2023.06.05.543757,A Connectome of the Male Drosophila Ventral Nerve Cord,2023,yes,37,12,13,99
+dataset,DS12 L4 barrel cortex,2022–2023,history,2,1,work_82eacacced51b0d9,10.1101/2022.06.01.494290,Connectomic analysis of thalamus-driven disinhibition in cortical layer 4,2022,yes,1,3,4,60
+dataset,DS14 H01 human cortex,2022–2023,history,1,1,work_f4089e71d372f0e5,10.1126/science.abo0924,Connectomic comparison of mouse and human cortex,2022,yes,38,5,13,99
+method,U-Net,2022–2023,history,3,0,work_f38f15c57decbf30,10.1109/uemcon59035.2023.10316141,Advancing Connectomics: High-Precision Neural Structure Segmentation Using U-Net-Based Model,2023,,1,1,2,13
+method,expansion microscopy,2022–2023,history,9,7,work_03c23d6e53a2fa11,10.1038/s41587-025-02905-4,All-optical visualization of specific molecules in the ultrastructural context of brain tissue,2022,yes,8,11,11,87
+method,CLEM,2022–2023,history,3,3,work_03c23d6e53a2fa11,10.1038/s41587-025-02905-4,All-optical visualization of specific molecules in the ultrastructural context of brain tissue,2022,yes,8,11,11,87
+method,confocal,2022–2023,history,4,4,work_f0100b9066a02655,10.1186/s12859-024-05732-7,NeuronBridge: an intuitive web application for neuronal morphology search across large data sets,2022,yes,14,9,12,84
+method,FlyWire,2022–2023,history,4,3,work_5a5bf6e6db192920,10.1101/2023.06.27.546055,A consensus cell type atlas from multiple connectomes reveals principles of circuit stereotypy and variation,2023,yes,12,14,13,99
+method,SEM,2022–2023,history,4,3,work_18e897cfbf7dee38,10.1126/sciadv.adf3471,3D reconstruction of the cerebellar germinal layer reveals tunneling connections between developing granule cells,2023,yes,3,5,6,77
+method,serial-section EM,2022–2023,history,10,8,work_f104e8c98ee2c0bf,10.7554/elife.84257,Connectomics of the Octopus vulgaris vertical lobe provides insight into conserved and novel principles of a memory acquisition network,2022,yes,8,25,13,70
+method,Network motifs,2022–2023,history,7,7,work_55ce3fd567669f6c,10.1038/s41598-022-15027-7,Edge-colored directed subgraph enumeration on the connectome,2022,yes,5,18,12,49
+method,two-photon,2022–2023,history,2,2,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+method,X-ray microscopy,2022–2023,history,3,2,work_2215daaba2871f1f,10.1109/isbi53787.2023.10230759,X-Ray2EM: Uncertainty-Aware Cross-Modality Image Reconstruction from X-Ray to Electron Microscopy in Connectomics,2023,yes,3,1,4,44
+method,Flood-filling networks,2022–2023,history,2,2,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+method,light-sheet,2022–2023,history,2,2,work_d954a4eb80000227,10.7554/elife.81248,Rapid reconstruction of neural circuits using tissue expansion and light sheet microscopy,2022,yes,11,17,13,81
+method,neuPrint,2022–2023,history,2,2,work_4d88921e492f9434,10.3389/fninf.2022.896292,neuPrint: An open access tool for EM connectomics,2022,yes,32,17,13,93
+method,FIB-SEM,2022–2023,history,3,2,work_7a1fd8b2f1f89a04,10.1016/j.isci.2022.104180,Classifying Drosophila olfactory projection neuron boutons by quantitative analysis of electron microscopic reconstruction,2022,yes,1,2,3,39
+method,VAST,2022–2023,history,1,1,work_4fbc226ee1288c01,10.3389/fncir.2023.952921,mEMbrain: an interactive deep learning MATLAB tool for connectomic segmentation on commodity desktops,2023,yes,10,30,13,70
+method,super-resolution LM,2022–2023,history,2,2,work_667376031f1d99c8,10.1038/s41587-023-01911-8,Imaging brain tissue architecture across millimeter to nanometer scales,2023,yes,5,2,7,90
+method,ssTEM,2022–2023,history,3,1,work_69cca0faa382822e,10.3389/fncel.2023.1281786,Electrical synapses for a pooling layer of the convolutional neural network in retinas,2023,yes,1,7,6,13
+method,SBF-SEM,2022–2023,history,1,1,work_6db95f64553b035d,10.1038/s41592-022-01621-0,Automated synapse-level reconstruction of neural circuits in the larval zebrafish brain,2022,yes,20,22,13,96
+method,XNH,2022–2023,history,2,1,work_afad6093ed40df0c,10.48550/arxiv.2302.03819,The XPRESS Challenge: Xray Projectomic Reconstruction - Extracting Segmentation with Skeletons,2023,yes,1,16,13,28
+method,CloudVolume/Igneous,2022–2023,history,1,1,work_d27171e633af746f,10.3389/fncir.2022.977700,"Igneous: Distributed dense 3D segmentation meshing, neuron skeletonization, and hierarchical downsampling",2022,yes,7,8,12,65
+method,Connectome-constrained visual-system model,2022–2023,history,2,2,work_fafef48ad68a0f38,10.1101/2023.03.11.532232,Connectome-constrained deep mechanistic networks predict neural responses across the fly visual system at single-neuron resolution,2023,yes,6,12,13,87
+method,Multibeam SEM,2022–2023,history,1,1,work_e2593bdd7b62aca2,10.3389/fnins.2023.1281098,msemalign: a pipeline for serial section multibeam scanning electron microscopy volume alignment,2023,yes,1,11,10,44
+axis,registry_dataset,2024,sota,7,0,work_79981ad4ed5b69f7,10.1371/journal.pbio.3002918,Temperature cues are integrated in a flexible circadian neuropeptidergic feedback circuit to remodel sleep-wake patterns in flies,2024,,0,10,7,45
+axis,pipeline_stage,2024,sota,112,20,work_86ba4bfd64350171,10.1038/s41586-024-07558-y,Neuronal wiring diagram of an adult brain,2024,yes,61,49,13,99
+axis,untagged,2024,sota,13,3,work_4fa3a9808ba6a3df,10.1016/j.crmeth.2025.100988,Comparative prospects of imaging methods for whole-brain mammalian connectomics,2024,,1,28,13,45
+axis,health_translation,2024,sota,2,0,work_5672c64d21c23a39,10.1186/s13024-024-00712-0,Updates on mouse models of Alzheimer’s disease,2024,,0,0,0,98
+axis,biological_application,2024,sota,3,0,work_97db5339b48de23b,10.1101/lm.053827.123,What do the mushroom bodies do for the insect brain? Twenty-five years of progress,2024,,0,4,4,54
+stage,graph_analysis,2024,sota,68,11,work_86ba4bfd64350171,10.1038/s41586-024-07558-y,Neuronal wiring diagram of an adult brain,2024,yes,61,49,13,99
+stage,sectioning,2024,sota,5,1,work_1f5bc11fd70f625f,10.1126/science.adk4858,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,2024,yes,79,22,13,100
+stage,acquisition,2024,sota,16,1,work_29a46ffc83e815f5,10.1101/2024.08.27.609993,NeuroSC: Exploring Neurodevelopment via Spatiotemporal Collation of Anatomical Networks,2024,,1,17,12,23
+stage,proofreading,2024,sota,30,6,work_86ba4bfd64350171,10.1038/s41586-024-07558-y,Neuronal wiring diagram of an adult brain,2024,yes,61,49,13,99
+stage,infrastructure,2024,sota,35,5,work_6cb6b38366a67f63,10.1162/netn_a_00428,Combined topological and spatial constraints are required to capture the structure of neural connectomes,2024,yes,3,25,13,75
+stage,preparation,2024,sota,12,1,work_d803ce4772a77dc8,10.1101/2024.11.24.625067,Global Neuron Shape Reasoning with Point Affinity Transformers,2024,yes,8,20,13,67
+stage,segmentation,2024,sota,23,3,work_1f5bc11fd70f625f,10.1126/science.adk4858,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,2024,yes,79,22,13,100
+stage,modeling,2024,sota,20,6,work_ceb66b1db1935fdb,10.1038/s41593-024-01784-3,Predicting modular functions and neural coding of behavior from a synaptic wiring diagram,2024,yes,3,23,13,89
+stage,synapses,2024,sota,7,0,work_705030ef2bfb656f,10.1109/tmi.2024.3400276,WASPSYN: A Challenge for Domain Adaptive Synapse Detection in Microwasp Brain Connectomes,2024,,2,13,12,38
+stage,alignment,2024,sota,2,0,work_8484909b8e4314f6,10.1101/2024.06.11.598365,A scalable and modular computational pipeline for axonal connectomics: automated tracing and assembly of axons across serial sections,2024,,1,3,4,45
+organism,elegans,2024,sota,18,3,work_932e9c86e6b77869,10.1103/6wgv-b9m6,Diverging network architecture of the C. elegans connectome and signaling network,2024,yes,5,20,13,45
+organism,fly,2024,sota,45,14,work_86ba4bfd64350171,10.1038/s41586-024-07558-y,Neuronal wiring diagram of an adult brain,2024,yes,61,49,13,99
+organism,other,2024,sota,6,0,work_a2a4a9ee0540ed54,10.1101/2024.05.24.593860,A connectome manipulation framework for the systematic and reproducible study of structure–function relationships through simulations,2024,,1,5,5,45
+organism,mouse,2024,sota,25,2,work_97623cd3af206ac9,10.1146/annurev-vision-102122-110414,Retinal Connectomics: A Review.,2024,,1,40,8,50
+organism,human,2024,sota,4,1,work_1f5bc11fd70f625f,10.1126/science.adk4858,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,2024,yes,79,22,13,100
+organism,zebrafish,2024,sota,2,1,work_ceb66b1db1935fdb,10.1038/s41593-024-01784-3,Predicting modular functions and neural coding of behavior from a synaptic wiring diagram,2024,yes,3,23,13,89
+dataset,DS01 C. elegans (White+),2024,sota,18,3,work_932e9c86e6b77869,10.1103/6wgv-b9m6,Diverging network architecture of the C. elegans connectome and signaling network,2024,yes,5,20,13,45
+dataset,DS03 Drosophila larva,2024,sota,4,1,work_13a5924450d152cf,10.1101/2023.10.25.562730,Hierarchical communities in the larval Drosophila connectome: Links to cellular annotations and network topology,2024,yes,11,13,13,85
+dataset,DS09/DS10 mouse retina,2024,sota,4,0,work_97623cd3af206ac9,10.1146/annurev-vision-102122-110414,Retinal Connectomics: A Review.,2024,,1,40,8,50
+dataset,DS13 MICrONS,2024,sota,4,1,work_1f5bc11fd70f625f,10.1126/science.adk4858,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,2024,yes,79,22,13,100
+dataset,DS14 H01 human cortex,2024,sota,2,1,work_1f5bc11fd70f625f,10.1126/science.adk4858,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,2024,yes,79,22,13,100
+dataset,DS15 zebrafish,2024,sota,2,1,work_ceb66b1db1935fdb,10.1038/s41593-024-01784-3,Predicting modular functions and neural coding of behavior from a synaptic wiring diagram,2024,yes,3,23,13,89
+dataset,DS07 VNC (FANC/MANC),2024,sota,4,2,work_f957eea0477c4e04,10.1038/s41586-024-07389-x,Connectomic reconstruction of a female Drosophila ventral nerve cord,2024,yes,30,17,13,96
+dataset,DS05 hemibrain,2024,sota,1,1,work_6f86d20c9bf6e84d,10.1038/s41586-024-07686-5,Whole-brain annotation and multi-connectome cell typing of Drosophila,2024,yes,41,18,13,99
+dataset,DS06 FlyWire,2024,sota,5,2,work_86ba4bfd64350171,10.1038/s41586-024-07558-y,Neuronal wiring diagram of an adult brain,2024,yes,61,49,13,99
+dataset,DS19 songbird,2024,sota,1,0,work_8fdabecbe4e2c04e,10.1101/2024.11.27.625336,UniSPAC: A Unified Segmentation Framework for Proofreading and Annotation in Connectomics,2024,,0,0,0,7
+dataset,DS16 calyx of Held,2024,sota,1,0,work_b866698ca919a87c,10.1126/science.adg6757,"Structure, biophysics, and circuit function of a “giant” cortical presynaptic terminal",2024,,2,0,2,92
+method,ATUM + WaferMapper,2024,sota,1,0,work_0d6070f19ac2ba89,10.1101/2023.07.12.547497,ATUM-Tomo: A multi-scale approach to cellular ultrastructure by combined volume scanning electron microscopy and electron tomography,2024,,0,2,2,30
+method,serial-section EM,2024,sota,3,1,work_1f5bc11fd70f625f,10.1126/science.adk4858,A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution,2024,yes,79,22,13,100
+method,electron tomography,2024,sota,2,0,work_0d6070f19ac2ba89,10.1101/2023.07.12.547497,ATUM-Tomo: A multi-scale approach to cellular ultrastructure by combined volume scanning electron microscopy and electron tomography,2024,,0,2,2,30
+method,CLEM,2024,sota,2,1,work_783a1dd4e73fe636,10.1038/s41467-024-50411-z,Multiplexed volumetric CLEM enabled by scFvs provides insights into the cytology of cerebellar cortex,2024,yes,3,14,11,60
+method,confocal,2024,sota,3,2,work_0e82b896b4b49d23,10.1101/2023.09.15.557808,Driver lines for studying associative learning in Drosophila,2024,yes,3,18,13,80
+method,TEM,2024,sota,1,0,work_1c4e68a0ac51bff8,10.1016/j.cub.2024.08.025,Serotonergic modulation of swallowing in a complete fly vagus nerve connectome,2024,,2,14,12,77
+method,neuPrint,2024,sota,1,0,work_1f2d549356fe466e,10.1101/2023.06.05.543407,Systematic annotation of a complete adult male Drosophila nerve cord connectome reveals principles of functional organisation,2024,,15,0,10,95
+method,Network motifs,2024,sota,3,0,work_34df5eb3d913abe2,10.1140/epjb/s10051-024-00848-4,Discovering motifs to fingerprint multi-layer networks: a case study on the connectome of C. Elegans,2024,,1,6,6,16
+method,Connectome-constrained visual-system model,2024,sota,3,2,work_5d14dfa16e4b8cf3,10.1038/s41593-025-02080-4,Prediction of neural activity in connectome-constrained recurrent networks,2024,yes,5,22,11,87
+method,light-sheet,2024,sota,2,1,work_4fa3a9808ba6a3df,10.1016/j.crmeth.2025.100988,Comparative prospects of imaging methods for whole-brain mammalian connectomics,2024,,1,28,13,45
+method,FlyWire,2024,sota,5,2,work_86ba4bfd64350171,10.1038/s41586-024-07558-y,Neuronal wiring diagram of an adult brain,2024,yes,61,49,13,99
+method,XNH,2024,sota,2,1,work_f957eea0477c4e04,10.1038/s41586-024-07389-x,Connectomic reconstruction of a female Drosophila ventral nerve cord,2024,yes,30,17,13,96
+method,X-ray microscopy,2024,sota,2,0,work_74ae11cddb4ef3c5,10.1117/12.3028309,Cell nuclei segmentation in mm-scale x-ray holographic nanotomography images of mouse brain tissue,2024,,1,10,10,30
+method,U-Net,2024,sota,1,0,work_902cf6d1376f15b8,10.1109/wacv57701.2024.00765,Self-Supervised Edge Detection Reconstruction for Topology-Informed 3D Axon Segmentation and Centerline Detection,2024,,1,1,2,54
+method,ilastik interactive ML,2024,sota,1,0,work_a5aafa50c460274e,10.1038/s41596-024-00957-5,"Modular segmentation, spatial analysis and visualization of volume electron microscopy datasets",2024,,0,3,3,82
+method,two-photon,2024,sota,3,0,work_daa2fa8d0d038ecd,10.1016/j.cub.2023.12.047,Descending control and regulation of spontaneous flight turns in Drosophila,2024,,0,4,4,72
+method,super-resolution LM,2024,sota,1,0,work_b866698ca919a87c,10.1126/science.adg6757,"Structure, biophysics, and circuit function of a “giant” cortical presynaptic terminal",2024,,2,0,2,92
+method,FIB-SEM,2024,sota,1,0,work_d1f2442f6d43b0fa,10.3389/fnana.2024.1348032,Unambiguous identification of asymmetric and symmetric synapses using volume electron microscopy,2024,,0,5,5,67
+axis,untagged,2025,sota,14,2,work_75371f7313f33c66,10.1038/s41583-025-00998-z,Synaptic-resolution connectomics: towards large brains and connectomic screening,2025,yes,5,35,13,87
+axis,pipeline_stage,2025,sota,137,23,work_69a812a079debc62,10.1038/s41592-024-02426-z,CAVE: Connectome Annotation Versioning Engine,2025,yes,8,37,13,98
+axis,training_outreach,2025,sota,2,0,work_bbd9387a25c87eb2,10.59390/001c.154223,An Advanced Undergraduate Laboratory Course: Calcium Imaging and Data Analysis – a Mini Graduate Research Experience,2025,,0,1,1,14
+axis,registry_dataset,2025,sota,15,4,work_b67a92b47c45e7c3,10.1101/2025.09.30.679510,The central complex of the larval fruit fly brain,2025,,1,14,10,51
+axis,health_translation,2025,sota,1,0,work_ec203e98203cd559,10.3390/brainsci15030310,Olfactory Testing and Gray Matter Volume: A Combined Approach to Predict the Conversion to Alzheimer,2025,,0,0,0,61
+stage,acquisition,2025,sota,21,4,work_8443aa3a33e10095,10.7554/elife.88824,The unique synaptic circuitry of specialized olfactory glomeruli in Drosophila melanogaster,2025,yes,3,29,13,73
+stage,segmentation,2025,sota,37,6,work_69a812a079debc62,10.1038/s41592-024-02426-z,CAVE: Connectome Annotation Versioning Engine,2025,yes,8,37,13,98
+stage,graph_analysis,2025,sota,76,14,work_4422d2e92d67043e,10.1016/j.cag.2025.104391,"Deep learning for brain electron microscopy segmentation: Advances, challenges, and future directions in connectomics and ultrastructure analysis",2025,,1,33,13,76
+stage,proofreading,2025,sota,47,5,work_69a812a079debc62,10.1038/s41592-024-02426-z,CAVE: Connectome Annotation Versioning Engine,2025,yes,8,37,13,98
+stage,infrastructure,2025,sota,61,6,work_69a812a079debc62,10.1038/s41592-024-02426-z,CAVE: Connectome Annotation Versioning Engine,2025,yes,8,37,13,98
+stage,preparation,2025,sota,11,3,work_9d8ce18df11df9cc,10.1038/s41586-025-08985-1,Light-microscopy-based connectomic reconstruction of mammalian brain tissue,2025,yes,21,15,12,99
+stage,sectioning,2025,sota,11,3,work_8443aa3a33e10095,10.7554/elife.88824,The unique synaptic circuitry of specialized olfactory glomeruli in Drosophila melanogaster,2025,yes,3,29,13,73
+stage,modeling,2025,sota,23,4,work_e143e75aec23746b,nan,Rethinking scale in network neuroscience: Contributions and opportunities at the nanoscale,2025,,1,25,13,51
+stage,synapses,2025,sota,9,2,work_938db2c7232708be,10.48550/arxiv.2509.17041,Towards Generalized Synapse Detection Across Invertebrate Species,2025,,1,22,13,36
+stage,alignment,2025,sota,5,0,work_958be63650186414,10.1073/pnas.2505822122,"PyReconstruct: A fully open-source, collaborative successor to Reconstruct",2025,,1,21,13,76
+organism,fly,2025,sota,58,13,work_8443aa3a33e10095,10.7554/elife.88824,The unique synaptic circuitry of specialized olfactory glomeruli in Drosophila melanogaster,2025,yes,3,29,13,73
+organism,mouse,2025,sota,29,9,work_69a812a079debc62,10.1038/s41592-024-02426-z,CAVE: Connectome Annotation Versioning Engine,2025,yes,8,37,13,98
+organism,zebrafish,2025,sota,3,0,work_104e54f2c4601a53,10.1101/2023.05.21.541471,A method for extracting an approximated connectome from libraries of single cell anatomical reconstructions,2025,,0,24,12,14
+organism,elegans,2025,sota,14,2,work_ba57f8894b215008,10.1007/s12038-025-00513-7,C. elegans wired and wireless connectome: insights into principles of nervous system structure and function,2025,,0,18,11,73
+organism,human,2025,sota,3,0,work_dac06fc9ca941af4,10.1109/hpec67600.2025.11196090,HiPerMotif: Novel Parallel Subgraph Isomorphism in Large-Scale Property Graphs,2025,,0,3,3,36
+organism,other,2025,sota,8,1,work_d39313692b727a1c,10.1101/2024.03.17.585258,Whole-body connectome of a segmented annelid larva,2025,yes,5,25,13,93
+dataset,DS03 Drosophila larva,2025,sota,10,2,work_104e54f2c4601a53,10.1101/2023.05.21.541471,A method for extracting an approximated connectome from libraries of single cell anatomical reconstructions,2025,,0,24,12,14
+dataset,DS05 hemibrain,2025,sota,3,1,work_104e54f2c4601a53,10.1101/2023.05.21.541471,A method for extracting an approximated connectome from libraries of single cell anatomical reconstructions,2025,,0,24,12,14
+dataset,DS15 zebrafish,2025,sota,3,0,work_104e54f2c4601a53,10.1101/2023.05.21.541471,A method for extracting an approximated connectome from libraries of single cell anatomical reconstructions,2025,,0,24,12,14
+dataset,DS06 FlyWire,2025,sota,8,0,work_2f671ade1d1c2e2c,10.21203/rs.3.rs-6881911/v1,Sexually-dimorphic neurons in the Drosophila whole-brain connectome,2025,,0,14,10,14
+dataset,DS01 C. elegans (White+),2025,sota,15,2,work_7fd39b6d64027898,10.1038/s41592-025-02929-3,SmartEM: machine-learning guided electron microscopy,2025,,0,18,13,61
+dataset,DS09/DS10 mouse retina,2025,sota,4,0,work_14b6d5aa74ac49e7,10.1101/2025.04.05.647403,Connectome of a human foveal retina,2025,,1,9,9,61
+dataset,DS13 MICrONS,2025,sota,13,4,work_69a812a079debc62,10.1038/s41592-024-02426-z,CAVE: Connectome Annotation Versioning Engine,2025,yes,8,37,13,98
+dataset,DS14 H01 human cortex,2025,sota,2,0,work_dac06fc9ca941af4,10.1109/hpec67600.2025.11196090,HiPerMotif: Novel Parallel Subgraph Isomorphism in Large-Scale Property Graphs,2025,,0,3,3,36
+dataset,DS07 VNC (FANC/MANC),2025,sota,5,4,work_e2f25ee5bf2bee47,10.1038/s41586-025-08925-z,Comparative connectomics of Drosophila descending and ascending neurons,2025,yes,11,17,12,96
+dataset,DS04 FAFB,2025,sota,4,1,work_554b7819a83e2fe3,10.1101/2025.10.16.682869,Synapse Detection Efficiency in EM Drosophila Connectomics,2025,yes,2,12,10,51
+dataset,DS12 L4 barrel cortex,2025,sota,1,0,work_5abec42a57c2d02e,10.1101/2024.11.18.624135,Probing circuit mechanisms of feature selectivity in mouse visual cortex through synaptic-resolution connectomics,2025,,0,16,11,14
+dataset,DS19 songbird,2025,sota,3,0,work_dd535adbc096d82f,10.1101/2025.10.25.684569,The songbird basal ganglia connectome,2025,,1,8,8,51
+dataset,DS22 Platynereis,2025,sota,1,1,work_d39313692b727a1c,10.1101/2024.03.17.585258,Whole-body connectome of a segmented annelid larva,2025,yes,5,25,13,93
+method,SmartEM ML-guided acquisition,2025,sota,2,0,work_7fd39b6d64027898,10.1038/s41592-025-02929-3,SmartEM: machine-learning guided electron microscopy,2025,,0,18,13,61
+method,FlyWire,2025,sota,8,0,work_2f671ade1d1c2e2c,10.21203/rs.3.rs-6881911/v1,Sexually-dimorphic neurons in the Drosophila whole-brain connectome,2025,,0,14,10,14
+method,Network motifs,2025,sota,6,1,work_11b6d0203fd3730b,10.1101/2025.07.02.662847,MoMo - Combining Neuron Morphology and Connectivity for Interactive Motif Analysis in Connectomes,2025,,1,21,12,51
+method,FIB-SEM,2025,sota,5,3,work_8443aa3a33e10095,10.7554/elife.88824,The unique synaptic circuitry of specialized olfactory glomeruli in Drosophila melanogaster,2025,yes,3,29,13,73
+method,CLEM,2025,sota,4,0,work_4aacd75f73cf971f,10.1101/2025.03.14.643363,Correlative light and electron microscopy reveals the fine circuit structure underlying evidence accumulation in larval zebrafish,2025,,0,10,10,83
+method,TEM,2025,sota,3,0,work_a7f972fae6f1bf6b,10.1073/pnas.2521349122,Photoemission electron microscopy for connectomics,2025,,1,5,4,36
+method,U-Net,2025,sota,3,0,work_4422d2e92d67043e,10.1016/j.cag.2025.104391,"Deep learning for brain electron microscopy segmentation: Advances, challenges, and future directions in connectomics and ultrastructure analysis",2025,,1,33,13,76
+method,XNH,2025,sota,2,0,work_50d091001b66a2d0,10.1364/boe.559263,Scaling up X-ray holographic nanotomography for neuronal tissue imaging,2025,,1,4,5,73
+method,confocal,2025,sota,2,0,work_7d84e7f7fdec51d5,10.1038/s41467-025-56641-z,"Dense, continuous membrane labeling and expansion microscopy visualization of ultrastructure in tissues",2025,,0,3,3,86
+method,ssTEM,2025,sota,2,1,work_554b7819a83e2fe3,10.1101/2025.10.16.682869,Synapse Detection Efficiency in EM Drosophila Connectomics,2025,yes,2,12,10,51
+method,Connectome-constrained visual-system model,2025,sota,3,1,work_5abec42a57c2d02e,10.1101/2024.11.18.624135,Probing circuit mechanisms of feature selectivity in mouse visual cortex through synaptic-resolution connectomics,2025,,0,16,11,14
+method,CAVE / PyChunkedGraph,2025,sota,1,1,work_69a812a079debc62,10.1038/s41592-024-02426-z,CAVE: Connectome Annotation Versioning Engine,2025,yes,8,37,13,98
+method,SBF-SEM,2025,sota,3,0,work_f89235b38a4cc138,10.3390/cryst16010014,"Volume Electron Microscopy: Imaging Principles, Computational Advances and Applications in Multi-Scale Biological System",2025,,0,6,6,51
+method,expansion microscopy,2025,sota,2,0,work_7d84e7f7fdec51d5,10.1038/s41467-025-56641-z,"Dense, continuous membrane labeling and expansion microscopy visualization of ultrastructure in tissues",2025,,0,3,3,86
+method,Synful partner prediction,2025,sota,1,0,work_938db2c7232708be,10.48550/arxiv.2509.17041,Towards Generalized Synapse Detection Across Invertebrate Species,2025,,1,22,13,36
+method,serial-section EM,2025,sota,1,0,work_958be63650186414,10.1073/pnas.2505822122,"PyReconstruct: A fully open-source, collaborative successor to Reconstruct",2025,,1,21,13,76
+method,light-sheet,2025,sota,1,0,work_9952e1421e932a54,10.1101/2025.11.16.688700,CochleaNet: deep learning-based image analysis for cochlear connectomics and gene therapy,2025,,0,1,1,14
+method,LICONN light-microscopy connectomics,2025,sota,1,1,work_9d8ce18df11df9cc,10.1038/s41586-025-08985-1,Light-microscopy-based connectomic reconstruction of mammalian brain tissue,2025,yes,21,15,12,99
+method,two-photon,2025,sota,2,0,work_a0cdbefe311043d0,10.1016/j.crmeth.2025.101179,"A deep learning pipeline for accurate and automated restoration, segmentation, and quantification of dendritic spines",2025,,1,2,3,73
+method,Neuroglancer,2025,sota,2,0,work_d15b5cef0700394c,10.1002/cpz1.70273,Analyzing Large Connectome Graphs With BossDB Network Tools,2025,,1,12,10,36
+method,X-ray microscopy,2025,sota,1,0,work_acc50851a93fccf9,10.1101/2025.02.10.633538,Self-supervised image restoration in coherent X-ray neuronal microscopy,2025,,0,3,3,68
+method,BossDB ecosystem,2025,sota,2,0,work_d15b5cef0700394c,10.1002/cpz1.70273,Analyzing Large Connectome Graphs With BossDB Network Tools,2025,,1,12,10,36
+method,neuPrint,2025,sota,1,0,work_d15b5cef0700394c,10.1002/cpz1.70273,Analyzing Large Connectome Graphs With BossDB Network Tools,2025,,1,12,10,36
+method,Multibeam SEM,2025,sota,1,0,work_f89235b38a4cc138,10.3390/cryst16010014,"Volume Electron Microscopy: Imaging Principles, Computational Advances and Applications in Multi-Scale Biological System",2025,,0,6,6,51
+method,electron tomography,2025,sota,1,0,work_f89235b38a4cc138,10.3390/cryst16010014,"Volume Electron Microscopy: Imaging Principles, Computational Advances and Applications in Multi-Scale Biological System",2025,,0,6,6,51
+method,Flood-filling networks,2025,sota,1,0,work_f89235b38a4cc138,10.3390/cryst16010014,"Volume Electron Microscopy: Imaging Principles, Computational Advances and Applications in Multi-Scale Biological System",2025,,0,6,6,51
+axis,pipeline_stage,2026,sota,113,76,work_bdf6f3371610db4c,10.64898/2026.06.06.730367,ConnectoFM: A Foundation Model for Learning the Language of the Connectome,2026,yes,0,33,13,35
+axis,registry_dataset,2026,sota,9,3,work_954de58c49ad957a,10.64898/2026.02.27.708590,A central somatotopic map of the fly leg supports spatially targeted grooming,2026,yes,0,5,5,94
+axis,untagged,2026,sota,10,8,work_4c544b6c1513bcca,10.64898/2026.02.02.700492,Connectome analysis reveals brainwide visual processing in Drosophila,2026,yes,0,20,8,35
+axis,health_translation,2026,sota,3,2,work_2528fed4e090c0a8,10.1016/j.cell.2026.01.025,"Brain-wide mapping of oligodendrocyte organization, oligodendrogenesis, and myelin injury",2026,yes,0,4,4,96
+axis,biological_application,2026,sota,2,2,work_aba24ab36d2c1f77,10.64898/2025.12.10.689094,Hierarchical Community Structure of the Adult Drosophila Connectome Reveals Conserved Circuit Archetypes,2026,yes,0,14,11,77
+stage,synapses,2026,sota,9,6,work_6c78664b0abdcff2,10.64898/2026.02.25.708065,A multi-resolution imaging and analysis pipeline for comparative circuit reconstruction in insects,2026,yes,1,20,13,77
+stage,graph_analysis,2026,sota,71,51,work_bdf6f3371610db4c,10.64898/2026.06.06.730367,ConnectoFM: A Foundation Model for Learning the Language of the Connectome,2026,yes,0,33,13,35
+stage,preparation,2026,sota,20,13,work_7bf4cfb87937a38b,10.64898/2026.07.09.737432,Learning the wiring rules of a mammalian cortical column,2026,yes,0,21,13,35
+stage,modeling,2026,sota,28,15,work_77733aed5786f1e1,10.3390/electronics15061181,Isotropic Reconstruction of Anisotropic vEM Volumes with ViT-Guided Diffusion,2026,yes,0,11,10,35
+stage,infrastructure,2026,sota,55,39,work_bdf6f3371610db4c,10.64898/2026.06.06.730367,ConnectoFM: A Foundation Model for Learning the Language of the Connectome,2026,yes,0,33,13,35
+stage,proofreading,2026,sota,27,19,work_bdf6f3371610db4c,10.64898/2026.06.06.730367,ConnectoFM: A Foundation Model for Learning the Language of the Connectome,2026,yes,0,33,13,35
+stage,segmentation,2026,sota,19,16,work_bdf6f3371610db4c,10.64898/2026.06.06.730367,ConnectoFM: A Foundation Model for Learning the Language of the Connectome,2026,yes,0,33,13,35
+stage,sectioning,2026,sota,7,5,work_a77b316df3ecbc0e,10.1016/j.crmeth.2026.101429,DRIFT-EM enables direct wafer retrieval of ultrathin serial sections for large-volume electron microscopy,2026,yes,0,16,12,35
+stage,acquisition,2026,sota,13,9,work_bdf6f3371610db4c,10.64898/2026.06.06.730367,ConnectoFM: A Foundation Model for Learning the Language of the Connectome,2026,yes,0,33,13,35
+stage,alignment,2026,sota,12,9,work_bdf6f3371610db4c,10.64898/2026.06.06.730367,ConnectoFM: A Foundation Model for Learning the Language of the Connectome,2026,yes,0,33,13,35
+organism,mouse,2026,sota,25,17,work_7bf4cfb87937a38b,10.64898/2026.07.09.737432,Learning the wiring rules of a mammalian cortical column,2026,yes,0,21,13,35
+organism,fly,2026,sota,47,33,work_4c544b6c1513bcca,10.64898/2026.02.02.700492,Connectome analysis reveals brainwide visual processing in Drosophila,2026,yes,0,20,8,35
+organism,other,2026,sota,5,3,work_f92a699ce1155d96,10.1007/s12311-026-02042-x,The Cerebellar Connectome,2026,yes,0,11,5,35
+organism,zebrafish,2026,sota,6,5,work_118a0b13d2e80966,10.48550/arxiv.2606.21116,ConnectomeBench2: A Unified Benchmark for Automated Connectomic Proofreading,2026,yes,0,25,12,35
+organism,elegans,2026,sota,21,16,work_42ac0b1d50535d45,10.1186/s12915-026-02641-4,Signed motif analysis of the Caenorhabditis elegans neuronal network reveals positive feedforward and negative feedback loops,2026,yes,0,23,11,35
+organism,human,2026,sota,3,3,work_b0fa465ba40b7ebd,10.64898/2026.02.19.706834,A quantitative census of millions of postsynaptic structures in a large electron microscopy volume of mouse visual cortex,2026,yes,0,11,9,77
+dataset,DS07 VNC (FANC/MANC),2026,sota,7,6,work_6f9a7974a1b12683,10.1016/j.isci.2026.115624,The Drosophila connectome reveals axo-axonic synapses on descending neurons,2026,yes,0,17,11,35
+dataset,DS09/DS10 mouse retina,2026,sota,4,3,work_397f26a63b62d9c9,10.64898/2026.05.28.727403,Eyewire II – A connectomic resource for resolving cell types and circuits of the mouse retina,2026,yes,0,20,9,35
+dataset,DS15 zebrafish,2026,sota,8,6,work_118a0b13d2e80966,10.48550/arxiv.2606.21116,ConnectomeBench2: A Unified Benchmark for Automated Connectomic Proofreading,2026,yes,0,25,12,35
+dataset,DS13 MICrONS,2026,sota,8,7,work_50997c68f9311844,10.1038/s41593-026-02388-9,Hippocampal CA3 connectomics reveals a gradient of mossy fiber inputs and selective feedforward inhibition onto pyramidal cells.,2026,yes,0,15,11,35
+dataset,DS03 Drosophila larva,2026,sota,7,2,work_c041abac1c482213,10.1101/2025.09.26.678851,Beyond Agreement: Standardizing Crowdsourced Synapse Annotations through Proofreading in EM Connectomics,2026,yes,0,18,13,35
+dataset,DS01 C. elegans (White+),2026,sota,22,17,work_42ac0b1d50535d45,10.1186/s12915-026-02641-4,Signed motif analysis of the Caenorhabditis elegans neuronal network reveals positive feedforward and negative feedback loops,2026,yes,0,23,11,35
+dataset,DS04 FAFB,2026,sota,2,2,work_2aa86c956dc4b3e6,10.7554/elife.108044,A comprehensive mechanosensory connectome reveals a somatotopically organized neural circuit architecture controlling stimulus-aimed grooming of the Drosophila head,2026,yes,0,12,9,35
+dataset,DS06 FlyWire,2026,sota,3,2,work_32511d828fc70ade,10.64898/2026.06.30.735468,Connectome-scale self-supervised representation learning reveals neuronal organization beyond canonical labels,2026,yes,0,12,10,35
+dataset,DS22 Platynereis,2026,sota,2,1,work_69a73378c605c293,nan,Geometric developmental principles for the emergence of brain-like weighted and directed neuronal networks,2026,yes,0,9,7,35
+dataset,DS05 hemibrain,2026,sota,2,2,work_8627e5369ab9b3fe,10.1101/2024.04.21.590464,Connectomic Analysis of Mitochondria in the Central Brain of Drosophila,2026,yes,3,16,12,99
+dataset,DS14 H01 human cortex,2026,sota,2,2,work_b0fa465ba40b7ebd,10.64898/2026.02.19.706834,A quantitative census of millions of postsynaptic structures in a large electron microscopy volume of mouse visual cortex,2026,yes,0,11,9,77
+method,SBF-SEM,2026,sota,2,1,work_17515b46569c966d,10.1016/j.crmeth.2026.101543,Volumetric denoising enables high-throughput volume electron microscopy and efficient downstream analysis.,2026,yes,0,7,6,35
+method,light-sheet,2026,sota,1,1,work_2528fed4e090c0a8,10.1016/j.cell.2026.01.025,"Brain-wide mapping of oligodendrocyte organization, oligodendrogenesis, and myelin injury",2026,yes,0,4,4,96
+method,serial-section EM,2026,sota,3,3,work_a77b316df3ecbc0e,10.1016/j.crmeth.2026.101429,DRIFT-EM enables direct wafer retrieval of ultrathin serial sections for large-volume electron microscopy,2026,yes,0,16,12,35
+method,FlyWire,2026,sota,3,2,work_32511d828fc70ade,10.64898/2026.06.30.735468,Connectome-scale self-supervised representation learning reveals neuronal organization beyond canonical labels,2026,yes,0,12,10,35
+method,EyeWire crowd proofreading,2026,sota,1,1,work_397f26a63b62d9c9,10.64898/2026.05.28.727403,Eyewire II – A connectomic resource for resolving cell types and circuits of the mouse retina,2026,yes,0,20,9,35
+method,two-photon,2026,sota,1,1,work_397f26a63b62d9c9,10.64898/2026.05.28.727403,Eyewire II – A connectomic resource for resolving cell types and circuits of the mouse retina,2026,yes,0,20,9,35
+method,Connectome-constrained visual-system model,2026,sota,6,2,work_87f5ebaf52106e04,nan,"A frozen rate operator from the complete larval connectome: degree and weight govern the gross response, exact wiring governs input routing and mushroom-body modes",2026,yes,0,11,8,35
+method,Network motifs,2026,sota,3,3,work_42ac0b1d50535d45,10.1186/s12915-026-02641-4,Signed motif analysis of the Caenorhabditis elegans neuronal network reveals positive feedforward and negative feedback loops,2026,yes,0,23,11,35
+method,U-Net,2026,sota,1,0,work_6b6ad2c0b18afc7e,10.64898/2026.07.13.738355,SparseSeg: Target-Conditioned Discovery Segmentation of Cryo-Volume Electron Microscopy Under Sparse Annotation,2026,,0,2,2,35
+method,CATMAID,2026,sota,1,1,work_6c78664b0abdcff2,10.64898/2026.02.25.708065,A multi-resolution imaging and analysis pipeline for comparative circuit reconstruction in insects,2026,yes,1,20,13,77
+method,neuPrint,2026,sota,1,1,work_8627e5369ab9b3fe,10.1101/2024.04.21.590464,Connectomic Analysis of Mitochondria in the Central Brain of Drosophila,2026,yes,3,16,12,99
+method,expansion microscopy,2026,sota,1,1,work_8fd6124f2a3e58a1,nan,A First Step for Expansion X-Ray Microscopy: Achieving Contrast in Expanded Tissues Sufficient to Reveal Cell Bodies,2026,yes,0,8,7,77
+method,X-ray microscopy,2026,sota,2,1,work_8fd6124f2a3e58a1,nan,A First Step for Expansion X-Ray Microscopy: Achieving Contrast in Expanded Tissues Sufficient to Reveal Cell Bodies,2026,yes,0,8,7,77
+method,ATUM + WaferMapper,2026,sota,1,1,work_a77b316df3ecbc0e,10.1016/j.crmeth.2026.101429,DRIFT-EM enables direct wafer retrieval of ultrathin serial sections for large-volume electron microscopy,2026,yes,0,16,12,35
+method,MagC,2026,sota,1,1,work_a77b316df3ecbc0e,10.1016/j.crmeth.2026.101429,DRIFT-EM enables direct wafer retrieval of ultrathin serial sections for large-volume electron microscopy,2026,yes,0,16,12,35
+method,electron tomography,2026,sota,1,1,work_efc0158084170b5d,10.1007/s10571-026-01676-z,Digging Deep into Alzheimer Disease: How Electron Microscopy Helps Elucidating Its Pathogenesis,2026,yes,0,3,3,35
+method,CLEM,2026,sota,1,1,work_efc0158084170b5d,10.1007/s10571-026-01676-z,Digging Deep into Alzheimer Disease: How Electron Microscopy Helps Elucidating Its Pathogenesis,2026,yes,0,3,3,35

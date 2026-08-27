@@ -18,6 +18,7 @@ postanalysis/pdfs/files/*
 !postanalysis/pdfs/files/.gitkeep
 postanalysis/pdfs/manual_OA/
 postanalysis/pdfs/manual_closed/
+postanalysis/pdfs/mismatch_quarantine/
 
 # Regenerable LLM response caches (source of record is llm_relevance_results.csv + decisions/)
 postanalysis/**/cache/

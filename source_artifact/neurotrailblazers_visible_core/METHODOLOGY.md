@@ -2,9 +2,15 @@
 
 This is the audience note for the NeuroTrailblazers paper library. It replaces the split between the 96-paper teaching collection and the 191-paper journal-club corpus. Those were two corpora built for different jobs. The job is now one collection: every paper in the **visible core**, with filters (views) on top.
 
+## First export is the core only
+
+The v3 catalog is 1,806 works. The analysis working set is 1,488. **Neither ships in the first NeuroTrailblazers export.** The first drop is the visible core only — currently **1,074** papers (383 historical · 571 contemporary · 120 SOTA).
+
+The figure **1,142** was the earlier two-period SOTA+history union (history through 2023, plus a 2024–2026 proving window) before contemporary was split out as 2019–2024 and four unavailable PDFs were dropped from the analysis base. Do not restore that count for this export.
+
 ## What you are looking at
 
-The **collection** is the SOTA + history + contemporary core of the 1,806-work v3 catalog (`postanalysis/pdfs/paper_links.csv`). A paper is in the visible core if it meets the era bar below. It is not a second screening of the field, and it is not a ranked canon.
+The **collection** is the SOTA + history + contemporary core of the 1,806-work v3 catalog (`postanalysis/pdfs/paper_links.csv`). A paper is in the visible core if it meets the era bar below. It is not a second screening of the field, and it is not a ranked canon. The rest of the catalog stays in this repo for audit; it is not copied to the site yet.
 
 | Period | Years | Bar |
 |---|---|---|

@@ -21,6 +21,7 @@ JSON_IN = ROOT / "postanalysis/llm_agent_v3/corpus_filter_comparison.json"
 TAGS = ROOT / "postanalysis/registry/dryrun_work_tags.csv"
 STRAYS = ROOT / "postanalysis/registry/exploration_strays_adjudicated.csv"
 METHODS = ROOT / "postanalysis/registry/methods_registry_draft.csv"
+OVERRIDES = ROOT / "postanalysis/registry/charting_axis_overrides.csv"
 ENRICHED = ROOT / "postanalysis/enriched2/canonical_works_enriched_pass2.csv"
 ENRICHED1 = ROOT / "postanalysis/enriched/canonical_works_enriched.csv"
 SEEDS = ROOT / "postanalysis/works/manual_seed_works.csv"
@@ -310,6 +311,26 @@ def load_authors() -> dict[str, str]:
                 authors = (r.get("authors") or "").strip()
                 if wid and authors and wid not in out:
                     out[wid] = authors
+    return out
+
+
+def load_axis_overrides() -> dict[str, dict[str, str]]:
+    """Human PDF (or abstract) charting tags. Non-empty fields replace inference."""
+    out: dict[str, dict[str, str]] = {}
+    if not OVERRIDES.exists():
+        return out
+    with OVERRIDES.open(newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            wid = str(r.get("work_id") or "").strip()
+            if not wid:
+                continue
+            out[wid] = {
+                "stages": (r.get("stages") or "").strip(),
+                "datasets": (r.get("datasets") or "").strip(),
+                "organism": (r.get("organism") or "").strip(),
+                "axis": (r.get("axis") or "").strip(),
+                "method": (r.get("method") or "").strip(),
+            }
     return out
 
 
@@ -712,6 +733,7 @@ def main() -> None:
     }
     abstracts = load_abstracts()
     authors_map = load_authors()
+    overrides = load_axis_overrides()
     prev_core = pd.read_csv(CORE_IN) if CORE_IN.exists() else pd.DataFrame()
 
     rows_all: list[dict] = []
@@ -744,6 +766,20 @@ def main() -> None:
         flags = axis_flags(axis, stray_raw, title, decision, stages, datasets)
         reg_m = method_by_doi.get(doi.lower(), "")
         method, m_src = extract_methods(title, abs_, reg_m)
+        ov = overrides.get(wid)
+        if ov:
+            if ov["stages"]:
+                stages = ov["stages"]
+            if ov["datasets"]:
+                datasets = ov["datasets"]
+            if ov["organism"]:
+                organism = ov["organism"]
+            if ov["method"]:
+                method = ov["method"]
+            if ov["axis"]:
+                axis = ov["axis"]
+                ax_src = "pdf_override"
+            flags = axis_flags(axis, stray_raw, title, decision, stages, datasets)
         ws = bool(p.get("ws"))
         if not ws:
             time_role = ""
@@ -754,6 +790,8 @@ def main() -> None:
             in_core = 1 if time_role else 0
         era, _ = time_bin_of(y)
         sources = [s for s in (td_src, org_src, ax_src, m_src) if s]
+        if ov:
+            sources.append("pdf_override")
         pdf = pdf_fields(r)
         rows_all.append(
             {

@@ -3,17 +3,22 @@
   "n_history": 383,
   "n_contemporary": 571,
   "n_sota": 120,
-  "n_with_doi": 1027,
-  "n_without_doi": 47,
+  "n_with_doi": 1028,
+  "n_without_doi": 46,
   "pdf_status": {
     "downloaded": 1074
   },
   "n_with_related": 1014,
   "annotation_status": {
-    "generated_from_abstract": 1074
+    "generated_from_pdf": 1074
   },
   "rule": "\u22642018 history (P\u226550 or k\u22653); 2019\u20132024 contemporary (that or Out\u22653); 2026 Out\u22653 OR In\u22651; 2025 Out\u22653 AND In\u22652",
   "uuid": "doi lowercase, else work_id",
+  "export_scope": "visible_core_only",
+  "n_catalog_not_exported": 1806,
+  "n_working_set_not_exported": 1488,
+  "n_earlier_two_period_union": 1142,
+  "earlier_union_note": "1,142 was history-through-2023 plus 2024\u20132026 SOTA before the 2019\u20132024 contemporary split and dropping 4 unavailable PDFs. First NTB export is the current core, not that union and not the 1,806 catalog.",
   "source_catalog": "postanalysis/pdfs/paper_links.csv",
   "source_core": "postanalysis/registry/sota_history_core_labeled.csv",
   "replaces": [

@@ -1,0 +1,250 @@
+{
+  "n_working_set": 1488,
+  "n_global_core": 981,
+  "n_union": 1044,
+  "n_added_for_coverage": 63,
+  "n_cells": 483,
+  "n_cells_empty_in_global_core": 67,
+  "n_cells_champion_outside_core": 85,
+  "rule": "Union of (1) global SOTA+history core with (2) the within-cell champion of every non-empty facet\u00d7era cell. Ranked inside the cell: history by In/k-core/year-percentile; SOTA by Out/In/k-core. Generic 'electron microscopy' method cells skipped.",
+  "added_examples": [
+    {
+      "year": "1995",
+      "axis": "",
+      "title": "Role of neural activity during synaptogenesis in Drosophila",
+      "doi": "10.1523/jneurosci.15-12-08177.1995",
+      "cells": [
+        "axis:untagged|pre-2005",
+        "organism:fly|pre-2005"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "",
+      "title": "Comparative prospects of imaging methods for whole-brain mammalian connectomics",
+      "doi": "10.1016/j.crmeth.2025.100988",
+      "cells": [
+        "axis:untagged|2024",
+        "method:light-sheet|2024"
+      ]
+    },
+    {
+      "year": "2007",
+      "axis": "",
+      "title": "3D Axon Structure Extraction and Analysis in Confocal Fluorescence Microscopy Images",
+      "doi": "10.1162/neco.2008.05-07-519",
+      "cells": [
+        "axis:untagged|2005\u20132009",
+        "method:confocal|2005\u20132009"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "biological_application",
+      "title": "What do the mushroom bodies do for the insect brain? Twenty-five years of progress",
+      "doi": "10.1101/lm.053827.123",
+      "cells": [
+        "axis:biological_application|2024"
+      ]
+    },
+    {
+      "year": "2014",
+      "axis": "field_synthesis",
+      "title": "The Big Data Problem: Turning Maps into Knowledge",
+      "doi": "10.1016/j.neuron.2014.09.008",
+      "cells": [
+        "axis:field_synthesis|2010\u20132015"
+      ]
+    },
+    {
+      "year": "2021",
+      "axis": "field_synthesis",
+      "title": "A historical perspective on training students to create standardized maps of novel brain structu",
+      "doi": "10.1016/j.neulet.2021.136052",
+      "cells": [
+        "axis:field_synthesis|2020\u20132021"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "health_translation",
+      "title": "Updates on mouse models of Alzheimer\u2019s disease",
+      "doi": "10.1186/s13024-024-00712-0",
+      "cells": [
+        "axis:health_translation|2024"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "health_translation",
+      "title": "Olfactory Testing and Gray Matter Volume: A Combined Approach to Predict the Conversion to Alzhe",
+      "doi": "10.3390/brainsci15030310",
+      "cells": [
+        "axis:health_translation|2025"
+      ]
+    },
+    {
+      "year": "2016",
+      "axis": "pipeline_stage",
+      "title": "A Large Deformation Diffeomorphic Approach to Registration of CLARITY Images via Mutual Informat",
+      "doi": "10.1007/978-3-319-66182-7_32",
+      "cells": [
+        "method:light-sheet|2016\u20132017"
+      ]
+    },
+    {
+      "year": "2021",
+      "axis": "pipeline_stage",
+      "title": "Multi-Scale Imaging of Connectomes With Photons and Electrons",
+      "doi": "10.1017/s1431927621009168",
+      "cells": [
+        "method:X-ray microscopy|2020\u20132021"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "pipeline_stage",
+      "title": "Structure, biophysics, and circuit function of a \u201cgiant\u201d cortical presynaptic terminal",
+      "doi": "10.1126/science.adg6757",
+      "cells": [
+        "dataset:DS16 calyx of Held|2024",
+        "method:super-resolution LM|2024"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "pipeline_stage",
+      "title": "Modular segmentation, spatial analysis and visualization of volume electron microscopy datasets",
+      "doi": "10.1038/s41596-024-00957-5",
+      "cells": [
+        "method:ilastik interactive ML|2024"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "pipeline_stage",
+      "title": "A method for extracting an approximated connectome from libraries of single cell anatomical reco",
+      "doi": "10.1101/2023.05.21.541471",
+      "cells": [
+        "organism:zebrafish|2025",
+        "dataset:DS03 Drosophila larva|2025",
+        "dataset:DS05 hemibrain|2025",
+        "dataset:DS15 zebrafish|2025"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "pipeline_stage",
+      "title": "Dense, continuous membrane labeling and expansion microscopy visualization of ultrastructure in ",
+      "doi": "10.1038/s41467-025-56641-z",
+      "cells": [
+        "method:confocal|2025",
+        "method:expansion microscopy|2025"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "pipeline_stage",
+      "title": "Analyzing Large Connectome Graphs With BossDB Network Tools",
+      "doi": "10.1002/cpz1.70273",
+      "cells": [
+        "method:Neuroglancer|2025",
+        "method:BossDB ecosystem|2025",
+        "method:neuPrint|2025"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "pipeline_stage",
+      "title": "PyReconstruct: A fully open-source, collaborative successor to Reconstruct",
+      "doi": "10.1073/pnas.2505822122",
+      "cells": [
+        "stage:alignment|2025",
+        "method:serial-section EM|2025"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "pipeline_stage",
+      "title": "HiPerMotif: Novel Parallel Subgraph Isomorphism in Large-Scale Property Graphs",
+      "doi": "10.1109/hpec67600.2025.11196090",
+      "cells": [
+        "organism:human|2025",
+        "dataset:DS14 H01 human cortex|2025"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "pipeline_stage",
+      "title": "Serotonergic modulation of swallowing in a complete fly vagus nerve connectome",
+      "doi": "10.1016/j.cub.2024.08.025",
+      "cells": [
+        "method:TEM|2024"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "pipeline_stage",
+      "title": "Retinal Connectomics: A Review.",
+      "doi": "10.1146/annurev-vision-102122-110414",
+      "cells": [
+        "organism:mouse|2024",
+        "dataset:DS09/DS10 mouse retina|2024"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "pipeline_stage",
+      "title": "MoMo - Combining Neuron Morphology and Connectivity for Interactive Motif Analysis in Connectome",
+      "doi": "10.1101/2025.07.02.662847",
+      "cells": [
+        "method:Network motifs|2025"
+      ]
+    },
+    {
+      "year": "2025",
+      "axis": "pipeline_stage",
+      "title": "Self-supervised image restoration in coherent X-ray neuronal microscopy",
+      "doi": "10.1101/2025.02.10.633538",
+      "cells": [
+        "method:X-ray microscopy|2025"
+      ]
+    },
+    {
+      "year": "2009",
+      "axis": "pipeline_stage",
+      "title": "X-ray microscopy for neural circuit reconstruction",
+      "doi": "10.1088/1742-6596/186/1/012092",
+      "cells": [
+        "method:X-ray microscopy|2005\u20132009"
+      ]
+    },
+    {
+      "year": "2024",
+      "axis": "pipeline_stage",
+      "title": "Unambiguous identification of asymmetric and symmetric synapses using volume electron microscopy",
+      "doi": "10.3389/fnana.2024.1348032",
+      "cells": [
+        "method:FIB-SEM|2024"
+      ]
+    },
+    {
+      "year": "2026",
+      "axis": "pipeline_stage",
+      "title": "SparseSeg: Target-Conditioned Discovery Segmentation of Cryo-Volume Electron Microscopy Under Sp",
+      "doi": "10.64898/2026.07.13.738355",
+      "cells": [
+        "method:U-Net|2026"
+      ]
+    }
+  ],
+  "axis_added": {
+    "pipeline_stage": 49,
+    "field_synthesis": 2,
+    "untagged": 3,
+    "registry_dataset": 3,
+    "training_outreach": 3,
+    "health_translation": 2,
+    "biological_application": 1
+  }
+}
