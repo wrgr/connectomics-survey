@@ -19,10 +19,10 @@
 | `why` | Inclusion rule fired |
 | `streams.axis`, `.stages`, `.datasets`, `.organism`, `.method` | Charting tags |
 | `streams.training_outreach`, `.health_translation`, … | Axis flags (`yes` or empty) |
-| `related.cites`, `.cited_by` | Core uuids, capped, ordered by k-core |
+| `related.cites`, `.cited_by` | All core uuids this paper cites / is cited by in the catalog graph, ordered by k-core |
 | `dimension` | NTB journal-club dimension (derived view, not a second corpus) |
 | `reading_phase` | `1_foundations` / `2_contemporary` / `3_sota` |
-| `annotation_status` | `generated_from_abstract` or `extracted_from_ntb` |
+| `annotation_status` | `generated_from_pdf` / `generated_from_title_abstract` (or `extracted_from_ntb` if hand-merged) |
 | `ocar` | opportunity, challenge, action, resolution, future_work |
 | `plain_language_summary` | Beginner-facing |
 | `summaries` | beginner / intermediate / advanced |

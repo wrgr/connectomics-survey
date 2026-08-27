@@ -6,11 +6,13 @@
   "n_with_doi": 1028,
   "n_without_doi": 46,
   "pdf_status": {
-    "downloaded": 1074
+    "downloaded": 976,
+    "paywall": 98
   },
   "n_with_related": 1014,
   "annotation_status": {
-    "generated_from_pdf": 1074
+    "generated_from_pdf": 976,
+    "generated_from_title_abstract": 98
   },
   "rule": "\u22642018 history (P\u226550 or k\u22653); 2019\u20132024 contemporary (that or Out\u22653); 2026 Out\u22653 OR In\u22651; 2025 Out\u22653 AND In\u22652",
   "uuid": "doi lowercase, else work_id",

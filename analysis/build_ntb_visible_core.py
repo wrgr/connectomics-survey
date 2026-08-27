@@ -7,6 +7,7 @@ Does not rewrite paper_links.csv. Does not copy PDFs.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -24,7 +25,6 @@ CORE = ROOT / "postanalysis/registry/sota_history_core_labeled.csv"
 EDGES = ROOT / "source_artifact/connectomics_deterministic_pipeline/outputs/paper_graph_edges.csv"
 ROLES = ROOT / "postanalysis/llm_agent_v3/citation_roles_by_work.csv"
 OUT = ROOT / "source_artifact/neurotrailblazers_visible_core"
-RELATED_CAP = 8
 
 STAGE_TO_DIM = {
     "preparation": "image-acquisition",
@@ -272,6 +272,21 @@ def dump_yaml_papers(papers: list[dict], path: Path) -> None:
             lines.append(f"    - {yaml_quote(pr)}")
         lines.append(f"  pdf_url: {yaml_quote(p['pdf']['url'])}")
         lines.append(f"  pdf_status: {p['pdf']['status']}")
+        lines.append("  related:")
+        cites = p.get("related", {}).get("cites") or []
+        cited_by = p.get("related", {}).get("cited_by") or []
+        if cites:
+            lines.append("    cites:")
+            for u in cites:
+                lines.append(f"      - {yaml_quote(u)}")
+        else:
+            lines.append("    cites: []")
+        if cited_by:
+            lines.append("    cited_by:")
+            for u in cited_by:
+                lines.append(f"      - {yaml_quote(u)}")
+        else:
+            lines.append("    cited_by: []")
         lines.append("")
     path.write_text("\n".join(lines), encoding="utf-8")
 
@@ -293,17 +308,16 @@ def resolve_path(needles: list[tuple[str, str]], by_doi: dict[str, str], papers:
     return list(dict.fromkeys(uuids))
 
 
-def main() -> None:
+def fill_related(papers: list[dict]) -> None:
+    """All intra-core citation neighbors, ordered by k-core then work_id. No cap."""
     cat = pd.read_csv(CATALOG, low_memory=False).drop_duplicates("work_id", keep="first")
     core = pd.read_csv(CORE, low_memory=False)
-    core = core[core["in_core"].fillna(0).astype(int) == 1].copy()
-    abstracts = load_abstracts()
+    core = core[core["in_core"].fillna(0).astype(int) == 1]
     pid_to_wid = {
         str(p): str(w)
         for p, w in zip(cat["canonical_paper_id"], cat["work_id"])
         if pd.notna(p) and str(p)
     }
-    wid_to_pdf = dict(zip(cat["work_id"].astype(str), cat["pdf_url"].fillna("").astype(str)))
     core_ids = set(core["work_id"].astype(str))
     cites: dict[str, list[str]] = defaultdict(list)
     cited_by: dict[str, list[str]] = defaultdict(list)
@@ -320,8 +334,40 @@ def main() -> None:
     def rank_neighbors(ids: list[str]) -> list[str]:
         uniq = list(dict.fromkeys(ids))
         uniq.sort(key=lambda w: (-k_of.get(w, 0), w))
-        return uniq[:RELATED_CAP]
+        return uniq
 
+    uuid_of_wid = {p["work_id"]: p["uuid"] for p in papers}
+    for p in papers:
+        p["related"] = {
+            "cites": [uuid_of_wid[w] for w in rank_neighbors(cites.get(p["work_id"], [])) if w in uuid_of_wid],
+            "cited_by": [uuid_of_wid[w] for w in rank_neighbors(cited_by.get(p["work_id"], [])) if w in uuid_of_wid],
+        }
+
+
+def write_related_outputs(papers: list[dict]) -> None:
+    fill_related(papers)
+    dump_yaml_papers(papers, OUT / "ntb_export" / "journal_papers.yml")
+    (OUT / "collection.json").write_text(json.dumps(papers, ensure_ascii=False, indent=2), encoding="utf-8")
+    with (OUT / "collection.jsonl").open("w", encoding="utf-8") as f:
+        for p in papers:
+            f.write(json.dumps(p, ensure_ascii=False) + "\n")
+    compact = json.loads((OUT / "compact_papers.json").read_text(encoding="utf-8"))
+    by_uuid = {p["uuid"]: p for p in papers}
+    for c in compact:
+        p = by_uuid[c["uuid"]]
+        c["rc"] = len(p["related"]["cites"])
+        c["rb"] = len(p["related"]["cited_by"])
+    (OUT / "compact_papers.json").write_text(
+        json.dumps(compact, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+    )
+
+
+def main() -> None:
+    cat = pd.read_csv(CATALOG, low_memory=False).drop_duplicates("work_id", keep="first")
+    core = pd.read_csv(CORE, low_memory=False)
+    core = core[core["in_core"].fillna(0).astype(int) == 1].copy()
+    abstracts = load_abstracts()
+    wid_to_pdf = dict(zip(cat["work_id"].astype(str), cat["pdf_url"].fillna("").astype(str)))
     role_map: dict[str, dict] = {}
     if ROLES.exists():
         rdf = pd.read_csv(ROLES, low_memory=False)
@@ -394,14 +440,7 @@ def main() -> None:
         }
         papers.append(rec)
 
-    # Related uuids: map work_id neighbors through a precomputed uuid map (avoid per-row loc).
-    uuid_of_wid = {p["work_id"]: p["uuid"] for p in papers}
-    for p in papers:
-        p["related"] = {
-            "cites": [uuid_of_wid[w] for w in rank_neighbors(cites.get(p["work_id"], [])) if w in uuid_of_wid],
-            "cited_by": [uuid_of_wid[w] for w in rank_neighbors(cited_by.get(p["work_id"], [])) if w in uuid_of_wid],
-        }
-
+    fill_related(papers)
     papers.sort(key=lambda p: (-p["graph"]["k_core"], -(p["year"] or 0), p["title"].lower()))
     by_uuid = {p["uuid"]: p for p in papers}
     by_doi = {p["doi"].lower(): p["uuid"] for p in papers if p["doi"]}
@@ -568,4 +607,19 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--related-only",
+        action="store_true",
+        help="Refresh related.cites / related.cited_by on the existing collection. Does not rebuild cards.",
+    )
+    args = ap.parse_args()
+    if args.related_only:
+        papers = json.loads((OUT / "collection.json").read_text(encoding="utf-8"))
+        write_related_outputs(papers)
+        n_cites = sum(len(p["related"]["cites"]) for p in papers)
+        n_cited = sum(len(p["related"]["cited_by"]) for p in papers)
+        mx = max(len(p["related"]["cites"]) for p in papers)
+        print("related-only papers", len(papers), "cite_links", n_cites, "cited_by_links", n_cited, "max_cites", mx)
+    else:
+        main()

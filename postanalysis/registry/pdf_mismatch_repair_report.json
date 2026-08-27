@@ -1,0 +1,424 @@
+{
+  "repaired": [
+    "work_17f8a533cf7cabc4",
+    "work_61b9f3ef5f831055",
+    "work_5881c31b6290ea43"
+  ],
+  "restored": [
+    "work_de90f3f542a40fe0",
+    "work_3cce75d511ef6842",
+    "work_eb8b627996721a7c",
+    "work_a5aafa50c460274e"
+  ],
+  "already_ok": [
+    "work_6cb6b38366a67f63",
+    "work_4f923dc785f0b321",
+    "work_c6b4755fa98e0894",
+    "work_c608ded31d0a89bd",
+    "work_e38ce8eb753d5588",
+    "work_791ccba206b1bbdc",
+    "work_020893805fee7188",
+    "work_8fd6124f2a3e58a1",
+    "work_0da77aa3fcf687df",
+    "work_9be41e9459df8595",
+    "work_c5ee0f332484814e",
+    "work_58007cb591ca3f75",
+    "work_de68efd39b87d510",
+    "work_4a065afca6719b79",
+    "work_0902ad628efcc7dd"
+  ],
+  "failed": [
+    {
+      "work_id": "work_75371f7313f33c66",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_e8008cd9a116e028",
+      "error": "unpaywall:HTTP302"
+    },
+    {
+      "work_id": "work_f4089e71d372f0e5",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_aa4ac55bf3d997c2",
+      "error": "unpaywall:HTTP302"
+    },
+    {
+      "work_id": "work_20e028bfe929110a",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_4888d0293b40ce35",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_8eb544cf75eb1e58",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_6c16ccac03d903e6",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_9bbd63f1aa177d2c",
+      "error": "unpaywall_repo:HTTP504"
+    },
+    {
+      "work_id": "work_7c9431dcfcc3ff31",
+      "error": "unpaywall_repo:html"
+    },
+    {
+      "work_id": "work_2c6fe44c1be1c300",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_1afd0f5b17737035",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_82f50d96861b845b",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_f144bf9a5935462c",
+      "error": "s2_oa:HTTP503"
+    },
+    {
+      "work_id": "work_77f7a01eb5b8c41e",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_2dd964b0e399a1fe",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_b5ff748c577ee45c",
+      "error": "s2_oa:HTTP404"
+    },
+    {
+      "work_id": "work_354bd14e8f435b6f",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_4bc689f7d81f71a8",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_70f9a69534438a69",
+      "error": "s2_oa:HTTP403"
+    },
+    {
+      "work_id": "work_27e18aa6bae94e96",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_da9bb861ea28c94b",
+      "error": "s2_oa:HTTP504"
+    },
+    {
+      "work_id": "work_cda2a76c443e1ca4",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_96a09e61135848a7",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_b4a11e45d1e24136",
+      "error": "pmc_idconv:HTTP404"
+    },
+    {
+      "work_id": "work_1358cc4e6d15d0c8",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_5fce6ceceeaa09c7",
+      "error": "unpaywall_repo_html:html"
+    },
+    {
+      "work_id": "work_13df857c596640ee",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_b0142f28782e124e",
+      "error": "unpaywall:HTTP302"
+    },
+    {
+      "work_id": "work_ffcaf70a49cba62b",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_de69d8974ed67b3a",
+      "error": "unpaywall_repo_html:HTTP403"
+    },
+    {
+      "work_id": "work_d2abedfe2fe8e9a8",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_28c6a067561d25a1",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_b889b7bbc3c4d76b",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_3356ffe4646dbcae",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_853fa92c78e2f996",
+      "error": "unpaywall:html"
+    },
+    {
+      "work_id": "work_2cd8a8967328e13a",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_9b23efa50c50392e",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_e5e95009073d075b",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_bc5e6ceb3ec3c528",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_38b49edc6e3d2483",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_ef2fffba97b01cff",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_7dd7962792f95bf5",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_6d00499bc1daf535",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_c1b2632765333e01",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_3fc32d8b6b292ea4",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_9cfe282e43639758",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_a0074df622a55228",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_256bc6e4bfbd9156",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_82d6e0fcb7d01d1c",
+      "error": "unpaywall:HTTP302"
+    },
+    {
+      "work_id": "work_6d75c7ef9c4a7b7e",
+      "error": "s2_oa:HTTP404"
+    },
+    {
+      "work_id": "work_2e135d4ee49a93d1",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_db01207f4943cee6",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_7bbb57ed1549b5bc",
+      "error": "unpaywall_repo:html"
+    },
+    {
+      "work_id": "work_606f12169fdb3452",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_4d5f8126d96042c6",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_c285a4f34f98067b",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_8126c1ea07c45313",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_7b69c0d654c6eb2e",
+      "error": "unpaywall:HTTP302"
+    },
+    {
+      "work_id": "work_c1722fdc8b5a9189",
+      "error": "s2_oa_html:html"
+    },
+    {
+      "work_id": "work_4b3bfeede41c04c0",
+      "error": "s2_oa:HTTP302"
+    },
+    {
+      "work_id": "work_d17b4ee773b57bde",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_c33ff1707c3c1df6",
+      "error": "s2_oa:HTTP404"
+    },
+    {
+      "work_id": "work_0c53b6e2719558ce",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_24db0b13f227c74f",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_cdc13855d8ed503c",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_87579702ea1165f6",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_79a23415110e1412",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_d60ca2d1beaf845b",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_3ac7168aedad246c",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_aebd692d3a9ff7ca",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_14777efdec1861e5",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_ce404f1256e58715",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_7c0dbfe2630320dd",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_59c99b603e8a4641",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_38787b35074da840",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_e72522d83aedc294",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_0a6f89f17fb7c4a5",
+      "error": "unpaywall_repo:html"
+    },
+    {
+      "work_id": "work_092ab2e11895f53a",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_3ac30b4e3160787e",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_7b173df5e3f0b797",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_dd4a631420d19510",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_6ab1a546945ea8a5",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_7a4e052848e9ed49",
+      "error": "unpaywall_repo:HTTP404"
+    },
+    {
+      "work_id": "work_13fda9927df18461",
+      "error": "s2_oa:html"
+    },
+    {
+      "work_id": "work_bebd197ae07871b0",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_b866698ca919a87c",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_6cd7e5cb19e5195e",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_d8903c75ab0f5c33",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_2e8cffa3e3b6ba52",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_06e3942d0f902996",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_58b0ab7aaaf040d3",
+      "error": "unpaywall_repo:not_pdf"
+    },
+    {
+      "work_id": "work_e7676ec5b393ef86",
+      "error": "no_candidates"
+    },
+    {
+      "work_id": "work_eb960daf190dabc6",
+      "error": "unpaywall:HTTP403"
+    },
+    {
+      "work_id": "work_7a7ede8e181b212c",
+      "error": "unpaywall:HTTP302"
+    }
+  ],
+  "n_repaired": 3,
+  "n_restored": 4,
+  "n_already_ok": 15,
+  "n_failed": 95,
+  "n_verified_replaced": 19,
+  "n_unreplaced": 98,
+  "false_restores_requarantined": [
+    "work_3cce75d511ef6842",
+    "work_eb8b627996721a7c",
+    "work_a5aafa50c460274e"
+  ],
+  "note": "19 verified replacements in files/; 98 quarantined and cataloged as paywall. Cards rewritten for all 117."
+}

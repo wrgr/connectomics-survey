@@ -2,9 +2,15 @@
 
 One collection. Multiple views. Export this directory into NeuroTrailblazers so `/content-library/journal-papers/` and `/technical-training/journal-club/` stop being two corpora.
 
-**First export = visible core only (1,074 papers).** Do not copy the 1,806 catalog or the 1,488 working set. The 1,142 figure was the pre-split SOTA+history union; it is not this drop.
+**First export = visible core only (1,074 papers).** Methods: `METHODOLOGY.md`. Do not copy the 1,806 catalog or the 1,488 working set.
 
-Rebuild:
+Related-neighbor refresh (does not wipe cards):
+
+```bash
+python analysis/build_ntb_visible_core.py --related-only
+```
+
+Full collection rebuild **wipes pedagogical text** — do not run after summaries exist:
 
 ```bash
 python analysis/build_ntb_visible_core.py
@@ -12,7 +18,7 @@ python analysis/build_ntb_visible_core.py
 
 | File | Role |
 |---|---|
-| `METHODOLOGY.md` | Audience-facing note (site copy) |
+| `METHODOLOGY.md` | Methods spec / audit note (inclusion, graph, PDFs, cards, rebuild traps) |
 | `meta.json` | Counts, rules, coverage |
 | `collection.json` | Full core records (uuid, PDF, graph, streams, OCAR, related) |
 | `collection.jsonl` | Same, one paper per line |

@@ -6,6 +6,8 @@ source_artifact/neurotrailblazers_visible_core/summaries/pdf/.
 """
 from __future__ import annotations
 
+import argparse
+import csv
 import json
 import re
 import subprocess
@@ -16,12 +18,9 @@ ROOT = Path(__file__).resolve().parents[1]
 PDF_DIR = ROOT / "postanalysis/pdfs/files"
 SUM_IN = ROOT / "source_artifact/neurotrailblazers_visible_core/summaries"
 OUT_DIR = SUM_IN / "pdf"
+CATALOG = ROOT / "postanalysis/pdfs/paper_links.csv"
 PAPERS_PER_SHARD = 30
 TEXT_CAP = 12_000
-# PDFs on disk that are known not to match the catalog row.
-PDF_MISMATCH = {
-    "work_de90f3f542a40fe0",  # Baker 2019; file is Keijser & Sadeh 2026
-}
 
 REF_RE = re.compile(
     r"\n\s*(References|Bibliography|Literature Cited|Works Cited|"
@@ -75,9 +74,20 @@ def load_abstract_inputs() -> list[dict]:
     return rows
 
 
-def enrich(row: dict) -> dict:
+def downloaded_work_ids() -> set[str]:
+    if not CATALOG.exists():
+        return set()
+    return {
+        r["work_id"]
+        for r in csv.DictReader(CATALOG.open())
+        if r.get("pdf_status") == "downloaded"
+    }
+
+
+def enrich(row: dict, downloaded: set[str]) -> dict:
     stem = Path(row.get("pdf_local") or "").name
     pdf_path = PDF_DIR / stem if stem else None
+    trusted = row["work_id"] in downloaded and bool(pdf_path and pdf_path.exists())
     rec = {
         "work_id": row["work_id"],
         "uuid": row["uuid"],
@@ -94,7 +104,7 @@ def enrich(row: dict) -> dict:
         "k_core": row.get("k_core"),
         "cites": row.get("cites"),
         "pdf_url": row.get("pdf_url"),
-        "pdf_local": row.get("pdf_local"),
+        "pdf_local": row.get("pdf_local") if trusted else "",
         "landing_url": row.get("landing_url"),
         "stages": row.get("stages") or [],
         "datasets": row.get("datasets") or [],
@@ -102,11 +112,11 @@ def enrich(row: dict) -> dict:
         "method": row.get("method") or [],
         "axis": row.get("axis"),
         "abstract": row.get("abstract") or "",
-        "pdf_trust": "mismatch" if row["work_id"] in PDF_MISMATCH else "ok",
+        "pdf_trust": "ok" if trusted else "mismatch",
         "pdf_chars_body": 0,
         "pdf_text": "",
     }
-    if rec["pdf_trust"] == "mismatch" or not pdf_path or not pdf_path.exists():
+    if not trusted:
         rec["pdf_text"] = rec["abstract"]
         return rec
     raw = pdftotext(pdf_path)
@@ -118,21 +128,32 @@ def enrich(row: dict) -> dict:
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--work-ids-file", type=Path)
+    ap.add_argument("--out-dir", type=Path)
+    ap.add_argument("--papers-per-shard", type=int, default=PAPERS_PER_SHARD)
+    args = ap.parse_args()
     rows = load_abstract_inputs()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for old in OUT_DIR.glob("input_shard_*.jsonl"):
+    if args.work_ids_file:
+        wanted = {ln.strip() for ln in args.work_ids_file.read_text().splitlines() if ln.strip()}
+        rows = [r for r in rows if r["work_id"] in wanted]
+    out_dir = args.out_dir or OUT_DIR
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for old in out_dir.glob("input_shard_*.jsonl"):
         old.unlink()
+    downloaded = downloaded_work_ids()
     enriched = [None] * len(rows)
     with ThreadPoolExecutor(max_workers=8) as pool:
-        futs = {pool.submit(enrich, row): i for i, row in enumerate(rows)}
+        futs = {pool.submit(enrich, row, downloaded): i for i, row in enumerate(rows)}
         for fut in as_completed(futs):
             enriched[futs[fut]] = fut.result()
     n_mismatch = sum(1 for r in enriched if r["pdf_trust"] != "ok")
     n_short = sum(1 for r in enriched if len(r["pdf_text"]) < 1000)
+    per = args.papers_per_shard
     shard_i = 0
-    for start in range(0, len(enriched), PAPERS_PER_SHARD):
-        chunk = enriched[start : start + PAPERS_PER_SHARD]
-        path = OUT_DIR / f"input_shard_{shard_i:02d}.jsonl"
+    for start in range(0, len(enriched), per):
+        chunk = enriched[start : start + per]
+        path = out_dir / f"input_shard_{shard_i:02d}.jsonl"
         with path.open("w", encoding="utf-8") as f:
             for rec in chunk:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
@@ -143,13 +164,13 @@ def main() -> None:
         "shards",
         shard_i,
         "per_shard",
-        PAPERS_PER_SHARD,
+        per,
         "pdf_trust_not_ok",
         n_mismatch,
         "text<1k",
         n_short,
         "median_selected",
-        sorted(len(r["pdf_text"]) for r in enriched)[len(enriched) // 2],
+        sorted(len(r["pdf_text"]) for r in enriched)[len(enriched) // 2] if enriched else 0,
     )
 
 

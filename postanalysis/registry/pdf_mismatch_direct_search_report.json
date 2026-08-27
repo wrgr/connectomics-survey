@@ -1,0 +1,8 @@
+{
+  "n_tried": 98,
+  "n_article_pdf_downloaded": 0,
+  "n_false_supplement_dropped": 3,
+  "n_paywall_confirmed": 27,
+  "n_parser_miss": 71,
+  "note": "Crossref often returns article PDF URLs; urllib gets 403 or publisher HTML. HTML parser followed Springer ESM supplements (same title/DOI) \u2014 those were discarded. 403s logged as paywall followup; HTML landings remain parser/bot-wall misses."
+}
