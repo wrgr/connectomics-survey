@@ -1,0 +1,45 @@
+{
+  "id": "reading_paths",
+  "title": "Suggested reading paths",
+  "description": "Editorial sequences from the journal-club page, resolved onto core uuids. Not inclusion criteria.",
+  "kind": "group",
+  "groups": [
+    {
+      "key": "historical_arc",
+      "label": "Historical arc",
+      "description": "White 1986 → Denk & Horstmann 2004 → Briggman & Bock 2012 → Kasthuri 2015 → Zheng 2018 → Dorkenwald 2024",
+      "n": 6,
+      "uuids": [
+        "10.1098/rstb.1986.0056",
+        "10.1371/journal.pbio.0020329",
+        "10.1016/j.conb.2011.10.022",
+        "10.1016/j.cell.2015.06.054",
+        "10.1016/j.cell.2018.06.019",
+        "10.1038/s41586-024-07558-y"
+      ]
+    },
+    {
+      "key": "methods_deep_dive",
+      "label": "Methods deep dive",
+      "description": "Imaging: Xu 2017 → Yin 2020. Segmentation: Januszewski 2018. Proofreading: Plaza 2014 → Dorkenwald 2022 FlyWire. Turaga 2010 and Sheridan 2023 are not in this catalog.",
+      "n": 5,
+      "uuids": [
+        "10.7554/elife.25916",
+        "10.1038/s41467-020-18659-3",
+        "10.1038/s41592-018-0049-4",
+        "work_eccb631270c7418f",
+        "10.1038/s41592-021-01330-0"
+      ]
+    },
+    {
+      "key": "analysis_interpretation",
+      "label": "Analysis and interpretation",
+      "description": "Winding 2023 → Lappalainen 2024. Bullmore & Sporns 2009 and Rubinov & Sporns 2010 are not in this catalog (macroscale network-science classics).",
+      "n": 2,
+      "uuids": [
+        "10.1126/science.add9330",
+        "10.1038/s41586-024-07939-3"
+      ]
+    }
+  ]
+}

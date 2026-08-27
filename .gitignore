@@ -36,3 +36,5 @@ postanalysis/llm_agent_v3/llm_relevance_results_bootstrap.csv
 # .github/workflows/postanalysis-semantic-prep.yml. Other source_artifact outputs stay.
 source_artifact/**/papers_all.csv
 source_artifact/**/retrieval_log.jsonl
+# Regenerable duplicate of collection.json
+source_artifact/neurotrailblazers_visible_core/collection.jsonl

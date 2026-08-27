@@ -1,0 +1,56 @@
+{
+  "collection": "visible_core",
+  "n": 1074,
+  "views": [
+    {
+      "id": "kcore",
+      "title": "Highest k-core",
+      "kind": "rank"
+    },
+    {
+      "id": "era",
+      "title": "Era",
+      "kind": "group"
+    },
+    {
+      "id": "pipeline_stage",
+      "title": "Pipeline stage",
+      "kind": "group"
+    },
+    {
+      "id": "organism",
+      "title": "Organism",
+      "kind": "group"
+    },
+    {
+      "id": "dataset",
+      "title": "Dataset",
+      "kind": "group"
+    },
+    {
+      "id": "method",
+      "title": "Method",
+      "kind": "group"
+    },
+    {
+      "id": "axis",
+      "title": "Charting axis",
+      "kind": "group"
+    },
+    {
+      "id": "year",
+      "title": "Year",
+      "kind": "group"
+    },
+    {
+      "id": "dimension",
+      "title": "Journal-club dimension",
+      "kind": "group"
+    },
+    {
+      "id": "reading_paths",
+      "title": "Suggested reading paths",
+      "kind": "group"
+    }
+  ]
+}

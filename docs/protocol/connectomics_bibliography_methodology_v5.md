@@ -51,7 +51,7 @@ One form per included work, drafted by the agent and human-verified on the relia
 - identifiers (DOI/PMID/arXiv; database IDs) · work type · year · venue · open-access status
 - organism/region · **dataset(s) from the registry** (produced / method-developed-on / analyzed / hosted-served / none)
 - **pipeline stage(s)** (the stereotyped flow, §Why-v5) · era (pre-2005 / 2005–2015 / 2015–present)
-- **axis coverage rule:** every charted work maps to at least one of — a pipeline stage, a registry dataset, a bridge field (§1), a *biological application / circuit biology* axis, or a *conceptual foundations / field synthesis* axis (the latter two per §17's stratum list; an exploration dry-run showed they absorb ~78% of works no stage/dataset keyword catches). A work that charts to nothing triggers per-work adjudication — it is evidence of either a screening error or a missing axis, and is never silently retained or dropped.
+- **axis coverage rule:** every charted work maps to at least one of — a pipeline stage, a registry dataset, a bridge field (§1), a *biological application / circuit biology* axis, a *conceptual foundations / field synthesis* axis, *training / outreach*, or *health translation* (the biology and synthesis axes per §17's stratum list; an exploration dry-run showed they absorb ~78% of works no stage/dataset keyword catches). A work that charts to nothing triggers per-work adjudication — it is evidence of either a screening error or a missing axis, and is never silently retained or dropped.
 - adjacent-work citing link where applicable (§2) · discovery route(s) with dates · screening decision + rationale · contested flag
 - author identifiers where retrieved (ORCID/OpenAlex; consortium authorship never interpreted from memory)
 
